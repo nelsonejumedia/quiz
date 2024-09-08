@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const quizzes = [
         {
-            category: 'Science & Nature',
+            category: 'Anatomy of the Upper and Lower Limb',
             questions: [
                 {
                     question: 'Which space agency has decided to carry out its first all-female spacewalk at the International Space Station (ISS)?',
