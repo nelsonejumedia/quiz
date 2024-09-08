@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="home-screen">
+            <div class="header animate-fade-in">
+                <h1>Quiz App</h1>
+                <i data-lucide="bell"></i>
+            </div>
+            <div class="score-container animate-slide-up">
+                <div class="score-box">
+                    <p>Correct Score</p>
+                    <h2>230</h2>
+                </div>
+                <div class="score-box">
+                    <p>Total Score</p>
+                    <h2>1250</h2>
+                </div>
+            </div>
+            <div class="category-list animate-stagger-in">
+                <button class="category-btn" data-category="Art and Literature">
+                    <span class="category-icon">🖋️</span>
+                    <span>Art and Literature</span>
+                </button>
+                <button class="category-btn" data-category="General Knowledge">
+                    <span class="category-icon">🧠</span>
+                    <span>General Knowledge</span>
+                </button>
+                <button class="category-btn" data-category="Science & Nature">
+                    <span class="category-icon">🧪</span>
+                    <span>Science & Nature</span>
+                </button>
+                <button class="category-btn" data-category="Technology">
+                    <span class="category-icon">💻</span>
+                    <span>Technology</span>
+                </button>
+            </div>
+            <button id="upgrade-btn" class="animate-pulse">UPGRADE</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div class="header animate-fade-in">
+                <div class="back-btn">
+                    <i data-lucide="chevron-left"></i>
+                    <h2 id="quiz-category"></h2>
+                </div>
+                <i data-lucide="x" class="close-btn"></i>
+            </div>
+            <div class="quiz-info animate-slide-up">
+                <p id="question-number"></p>
+                <p id="timer">03:00 min</p>
+            </div>
+            <p id="question-text" class="animate-fade-in"></p>
+            <div id="answer-options" class="animate-stagger-in"></div>
+            <button id="submit-btn" class="animate-pulse">SUBMIT</button>
+        </div>
+
+        <div id="results-screen" class="hidden">
+            <i data-lucide="x" class="close-btn animate-fade-in"></i>
+            <div class="results-box animate-scale-in">
+                <div class="trophy">🏆</div>
+                <h2>Congrats!</h2>
+                <h3 id="score-percentage"></h3>
+                <p>Quiz completed successfully.</p>
+                <p id="score-details"></p>
+            </div>
+            <p class="animate-fade-in">Share with us</p>
+            <div class="share-buttons animate-stagger-in">
+                <div class="share-btn facebook"></div>
+                <div class="share-btn twitter"></div>
+                <div class="share-btn instagram"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
