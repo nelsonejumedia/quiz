@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Example</title>
+</head>
+<body>
+    <div id="quiz">
+        <!-- Question and options will be inserted here by JavaScript -->
+    </div>
+
+    <audio id="correct-sound" src="chime.mp3"></audio>
+    <audio id="incorrect-sound" src="buzzer.mp3"></audio>
+
+    <script>
+        const quizData = {
+            category: 'Muscle Physiology',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        };
+
+        function playSound(isCorrect) {
+            const correctSound = document.getElementById('correct-sound');
+            const incorrectSound = document.getElementById('incorrect-sound');
+            if (isCorrect) {
+                correctSound.play();
+            } else {
+                incorrectSound.play();
+            }
+        }
+
+        function renderQuiz() {
+            const quizContainer = document.getElementById('quiz');
+            quizData.questions.forEach((q, index) => {
+                const questionElement = document.createElement('div');
+                questionElement.innerHTML = `
+                    <h2>${q.question}</h2>
+                    ${q.options.map(option => `
+                        <button onclick="checkAnswer('${q.correctAnswer}', '${option}')">${option}</button>
+                    `).join('')}
+                `;
+                quizContainer.appendChild(questionElement);
+            });
+        }
+
+        function checkAnswer(correctAnswer, selectedOption) {
+            const isCorrect = correctAnswer === selectedOption;
+            playSound(isCorrect);
+        }
+
+        renderQuiz();
+    </script>
+</body>
+</html>
