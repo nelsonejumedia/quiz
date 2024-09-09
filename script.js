@@ -1654,7 +1654,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Lower limbs Clinical Cases. 
 
 {
-            category: 'Lower Limbs',
+            category: 'Lower Limbs: Clinical Cases',
             questions: [            
 
 {
