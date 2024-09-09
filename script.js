@@ -22,48 +22,134 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const quizzes = [
         {
-            category: 'Anatomy of the Upper and Lower Limb',
+            category: 'Upper Limb & Lower Limb',
             questions: [
-                {
-                    question: 'Which space agency has decided to carry out its first all-female spacewalk at the International Space Station (ISS)?',
-                    options: ['Roscosmos', 'NASA', 'ISRO', 'JAXA'],
-                    correctAnswer: 'NASA'
-                },
-                {
-                    question: 'What is the chemical symbol for gold?',
-                    options: ['Au', 'Ag', 'Fe', 'Cu'],
-                    correctAnswer: 'Au'
-                },
                 {
                     question: 'Which planet is known as the Red Planet?',
                     options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
                     correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        },
+
+        {
+            category: 'Thorax',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        },
+
+        {
+            category: 'Histology',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
                 }
             ]
         },
 
 
         {
-            category: 'Technology',
+            category: 'Embryology',
             questions: [
                 {
-                    question: 'HTML',
-                    options: ['Roscosmos', 'NASA', 'ISRO', 'HyperText Markup Language'],
-                    correctAnswer: 'HyperText Markup Language'
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
                 },
                 {
-                    question: 'CSS',
-                    options: ['Au', 'Ag', 'Cascading Style Sheet', 'Cu'],
-                    correctAnswer: 'Cascading Style Sheet'
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
                 },
                 {
-                    question: 'JS',
-                    options: ['JavaScript', 'Mars', 'Jupiter', 'Saturn'],
-                    correctAnswer: 'JavaScript'
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
                 }
             ]
         },
-        // Add more quizzes for other categories here
+
+
+        {
+            category: 'The Cell',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        },
+
+
+        {
+            category: 'Muscle Physiology',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        },
+        // Add more categories here
     ];
 
     function showScreen(screen) {
@@ -71,10 +157,21 @@ document.addEventListener('DOMContentLoaded', () => {
         quizScreen.classList.add('hidden');
         resultsScreen.classList.add('hidden');
         screen.classList.remove('hidden');
+
+        // Reset animations
+        screen.querySelectorAll('.animate-fade-in, .animate-slide-up, .animate-scale-in, .animate-stagger-in > *').forEach(el => {
+            el.style.animation = 'none';
+            el.offsetHeight; // Trigger reflow
+            el.style.animation = null;
+        });
     }
 
     function startQuiz(category) {
         currentQuiz = quizzes.find(quiz => quiz.category === category);
+        if (!currentQuiz) {
+            console.error('Quiz not found for the selected category');
+            return;
+        }
         currentQuestionIndex = 0;
         score = 0;
         showScreen(quizScreen);
@@ -85,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayQuestion() {
         const question = currentQuiz.questions[currentQuestionIndex];
-        questionNumber.textContent = `Quiz : ${currentQuestionIndex + 1}`;
+        questionNumber.textContent = `Question: ${currentQuestionIndex + 1}/${currentQuiz.questions.length}`;
         questionText.textContent = question.question;
         answerOptions.innerHTML = '';
 
@@ -109,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function startTimer() {
-        let timeLeft = 180; // 3 minutes
+        let timeLeft = 10; // 3 minutes
         const timerElement = document.getElementById('timer');
 
         clearInterval(timer);
@@ -149,9 +246,41 @@ document.addEventListener('DOMContentLoaded', () => {
         showScreen(resultsScreen);
         const percentage = (score / currentQuiz.questions.length) * 100;
         scorePercentage.textContent = `${percentage.toFixed(0)}% Score`;
-        scoreDetails.textContent = `You attempted ${currentQuiz.questions.length} questions and from that ${score} answer${score !== 1 ? 's are' : ' is'} correct.`;
+        
+        let message = '';
+        let trophyEmoji = '';
+    
+        if (percentage < 40) {
+            message = "Keep practicing! You'll improve with time.";
+            trophyEmoji = '😢';
+        } else if (percentage >= 40 && percentage < 50) {
+            message = "You're on the right track. A bit more study and you'll nail it!";
+            trophyEmoji = '🙂';
+        } else if (percentage >= 50 && percentage < 60) {
+            message = "Good effort! You're making progress.";
+            trophyEmoji = '👍';
+        } else if (percentage >= 60 && percentage < 70) {
+            message = "Well done! You're above average.";
+            trophyEmoji = '😊';
+        } else if (percentage >= 70 && percentage < 90) {
+            message = "Great job! You've got a solid understanding.";
+            trophyEmoji = '🎉';
+        } else {
+            message = "Outstanding! You've mastered this topic!";
+            trophyEmoji = '🏆';
+        }
+    
+        const resultsBox = document.querySelector('.results-box');
+        resultsBox.innerHTML = `
+            <div class="trophy">${trophyEmoji}</div>
+            <h2>Quiz Completed!</h2>
+            <h3>${percentage.toFixed(0)}% Score</h3>
+            <p>${message}</p>
+            <p>You attempted ${currentQuiz.questions.length} questions and got ${score} correct.</p>
+        `;
     }
 
+    
     categoryButtons.forEach(button => {
         button.addEventListener('click', () => {
             const category = button.getAttribute('data-category');
