@@ -22,6 +22,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+    function playSound(isCorrect) {
+        const correctSound = document.getElementById('correct-sound');
+        const incorrectSound = document.getElementById('incorrect-sound');
+        if (isCorrect) {
+            correctSound.play();
+        } else {
+            incorrectSound.play();
+        }
+    }
+
+    function checkAnswer(correctAnswer, selectedOption) {
+        const isCorrect = correctAnswer === selectedOption;
+        playSound(isCorrect);
+    }
+
 
 
 
@@ -1306,6 +1321,7 @@ document.addEventListener('DOMContentLoaded', () => {
             timeLeft--;
         }, 1000);
     }
+
 
     function submitAnswer() {
         clearInterval(timer);
