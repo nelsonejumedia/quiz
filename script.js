@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
         timer = setInterval(() => {
             const minutes = Math.floor(timeLeft / 60);
             const seconds = timeLeft % 60;
-            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} min`;
+            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} sec`;
             
             if (timeLeft === 0) {
                 clearInterval(timer);
