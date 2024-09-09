@@ -1290,7 +1290,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function startTimer() {
-        let timeLeft = 10; // 3 minutes
+        let timeLeft = 30; // 3 minutes
         const timerElement = document.getElementById('timer');
 
         clearInterval(timer);
