@@ -1655,13 +1655,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
             category: 'Lower Limbs',
-            questions: [
-                
-{
-    question: 'A 30-year-old male suffered a superior gluteal nerve injury in a motorcycle crash, leading to a waddling gait and a positive Trendelenburg sign. Which of the following is the most likely finding?',
-    options: ['Difficulty in standing from a sitting position', 'The left side of the pelvis droops when weight is supported by the right limb', 'The right side of the pelvis droops when weight is supported by the left limb', 'Weakened flexion of the right hip', 'Difficulty in sitting from a standing position'],
-    correctAnswer: 'The left side of the pelvis droops when weight is supported by the right limb'
-},
+            questions: [            
+
 {
     question: 'A 45-year-old male presents with fractures of both the tibia and fibula, and foot drop with normal eversion. Which nerve is most likely injured?',
     options: ['Tibial', 'Common fibular (peroneal)', 'Superficial fibular (peroneal)', 'Saphenous', 'Deep fibular (peroneal)'],
@@ -1919,6 +1914,13 @@ document.addEventListener('DOMContentLoaded', () => {
     question: 'A 29-year-old woman develops pain in her lower limb and is diagnosed with piriformis syndrome. Which nerve is most likely compressed?',
     options: ['Femoral', 'Sciatic', 'Tibial', 'Obturator', 'Sural'],
     correctAnswer: 'Sciatic'
+},
+
+
+{
+    question: 'A 30-year-old male suffered a superior gluteal nerve injury in a motorcycle crash, leading to a waddling gait and a positive Trendelenburg sign. Which of the following is the most likely finding?',
+    options: ['Difficulty in standing from a sitting position', 'The left side of the pelvis droops when weight is supported by the right limb', 'The right side of the pelvis droops when weight is supported by the left limb', 'Weakened flexion of the right hip', 'Difficulty in sitting from a standing position'],
+    correctAnswer: 'The left side of the pelvis droops when weight is supported by the right limb'
 },
 
 
