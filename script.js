@@ -272,11 +272,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 correctAnswer: 'Deep branch of ulnar nerve'
             },
 
+{
+                question: 'Which of the following is hyaline cartilage?',
+                options: ['Pinna of ear', 'Epiglottis cartilage', 'Thyroid cartilage', 'Apex of the arytenoid cartilage'],
+                correctAnswer: 'Thyroid cartilage'
+            },
+
+
+{
+                question: 'All of the following are piercing clavipectoral fascia except',
+                options: ['Cephalic vein', 'Lateral pectoral nerve', 'Medial pectoral nerve', 'Thoracoacromial vessels'],
+                correctAnswer: 'Medial pectoral nerve'
+            },
+
 
         ]
     },
 
 
+
+
+
+ 
+
+
+
+// Lower limbs begin
+
+{
+            category: 'Lower Limbs',
+            questions: [
+                {
+                    question: 'Which planet is known as the Red Planet?',
+                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
+                    correctAnswer: 'Mars'
+                },
+                {
+                    question: 'What is the chemical symbol for water?',
+                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
+                    correctAnswer: 'H2O'
+                },
+                {
+                    question: 'What is the powerhouse of the cell?',
+                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
+                    correctAnswer: 'Mitochondria'
+                }
+            ]
+        },
 
 
  
