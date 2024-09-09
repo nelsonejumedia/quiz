@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const quizzes = [
     {
-        category: 'Upper Limb & Lower Limb',
+        category: 'Upper Limbs',
         questions: [
             {
                 question: 'Damage to the upper trunk of brachial plexus leads to:',
