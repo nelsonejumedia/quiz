@@ -190,6 +190,89 @@ document.addEventListener('DOMContentLoaded', () => {
                 options: ['Flexion at elbow joint', 'Flexion at distal interphalangeal joint', 'Pronation of forearm', 'Flexion at first carpometacarpal joint'],
                 correctAnswer: 'Flexion at distal interphalangeal joint'
             },
+
+{
+                question: 'All are branches of the third part of the axillary artery except:',
+                options: ['Subscapular artery', 'Posterior circumflex humeral artery', 'Thoracoacromial artery', 'Anterior circumflex humeral artery'],
+                correctAnswer: 'Thoracoacromial artery'
+            },
+            {
+                question: 'Brachioradialis is an example of:',
+                options: ['Shunt muscle', 'Spin muscle', 'Spurt muscle', 'None of the above'],
+                correctAnswer: 'Shunt muscle'
+            },
+            {
+                question: 'All are examples of voluntary skeletal muscles except:',
+                options: ['Genioglossus', 'Masseter', 'Inferior constrictor of pharynx', 'Mylohyoid'],
+                correctAnswer: 'Inferior constrictor of pharynx'
+            },
+            {
+                question: 'Line of weight transmission from the upper limb passes through:',
+                options: ['Coracohumeral ligament', 'Annular ligament', 'Transverse humeral ligament', 'Coracoclavicular ligament'],
+                correctAnswer: 'Coracoclavicular ligament'
+            },
+            {
+                question: 'The content of Quadrangular space includes:',
+                options: ['Radial nerve', 'Axillary nerve', 'Profunda brachii artery', 'Circumflex scapular artery'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'All is true of carpal tunnel syndrome except:',
+                options: ['Paresthesia of radial 3 ½ fingers', 'Loss of sensation from radial aspect of palm', 'Paralysis of opponens pollicis', 'Ape thumb deformity'],
+                correctAnswer: 'Loss of sensation from radial aspect of palm'
+            },
+            {
+                question: 'Action of Palmer interossei:',
+                options: ['Abduction of fingers', 'Extension of Metacarpophalangeal joint', 'Adduction of fingers', 'Flexion at Interphalangeal joint'],
+                correctAnswer: 'Adduction of fingers'
+            },
+            {
+                question: 'Which of the following is the nerve supply of 1st & 2nd Lumbricals?',
+                options: ['Median nerve', 'Radial nerve', 'Superficial branch of ulnar nerve', 'Deep branch of ulnar nerve'],
+                correctAnswer: 'Deep branch of ulnar nerve'
+            },
+            {
+                question: 'All are causes of Erb’s palsy except:',
+                options: ['Undue separation between trunk & upper arm', 'Undue separation between neck & shoulder', 'Birth injury', 'Anaesthetic block in neck'],
+                correctAnswer: 'Undue separation between trunk & upper arm'
+            },
+            {
+                question: 'Following are branches of posterior cord except:',
+                options: ['Axillary nerve', 'Long thoracic nerve', 'Thoracodorsal nerve', 'Subscapular nerves'],
+                correctAnswer: 'Long thoracic nerve'
+            },
+            {
+                question: 'Which of the following forms parenchyma of breast?',
+                options: ['Lactiferous ducts', 'Fat', 'Ligament of Cooper', 'Areola'],
+                correctAnswer: 'Lactiferous ducts'
+            },
+            {
+                question: 'All of the following need to be examined in a patient with carcinoma of breast except:',
+                options: ['Opposite breast', 'Shoulder joint', 'Axilla', 'Neck'],
+                correctAnswer: 'Shoulder joint'
+            },
+            {
+                question: 'All are supplied by the median nerve in the forearm except:',
+                options: ['Pronator Teres', 'Medial half of Flexor digitorum profundus', 'Palmaris longus', 'Lateral half of Flexor digitorum profundus'],
+                correctAnswer: 'Medial half of Flexor digitorum profundus'
+            },
+            {
+                question: 'Actual arterioarterial anastomosis is:',
+                options: ['Anastomosis around elbow joint', 'Malleolar anastomosis', 'Circle of Willis', 'Trochanteric anastomosis'],
+                correctAnswer: 'Circle of Willis'
+            },
+            {
+                question: 'All are muscular arteries except:',
+                options: ['Radial artery', 'Deep peroneal artery', 'Superficial temporal artery', 'Aorta'],
+                correctAnswer: 'Aorta'
+            },
+            {
+                question: 'Which of the following is the nerve supply of adductor pollicis?',
+                options: ['Median nerve', 'Radial nerve', 'Superficial branch of ulnar nerve', 'Deep branch of ulnar nerve'],
+                correctAnswer: 'Deep branch of ulnar nerve'
+            },
+
+
         ]
     },
 
