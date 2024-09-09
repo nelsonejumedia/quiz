@@ -1112,28 +1112,285 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Lower limbs begin
+// Lower limbs Clinical Cases. 
 
 {
             category: 'Lower Limbs',
             questions: [
-                {
-                    question: 'Which planet is known as the Red Planet?',
-                    options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
-                    correctAnswer: 'Mars'
-                },
-                {
-                    question: 'What is the chemical symbol for water?',
-                    options: ['Wa', 'H2O', 'Ho', 'Hy'],
-                    correctAnswer: 'H2O'
-                },
-                {
-                    question: 'What is the powerhouse of the cell?',
-                    options: ['Nucleus', 'Mitochondria', 'Endoplasmic Reticulum', 'Golgi Apparatus'],
-                    correctAnswer: 'Mitochondria'
-                }
+                
+{
+    question: 'A 30-year-old male suffered a superior gluteal nerve injury in a motorcycle crash, leading to a waddling gait and a positive Trendelenburg sign. Which of the following is the most likely finding?',
+    options: ['Difficulty in standing from a sitting position', 'The left side of the pelvis droops when weight is supported by the right limb', 'The right side of the pelvis droops when weight is supported by the left limb', 'Weakened flexion of the right hip', 'Difficulty in sitting from a standing position'],
+    correctAnswer: 'The left side of the pelvis droops when weight is supported by the right limb'
+},
+{
+    question: 'A 45-year-old male presents with fractures of both the tibia and fibula, and foot drop with normal eversion. Which nerve is most likely injured?',
+    options: ['Tibial', 'Common fibular (peroneal)', 'Superficial fibular (peroneal)', 'Saphenous', 'Deep fibular (peroneal)'],
+    correctAnswer: 'Common fibular (peroneal)'
+},
+{
+    question: 'A 75-year-old man presents with knee pain and osteoarthritis, and his knees are bowed outward. Which term best describes the condition?',
+    options: ['Genu varus', 'Genu valgus', 'Coxa varus', 'Coxa valgus', 'Hallux valgus'],
+    correctAnswer: 'Genu varus'
+},
+{
+    question: 'The patellar reflex is reduced in a 33-year-old diabetic patient. Which muscle’s tendon is stretched during the patellar reflex?',
+    options: ['Quadriceps femoris', 'Quadratus femoris', 'Sartorius', 'Pectineus', 'Biceps femoris'],
+    correctAnswer: 'Quadriceps femoris'
+},
+
+
+{
+    question: 'A 31-year-old female presents with Bell’s palsy and undergoes a nerve graft procedure. Post-surgery, there is no sensation on the lateral side of her foot. What nerve was used for the graft?',
+    options: ['Superficial fibular (peroneal)', 'Tibial', 'Common fibular (peroneal)', 'Sural', 'Saphenous'],
+    correctAnswer: 'Sural'
+},
+{
+    question: 'A 45-year-old male suffers from foot drop with normal eversion after a tibia and fibula fracture. Which nerve is most likely injured?',
+    options: ['Tibial', 'Common fibular (peroneal)', 'Superficial fibular (peroneal)', 'Saphenous', 'Deep fibular (peroneal)'],
+    correctAnswer: 'Common fibular (peroneal)'
+},
+{
+    question: 'A 75-year-old man has bowed knees due to osteoarthritis. What is the term for this condition?',
+    options: ['Genu varus', 'Genu valgus', 'Coxa varus', 'Coxa valgus', 'Hallux valgus'],
+    correctAnswer: 'Genu varus'
+},
+{
+    question: 'Which muscle is tested during the patellar reflex?',
+    options: ['Quadriceps femoris', 'Quadratus femoris', 'Sartorius', 'Pectineus', 'Biceps femoris'],
+    correctAnswer: 'Quadriceps femoris'
+},
+{
+    question: 'A 10-year-old girl is diagnosed with Osgood-Schlatter disease. Which bone structure is affected?',
+    options: ['Medial condyle of tibia', 'Posterior intercondylar area', 'Intercondylar eminence', 'Tibial tuberosity', 'Anterolateral tibial tubercle (Gerdy’s tubercle)'],
+    correctAnswer: 'Tibial tuberosity'
+},
+{
+    question: 'A 55-year-old woman with foot drop experiences numbness between the first and second toes. What nerve is injured?',
+    options: ['Common fibular (peroneal)', 'Deep fibular (peroneal)', 'Sural', 'Tibial', 'Superficial fibular (peroneal)'],
+    correctAnswer: 'Deep fibular (peroneal)'
+},
+{
+    question: 'A 49-year-old man suffers from pain due to compression of the tibial nerve in the popliteal fossa. Which movement is affected?',
+    options: ['Dorsiflexion of the foot', 'Flexion of the thigh', 'Extension of the digits', 'Extension of the leg', 'Plantar flexion of the foot'],
+    correctAnswer: 'Plantar flexion of the foot'
+},
+{
+    question: 'A 19-year-old football player tears his medial collateral ligament. Which structure is most likely also injured?',
+    options: ['Medial meniscus', 'Anterior cruciate ligament', 'Lateral meniscus', 'Posterior cruciate ligament', 'Tendon of the semitendinosus'],
+    correctAnswer: 'Medial meniscus'
+},
+{
+    question: 'A patient experiences a positive Trendelenburg sign. Which nerve is injured?',
+    options: ['Femoral nerve', 'Sciatic nerve', 'Superior gluteal nerve', 'Obturator nerve', 'Inferior gluteal nerve'],
+    correctAnswer: 'Superior gluteal nerve'
+},
+{
+    question: 'A man is diagnosed with piriformis syndrome, compressing which nerve?',
+    options: ['Tibial nerve', 'Sciatic nerve', 'Common fibular (peroneal)', 'Femoral nerve', 'Obturator nerve'],
+    correctAnswer: 'Sciatic nerve'
+},
+{
+    question: 'A woman with gonorrheal arthritis undergoes knee aspiration. The needle passes through which muscle?',
+    options: ['Adductor magnus', 'Short head of biceps femoris', 'Rectus femoris', 'Sartorius', 'Vastus lateralis'],
+    correctAnswer: 'Vastus lateralis'
+},
+{
+    question: 'A 75-year-old man is diagnosed with avascular necrosis of the femoral head. Which artery is most likely injured?',
+    options: ['Acetabular branch of obturator', 'Deep circumflex iliac', 'Descending branch of lateral circumflex femoral', 'First perforating branch of profunda femoris', 'Ascending branch of medial circumflex femoral'],
+    correctAnswer: 'Ascending branch of medial circumflex femoral'
+},
+{
+    question: 'A 29-year-old male suffers from meralgia paresthetica. Which nerve is affected?',
+    options: ['Superior gluteal', 'Femoral', 'Obturator', 'Lateral femoral cutaneous', 'Tibial'],
+    correctAnswer: 'Lateral femoral cutaneous'
+},
+{
+    question: 'Which nerve is most likely affected in a patient with difficulty rising from a seated position?',
+    options: ['Superior gluteal nerve', 'Inferior gluteal nerve', 'Sciatic nerve', 'Femoral nerve', 'Obturator nerve'],
+    correctAnswer: 'Inferior gluteal nerve'
+},
+{
+    question: 'Injury to which nerve causes foot drop?',
+    options: ['Tibial nerve', 'Common fibular (peroneal) nerve', 'Sciatic nerve', 'Femoral nerve', 'Obturator nerve'],
+    correctAnswer: 'Common fibular (peroneal) nerve'
+},
+{
+    question: 'A 49-year-old man with a torn medial meniscus undergoes surgery. Which artery supplies the head of the femur in childhood but not in adults?',
+    options: ['Superior gluteal', 'Inferior gluteal', 'Internal pudendal', 'Obturator', 'Lateral circumflex femoral'],
+    correctAnswer: 'Obturator'
+},
+
+
+
+{
+    question: 'A 31-year-old female with Bell’s palsy undergoes a nerve graft procedure. Post-surgery, she has no sensation on the lateral side of her foot. Which nerve was likely used for the graft?',
+    options: ['Superficial fibular', 'Tibial', 'Common fibular', 'Sural', 'Saphenous'],
+    correctAnswer: 'Sural'
+},
+{
+    question: 'A 10-year-old girl is diagnosed with Osgood-Schlatter disease. Which bony structure is affected?',
+    options: ['Medial condyle of tibia', 'Posterior intercondylar area', 'Intercondylar eminence', 'Tibial tuberosity', 'Anterolateral tibial tubercle'],
+    correctAnswer: 'Tibial tuberosity'
+},
+{
+    question: 'A patient with osteoarthritis presents with bowing of the knees. What term describes this condition?',
+    options: ['Genu varus', 'Genu valgus', 'Coxa varus', 'Coxa valgus', 'Hallux valgus'],
+    correctAnswer: 'Genu varus'
+},
+{
+    question: 'In the patellar reflex, which muscle is stretched?',
+    options: ['Quadriceps femoris', 'Quadratus femoris', 'Sartorius', 'Pectineus', 'Biceps femoris'],
+    correctAnswer: 'Quadriceps femoris'
+},
+{
+    question: 'A patient with common fibular nerve injury experiences foot drop but has normal eversion. Which nerve is likely injured?',
+    options: ['Tibial', 'Common fibular', 'Superficial fibular', 'Saphenous', 'Deep fibular'],
+    correctAnswer: 'Common fibular'
+},
+{
+    question: 'A man experiences a positive Trendelenburg sign after a motorcycle crash. Which nerve is injured?',
+    options: ['Superior gluteal', 'Inferior gluteal', 'Sciatic', 'Femoral', 'Obturator'],
+    correctAnswer: 'Superior gluteal'
+},
+{
+    question: 'Which nerve is responsible for causing foot drop in a patient?',
+    options: ['Common fibular', 'Tibial', 'Sciatic', 'Femoral', 'Obturator'],
+    correctAnswer: 'Common fibular'
+},
+{
+    question: 'A 34-year-old patient experiences knee locking and pain. Which structure is most likely damaged?',
+    options: ['Anterior cruciate ligament', 'Medial meniscus', 'Lateral meniscus', 'Posterior cruciate ligament', 'Tendon of semitendinosus'],
+    correctAnswer: 'Medial meniscus'
+},
+{
+    question: 'A patient presents with severe hip pain and a positive MRI for avascular necrosis. Which artery is likely injured?',
+    options: ['Acetabular branch of obturator', 'Deep circumflex iliac', 'Ascending branch of medial circumflex femoral', 'First perforating branch of profunda femoris', 'Descending branch of lateral circumflex femoral'],
+    correctAnswer: 'Ascending branch of medial circumflex femoral'
+},
+{
+    question: 'A patient has difficulty unlocking the knee joint to flex the leg. Which muscle is most likely affected?',
+    options: ['Popliteus', 'Biceps femoris', 'Gastrocnemius', 'Semimembranosus', 'Rectus femoris'],
+    correctAnswer: 'Popliteus'
+},
+{
+    question: 'A 55-year-old woman experiences numbness between the first and second toes after injury. Which nerve is affected?',
+    options: ['Deep fibular', 'Common fibular', 'Superficial fibular', 'Sural', 'Tibial'],
+    correctAnswer: 'Deep fibular'
+},
+{
+    question: 'A 45-year-old man presents with a Baker’s cyst in the popliteal fossa, compressing the tibial nerve. Which movement is most affected?',
+    options: ['Plantar flexion', 'Dorsiflexion', 'Extension of the leg', 'Flexion of the thigh', 'Extension of the digits'],
+    correctAnswer: 'Plantar flexion'
+},
+{
+    question: 'A man sustains a Pott’s fracture. What ligament is most likely injured?',
+    options: ['Deltoid ligament', 'Calcaneofibular ligament', 'Spring ligament', 'Plantar ligament', 'Long plantar ligament'],
+    correctAnswer: 'Deltoid ligament'
+},
+{
+    question: 'A 43-year-old man with gonococcal arthritis undergoes a knee aspiration. Which muscle does the needle pass through?',
+    options: ['Vastus lateralis', 'Sartorius', 'Rectus femoris', 'Adductor magnus', 'Short head of biceps femoris'],
+    correctAnswer: 'Vastus lateralis'
+},
+{
+    question: 'A 49-year-old man with a femoral bypass needs regular monitoring. Which artery should be palpated?',
+    options: ['Dorsalis pedis', 'Anterior tibial', 'Deep plantar', 'Posterior tibial', 'Popliteal'],
+    correctAnswer: 'Dorsalis pedis'
+},
+{
+    question: 'A 19-year-old football player is diagnosed with a torn medial collateral ligament. Which structure is most likely also injured?',
+    options: ['Medial meniscus', 'Anterior cruciate ligament', 'Lateral meniscus', 'Posterior cruciate ligament', 'Tendon of semitendinosus'],
+    correctAnswer: 'Medial meniscus'
+},
+
+
+
+{
+    question: 'A 31-year-old female presents with loss of sensation on the lateral side of her foot after a successful facial nerve graft procedure. Which nerve was most likely used for the graft?',
+    options: ['Superficial fibular', 'Tibial', 'Common fibular', 'Sural', 'Saphenous'],
+    correctAnswer: 'Sural'
+},
+{
+    question: 'A 45-year-old male has difficulty walking due to a painful lump in the proximal medial thigh. Radiographic and physical examinations reveal a femoral hernia. Through which opening does this hernia extend into the thigh?',
+    options: ['Femoral ring', 'Superficial inguinal ring', 'Deep inguinal ring', 'Fossa ovalis', 'Obturator canal'],
+    correctAnswer: 'Femoral ring'
+},
+{
+    question: 'A 10-year-old girl falls from a tree and is diagnosed with Osgood-Schlatter disease. Which bony structure is affected?',
+    options: ['Medial condyle of tibia', 'Posterior intercondylar area', 'Intercondylar eminence', 'Tibial tuberosity', 'Anterolateral tibial tubercle'],
+    correctAnswer: 'Tibial tuberosity'
+},
+{
+    question: 'A 49-year-old man undergoes coronary bypass surgery using the great saphenous vein. Postoperatively, he reports numbness in the medial leg. Which nerve was likely injured?',
+    options: ['Common fibular', 'Superficial fibular', 'Saphenous', 'Lateral sural', 'Tibial'],
+    correctAnswer: 'Saphenous'
+},
+{
+    question: 'A 22-year-old football player is admitted with lateral ankle pain following an inversion injury. Which ligament is most likely injured?',
+    options: ['Calcaneonavicular', 'Calcaneofibular', 'Long plantar', 'Short plantar', 'Deltoid'],
+    correctAnswer: 'Calcaneofibular'
+},
+{
+    question: 'A 55-year-old woman has foot pain after a bite to the dorsum of the foot. She is diagnosed with dorsalis pedis artery injury. Which condition is expected?',
+    options: ['Foot drop', 'Numbness between the first and second toes', 'Inability to extend the big toe', 'Weakness in inversion', 'Clubfoot'],
+    correctAnswer: 'Numbness between the first and second toes'
+},
+{
+    question: 'A 43-year-old male presents with chronic gonococcal arthritis. A knee aspiration is performed. Through which muscle does the needle pass?',
+    options: ['Adductor magnus', 'Short head of biceps femoris', 'Rectus femoris', 'Sartorius', 'Vastus lateralis'],
+    correctAnswer: 'Vastus lateralis'
+},
+{
+    question: 'A 19-year-old football player suffers a torn medial collateral ligament after a lateral knee hit. Which structure is most likely also injured?',
+    options: ['Medial meniscus', 'Anterior cruciate ligament', 'Lateral meniscus', 'Posterior cruciate ligament', 'Tendon of semitendinosus'],
+    correctAnswer: 'Medial meniscus'
+},
+{
+    question: 'A 75-year-old male with severe knee pain is diagnosed with avascular necrosis of the femoral head. Which artery is most likely injured?',
+    options: ['Acetabular branch of obturator', 'Deep circumflex iliac', 'Ascending branch of medial circumflex femoral', 'First perforating branch of profunda femoris', 'Descending branch of lateral circumflex femoral'],
+    correctAnswer: 'Ascending branch of medial circumflex femoral'
+},
+{
+    question: 'A 34-year-old patient has difficulty unlocking the knee to permit flexion. Which muscle is most likely damaged?',
+    options: ['Popliteus', 'Biceps femoris', 'Gastrocnemius', 'Semimembranosus', 'Rectus femoris'],
+    correctAnswer: 'Popliteus'
+},
+{
+    question: 'A 23-year-old female runner is diagnosed with tarsal tunnel syndrome. Which structure is the most anterior within the tunnel?',
+    options: ['Tibialis posterior', 'Flexor digitorum longus', 'Posterior tibial artery', 'Tibial nerve', 'Flexor hallucis longus'],
+    correctAnswer: 'Tibialis posterior'
+},
+{
+    question: 'A 58-year-old woman with severe foot pain has her plantar calcaneonavicular ligament torn. Which foot condition is most likely?',
+    options: ['Fallen arch', 'Foot drop', 'Inversion sprain', 'Plantar fasciitis', 'Pes cavus'],
+    correctAnswer: 'Fallen arch'
+},
+{
+    question: 'A 45-year-old man suffers from foot drop and normal eversion. Which nerve is injured?',
+    options: ['Common fibular', 'Deep fibular', 'Superficial fibular', 'Sural', 'Tibial'],
+    correctAnswer: 'Common fibular'
+},
+{
+    question: 'A 32-year-old basketball player suffers a Pott’s fracture. Which ligament is most likely injured?',
+    options: ['Calcaneofibular', 'Deltoid', 'Spring', 'Plantar', 'Long plantar'],
+    correctAnswer: 'Deltoid'
+},
+{
+    question: 'A 29-year-old woman develops pain in her lower limb and is diagnosed with piriformis syndrome. Which nerve is most likely compressed?',
+    options: ['Femoral', 'Sciatic', 'Tibial', 'Obturator', 'Sural'],
+    correctAnswer: 'Sciatic'
+},
+
+
             ]
         },
+
+
+// Lower Limbs Clinical Cases end here
+
+
+
 
 
  
