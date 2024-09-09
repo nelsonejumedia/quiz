@@ -1109,6 +1109,545 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+//upper limbs Clinical Cases 
+
+
+{
+            category: 'Upper Limbs: Clinical Cases',
+            questions: [
+                
+{
+    question: 'A 55-year-old woman presents with severe pain in the flexor muscles of the forearm and cyanosis of the fingers. What is the most likely diagnosis?',
+    options: ['Colles’ fracture', 'Scaphoid fracture', 'Bennett’s fracture', 'Volkmann’s ischemic contracture', 'Boxer’s fracture'],
+    correctAnswer: 'Volkmann’s ischemic contracture'
+},
+{
+    question: 'A 62-year-old man fractures his pisiform bone. Which nerve is most likely affected?',
+    options: ['Ulnar', 'Radial', 'Median', 'Deep ulnar', 'Deep radial'],
+    correctAnswer: 'Ulnar'
+},
+{
+    question: 'A 32-year-old woman has a “benediction attitude” of the hand after an elbow injury. Which nerve is likely injured?',
+    options: ['Median nerve', 'Radial nerve', 'Ulnar nerve', 'Median and radial nerves', 'Median, ulnar, and radial nerves'],
+    correctAnswer: 'Median nerve'
+},
+{
+    question: 'A 54-year-old man is undergoing a coronary bypass surgery using a radial artery graft. What test should be performed prior to the operation?',
+    options: ['Allen test', 'Triceps reflex', 'Tinel test', 'Brachioradialis reflex', 'Biceps reflex'],
+    correctAnswer: 'Allen test'
+},
+{
+    question: 'A 34-year-old man presents with weak abduction and adduction of his fingers and decreased sensation in the palmar surface of the fourth and fifth fingers. Which nerve is most likely compressed?',
+    options: ['Median', 'Ulnar', 'Radial', 'Deep radial', 'Musculocutaneous'],
+    correctAnswer: 'Ulnar'
+},
+{
+    question: 'A 22-year-old woman suffers a radial nerve injury at the wrist. What muscle is primarily affected?',
+    options: ['Extensor carpi radialis longus', 'Brachioradialis', 'Supinator', 'Abductor pollicis longus', 'Extensor carpi ulnaris'],
+    correctAnswer: 'Extensor carpi radialis longus'
+},
+{
+    question: 'A 60-year-old man suffers a fracture to the midshaft of the humerus. Which structure is most likely affected?',
+    options: ['Median nerve and brachial artery', 'Radial nerve and profunda brachii artery', 'Axillary nerve and posterior humeral circumflex artery', 'Ulnar nerve and superior ulnar collateral artery', 'Musculocutaneous nerve and inferior ulnar collateral artery'],
+    correctAnswer: 'Radial nerve and profunda brachii artery'
+},
+{
+    question: 'A 19-year-old male suffers from shoulder pain after playing basketball. Which muscle is most likely injured if the patient has difficulty abducting the arm?',
+    options: ['Supraspinatus', 'Infraspinatus', 'Teres major', 'Subscapularis', 'Latissimus dorsi'],
+    correctAnswer: 'Supraspinatus'
+},
+{
+    question: 'A 42-year-old woman has a positive Froment sign. Weakness of which muscle is responsible for this?',
+    options: ['Flexor pollicis longus', 'Adductor pollicis', 'Flexor carpi radialis', 'Flexor digiti minimi', 'Extensor indicis'],
+    correctAnswer: 'Adductor pollicis'
+},
+{
+    question: 'A 48-year-old woman presents with carpal tunnel syndrome. Which muscles are most likely weakened?',
+    options: ['Thenar muscles', 'Hypothenar muscles', 'Lumbricals III and IV', 'Dorsal interossei', 'Palmar interossei'],
+    correctAnswer: 'Thenar muscles'
+},
+{
+    question: 'A 23-year-old man falls asleep with his arm wedged into his axilla. He is unable to extend his wrist or fingers. Which nerve is most likely affected?',
+    options: ['Radial nerve', 'Median nerve', 'Ulnar nerve', 'Lateral cord of the brachial plexus', 'Medial cord of the brachial plexus'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 17-year-old girl develops compartment syndrome affecting her interosseous membrane. Which joint is likely affected?',
+    options: ['Radioulnar', 'Anular', 'Interosseous', 'Radial collateral', 'Ulnar collateral'],
+    correctAnswer: 'Radioulnar'
+},
+{
+    question: 'A 41-year-old woman is scheduled for a latissimus dorsi flap procedure. Which artery forms the vascular base for the flap?',
+    options: ['Circumflex scapular artery', 'Dorsal scapular artery', 'Transverse cervical artery', 'Lateral thoracic artery', 'Thoracoacromial artery'],
+    correctAnswer: 'Circumflex scapular artery'
+},
+{
+    question: 'A 60-year-old male butcher partially divides his ulnar nerve. Which action is most likely lost?',
+    options: ['Flexion of the fifth digit’s proximal interphalangeal joint', 'Adduction of the fifth digit', 'Abduction of the thumb', 'Opposition of the thumb', 'Extension of the thumb'],
+    correctAnswer: 'Adduction of the fifth digit'
+},
+{
+    question: 'A 29-year-old woman suffers a fracture at the spiral groove of the humerus. Three days later, her arm appears pale and cool with absent radial pulse. Which condition is most likely?',
+    options: ['Compartment syndrome', 'Thoracic outlet syndrome', 'Raynaud’s disease', 'Venous thrombosis', 'Injury of the radial nerve'],
+    correctAnswer: 'Compartment syndrome'
+},
+{
+    question: 'A 25-year-old man fractures the scaphoid bone in the anatomical snuffbox. Which bone is fractured?',
+    options: ['Triquetral', 'Scaphoid', 'Capitate', 'Hamate', 'Trapezoid'],
+    correctAnswer: 'Scaphoid'
+},
+{
+    question: 'A 35-year-old woman suffers from painful shoulder due to supraspinatus tendinopathy. What is the painful arc range during abduction?',
+    options: ['70° to 140°', '15° to 140°', '40° to 140°', '0° to 15°', '0° to 140°'],
+    correctAnswer: '70° to 140°'
+},
+{
+    question: 'A 22-year-old man suffers from Erb-Duchenne palsy. Which physical examination finding is most likely?',
+    options: ['Inability to laterally rotate the arm', 'Winged scapula', 'Loss of sensation in the dorsum of the hand', 'Paraesthesia in the medial arm', 'Paralysis of intrinsic hand muscles'],
+    correctAnswer: 'Inability to laterally rotate the arm'
+},
+{
+    question: 'A 25-year-old woman fractures her radius near the pronator teres muscle. Which muscle is responsible for the lateral deviation of the proximal radius?',
+    options: ['Pronator teres', 'Brachioradialis', 'Supinator', 'Brachialis', 'Pronator quadratus'],
+    correctAnswer: 'Pronator teres'
+},
+{
+    question: 'A 45-year-old woman is bitten by a dog on the lateral side of her hand. Two days later, which lymphatic group is most likely involved?',
+    options: ['Humeral', 'Pectoral', 'Central', 'Subscapular', 'Parasternal'],
+    correctAnswer: 'Humeral'
+},
+
+
+
+{
+    question: 'A 55-year-old male firefighter presents with winging of the scapula after blunt trauma to his right axilla. Which part of the brachial plexus is likely injured?',
+    options: ['Cords', 'Divisions', 'Roots', 'Terminal branches', 'Trunks'],
+    correctAnswer: 'Roots'
+},
+{
+    question: 'A 36-year-old man with a deep knife wound on the medial side of his distal forearm is unable to hold a piece of paper between his fingers. Which nerve is most likely injured?',
+    options: ['Axillary', 'Median', 'Musculocutaneous', 'Radial', 'Ulnar'],
+    correctAnswer: 'Ulnar'
+},
+{
+    question: 'A 22-year-old woman is admitted unconscious, and a nurse checks her radial pulse to determine her heart rate. This pulse is felt lateral to which tendon?',
+    options: ['Palmaris longus', 'Flexor pollicis longus', 'Flexor digitorum profundus', 'Flexor carpi radialis', 'Flexor digitorum superficialis'],
+    correctAnswer: 'Flexor carpi radialis'
+},
+{
+    question: 'A 42-year-old woman presents with pain in her right wrist due to a carpal bone dislocation. Which carpal bone is most commonly dislocated?',
+    options: ['Capitate', 'Lunate', 'Scaphoid', 'Pisiform', 'Triquetrum'],
+    correctAnswer: 'Lunate'
+},
+{
+    question: 'A 24-year-old woman presents with numbness and tingling in her hand, diagnosed as carpal tunnel syndrome. Which muscles are most typically weakened in this condition?',
+    options: ['Dorsal interossei', 'Lumbricals III and IV', 'Thenar', 'Palmar interossei', 'Hypothenar'],
+    correctAnswer: 'Thenar'
+},
+{
+    question: 'A 60-year-old man presents with a midshaft humeral fracture. Which pair of structures is most likely injured at the fracture site?',
+    options: ['Median nerve and brachial artery', 'Axillary nerve and posterior humeral circumflex artery', 'Radial nerve and deep brachial artery', 'Suprascapular nerve and artery', 'Long thoracic nerve and lateral thoracic artery'],
+    correctAnswer: 'Radial nerve and deep brachial artery'
+},
+{
+    question: 'A 45-year-old man suffers from a medial epicondyle fracture and torn ulnar nerve. Which muscle is most likely paralyzed?',
+    options: ['Flexor digitorum superficialis', 'Biceps brachii', 'Brachioradialis', 'Flexor carpi ulnaris', 'Supinator'],
+    correctAnswer: 'Flexor carpi ulnaris'
+},
+{
+    question: 'A 22-year-old male dislocates his shoulder during soccer. Post-reduction, he cannot abduct his arm normally. Which muscle is most likely damaged?',
+    options: ['Coracobrachialis', 'Long head of the triceps', 'Pectoralis minor', 'Supraspinatus', 'Teres major'],
+    correctAnswer: 'Supraspinatus'
+},
+{
+    question: 'A 48-year-old male stenographer suffers from carpal tunnel syndrome. Which nerve is most likely compressed?',
+    options: ['Ulnar', 'Radial', 'Recurrent median', 'Median', 'Posterior interosseous'],
+    correctAnswer: 'Median'
+},
+{
+    question: 'A 41-year-old woman with an upper trunk brachial plexus injury is diagnosed with Erb-Duchenne palsy. Which of the following conditions is expected?',
+    options: ['Winged scapula', 'Inability to laterally rotate the arm', 'Paralysis of intrinsic muscles of the hand', 'Paraesthesia in the medial arm', 'Loss of sensation in the dorsum of the hand'],
+    correctAnswer: 'Inability to laterally rotate the arm'
+},
+{
+    question: 'A 45-year-old woman is bitten by a dog and develops fever and swollen lymph nodes in the humeral group. Which lymphatic group is involved?',
+    options: ['Central', 'Humeral', 'Pectoral', 'Subscapular', 'Parasternal'],
+    correctAnswer: 'Humeral'
+},
+{
+    question: 'A 23-year-old man presents with a swollen forearm due to compartment syndrome originating at the interosseous membrane. Which joint is most likely affected?',
+    options: ['Radioulnar', 'Anular', 'Interosseous', 'Radial collateral', 'Ulnar collateral'],
+    correctAnswer: 'Radioulnar'
+},
+{
+    question: 'A 24-year-old woman presents with severe pain in her upper limb and tingling in the fourth and fifth digits. The problem worsens with overhead arm use, and radiographic studies reveal a cervical rib. Which structure is most likely compressed?',
+    options: ['Axillary artery', 'Upper trunk of brachial plexus', 'Subclavian artery', 'Lower trunk of brachial plexus', 'Brachiocephalic artery'],
+    correctAnswer: 'Lower trunk of brachial plexus'
+},
+{
+    question: 'A 22-year-old man fractures his radius near the pronator teres. Which muscle is responsible for the lateral deviation of the proximal radius?',
+    options: ['Pronator teres', 'Brachioradialis', 'Supinator', 'Brachialis', 'Pronator quadratus'],
+    correctAnswer: 'Pronator teres'
+},
+{
+    question: 'A 19-year-old man suffers a deep laceration on his upper limb. He can extend his metacarpophalangeal joints but has weak extension of the interphalangeal joints. Which nerve is injured?',
+    options: ['Radial nerve at the elbow', 'Median nerve at the wrist', 'Ulnar nerve in midforearm', 'Deep branch of ulnar nerve', 'Recurrent branch of median nerve'],
+    correctAnswer: 'Deep branch of ulnar nerve'
+},
+{
+    question: 'A 68-year-old woman falls and sustains a distal radius fracture. What is this type of injury commonly called?',
+    options: ['Colles’ fracture', 'Scaphoid fracture', 'Bennett’s fracture', 'Smith’s fracture', 'Boxer’s fracture'],
+    correctAnswer: 'Smith’s fracture'
+},
+{
+    question: 'A 55-year-old male presents with partial paralysis of his right diaphragm and winging of his right scapula after trauma. Which nerve is injured?',
+    options: ['Long thoracic', 'Axillary', 'Radial', 'Musculocutaneous', 'Thoracodorsal'],
+    correctAnswer: 'Long thoracic'
+},
+{
+    question: 'A 45-year-old male construction worker presents with shoulder drooping and weakness in turning his head. A shallow stab wound is observed in the posterior triangle of his neck. Which nerve is likely injured?',
+    options: ['Suprascapular nerve', 'Dorsal scapular nerve', 'Upper trunk of the brachial plexus', 'Spinal accessory nerve', 'Thoracodorsal nerve'],
+    correctAnswer: 'Spinal accessory nerve'
+},
+{
+    question: 'A 35-year-old female tennis player is diagnosed with rotator cuff injury. Which ligament is most likely involved?',
+    options: ['Acromioclavicular ligament', 'Coracohumeral ligament', 'Transverse scapular ligament', 'Glenohumeral ligament', 'Coracoacromial ligament'],
+    correctAnswer: 'Coracoacromial ligament'
+},
+{
+    question: 'A 24-year-old woman was bitten at the base of her thumb by a dog, resulting in an infected radial bursa. Which tendon is most likely affected?',
+    options: ['Flexor digitorum profundus', 'Flexor digitorum superficialis', 'Flexor pollicis longus', 'Flexor carpi radialis', 'Flexor pollicis brevis'],
+    correctAnswer: 'Flexor pollicis longus'
+},
+
+
+
+{
+    question: 'A 35-year-old patient has a small but painful tumor under the nail of the little finger. Which of the following nerves would have to be anesthetized for a painless removal of the tumor?',
+    options: ['Superficial radial', 'Common palmar digital of median', 'Common palmar digital of ulnar', 'Deep radial', 'Recurrent branch of median'],
+    correctAnswer: 'Common palmar digital of ulnar'
+},
+{
+    question: 'A 25-year-old male athlete is admitted after a bad landing in the pole vault. Radiographic examination reveals a fractured carpal bone in the floor of the anatomic snuffbox. Which bone has most likely been fractured?',
+    options: ['Triquetral', 'Scaphoid', 'Capitate', 'Hamate', 'Trapezoid'],
+    correctAnswer: 'Scaphoid'
+},
+{
+    question: 'A 19-year-old male dislocates his shoulder while playing soccer. After reduction, he cannot abduct the arm normally. Which muscle is most likely damaged?',
+    options: ['Coracobrachialis', 'Long head of triceps', 'Pectoralis minor', 'Supraspinatus', 'Teres major'],
+    correctAnswer: 'Supraspinatus'
+},
+{
+    question: 'A 55-year-old woman presents with pain and fixed flexion of the fingers. What is the most likely diagnosis?',
+    options: ['Colles’ fracture', 'Scaphoid fracture', 'Bennett’s fracture', 'Volkmann’s ischemic contracture', 'Boxer’s fracture'],
+    correctAnswer: 'Volkmann’s ischemic contracture'
+},
+{
+    question: 'A 60-year-old male presents with a midshaft humeral fracture. What structures are most likely injured?',
+    options: ['Median nerve and brachial artery', 'Radial nerve and profunda brachii artery', 'Axillary nerve and posterior humeral circumflex artery', 'Ulnar nerve and superior ulnar collateral artery', 'Musculocutaneous nerve and inferior ulnar collateral artery'],
+    correctAnswer: 'Radial nerve and profunda brachii artery'
+},
+{
+    question: 'A 48-year-old woman presents with carpal tunnel syndrome. Which muscles are typically weakened?',
+    options: ['Thenar muscles', 'Hypothenar muscles', 'Lumbricals III and IV', 'Dorsal interossei', 'Palmar interossei'],
+    correctAnswer: 'Thenar muscles'
+},
+{
+    question: 'A 22-year-old man cannot extend his wrist or fingers after his arm was wedged into his axilla. What is the most likely nerve injured?',
+    options: ['Radial nerve', 'Median nerve', 'Ulnar nerve', 'Lateral cord of the brachial plexus', 'Medial cord of the brachial plexus'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 32-year-old man is admitted with a deep knife wound on the medial side of the distal forearm. He is unable to hold a piece of paper between his fingers. Which nerve is most likely injured?',
+    options: ['Axillary', 'Median', 'Musculocutaneous', 'Radial', 'Ulnar'],
+    correctAnswer: 'Ulnar'
+},
+{
+    question: 'A 19-year-old man falls and suffers a midshaft humeral fracture. He cannot extend his wrist or metacarpophalangeal joints. Which nerve is most likely injured?',
+    options: ['Median', 'Ulnar', 'Radial', 'Musculocutaneous', 'Axillary'],
+    correctAnswer: 'Radial'
+},
+{
+    question: 'A 41-year-old woman has a positive Froment sign. Which muscle weakness is responsible?',
+    options: ['Flexor pollicis longus', 'Adductor pollicis', 'Flexor digiti minimi', 'Flexor carpi radialis', 'Extensor indicis'],
+    correctAnswer: 'Adductor pollicis'
+},
+{
+    question: 'A 45-year-old woman is bitten on the hand and develops a swollen lymph node. Which group of lymph nodes is most likely affected?',
+    options: ['Central', 'Humeral', 'Pectoral', 'Subscapular', 'Parasternal'],
+    correctAnswer: 'Humeral'
+},
+{
+    question: 'A 60-year-old woman suffers from a fracture of the pisiform bone. Which nerve is most likely injured?',
+    options: ['Ulnar', 'Radial', 'Median', 'Deep ulnar', 'Deep radial'],
+    correctAnswer: 'Ulnar'
+},
+{
+    question: 'A 55-year-old man with winging of the scapula also has partial paralysis of his diaphragm. Which part of the brachial plexus is most likely injured?',
+    options: ['Cords', 'Divisions', 'Roots', 'Terminal branches', 'Trunks'],
+    correctAnswer: 'Roots'
+},
+{
+    question: 'A 54-year-old woman has absence of her brachioradialis reflex. Which spinal nerve is responsible?',
+    options: ['C5', 'C6', 'C7', 'C8', 'T1'],
+    correctAnswer: 'C6'
+},
+{
+    question: 'A 55-year-old woman presents with pain in the forearm and cyanosis of the fingers after a car crash. What is the most likely diagnosis?',
+    options: ['Colles’ fracture', 'Scaphoid fracture', 'Bennett’s fracture', 'Volkmann’s ischemic contracture', 'Boxer’s fracture'],
+    correctAnswer: 'Volkmann’s ischemic contracture'
+},
+{
+    question: 'A 42-year-old man suffers from thoracic outlet syndrome. Which structure is most likely compressed?',
+    options: ['Axillary artery', 'Upper trunk of brachial plexus', 'Subclavian artery', 'Lower trunk of brachial plexus', 'Brachiocephalic artery'],
+    correctAnswer: 'Lower trunk of brachial plexus'
+},
+{
+    question: 'A 60-year-old man presents with a “benediction attitude” of the hand. Which nerve is most likely injured?',
+    options: ['Median nerve', 'Radial nerve', 'Ulnar nerve', 'Median and radial nerves', 'Median, ulnar, and radial nerves'],
+    correctAnswer: 'Median nerve'
+},
+{
+    question: 'A 45-year-old male construction worker presents with shoulder drooping after being stabbed in the posterior triangle of his neck. Which nerve is most likely injured?',
+    options: ['Suprascapular nerve', 'Dorsal scapular nerve', 'Upper trunk of the brachial plexus', 'Spinal accessory nerve', 'Thoracodorsal nerve'],
+    correctAnswer: 'Spinal accessory nerve'
+},
+{
+    question: 'A 25-year-old man fractures his scaphoid bone in the anatomical snuffbox. Which bone is fractured?',
+    options: ['Triquetral', 'Scaphoid', 'Capitate', 'Hamate', 'Trapezoid'],
+    correctAnswer: 'Scaphoid'
+},
+{
+    question: 'A 50-year-old woman suffers from a rupture of the long head of the biceps tendon. Where is the rupture most likely located?',
+    options: ['Intertubercular groove', 'Midportion of the biceps muscle', 'Junction with short head of the biceps muscle', 'Proximal end of the combined biceps muscle', 'Bony insertion of the muscle'],
+    correctAnswer: 'Intertubercular groove'
+},
+
+
+
+{
+    question: 'A 55-year-old man presents with winging of the scapula and difficulty elevating his arm after an injury. Which nerve is most likely damaged?',
+    options: ['Long thoracic nerve', 'Axillary nerve', 'Radial nerve', 'Spinal accessory nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Long thoracic nerve'
+},
+{
+    question: 'A 32-year-old male has difficulty extending his wrist and fingers following a humeral fracture. Which nerve is likely injured?',
+    options: ['Radial nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve', 'Axillary nerve'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 24-year-old medical student was bitten by a dog on her thumb, causing an infection in the radial bursa. Which tendon is likely affected?',
+    options: ['Flexor digitorum profundus', 'Flexor digitorum superficialis', 'Flexor pollicis longus', 'Flexor carpi radialis', 'Flexor pollicis brevis'],
+    correctAnswer: 'Flexor pollicis longus'
+},
+{
+    question: 'A 45-year-old male is admitted with pain and weakness following an ulnar nerve injury. Which action is most likely lost?',
+    options: ['Opposition of the thumb', 'Flexion of the fifth digit', 'Adduction of the fifth digit', 'Abduction of the thumb', 'Extension of the thumb'],
+    correctAnswer: 'Adduction of the fifth digit'
+},
+{
+    question: 'A 68-year-old woman fell and fractured her distal radius. What is the common name for this type of injury?',
+    options: ['Colles’ fracture', 'Scaphoid fracture', 'Smith’s fracture', 'Boxer’s fracture', 'Bennett’s fracture'],
+    correctAnswer: 'Smith’s fracture'
+},
+{
+    question: 'A 60-year-old male presents with a fracture of the midshaft of the humerus. Which structure is most likely injured at this site?',
+    options: ['Axillary nerve and posterior humeral circumflex artery', 'Radial nerve and profunda brachii artery', 'Median nerve and brachial artery', 'Ulnar nerve and superior ulnar collateral artery', 'Musculocutaneous nerve and inferior ulnar collateral artery'],
+    correctAnswer: 'Radial nerve and profunda brachii artery'
+},
+{
+    question: 'A 32-year-old male suffers from carpal tunnel syndrome. Which muscle is most likely weakened?',
+    options: ['Thenar muscles', 'Hypothenar muscles', 'Lumbricals III and IV', 'Palmar interossei', 'Dorsal interossei'],
+    correctAnswer: 'Thenar muscles'
+},
+{
+    question: 'A 48-year-old woman suffers from weakness of abduction and adduction of the fingers, with sensory loss in the fourth and fifth fingers. Which nerve is most likely compressed?',
+    options: ['Radial nerve', 'Median nerve', 'Ulnar nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Ulnar nerve'
+},
+{
+    question: 'A 42-year-old woman presents with pain in her wrist due to a dislocation. Which carpal bone is most likely dislocated?',
+    options: ['Scaphoid', 'Capitate', 'Lunate', 'Pisiform', 'Triquetrum'],
+    correctAnswer: 'Lunate'
+},
+{
+    question: 'A 22-year-old male dislocates his shoulder while playing soccer and has difficulty abducting the arm. Which muscle is most likely injured?',
+    options: ['Teres major', 'Supraspinatus', 'Long head of triceps', 'Coracobrachialis', 'Pectoralis minor'],
+    correctAnswer: 'Supraspinatus'
+},
+{
+    question: 'A 36-year-old man suffers a deep laceration on the medial side of his forearm and cannot hold a piece of paper between his fingers. Which nerve is most likely injured?',
+    options: ['Axillary nerve', 'Median nerve', 'Radial nerve', 'Musculocutaneous nerve', 'Ulnar nerve'],
+    correctAnswer: 'Ulnar nerve'
+},
+{
+    question: 'A 25-year-old male athlete fractures his scaphoid bone. Which structure forms the floor of the anatomic snuffbox where the fracture is most palpable?',
+    options: ['Scaphoid', 'Triquetral', 'Capitate', 'Hamate', 'Trapezoid'],
+    correctAnswer: 'Scaphoid'
+},
+{
+    question: 'A 55-year-old woman presents with pain and inability to flex the distal interphalangeal joints of the fourth and fifth digits. Which muscle is most likely affected?',
+    options: ['Flexor digitorum profundus', 'Flexor digitorum superficialis', 'Lumbricals', 'Interossei', 'Flexor carpi ulnaris'],
+    correctAnswer: 'Flexor digitorum profundus'
+},
+{
+    question: 'A 45-year-old woman falls and suffers a humeral shaft fracture. Which nerve is most at risk of injury at the midshaft?',
+    options: ['Radial nerve', 'Ulnar nerve', 'Median nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 23-year-old woman presents with a swollen, painful forearm. MRI reveals compartment syndrome in the interosseous membrane. Which type of joint is likely affected?',
+    options: ['Synchondrosis', 'Symphysis', 'Trochoid', 'Ginglymus', 'Synarthrosis'],
+    correctAnswer: 'Trochoid'
+},
+{
+    question: 'A 19-year-old male suffers from Erb-Duchenne palsy after a motorcycle accident. Which motion is most likely impaired?',
+    options: ['Lateral rotation of the arm', 'Abduction of the arm', 'Flexion of the fingers', 'Pronation of the forearm', 'Supination of the forearm'],
+    correctAnswer: 'Lateral rotation of the arm'
+},
+{
+    question: 'A 48-year-old stenographer presents with atrophy of the thenar muscles. Which nerve is most likely compressed?',
+    options: ['Ulnar nerve', 'Radial nerve', 'Median nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Median nerve'
+},
+{
+    question: 'A 33-year-old man dislocates his shoulder during weightlifting and experiences weakness in shoulder abduction. Which nerve is likely injured?',
+    options: ['Axillary nerve', 'Radial nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Axillary nerve'
+},
+{
+    question: 'A 60-year-old man with pain in his wrist is diagnosed with carpal tunnel syndrome. Which nerve is most commonly compressed in this condition?',
+    options: ['Radial nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve', 'Axillary nerve'],
+    correctAnswer: 'Median nerve'
+},
+{
+    question: 'A 23-year-old man presents with radial nerve palsy and cannot extend his wrist. Which muscle is primarily affected?',
+    options: ['Extensor carpi radialis longus', 'Brachioradialis', 'Abductor pollicis longus', 'Supinator', 'Flexor carpi ulnaris'],
+    correctAnswer: 'Extensor carpi radialis longus'
+},
+
+
+
+{
+    question: 'A 45-year-old man is admitted with pain and weakness in his arm. He cannot abduct his arm after a shoulder dislocation. Which nerve is most likely injured?',
+    options: ['Axillary nerve', 'Radial nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Axillary nerve'
+},
+{
+    question: 'A 19-year-old male dislocates his shoulder and tears a muscle. Which muscle is most likely injured if he cannot abduct his arm normally?',
+    options: ['Supraspinatus', 'Coracobrachialis', 'Teres major', 'Long head of the triceps', 'Pectoralis minor'],
+    correctAnswer: 'Supraspinatus'
+},
+{
+    question: 'A 48-year-old woman presents with pain in her wrist after a fall. Radiographic studies reveal dislocation of the lunate bone. Which carpal bone is most commonly dislocated?',
+    options: ['Lunate', 'Scaphoid', 'Capitate', 'Pisiform', 'Triquetrum'],
+    correctAnswer: 'Lunate'
+},
+{
+    question: 'A 32-year-old man fractures the shaft of his humerus. He cannot extend his wrist or fingers. Which nerve is most likely injured?',
+    options: ['Radial nerve', 'Ulnar nerve', 'Median nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 41-year-old woman is scheduled for a latissimus dorsi muscle flap. Which artery forms the vascular base for this flap?',
+    options: ['Circumflex scapular artery', 'Dorsal scapular artery', 'Transverse cervical artery', 'Lateral thoracic artery', 'Thoracoacromial artery'],
+    correctAnswer: 'Circumflex scapular artery'
+},
+{
+    question: 'A 55-year-old male suffers winging of the scapula after trauma. Which nerve is likely injured?',
+    options: ['Long thoracic nerve', 'Axillary nerve', 'Radial nerve', 'Musculocutaneous nerve', 'Thoracodorsal nerve'],
+    correctAnswer: 'Long thoracic nerve'
+},
+{
+    question: 'A 34-year-old man presents with pain in his thumb after an injury. MRI reveals rupture of the ulnar collateral ligament of the thumb. What is the clinical name for this condition?',
+    options: ['Gamekeeper’s thumb', 'De Quervain’s syndrome', 'Boxer’s thumb', 'Bennett’s fracture', 'Navicular bone fracture'],
+    correctAnswer: 'Gamekeeper’s thumb'
+},
+{
+    question: 'A 50-year-old woman ruptures the long tendon of the biceps brachii. Where is this rupture most likely located?',
+    options: ['Intertubercular groove', 'Midportion of the biceps muscle', 'Junction with short head of the biceps muscle', 'Proximal end of the biceps muscle', 'Bony insertion of the muscle'],
+    correctAnswer: 'Intertubercular groove'
+},
+{
+    question: 'A 29-year-old man sustains a midshaft humeral fracture. He cannot extend his wrist or metacarpophalangeal joints. Which nerve is injured?',
+    options: ['Radial nerve', 'Ulnar nerve', 'Median nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Radial nerve'
+},
+{
+    question: 'A 45-year-old man suffers a fracture of the medial epicondyle and a torn ulnar nerve. Which muscle is most likely paralyzed?',
+    options: ['Flexor carpi ulnaris', 'Biceps brachii', 'Flexor digitorum superficialis', 'Brachioradialis', 'Supinator'],
+    correctAnswer: 'Flexor carpi ulnaris'
+},
+{
+    question: 'A 19-year-old male has a fractured scaphoid bone. Where is the fracture most palpable?',
+    options: ['Anatomic snuffbox', 'Palmar surface of the hand', 'Flexor retinaculum', 'Dorsal aspect of the wrist', 'Thenar eminence'],
+    correctAnswer: 'Anatomic snuffbox'
+},
+{
+    question: 'A 22-year-old man is admitted after a motorcycle accident with weakness in his forearm and hand muscles. Which spinal levels are most likely involved in this injury?',
+    options: ['C8, T1', 'C5, C6', 'C5, C6, C7', 'C7, T1', 'C6, T1'],
+    correctAnswer: 'C8, T1'
+},
+{
+    question: 'A 60-year-old man presents with a midshaft humeral fracture. Which structure is most likely affected?',
+    options: ['Radial nerve and profunda brachii artery', 'Median nerve and brachial artery', 'Axillary nerve and posterior humeral circumflex artery', 'Ulnar nerve and superior ulnar collateral artery', 'Musculocutaneous nerve and inferior ulnar collateral artery'],
+    correctAnswer: 'Radial nerve and profunda brachii artery'
+},
+{
+    question: 'A 24-year-old woman suffers a shoulder dislocation. Which nerve is most likely injured?',
+    options: ['Axillary nerve', 'Radial nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Axillary nerve'
+},
+{
+    question: 'A 54-year-old man complains of numbness and tingling in his hand, diagnosed as carpal tunnel syndrome. Which muscles are most typically weakened?',
+    options: ['Thenar muscles', 'Hypothenar muscles', 'Lumbricals III and IV', 'Palmar interossei', 'Dorsal interossei'],
+    correctAnswer: 'Thenar muscles'
+},
+{
+    question: 'A 36-year-old man suffers a deep knife wound to the medial side of his forearm and cannot hold a piece of paper between his fingers. Which nerve is most likely injured?',
+    options: ['Ulnar nerve', 'Radial nerve', 'Median nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+    correctAnswer: 'Ulnar nerve'
+},
+{
+    question: 'A 55-year-old man has difficulty flexing the distal interphalangeal joints of his fourth and fifth digits after a laceration. Which muscle is most likely affected?',
+    options: ['Flexor digitorum profundus', 'Flexor digitorum superficialis', 'Lumbricals', 'Interossei', 'Flexor carpi ulnaris'],
+    correctAnswer: 'Flexor digitorum profundus'
+},
+{
+    question: 'A 45-year-old man sustains a distal radius fracture. Which name is most commonly applied to this type of injury?',
+    options: ['Colles’ fracture', 'Smith’s fracture', 'Boxer’s fracture', 'Bennett’s fracture', 'Scaphoid fracture'],
+    correctAnswer: 'Colles’ fracture'
+},
+{
+    question: 'A 23-year-old woman develops numbness in her hand, primarily affecting the fourth and fifth digits. MRI reveals a cervical rib. Which structure is most likely compressed?',
+    options: ['Lower trunk of the brachial plexus', 'Upper trunk of the brachial plexus', 'Axillary artery', 'Subclavian artery', 'Brachiocephalic artery'],
+    correctAnswer: 'Lower trunk of the brachial plexus'
+},
+{
+    question: 'A 60-year-old woman presents with winging of the scapula after surgery. Which nerve was most likely injured?',
+    options: ['Long thoracic nerve', 'Axillary nerve', 'Radial nerve', 'Musculocutaneous nerve', 'Thoracodorsal nerve'],
+    correctAnswer: 'Long thoracic nerve'
+},
+
+
+
+
+
+            ]
+        },
+
+
+// end of clinical cases in upper limbs 
+
+
+
+
+
+
+
+
+
+
 
 
 
