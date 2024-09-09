@@ -788,6 +788,295 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+{
+    question: 'The anatomical snuff box is located on which part of the hand?',
+    options: ['Dorsal aspect', 'Palmar aspect', 'Lateral aspect', 'Medial aspect'],
+    correctAnswer: 'Dorsal aspect'
+},
+{
+    question: 'Which artery passes through the anatomical snuff box?',
+    options: ['Radial artery', 'Ulnar artery', 'Brachial artery', 'Axillary artery'],
+    correctAnswer: 'Radial artery'
+},
+{
+    question: 'Which tendons form the boundaries of the anatomical snuff box?',
+    options: ['Extensor pollicis longus, Extensor pollicis brevis, Abductor pollicis longus', 'Extensor carpi radialis, Extensor digitorum, Extensor indicis', 'Flexor carpi ulnaris, Flexor pollicis longus, Abductor digiti minimi', 'Palmaris longus, Flexor digitorum superficialis, Pronator quadratus'],
+    correctAnswer: 'Extensor pollicis longus, Extensor pollicis brevis, Abductor pollicis longus'
+},
+{
+    question: 'Which bone can be palpated in the floor of the anatomical snuff box?',
+    options: ['Scaphoid', 'Lunate', 'Pisiform', 'Trapezium'],
+    correctAnswer: 'Scaphoid'
+},
+
+
+{
+    question: 'Which nerve passes through the carpal tunnel?',
+    options: ['Median nerve', 'Ulnar nerve', 'Radial nerve', 'Axillary nerve'],
+    correctAnswer: 'Median nerve'
+},
+{
+    question: 'Which structure forms the roof of the carpal tunnel?',
+    options: ['Flexor retinaculum', 'Extensor retinaculum', 'Palmar aponeurosis', 'Transverse carpal ligament'],
+    correctAnswer: 'Flexor retinaculum'
+},
+{
+    question: 'How many tendons pass through the carpal tunnel?',
+    options: ['9', '5', '10', '7'],
+    correctAnswer: '9'
+},
+{
+    question: 'Compression of the median nerve in the carpal tunnel results in which condition?',
+    options: ['Carpal tunnel syndrome', 'Cubital tunnel syndrome', 'Radial nerve palsy', 'Thoracic outlet syndrome'],
+    correctAnswer: 'Carpal tunnel syndrome'
+},
+{
+    question: 'Which tendons pass through the carpal tunnel?',
+    options: ['Flexor digitorum superficialis and flexor digitorum profundus', 'Extensor digitorum and extensor indicis', 'Flexor pollicis longus and extensor pollicis brevis', 'Abductor pollicis longus and flexor carpi ulnaris'],
+    correctAnswer: 'Flexor digitorum superficialis and flexor digitorum profundus'
+},
+{
+    question: 'Which bone forms part of the floor of the carpal tunnel?',
+    options: ['Scaphoid', 'Pisiform', 'Lunate', 'Trapezium'],
+    correctAnswer: 'Scaphoid'
+},
+
+
+{
+    question: 'What is the primary function of the flexor retinaculum?',
+    options: ['Forms the roof of the carpal tunnel', 'Prevents dislocation of the shoulder', 'Holds the tendons of the extensor muscles', 'Stabilizes the elbow joint'],
+    correctAnswer: 'Forms the roof of the carpal tunnel'
+},
+{
+    question: 'The flexor retinaculum is attached to which bones?',
+    options: ['Pisiform and Scaphoid', 'Scaphoid and Trapezium', 'Pisiform and Hamate', 'Radius and Ulna'],
+    correctAnswer: 'Pisiform and Hamate'
+},
+{
+    question: 'Which structure passes superficial to the flexor retinaculum?',
+    options: ['Ulnar nerve', 'Median nerve', 'Radial nerve', 'Extensor digitorum'],
+    correctAnswer: 'Ulnar nerve'
+},
+{
+    question: 'The extensor retinaculum is located on which side of the wrist?',
+    options: ['Dorsal side', 'Palmar side', 'Medial side', 'Lateral side'],
+    correctAnswer: 'Dorsal side'
+},
+{
+    question: 'What is the function of the extensor retinaculum?',
+    options: ['Holds the extensor tendons in place', 'Forms the roof of the carpal tunnel', 'Holds the flexor tendons in place', 'Prevents dislocation of the ulna'],
+    correctAnswer: 'Holds the extensor tendons in place'
+},
+{
+    question: 'Which tendons pass through the extensor retinaculum?',
+    options: ['Extensor digitorum and Extensor pollicis longus', 'Flexor carpi ulnaris and Flexor digitorum superficialis', 'Biceps brachii and Triceps brachii', 'Palmaris longus and Pronator teres'],
+    correctAnswer: 'Extensor digitorum and Extensor pollicis longus'
+},
+
+
+{
+        question: 'What nerve is most likely to be injured in a fracture of the surgical neck of the humerus?',
+        options: ['Axillary nerve', 'Radial nerve', 'Ulnar nerve', 'Median nerve'],
+        correctAnswer: 'Axillary nerve'
+    },
+    {
+        question: 'Damage to the upper trunk of the brachial plexus (C5-C6) leads to which condition?',
+        options: ['Erb’s palsy', 'Klumpke’s palsy', 'Ape hand', 'Wrist drop'],
+        correctAnswer: 'Erb’s palsy'
+    },
+    {
+        question: 'Compression of the median nerve in the carpal tunnel results in:',
+        options: ['Carpal tunnel syndrome', 'Cubital tunnel syndrome', 'Thoracic outlet syndrome', 'Guyon’s canal syndrome'],
+        correctAnswer: 'Carpal tunnel syndrome'
+    },
+    {
+        question: 'A person falls on an outstretched hand, resulting in a common fracture between the costoclavicular and coracoclavicular ligaments. Which bone is fractured?',
+        options: ['Clavicle', 'Scapula', 'Humerus', 'Radius'],
+        correctAnswer: 'Clavicle'
+    },
+    {
+        question: 'Fracture of the midshaft of the humerus is most likely to injure which nerve?',
+        options: ['Radial nerve', 'Ulnar nerve', 'Axillary nerve', 'Median nerve'],
+        correctAnswer: 'Radial nerve'
+    },
+    {
+        question: 'Injury to the long thoracic nerve results in which clinical condition?',
+        options: ['Winging of scapula', 'Foot drop', 'Wrist drop', 'Claw hand'],
+        correctAnswer: 'Winging of scapula'
+    },
+    {
+        question: 'Which muscle is paralyzed in a patient with Erb’s palsy?',
+        options: ['Deltoid', 'Triceps brachii', 'Pectoralis major', 'Supraspinatus'],
+        correctAnswer: 'Supraspinatus'
+    },
+    {
+        question: 'Injury to the lower trunk of the brachial plexus (C8-T1) causes which condition?',
+        options: ['Klumpke’s palsy', 'Erb’s palsy', 'Ape hand', 'Wrist drop'],
+        correctAnswer: 'Klumpke’s palsy'
+    },
+    {
+        question: 'In Klumpke’s palsy, which muscles are most likely to be affected?',
+        options: ['Intrinsic muscles of the hand', 'Flexors of the arm', 'Extensors of the arm', 'Flexors of the forearm'],
+        correctAnswer: 'Intrinsic muscles of the hand'
+    },
+    {
+        question: 'Fracture of the scaphoid bone can lead to avascular necrosis due to injury to which artery?',
+        options: ['Radial artery', 'Ulnar artery', 'Brachial artery', 'Axillary artery'],
+        correctAnswer: 'Radial artery'
+    },
+    {
+        question: 'A fall on an outstretched hand can result in a fracture of the distal radius, also known as:',
+        options: ['Colles’ fracture', 'Smith’s fracture', 'Bennett’s fracture', 'Monteggia fracture'],
+        correctAnswer: 'Colles’ fracture'
+    },
+    {
+        question: 'What condition results from thickening of the supraspinatus tendon or inflammation of the subacromial bursa, causing pain during abduction?',
+        options: ['Painful arc syndrome', 'Frozen shoulder', 'Winging of scapula', 'Erb’s palsy'],
+        correctAnswer: 'Painful arc syndrome'
+    },
+    {
+        question: 'Which nerve is most likely to be compressed in cubital tunnel syndrome?',
+        options: ['Ulnar nerve', 'Radial nerve', 'Median nerve', 'Axillary nerve'],
+        correctAnswer: 'Ulnar nerve'
+    },
+    {
+        question: 'A patient presents with pain and tenderness over the lateral epicondyle. This condition is known as:',
+        options: ['Tennis elbow', 'Golfer’s elbow', 'Carpal tunnel syndrome', 'Cubital tunnel syndrome'],
+        correctAnswer: 'Tennis elbow'
+    },
+    {
+        question: 'Golfer’s elbow is characterized by pain and tenderness over which structure?',
+        options: ['Medial epicondyle', 'Lateral epicondyle', 'Olecranon', 'Radial head'],
+        correctAnswer: 'Medial epicondyle'
+    },
+    {
+        question: 'Injury to the brachial artery during a supracondylar fracture of the humerus may result in which condition?',
+        options: ['Volkmann’s ischemic contracture', 'Frozen shoulder', 'Carpal tunnel syndrome', 'Wrist drop'],
+        correctAnswer: 'Volkmann’s ischemic contracture'
+    },
+    {
+        question: 'Which structure is commonly compressed in thoracic outlet syndrome?',
+        options: ['Brachial plexus', 'Femoral nerve', 'Radial nerve', 'Median nerve'],
+        correctAnswer: 'Brachial plexus'
+    },
+    {
+        question: 'Injury to the ulnar nerve at the elbow can result in which deformity of the hand?',
+        options: ['Claw hand', 'Ape hand', 'Wrist drop', 'Waiter’s tip deformity'],
+        correctAnswer: 'Claw hand'
+    },
+    {
+        question: 'Damage to the radial nerve in the arm can result in which clinical condition?',
+        options: ['Wrist drop', 'Claw hand', 'Ape hand', 'Waiter’s tip deformity'],
+        correctAnswer: 'Wrist drop'
+    },
+    {
+        question: 'Injury to the axillary nerve can result in difficulty performing which movement?',
+        options: ['Abduction of the arm', 'Flexion of the forearm', 'Pronation of the forearm', 'Extension of the wrist'],
+        correctAnswer: 'Abduction of the arm'
+    },
+
+
+
+{
+        question: 'The brachial plexus is formed by the ventral rami of which spinal nerves?',
+        options: ['C5-T1', 'C1-C4', 'L1-L5', 'C7-T3'],
+        correctAnswer: 'C5-T1'
+    },
+    {
+        question: 'The upper trunk of the brachial plexus is formed by the fusion of which nerve roots?',
+        options: ['C5 and C6', 'C6 and C7', 'C7 and T1', 'C8 and T1'],
+        correctAnswer: 'C5 and C6'
+    },
+    {
+        question: 'Which trunk of the brachial plexus gives rise to the suprascapular nerve?',
+        options: ['Upper trunk', 'Middle trunk', 'Lower trunk', 'Posterior cord'],
+        correctAnswer: 'Upper trunk'
+    },
+    {
+        question: 'Which division of the brachial plexus forms the lateral cord?',
+        options: ['Anterior divisions of the upper and middle trunks', 'Posterior divisions of all trunks', 'Anterior divisions of all trunks', 'Anterior division of the lower trunk'],
+        correctAnswer: 'Anterior divisions of the upper and middle trunks'
+    },
+    {
+        question: 'The posterior cord of the brachial plexus gives rise to which nerve?',
+        options: ['Axillary nerve', 'Median nerve', 'Ulnar nerve', 'Musculocutaneous nerve'],
+        correctAnswer: 'Axillary nerve'
+    },
+    {
+        question: 'Which muscle is innervated by the musculocutaneous nerve, a branch of the lateral cord?',
+        options: ['Biceps brachii', 'Triceps brachii', 'Deltoid', 'Teres minor'],
+        correctAnswer: 'Biceps brachii'
+    },
+    {
+        question: 'The radial nerve is a branch of which part of the brachial plexus?',
+        options: ['Posterior cord', 'Lateral cord', 'Medial cord', 'Upper trunk'],
+        correctAnswer: 'Posterior cord'
+    },
+    {
+        question: 'Which nerve provides sensory innervation to the lateral aspect of the forearm?',
+        options: ['Musculocutaneous nerve', 'Median nerve', 'Ulnar nerve', 'Radial nerve'],
+        correctAnswer: 'Musculocutaneous nerve'
+    },
+    {
+        question: 'Which nerve arises from the medial cord of the brachial plexus?',
+        options: ['Ulnar nerve', 'Axillary nerve', 'Radial nerve', 'Suprascapular nerve'],
+        correctAnswer: 'Ulnar nerve'
+    },
+    {
+        question: 'Which nerve is responsible for flexion at the elbow and supination of the forearm?',
+        options: ['Musculocutaneous nerve', 'Radial nerve', 'Median nerve', 'Ulnar nerve'],
+        correctAnswer: 'Musculocutaneous nerve'
+    },
+    {
+        question: 'The lateral cord contributes to the formation of which major nerve?',
+        options: ['Median nerve', 'Radial nerve', 'Ulnar nerve', 'Axillary nerve'],
+        correctAnswer: 'Median nerve'
+    },
+    {
+        question: 'The long thoracic nerve arises from which nerve roots?',
+        options: ['C5, C6, C7', 'C6, C7, C8', 'C8, T1', 'T1, T2'],
+        correctAnswer: 'C5, C6, C7'
+    },
+    {
+        question: 'Damage to the long thoracic nerve results in which condition?',
+        options: ['Winging of scapula', 'Wrist drop', 'Claw hand', 'Erb’s palsy'],
+        correctAnswer: 'Winging of scapula'
+    },
+    {
+        question: 'Erb’s palsy is associated with injury to which part of the brachial plexus?',
+        options: ['Upper trunk (C5-C6)', 'Lower trunk (C8-T1)', 'Lateral cord', 'Posterior cord'],
+        correctAnswer: 'Upper trunk (C5-C6)'
+    },
+    {
+        question: 'Klumpke’s palsy is caused by injury to which part of the brachial plexus?',
+        options: ['Lower trunk (C8-T1)', 'Upper trunk (C5-C6)', 'Posterior cord', 'Lateral cord'],
+        correctAnswer: 'Lower trunk (C8-T1)'
+    },
+    {
+        question: 'The medial cord gives rise to which of the following nerves?',
+        options: ['Ulnar nerve', 'Radial nerve', 'Axillary nerve', 'Musculocutaneous nerve'],
+        correctAnswer: 'Ulnar nerve'
+    },
+    {
+        question: 'Which cord of the brachial plexus gives rise to the radial nerve?',
+        options: ['Posterior cord', 'Lateral cord', 'Medial cord', 'Upper trunk'],
+        correctAnswer: 'Posterior cord'
+    },
+    {
+        question: 'The suprascapular nerve arises from which trunk of the brachial plexus?',
+        options: ['Upper trunk', 'Middle trunk', 'Lower trunk', 'Lateral cord'],
+        correctAnswer: 'Upper trunk'
+    },
+    {
+        question: 'Which nerve innervates the deltoid and teres minor muscles?',
+        options: ['Axillary nerve', 'Radial nerve', 'Ulnar nerve', 'Median nerve'],
+        correctAnswer: 'Axillary nerve'
+    },
+    {
+        question: 'The cords of the brachial plexus are named based on their relationship to which structure?',
+        options: ['Axillary artery', 'Subclavian artery', 'Axillary vein', 'Clavicle'],
+        correctAnswer: 'Axillary artery'
+    },
 
 
         ]
@@ -798,6 +1087,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
  
+
+
+
+
+
+
+
 
 
 
