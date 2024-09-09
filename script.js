@@ -286,6 +286,510 @@ document.addEventListener('DOMContentLoaded', () => {
             },
 
 
+
+
+
+
+
+
+
+        //category: 'Osteology of the Upper Extremity 
+
+            {
+                question: 'Which bones make up the pectoral girdle?',
+                options: ['Clavicle and Scapula', 'Humerus and Ulna', 'Radius and Carpus', 'Metacarpus and Phalanges'],
+                correctAnswer: 'Clavicle and Scapula'
+            },
+            {
+                question: 'Which bone connects the scapula to the thorax?',
+                options: ['Clavicle', 'Humerus', 'Ulna', 'Radius'],
+                correctAnswer: 'Clavicle'
+            },
+            {
+                question: 'The clavicle has how many surfaces in the medial two-thirds?',
+                options: ['Two', 'Three', 'Four', 'Five'],
+                correctAnswer: 'Four'
+            },
+            {
+                question: 'The lateral one-third of the clavicle is separated into how many borders?',
+                options: ['One', 'Two', 'Three', 'Four'],
+                correctAnswer: 'Two'
+            },
+            {
+                question: 'At what age does the secondary center for the sternal end of the clavicle appear?',
+                options: ['5-10 years', '10-15 years', '15-20 years', '20-25 years'],
+                correctAnswer: '15-20 years'
+            },
+            {
+                question: 'Which process of the scapula is attached to the body above the glenoid cavity?',
+                options: ['Acromion process', 'Coracoid process', 'Supraspinous process', 'Infraspinous process'],
+                correctAnswer: 'Coracoid process'
+            },
+            {
+                question: 'The spine of the scapula divides the dorsal surface into which fossae?',
+                options: ['Infrascapular and Suprascapular', 'Supraspinous and Infraspinous', 'Deltoid and Subscapular', 'Coracoid and Glenoid'],
+                correctAnswer: 'Supraspinous and Infraspinous'
+            },
+            {
+                question: 'Which surface of the scapula is concave and smooth?',
+                options: ['Dorsal', 'Costal', 'Lateral', 'Medial'],
+                correctAnswer: 'Costal'
+            },
+            {
+                question: 'Which part of the humerus articulates with the glenoid cavity?',
+                options: ['Head', 'Anatomical neck', 'Greater tubercle', 'Lesser tubercle'],
+                correctAnswer: 'Head'
+            },
+            {
+                question: 'Which nerve is closely related to the surgical neck of the humerus?',
+                options: ['Axillary nerve', 'Radial nerve', 'Ulnar nerve', 'Median nerve'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'The radial groove on the humerus is located on which surface?',
+                options: ['Anterior', 'Posterior', 'Medial', 'Lateral'],
+                correctAnswer: 'Posterior'
+            },
+            {
+                question: 'The capitulum of the humerus articulates with which bone?',
+                options: ['Ulna', 'Radius', 'Scapula', 'Clavicle'],
+                correctAnswer: 'Radius'
+            },
+            {
+                question: 'What is the type of the elbow joint?',
+                options: ['Ball and socket', 'Hinge', 'Saddle', 'Plane'],
+                correctAnswer: 'Hinge'
+            },
+            {
+                question: 'The olecranon fossa is located on which surface of the humerus?',
+                options: ['Anterior', 'Posterior', 'Lateral', 'Medial'],
+                correctAnswer: 'Posterior'
+            },
+            {
+                question: 'Which artery lies in the intertubercular sulcus of the humerus?',
+                options: ['Brachial artery', 'Radial artery', 'Anterior circumflex artery', 'Ascending branch of the anterior circumflex humeral artery'],
+                correctAnswer: 'Ascending branch of the anterior circumflex humeral artery'
+            },
+            {
+                question: 'Which part of the humerus is most likely to fracture at the surgical neck?',
+                options: ['Radial nerve', 'Axillary nerve', 'Ulnar nerve', 'Median nerve'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'The head of the radius articulates with which part of the ulna?',
+                options: ['Trochlear notch', 'Radial notch', 'Coronoid process', 'Olecranon'],
+                correctAnswer: 'Radial notch'
+            },
+            {
+                question: 'Which structure allows rotation of the radius around the ulna?',
+                options: ['Trochlear notch', 'Radial notch', 'Annular ligament', 'Interosseous membrane'],
+                correctAnswer: 'Annular ligament'
+            },
+            {
+                question: 'Which bone of the upper limb is commonly fractured at its lower end resulting in a dinner fork deformity?',
+                options: ['Radius', 'Ulna', 'Humerus', 'Scapula'],
+                correctAnswer: 'Radius'
+            },
+            {
+                question: 'The ulna is located on which side of the forearm?',
+                options: ['Lateral', 'Medial', 'Anterior', 'Posterior'],
+                correctAnswer: 'Medial'
+            },
+            {
+                question: 'Which part of the ulna articulates with the trochlea of the humerus?',
+                options: ['Coronoid process', 'Radial notch', 'Olecranon', 'Trochlear notch'],
+                correctAnswer: 'Trochlear notch'
+            },
+            {
+                question: 'At which age do the secondary centers of the ulna fuse with the shaft?',
+                options: ['5 years', '10 years', '15 years', '20 years'],
+                correctAnswer: '20 years'
+            },
+            {
+                question: 'Which muscle inserts into the radial tuberosity?',
+                options: ['Biceps brachii', 'Brachialis', 'Triceps brachii', 'Deltoid'],
+                correctAnswer: 'Biceps brachii'
+            },
+            {
+                question: 'Fracture at the surgical neck of the humerus is likely to affect which nerve?',
+                options: ['Axillary nerve', 'Radial nerve', 'Ulnar nerve', 'Median nerve'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'Which artery supplies the deltoid muscle?',
+                options: ['Axillary artery', 'Brachial artery', 'Posterior circumflex humeral artery', 'Subclavian artery'],
+                correctAnswer: 'Posterior circumflex humeral artery'
+            },
+            {
+                question: 'Which nerve is responsible for winging of the scapula?',
+                options: ['Long thoracic nerve', 'Axillary nerve', 'Radial nerve', 'Ulnar nerve'],
+                correctAnswer: 'Long thoracic nerve'
+            },
+            {
+                question: 'Which muscle is affected in Erb’s palsy?',
+                options: ['Deltoid', 'Biceps brachii', 'Infraspinatus', 'Supraspinatus'],
+                correctAnswer: 'Supraspinatus'
+            },
+            {
+                question: 'Which type of joint is the sternoclavicular joint?',
+                options: ['Ball and socket', 'Hinge', 'Saddle', 'Pivot'],
+                correctAnswer: 'Saddle'
+            },
+            {
+                question: 'The clavicle articulates with which part of the scapula?',
+                options: ['Acromion', 'Coracoid process', 'Spine', 'Supraspinous fossa'],
+                correctAnswer: 'Acromion'
+            },
+            {
+                question: 'Which ligament bridges the upper end of the intertubercular sulcus of the humerus?',
+                options: ['Coracohumeral ligament', 'Transverse humeral ligament', 'Annular ligament', 'Glenohumeral ligament'],
+                correctAnswer: 'Transverse humeral ligament'
+            },
+            {
+                question: 'Which artery is responsible for supplying the shoulder joint?',
+                options: ['Suprascapular artery', 'Axillary artery', 'Radial artery', 'Brachial artery'],
+                correctAnswer: 'Suprascapular artery'
+            },
+            {
+                question: 'The most movable joint in the upper extremity is the:',
+                options: ['Elbow joint', 'Shoulder joint', 'Wrist joint', 'Sternoclavicular joint'],
+                correctAnswer: 'Shoulder joint'
+            },
+            {
+                question: 'Which muscle is responsible for initial abduction of the arm?',
+                options: ['Supraspinatus', 'Deltoid', 'Infraspinatus', 'Teres minor'],
+                correctAnswer: 'Supraspinatus'
+            },
+            {
+                question: 'Which nerve is involved in Klumpke’s paralysis?',
+                options: ['C8-T1', 'C5-C6', 'C7', 'T2'],
+                correctAnswer: 'C8-T1'
+            },
+
+
+{
+                question: 'What is the primary function of the clavicle?',
+                options: ['Support the shoulder girdle', 'Connect the humerus to the scapula', 'Facilitate movement of the arm', 'Anchor the ribcage'],
+                correctAnswer: 'Support the shoulder girdle'
+            },
+            {
+                question: 'Fracture of the clavicle commonly occurs between which ligaments?',
+                options: ['Costoclavicular and Coracoclavicular', 'Glenohumeral and Acromioclavicular', 'Annular and Radial collateral', 'Ulnar collateral and Transverse humeral'],
+                correctAnswer: 'Costoclavicular and Coracoclavicular'
+            },
+            {
+                question: 'The deltoid tubercle is located on which bone?',
+                options: ['Clavicle', 'Scapula', 'Humerus', 'Radius'],
+                correctAnswer: 'Clavicle'
+            },
+            {
+                question: 'Which surface of the scapula accommodates the spine?',
+                options: ['Anterior surface', 'Costal surface', 'Dorsal surface', 'Medial surface'],
+                correctAnswer: 'Dorsal surface'
+            },
+            {
+                question: 'What structure passes through the suprascapular notch?',
+                options: ['Suprascapular nerve', 'Axillary nerve', 'Radial nerve', 'Ulnar nerve'],
+                correctAnswer: 'Suprascapular nerve'
+            },
+            {
+                question: 'The head of the humerus articulates with which part of the scapula?',
+                options: ['Coracoid process', 'Glenoid cavity', 'Supraspinous fossa', 'Acromion'],
+                correctAnswer: 'Glenoid cavity'
+            },
+            {
+                question: 'Which process of the scapula articulates with the clavicle?',
+                options: ['Coracoid process', 'Acromion', 'Spine', 'Supraglenoid tubercle'],
+                correctAnswer: 'Acromion'
+            },
+            {
+                question: 'Which structure is responsible for stabilizing the head of the humerus during movement?',
+                options: ['Rotator cuff muscles', 'Deltoid muscle', 'Pectoralis major', 'Biceps brachii'],
+                correctAnswer: 'Rotator cuff muscles'
+            },
+            {
+                question: 'Which nerve innervates the deltoid muscle?',
+                options: ['Axillary nerve', 'Radial nerve', 'Median nerve', 'Musculocutaneous nerve'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'The trochlea of the humerus articulates with which part of the ulna?',
+                options: ['Radial notch', 'Coronoid process', 'Olecranon', 'Trochlear notch'],
+                correctAnswer: 'Trochlear notch'
+            },
+            {
+                question: 'Which muscle attaches to the greater tubercle of the humerus?',
+                options: ['Supraspinatus', 'Biceps brachii', 'Deltoid', 'Subscapularis'],
+                correctAnswer: 'Supraspinatus'
+            },
+            {
+                question: 'The surgical neck of the humerus is located between which two parts?',
+                options: ['Head and Shaft', 'Head and Anatomical neck', 'Greater and Lesser tubercle', 'Shaft and Distal end'],
+                correctAnswer: 'Head and Shaft'
+            },
+            {
+                question: 'The radial groove on the humerus contains which nerve?',
+                options: ['Radial nerve', 'Axillary nerve', 'Median nerve', 'Ulnar nerve'],
+                correctAnswer: 'Radial nerve'
+            },
+            {
+                question: 'The interosseous membrane is located between which two bones?',
+                options: ['Radius and Ulna', 'Humerus and Scapula', 'Radius and Humerus', 'Clavicle and Scapula'],
+                correctAnswer: 'Radius and Ulna'
+            },
+            {
+                question: 'Which part of the radius articulates with the capitulum of the humerus?',
+                options: ['Radial head', 'Radial tuberosity', 'Radial notch', 'Styloid process'],
+                correctAnswer: 'Radial head'
+            },
+            {
+                question: 'The ulnar styloid process is located on which part of the ulna?',
+                options: ['Distal end', 'Proximal end', 'Radial notch', 'Trochlear notch'],
+                correctAnswer: 'Distal end'
+            },
+            {
+                question: 'The brachial artery is a continuation of which artery?',
+                options: ['Axillary artery', 'Radial artery', 'Subclavian artery', 'Ulnar artery'],
+                correctAnswer: 'Axillary artery'
+            },
+            {
+                question: 'Which structure is located in the cubital fossa?',
+                options: ['Median nerve', 'Axillary artery', 'Radial nerve', 'Ulnar nerve'],
+                correctAnswer: 'Median nerve'
+            },
+            {
+                question: 'The lateral epicondyle of the humerus is the origin for which muscle group?',
+                options: ['Wrist extensors', 'Wrist flexors', 'Forearm pronators', 'Forearm supinators'],
+                correctAnswer: 'Wrist extensors'
+            },
+            {
+                question: 'Which ligament stabilizes the proximal radioulnar joint?',
+                options: ['Annular ligament', 'Radial collateral ligament', 'Ulnar collateral ligament', 'Transverse humeral ligament'],
+                correctAnswer: 'Annular ligament'
+            },
+            {
+                question: 'Which muscle is the chief extensor of the forearm?',
+                options: ['Triceps brachii', 'Brachialis', 'Biceps brachii', 'Anconeus'],
+                correctAnswer: 'Triceps brachii'
+            },
+            {
+                question: 'Which artery supplies the elbow joint?',
+                options: ['Brachial artery', 'Radial artery', 'Profunda brachii artery', 'Ulnar artery'],
+                correctAnswer: 'Profunda brachii artery'
+            },
+            {
+                question: 'The olecranon process is located on which bone?',
+                options: ['Ulna', 'Radius', 'Humerus', 'Scapula'],
+                correctAnswer: 'Ulna'
+            },
+            {
+                question: 'Fracture of the radial head may limit which movement?',
+                options: ['Supination', 'Pronation', 'Flexion', 'Extension'],
+                correctAnswer: 'Supination'
+            },
+            {
+                question: 'Which muscle inserts onto the coracoid process of the scapula?',
+                options: ['Pectoralis minor', 'Biceps brachii', 'Trapezius', 'Latissimus dorsi'],
+                correctAnswer: 'Pectoralis minor'
+            },
+            {
+                question: 'The lateral border of the scapula extends from which structure?',
+                options: ['Glenoid cavity', 'Spine of scapula', 'Superior angle', 'Acromion'],
+                correctAnswer: 'Glenoid cavity'
+            },
+            {
+                question: 'Which nerve supplies the serratus anterior muscle?',
+                options: ['Long thoracic nerve', 'Axillary nerve', 'Radial nerve', 'Median nerve'],
+                correctAnswer: 'Long thoracic nerve'
+            },
+            {
+                question: 'The intertubercular sulcus of the humerus accommodates which structure?',
+                options: ['Tendon of the long head of the biceps', 'Ulnar nerve', 'Radial artery', 'Profunda brachii artery'],
+                correctAnswer: 'Tendon of the long head of the biceps'
+            },
+            {
+                question: 'Which muscle is primarily responsible for the protraction of the scapula?',
+                options: ['Serratus anterior', 'Trapezius', 'Deltoid', 'Latissimus dorsi'],
+                correctAnswer: 'Serratus anterior'
+            },
+            {
+                question: 'Which nerve is involved in Horner’s syndrome due to Klumpke’s paralysis?',
+                options: ['Sympathetic fibers of T1', 'Radial nerve', 'Median nerve', 'Ulnar nerve'],
+                correctAnswer: 'Sympathetic fibers of T1'
+            },
+            {
+                question: 'Which part of the brachial plexus is affected in Erb’s palsy?',
+                options: ['Upper trunk', 'Lower trunk', 'Lateral cord', 'Medial cord'],
+                correctAnswer: 'Upper trunk'
+            },
+            {
+                question: 'Which artery forms an anastomosis around the elbow joint?',
+                options: ['Profunda brachii artery', 'Axillary artery', 'Subclavian artery', 'Circumflex humeral artery'],
+                correctAnswer: 'Profunda brachii artery'
+            },
+            {
+                question: 'The lateral supracondylar ridge is located on which bone?',
+                options: ['Humerus', 'Radius', 'Ulna', 'Clavicle'],
+                correctAnswer: 'Humerus'
+            },
+
+
+
+{
+                question: 'The bicipital groove of the humerus accommodates which structure?',
+                options: ['Tendon of the long head of biceps', 'Radial nerve', 'Ulnar artery', 'Axillary nerve'],
+                correctAnswer: 'Tendon of the long head of biceps'
+            },
+            {
+                question: 'The interosseous membrane primarily serves to:',
+                options: ['Connect the radius and ulna', 'Stabilize the elbow joint', 'Anchor the humerus to the scapula', 'Support the shoulder joint'],
+                correctAnswer: 'Connect the radius and ulna'
+            },
+            {
+                question: 'The greater tubercle of the humerus provides attachment for which muscles?',
+                options: ['Rotator cuff muscles', 'Biceps brachii', 'Deltoid', 'Triceps brachii'],
+                correctAnswer: 'Rotator cuff muscles'
+            },
+            {
+                question: 'Which artery supplies the forearm flexor muscles?',
+                options: ['Radial artery', 'Ulnar artery', 'Brachial artery', 'Subclavian artery'],
+                correctAnswer: 'Ulnar artery'
+            },
+            {
+                question: 'Which muscle originates from the supraglenoid tubercle?',
+                options: ['Biceps brachii', 'Triceps brachii', 'Deltoid', 'Coracobrachialis'],
+                correctAnswer: 'Biceps brachii'
+            },
+            {
+                question: 'The lateral epicondyle of the humerus is the origin for which muscle group?',
+                options: ['Extensors of the wrist', 'Flexors of the wrist', 'Supinators of the forearm', 'Pronators of the forearm'],
+                correctAnswer: 'Extensors of the wrist'
+            },
+            {
+                question: 'Which nerve is associated with the medial epicondyle of the humerus?',
+                options: ['Ulnar nerve', 'Radial nerve', 'Median nerve', 'Axillary nerve'],
+                correctAnswer: 'Ulnar nerve'
+            },
+            {
+                question: 'The radial styloid process is located at which part of the radius?',
+                options: ['Distal end', 'Proximal end', 'Middle', 'Radial notch'],
+                correctAnswer: 'Distal end'
+            },
+            {
+                question: 'The cubital fossa contains which structure?',
+                options: ['Brachial artery', 'Axillary nerve', 'Ulnar nerve', 'Posterior circumflex artery'],
+                correctAnswer: 'Brachial artery'
+            },
+            {
+                question: 'The coracoid process of the scapula serves as an attachment for which muscle?',
+                options: ['Biceps brachii', 'Deltoid', 'Triceps brachii', 'Pectoralis minor'],
+                correctAnswer: 'Pectoralis minor'
+            },
+            {
+                question: 'The elbow joint is classified as what type of joint?',
+                options: ['Hinge joint', 'Ball and socket joint', 'Pivot joint', 'Saddle joint'],
+                correctAnswer: 'Hinge joint'
+            },
+            {
+                question: 'Which muscle group is responsible for supination of the forearm?',
+                options: ['Biceps brachii and supinator', 'Triceps brachii and pronator teres', 'Brachialis and deltoid', 'Flexor carpi ulnaris and pronator quadratus'],
+                correctAnswer: 'Biceps brachii and supinator'
+            },
+            {
+                question: 'Which artery primarily supplies the upper limb?',
+                options: ['Brachial artery', 'Axillary artery', 'Radial artery', 'Ulnar artery'],
+                correctAnswer: 'Brachial artery'
+            },
+            {
+                question: 'The glenoid labrum is responsible for:',
+                options: ['Deepening the glenoid cavity', 'Stabilizing the humeral head', 'Preventing shoulder dislocation', 'All of the above'],
+                correctAnswer: 'All of the above'
+            },
+            {
+                question: 'Which muscle is the chief flexor of the forearm?',
+                options: ['Brachialis', 'Triceps brachii', 'Deltoid', 'Pectoralis major'],
+                correctAnswer: 'Brachialis'
+            },
+            {
+                question: 'The radial nerve passes through which space in the arm?',
+                options: ['Radial groove', 'Suprascapular notch', 'Intertubercular sulcus', 'Axillary fossa'],
+                correctAnswer: 'Radial groove'
+            },
+            {
+                question: 'Which structure stabilizes the radius and ulna at the distal end?',
+                options: ['Interosseous membrane', 'Radial collateral ligament', 'Ulnar collateral ligament', 'Annular ligament'],
+                correctAnswer: 'Interosseous membrane'
+            },
+            {
+                question: 'The surgical neck of the humerus is prone to injury involving which nerve?',
+                options: ['Axillary nerve', 'Radial nerve', 'Ulnar nerve', 'Median nerve'],
+                correctAnswer: 'Axillary nerve'
+            },
+            {
+                question: 'Which bone forms the majority of the elbow joint with the humerus?',
+                options: ['Ulna', 'Radius', 'Scapula', 'Clavicle'],
+                correctAnswer: 'Ulna'
+            },
+            {
+                question: 'The tendon of which muscle passes through the bicipital groove of the humerus?',
+                options: ['Long head of biceps brachii', 'Short head of biceps brachii', 'Triceps brachii', 'Deltoid'],
+                correctAnswer: 'Long head of biceps brachii'
+            },
+            {
+                question: 'The coronoid fossa of the humerus receives which structure during elbow flexion?',
+                options: ['Coronoid process of the ulna', 'Head of the radius', 'Olecranon process', 'Radial tuberosity'],
+                correctAnswer: 'Coronoid process of the ulna'
+            },
+            {
+                question: 'The medial border of the scapula is also known as the:',
+                options: ['Vertebral border', 'Axillary border', 'Cervical border', 'Costal border'],
+                correctAnswer: 'Vertebral border'
+            },
+            {
+                question: 'Which ligament prevents upward displacement of the humeral head?',
+                options: ['Coracoacromial ligament', 'Transverse humeral ligament', 'Glenohumeral ligament', 'Annular ligament'],
+                correctAnswer: 'Coracoacromial ligament'
+            },
+            {
+                question: 'The musculocutaneous nerve supplies which group of muscles?',
+                options: ['Flexors of the arm', 'Extensors of the arm', 'Flexors of the forearm', 'Extensors of the forearm'],
+                correctAnswer: 'Flexors of the arm'
+            },
+            {
+                question: 'The radial nerve is most commonly injured in fractures of which part of the humerus?',
+                options: ['Shaft', 'Head', 'Surgical neck', 'Greater tubercle'],
+                correctAnswer: 'Shaft'
+            },
+            {
+                question: 'The olecranon is part of which bone?',
+                options: ['Ulna', 'Radius', 'Humerus', 'Scapula'],
+                correctAnswer: 'Ulna'
+            },
+            {
+                question: 'Fracture of the scaphoid bone can lead to damage of which artery?',
+                options: ['Radial artery', 'Ulnar artery', 'Brachial artery', 'Axillary artery'],
+                correctAnswer: 'Radial artery'
+            },
+            {
+                question: 'Which muscle is responsible for initiating abduction of the arm?',
+                options: ['Supraspinatus', 'Deltoid', 'Infraspinatus', 'Teres minor'],
+                correctAnswer: 'Supraspinatus'
+            },
+            {
+                question: 'The posterior circumflex humeral artery is a branch of which artery?',
+                options: ['Axillary artery', 'Brachial artery', 'Radial artery', 'Subclavian artery'],
+                correctAnswer: 'Axillary artery'
+            },
+            {
+                question: 'The head of the radius articulates with which part of the humerus?',
+                options: ['Capitulum', 'Trochlea', 'Coronoid fossa', 'Olecranon fossa'],
+                correctAnswer: 'Capitulum'
+            },
+
+
+
+
+
         ]
     },
 
