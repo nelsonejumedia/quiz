@@ -3863,7 +3863,7 @@ document.addEventListener("DOMContentLoaded", () => {
           question: "Which planet is known as the Red Planet?",
           options: ["Venus", "Mars", "Jupiter", "Saturn"],
           correctAnswer: "Mars",
-          explanation: 'Mars is often called the Red Planet due to its reddish appearance in the night sky, caused by iron oxide (rust) on its surface.'
+          explanation: 'Mars is often called the Red Planet due to its reddish appearance in the night sky, caused by iron oxide (rust) on its surface nawa p.'
         },
         {
           question: "What is the chemical symbol for water?",
@@ -4198,11 +4198,12 @@ function showReviewScreen() {
 
 function displayQuestions() {
   questionList.innerHTML = '';
-  currentQuiz.forEach((q, index) => {
+  currentQuiz.questions.forEach((q, index) => {
       const questionBox = document.createElement('div');
       questionBox.classList.add('question-box');
       questionBox.innerHTML = `
           <p><strong>Question ${index + 1}:</strong> ${q.question}</p>
+          <!-- <p><strong>Options:</strong> ${q.options.join(', ')}</p>-->
           <p><strong>Correct Answer:</strong> ${q.correctAnswer}</p>
       `;
       questionBox.addEventListener('click', () => showExplanation(q.explanation));
@@ -4220,10 +4221,15 @@ function hideExplanation() {
 }
 
 function startReview(category) {
-  currentQuiz = quizzes[category];
-  score = Math.floor(Math.random() * (currentQuiz.length + 1)); // Simulating a random score
-  scoreDisplay.textContent = `You scored ${score} out of ${currentQuiz.length}!`;
-  resultsScreen.classList.remove('hidden');
+  const quiz = quizzes.find(q => q.category === category);
+  if (quiz) {
+      currentQuiz = quiz;
+      score = Math.floor(Math.random() * (currentQuiz.questions.length + 1)); // Simulating a random score
+      scoreDisplay.textContent = `You scored ${score} out of ${currentQuiz.questions.length}!`;
+      resultsScreen.classList.remove('hidden');
+  } else {
+      console.error('Category not found');
+  }
 }
 
 reviewBtn.addEventListener('click', showReviewScreen);
@@ -4235,8 +4241,7 @@ homeBtn.addEventListener('click', () => {
 });
 
 // Simulating a completed quiz
-startReview("Thorax");
-
+startReview();
 
 
 
