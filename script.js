@@ -15,25 +15,44 @@ document.addEventListener("DOMContentLoaded", () => {
   const scorePercentage = document.getElementById("score-percentage");
   const scoreDetails = document.getElementById("score-details");
 
+  // Extra js for review
+  // const resultsScreen = document.getElementById('results-screen');
+  const reviewScreen = document.getElementById('review-screen');
+  const questionList = document.getElementById('question-list');
+  const explanationModal = document.getElementById('explanation-modal');
+  const explanationText = document.getElementById('explanation-text');
+  const closeBtn = document.querySelector('.close');
+  const reviewBtn = document.getElementById('review-btn');
+  const homeBtn = document.getElementById('home-btn');
+  const scoreDisplay = document.getElementById('score-display');
+
+
+
+
+
+
+
+
+
   let currentQuiz = null;
   let currentQuestionIndex = 0;
   let score = 0;
   let timer = null;
 
-  function playSound(isCorrect) {
-    const correctSound = document.getElementById("correct-sound");
-    const incorrectSound = document.getElementById("incorrect-sound");
-    if (isCorrect) {
-      correctSound.play();
-    } else {
-      incorrectSound.play();
-    }
-  }
+  // function playSound(isCorrect) {
+  //   const correctSound = document.getElementById("correct-sound");
+  //   const incorrectSound = document.getElementById("incorrect-sound");
+  //   if (isCorrect) {
+  //     correctSound.play();
+  //   } else {
+  //     incorrectSound.play();
+  //   }
+  // }
 
-  function checkAnswer(correctAnswer, selectedOption) {
-    const isCorrect = correctAnswer === selectedOption;
-    playSound(isCorrect);
-  }
+  // function checkAnswer(correctAnswer, selectedOption) {
+  //   const isCorrect = correctAnswer === selectedOption;
+  //   playSound(isCorrect);
+  // }
 
   const quizzes = [
     {
@@ -3844,11 +3863,13 @@ document.addEventListener("DOMContentLoaded", () => {
           question: "Which planet is known as the Red Planet?",
           options: ["Venus", "Mars", "Jupiter", "Saturn"],
           correctAnswer: "Mars",
+          explanation: 'Mars is often called the Red Planet due to its reddish appearance in the night sky, caused by iron oxide (rust) on its surface.'
         },
         {
           question: "What is the chemical symbol for water?",
           options: ["Wa", "H2O", "Ho", "Hy"],
           correctAnswer: "H2O",
+          explanation: 'H2O represents two hydrogen atoms and one oxygen atom bonded together to form a water molecule.'
         },
         {
           question: "What is the powerhouse of the cell?",
@@ -3859,6 +3880,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Golgi Apparatus",
           ],
           correctAnswer: "Mitochondria",
+          explanation: 'Mitochondria are organelles that generate most of the cell\'s supply of adenosine triphosphate (ATP), used as a source of chemical energy.'
         },
       ],
     },
@@ -4156,4 +4178,71 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => showScreen(homeScreen));
   });
   submitBtn.addEventListener("click", submitAnswer);
+
+
+
+
+
+
+
+
+
+
+/////Review section
+function showReviewScreen() {
+  resultsScreen.classList.add('hidden');
+  reviewScreen.classList.remove('hidden');
+  homeBtn.classList.remove('hidden');
+  displayQuestions();
+}
+
+function displayQuestions() {
+  questionList.innerHTML = '';
+  currentQuiz.forEach((q, index) => {
+      const questionBox = document.createElement('div');
+      questionBox.classList.add('question-box');
+      questionBox.innerHTML = `
+          <p><strong>Question ${index + 1}:</strong> ${q.question}</p>
+          <p><strong>Correct Answer:</strong> ${q.correctAnswer}</p>
+      `;
+      questionBox.addEventListener('click', () => showExplanation(q.explanation));
+      questionList.appendChild(questionBox);
+  });
+}
+
+function showExplanation(explanation) {
+  explanationText.textContent = explanation;
+  explanationModal.classList.remove('hidden');
+}
+
+function hideExplanation() {
+  explanationModal.classList.add('hidden');
+}
+
+function startReview(category) {
+  currentQuiz = quizzes[category];
+  score = Math.floor(Math.random() * (currentQuiz.length + 1)); // Simulating a random score
+  scoreDisplay.textContent = `You scored ${score} out of ${currentQuiz.length}!`;
+  resultsScreen.classList.remove('hidden');
+}
+
+reviewBtn.addEventListener('click', showReviewScreen);
+closeBtn.addEventListener('click', hideExplanation);
+homeBtn.addEventListener('click', () => {
+  reviewScreen.classList.add('hidden');
+  resultsScreen.classList.remove('hidden');
+  homeBtn.classList.add('hidden');
 });
+
+// Simulating a completed quiz
+startReview("Thorax");
+
+
+
+
+
+});
+
+
+
+

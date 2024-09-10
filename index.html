@@ -15,6 +15,7 @@
                 <h1>IQ Rush: Medical Sciences</h1>
                 <i data-lucide="bell"></i>
             </div>
+
             <div class="score-container animate-slide-up">
                 <div class="score-box">
                     <p>Categories</p>
@@ -148,6 +149,12 @@
                 <p>Quiz completed successfully.</p>
                 <p id="score-details"></p>
             </div>
+
+            
+            <!-- button for preview -->
+            <button id="review-btn">Review Questions</button>
+
+
             <p class="animate-fade-in">Share with us</p>
             <div class="share-buttons animate-stagger-in">
                 <div class="share-btn facebook"></div>
@@ -155,6 +162,22 @@
                 <div class="share-btn instagram"></div>
             </div>
         </div>
+
+
+
+        <!-- Quiz Review -->
+        <div id="review-screen" class="hidden">
+            <h2 class="p-h2">Quiz Review</h2>
+            <div id="question-list"></div>
+        </div>
+        <div id="explanation-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Explanation</h2>
+                <p id="explanation-text"></p>
+            </div>
+        </div>
+        <button id="home-btn" class="hidden">Back to Home</button>
     </div>
 
 
