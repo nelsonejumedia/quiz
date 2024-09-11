@@ -5321,26 +5321,439 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       category: "Nervous Tissues",
       questions: [
-        {
-          question: "Which planet is known as the Red Planet?",
-          options: ["Venus", "Mars", "Jupiter", "Saturn"],
-          correctAnswer: "Mars",
-        },
-        {
-          question: "What is the chemical symbol for water?",
-          options: ["Wa", "H2O", "Ho", "Hy"],
-          correctAnswer: "H2O",
-        },
-        {
-          question: "What is the powerhouse of the cell?",
-          options: [
-            "Nucleus",
-            "Mitochondria",
-            "Endoplasmic Reticulum",
-            "Golgi Apparatus",
-          ],
-          correctAnswer: "Mitochondria",
-        },
+        
+  {
+    question: "What are the two main parts of the nervous system?",
+    options: [
+      "Central Nervous System and Autonomic Nervous System",
+      "Central Nervous System and Peripheral Nervous System",
+      "Somatic Nervous System and Peripheral Nervous System",
+      "Autonomic Nervous System and Somatic Nervous System",
+    ],
+    correctAnswer: "Central Nervous System and Peripheral Nervous System",
+    explanation: "The nervous system is divided into the CNS, consisting of the brain and spinal cord, and the PNS, consisting of nerves and ganglia."
+  },
+  {
+    question: "What is the main function of neurones?",
+    options: [
+      "To provide structural support to organs",
+      "To gather and process information and generate response signals",
+      "To store nutrients for the brain",
+      "To protect the body against infections",
+    ],
+    correctAnswer: "To gather and process information and generate response signals",
+    explanation: "Neurones are specialized cells that gather information, process it, and send response signals to different parts of the body."
+  },
+  {
+    question: "Which type of cells form the myelin sheath in the Central Nervous System?",
+    options: [
+      "Schwann cells",
+      "Astrocytes",
+      "Microglia",
+      "Oligodendrocytes",
+    ],
+    correctAnswer: "Oligodendrocytes",
+    explanation: "Oligodendrocytes are responsible for forming myelin sheaths in the CNS, while Schwann cells perform this role in the PNS."
+  },
+  {
+    question: "What is the function of microglia in the CNS?",
+    options: [
+      "Provide mechanical support to neurones",
+      "Form the blood-brain barrier",
+      "Phagocytic activity and defense",
+      "Transmit nerve signals",
+    ],
+    correctAnswer: "Phagocytic activity and defense",
+    explanation: "Microglia are the immune cells of the CNS, responsible for phagocytosing debris and pathogens."
+  },
+  {
+    question: "Which structure of the neuron is responsible for transmitting action potentials to other neurons or effector organs?",
+    options: [
+      "Dendrites",
+      "Axon",
+      "Synapse",
+      "Cell body",
+    ],
+    correctAnswer: "Axon",
+    explanation: "The axon conducts action potentials away from the neuron's cell body to other neurons or effector organs."
+  },
+  {
+    question: "What are synapses?",
+    options: [
+      "Junctions between neurons for transmission of action potentials",
+      "Supportive cells for neurons",
+      "Insulating sheaths around axons",
+      "Regions where neurotransmitters are produced",
+    ],
+    correctAnswer: "Junctions between neurons for transmission of action potentials",
+    explanation: "Synapses are specialized junctions where neurons transmit signals via neurotransmitters to other neurons."
+  },
+  {
+    question: "Which part of the nervous system is responsible for involuntary actions like heart rate and digestion?",
+    options: [
+      "Somatic Nervous System",
+      "Central Nervous System",
+      "Peripheral Nervous System",
+      "Autonomic Nervous System",
+    ],
+    correctAnswer: "Autonomic Nervous System",
+    explanation: "The Autonomic Nervous System controls involuntary actions such as heart rate and digestion."
+  },
+  {
+    question: "What happens during an epileptic seizure?",
+    options: [
+      "There is an abnormal increase in neurotransmitter production",
+      "The regulation of neuronal excitability becomes abnormal, leading to uncontrolled depolarization",
+      "Neurons stop functioning and die",
+      "The synaptic transmission is enhanced",
+    ],
+    correctAnswer: "The regulation of neuronal excitability becomes abnormal, leading to uncontrolled depolarization",
+    explanation: "Epileptic seizures occur due to abnormal regulation of neuronal excitability, causing uncontrolled spread of depolarization."
+  },
+  {
+    question: "Which disease is characterized by the degeneration of motor neurons?",
+    options: [
+      "Multiple sclerosis",
+      "Parkinson’s disease",
+      "Motor neuron disease",
+      "Alzheimer's disease",
+    ],
+    correctAnswer: "Motor neuron disease",
+    explanation: "Motor neuron disease is characterized by the progressive degeneration and death of motor neurons."
+  },
+  {
+    question: "What is the role of the blood-brain barrier?",
+    options: [
+      "Prevent nutrients from entering the brain",
+      "Facilitate the transport of oxygen to neurons",
+      "Prevent certain substances in the blood from entering the brain",
+      "Provide structural support to neurons",
+    ],
+    correctAnswer: "Prevent certain substances in the blood from entering the brain",
+    explanation: "The blood-brain barrier regulates the passage of substances between the blood and the brain to protect the CNS."
+  },
+  {
+    question: "Which cells provide structural and metabolic support to neurons in the CNS?",
+    options: [
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Microglia",
+      "Schwann cells",
+    ],
+    correctAnswer: "Astrocytes",
+    explanation: "Astrocytes are highly branched cells in the CNS that provide structural and metabolic support to neurons."
+  },
+  {
+    question: "What happens to myelin sheaths in multiple sclerosis?",
+    options: [
+      "They become thicker, increasing conduction velocity",
+      "They degrade, reducing effective signal transmission",
+      "They enhance synaptic activity",
+      "They regenerate after damage",
+    ],
+    correctAnswer: "They degrade, reducing effective signal transmission",
+    explanation: "In multiple sclerosis, myelin sheaths degrade, leading to impaired signal transmission between neurons."
+  },
+  {
+    question: "What are the primary sensory neurons called?",
+    options: [
+      "Multipolar neurons",
+      "Pseudo-unipolar neurons",
+      "Bipolar neurons",
+      "Interneurons",
+    ],
+    correctAnswer: "Pseudo-unipolar neurons",
+    explanation: "Primary sensory neurons are pseudo-unipolar, with a single process that divides into two branches."
+  },
+  {
+    question: "Which cells in the PNS form the myelin sheath?",
+    options: [
+      "Astrocytes",
+      "Oligodendrocytes",
+      "Schwann cells",
+      "Microglia",
+    ],
+    correctAnswer: "Schwann cells",
+    explanation: "Schwann cells form the myelin sheath around axons in the Peripheral Nervous System (PNS)."
+  },
+  {
+    question: "What type of neuron is involved in voluntary movement control?",
+    options: [
+      "Autonomic neurons",
+      "Sensory neurons",
+      "Motor neurons",
+      "Interneurons",
+    ],
+    correctAnswer: "Motor neurons",
+    explanation: "Motor neurons transmit signals from the CNS to muscles, controlling voluntary movement."
+  },
+  {
+    question: "What structure protects axons and facilitates faster transmission of nerve signals?",
+    options: [
+      "Schwann cells",
+      "Synapse",
+      "Myelin sheath",
+      "Dendrites",
+    ],
+    correctAnswer: "Myelin sheath",
+    explanation: "The myelin sheath insulates axons and speeds up the transmission of nerve signals."
+  },
+  {
+    question: "Which part of the neuron receives signals from other neurons?",
+    options: [
+      "Axon",
+      "Cell body",
+      "Dendrites",
+      "Myelin sheath",
+    ],
+    correctAnswer: "Dendrites",
+    explanation: "Dendrites are the branched projections that receive signals from other neurons."
+  },
+  {
+    question: "What is the role of ependymal cells in the CNS?",
+    options: [
+      "Form the myelin sheath",
+      "Line the ventricles and produce cerebrospinal fluid (CSF)",
+      "Transmit nerve impulses",
+      "Act as phagocytes",
+    ],
+    correctAnswer: "Line the ventricles and produce cerebrospinal fluid (CSF)",
+    explanation: "Ependymal cells line the ventricles of the brain and produce cerebrospinal fluid, which cushions the CNS."
+  },
+  {
+    question: "Which of the following describes the function of neurotransmitters?",
+    options: [
+      "Insulate neurons from electrical signals",
+      "Transmit signals across synapses",
+      "Store nutrients for neurons",
+      "Generate action potentials in axons",
+    ],
+    correctAnswer: "Transmit signals across synapses",
+    explanation: "Neurotransmitters are chemical messengers that transmit signals across synapses between neurons."
+  },
+  {
+    question: "What type of neuron typically has a single axon and multiple dendrites?",
+    options: [
+      "Multipolar neurons",
+      "Bipolar neurons",
+      "Pseudo-unipolar neurons",
+      "Interneurons",
+    ],
+    correctAnswer: "Multipolar neurons",
+    explanation: "Multipolar neurons have a single axon and multiple dendrites, making them common in motor and integratory pathways."
+  },
+
+  {
+    question: "Which cells in the CNS form the blood-brain barrier?",
+    options: [
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Microglia",
+      "Schwann cells",
+    ],
+    correctAnswer: "Astrocytes",
+    explanation: "Astrocytes are involved in forming the blood-brain barrier by their foot processes surrounding the capillaries in the CNS."
+  },
+  {
+    question: "What is the function of the choroid plexus in the CNS?",
+    options: [
+      "Regulate blood flow",
+      "Produce cerebrospinal fluid",
+      "Form synapses between neurons",
+      "Provide immune defense",
+    ],
+    correctAnswer: "Produce cerebrospinal fluid",
+    explanation: "The choroid plexus produces cerebrospinal fluid (CSF) that circulates in the CNS to cushion and protect it."
+  },
+  {
+    question: "What type of neurons are found in the dorsal root ganglia?",
+    options: [
+      "Multipolar neurons",
+      "Bipolar neurons",
+      "Pseudo-unipolar neurons",
+      "Interneurons",
+    ],
+    correctAnswer: "Pseudo-unipolar neurons",
+    explanation: "The dorsal root ganglia contain pseudo-unipolar neurons, which are sensory neurons."
+  },
+  {
+    question: "Which neuroglial cells are involved in phagocytosis in the CNS?",
+    options: [
+      "Astrocytes",
+      "Oligodendrocytes",
+      "Schwann cells",
+      "Microglia",
+    ],
+    correctAnswer: "Microglia",
+    explanation: "Microglia are the phagocytic cells of the CNS, removing debris and pathogens."
+  },
+  {
+    question: "Which disease is characterized by the loss of myelin in the CNS?",
+    options: [
+      "Alzheimer's disease",
+      "Parkinson’s disease",
+      "Multiple sclerosis",
+      "Huntington's disease",
+    ],
+    correctAnswer: "Multiple sclerosis",
+    explanation: "Multiple sclerosis involves the degradation of myelin sheaths in the CNS, affecting signal transmission."
+  },
+  {
+    question: "What is the primary function of Schwann cells in the PNS?",
+    options: [
+      "Transmit nerve impulses",
+      "Form myelin sheaths",
+      "Provide structural support",
+      "Engage in phagocytosis",
+    ],
+    correctAnswer: "Form myelin sheaths",
+    explanation: "Schwann cells form the myelin sheaths around peripheral nerves, facilitating faster signal transmission."
+  },
+  {
+    question: "What is the role of the axon hillock in a neuron?",
+    options: [
+      "Synthesize neurotransmitters",
+      "Receive signals from other neurons",
+      "Generate action potentials",
+      "Store ions for signal transmission",
+    ],
+    correctAnswer: "Generate action potentials",
+    explanation: "The axon hillock is the region of the neuron where action potentials are generated."
+  },
+  {
+    question: "Which cells line the ventricles of the brain?",
+    options: [
+      "Microglia",
+      "Astrocytes",
+      "Ependymal cells",
+      "Oligodendrocytes",
+    ],
+    correctAnswer: "Ependymal cells",
+    explanation: "Ependymal cells line the ventricles and are involved in the production and circulation of cerebrospinal fluid."
+  },
+  {
+    question: "Which disease affects neuromuscular transmission by targeting acetylcholine receptors?",
+    options: [
+      "Parkinson’s disease",
+      "Multiple sclerosis",
+      "Myasthenia gravis",
+      "Alzheimer's disease",
+    ],
+    correctAnswer: "Myasthenia gravis",
+    explanation: "Myasthenia gravis is an autoimmune disease where antibodies attack acetylcholine receptors, impairing neuromuscular transmission."
+  },
+  {
+    question: "What type of glial cells form myelin in the CNS?",
+    options: [
+      "Astrocytes",
+      "Oligodendrocytes",
+      "Microglia",
+      "Schwann cells",
+    ],
+    correctAnswer: "Oligodendrocytes",
+    explanation: "Oligodendrocytes are responsible for forming myelin sheaths around axons in the CNS."
+  },
+  {
+    question: "Which part of the nervous system is responsible for the fight or flight response?",
+    options: [
+      "Central Nervous System",
+      "Parasympathetic Nervous System",
+      "Somatic Nervous System",
+      "Sympathetic Nervous System",
+    ],
+    correctAnswer: "Sympathetic Nervous System",
+    explanation: "The Sympathetic Nervous System is responsible for the fight or flight response, preparing the body for stress."
+  },
+  {
+    question: "What is the primary role of neurotransmitters?",
+    options: [
+      "Transmit signals across a synapse",
+      "Insulate axons",
+      "Facilitate nutrient exchange",
+      "Generate action potentials",
+    ],
+    correctAnswer: "Transmit signals across a synapse",
+    explanation: "Neurotransmitters are chemical messengers that transmit signals from one neuron to another across a synapse."
+  },
+  {
+    question: "Which part of the neuron typically receives signals from other neurons?",
+    options: [
+      "Axon",
+      "Dendrites",
+      "Myelin sheath",
+      "Cell body",
+    ],
+    correctAnswer: "Dendrites",
+    explanation: "Dendrites are the parts of the neuron that receive signals from other neurons and relay them to the cell body."
+  },
+  {
+    question: "What structure surrounds bundles of nerve fibers in a peripheral nerve?",
+    options: [
+      "Endoneurium",
+      "Perineurium",
+      "Epineurium",
+      "Myelin sheath",
+    ],
+    correctAnswer: "Perineurium",
+    explanation: "The perineurium surrounds each bundle (fascicle) of nerve fibers in a peripheral nerve."
+  },
+  {
+    question: "Which type of neuron typically has a single axon and multiple dendrites?",
+    options: [
+      "Multipolar neurons",
+      "Bipolar neurons",
+      "Pseudo-unipolar neurons",
+      "Interneurons",
+    ],
+    correctAnswer: "Multipolar neurons",
+    explanation: "Multipolar neurons, commonly found in motor pathways, have a single axon and multiple dendrites."
+  },
+  {
+    question: "Which of the following best describes the role of dendrites in neurons?",
+    options: [
+      "Transmit signals to other neurons",
+      "Synthesize neurotransmitters",
+      "Receive incoming signals from other neurons",
+      "Generate action potentials",
+    ],
+    correctAnswer: "Receive incoming signals from other neurons",
+    explanation: "Dendrites are the branch-like structures that receive incoming signals from other neurons and transmit them to the cell body."
+  },
+  {
+    question: "What type of cells are responsible for forming the myelin sheath in the Peripheral Nervous System?",
+    options: [
+      "Microglia",
+      "Oligodendrocytes",
+      "Schwann cells",
+      "Astrocytes",
+    ],
+    correctAnswer: "Schwann cells",
+    explanation: "Schwann cells form the myelin sheath around axons in the Peripheral Nervous System."
+  },
+  {
+    question: "What is the role of interneurons in the nervous system?",
+    options: [
+      "Relay signals between sensory and motor neurons",
+      "Transmit sensory signals to the brain",
+      "Stimulate muscle contractions",
+      "Regulate blood flow in the brain",
+    ],
+    correctAnswer: "Relay signals between sensory and motor neurons",
+    explanation: "Interneurons act as intermediaries in the central nervous system, relaying signals between sensory and motor neurons."
+  },
+  {
+    question: "Which type of glial cells help form the blood-brain barrier?",
+    options: [
+      "Schwann cells",
+      "Astrocytes",
+      "Microglia",
+      "Oligodendrocytes",
+    ],
+    correctAnswer: "Astrocytes",
+    explanation: "Astrocytes help form the blood-brain barrier, controlling the movement of substances from the bloodstream into the brain."
+  },
+  
+
       ],
     },
 
