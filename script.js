@@ -4307,6 +4307,191 @@ document.addEventListener("DOMContentLoaded", () => {
           correctAnswer: "Transitional epithelium",
           explanation: "Transitional epithelium lines the ureters and bladder, allowing them to stretch as they fill with urine."
         },
+
+
+  {
+    question: "Which type of epithelium has cells that change shape depending on the stretching of the tissue?",
+    options: [
+      "Simple cuboidal epithelium",
+      "Stratified squamous epithelium",
+      "Transitional epithelium",
+      "Pseudostratified columnar epithelium",
+    ],
+    correctAnswer: "Transitional epithelium",
+    explanation: "Transitional epithelium lines organs like the bladder, allowing them to stretch as they fill and empty."
+  },
+  {
+    question: "What is the main role of the basement membrane in epithelial tissues?",
+    options: [
+      "Secreting mucus",
+      "Providing structural support and selective permeability",
+      "Absorbing nutrients",
+      "Producing keratin",
+    ],
+    correctAnswer: "Providing structural support and selective permeability",
+    explanation: "The basement membrane provides physical support and regulates material exchange between epithelial and underlying tissues."
+  },
+  {
+    question: "Which type of epithelial tissue consists of multiple layers, providing protection in areas of wear and tear?",
+    options: [
+      "Simple columnar epithelium",
+      "Stratified squamous epithelium",
+      "Simple cuboidal epithelium",
+      "Pseudostratified epithelium",
+    ],
+    correctAnswer: "Stratified squamous epithelium",
+    explanation: "Stratified squamous epithelium is composed of several layers, which makes it suitable for protecting areas subjected to friction, such as the skin."
+  },
+  {
+    question: "Where would you typically find simple cuboidal epithelium?",
+    options: [
+      "Lining the blood vessels",
+      "In the kidney tubules",
+      "On the skin surface",
+      "In the small intestine",
+    ],
+    correctAnswer: "In the kidney tubules",
+    explanation: "Simple cuboidal epithelium lines the kidney tubules and is involved in secretion and absorption."
+  },
+  {
+    question: "Which structure is composed of pseudostratified columnar epithelium?",
+    options: [
+      "Trachea",
+      "Kidney tubules",
+      "Alveoli of the lungs",
+      "Epidermis",
+    ],
+    correctAnswer: "Trachea",
+    explanation: "Pseudostratified columnar epithelium with cilia and goblet cells lines the trachea, helping trap and move particles out of the airways."
+  },
+  {
+    question: "Which type of epithelium is best suited for rapid exchange of materials by diffusion?",
+    options: [
+      "Simple columnar epithelium",
+      "Simple squamous epithelium",
+      "Stratified cuboidal epithelium",
+      "Transitional epithelium",
+    ],
+    correctAnswer: "Simple squamous epithelium",
+    explanation: "Simple squamous epithelium is very thin, allowing for efficient diffusion of gases and nutrients, like in the alveoli and capillaries."
+  },
+  {
+    question: "What feature is characteristic of keratinized stratified squamous epithelium?",
+    options: [
+      "Surface cilia",
+      "Thick layer of dead cells",
+      "Secretory cells",
+      "Absorptive microvilli",
+    ],
+    correctAnswer: "Thick layer of dead cells",
+    explanation: "Keratinized stratified squamous epithelium, found in the skin, provides a tough barrier due to its outer layer of dead, keratin-filled cells."
+  },
+  {
+    question: "Which of the following epithelium types forms the inner lining of blood vessels?",
+    options: [
+      "Simple squamous epithelium",
+      "Simple cuboidal epithelium",
+      "Stratified squamous epithelium",
+      "Transitional epithelium",
+    ],
+    correctAnswer: "Simple squamous epithelium",
+    explanation: "Simple squamous epithelium, also known as endothelium, lines blood vessels and is ideal for smooth blood flow and exchange."
+  },
+  {
+    question: "Which epithelium type is found in the ducts of sweat glands?",
+    options: [
+      "Simple columnar epithelium",
+      "Stratified cuboidal epithelium",
+      "Transitional epithelium",
+      "Stratified squamous epithelium",
+    ],
+    correctAnswer: "Stratified cuboidal epithelium",
+    explanation: "Stratified cuboidal epithelium provides a strong lining for ducts such as those in sweat glands, offering more protection than a single layer."
+  },
+  {
+    question: "What structure separates the epithelial cells from the underlying connective tissue?",
+    options: [
+      "Cilia",
+      "Basement membrane",
+      "Gap junctions",
+      "Microvilli",
+    ],
+    correctAnswer: "Basement membrane",
+    explanation: "The basement membrane is a thin layer that provides support and anchors epithelial cells to the underlying connective tissue."
+  },
+  {
+    question: "Which epithelial tissue type lines the alveoli of the lungs?",
+    options: [
+      "Simple columnar epithelium",
+      "Stratified squamous epithelium",
+      "Simple squamous epithelium",
+      "Transitional epithelium",
+    ],
+    correctAnswer: "Simple squamous epithelium",
+    explanation: "Simple squamous epithelium lines the alveoli, facilitating the efficient exchange of oxygen and carbon dioxide."
+  },
+  {
+    question: "Which of the following is a function of goblet cells in epithelial tissues?",
+    options: [
+      "Absorption",
+      "Secretion of mucus",
+      "Providing structural support",
+      "Facilitating gas exchange",
+    ],
+    correctAnswer: "Secretion of mucus",
+    explanation: "Goblet cells are specialized epithelial cells that secrete mucus to protect and lubricate the surface of organs such as the respiratory and digestive tracts."
+  },
+  {
+    question: "Which type of epithelium is commonly involved in absorption and secretion in the digestive system?",
+    options: [
+      "Simple cuboidal epithelium",
+      "Stratified squamous epithelium",
+      "Simple columnar epithelium",
+      "Transitional epithelium",
+    ],
+    correctAnswer: "Simple columnar epithelium",
+    explanation: "Simple columnar epithelium, often with microvilli, lines much of the digestive tract where it aids in nutrient absorption."
+  },
+  {
+    question: "What type of epithelium covers the body’s external surface and serves as the first line of defense against environmental factors?",
+    options: [
+      "Simple squamous epithelium",
+      "Stratified squamous keratinized epithelium",
+      "Simple columnar epithelium",
+      "Transitional epithelium",
+    ],
+    correctAnswer: "Stratified squamous keratinized epithelium",
+    explanation: "The skin is covered by stratified squamous keratinized epithelium, providing protection against mechanical damage, pathogens, and dehydration."
+  },
+  {
+    question: "Where would you find pseudostratified ciliated columnar epithelium?",
+    options: [
+      "Lining the trachea",
+      "In the alveoli",
+      "On the skin surface",
+      "In the urinary bladder",
+    ],
+    correctAnswer: "Lining the trachea",
+    explanation: "Pseudostratified ciliated columnar epithelium lines the trachea, where the cilia help move mucus and trapped particles out of the respiratory tract."
+  },
+  {
+    question: "Which type of cell junction in epithelial tissues prevents substances from passing between adjacent cells?",
+    options: [
+      "Tight junctions",
+      "Desmosomes",
+      "Gap junctions",
+      "Hemidesmosomes",
+    ],
+    correctAnswer: "Tight junctions",
+    explanation: "Tight junctions create a seal between adjacent epithelial cells, preventing substances from leaking between them."
+  },
+
+
+
+
+
+
+
        
       ],
     },
