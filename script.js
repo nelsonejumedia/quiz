@@ -3229,6 +3229,593 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// // Lower Limbs.////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      category: "Lower Limbs",
+      questions: [
+        
+  {
+    question: "What is the main function of the femur?",
+    options: [
+      "To connect the spine to the upper limb",
+      "To support the body's weight during standing and walking",
+      "To protect the internal pelvic organs",
+      "To aid in respiration"
+    ],
+    correctAnswer: "To support the body's weight during standing and walking",
+    explanation: "The femur is the longest and strongest bone in the body, essential for supporting body weight during movement."
+  },
+  {
+    question: "Which bone is located laterally to the tibia in the leg?",
+    options: [
+      "Fibula",
+      "Femur",
+      "Patella",
+      "Talus"
+    ],
+    correctAnswer: "Fibula",
+    explanation: "The fibula is the smaller bone of the leg, located laterally to the tibia and contributing to the ankle joint."
+  },
+  {
+    question: "Which joint connects the lower limb to the pelvis?",
+    options: [
+      "Knee joint",
+      "Ankle joint",
+      "Hip joint",
+      "Tibiofibular joint"
+    ],
+    correctAnswer: "Hip joint",
+    explanation: "The hip joint is a ball-and-socket joint connecting the femur to the pelvic girdle, providing a wide range of motion."
+  },
+  {
+    question: "What type of joint is the knee joint?",
+    options: [
+      "Hinge joint",
+      "Ball-and-socket joint",
+      "Pivot joint",
+      "Saddle joint"
+    ],
+    correctAnswer: "Hinge joint",
+    explanation: "The knee joint is a hinge joint, allowing flexion and extension movements."
+  },
+  {
+    question: "What is the primary function of the gluteus maximus muscle?",
+    options: [
+      "Flexion of the hip",
+      "Extension of the hip",
+      "Adduction of the thigh",
+      "Rotation of the tibia"
+    ],
+    correctAnswer: "Extension of the hip",
+    explanation: "The gluteus maximus is responsible for extending the hip, especially during activities like standing and walking."
+  },
+  {
+    question: "Which nerve innervates the muscles of the anterior thigh?",
+    options: [
+      "Sciatic nerve",
+      "Femoral nerve",
+      "Obturator nerve",
+      "Tibial nerve"
+    ],
+    correctAnswer: "Femoral nerve",
+    explanation: "The femoral nerve supplies the muscles of the anterior thigh, including the quadriceps."
+  },
+  {
+    question: "Which bone forms the medial malleolus of the ankle?",
+    options: [
+      "Fibula",
+      "Tibia",
+      "Talus",
+      "Calcaneus"
+    ],
+    correctAnswer: "Tibia",
+    explanation: "The tibia forms the medial malleolus, which is the bony prominence on the inner side of the ankle."
+  },
+  {
+    question: "What type of movement is produced by the quadriceps femoris muscle?",
+    options: [
+      "Flexion of the hip",
+      "Extension of the knee",
+      "Adduction of the thigh",
+      "Flexion of the knee"
+    ],
+    correctAnswer: "Extension of the knee",
+    explanation: "The quadriceps femoris is the main extensor muscle of the knee."
+  },
+  {
+    question: "What is the primary function of the tibialis anterior muscle?",
+    options: [
+      "Plantarflexion of the foot",
+      "Dorsiflexion of the foot",
+      "Extension of the toes",
+      "Flexion of the knee"
+    ],
+    correctAnswer: "Dorsiflexion of the foot",
+    explanation: "The tibialis anterior muscle is responsible for dorsiflexion, lifting the foot upward."
+  },
+  {
+    question: "Which artery supplies blood to the lower limb?",
+    options: [
+      "Brachial artery",
+      "Femoral artery",
+      "Subclavian artery",
+      "Axillary artery"
+    ],
+    correctAnswer: "Femoral artery",
+    explanation: "The femoral artery is the main blood vessel supplying oxygenated blood to the lower limb."
+  },
+  {
+    question: "What is the primary role of the popliteal fossa?",
+    options: [
+      "To protect the patella",
+      "To house neurovascular structures behind the knee",
+      "To support the ankle joint",
+      "To control foot movements"
+    ],
+    correctAnswer: "To house neurovascular structures behind the knee",
+    explanation: "The popliteal fossa is a fat-filled area at the back of the knee, containing important blood vessels and nerves."
+  },
+  {
+    question: "What action does the gastrocnemius muscle primarily perform?",
+    options: [
+      "Dorsiflexion of the foot",
+      "Plantarflexion of the foot",
+      "Extension of the knee",
+      "Flexion of the hip"
+    ],
+    correctAnswer: "Plantarflexion of the foot",
+    explanation: "The gastrocnemius is a powerful muscle responsible for plantarflexing the foot at the ankle joint."
+  },
+  {
+    question: "Which muscle group is primarily responsible for thigh adduction?",
+    options: [
+      "Quadriceps",
+      "Hamstrings",
+      "Adductors",
+      "Gluteals"
+    ],
+    correctAnswer: "Adductors",
+    explanation: "The adductor muscles of the thigh are responsible for bringing the thigh toward the midline."
+  },
+  {
+    question: "What structure connects the patella to the tibia?",
+    options: [
+      "Patellar ligament",
+      "Anterior cruciate ligament",
+      "Iliotibial band",
+      "Medial collateral ligament"
+    ],
+    correctAnswer: "Patellar ligament",
+    explanation: "The patellar ligament connects the patella to the tibial tuberosity, aiding in knee extension."
+  },
+  {
+    question: "Which nerve is affected in sciatica?",
+    options: [
+      "Femoral nerve",
+      "Sciatic nerve",
+      "Obturator nerve",
+      "Tibial nerve"
+    ],
+    correctAnswer: "Sciatic nerve",
+    explanation: "Sciatica is caused by compression or irritation of the sciatic nerve, leading to pain along its course."
+  },
+  {
+    question: "Which of the following muscles is a flexor of the hip?",
+    options: [
+      "Rectus femoris",
+      "Biceps femoris",
+      "Sartorius",
+      "Gastrocnemius"
+    ],
+    correctAnswer: "Rectus femoris",
+    explanation: "The rectus femoris muscle is one of the quadriceps and acts as a flexor of the hip and an extensor of the knee."
+  },
+  {
+    question: "Which ligament stabilizes the lateral side of the ankle?",
+    options: [
+      "Deltoid ligament",
+      "Lateral collateral ligament",
+      "Anterior talofibular ligament",
+      "Posterior cruciate ligament"
+    ],
+    correctAnswer: "Anterior talofibular ligament",
+    explanation: "The anterior talofibular ligament is the most commonly injured ligament in ankle sprains."
+  },
+  {
+    question: "What is the function of the iliotibial band?",
+    options: [
+      "To stabilize the hip and knee joints",
+      "To protect the sciatic nerve",
+      "To assist in flexing the foot",
+      "To support the patella"
+    ],
+    correctAnswer: "To stabilize the hip and knee joints",
+    explanation: "The iliotibial band runs along the lateral side of the thigh, helping stabilize the hip and knee during movement."
+  },
+  {
+    question: "Which structure forms the lateral malleolus of the ankle?",
+    options: [
+      "Tibia",
+      "Fibula",
+      "Talus",
+      "Navicular"
+    ],
+    correctAnswer: "Fibula",
+    explanation: "The lateral malleolus is formed by the distal end of the fibula and is located on the outer side of the ankle."
+  },
+  {
+    question: "What type of movement is dorsiflexion?",
+    options: [
+      "Lifting the foot upward toward the shin",
+      "Pointing the toes downward",
+      "Turning the foot outward",
+      "Rotating the knee"
+    ],
+    correctAnswer: "Lifting the foot upward toward the shin",
+    explanation: "Dorsiflexion is the action of raising the foot upward toward the shin, primarily controlled by the tibialis anterior."
+  },
+
+
+
+  {
+    question: "Which muscle is primarily responsible for hip abduction?",
+    options: [
+      "Gluteus maximus",
+      "Gluteus medius",
+      "Piriformis",
+      "Obturator internus"
+    ],
+    correctAnswer: "Gluteus medius",
+    explanation: "The gluteus medius is the primary muscle responsible for abducting the hip."
+  },
+  {
+    question: "What nerve innervates the adductor muscles of the thigh?",
+    options: [
+      "Obturator nerve",
+      "Femoral nerve",
+      "Sciatic nerve",
+      "Tibial nerve"
+    ],
+    correctAnswer: "Obturator nerve",
+    explanation: "The obturator nerve supplies the adductor muscles of the thigh, facilitating adduction."
+  },
+  {
+    question: "What action does the biceps femoris muscle perform?",
+    options: [
+      "Hip flexion",
+      "Knee extension",
+      "Knee flexion",
+      "Hip adduction"
+    ],
+    correctAnswer: "Knee flexion",
+    explanation: "The biceps femoris is a hamstring muscle responsible for knee flexion."
+  },
+  {
+    question: "Which ligament provides stability to the medial aspect of the knee?",
+    options: [
+      "Medial collateral ligament",
+      "Lateral collateral ligament",
+      "Anterior cruciate ligament",
+      "Posterior cruciate ligament"
+    ],
+    correctAnswer: "Medial collateral ligament",
+    explanation: "The medial collateral ligament provides stability to the inner side of the knee joint."
+  },
+  {
+    question: "Which artery is the primary blood supply to the femoral head?",
+    options: [
+      "Obturator artery",
+      "Femoral artery",
+      "Deep femoral artery",
+      "Medial circumflex femoral artery"
+    ],
+    correctAnswer: "Medial circumflex femoral artery",
+    explanation: "The medial circumflex femoral artery supplies blood to the head and neck of the femur."
+  },
+  {
+    question: "What is the function of the anterior cruciate ligament (ACL)?",
+    options: [
+      "Prevents posterior displacement of the tibia",
+      "Prevents anterior displacement of the tibia",
+      "Supports lateral rotation of the femur",
+      "Facilitates hip flexion"
+    ],
+    correctAnswer: "Prevents anterior displacement of the tibia",
+    explanation: "The ACL prevents the tibia from sliding forward relative to the femur."
+  },
+  {
+    question: "Which muscle group extends the knee?",
+    options: [
+      "Hamstrings",
+      "Quadriceps",
+      "Adductors",
+      "Gluteals"
+    ],
+    correctAnswer: "Quadriceps",
+    explanation: "The quadriceps group, particularly the rectus femoris and vastus muscles, extends the knee."
+  },
+  {
+    question: "Which structure separates the greater and lesser sciatic foramina?",
+    options: [
+      "Sacrotuberous ligament",
+      "Sacrotendinous ligament",
+      "Obturator membrane",
+      "Sacrotuberous ligament"
+    ],
+    correctAnswer: "Sacrotuberous ligament",
+    explanation: "The sacrotuberous ligament separates the greater and lesser sciatic foramina."
+  },
+  {
+    question: "What nerve innervates the posterior compartment of the leg?",
+    options: [
+      "Superficial fibular nerve",
+      "Deep fibular nerve",
+      "Tibial nerve",
+      "Femoral nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve supplies the muscles of the posterior compartment, including those responsible for plantarflexion."
+  },
+  {
+    question: "Which muscle is primarily responsible for plantarflexion of the foot?",
+    options: [
+      "Tibialis anterior",
+      "Gastrocnemius",
+      "Soleus",
+      "Fibularis longus"
+    ],
+    correctAnswer: "Gastrocnemius",
+    explanation: "The gastrocnemius, together with the soleus, forms the calf muscle group responsible for plantarflexion."
+  },
+  {
+    question: "Which ligament prevents hyperextension of the hip joint?",
+    options: [
+      "Ischiofemoral ligament",
+      "Iliofemoral ligament",
+      "Pubofemoral ligament",
+      "Anterior cruciate ligament"
+    ],
+    correctAnswer: "Iliofemoral ligament",
+    explanation: "The iliofemoral ligament is one of the strongest ligaments in the body, preventing hyperextension of the hip."
+  },
+  {
+    question: "Which muscle stabilizes the pelvis during walking?",
+    options: [
+      "Gluteus maximus",
+      "Tensor fasciae latae",
+      "Gluteus medius",
+      "Piriformis"
+    ],
+    correctAnswer: "Gluteus medius",
+    explanation: "The gluteus medius plays a crucial role in stabilizing the pelvis during gait."
+  },
+  {
+    question: "What is the primary action of the piriformis muscle?",
+    options: [
+      "Medial rotation of the thigh",
+      "Lateral rotation of the thigh",
+      "Extension of the hip",
+      "Flexion of the knee"
+    ],
+    correctAnswer: "Lateral rotation of the thigh",
+    explanation: "The piriformis laterally rotates the thigh at the hip joint."
+  },
+  {
+    question: "Which artery passes through the adductor hiatus?",
+    options: [
+      "Obturator artery",
+      "Femoral artery",
+      "Popliteal artery",
+      "Deep femoral artery"
+    ],
+    correctAnswer: "Femoral artery",
+    explanation: "The femoral artery passes through the adductor hiatus to become the popliteal artery."
+  },
+  {
+    question: "Which nerve supplies sensation to the medial side of the leg?",
+    options: [
+      "Saphenous nerve",
+      "Femoral nerve",
+      "Obturator nerve",
+      "Common fibular nerve"
+    ],
+    correctAnswer: "Saphenous nerve",
+    explanation: "The saphenous nerve, a branch of the femoral nerve, provides cutaneous sensation to the medial leg."
+  },
+  {
+    question: "Which muscle is part of the deep gluteal region?",
+    options: [
+      "Gluteus maximus",
+      "Tensor fasciae latae",
+      "Piriformis",
+      "Sartorius"
+    ],
+    correctAnswer: "Piriformis",
+    explanation: "The piriformis is part of the deep muscles in the gluteal region, responsible for lateral rotation of the thigh."
+  },
+  {
+    question: "What is the primary movement at the subtalar joint?",
+    options: [
+      "Dorsiflexion",
+      "Plantarflexion",
+      "Inversion and eversion",
+      "Flexion and extension"
+    ],
+    correctAnswer: "Inversion and eversion",
+    explanation: "The subtalar joint is responsible for inversion and eversion movements of the foot."
+  },
+  {
+    question: "Which ligament is commonly injured in ankle sprains?",
+    options: [
+      "Medial collateral ligament",
+      "Anterior talofibular ligament",
+      "Deltoid ligament",
+      "Calcaneofibular ligament"
+    ],
+    correctAnswer: "Anterior talofibular ligament",
+    explanation: "The anterior talofibular ligament is the most frequently injured ligament in ankle sprains."
+  },
+  {
+    question: "Which structure forms the floor of the popliteal fossa?",
+    options: [
+      "Popliteus muscle",
+      "Gastrocnemius muscle",
+      "Soleus muscle",
+      "Plantaris muscle"
+    ],
+    correctAnswer: "Popliteus muscle",
+    explanation: "The popliteus muscle forms the floor of the popliteal fossa, which contains important neurovascular structures."
+  },
+  {
+    question: "Which vein drains blood from the deep veins of the thigh?",
+    options: [
+      "Small saphenous vein",
+      "Femoral vein",
+      "Great saphenous vein",
+      "Popliteal vein"
+    ],
+    correctAnswer: "Femoral vein",
+    explanation: "The femoral vein drains blood from the deep veins of the thigh and becomes the external iliac vein."
+  },
+  {
+    question: "Which muscles are primarily involved in dorsiflexion of the foot?",
+    options: [
+      "Gastrocnemius and soleus",
+      "Tibialis anterior and extensor digitorum longus",
+      "Peroneus longus and peroneus brevis",
+      "Flexor digitorum longus and flexor hallucis longus"
+    ],
+    correctAnswer: "Tibialis anterior and extensor digitorum longus",
+    explanation: "Dorsiflexion of the foot is performed by muscles in the anterior compartment of the leg, including the tibialis anterior."
+  },
+  {
+    question: "Which ligament helps prevent valgus stress on the knee?",
+    options: [
+      "Medial collateral ligament",
+      "Anterior cruciate ligament",
+      "Lateral collateral ligament",
+      "Posterior cruciate ligament"
+    ],
+    correctAnswer: "Medial collateral ligament",
+    explanation: "The medial collateral ligament (MCL) helps prevent valgus forces that push the knee inward."
+  },
+  {
+    question: "Which muscles make up the triceps surae?",
+    options: [
+      "Gastrocnemius and soleus",
+      "Tibialis anterior and extensor digitorum longus",
+      "Peroneus longus and peroneus brevis",
+      "Flexor digitorum longus and flexor hallucis longus"
+    ],
+    correctAnswer: "Gastrocnemius and soleus",
+    explanation: "The triceps surae is made up of the gastrocnemius and soleus muscles, which together are responsible for plantarflexion of the foot."
+  },
+  {
+    question: "Which nerve is commonly compressed in tarsal tunnel syndrome?",
+    options: [
+      "Tibial nerve",
+      "Deep fibular nerve",
+      "Superficial fibular nerve",
+      "Sural nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "Tarsal tunnel syndrome occurs when the tibial nerve is compressed as it passes through the tarsal tunnel."
+  },
+  {
+    question: "Which artery provides the main blood supply to the anterior compartment of the leg?",
+    options: [
+      "Posterior tibial artery",
+      "Popliteal artery",
+      "Anterior tibial artery",
+      "Femoral artery"
+    ],
+    correctAnswer: "Anterior tibial artery",
+    explanation: "The anterior tibial artery supplies blood to the muscles of the anterior compartment of the leg."
+  },
+  {
+    question: "Which muscle acts as the primary hip flexor?",
+    options: [
+      "Rectus femoris",
+      "Iliopsoas",
+      "Gluteus maximus",
+      "Biceps femoris"
+    ],
+    correctAnswer: "Iliopsoas",
+    explanation: "The iliopsoas is the strongest hip flexor, comprising the psoas major and iliacus muscles."
+  },
+  {
+    question: "Which structure stabilizes the lateral side of the knee?",
+    options: [
+      "Medial collateral ligament",
+      "Lateral collateral ligament",
+      "Anterior cruciate ligament",
+      "Patellar ligament"
+    ],
+    correctAnswer: "Lateral collateral ligament",
+    explanation: "The lateral collateral ligament stabilizes the outer side of the knee and prevents varus forces."
+  },
+  {
+    question: "Which bone in the foot articulates with the tibia to form the ankle joint?",
+    options: [
+      "Talus",
+      "Calcaneus",
+      "Navicular",
+      "Cuboid"
+    ],
+    correctAnswer: "Talus",
+    explanation: "The talus articulates with the tibia and fibula to form the ankle joint, allowing dorsiflexion and plantarflexion."
+  },
+  {
+    question: "What is the function of the plantar fascia in the foot?",
+    options: [
+      "Support the arch of the foot",
+      "Allow movement of the toes",
+      "Protect the ankle joint",
+      "Facilitate blood circulation"
+    ],
+    correctAnswer: "Support the arch of the foot",
+    explanation: "The plantar fascia is a thick band of tissue that supports the arch of the foot and helps absorb shock."
+  },
+  {
+    question: "Which muscles are involved in inversion of the foot?",
+    options: [
+      "Tibialis anterior and tibialis posterior",
+      "Peroneus longus and peroneus brevis",
+      "Extensor digitorum longus and extensor hallucis longus",
+      "Flexor digitorum longus and flexor hallucis longus"
+    ],
+    correctAnswer: "Tibialis anterior and tibialis posterior",
+    explanation: "The tibialis anterior and posterior muscles work together to invert the foot, turning the sole inward."
+  },
+
+
+
+
+
+
+],
+    },
+
+
+
+
+
+
+
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// // Lower limbs Clinical Cases.////////////////////////////////////////////////
