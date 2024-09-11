@@ -4723,6 +4723,134 @@ document.addEventListener("DOMContentLoaded", () => {
   correctAnswer: "It covers the muscle fiber and conducts action potentials.",
   explanation: "The sarcolemma is the plasma membrane of a muscle fiber, and it plays a key role in transmitting action potentials along the muscle cell."
 },
+
+{
+  question: "Which structure is responsible for transmitting the contractile force from one cardiac muscle cell to another?",
+  options: [
+    "T-tubules",
+    "Intercalated discs",
+    "Z discs",
+    "Sarcoplasmic reticulum",
+  ],
+  correctAnswer: "Intercalated discs",
+  explanation: "Intercalated discs provide structural and electrical connections between cardiac muscle cells, allowing them to act as a syncytium."
+},
+{
+  question: "Which type of muscle can regenerate through hyperplasia, increasing the number of muscle cells?",
+  options: [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "None of the above",
+  ],
+  correctAnswer: "Smooth muscle",
+  explanation: "Smooth muscle can regenerate by hyperplasia, which involves increasing the number of cells, unlike skeletal and cardiac muscle."
+},
+{
+  question: "What causes the striated appearance of skeletal muscle fibers under a microscope?",
+  options: [
+    "Presence of sarcoplasmic reticulum",
+    "Arrangement of actin and myosin filaments in sarcomeres",
+    "Intercalated discs",
+    "Mitochondria",
+  ],
+  correctAnswer: "Arrangement of actin and myosin filaments in sarcomeres",
+  explanation: "The striated appearance is due to the organized arrangement of actin and myosin filaments in sarcomeres."
+},
+{
+  question: "Which type of muscle contraction is characterized by slow, sustained contractions with little energy expenditure?",
+  options: [
+    "Skeletal muscle",
+    "Tonic smooth muscle",
+    "Phasic smooth muscle",
+    "Cardiac muscle",
+  ],
+  correctAnswer: "Tonic smooth muscle",
+  explanation: "Tonic smooth muscle is specialized for slow, sustained contractions and uses very little energy."
+},
+{
+  question: "In cardiac muscle, which structure facilitates the rapid spread of electrical impulses?",
+  options: [
+    "Sarcolemma",
+    "Gap junctions",
+    "T-tubules",
+    "Z discs",
+  ],
+  correctAnswer: "Gap junctions",
+  explanation: "Gap junctions in the intercalated discs allow for the rapid spread of electrical impulses between cardiac cells."
+},
+{
+  question: "What triggers the release of calcium from the sarcoplasmic reticulum in skeletal muscle?",
+  options: [
+    "Depolarization of the sarcolemma",
+    "Binding of actin to myosin",
+    "Phosphorylation of myosin",
+    "ATP hydrolysis",
+  ],
+  correctAnswer: "Depolarization of the sarcolemma",
+  explanation: "The depolarization of the sarcolemma, through the T-tubule system, triggers the release of calcium from the sarcoplasmic reticulum."
+},
+{
+  question: "Which muscle type contains cells that are long, cylindrical, and multinucleated?",
+  options: [
+    "Smooth muscle",
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "All of the above",
+  ],
+  correctAnswer: "Skeletal muscle",
+  explanation: "Skeletal muscle fibers are long, cylindrical, and multinucleated, a characteristic that sets them apart from smooth and cardiac muscle."
+},
+{
+  question: "Which protein complex blocks the myosin binding sites on actin in a resting skeletal muscle fiber?",
+  options: [
+    "Troponin",
+    "Tropomyosin",
+    "Calmodulin",
+    "Myosin",
+  ],
+  correctAnswer: "Tropomyosin",
+  explanation: "Tropomyosin blocks the myosin binding sites on actin, preventing contraction in the absence of calcium."
+},
+{
+  question: "What is the main role of the sarcoplasmic reticulum in muscle contraction?",
+  options: [
+    "Storing and releasing calcium ions",
+    "Breaking down ATP",
+    "Anchoring contractile proteins",
+    "Providing structural support",
+  ],
+  correctAnswer: "Storing and releasing calcium ions",
+  explanation: "The sarcoplasmic reticulum stores calcium and releases it when the muscle fiber is stimulated, initiating contraction."
+},
+{
+  question: "Which of the following muscle fibers is primarily adapted for endurance and continuous activity?",
+  options: [
+    "Type IIb fibers",
+    "Type IIa fibers",
+    "Type I fibers",
+    "Intermediate fibers",
+  ],
+  correctAnswer: "Type I fibers",
+  explanation: "Type I fibers are slow-twitch fibers adapted for endurance activities due to their reliance on aerobic metabolism."
+},
+{
+  question: "Which muscle type is most susceptible to damage from a lack of oxygen, such as in myocardial infarction?",
+  options: [
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Smooth muscle",
+    "Type IIb fibers",
+  ],
+  correctAnswer: "Cardiac muscle",
+  explanation: "Cardiac muscle is highly dependent on a constant oxygen supply, and a lack of oxygen can cause myocardial infarction (heart attack)."
+},
+
+
+
+
+
+
 {
   question: "Which of the following is a characteristic of smooth muscle cells?",
   options: [
