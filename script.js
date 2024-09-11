@@ -4901,26 +4901,230 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Connective Tissues",
       questions: [
         {
-          question: "Which planet is known as the Red Planet?",
-          options: ["Venus", "Mars", "Jupiter", "Saturn"],
-          correctAnswer: "Mars",
-        },
-        {
-          question: "What is the chemical symbol for water?",
-          options: ["Wa", "H2O", "Ho", "Hy"],
-          correctAnswer: "H2O",
-        },
-        {
-          question: "What is the powerhouse of the cell?",
-          options: [
-            "Nucleus",
-            "Mitochondria",
-            "Endoplasmic Reticulum",
-            "Golgi Apparatus",
-          ],
-          correctAnswer: "Mitochondria",
-        },
-      ],
+  question: "Which protein provides tensile strength in connective tissues, resisting pulling, stretching, and tearing?",
+  options: [
+    "Elastin",
+    "Fibronectin",
+    "Collagen",
+    "Fibrillin",
+  ],
+  correctAnswer: "Collagen",
+  explanation: "Collagen fibers are the main components providing tensile strength to connective tissues."
+},
+{
+  question: "Which component in connective tissue is responsible for elasticity and allows tissues to return to their original shape after deformation?",
+  options: [
+    "Ground substance",
+    "Elastin",
+    "Fibroblasts",
+    "Proteoglycans",
+  ],
+  correctAnswer: "Elastin",
+  explanation: "Elastin fibers allow connective tissues to stretch and recoil, providing elasticity."
+},
+{
+  question: "Which connective tissue cell type is primarily responsible for producing extracellular matrix components?",
+  options: [
+    "Fibroblasts",
+    "Chondrocytes",
+    "Osteoblasts",
+    "Adipocytes",
+  ],
+  correctAnswer: "Fibroblasts",
+  explanation: "Fibroblasts synthesize and secrete extracellular matrix materials, including collagen and ground substance."
+},
+{
+  question: "What is the role of ground substance in connective tissue?",
+  options: [
+    "Provides tensile strength",
+    "Stores calcium",
+    "Resists compressive forces and facilitates diffusion",
+    "Forms muscle fibers",
+  ],
+  correctAnswer: "Resists compressive forces and facilitates diffusion",
+  explanation: "Ground substance consists of glycoproteins and glycosaminoglycans, providing volume and resistance to compressive forces while aiding molecular diffusion."
+},
+{
+  question: "What is the primary function of reticulin fibers in connective tissues?",
+  options: [
+    "Provide elasticity",
+    "Form supportive meshworks for highly cellular tissues",
+    "Store fat",
+    "Anchor cells to the extracellular matrix",
+  ],
+  correctAnswer: "Form supportive meshworks for highly cellular tissues",
+  explanation: "Reticulin fibers, made of Type III collagen, provide structural support for organs like the liver and lymphoid tissues."
+},
+{
+  question: "Which type of connective tissue is characterized by loosely arranged fibers and a large amount of ground substance?",
+  options: [
+    "Dense connective tissue",
+    "Loose connective tissue",
+    "Cartilage",
+    "Bone",
+  ],
+  correctAnswer: "Loose connective tissue",
+  explanation: "Loose connective tissue has a loose arrangement of collagen and elastic fibers and abundant ground substance, providing flexibility and space for blood vessels and nerves."
+},
+{
+  question: "What type of connective tissue provides strong, rope-like structures found in tendons and ligaments?",
+  options: [
+    "Loose connective tissue",
+    "Dense irregular connective tissue",
+    "Dense regular connective tissue",
+    "Adipose tissue",
+  ],
+  correctAnswer: "Dense regular connective tissue",
+  explanation: "Dense regular connective tissue consists of tightly packed collagen fibers aligned parallel, providing strength in one direction."
+},
+{
+  question: "Which type of connective tissue cell is involved in storing fat and regulating energy metabolism?",
+  options: [
+    "Osteocytes",
+    "Adipocytes",
+    "Fibroblasts",
+    "Chondrocytes",
+  ],
+  correctAnswer: "Adipocytes",
+  explanation: "Adipocytes store triglycerides and have roles in metabolic regulation and energy storage."
+},
+{
+  question: "Which collagen type forms the bulk of collagen fibers in dense connective tissues like tendons and skin?",
+  options: [
+    "Type I",
+    "Type II",
+    "Type III",
+    "Type IV",
+  ],
+  correctAnswer: "Type I",
+  explanation: "Type I collagen provides the primary structural strength in fibrous supporting tissues such as tendons and skin."
+},
+{
+  question: "Which connective tissue component has a gel-like consistency and binds water to provide hydration and resistance to compression?",
+  options: [
+    "Collagen",
+    "Elastin",
+    "Ground substance",
+    "Fibronectin",
+  ],
+  correctAnswer: "Ground substance",
+  explanation: "Ground substance, made of glycosaminoglycans and proteoglycans, binds water to form a gel that resists compression and supports tissue structure."
+},
+{
+  question: "What are fibroblasts primarily responsible for during wound healing?",
+  options: [
+    "Forming blood clots",
+    "Producing antibodies",
+    "Generating extracellular matrix and collagen for tissue repair",
+    "Initiating immune response",
+  ],
+  correctAnswer: "Generating extracellular matrix and collagen for tissue repair",
+  explanation: "Fibroblasts proliferate and secrete collagen to replace damaged tissue during wound healing."
+},
+{
+  question: "What characteristic distinguishes dense irregular connective tissue from dense regular connective tissue?",
+  options: [
+    "Presence of adipocytes",
+    "Arrangement of collagen fibers",
+    "Type of ground substance",
+    "Cell type involved",
+  ],
+  correctAnswer: "Arrangement of collagen fibers",
+  explanation: "In dense irregular connective tissue, collagen fibers are arranged in multiple directions, providing strength in various planes, unlike dense regular connective tissue where fibers are parallel."
+},
+{
+  question: "Which connective tissue is primarily responsible for forming the structural framework of lymphoid organs?",
+  options: [
+    "Elastic connective tissue",
+    "Adipose tissue",
+    "Reticular connective tissue",
+    "Dense irregular connective tissue",
+  ],
+  correctAnswer: "Reticular connective tissue",
+  explanation: "Reticular connective tissue forms a delicate mesh that supports the cellular structure of lymphoid organs like the spleen and lymph nodes."
+},
+{
+  question: "Which type of connective tissue is found in areas that require high elasticity, such as the walls of large arteries?",
+  options: [
+    "Dense regular connective tissue",
+    "Loose connective tissue",
+    "Elastic connective tissue",
+    "Cartilage",
+  ],
+  correctAnswer: "Elastic connective tissue",
+  explanation: "Elastic connective tissue contains large amounts of elastin fibers, which allow it to stretch and recoil, making it essential for large arteries that expand with each heartbeat."
+},
+{
+  question: "What is the key function of proteoglycans in the ground substance of connective tissue?",
+  options: [
+    "Providing structural rigidity",
+    "Binding water and resisting compressive forces",
+    "Facilitating cellular communication",
+    "Secreting extracellular matrix",
+  ],
+  correctAnswer: "Binding water and resisting compressive forces",
+  explanation: "Proteoglycans in the ground substance bind large amounts of water, creating a gel-like consistency that resists compression and supports the tissue structure."
+},
+{
+  question: "Which collagen type is a major component of basement membranes?",
+  options: [
+    "Type I",
+    "Type II",
+    "Type IV",
+    "Type III",
+  ],
+  correctAnswer: "Type IV",
+  explanation: "Type IV collagen forms a mesh-like structure in basement membranes, providing support and anchoring epithelial cells."
+},
+{
+  question: "What is the main characteristic of fibrocartilage?",
+  options: [
+    "It is highly vascularized.",
+    "It contains elastic fibers.",
+    "It combines strength and flexibility with dense collagen fibers.",
+    "It is found in the walls of blood vessels.",
+  ],
+  correctAnswer: "It combines strength and flexibility with dense collagen fibers.",
+  explanation: "Fibrocartilage contains dense bundles of collagen fibers, providing tensile strength and flexibility, found in intervertebral discs and pubic symphysis."
+},
+{
+  question: "Which type of connective tissue serves as a packing material around organs and provides support and cushioning?",
+  options: [
+    "Dense regular connective tissue",
+    "Loose areolar connective tissue",
+    "Fibrocartilage",
+    "Reticular tissue",
+  ],
+  correctAnswer: "Loose areolar connective tissue",
+  explanation: "Loose areolar connective tissue fills spaces between organs, providing support, cushioning, and flexibility."
+},
+{
+  question: "What is the function of myofibroblasts in connective tissue repair?",
+  options: [
+    "Secreting enzymes to degrade damaged tissue",
+    "Forming blood vessels",
+    "Providing tensile strength to scars",
+    "Contracting and shrinking wound sites",
+  ],
+  correctAnswer: "Contracting and shrinking wound sites",
+  explanation: "Myofibroblasts play a key role in wound contraction by contracting and shrinking the wound site during tissue repair."
+},
+{
+  question: "Which glycoprotein is essential for cell adhesion and wound healing in connective tissue?",
+  options: [
+    "Fibronectin",
+    "Elastin",
+    "Collagen",
+    "Proteoglycan",
+  ],
+  correctAnswer: "Fibronectin",
+  explanation: "Fibronectin plays a crucial role in cell adhesion, migration, and tissue repair, especially during wound healing."
+},
+
+
+
+
+     ],
     },
 
 
