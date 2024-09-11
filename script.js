@@ -5752,6 +5752,247 @@ document.addEventListener("DOMContentLoaded", () => {
     correctAnswer: "Astrocytes",
     explanation: "Astrocytes help form the blood-brain barrier, controlling the movement of substances from the bloodstream into the brain."
   },
+
+
+
+  {
+    question: "What is the function of the Nodes of Ranvier?",
+    options: [
+      "Provide nutrients to neurons",
+      "Facilitate rapid conduction of nerve impulses",
+      "Secrete neurotransmitters",
+      "Connect neurons to capillaries",
+    ],
+    correctAnswer: "Facilitate rapid conduction of nerve impulses",
+    explanation: "Nodes of Ranvier are gaps in the myelin sheath that allow for saltatory conduction, speeding up the transmission of action potentials."
+  },
+  {
+    question: "Which part of the neuron contains the nucleus and most organelles?",
+    options: [
+      "Dendrites",
+      "Axon",
+      "Synapse",
+      "Cell body (Soma)",
+    ],
+    correctAnswer: "Cell body (Soma)",
+    explanation: "The cell body, also known as the soma, contains the nucleus and most of the cell's organelles, managing metabolic activity."
+  },
+  {
+    question: "Which neurotransmitter is commonly associated with the parasympathetic nervous system?",
+    options: [
+      "Dopamine",
+      "Acetylcholine",
+      "Serotonin",
+      "Norepinephrine",
+    ],
+    correctAnswer: "Acetylcholine",
+    explanation: "Acetylcholine is the primary neurotransmitter used by the parasympathetic nervous system to stimulate 'rest and digest' activities."
+  },
+  {
+    question: "What type of glial cells in the CNS act as phagocytes to remove debris and pathogens?",
+    options: [
+      "Astrocytes",
+      "Microglia",
+      "Oligodendrocytes",
+      "Ependymal cells",
+    ],
+    correctAnswer: "Microglia",
+    explanation: "Microglia are the resident immune cells of the CNS, acting as phagocytes to clean up debris and protect against infections."
+  },
+  {
+    question: "Which part of the brain is responsible for coordinating voluntary movements and balance?",
+    options: [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Thalamus",
+    ],
+    correctAnswer: "Cerebellum",
+    explanation: "The cerebellum coordinates voluntary movements such as posture, balance, and coordination, ensuring smooth and precise actions."
+  },
+  {
+    question: "What type of neuron carries impulses away from the CNS to muscles or glands?",
+    options: [
+      "Sensory neurons",
+      "Interneurons",
+      "Motor neurons",
+      "Bipolar neurons",
+    ],
+    correctAnswer: "Motor neurons",
+    explanation: "Motor neurons carry impulses from the CNS to muscles or glands, causing them to respond (e.g., contract or secrete)."
+  },
+  {
+    question: "Which part of the neuron integrates incoming signals and determines if an action potential will be initiated?",
+    options: [
+      "Dendrites",
+      "Axon hillock",
+      "Synapse",
+      "Myelin sheath",
+    ],
+    correctAnswer: "Axon hillock",
+    explanation: "The axon hillock is the region where incoming signals are summed, and if the threshold is reached, it initiates an action potential."
+  },
+  {
+    question: "Which ion is primarily responsible for the depolarization phase of an action potential?",
+    options: [
+      "Potassium",
+      "Sodium",
+      "Calcium",
+      "Chloride",
+    ],
+    correctAnswer: "Sodium",
+    explanation: "During depolarization, sodium ions rush into the neuron, causing the inside of the cell to become more positively charged."
+  },
+  {
+    question: "What is the function of Schwann cells in the PNS?",
+    options: [
+      "Transmit sensory signals",
+      "Produce cerebrospinal fluid",
+      "Form myelin sheaths around axons",
+      "Facilitate synaptic transmission",
+    ],
+    correctAnswer: "Form myelin sheaths around axons",
+    explanation: "Schwann cells form myelin sheaths around axons in the peripheral nervous system, facilitating faster transmission of nerve impulses."
+  },
+  {
+    question: "What is the main function of the spinal cord in the nervous system?",
+    options: [
+      "Process emotions",
+      "Relay information between the brain and the rest of the body",
+      "Regulate hormone production",
+      "Control involuntary muscle movements",
+    ],
+    correctAnswer: "Relay information between the brain and the rest of the body",
+    explanation: "The spinal cord acts as a conduit for signals between the brain and the rest of the body, enabling sensory input and motor output."
+  }
+
+
+
+
+const nervousTissueQuizPart4 = [
+  {
+    question: "What are the three main types of neurons based on their structure?",
+    options: [
+      "Multipolar, Unipolar, Bipolar",
+      "Sensory, Motor, Interneuron",
+      "Pyramidal, Stellate, Granular",
+      "Central, Peripheral, Somatic",
+    ],
+    correctAnswer: "Multipolar, Unipolar, Bipolar",
+    explanation: "Neurons are classified based on the number of processes extending from the cell body. Multipolar neurons have many processes, bipolar neurons have two, and unipolar neurons have one."
+  },
+  {
+    question: "What is the function of dendrites in a neuron?",
+    options: [
+      "Transmit impulses to other neurons",
+      "Receive signals from other neurons",
+      "Produce myelin",
+      "Store neurotransmitters",
+    ],
+    correctAnswer: "Receive signals from other neurons",
+    explanation: "Dendrites are the branched extensions of neurons that receive signals from other neurons and transmit them towards the cell body."
+  },
+  {
+    question: "Which cells produce cerebrospinal fluid in the CNS?",
+    options: [
+      "Microglia",
+      "Ependymal cells",
+      "Astrocytes",
+      "Oligodendrocytes",
+    ],
+    correctAnswer: "Ependymal cells",
+    explanation: "Ependymal cells line the ventricles of the brain and the central canal of the spinal cord, and they are responsible for producing cerebrospinal fluid (CSF)."
+  },
+  {
+    question: "What type of neuron is involved in transmitting sensory information to the central nervous system?",
+    options: [
+      "Motor neurons",
+      "Interneurons",
+      "Sensory neurons",
+      "Bipolar neurons",
+    ],
+    correctAnswer: "Sensory neurons",
+    explanation: "Sensory neurons (afferent neurons) transmit sensory information from receptors to the central nervous system."
+  },
+  {
+    question: "Which part of the neuron is responsible for transmitting signals away from the cell body?",
+    options: [
+      "Dendrites",
+      "Nucleus",
+      "Axon",
+      "Synapse",
+    ],
+    correctAnswer: "Axon",
+    explanation: "The axon is the long projection of the neuron that transmits electrical impulses away from the cell body towards other neurons or muscles."
+  },
+  {
+    question: "Which neurotransmitter is primarily involved in muscle contraction?",
+    options: [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "GABA",
+    ],
+    correctAnswer: "Acetylcholine",
+    explanation: "Acetylcholine is a neurotransmitter that is released at neuromuscular junctions to stimulate muscle contraction."
+  },
+  {
+    question: "What is the resting membrane potential of a neuron?",
+    options: [
+      "0 mV",
+      "-70 mV",
+      "-90 mV",
+      "30 mV",
+    ],
+    correctAnswer: "-70 mV",
+    explanation: "The resting membrane potential is the electrical charge difference across the neuron's membrane when the neuron is not transmitting a signal, typically around -70 mV."
+  },
+  {
+    question: "What happens during the repolarization phase of an action potential?",
+    options: [
+      "Sodium ions enter the neuron",
+      "Potassium ions exit the neuron",
+      "Calcium ions bind to receptors",
+      "The neuron becomes hyperpolarized",
+    ],
+    correctAnswer: "Potassium ions exit the neuron",
+    explanation: "During repolarization, potassium ions exit the neuron, restoring the negative charge inside the neuron after depolarization."
+  },
+  {
+    question: "What is the role of oligodendrocytes in the CNS?",
+    options: [
+      "Transmit nerve signals",
+      "Form myelin sheaths around axons",
+      "Remove pathogens",
+      "Produce cerebrospinal fluid",
+    ],
+    correctAnswer: "Form myelin sheaths around axons",
+    explanation: "Oligodendrocytes form myelin sheaths around the axons of neurons in the central nervous system, speeding up signal transmission."
+  },
+  {
+    question: "Which condition is caused by the loss of dopamine-producing neurons?",
+    options: [
+      "Alzheimer's disease",
+      "Multiple sclerosis",
+      "Parkinson's disease",
+      "Epilepsy",
+    ],
+    correctAnswer: "Parkinson's disease",
+    explanation: "Parkinson's disease is caused by the degeneration of dopamine-producing neurons in the substantia nigra, leading to motor impairments."
+  },
+  {
+    question: "What is the main function of astrocytes in the nervous system?",
+    options: [
+      "Generate action potentials",
+      "Transmit nerve signals",
+      "Provide structural and metabolic support to neurons",
+      "Form myelin sheaths",
+    ],
+    correctAnswer: "Provide structural and metabolic support to neurons",
+    explanation: "Astrocytes are star-shaped glial cells that provide structural support, regulate the extracellular environment, and contribute to the blood-brain barrier."
+  },
+
+
   
 
       ],
