@@ -3897,26 +3897,31 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Histology",
       questions: [
         {
-          question: "Which planet is known as the Red Planet?",
-          options: ["Venus", "Mars", "Jupiter", "Saturn"],
-          correctAnswer: "Mars",
-        },
-        {
-          question: "What is the chemical symbol for water?",
-          options: ["Wa", "H2O", "Ho", "Hy"],
-          correctAnswer: "H2O",
-        },
-        {
-          question: "What is the powerhouse of the cell?",
+          question: "What feature characterizes keratinized stratified squamous epithelium?",
           options: [
-            "Nucleus",
-            "Mitochondria",
-            "Endoplasmic Reticulum",
-            "Golgi Apparatus",
+            "Mucus secretion",
+            "Cilia on the surface",
+            "A thick, protective layer of dead cells",
+            "Goblet cells interspersed among surface cells",
           ],
-          correctAnswer: "Mitochondria",
+          correctAnswer: "A thick, protective layer of dead cells",
+          explanation: "Keratinized stratified squamous epithelium forms the epidermis, where the outer layer consists of dead cells filled with keratin, providing a tough barrier."
         },
+        {
+          question: "Which type of cell junctions are involved in communication between epithelial cells?",
+          options: [
+            "Tight junctions",
+            "Desmosomes",
+            "Gap junctions",
+            "Hemidesmosomes",
+          ],
+          correctAnswer: "Gap junctions",
+          explanation: "Gap junctions allow communication between epithelial cells by enabling the passage of ions and small molecules between them."
+        },
+        
+        // Add more questions following this pattern
       ],
+      
     },
 
 
@@ -3929,25 +3934,380 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Epithelial Tissues",
       questions: [
         {
-          question: "Which planet is known as the Red Planet?",
-          options: ["Venus", "Mars", "Jupiter", "Saturn"],
-          correctAnswer: "Mars",
-        },
-        {
-          question: "What is the chemical symbol for water?",
-          options: ["Wa", "H2O", "Ho", "Hy"],
-          correctAnswer: "H2O",
-        },
-        {
-          question: "What is the powerhouse of the cell?",
+          question: "Which type of epithelium is specialized for diffusion of gases and fluids?",
           options: [
-            "Nucleus",
-            "Mitochondria",
-            "Endoplasmic Reticulum",
-            "Golgi Apparatus",
+            "Simple squamous epithelium",
+            "Stratified squamous epithelium",
+            "Transitional epithelium",
+            "Pseudostratified columnar epithelium",
           ],
-          correctAnswer: "Mitochondria",
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "Simple squamous epithelium lines surfaces like alveoli and capillaries, where passive transport of gases and fluids occurs."
         },
+        {
+          question: "Which type of epithelial tissue forms the outer layer of the skin?",
+          options: [
+            "Simple cuboidal epithelium",
+            "Stratified squamous keratinizing epithelium",
+            "Transitional epithelium",
+            "Simple columnar epithelium",
+          ],
+          correctAnswer: "Stratified squamous keratinizing epithelium",
+          explanation: "The epidermis consists of stratified squamous epithelium, which undergoes keratinization to protect against abrasion and water loss."
+        },
+        {
+          question: "Which epithelial tissue is found lining the urinary bladder?",
+          options: [
+            "Simple squamous epithelium",
+            "Transitional epithelium",
+            "Stratified squamous epithelium",
+            "Simple columnar epithelium",
+          ],
+          correctAnswer: "Transitional epithelium",
+          explanation: "Transitional epithelium is specialized to stretch and withstand urine's toxicity, lining structures like the bladder."
+        },
+        {
+          question: "Which of the following is NOT a function of epithelial tissue?",
+          options: [
+            "Absorption",
+            "Secretion",
+            "Protection",
+            "Blood supply",
+          ],
+          correctAnswer: "Blood supply",
+          explanation: "Epithelial tissues are avascular and depend on diffusion from underlying connective tissues for nutrients."
+        },
+        {
+          question: "What structure supports epithelial tissues, separating them from underlying tissues?",
+          options: [
+            "Cell junctions",
+            "Basement membrane",
+            "Desmosomes",
+            "Cilia",
+          ],
+          correctAnswer: "Basement membrane",
+          explanation: "The basement membrane provides structural support and a selective barrier between the epithelium and connective tissue."
+        },
+        {
+          question: "Which type of epithelium lines the small intestine and facilitates absorption?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple columnar epithelium",
+            "Stratified cuboidal epithelium",
+            "Pseudostratified columnar epithelium",
+          ],
+          correctAnswer: "Simple columnar epithelium",
+          explanation: "Simple columnar epithelium with microvilli lines absorptive surfaces like the small intestine."
+        },
+        {
+          question: "What type of epithelium is found in the respiratory tract, where it functions in secretion and movement of mucus?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple columnar epithelium",
+            "Pseudostratified ciliated columnar epithelium",
+            "Stratified squamous epithelium",
+          ],
+          correctAnswer: "Pseudostratified ciliated columnar epithelium",
+          explanation: "Pseudostratified ciliated columnar epithelium lines the respiratory tract, where its cilia move mucus and trapped particles."
+        },
+        {
+          question: "Which of the following epithelium types is best suited to withstand mechanical stress and abrasion?",
+          options: [
+            "Simple cuboidal epithelium",
+            "Stratified squamous epithelium",
+            "Simple columnar epithelium",
+            "Simple squamous epithelium",
+          ],
+          correctAnswer: "Stratified squamous epithelium",
+          explanation: "Stratified squamous epithelium has multiple layers of cells, providing protection against abrasion, as found in the skin and oral cavity."
+        },
+        {
+          question: "Which epithelial cells are specialized to secrete mucus in the respiratory and digestive tracts?",
+          options: [
+            "Goblet cells",
+            "Cuboidal cells",
+            "Squamous cells",
+            "Ciliated cells",
+          ],
+          correctAnswer: "Goblet cells",
+          explanation: "Goblet cells are responsible for secreting mucus to protect and lubricate the surfaces of the respiratory and digestive tracts."
+        },
+        {
+          question: "Which type of epithelial tissue lines the blood vessels and the heart?",
+          options: [
+            "Simple squamous epithelium",
+            "Stratified squamous epithelium",
+            "Transitional epithelium",
+            "Simple columnar epithelium",
+          ],
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "The endothelium, which lines the heart and blood vessels, consists of simple squamous epithelium for efficient exchange of gases and nutrients."
+        },
+        {
+          question: "What is the primary role of cilia in ciliated epithelial tissues?",
+          options: [
+            "Increase surface area for absorption",
+            "Secrete enzymes",
+            "Propel substances along the surface",
+            "Form protective barriers",
+          ],
+          correctAnswer: "Propel substances along the surface",
+          explanation: "Cilia move mucus and other substances across the epithelial surface, as seen in the respiratory and reproductive tracts."
+        },
+        {
+          question: "Which epithelium type consists of a single layer of cells that appear to be multiple layers due to differing cell heights?",
+          options: [
+            "Simple columnar epithelium",
+            "Stratified cuboidal epithelium",
+            "Transitional epithelium",
+            "Pseudostratified epithelium",
+          ],
+          correctAnswer: "Pseudostratified epithelium",
+          explanation: "Pseudostratified epithelium appears to have multiple layers due to the varying heights of its cells, but all cells rest on the basement membrane."
+        },
+        {
+          question: "Which type of epithelium lines the ducts of sweat glands?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Stratified cuboidal epithelium",
+            "Transitional epithelium",
+          ],
+          correctAnswer: "Stratified cuboidal epithelium",
+          explanation: "Stratified cuboidal epithelium, consisting of two or three cell layers, is typically found lining the ducts of sweat glands."
+        },
+        {
+          question: "Where are stereocilia typically found?",
+          options: [
+            "In the respiratory tract",
+            "On the surface of the skin",
+            "In the vas deferens and epididymis",
+            "In the kidney tubules",
+          ],
+          correctAnswer: "In the vas deferens and epididymis",
+          explanation: "Stereocilia are long microvilli found in the vas deferens and epididymis, where they aid in absorption and secretion."
+        },
+        {
+          question: "What feature characterizes keratinized stratified squamous epithelium?",
+          options: [
+            "Mucus secretion",
+            "Cilia on the surface",
+            "A thick, protective layer of dead cells",
+            "Goblet cells interspersed among surface cells",
+          ],
+          correctAnswer: "A thick, protective layer of dead cells",
+          explanation: "Keratinized stratified squamous epithelium forms the epidermis, where the outer layer consists of dead cells filled with keratin, providing a tough barrier."
+        },
+        {
+          question: "Which type of cell junctions are involved in communication between epithelial cells?",
+          options: [
+            "Tight junctions",
+            "Desmosomes",
+            "Gap junctions",
+            "Hemidesmosomes",
+          ],
+          correctAnswer: "Gap junctions",
+          explanation: "Gap junctions allow communication between epithelial cells by enabling the passage of ions and small molecules between them."
+        },
+        {
+          question: "Which of the following epithelial tissues has the ability to stretch and return to its original shape?",
+          options: [
+            "Simple cuboidal epithelium",
+            "Simple squamous epithelium",
+            "Transitional epithelium",
+            "Stratified columnar epithelium",
+          ],
+          correctAnswer: "Transitional epithelium",
+          explanation: "Transitional epithelium is found in the bladder and can stretch as the bladder fills, returning to its original shape when emptied."
+        },
+        {
+          question: "Which type of epithelium forms the serous membranes lining the body cavities?",
+          options: [
+            "Simple squamous epithelium",
+            "Stratified squamous epithelium",
+            "Simple columnar epithelium",
+            "Pseudostratified columnar epithelium",
+          ],
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "Simple squamous epithelium forms the serous membranes, such as the peritoneum, that line and protect body cavities."
+        },
+        {
+          question: "What is the main function of microvilli on epithelial cells?",
+          options: [
+            "Absorption",
+            "Secretion",
+            "Propulsion",
+            "Protection",
+          ],
+          correctAnswer: "Absorption",
+          explanation: "Microvilli increase the surface area of epithelial cells, enhancing their ability to absorb substances, especially in the small intestine."
+        },
+        {
+          question: "Which of the following best describes the arrangement of stratified epithelia?",
+          options: [
+            "A single layer of cells",
+            "Multiple layers of cells",
+            "Cells with uneven heights",
+            "Flattened cells in a single layer",
+          ],
+          correctAnswer: "Multiple layers of cells",
+          explanation: "Stratified epithelia consist of two or more layers of cells, with only the deepest layer in contact with the basement membrane."
+        },
+        {
+          question: "Which epithelium type is specialized for secretion in glands such as the thyroid or sweat glands?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Stratified squamous epithelium",
+            "Transitional epithelium",
+          ],
+          correctAnswer: "Simple cuboidal epithelium",
+          explanation: "Simple cuboidal epithelium, found in many glands, is specialized for secretion of substances like hormones and sweat."
+        },
+        {
+          question: "What type of epithelial tissue is primarily involved in gas exchange in the lungs?",
+          options: [
+            "Simple columnar epithelium",
+            "Stratified squamous epithelium",
+            "Simple squamous epithelium",
+            "Pseudostratified epithelium",
+          ],
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "Simple squamous epithelium forms the alveoli of the lungs, facilitating efficient gas exchange due to its thin structure."
+        },
+        {
+          question: "Which of the following is NOT a location where pseudostratified columnar epithelium is commonly found?",
+          options: [
+            "Respiratory tract",
+            "Male reproductive ducts",
+            "Alveoli of the lungs",
+            "Nasal cavity",
+          ],
+          correctAnswer: "Alveoli of the lungs",
+          explanation: "Pseudostratified columnar epithelium lines much of the respiratory tract but not the alveoli, which are lined by simple squamous epithelium."
+        },
+        {
+          question: "Which type of epithelial tissue is adapted for absorption in areas such as the small intestine?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Simple columnar epithelium",
+            "Stratified cuboidal epithelium",
+          ],
+          correctAnswer: "Simple columnar epithelium",
+          explanation: "Simple columnar epithelium, often with microvilli, is found in the small intestine, where it is specialized for nutrient absorption."
+        },
+        {
+          question: "What is the main difference between keratinized and non-keratinized stratified squamous epithelium?",
+          options: [
+            "Number of cell layers",
+            "Presence of a protective keratin layer",
+            "Shape of the surface cells",
+            "Thickness of the basement membrane",
+          ],
+          correctAnswer: "Presence of a protective keratin layer",
+          explanation: "Keratinized stratified squamous epithelium contains a tough keratin layer, protecting areas like the skin from mechanical damage."
+        },
+        {
+          question: "Which of the following structures is formed by simple cuboidal epithelium?",
+          options: [
+            "Alveoli of the lungs",
+            "Kidney tubules",
+            "Inner lining of blood vessels",
+            "Trachea lining",
+          ],
+          correctAnswer: "Kidney tubules",
+          explanation: "Simple cuboidal epithelium lines the kidney tubules, where it functions in secretion and absorption."
+        },
+        {
+          question: "Which type of epithelium is specialized for rapid diffusion and filtration in the kidneys?",
+          options: [
+            "Simple cuboidal epithelium",
+            "Simple squamous epithelium",
+            "Stratified squamous epithelium",
+            "Simple columnar epithelium",
+          ],
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "Simple squamous epithelium, due to its thin structure, facilitates rapid diffusion and filtration in the glomeruli of the kidneys."
+        },
+        {
+          question: "Which type of epithelium is involved in secretion and absorption in the ducts of glands?",
+          options: [
+            "Stratified squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Pseudostratified columnar epithelium",
+            "Simple columnar epithelium",
+          ],
+          correctAnswer: "Simple cuboidal epithelium",
+          explanation: "Simple cuboidal epithelium lines the ducts of glands, where it is involved in the secretion and absorption of fluids."
+        },
+        {
+          question: "What type of epithelial tissue is found in the inner lining of blood vessels?",
+          options: [
+            "Simple squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Stratified cuboidal epithelium",
+            "Transitional epithelium",
+          ],
+          correctAnswer: "Simple squamous epithelium",
+          explanation: "Simple squamous epithelium, called endothelium, lines blood vessels, allowing for smooth blood flow and exchange of substances."
+        },
+        {
+          question: "Which of the following is a function of stratified cuboidal epithelium?",
+          options: [
+            "Absorption in the intestine",
+            "Secretion in sweat glands",
+            "Protection in the epidermis",
+            "Gas exchange in the alveoli",
+          ],
+          correctAnswer: "Secretion in sweat glands",
+          explanation: "Stratified cuboidal epithelium lines the ducts of sweat glands and is specialized for secretion."
+        },
+        {
+          question: "Which type of epithelial tissue lines the stomach and is involved in secretion of digestive enzymes?",
+          options: [
+            "Simple columnar epithelium",
+            "Simple cuboidal epithelium",
+            "Stratified squamous epithelium",
+            "Pseudostratified columnar epithelium",
+          ],
+          correctAnswer: "Simple columnar epithelium",
+          explanation: "Simple columnar epithelium lines the stomach, where it secretes mucus and digestive enzymes."
+        },
+        {
+          question: "What is the primary role of tight junctions in epithelial tissues?",
+          options: [
+            "Facilitate absorption",
+            "Prevent leakage between cells",
+            "Allow communication between cells",
+            "Anchor cells to the basement membrane",
+          ],
+          correctAnswer: "Prevent leakage between cells",
+          explanation: "Tight junctions seal adjacent epithelial cells together, preventing the passage of substances between them."
+        },
+        {
+          question: "Which of the following epithelial tissues provides a protective barrier in areas subject to mechanical stress?",
+          options: [
+            "Simple columnar epithelium",
+            "Stratified squamous epithelium",
+            "Simple cuboidal epithelium",
+            "Simple squamous epithelium",
+          ],
+          correctAnswer: "Stratified squamous epithelium",
+          explanation: "Stratified squamous epithelium, with its multiple layers of cells, provides protection against mechanical stress and abrasion."
+        },
+        {
+          question: "Which type of epithelium lines the ureters and allows for stretch and recoil?",
+          options: [
+            "Simple squamous epithelium",
+            "Transitional epithelium",
+            "Stratified squamous epithelium",
+            "Simple cuboidal epithelium",
+          ],
+          correctAnswer: "Transitional epithelium",
+          explanation: "Transitional epithelium lines the ureters and bladder, allowing them to stretch as they fill with urine."
+        },
+       
       ],
     },
 
