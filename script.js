@@ -5864,12 +5864,12 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     correctAnswer: "Relay information between the brain and the rest of the body",
     explanation: "The spinal cord acts as a conduit for signals between the brain and the rest of the body, enabling sensory input and motor output."
-  }
+  },
 
 
+//changes made here 
 
 
-const nervousTissueQuizPart4 = [
   {
     question: "What are the three main types of neurons based on their structure?",
     options: [
