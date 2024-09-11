@@ -4321,26 +4321,445 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       category: "Muscle Tissues",
       questions: [
-        {
-          question: "Which planet is known as the Red Planet?",
-          options: ["Venus", "Mars", "Jupiter", "Saturn"],
-          correctAnswer: "Mars",
-        },
-        {
-          question: "What is the chemical symbol for water?",
-          options: ["Wa", "H2O", "Ho", "Hy"],
-          correctAnswer: "H2O",
-        },
-        {
-          question: "What is the powerhouse of the cell?",
-          options: [
-            "Nucleus",
-            "Mitochondria",
-            "Endoplasmic Reticulum",
-            "Golgi Apparatus",
-          ],
-          correctAnswer: "Mitochondria",
-        },
+      {
+  question: "Which muscle type is characterized by voluntary control and prominent cross-striations?",
+  options: [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Visceral muscle",
+  ],
+  correctAnswer: "Skeletal muscle",
+  explanation: "Skeletal muscle is responsible for voluntary movements and shows prominent cross-striations due to the arrangement of its contractile proteins."
+},
+{
+  question: "What structure transmits the contractile force developed inside muscle cells?",
+  options: [
+    "Mitochondria",
+    "Z discs",
+    "External lamina",
+    "Endomysium",
+  ],
+  correctAnswer: "External lamina",
+  explanation: "Contractile forces are transmitted to the external lamina via link proteins that span the muscle cell membrane."
+},
+{
+  question: "Which type of muscle is found in the walls of hollow viscera and is described as involuntary?",
+  options: [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Myofibroblasts",
+  ],
+  correctAnswer: "Smooth muscle",
+  explanation: "Smooth muscle forms the muscular component of visceral structures and is controlled involuntarily by autonomic and hormonal systems."
+},
+{
+  question: "Which statement correctly describes cardiac muscle?",
+  options: [
+    "It has multinucleated cells.",
+    "It lacks striations.",
+    "It is spontaneously contractile and has autonomic modulation.",
+    "It functions under voluntary control.",
+  ],
+  correctAnswer: "It is spontaneously contractile and has autonomic modulation.",
+  explanation: "Cardiac muscle contracts rhythmically and spontaneously but is modulated by the autonomic nervous system."
+},
+{
+  question: "What happens to skeletal muscle fibers when their nerve supply is damaged?",
+  options: [
+    "They undergo hypertrophy.",
+    "They become multinucleated.",
+    "They atrophy and waste away.",
+    "They regenerate by mitosis.",
+  ],
+  correctAnswer: "They atrophy and waste away.",
+  explanation: "When the nerve supply is damaged, the muscle fibers innervated by that nerve become smaller and thinner, resulting in muscle atrophy."
+},
+{
+  question: "Which of the following types of fibers relies primarily on aerobic metabolism and contains abundant mitochondria?",
+  options: [
+    "Type I fibers (aerobic)",
+    "Type II fibers (anaerobic)",
+    "Intermediate fibers",
+    "Fast-twitch fibers",
+  ],
+  correctAnswer: "Type I fibers (aerobic)",
+  explanation: "Type I fibers rely on aerobic metabolism and contain many mitochondria and myoglobin, giving them a red appearance."
+},
+{
+  question: "Which term describes the increase in muscle size due to the synthesis of more contractile proteins?",
+  options: [
+    "Atrophy",
+    "Hyperplasia",
+    "Hypertrophy",
+    "Myofibrillogenesis",
+  ],
+  correctAnswer: "Hypertrophy",
+  explanation: "Hypertrophy refers to the increase in muscle fiber size due to the synthesis of additional contractile proteins."
+},
+{
+  question: "Which is NOT a characteristic of smooth muscle?",
+  options: [
+    "Involuntary control",
+    "Striated appearance",
+    "Single central nucleus",
+    "Slow, rhythmic contractions",
+  ],
+  correctAnswer: "Striated appearance",
+  explanation: "Smooth muscle lacks the striations seen in skeletal and cardiac muscles, as its contractile proteins are not organized in myofibrils."
+},
+{
+  question: "What is the role of satellite cells in skeletal muscle?",
+  options: [
+    "They initiate contractions.",
+    "They regenerate damaged muscle fibers.",
+    "They transmit nerve signals to the muscle.",
+    "They supply oxygen to muscle fibers.",
+  ],
+  correctAnswer: "They regenerate damaged muscle fibers.",
+  explanation: "Satellite cells are muscle stem cells that proliferate after muscle damage and fuse to form new muscle fibers."
+},
+{
+  question: "What is the main characteristic of Type II muscle fibers?",
+  options: [
+    "They are slow-twitch and rely on aerobic metabolism.",
+    "They contain abundant myoglobin and mitochondria.",
+    "They rely on anaerobic metabolism and are involved in rapid, intense contractions.",
+    "They are found mainly in postural muscles.",
+  ],
+  correctAnswer: "They rely on anaerobic metabolism and are involved in rapid, intense contractions.",
+  explanation: "Type II fibers have less myoglobin and mitochondria, relying on anaerobic glycolysis for short bursts of intense activity."
+},
+
+
+{
+  question: "Which structure in skeletal muscle helps transmit action potentials deep into the muscle fibers?",
+  options: [
+    "Sarcoplasmic reticulum",
+    "T-tubules",
+    "Myofibrils",
+    "Actin filaments",
+  ],
+  correctAnswer: "T-tubules",
+  explanation: "T-tubules are invaginations of the plasma membrane that transmit action potentials deep into the muscle fibers, leading to coordinated contractions."
+},
+{
+  question: "What component stores calcium ions necessary for muscle contraction?",
+  options: [
+    "Mitochondria",
+    "Golgi apparatus",
+    "Sarcoplasmic reticulum",
+    "Ribosomes",
+  ],
+  correctAnswer: "Sarcoplasmic reticulum",
+  explanation: "The sarcoplasmic reticulum stores calcium ions, which are released to trigger muscle contraction when the muscle is stimulated."
+},
+{
+  question: "Which muscle type contains intercalated discs?",
+  options: [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Myofibroblasts",
+  ],
+  correctAnswer: "Cardiac muscle",
+  explanation: "Cardiac muscle cells are connected by intercalated discs, which allow electrical signals to pass efficiently between cells, facilitating coordinated contractions."
+},
+{
+  question: "Which protein binds calcium to initiate muscle contraction in skeletal muscle?",
+  options: [
+    "Myosin",
+    "Tropomyosin",
+    "Troponin",
+    "Actin",
+  ],
+  correctAnswer: "Troponin",
+  explanation: "Calcium binds to troponin, which causes tropomyosin to move away from actin's binding sites, allowing myosin to bind to actin and start muscle contraction."
+},
+{
+  question: "What is the functional unit of contraction in a skeletal muscle fiber?",
+  options: [
+    "Sarcomere",
+    "Myofibril",
+    "Sarcoplasm",
+    "Z disc",
+  ],
+  correctAnswer: "Sarcomere",
+  explanation: "The sarcomere is the basic unit of contraction in a skeletal muscle fiber, defined by the area between two Z discs."
+},
+{
+  question: "What is the primary energy source used during muscle contraction?",
+  options: [
+    "ATP",
+    "Creatine",
+    "Glucose",
+    "Fatty acids",
+  ],
+  correctAnswer: "ATP",
+  explanation: "ATP provides the necessary energy for muscle contraction, allowing myosin heads to detach and reset for the next contraction cycle."
+},
+{
+  question: "Which type of muscle fiber is most suited for endurance activities?",
+  options: [
+    "Type I fibers (slow-twitch)",
+    "Type IIa fibers (fast-twitch oxidative)",
+    "Type IIb fibers (fast-twitch glycolytic)",
+    "Type IIc fibers (intermediate)",
+  ],
+  correctAnswer: "Type I fibers (slow-twitch)",
+  explanation: "Type I fibers are slow-twitch fibers that rely on aerobic metabolism and are resistant to fatigue, making them ideal for endurance activities."
+},
+{
+  question: "What happens during muscle contraction according to the sliding filament theory?",
+  options: [
+    "Actin and myosin filaments shorten.",
+    "Actin filaments slide over myosin filaments.",
+    "Myosin heads detach from actin.",
+    "T-tubules release sodium ions.",
+  ],
+  correctAnswer: "Actin filaments slide over myosin filaments.",
+  explanation: "During muscle contraction, actin filaments slide over myosin filaments, shortening the sarcomere without changing the length of the filaments themselves."
+},
+{
+  question: "Which muscle cell type is capable of continuous, rhythmic contractions without fatigue?",
+  options: [
+    "Smooth muscle",
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Type IIb muscle fibers",
+  ],
+  correctAnswer: "Cardiac muscle",
+  explanation: "Cardiac muscle cells are capable of continuous, rhythmic contractions that allow the heart to pump blood efficiently without fatigue."
+},
+{
+  question: "What is the role of acetylcholine in skeletal muscle contraction?",
+  options: [
+    "It breaks down ATP for energy.",
+    "It stimulates the release of calcium from the sarcoplasmic reticulum.",
+    "It binds to receptors at the neuromuscular junction to initiate muscle contraction.",
+    "It inhibits muscle contraction by blocking myosin binding sites.",
+  ],
+  correctAnswer: "It binds to receptors at the neuromuscular junction to initiate muscle contraction.",
+  explanation: "Acetylcholine is a neurotransmitter that binds to receptors at the neuromuscular junction, triggering an action potential in the muscle fiber that leads to contraction."
+},
+
+
+
+
+{
+  question: "Which muscle type is responsible for peristalsis in the digestive tract?",
+  options: [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Myofibroblasts",
+  ],
+  correctAnswer: "Smooth muscle",
+  explanation: "Smooth muscle in the digestive tract contracts rhythmically to propel food through the process of peristalsis."
+},
+{
+  question: "What is the main difference between skeletal and smooth muscle contraction mechanisms?",
+  options: [
+    "Smooth muscle contraction requires more ATP.",
+    "Skeletal muscle relies on the sliding filament model, while smooth muscle contracts by cross-bridging.",
+    "Skeletal muscle is controlled voluntarily, while smooth muscle is controlled involuntarily.",
+    "Smooth muscle contraction is faster than skeletal muscle contraction.",
+  ],
+  correctAnswer: "Skeletal muscle is controlled voluntarily, while smooth muscle is controlled involuntarily.",
+  explanation: "Skeletal muscle is under voluntary control, whereas smooth muscle is regulated by the autonomic nervous system."
+},
+{
+  question: "What is the main characteristic of myofibrils in skeletal muscle?",
+  options: [
+    "They store glycogen for muscle energy.",
+    "They contain actin and myosin filaments organized into sarcomeres.",
+    "They regulate calcium release in muscle fibers.",
+    "They act as the contractile units of smooth muscle.",
+  ],
+  correctAnswer: "They contain actin and myosin filaments organized into sarcomeres.",
+  explanation: "Myofibrils consist of actin and myosin filaments arranged in repeating units called sarcomeres, which are responsible for muscle contraction."
+},
+{
+  question: "Which part of the sarcomere remains unchanged during contraction?",
+  options: [
+    "H-zone",
+    "I-band",
+    "A-band",
+    "Z-disc",
+  ],
+  correctAnswer: "A-band",
+  explanation: "The A-band corresponds to the length of the myosin filaments, which remain constant during contraction, while other parts of the sarcomere shorten."
+},
+{
+  question: "Which type of muscle is most resistant to fatigue?",
+  options: [
+    "Cardiac muscle",
+    "Type I (slow-twitch) skeletal muscle",
+    "Type IIa (fast oxidative) skeletal muscle",
+    "Type IIb (fast glycolytic) skeletal muscle",
+  ],
+  correctAnswer: "Type I (slow-twitch) skeletal muscle",
+  explanation: "Type I fibers are fatigue-resistant due to their reliance on aerobic metabolism and high mitochondrial content."
+},
+{
+  question: "What is the primary role of calmodulin in smooth muscle contraction?",
+  options: [
+    "It binds to actin to initiate contraction.",
+    "It binds to calcium and activates myosin light-chain kinase.",
+    "It blocks myosin binding sites on actin filaments.",
+    "It breaks down ATP to provide energy for contraction.",
+  ],
+  correctAnswer: "It binds to calcium and activates myosin light-chain kinase.",
+  explanation: "In smooth muscle, calmodulin binds to calcium, which activates myosin light-chain kinase to initiate contraction."
+},
+{
+  question: "Which muscle fibers are best suited for short bursts of high-intensity activity?",
+  options: [
+    "Type I fibers",
+    "Type IIa fibers",
+    "Type IIb fibers",
+    "Intermediate fibers",
+  ],
+  correctAnswer: "Type IIb fibers",
+  explanation: "Type IIb fibers are fast-twitch fibers that rely on anaerobic metabolism, making them ideal for short, high-intensity activities."
+},
+{
+  question: "Which of the following best describes the role of titin in muscle fibers?",
+  options: [
+    "It facilitates calcium release from the sarcoplasmic reticulum.",
+    "It provides elasticity and stabilizes myosin filaments in the sarcomere.",
+    "It blocks the myosin binding sites on actin filaments.",
+    "It binds to troponin to initiate muscle contraction.",
+  ],
+  correctAnswer: "It provides elasticity and stabilizes myosin filaments in the sarcomere.",
+  explanation: "Titin is a protein that provides structural support and elasticity, helping to stabilize the myosin filaments during muscle contraction."
+},
+{
+  question: "Which of the following is a common characteristic of all muscle tissue types?",
+  options: [
+    "They are controlled by the autonomic nervous system.",
+    "They contract through the interaction of actin and myosin.",
+    "They are striated.",
+    "They contain multiple nuclei per cell.",
+  ],
+  correctAnswer: "They contract through the interaction of actin and myosin.",
+  explanation: "All muscle tissue types, including skeletal, cardiac, and smooth muscle, contract through the sliding filament mechanism involving actin and myosin."
+},
+{
+  question: "Which of the following processes occurs during muscle relaxation?",
+  options: [
+    "Calcium is released from the sarcoplasmic reticulum.",
+    "Myosin binds to actin.",
+    "Acetylcholine is released at the neuromuscular junction.",
+    "Calcium is pumped back into the sarcoplasmic reticulum.",
+  ],
+  correctAnswer: "Calcium is pumped back into the sarcoplasmic reticulum.",
+  explanation: "During relaxation, calcium is actively pumped back into the sarcoplasmic reticulum, which causes the myosin binding sites on actin to be blocked by tropomyosin."
+},
+{
+  question: "Which protein forms the thin filaments in a muscle fiber?",
+  options: [
+    "Myosin",
+    "Actin",
+    "Titin",
+    "Troponin",
+  ],
+  correctAnswer: "Actin",
+  explanation: "Actin is the main component of the thin filaments in a sarcomere, where it interacts with myosin during muscle contraction."
+},
+{
+  question: "What is the function of myosin ATPase during muscle contraction?",
+  options: [
+    "It transports calcium into the sarcoplasmic reticulum.",
+    "It hydrolyzes ATP to provide energy for the power stroke.",
+    "It binds calcium to initiate contraction.",
+    "It inhibits muscle relaxation.",
+  ],
+  correctAnswer: "It hydrolyzes ATP to provide energy for the power stroke.",
+  explanation: "Myosin ATPase breaks down ATP to release energy, which is used to perform the power stroke, moving the myosin head along the actin filament."
+},
+{
+  question: "Which structural feature differentiates skeletal muscle from other muscle types?",
+  options: [
+    "It is controlled involuntarily.",
+    "It has branched fibers.",
+    "It is multinucleated.",
+    "It contracts without stimulation.",
+  ],
+  correctAnswer: "It is multinucleated.",
+  explanation: "Skeletal muscle fibers are multinucleated, which is one of their distinguishing features compared to smooth and cardiac muscle."
+},
+{
+  question: "Which muscle type is capable of regeneration after injury through the activation of satellite cells?",
+  options: [
+    "Smooth muscle",
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Myofibroblasts",
+  ],
+  correctAnswer: "Skeletal muscle",
+  explanation: "Skeletal muscle has the ability to regenerate after injury with the help of satellite cells, which can proliferate and form new muscle fibers."
+},
+{
+  question: "What happens to the I-band during skeletal muscle contraction?",
+  options: [
+    "It disappears completely.",
+    "It shortens.",
+    "It lengthens.",
+    "It remains the same length.",
+  ],
+  correctAnswer: "It shortens.",
+  explanation: "During contraction, the I-band, which contains only actin filaments, shortens as the sarcomere contracts."
+},
+{
+  question: "What is the function of the sarcolemma in muscle fibers?",
+  options: [
+    "It stores calcium ions.",
+    "It covers the muscle fiber and conducts action potentials.",
+    "It generates ATP for muscle contraction.",
+    "It provides structural support for myofibrils.",
+  ],
+  correctAnswer: "It covers the muscle fiber and conducts action potentials.",
+  explanation: "The sarcolemma is the plasma membrane of a muscle fiber, and it plays a key role in transmitting action potentials along the muscle cell."
+},
+{
+  question: "Which of the following is a characteristic of smooth muscle cells?",
+  options: [
+    "They are multinucleated.",
+    "They have a striated appearance.",
+    "They lack T-tubules.",
+    "They contract rapidly and fatigue easily.",
+  ],
+  correctAnswer: "They lack T-tubules.",
+  explanation: "Smooth muscle cells lack T-tubules, which are present in skeletal and cardiac muscle to help transmit action potentials deep into the cell."
+},
+{
+  question: "Which protein acts as a regulatory molecule by blocking myosin binding sites on actin in a resting muscle?",
+  options: [
+    "Troponin",
+    "Tropomyosin",
+    "Actin",
+    "Myosin",
+  ],
+  correctAnswer: "Tropomyosin",
+  explanation: "Tropomyosin blocks the myosin binding sites on actin filaments in a resting muscle, preventing contraction until calcium is available."
+},
+{
+  question: "Which of the following statements about cardiac muscle is true?",
+  options: [
+    "It is capable of mitosis and regeneration.",
+    "It contains multinucleated cells.",
+    "It is under voluntary control.",
+    "It contracts rhythmically without nerve stimulation.",
+  ],
+  correctAnswer: "It contracts rhythmically without nerve stimulation.",
+  explanation: "Cardiac muscle cells are capable of spontaneous, rhythmic contraction, though their rate can be modulated by the autonomic nervous system."
+},
+
+
+
+
       ],
     },
 
