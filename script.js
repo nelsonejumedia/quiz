@@ -4440,6 +4440,600 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////Popliteal Fossa/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+      category: "Popliteal Fossa",
+      questions: [
+  {
+    question: "Where is the popliteal fossa located?",
+    options: [
+      "Anterior to the knee joint",
+      "Lateral to the ankle",
+      "Posterior to the knee joint",
+      "Medial to the hip joint"
+    ],
+    correctAnswer: "Posterior to the knee joint",
+    explanation: "The popliteal fossa is a diamond-shaped depression located at the back of the knee joint."
+  },
+  {
+    question: "Which nerve passes through the popliteal fossa?",
+    options: [
+      "Femoral nerve",
+      "Tibial nerve",
+      "Obturator nerve",
+      "Lateral femoral cutaneous nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve, a branch of the sciatic nerve, runs through the popliteal fossa."
+  },
+  {
+    question: "What forms the superior lateral boundary of the popliteal fossa?",
+    options: [
+      "Biceps femoris",
+      "Semitendinosus",
+      "Sartorius",
+      "Gastrocnemius"
+    ],
+    correctAnswer: "Biceps femoris",
+    explanation: "The biceps femoris muscle forms the superior lateral boundary of the popliteal fossa."
+  },
+  {
+    question: "Which artery is found in the popliteal fossa?",
+    options: [
+      "Popliteal artery",
+      "Femoral artery",
+      "Posterior tibial artery",
+      "Anterior tibial artery"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "The popliteal artery is a continuation of the femoral artery and passes through the popliteal fossa."
+  },
+  {
+    question: "Which vein is located within the popliteal fossa?",
+    options: [
+      "Great saphenous vein",
+      "Popliteal vein",
+      "Small saphenous vein",
+      "Posterior tibial vein"
+    ],
+    correctAnswer: "Popliteal vein",
+    explanation: "The popliteal vein is found in the popliteal fossa and drains blood from the lower limb."
+  },
+  {
+    question: "Which muscle forms the inferior medial boundary of the popliteal fossa?",
+    options: [
+      "Semimembranosus",
+      "Gastrocnemius (medial head)",
+      "Plantaris",
+      "Biceps femoris"
+    ],
+    correctAnswer: "Gastrocnemius (medial head)",
+    explanation: "The medial head of the gastrocnemius muscle forms the inferior medial boundary of the popliteal fossa."
+  },
+  {
+    question: "Which structure is most superficial in the popliteal fossa?",
+    options: [
+      "Popliteal artery",
+      "Tibial nerve",
+      "Popliteal vein",
+      "Common fibular nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve is the most superficial structure in the popliteal fossa, located just beneath the skin and fascia."
+  },
+  {
+    question: "What is the deepest structure in the popliteal fossa?",
+    options: [
+      "Tibial nerve",
+      "Popliteal vein",
+      "Popliteal artery",
+      "Sciatic nerve"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "The popliteal artery is the deepest structure in the popliteal fossa, located beneath the popliteal vein and nerves."
+  },
+  {
+    question: "Which nerve provides sensory innervation to the skin over the popliteal fossa?",
+    options: [
+      "Sural nerve",
+      "Tibial nerve",
+      "Femoral nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Sural nerve",
+    explanation: "The sural nerve provides cutaneous sensory innervation to the skin over the popliteal fossa."
+  },
+  {
+    question: "Which muscle forms the superior medial boundary of the popliteal fossa?",
+    options: [
+      "Semimembranosus",
+      "Biceps femoris",
+      "Gastrocnemius (medial head)",
+      "Popliteus"
+    ],
+    correctAnswer: "Semimembranosus",
+    explanation: "The semimembranosus muscle forms the superior medial boundary of the popliteal fossa."
+  },
+  {
+    question: "What is the function of the popliteal artery?",
+    options: [
+      "To supply blood to the thigh",
+      "To supply blood to the leg and foot",
+      "To drain blood from the knee joint",
+      "To provide innervation to the leg muscles"
+    ],
+    correctAnswer: "To supply blood to the leg and foot",
+    explanation: "The popliteal artery supplies oxygenated blood to the leg and foot after passing through the popliteal fossa."
+  },
+  {
+    question: "Which nerve exits the popliteal fossa laterally?",
+    options: [
+      "Tibial nerve",
+      "Common fibular nerve",
+      "Obturator nerve",
+      "Sciatic nerve"
+    ],
+    correctAnswer: "Common fibular nerve",
+    explanation: "The common fibular nerve exits the popliteal fossa laterally, winding around the neck of the fibula."
+  },
+  {
+    question: "Which nerve bifurcates into the tibial and common fibular nerves within the popliteal fossa?",
+    options: [
+      "Femoral nerve",
+      "Sciatic nerve",
+      "Obturator nerve",
+      "Lateral femoral cutaneous nerve"
+    ],
+    correctAnswer: "Sciatic nerve",
+    explanation: "The sciatic nerve bifurcates into the tibial and common fibular nerves within the popliteal fossa."
+  },
+  {
+    question: "Which tendon is found medially in the popliteal fossa?",
+    options: [
+      "Semimembranosus tendon",
+      "Biceps femoris tendon",
+      "Achilles tendon",
+      "Plantaris tendon"
+    ],
+    correctAnswer: "Semimembranosus tendon",
+    explanation: "The semimembranosus tendon is located medially in the popliteal fossa."
+  },
+  {
+    question: "Which muscle acts to unlock the knee joint and is located in the popliteal region?",
+    options: [
+      "Popliteus",
+      "Gastrocnemius",
+      "Plantaris",
+      "Semimembranosus"
+    ],
+    correctAnswer: "Popliteus",
+    explanation: "The popliteus muscle helps unlock the knee joint by rotating the femur laterally on the tibia."
+  },
+  {
+    question: "What is the clinical significance of the popliteal pulse?",
+    options: [
+      "It indicates the presence of femoral artery blockage",
+      "It is used to assess blood flow to the lower leg",
+      "It indicates nerve damage in the knee",
+      "It is the primary site for venous blood withdrawal"
+    ],
+    correctAnswer: "It is used to assess blood flow to the lower leg",
+    explanation: "The popliteal pulse is an important clinical indicator of blood flow to the leg and foot."
+  },
+  {
+    question: "Which structure within the popliteal fossa is commonly affected by aneurysms?",
+    options: [
+      "Popliteal artery",
+      "Popliteal vein",
+      "Tibial nerve",
+      "Common fibular nerve"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "The popliteal artery is prone to aneurysms due to its location and the high pressure exerted during knee movement."
+  },
+  {
+    question: "Which muscle lies deepest in the popliteal region?",
+    options: [
+      "Popliteus",
+      "Semimembranosus",
+      "Gastrocnemius",
+      "Plantaris"
+    ],
+    correctAnswer: "Popliteus",
+    explanation: "The popliteus muscle is the deepest muscle in the popliteal region, lying directly against the tibia."
+  },
+  {
+    question: "Which bony structure is located at the superior apex of the popliteal fossa?",
+    options: [
+      "Femur",
+      "Patella",
+      "Tibia",
+      "Fibula"
+    ],
+    correctAnswer: "Femur",
+    explanation: "The distal end of the femur forms the superior apex of the popliteal fossa."
+  },
+  {
+    question: "Which structure is responsible for venous drainage from the popliteal fossa?",
+    options: [
+      "Popliteal vein",
+      "Great saphenous vein",
+      "Small saphenous vein",
+      "Anterior tibial vein"
+    ],
+    correctAnswer: "Popliteal vein",
+    explanation: "The popliteal vein drains venous blood from the popliteal fossa and continues proximally to become the femoral vein."
+  },
+
+
+  {
+    question: "What forms the inferior lateral boundary of the popliteal fossa?",
+    options: [
+      "Gastrocnemius (lateral head)",
+      "Soleus",
+      "Semitendinosus",
+      "Biceps femoris"
+    ],
+    correctAnswer: "Gastrocnemius (lateral head)",
+    explanation: "The lateral head of the gastrocnemius muscle forms the inferior lateral boundary of the popliteal fossa. This muscle is essential for plantarflexion of the foot at the ankle and flexion at the knee."
+  },
+  {
+    question: "Which nerve is responsible for the motor innervation of the posterior leg muscles passing through the popliteal fossa?",
+    options: [
+      "Common fibular nerve",
+      "Tibial nerve",
+      "Femoral nerve",
+      "Sural nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve, a division of the sciatic nerve, innervates most muscles of the posterior compartment of the leg, including those responsible for plantarflexion and toe flexion. It passes through the popliteal fossa before dividing further down the leg."
+  },
+  {
+    question: "Which major vein joins the popliteal vein in the popliteal fossa?",
+    options: [
+      "Great saphenous vein",
+      "Small saphenous vein",
+      "Femoral vein",
+      "Anterior tibial vein"
+    ],
+    correctAnswer: "Small saphenous vein",
+    explanation: "The small saphenous vein drains blood from the superficial structures of the posterior leg and joins the popliteal vein within the popliteal fossa."
+  },
+  {
+    question: "What is the function of the popliteal fossa during knee flexion?",
+    options: [
+      "It protects the ligaments of the knee",
+      "It facilitates smooth movement of blood vessels and nerves",
+      "It stabilizes the patella",
+      "It absorbs shock during running"
+    ],
+    correctAnswer: "It facilitates smooth movement of blood vessels and nerves",
+    explanation: "During knee flexion, the popliteal fossa provides space for the popliteal artery, vein, and nerves to move freely, preventing them from being compressed or damaged during movement."
+  },
+  {
+    question: "Which structure in the popliteal fossa is most prone to aneurysms?",
+    options: [
+      "Popliteal artery",
+      "Tibial nerve",
+      "Common fibular nerve",
+      "Popliteal vein"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "The popliteal artery is prone to aneurysms due to its proximity to the knee joint, where it is subject to mechanical stress. A popliteal aneurysm can compress nearby structures, causing pain, swelling, or even nerve damage."
+  },
+  {
+    question: "Which muscle covers the popliteal artery as it enters the popliteal fossa?",
+    options: [
+      "Semitendinosus",
+      "Semimembranosus",
+      "Gastrocnemius",
+      "Popliteus"
+    ],
+    correctAnswer: "Popliteus",
+    explanation: "The popliteus muscle is located at the base of the popliteal fossa and covers the popliteal artery as it enters the fossa. This small, deep muscle plays an important role in unlocking the knee from full extension."
+  },
+  {
+    question: "What is the role of the sural nerve in the popliteal fossa?",
+    options: [
+      "It provides sensory innervation to the sole of the foot",
+      "It supplies motor innervation to the hamstring muscles",
+      "It provides sensory innervation to the posterior leg and lateral foot",
+      "It innervates the muscles of the calf"
+    ],
+    correctAnswer: "It provides sensory innervation to the posterior leg and lateral foot",
+    explanation: "The sural nerve is a sensory nerve that arises in the popliteal fossa. It supplies sensation to the skin of the posterior leg and the lateral aspect of the foot."
+  },
+  {
+    question: "Which ligament can be felt through the popliteal fossa when the knee is extended?",
+    options: [
+      "Anterior cruciate ligament",
+      "Medial collateral ligament",
+      "Posterior cruciate ligament",
+      "Lateral collateral ligament"
+    ],
+    correctAnswer: "Posterior cruciate ligament",
+    explanation: "The posterior cruciate ligament (PCL) can be palpated through the popliteal fossa when the knee is extended. It stabilizes the knee by preventing the tibia from sliding backward relative to the femur."
+  },
+  {
+    question: "Which vessels supply blood to the popliteal fossa?",
+    options: [
+      "Femoral artery and vein",
+      "Popliteal artery and vein",
+      "Anterior tibial artery and posterior tibial vein",
+      "Sural artery and great saphenous vein"
+    ],
+    correctAnswer: "Popliteal artery and vein",
+    explanation: "The popliteal artery and vein are the major vessels in the popliteal fossa, providing blood supply and drainage for the knee, leg, and foot."
+  },
+  {
+    question: "Which nerve is responsible for sensory innervation to the lateral aspect of the leg, emerging from the popliteal fossa?",
+    options: [
+      "Tibial nerve",
+      "Common fibular nerve",
+      "Sural nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Common fibular nerve",
+    explanation: "The common fibular nerve provides sensory innervation to the lateral aspect of the leg and dorsum of the foot. It splits off from the sciatic nerve within the popliteal fossa."
+  },
+  {
+    question: "Which muscle assists in unlocking the knee joint and is located in the popliteal fossa?",
+    options: [
+      "Gastrocnemius",
+      "Plantaris",
+      "Semimembranosus",
+      "Popliteus"
+    ],
+    correctAnswer: "Popliteus",
+    explanation: "The popliteus muscle assists in unlocking the knee from its fully extended position by rotating the femur laterally on the tibia. This is crucial for initiating knee flexion."
+  },
+  {
+    question: "What structure protects the popliteal artery from being compressed during knee flexion?",
+    options: [
+      "Popliteal vein",
+      "Tibial nerve",
+      "Popliteus muscle",
+      "Semitendinosus muscle"
+    ],
+    correctAnswer: "Popliteus muscle",
+    explanation: "The popliteus muscle, located at the base of the popliteal fossa, protects the popliteal artery by creating space for the vessel to move freely during knee flexion, reducing the risk of compression."
+  },
+  {
+    question: "What is the clinical significance of the popliteal pulse?",
+    options: [
+      "It indicates the health of the posterior tibial vein",
+      "It helps assess the circulation to the leg and foot",
+      "It determines the presence of deep vein thrombosis",
+      "It measures the strength of the femoral artery"
+    ],
+    correctAnswer: "It helps assess the circulation to the leg and foot",
+    explanation: "The popliteal pulse, found by palpating the popliteal artery, is a key indicator of blood flow to the lower leg and foot. Weak or absent pulses may indicate arterial occlusion or other vascular problems."
+  },
+  {
+    question: "Which structure is at risk of injury in posterior dislocation of the knee joint?",
+    options: [
+      "Tibial nerve",
+      "Popliteal artery",
+      "Common fibular nerve",
+      "Popliteal vein"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "The popliteal artery is at significant risk of injury in posterior dislocations of the knee due to its location deep in the popliteal fossa and close proximity to the knee joint."
+  },
+  {
+    question: "Which small muscle located in the popliteal fossa is sometimes absent in individuals?",
+    options: [
+      "Plantaris",
+      "Popliteus",
+      "Soleus",
+      "Semitendinosus"
+    ],
+    correctAnswer: "Plantaris",
+    explanation: "The plantaris muscle, a small and vestigial muscle with a long tendon, is sometimes absent in individuals. It is located in the popliteal fossa and plays a minor role in knee flexion."
+  },
+  {
+    question: "Which of the following structures is least likely to be injured in a popliteal aneurysm?",
+    options: [
+      "Tibial nerve",
+      "Popliteal vein",
+      "Common fibular nerve",
+      "Femoral nerve"
+    ],
+    correctAnswer: "Femoral nerve",
+    explanation: "The femoral nerve does not pass through the popliteal fossa, so it is less likely to be affected by a popliteal aneurysm compared to the tibial nerve, popliteal vein, and common fibular nerve."
+  },
+  {
+    question: "Which deep vein of the leg passes through the popliteal fossa?",
+    options: [
+      "Popliteal vein",
+      "Great saphenous vein",
+      "Anterior tibial vein",
+      "Small saphenous vein"
+    ],
+    correctAnswer: "Popliteal vein",
+explanation: "The popliteal vein is the main vein in the popliteal fossa and drains blood from the deep veins of the leg before becoming the femoral vein as it passes into the thigh."
+  },
+  {
+    question: "What is the function of the common fibular nerve as it exits the popliteal fossa?",
+    options: [
+      "It innervates the medial aspect of the leg",
+      "It innervates the muscles of the lateral leg and dorsum of the foot",
+      "It innervates the posterior compartment of the leg",
+      "It innervates the anterior thigh muscles"
+    ],
+    correctAnswer: "It innervates the muscles of the lateral leg and dorsum of the foot",
+    explanation: "The common fibular nerve exits the popliteal fossa and innervates the muscles of the lateral compartment of the leg and dorsum of the foot, allowing for dorsiflexion and eversion of the foot."
+  },
+  {
+    question: "Which muscle forms the floor of the popliteal fossa?",
+    options: [
+      "Semimembranosus",
+      "Gastrocnemius",
+      "Popliteus",
+      "Biceps femoris"
+    ],
+    correctAnswer: "Popliteus",
+    explanation: "The popliteus muscle forms the floor of the popliteal fossa and plays a key role in unlocking the knee from full extension by laterally rotating the femur."
+  },
+  {
+    question: "What forms the roof of the popliteal fossa?",
+    options: [
+      "Popliteal artery and vein",
+      "Skin and popliteal fascia",
+      "Semitendinosus and semimembranosus muscles",
+      "Biceps femoris tendon"
+    ],
+    correctAnswer: "Skin and popliteal fascia",
+    explanation: "The roof of the popliteal fossa is formed by the skin and popliteal fascia, which provide a protective covering for the underlying neurovascular structures."
+  },
+  {
+    question: "Which artery bifurcates at the inferior border of the popliteal fossa?",
+    options: [
+      "Popliteal artery",
+      "Femoral artery",
+      "Tibial artery",
+      "Anterior tibial artery"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "At the inferior border of the popliteal fossa, the popliteal artery bifurcates into the anterior tibial artery and posterior tibial artery, which supply blood to the leg."
+  },
+  {
+    question: "Which vein in the popliteal fossa is at risk of thrombosis due to its deep location?",
+    options: [
+      "Great saphenous vein",
+      "Popliteal vein",
+      "Small saphenous vein",
+      "Femoral vein"
+    ],
+    correctAnswer: "Popliteal vein",
+    explanation: "The popliteal vein, located deep within the popliteal fossa, is at risk of thrombosis due to slow blood flow in this region, which can lead to deep vein thrombosis (DVT)."
+  },
+  {
+    question: "Which nerve, when injured in the popliteal fossa, can cause foot drop?",
+    options: [
+      "Tibial nerve",
+      "Common fibular nerve",
+      "Sural nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Common fibular nerve",
+    explanation: "Injury to the common fibular nerve in the popliteal fossa can result in foot drop, a condition where the patient is unable to dorsiflex the foot, leading to difficulty walking."
+  },
+  {
+    question: "What is the primary function of the popliteal artery in the lower limb?",
+    options: [
+      "To supply blood to the anterior compartment of the leg",
+      "To provide venous drainage for the leg",
+      "To supply blood to the knee joint and surrounding muscles",
+      "To facilitate nerve innervation in the popliteal fossa"
+    ],
+    correctAnswer: "To supply blood to the knee joint and surrounding muscles",
+    explanation: "The popliteal artery is the major blood supply to the knee joint and surrounding muscles. It continues as the anterior and posterior tibial arteries, supplying the lower leg and foot."
+  },
+  {
+    question: "Which structure in the popliteal fossa is compressed in popliteal entrapment syndrome?",
+    options: [
+      "Tibial nerve",
+      "Popliteal artery",
+      "Common fibular nerve",
+      "Popliteal vein"
+    ],
+    correctAnswer: "Popliteal artery",
+    explanation: "Popliteal entrapment syndrome occurs when the popliteal artery is compressed by surrounding muscles or tendons, leading to reduced blood flow to the leg and foot, especially during exercise."
+  },
+  {
+    question: "Which muscle tendon forms part of the superior lateral boundary of the popliteal fossa?",
+    options: [
+      "Biceps femoris tendon",
+      "Semitendinosus tendon",
+      "Semimembranosus tendon",
+      "Gastrocnemius tendon"
+    ],
+    correctAnswer: "Biceps femoris tendon",
+    explanation: "The biceps femoris tendon forms the superior lateral boundary of the popliteal fossa. This muscle is part of the hamstring group and plays a role in knee flexion."
+  },
+  {
+    question: "Which nerve is the most superficial in the popliteal fossa and at risk during surgery?",
+    options: [
+      "Common fibular nerve",
+      "Tibial nerve",
+      "Sural nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve is the most superficial major structure in the popliteal fossa, making it vulnerable to injury during surgical procedures in this region."
+  },
+  {
+    question: "What is the clinical importance of the popliteal fossa during knee surgery?",
+    options: [
+      "It contains the major ligaments of the knee",
+      "It houses the nerves and blood vessels that can be injured during surgery",
+      "It is the primary site for muscle attachment",
+      "It provides access to the femoral artery"
+    ],
+    correctAnswer: "It houses the nerves and blood vessels that can be injured during surgery",
+    explanation: "The popliteal fossa contains important nerves (tibial, common fibular) and blood vessels (popliteal artery and vein), which are at risk of injury during knee surgeries, such as joint replacement."
+  },
+  {
+    question: "Which nerve in the popliteal fossa supplies motor function to the calf muscles?",
+    options: [
+      "Tibial nerve",
+      "Common fibular nerve",
+      "Sural nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Tibial nerve",
+    explanation: "The tibial nerve supplies motor innervation to the muscles of the posterior leg, including the gastrocnemius and soleus muscles, which are responsible for plantarflexion of the foot."
+  },
+  {
+    question: "Which structure, when injured in the popliteal fossa, can lead to swelling and reduced blood flow to the leg?",
+    options: [
+      "Popliteal artery",
+      "Tibial nerve",
+      "Popliteal vein",
+      "Common fibular nerve"
+    ],
+    correctAnswer: "Popliteal vein",
+    explanation: "Injury to the popliteal vein can lead to venous pooling, causing swelling and discomfort in the leg, as well as reducing proper blood drainage from the lower limb."
+  },
+  {
+    question: "What is the role of the plantaris muscle, located in the popliteal fossa?",
+    options: [
+      "To assist in knee flexion and plantarflexion",
+      "To unlock the knee from full extension",
+      "To provide sensory innervation to the calf",
+      "To stabilize the knee joint"
+    ],
+    correctAnswer: "To assist in knee flexion and plantarflexion",
+    explanation: "The plantaris muscle has a long tendon and assists the larger calf muscles in both knee flexion and plantarflexion of the foot, although its function is considered minor."
+  },
+        
+        // Add more questions following this pattern
+      ],
+      
+    },
+
+//Popliteal Fossa ends 
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////Thorax Category Starts/////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
