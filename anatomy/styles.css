@@ -373,7 +373,8 @@ h1 {
 /* Desktop Styles */
 @media (min-width: 768px) {
     .container {
-        max-width: 800px;
+        max-width: 100%;
+        padding: 100px;
     }
 
     .score-container {
@@ -389,6 +390,10 @@ h1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    .category-btn{
+        height:100px;
     }
 
     #answer-options {
@@ -427,11 +432,11 @@ h1 {
     padding: 0;
 } */
 
-.container {
+/* .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
+} */
 
 h1{
     text-align: center;

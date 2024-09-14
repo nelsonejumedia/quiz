@@ -228,14 +228,15 @@ color: #e0e0e0;
     }
 
     .interests-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
     }
 
     .interest-button {
         flex-direction: row;
         justify-content: flex-start;
         gap: 1rem;
-        height: 80px;
+        height: 160px;
         padding: 0 1rem;
     }
 
@@ -244,14 +245,6 @@ color: #e0e0e0;
         left: -50%;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
