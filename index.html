@@ -3,236 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IQ Rush</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="https://kit.fontawesome.com/8b55461bea.js" crossorigin="anonymous"></script>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="onboarding.css">
 </head>
 <body>
-    <div class="container">
-        <div id="home-screen">
-            <div class="header animate-fade-in">
-                <h1>IQ Rush: Medical Sciences</h1>
-                <i data-lucide="bell"></i>
-            </div>
-
-            <div class="score-container animate-slide-up">
-                <div class="score-box">
-                    <p>Categories</p>
-                    <h2>25</h2>
+    <div class="app-container">
+        <div class="cardd">
+            <div id="interests-screen" class="screen">
+           
+                <div class="content">
+                    <h1 class="screen-title">Select Course</h1>
+                    <div class="interests-grid">
+                        <button class="interest-button" data-interest="Anatomy">
+                            <span class="interest-icon">🧬</span>
+                            <span class="interest-name">Anatomy</span>
+                        </button>
+                        <button class="interest-button" data-interest="Physiology">
+                            <span class="interest-icon">🎵</span>
+                            <span class="interest-name">Physiology</span>
+                        </button>
+                        <button class="interest-button" data-interest="Medical Biochemistry">
+                            <span class="interest-icon">⚽</span>
+                            <span class="interest-name">Medical Biochemistry</span>
+                        </button>
+                        <button class="interest-button" data-interest="Pharmacology">
+                            <span class="interest-icon">🌿</span>
+                            <span class="interest-name">Pharmacology</span>
+                        </button>
+                        <button class="interest-button" data-interest="Chemistry">
+                            <span class="interest-icon">📚</span>
+                            <span class="interest-name">Chemistry</span>
+                        </button>
+                        <button class="interest-button" data-interest="General Studies">
+                            <span class="interest-icon">🔢</span>
+                            <span class="interest-name">General Studies</span>
+                        </button>
+                    </div>
                 </div>
-                <!-- <div class="score-box">
-                    <p>Total Score</p>
-                    <h2>1250</h2>
-                </div> -->
-            </div>
-            <div class="category-list animate-stagger-in">
-                <button class="category-btn" data-category="Upper Limbs">
-                    <span class="category-icon">💪</span>
-                    <span>Upper Limbs</span>
-                </button>
-
- <button class="category-btn" data-category="Upper Limbs: Clinical Cases">
-                    <span class="category-icon">💪</span>
-                    <span>Upper Limbs: Clinical Cases</span>
-                </button>
-
-
- <button class="category-btn" data-category="Lower Limbs">
-                    <span class="category-icon">🦵</span>
-                    <span>Lower Limbs</span>
-                </button>
-
-<button class="category-btn" data-category="Lower Limbs: Clinical Cases">
-                    <span class="category-icon">🦵</span>
-                    <span>Lower Limbs: Clinical Cases</span>
-                </button>
-
-
- <button class="category-btn" data-category="Hip and Thigh">
-                    <span class="category-icon">🦵</span>
-                    <span>The Hip and Thigh</span>
-                </button>
-
- <button class="category-btn" data-category="Gluteal Region">
-                    <span class="category-icon">🦵</span>
-                    <span>The Gluteal Region</span>
-                </button>
-
- <button class="category-btn" data-category="Popliteal Fossa">
-                    <span class="category-icon">🦵</span>
-                    <span>The Popliteal Fossa</span>
-                </button>
-
- <button class="category-btn" data-category="Back of the Tigh">
-                    <span class="category-icon">🦵</span>
-                    <span>The Back of the Thigh</span>
-                </button>
-
-
-                <button class="category-btn" data-category="Thorax">
-                    <span class="category-icon">🫁</span>
-                    <span>Thorax</span>
-                </button>
-                <button class="category-btn" data-category="Histology">
-                    <span class="category-icon">🔬</span>
-                    <span>Histology</span>
-                </button>
-
-
-  <button class="category-btn" data-category="Epithelial Tissues">
-                    <span class="category-icon">🔬</span>
-                    <span>Epithelial Tissues</span>
-                </button>
-
-  <button class="category-btn" data-category="Muscle Tissues">
-                    <span class="category-icon">🔬</span>
-                    <span>Muscle Tissues</span>
-                </button>
-
-
-  <button class="category-btn" data-category="Connective Tissues">
-                    <span class="category-icon">🔬</span>
-                    <span>Connective Tissues</span>
-                </button>
-
-
-  <button class="category-btn" data-category="Nervous Tissues">
-                    <span class="category-icon">🔬</span>
-                    <span>Nervous Tissues</span>
-                </button>
-
-                <button class="category-btn" data-category="Embryology">
-                    <span class="category-icon">🥚</span>
-                    <span>Embryology</span>
-                </button>
-                <button class="category-btn" data-category="The Cell">
-                    <span class="category-icon">🦠</span>
-                    <span>The Cell</span>
-                </button>
-                <button class="category-btn" data-category="Muscle Physiology">
-                    <!-- <span class="category-icon">🧠</span> -->
-                    <span class="category-icon">💪🏼</span>
-                    <span>Muscle Physiology</span>
-                </button>
-                <button class="category-btn" data-category="Nature of Biomolecules">
-                    <span class="category-icon">🧬</span>
-                    <span>Nature of Biomolecules</span>
-                </button>
-                <button class="category-btn" data-category="Carbohydrate Chemsitry">
-                    <span class="category-icon">👨🏼‍🔬</span>
-                    <span>Carbohydrate Chemsitry</span>
-                </button>
-                <button class="category-btn" data-category="Protein">
-                    <span class="category-icon">🧪</span>
-                    <span>Protein</span>
-                </button>
-                <button class="category-btn" data-category="Amino Acids">
-                    <span class="category-icon">⚗️</span>
-                    <span>Amino Acids</span>
-                </button>
-                <button class="category-btn" data-category="Enzymes">
-                    <span class="category-icon">🧫</span>
-                    <span>Enzymes</span>
-                </button>
-                <!-- <button class="category-btn" data-category="General Knowledge">
-                    <span class="category-icon">🧠</span>
-                    <span>Hormones</span>
-                </button>
-                <button class="category-btn" data-category="Math">
-                    <span class="category-icon">🍊</span>
-                    <span>Vitamin</span>
-                </button> 
-                <button class="category-btn" data-category="Math">
-                    <span class="category-icon">🩸</span>
-                    <span>Blood Buffers</span>
-                </button>
-                <button class="category-btn" data-category="Movies">
-                    <span class="category-icon">🎬</span>
-                    <span>Excitable Tissues</span>
-                </button>
-                <button class="category-btn" data-category="Food & Drink">
-                    <span class="category-icon">🍽️</span>
-                    <span>Blood</span>
-                </button>
-                <button class="category-btn" data-category="General Knowledge">
-                    <span class="category-icon">🧠</span>
-                    <span>Homeostasis</span>
-                </button>
-                <button class="category-btn" data-category="Math">
-                    <span class="category-icon"></span>
-                    <span>Acid Base Balance</span>
-                </button> 
-                  -->
-            </div>
-            <button id="upgrade-btn" class="animate-pulse">FOLLOW US <i class="fa fa-whatsapp" aria-hidden="true"></i> </button>
-        </div>
-
-        <div id="quiz-screen" class="hidden">
-            <div class="header animate-fade-in">
-                <div class="back-btn">
-                    <i data-lucide="chevron-left"></i>
-                    <h2 id="quiz-category"></h2>
+                <div class="illustration">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/placeholder-2Gu7Ub5Iu5Iqc5Ij6Ij7Ik.svg" alt="Quiz illustration" class="illustration-image">
                 </div>
-                <i data-lucide="x" class="close-btn"></i>
-            </div>
-            <div class="quiz-info animate-slide-up">
-                <p id="question-number"></p>
-                <p id="timer">00:30 sec</p>
-            </div>
-            <p id="question-text" class="animate-fade-in"></p>
-            <div id="answer-options" class="animate-stagger-in"></div>
-            <button id="submit-btn" class="animate-pulse">SUBMIT</button>
-        </div>
-
-        <div id="results-screen" class="hidden">
-            <i data-lucide="x" class="close-btn animate-fade-in"></i>
-            <div class="results-box animate-scale-in">
-                <div class="trophy">🏆</div>
-                <h2>Congrats!</h2>
-                <h3 id="score-percentage"></h3>
-                <p>Quiz completed successfully.</p>
-                <p id="score-details"></p>
-            </div>
-
-            
-            <!-- button for preview -->
-            <button id="review-btn">Review Questions</button>
-
-
-            <p class="animate-fade-in">Share with us</p>
-            <div class="share-buttons animate-stagger-in">
-                <div class="share-btn facebook"></div>
-                <div class="share-btn twitter"></div>
-                <div class="share-btn instagram"></div>
             </div>
         </div>
-
-
-
-        <!-- Quiz Review -->
-        <div id="review-screen" class="hidden">
-            <h2 class="p-h2">Quiz Review</h2>
-            <div id="question-list"></div>
-        </div>
-        <div id="explanation-modal" class="modal hidden">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Explanation</h2>
-                <p id="explanation-text"></p>
-            </div>
-        </div>
-        <button id="home-btn" class="hidden">Back to Home</button>
     </div>
-
-
-
-    <script src="script.js"></script>
-    <!-- <script src="mcqs/thorax.js"></script>
-    <script src="mcqs/histology.js"></script>
-    <script src="mcqs/embryology.js"></script>
-    <script src="mcqs/limbs.js"></script>
-    <script src="thorax.js"></script>
-    <script src="thorax.js"></script> -->
+    <script src="onboarding.js"></script>
 </body>
 </html>

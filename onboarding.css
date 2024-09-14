@@ -144,13 +144,14 @@ color: #e0e0e0;
     transform: scale(0.98);
 }
 
+/* side bar */
 .sidebar {
     position: absolute;
     top: 0;
     left: -75%;
     width: 75%;
     height: 100%;
-    background-color: #2c2c2c;
+    background-color: #1e2736;
     padding: 2rem;
     box-sizing: border-box;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
@@ -171,7 +172,7 @@ color: #e0e0e0;
 .user-avatar {
     width: 48px;
     height: 48px;
-    background-color: #bb86fc;
+    background-color:  #0a0e14;
     border-radius: 50%;
     margin-right: 1rem;
 }
@@ -184,7 +185,7 @@ color: #e0e0e0;
 
 .user-details p {
     font-size: 14px;
-    color: #bb86fc;
+    color: #f4a261;
     margin: 0;
 }
 
@@ -202,8 +203,9 @@ color: #e0e0e0;
 }
 
 .nav-item:hover {
-    color: #bb86fc;
+    color: #f4a261;
 }
+
 
 @media (min-width: 768px) {
     .screen {

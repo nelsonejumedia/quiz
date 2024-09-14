@@ -74,32 +74,7 @@
         </div>
 
         
-            
-           
-
-
-      
-        
-
-  
-                   <!-- <div class="quiz-types">
-                        <button class="quiz-button">Upper Limbs</button>
-                        <button class="quiz-button">Lower Limbs</button>
-                        <button class="quiz-button">Histology</button>
-                        <button class="quiz-button">Embryology</button>
-                        <button class="quiz-button">Medical Sociology</button>
-                        <button
-                        <button class="quiz-button">Thorax</button>
-                        <button class="quiz-button">Abdomen</button>
-                        <button class="quiz-button">Head and Neck</button>
-                        <button class="quiz-button">Neuroanatomy</button>
-                        <button class="quiz-button">Diagrams</button>
-                    </div>
-                </div>
-                <div class="illustration">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/placeholder-2Gu7Ub5Iu5Iqc5Ij6Ij7Ik.svg" alt="Quiz illustration" class="illustration-image">
-                </div>
-            </div>            -->             
+                       
 
             <div id="sidebar" class="sidebar">
                 <button id="close-sidebar" class="icon-button">←</button>
@@ -120,6 +95,66 @@
                 </nav>
             </div> 
         </div>
+
+
+
+        <!-- coode for clickable buttons -->
+
+        <script>
+
+const categoryButtons = document.querySelectorAll('.category-btn');
+const buttons = document.querySelectorAll('.category-btn');
+
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+        console.log("Clicked: " + category); // Log to confirm button click
+        redirectToPage(category);
+    });
+});
+
+function redirectToPage(category) {
+    let pageUrl = '';
+
+    switch (category) {
+        case 'Upper Limbs':
+            pageUrl = 'anatomy/upper-limbs'; // Replace with actual URL
+            break;
+        case 'Lower Limbs':
+            pageUrl = 'anatomy/lower-limbs.html'; // Replace with actual URL
+            break;
+        case 'Medical Sociology':
+            pageUrl = 'anatomy/sociology'; // Replace with actual URL
+            break;
+        case 'Thorax':
+            pageUrl = 'anatomy/thorax'; // Replace with actual URL
+            break;
+        case 'Abdomen':
+            pageUrl = 'anatomy/abdomen'; // Replace with actual URL
+            break;
+        case 'Head and Neck':
+            pageUrl = 'anatomy/head&neck.html'; // Replace with actual URL
+            break;
+            case 'Histology':
+            pageUrl = 'anatomy/histology.html'; // Replace with actual URL
+            break;
+            case 'Embryology':
+            pageUrl = 'anatomy/embryology.html'; // Replace with actual URL
+            break;
+            case 'Neuroanatomy':
+            pageUrl = 'anatomy/neuroanatomy.html'; // Replace with actual URL
+            break;
+        default:
+            pageUrl = 'index.html'; // Default or fallback page
+    }
+
+    if (pageUrl) {
+        window.location.href = pageUrl;
+    } else {
+        console.error("Page URL not found for: " + category);
+    }
+}
+        </script>
         <script src="onboarding.js"></script>
 </body>
 </html>
