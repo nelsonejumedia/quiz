@@ -78,7 +78,7 @@ body {
 }
 
 .interest-button:hover {
-    background-color: #3a3a3a;
+    background-color: #f4a261;
     transform: scale(1.05);
 }
 
@@ -246,6 +246,14 @@ color: #e0e0e0;
     }
 }
 
+
+@media (min-width: 768px) {
+   
+    .sidebar {
+        width: 30%;
+        left: -30%;
+    }
+}
 
 
 
