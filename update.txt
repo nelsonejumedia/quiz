@@ -395,4 +395,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Simulating a completed quiz
     startReview('Science & Nature');
+    
 });
