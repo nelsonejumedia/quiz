@@ -29,10 +29,19 @@ body {
     transform: translateX(100%);
 }
 
+.back-img{
+    width:10px;
+}
+
+.icon-button{
+    background-color: transparent;
+}
+
 .user-info {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .user-avatar {
@@ -41,6 +50,7 @@ body {
     background-color:  #0a0e14;
     border-radius: 50%;
     margin-right: 1rem;
+   
 }
 
 .user-details h2 {

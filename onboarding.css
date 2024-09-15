@@ -163,6 +163,15 @@ color: #e0e0e0;
     transform: translateX(100%);
 }
 
+.back-img{
+    width:10px;
+}
+
+
+.icon-button{
+    background-color: transparent;
+}
+
 .user-info {
     display: flex;
     align-items: center;

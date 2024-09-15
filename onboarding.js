@@ -28,16 +28,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 pageUrl = 'physiology.html'; // Replace with actual URL
                 break;
             case 'Medical Biochemistry':
-                pageUrl = 'biochemistry.html'; // Replace with actual URL
+                pageUrl = '#'; // Replace with actual URL
                 break;
             case 'Pharmacology':
-                pageUrl = 'pharmacology.html'; // Replace with actual URL
+                pageUrl = '#'; // Replace with actual URL
                 break;
             case 'Chemistry':
-                pageUrl = 'chemistry.html'; // Replace with actual URL
+                pageUrl = '#'; // Replace with actual URL
                 break;
             case 'General Studies':
-                pageUrl = 'general-studies.html'; // Replace with actual URL
+                pageUrl = '#'; // Replace with actual URL
                 break;
             default:
                 pageUrl = 'index.html'; // Default or fallback page
