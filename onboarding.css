@@ -55,7 +55,7 @@ body {
     margin-bottom: 0.5rem;
     color: #f4a261;
     position: relative;
-    left: -20px;
+    right: 20px;
 }
 
 .interests-grid {
