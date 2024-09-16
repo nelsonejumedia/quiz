@@ -45,7 +45,7 @@ body {
 
 .content {
     flex: 1;
-    padding:1.2rem 3.2rem;
+    padding:1.2rem;
     overflow-y: auto;
 }
 
