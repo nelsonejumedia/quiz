@@ -32,15 +32,24 @@ document.addEventListener("DOMContentLoaded", () => {
    const sidebar = document.getElementById('sidebar');
    const menuButton = document.getElementById('menu-button');
    const closeSidebarButton = document.getElementById('close-sidebar');
-   
-   function toggleSidebar() {
-     sidebar.classList.toggle('open');
- }
-
- menuButton.addEventListener('click', toggleSidebar);
- closeSidebarButton.addEventListener('click', toggleSidebar);
-  
-  
+   const overlay = document.getElementById('overlay');
+   const content = document.querySelector('.content');
+ 
+     function toggleSidebar() {
+         sidebar.classList.toggle('open');
+         overlay.classList.toggle('active');
+         content.classList.toggle('blurred');
+     }
+ 
+     function closeSidebar() {
+         sidebar.classList.remove('open');
+         overlay.classList.remove('active');
+         content.classList.remove('blurred');
+     }
+ 
+     menuButton.addEventListener('click', toggleSidebar);
+     closeSidebarButton.addEventListener('click', closeSidebar);
+     overlay.addEventListener('click', closeSidebar);
   
   
   

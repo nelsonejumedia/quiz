@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="onboarding.css">
 </head>
 <body>
+    <div id="overlay" class="overlay"></div>
     <div id="home-screen" class="screen">
                 <div class="content">
                     <div class="header">
-                        <img src="images/logo.png" class="screen-title" alt="Logo" style="width:100px; border-radius:50%;">
+                        <img src="images/logo.png" class="screen-title" alt="Logo" id="logo">
                         <nav class="desktop-nav">
                             <a href="anatomy.html" class="nav-item">Anatomy</a>
                             <a href="physiology.html" class="nav-item">Physiology</a>
@@ -59,7 +60,7 @@
         <div id="sidebar" class="sidebar">
             <button id="close-sidebar" class="icon-button"><img src="./images/back.png" alt="" class="back-img"></button>
             <div class="user-info">
-                <div class="user-avatar"></div>
+               <img src="../images/logo.png" alt="" class="user-avatar">
                 <div class="user-details">
                     <h2>IQ Rush</h2>
                     <p>Change Course</p>
@@ -77,64 +78,6 @@
         </div>
 
 
-
-        <!-- coode for clickable buttons -->
-
-        <!-- <script>
-
-const categoryButtons = document.querySelectorAll('.category-btn');
-const buttons = document.querySelectorAll('.category-btn');
-
-buttons.forEach(button => {
-    button.addEventListener('click', function() {
-        const category = this.getAttribute('data-category');
-        console.log("Clicked: " + category); // Log to confirm button click
-        redirectToPage(category);
-    });
-});
-
-function redirectToPage(category) {
-    let pageUrl = '';
-
-    switch (category) {
-        case 'Upper Limbs':
-            pageUrl = 'anatomy/upper-limbs'; // Replace with actual URL
-            break;
-        case 'Lower Limbs':
-            pageUrl = 'anatomy/lower-limbs.html'; // Replace with actual URL
-            break;
-        case 'Medical Sociology':
-            pageUrl = 'anatomy/sociology'; // Replace with actual URL
-            break;
-        case 'Thorax':
-            pageUrl = 'anatomy/thorax'; // Replace with actual URL
-            break;
-        case 'Abdomen':
-            pageUrl = 'anatomy/abdomen'; // Replace with actual URL
-            break;
-        case 'Head and Neck':
-            pageUrl = 'anatomy/head&neck.html'; // Replace with actual URL
-            break;
-            case 'Histology':
-            pageUrl = 'anatomy/histology.html'; // Replace with actual URL
-            break;
-            case 'Embryology':
-            pageUrl = 'anatomy/embryology.html'; // Replace with actual URL
-            break;
-            case 'Neuroanatomy':
-            pageUrl = 'anatomy/neuroanatomy.html'; // Replace with actual URL
-            break;
-        default:
-            pageUrl = 'index.html'; // Default or fallback page
-    }
-
-    if (pageUrl) {
-        window.location.href = pageUrl;
-    } else {
-        console.error("Page URL not found for: " + category);
-    }
-}
-        </script> -->
-        <script src="onboarding.js"></script>
+        <script src="courses.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const answerOptions = document.getElementById("answer-options");
     const scorePercentage = document.getElementById("score-percentage");
     const scoreDetails = document.getElementById("score-details");
-  
+
     // Extra js for review
     // const resultsScreen = document.getElementById('results-screen');
     const reviewScreen = document.getElementById('review-screen');
@@ -26,22 +26,30 @@ document.addEventListener("DOMContentLoaded", () => {
     const homeBtn = document.getElementById('home-btn');
     const scoreDisplay = document.getElementById('score-display');
   
-  
-  
-
 
   // sidebar
 
   const sidebar = document.getElementById('sidebar');
   const menuButton = document.getElementById('menu-button');
   const closeSidebarButton = document.getElementById('close-sidebar');
-  
-  function toggleSidebar() {
-    sidebar.classList.toggle('open');
-}
+  const overlay = document.getElementById('overlay');
+  const content = document.querySelector('.content');
 
-menuButton.addEventListener('click', toggleSidebar);
-closeSidebarButton.addEventListener('click', toggleSidebar);
+    function toggleSidebar() {
+        sidebar.classList.toggle('open');
+        overlay.classList.toggle('active');
+        content.classList.toggle('blurred');
+    }
+
+    function closeSidebar() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('active');
+        content.classList.remove('blurred');
+    }
+
+    menuButton.addEventListener('click', toggleSidebar);
+    closeSidebarButton.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
   
   
   
