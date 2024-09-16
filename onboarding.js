@@ -1,13 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
     const interestsScreen = document.getElementById('interests-screen');
-    //const homeScreen = document.getElementById('home-screen');
+    const interestButtons = document.querySelectorAll('.interest-button');
+    const buttons = document.querySelectorAll('.interest-button');
     const sidebar = document.getElementById('sidebar');
     const menuButton = document.getElementById('menu-button');
     const closeSidebarButton = document.getElementById('close-sidebar');
-    const interestButtons = document.querySelectorAll('.interest-button');
+    const overlay = document.getElementById('overlay');
+    const content = document.querySelector('.content');
 
+    function toggleSidebar() {
+        sidebar.classList.toggle('open');
+        overlay.classList.toggle('active');
+        content.classList.toggle('blurred');
+    }
 
-    const buttons = document.querySelectorAll('.interest-button');
+    function closeSidebar() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('active');
+        content.classList.remove('blurred');
+    }
+
+    menuButton.addEventListener('click', toggleSidebar);
+    closeSidebarButton.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
+
+    
 
     buttons.forEach(button => {
         button.addEventListener('click', function() {
@@ -50,21 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    //function showHomeScreen() {
-        //interestsScreen.classList.add('hidden');
-        //homeScreen.classList.remove('hidden');
-   // }
 
-    function toggleSidebar() {
-        sidebar.classList.toggle('open');
-    }
 
-   // interestButtons.forEach(button => {
-       // button.addEventListener('click', showHomeScreen);
-    //});
+ 
 
-    menuButton.addEventListener('click', toggleSidebar);
-    closeSidebarButton.addEventListener('click', toggleSidebar);
+
+
 
     // Add hover animations
     const animateOnHover = (element, scale) => {
