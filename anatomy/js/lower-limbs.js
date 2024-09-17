@@ -1284,6 +1284,528 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////Front of the Thigh/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+      category: "Front of the Thigh",
+      questions: [
+        {
+  question: "What forms the roof of the femoral triangle?",
+  options: [
+    "Fascia lata",
+    "Sartorius",
+    "Adductor longus",
+    "Pectineus"
+  ],
+  correctAnswer: "Fascia lata",
+  explanation: "The fascia lata is the deep fascia that covers the muscles of the thigh. It forms a firm layer of connective tissue, enclosing the femoral triangle at the roof. This fascia provides structural integrity and allows for the passage of important neurovascular structures. The fascia lata also has an opening called the saphenous opening, which allows for the passage of the great saphenous vein."
+},
+
+{
+  question: "Which structure lies laterally in the femoral triangle?",
+  options: [
+    "Femoral artery",
+    "Femoral nerve",
+    "Femoral vein",
+    "Obturator nerve"
+  ],
+  correctAnswer: "Femoral nerve",
+  explanation: "The femoral nerve is the largest nerve in the thigh, originating from the lumbar plexus (L2-L4). It lies lateral to the femoral artery and vein within the femoral triangle, outside the femoral sheath. It supplies the anterior compartment of the thigh, including the quadriceps muscles, and provides sensory innervation to the anterior thigh and medial leg via its saphenous branch."
+},
+
+{
+  question: "What is the significance of the adductor canal?",
+  options: [
+    "A passage for the femoral artery and vein",
+    "A site for the saphenous nerve to exit the thigh",
+    "A protective sheath for the femoral nerve",
+    "A junction for muscles of the anterior and medial compartments"
+  ],
+  correctAnswer: "A passage for the femoral artery and vein",
+  explanation: "The adductor canal, also known as the subsartorial canal, is an important anatomical tunnel that extends from the apex of the femoral triangle to the adductor hiatus. It provides a passage for the femoral artery, femoral vein, and the saphenous nerve as they move from the anterior thigh to the popliteal fossa. This canal allows the transition of these vessels to the lower leg, where the femoral artery continues as the popliteal artery after passing through the adductor hiatus."
+},
+
+{
+  question: "Which muscle forms the lateral boundary of the femoral triangle?",
+  options: [
+    "Sartorius",
+    "Adductor longus",
+    "Pectineus",
+    "Iliopsoas"
+  ],
+  correctAnswer: "Sartorius",
+  explanation: "The sartorius muscle is the longest muscle in the human body, running obliquely across the anterior aspect of the thigh. It forms the lateral boundary of the femoral triangle, alongside the adductor longus and inguinal ligament. The sartorius is involved in flexion, abduction, and lateral rotation of the hip, as well as flexion of the knee."
+},
+
+{
+  question: "What is the main function of the vastus medialis?",
+  options: [
+    "Flexion of the hip",
+    "Extension of the knee",
+    "Medial rotation of the thigh",
+    "Abduction of the thigh"
+  ],
+  correctAnswer: "Extension of the knee",
+  explanation: "The vastus medialis is one of the four muscles that comprise the quadriceps group. It plays a critical role in knee extension and helps stabilize the patella, particularly through its horizontal fibers, which prevent lateral dislocation of the patella. The vastus medialis is innervated by the femoral nerve and works in coordination with the other quadriceps muscles to allow for effective knee extension during activities such as walking, running, and jumping."
+},
+
+{
+  question: "What forms the floor of the femoral triangle?",
+  options: [
+    "Adductor longus and iliopsoas",
+    "Sartorius and fascia lata",
+    "Quadriceps femoris",
+    "Pectineus and iliacus"
+  ],
+  correctAnswer: "Pectineus and iliacus",
+  explanation: "The floor of the femoral triangle is formed by the iliacus and pectineus muscles. The iliacus muscle originates from the iliac fossa and plays a role in hip flexion. The pectineus is an adductor muscle located on the medial aspect of the thigh, responsible for adducting and flexing the hip. Together, these muscles support the femoral artery, vein, and nerve that traverse the triangle, making the area critical for vascular and neural structures of the lower limb."
+},
+
+{
+  question: "Which structure passes through the adductor hiatus?",
+  options: [
+    "Femoral nerve",
+    "Femoral artery",
+    "Saphenous nerve",
+    "Great saphenous vein"
+  ],
+  correctAnswer: "Femoral artery",
+  explanation: "The femoral artery, after descending through the femoral triangle and adductor canal, passes through the adductor hiatus—a gap in the tendon of the adductor magnus muscle. Once it passes through the hiatus, the artery becomes the popliteal artery in the posterior aspect of the knee. This transition marks the critical change in blood supply from the thigh to the lower leg."
+},
+
+{
+  question: "What is the clinical importance of the femoral canal?",
+  options: [
+    "It allows passage of the femoral artery",
+    "It contains lymph nodes and fatty tissue",
+    "It provides a protective sheath for the femoral nerve",
+    "It is a common site for venous puncture"
+  ],
+  correctAnswer: "It contains lymph nodes and fatty tissue",
+  explanation: "The femoral canal is the most medial compartment of the femoral sheath. It contains lymphatic vessels, lymph nodes, and some fatty tissue. The canal is clinically important because it is a potential site for femoral hernias, which occur when abdominal contents protrude through the femoral ring into the canal. These hernias are more common in women due to their wider pelvic structure and are often characterized by a palpable lump in the groin region."
+},
+
+{
+  question: "Which artery is the main source of blood supply to the anterior thigh?",
+  options: [
+    "Obturator artery",
+    "Femoral artery",
+    "Profunda femoris artery",
+    "Circumflex femoral artery"
+  ],
+  correctAnswer: "Femoral artery",
+  explanation: "The femoral artery is the primary artery supplying blood to the anterior compartment of the thigh. It originates from the external iliac artery and travels through the femoral triangle before continuing down the thigh via the adductor canal. The artery gives off several important branches, including the profunda femoris artery, which supplies the deeper muscles of the thigh. The femoral artery is easily palpable in the femoral triangle and is a critical site for vascular access in medical emergencies."
+},
+
+
+
+{
+  question: "Which structure passes through the adductor hiatus?",
+  options: [
+    "Femoral artery",
+    "Saphenous nerve",
+    "Obturator nerve",
+    "Great saphenous vein"
+  ],
+  correctAnswer: "Femoral artery",
+  explanation: "The adductor hiatus is a gap in the adductor magnus muscle that allows the femoral artery and vein to pass from the anterior compartment of the thigh to the popliteal fossa behind the knee. Upon passing through the hiatus, the femoral artery becomes the popliteal artery, supplying the lower limb. The saphenous nerve, although it follows the femoral artery in the adductor canal, exits before the artery passes through the hiatus."
+},
+
+{
+  question: "Which muscle forms the medial boundary of the femoral triangle?",
+  options: [
+    "Sartorius",
+    "Adductor longus",
+    "Gracilis",
+    "Pectineus"
+  ],
+  correctAnswer: "Adductor longus",
+  explanation: "The femoral triangle is a wedge-shaped depression on the anterior thigh, bounded superiorly by the inguinal ligament, laterally by the sartorius muscle, and medially by the adductor longus muscle. The femoral triangle is clinically significant as it contains the femoral nerve, artery, vein, and lymphatics."
+},
+
+{
+  question: "What forms the roof of the femoral triangle?",
+  options: [
+    "Fascia lata",
+    "Sartorius",
+    "Adductor longus",
+    "Inguinal ligament"
+  ],
+  correctAnswer: "Fascia lata",
+  explanation: "The roof of the femoral triangle is formed by the fascia lata, a thick layer of deep fascia that envelops the muscles of the thigh. It plays a crucial role in maintaining the shape of the thigh and provides support to the underlying neurovascular structures."
+},
+
+{
+  question: "Which nerve accompanies the femoral artery through the adductor canal?",
+  options: [
+    "Femoral nerve",
+    "Saphenous nerve",
+    "Obturator nerve",
+    "Sciatic nerve"
+  ],
+  correctAnswer: "Saphenous nerve",
+  explanation: "The saphenous nerve is the largest cutaneous branch of the femoral nerve. It accompanies the femoral artery and vein through the adductor canal, providing sensory innervation to the skin over the medial side of the leg and foot. Unlike the artery, the saphenous nerve does not pass through the adductor hiatus."
+},
+
+{
+  question: "What is the primary function of the vastus lateralis muscle?",
+  options: [
+    "Hip extension",
+    "Knee extension",
+    "Knee flexion",
+    "Hip flexion"
+  ],
+  correctAnswer: "Knee extension",
+  explanation: "The vastus lateralis is one of the four muscles that make up the quadriceps femoris group. It originates from the greater trochanter and linea aspera of the femur and inserts into the patella via the quadriceps tendon. Its main function is to extend the knee joint, making it essential for activities such as walking, running, and jumping."
+},
+
+{
+  question: "Where does the femoral artery become the popliteal artery?",
+  options: [
+    "In the femoral triangle",
+    "At the mid-thigh",
+    "At the adductor hiatus",
+    "Below the knee"
+  ],
+  correctAnswer: "At the adductor hiatus",
+  explanation: "The femoral artery becomes the popliteal artery after passing through the adductor hiatus, a gap in the adductor magnus muscle near the knee. This transition is important as the popliteal artery supplies blood to the structures in the posterior compartment of the leg and foot."
+},
+
+{
+  question: "What is the significance of the saphenous opening in the fascia lata?",
+  options: [
+    "It allows passage of the femoral artery",
+    "It allows passage of the great saphenous vein",
+    "It allows passage of the obturator nerve",
+    "It allows passage of the femoral nerve"
+  ],
+  correctAnswer: "It allows passage of the great saphenous vein",
+  explanation: "The saphenous opening is a hiatus in the fascia lata through which the great saphenous vein passes to join the femoral vein. It is clinically significant because it is a common site for varicose veins, which result from the improper functioning of the valves in the veins."
+},
+
+{
+  question: "Which muscle is considered the longest muscle in the body?",
+  options: [
+    "Vastus lateralis",
+    "Gracilis",
+    "Sartorius",
+    "Rectus femoris"
+  ],
+  correctAnswer: "Sartorius",
+  explanation: "The sartorius is the longest muscle in the human body, running obliquely across the anterior thigh from the anterior superior iliac spine to the medial aspect of the tibia. It is involved in flexion, abduction, and lateral rotation of the hip, as well as flexion of the knee."
+},
+
+{
+  question: "Which artery is the largest branch of the femoral artery in the thigh?",
+  options: [
+    "Obturator artery",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Profunda femoris artery"
+  ],
+  correctAnswer: "Profunda femoris artery",
+  explanation: "The profunda femoris artery, also known as the deep artery of the thigh, is the largest branch of the femoral artery. It supplies blood to the deep structures of the thigh, including the hamstring muscles and the posterior compartment of the thigh. The artery also gives off perforating branches that contribute to the anastomosis around the hip joint."
+},
+
+{
+  question: "Which muscle forms the floor of the femoral triangle?",
+  options: [
+    "Pectineus and iliopsoas",
+    "Sartorius",
+    "Adductor longus",
+    "Rectus femoris"
+  ],
+  correctAnswer: "Pectineus and iliopsoas",
+  explanation: "The floor of the femoral triangle is composed of the pectineus and iliopsoas muscles. These muscles provide a firm base for the neurovascular structures passing through the triangle. The iliopsoas is the primary flexor of the hip, while the pectineus is involved in both hip flexion and adduction."
+},
+
+{
+  question: "What is the clinical significance of the femoral ring?",
+  options: [
+    "It is a common site for inguinal hernias",
+    "It is a common site for femoral hernias",
+    "It is where the femoral artery becomes the popliteal artery",
+    "It transmits the femoral nerve"
+  ],
+  correctAnswer: "It is a common site for femoral hernias",
+  explanation: "The femoral ring is the base of the femoral canal, located just below the inguinal ligament. It is a common site for femoral hernias, especially in women due to their wider pelvis. A femoral hernia presents as a bulge in the groin and can become strangulated, requiring surgical intervention."
+},
+
+{
+  question: "Which structure is found in the medial compartment of the femoral sheath?",
+  options: [
+    "Femoral nerve",
+    "Femoral artery",
+    "Femoral vein",
+    "Lymphatic tissue"
+  ],
+  correctAnswer: "Lymphatic tissue",
+  explanation: "The femoral sheath is divided into three compartments: lateral, intermediate, and medial. The lateral compartment contains the femoral artery, the intermediate compartment contains the femoral vein, and the medial compartment, also known as the femoral canal, contains lymphatic vessels and nodes. This space is a potential site for femoral hernias."
+},
+
+{
+  question: "Which muscle forms the lateral boundary of the adductor canal?",
+  options: [
+    "Vastus medialis",
+    "Sartorius",
+    "Adductor longus",
+    "Gracilis"
+  ],
+  correctAnswer: "Vastus medialis",
+  explanation: "The vastus medialis forms the lateral boundary of the adductor canal, while the sartorius forms the roof, and the adductor longus and magnus muscles form the posterior wall. The canal allows the passage of the femoral artery, vein, and saphenous nerve toward the popliteal fossa."
+},
+
+{
+  question: "What is the main function of the rectus femoris muscle?",
+  options: [
+    "Extension of the knee and flexion of the hip",
+    "Extension of the hip",
+    "Flexion of the knee",
+    "Lateral rotation of the thigh"
+  ],
+  correctAnswer: "Extension of the knee and flexion of the hip",
+  explanation: "The rectus femoris is one of the four muscles of the quadriceps femoris group. It originates from the anterior inferior iliac spine and inserts into the patella via the quadriceps tendon. Its dual role in extending the knee and flexing the hip makes it an important muscle for activities such as running, kicking, and jumping."
+},
+
+{
+  question: "What is the primary function of the gracilis muscle?",
+  options: [
+    "Hip abduction",
+    "Knee extension",
+    "Hip adduction",
+    "Lateral rotation of the thigh"
+  ],
+  correctAnswer: "Hip adduction",
+  explanation: "The gracilis muscle is a long, thin muscle located on the medial aspect of the thigh. It is primarily responsible for adducting the thigh, and it also assists in knee flexion. The gracilis is one of the muscles that form the pes anserinus, where it inserts along with the sartorius and semitendinosus on the medial surface of the tibia."
+},
+
+{
+  question: "Which structure marks the superior boundary of the femoral triangle?",
+  options: [
+    "Inguinal ligament",
+    "Sartorius",
+    "Adductor longus",
+    "Pubic tubercle"
+  ],
+  correctAnswer: "Inguinal ligament",
+  explanation: "The inguinal ligament marks the superior boundary of the femoral triangle. It stretches from the anterior superior iliac spine (ASIS) to the pubic tubercle and serves as a crucial landmark for various anatomical structures, including the femoral artery, vein, and nerve that pass beneath it into the thigh."
+},
+
+{
+  question: "What is the anatomical significance of the femoral vein in the femoral triangle?",
+  options: [
+    "It drains blood from the anterior thigh",
+    "It lies lateral to the femoral artery",
+    "It receives blood from the deep veins of the lower limb",
+    "It passes through the adductor hiatus"
+  ],
+  correctAnswer: "It receives blood from the deep veins of the lower limb",
+  explanation: "The femoral vein is the main venous drainage of the lower limb, located medial to the femoral artery within the femoral triangle. It receives blood from the profunda femoris vein (draining the deep structures of the thigh) and the great saphenous vein (draining the superficial tissues), before continuing as the external iliac vein as it ascends toward the abdomen."
+},
+
+{
+  question: "Which artery supplies the adductor muscles of the thigh?",
+  options: [
+    "Profunda femoris artery",
+    "Obturator artery",
+    "Circumflex femoral artery",
+    "Femoral artery"
+  ],
+  correctAnswer: "Profunda femoris artery",
+  explanation: "The profunda femoris artery, a large branch of the femoral artery, is the primary blood supply to the adductor muscles of the thigh. It gives off several perforating branches that pass through the adductor magnus muscle, supplying the posterior and medial compartments of the thigh."
+},
+
+{
+  question: "Which structure is located most medially in the femoral triangle?",
+  options: [
+    "Femoral nerve",
+    "Femoral artery",
+    "Femoral vein",
+    "Lymphatic vessels"
+  ],
+  correctAnswer: "Lymphatic vessels",
+  explanation: "In the femoral triangle, the structures are arranged from lateral to medial as the femoral nerve, femoral artery, femoral vein, and lymphatic vessels within the femoral canal. The lymphatic vessels are located most medially and are significant as they drain into the deep inguinal lymph nodes."
+},
+
+{
+  question: "Which muscle forms the anterior boundary of the adductor canal?",
+  options: [
+    "Sartorius",
+    "Vastus medialis",
+    "Adductor magnus",
+    "Pectineus"
+  ],
+  correctAnswer: "Sartorius",
+  explanation: "The sartorius muscle forms the anterior boundary (or roof) of the adductor canal. It is a long, ribbon-like muscle that runs obliquely across the front of the thigh, and its superficial location makes it a key landmark for identifying the structures within the adductor canal, such as the femoral artery and saphenous nerve."
+},
+
+{
+  question: "Which muscle is responsible for both hip flexion and knee extension?",
+  options: [
+    "Rectus femoris",
+    "Sartorius",
+    "Adductor longus",
+    "Vastus medialis"
+  ],
+  correctAnswer: "Rectus femoris",
+  explanation: "The rectus femoris is unique among the quadriceps muscles because it crosses both the hip and knee joints. This dual role allows it to perform hip flexion as well as knee extension, making it crucial for movements that involve both joints, such as running or kicking."
+},
+
+{
+  question: "Which structure is most vulnerable to injury during femoral hernia repair?",
+  options: [
+    "Femoral nerve",
+    "Femoral artery",
+    "Femoral vein",
+    "Obturator nerve"
+  ],
+  correctAnswer: "Femoral vein",
+  explanation: "The femoral vein is located medial to the femoral artery and can be vulnerable to injury during femoral hernia repair. Care must be taken to avoid damaging the vein, as it plays a critical role in draining blood from the lower limb. Injuries to the femoral vein can lead to complications such as deep vein thrombosis (DVT) or hemorrhage."
+},
+
+
+{
+  question: "Which muscle forms the bulk of the anterior region of the thigh?",
+  options: [
+    "Sartorius",
+    "Quadriceps femoris",
+    "Gracilis",
+    "Adductor longus"
+  ],
+  correctAnswer: "Quadriceps femoris",
+  explanation: "The quadriceps femoris is a large muscle group that makes up the bulk of the anterior region of the thigh. It is divided into four parts: rectus femoris, vastus medialis, vastus lateralis, and vastus intermedius. These muscles converge into a common quadriceps tendon, which attaches to the patella. Their primary function is to extend the knee, and the rectus femoris also assists in hip flexion."
+},
+
+{
+  question: "What is the distal attachment of the sartorius muscle?",
+  options: [
+    "Greater trochanter of the femur",
+    "Medial surface of the tibia",
+    "Lesser trochanter of the femur",
+    "Lateral condyle of the femur"
+  ],
+  correctAnswer: "Medial surface of the tibia",
+  explanation: "The sartorius, the longest muscle in the body, runs obliquely across the thigh and inserts into the medial surface of the tibia. Its role includes flexing, abducting, and laterally rotating the hip, as well as flexing the knee. The muscle helps stabilize the knee joint and contributes to movements like crossing the legs."
+},
+
+{
+  question: "Which muscle is primarily responsible for preventing lateral dislocation of the patella?",
+  options: [
+    "Vastus medialis",
+    "Rectus femoris",
+    "Vastus lateralis",
+    "Sartorius"
+  ],
+  correctAnswer: "Vastus medialis",
+  explanation: "The vastus medialis is one of the four quadriceps muscles. Its lower horizontal fibers, often referred to as the vastus medialis oblique (VMO), play a key role in stabilizing the patella and preventing it from dislocating laterally, especially during knee extension. This is particularly important in patients prone to patellar instability."
+},
+
+{
+  question: "What is the common tendon of the quadriceps femoris muscle called?",
+  options: [
+    "Patellar ligament",
+    "Achilles tendon",
+    "Quadriceps tendon",
+    "Iliotibial band"
+  ],
+  correctAnswer: "Quadriceps tendon",
+  explanation: "The quadriceps tendon is the common tendon formed by the four muscles of the quadriceps femoris (rectus femoris, vastus lateralis, vastus medialis, and vastus intermedius). This tendon attaches to the superior aspect of the patella, and from there, the patellar ligament connects the patella to the tibial tuberosity. This arrangement allows for powerful knee extension."
+},
+
+{
+  question: "Which muscle of the quadriceps group also assists in hip flexion?",
+  options: [
+    "Vastus medialis",
+    "Rectus femoris",
+    "Vastus lateralis",
+    "Vastus intermedius"
+  ],
+  correctAnswer: "Rectus femoris",
+  explanation: "The rectus femoris is unique among the quadriceps muscles because it crosses both the hip and knee joints. This allows it to contribute to both knee extension and hip flexion, making it a key player in activities that require movement of both joints, such as kicking a ball or climbing stairs."
+},
+
+{
+  question: "What is the main action of the vastus lateralis muscle?",
+  options: [
+    "Hip flexion",
+    "Knee extension",
+    "Hip abduction",
+    "Knee flexion"
+  ],
+  correctAnswer: "Knee extension",
+  explanation: "The vastus lateralis is one of the quadriceps muscles, and its primary function is knee extension. It is located on the lateral side of the thigh and contributes to the strength and stability of the knee during activities like walking, running, and jumping."
+},
+
+{
+  question: "Where does the patellar ligament attach distally?",
+  options: [
+    "Tibial tuberosity",
+    "Medial condyle of the tibia",
+    "Lateral epicondyle of the femur",
+    "Greater trochanter of the femur"
+  ],
+  correctAnswer: "Tibial tuberosity",
+  explanation: "The patellar ligament connects the patella to the tibial tuberosity. It is a continuation of the quadriceps tendon and plays a crucial role in transmitting the force generated by the quadriceps muscles during knee extension. This ligament is essential for stabilizing the patella and providing leverage for knee movements."
+},
+
+{
+  question: "Which muscle of the anterior thigh is the primary hip adductor?",
+  options: [
+    "Gracilis",
+    "Adductor longus",
+    "Sartorius",
+    "Iliopsoas"
+  ],
+  correctAnswer: "Adductor longus",
+  explanation: "The adductor longus is a major muscle in the medial compartment of the thigh and is responsible for adducting the thigh. It originates from the pubis and inserts into the linea aspera of the femur. Along with other adductors, it plays a crucial role in stabilizing the pelvis during walking and running."
+},
+
+{
+  question: "What is the innervation of the quadriceps femoris muscle?",
+  options: [
+    "Obturator nerve",
+    "Sciatic nerve",
+    "Femoral nerve",
+    "Tibial nerve"
+  ],
+  correctAnswer: "Femoral nerve",
+  explanation: "The quadriceps femoris muscle is innervated by the femoral nerve, which originates from the lumbar plexus (L2-L4). This nerve provides motor supply to the entire quadriceps group, enabling knee extension. Damage to the femoral nerve can lead to significant weakness or loss of knee extension."
+},
+
+{
+  question: "Which muscle runs along the medial side of the thigh and inserts into the medial surface of the tibia?",
+  options: [
+    "Adductor magnus",
+    "Sartorius",
+    "Gracilis",
+    "Vastus medialis"
+  ],
+  correctAnswer: "Gracilis",
+  explanation: "The gracilis is a long, thin muscle that runs along the medial side of the thigh. It inserts into the medial surface of the tibia as part of the pes anserinus group. The gracilis aids in hip adduction, knee flexion, and medial rotation of the leg. Its location and function make it an important stabilizer for the lower limb."
+},
+
+
+
+
+
+        
+        // Add more questions following this pattern
+      ],
+      
+    },
+
+
+///End of the front of the thigh, femoral triangle and Adductor canal
+
+
+
   
   
   
