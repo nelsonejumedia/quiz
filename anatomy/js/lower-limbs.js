@@ -59,20 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let score = 0;
     let timer = null;
   
-    // function playSound(isCorrect) {
-    //   const correctSound = document.getElementById("correct-sound");
-    //   const incorrectSound = document.getElementById("incorrect-sound");
-    //   if (isCorrect) {
-    //     correctSound.play();
-    //   } else {
-    //     incorrectSound.play();
-    //   }
-    // }
-  
-    // function checkAnswer(correctAnswer, selectedOption) {
-    //   const isCorrect = correctAnswer === selectedOption;
-    //   playSound(isCorrect);
-    // }
   
     const quizzes = [
    
