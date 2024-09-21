@@ -2497,6 +2497,338 @@ document.addEventListener("DOMContentLoaded", () => {
   },
 
 
+
+
+//Nelson’s Note
+
+  {
+    question: "Which muscle is the primary hip flexor?",
+    options: [
+      "Gluteus maximus",
+      "Adductor brevis",
+      "Iliopsoas",
+      "Rectus femoris"
+    ],
+    correctAnswer: "Iliopsoas",
+    explanation: "The iliopsoas muscle is the primary hip flexor, responsible for lifting the thigh towards the body."
+  },
+  {
+    question: "Which muscle is responsible for hip extension?",
+    options: [
+      "Gluteus medius",
+      "Adductor brevis",
+      "Gluteus maximus",
+      "Iliopsoas"
+    ],
+    correctAnswer: "Gluteus maximus",
+    explanation: "The gluteus maximus is the main muscle responsible for extending the hip joint, moving the thigh backward."
+  },
+  {
+    question: "Which muscle is primarily responsible for hip abduction?",
+    options: [
+      "Adductor brevis",
+      "Gluteus maximus",
+      "Gluteus medius",
+      "Iliopsoas"
+    ],
+    correctAnswer: "Gluteus medius",
+    explanation: "The gluteus medius is the primary muscle for abducting the hip, moving the leg away from the body's midline."
+  },
+  {
+    question: "Which muscle is involved in hip adduction?",
+    options: [
+      "Adductor brevis",
+      "Gluteus maximus",
+      "Iliopsoas",
+      "Gluteus medius"
+    ],
+    correctAnswer: "Adductor brevis",
+    explanation: "The adductor brevis is responsible for hip adduction, pulling the leg toward the body's midline."
+  },
+  {
+    question: "Which ligament prevents over-abduction and extension of the hip joint?",
+    options: [
+      "Iliofemoral ligament",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament",
+      "Ligamentum teres"
+    ],
+    correctAnswer: "Pubofemoral ligament",
+    explanation: "The pubofemoral ligament is located on the anterior side of the hip and prevents over-abduction and extension."
+  },
+  {
+    question: "Which ligament is known for its Y-shape and prevents over-extension of the hip joint?",
+    options: [
+      "Iliofemoral ligament",
+      "Ischiofemoral ligament",
+      "Pubofemoral ligament",
+      "Ligamentum teres"
+    ],
+    correctAnswer: "Iliofemoral ligament",
+    explanation: "The iliofemoral ligament, also called the Y-shaped ligament, is located on the anterior side and prevents over-extension of the hip joint."
+  },
+  {
+    question: "Where is the ischiofemoral ligament located?",
+    options: [
+      "On the anterior side of the hip joint",
+      "On the lateral side of the hip joint",
+      "On the posterior side of the hip joint",
+      "On the medial side of the hip joint"
+    ],
+    correctAnswer: "On the posterior side of the hip joint",
+    explanation: "The ischiofemoral ligament is located on the posterior side of the hip joint and originates from the ischium of the pelvis."
+  },
+  {
+    question: "What does the ischiofemoral ligament insert deep to?",
+    options: [
+      "The pubofemoral ligament",
+      "The iliopsoas muscle",
+      "The iliofemoral ligament",
+      "The gluteus maximus"
+    ],
+    correctAnswer: "The iliofemoral ligament",
+    explanation: "The ischiofemoral ligament inserts deep to the iliofemoral ligament, located on the posterior side of the hip joint."
+  },
+  {
+    question: "Which ligament originates from the ischium of the pelvis?",
+    options: [
+      "Iliofemoral ligament",
+      "Pubofemoral ligament",
+      "Ischiofemoral ligament",
+      "Ligamentum teres"
+    ],
+    correctAnswer: "Ischiofemoral ligament",
+    explanation: "The ischiofemoral ligament originates from the ischium of the pelvis and inserts deep to the iliofemoral ligament."
+  },
+  {
+    question: "Which of the following ligaments prevents over-extension of the hip joint?",
+    options: [
+      "Pubofemoral ligament",
+      "Iliofemoral ligament",
+      "Ischiofemoral ligament",
+      "Ligamentum teres"
+    ],
+    correctAnswer: "Iliofemoral ligament",
+    explanation: "The iliofemoral ligament, located on the anterior side of the hip, prevents over-extension of the joint."
+  },
+
+
+
+
+  {
+    question: "What is the joint capsule of the hip primarily responsible for?",
+    options: [
+      "Providing blood supply to the hip",
+      "Lubricating the hip joint",
+      "Stability of the hip joint",
+      "Flexion of the hip joint"
+    ],
+    correctAnswer: "Stability of the hip joint",
+    explanation: "The joint capsule of the hip is a watertight sac that provides the main source of stability by connecting the head of the femur to the acetabulum."
+  },
+  {
+    question: "What role does the ligamentum teres play in the hip joint?",
+    options: [
+      "Prevents overextension of the hip",
+      "Connects the tip of the femur to the acetabulum and provides a small amount of blood supply",
+      "Assists in hip abduction",
+      "Helps in hip flexion"
+    ],
+    correctAnswer: "Connects the tip of the femur to the acetabulum and provides a small amount of blood supply",
+    explanation: "The ligamentum teres connects the tip of the femur to the acetabulum and carries a small artery that provides limited blood supply, mainly functional in children."
+  },
+  {
+    question: "What is the function of a bursa in the body?",
+    options: [
+      "To generate movement",
+      "To provide blood supply to muscles",
+      "To reduce friction between muscles, tendons, and bones",
+      "To store nutrients"
+    ],
+    correctAnswer: "To reduce friction between muscles, tendons, and bones",
+    explanation: "A bursa is a thin sac of fluid that lubricates areas of friction between muscles, tendons, and bones to reduce wear."
+  },
+  {
+    question: "Where is the greater trochanteric bursa located?",
+    options: [
+      "Between the iliopsoas muscle and hip joint",
+      "Between the greater trochanter and the muscles/tendons crossing over it",
+      "Between the ischial tuberosity and the surrounding muscles",
+      "Inside the joint capsule"
+    ],
+    correctAnswer: "Between the greater trochanter and the muscles/tendons crossing over it",
+    explanation: "The greater trochanteric bursa is located between the bump of the hip (greater trochanter) and the muscles and tendons that cross over it."
+  },
+  {
+    question: "What is trochanteric bursitis?",
+    options: [
+      "A breakdown of articular cartilage",
+      "Irritation and inflammation of the greater trochanteric bursa",
+      "Inflammation of the iliopsoas tendon",
+      "Inflammation of the joint capsule"
+    ],
+    correctAnswer: "Irritation and inflammation of the greater trochanteric bursa",
+    explanation: "Trochanteric bursitis is the irritation and inflammation of the greater trochanteric bursa, often causing hip pain."
+  },
+  {
+    question: "Where is the iliopsoas bursa located?",
+    options: [
+      "Between the iliopsoas muscle and the greater trochanter",
+      "Between the iliopsoas muscle and the hip joint",
+      "Inside the joint capsule",
+      "On the posterior side of the femur"
+    ],
+    correctAnswer: "Between the iliopsoas muscle and the hip joint",
+    explanation: "The iliopsoas bursa sits between the iliopsoas muscle and the hip joint, cushioning where the iliopsoas tendon passes in front of the joint."
+  },
+  {
+    question: "What is ischial bursitis?",
+    options: [
+      "Inflammation of the bursa over the greater trochanter",
+      "Inflammation of the bursa located at the ischial tuberosity",
+      "A type of osteoarthritis",
+      "A tear in the iliopsoas muscle"
+    ],
+    correctAnswer: "Inflammation of the bursa located at the ischial tuberosity",
+    explanation: "Ischial bursitis is the inflammation of the bursa located at the ischial tuberosity, the bony area in your buttocks that you sit on."
+  },
+  {
+    question: "Where is the ischial tuberosity bursa located?",
+    options: [
+      "Over the greater trochanter",
+      "Inside the hip joint capsule",
+      "At the bony bump in your buttocks",
+      "Near the acetabulum"
+    ],
+    correctAnswer: "At the bony bump in your buttocks",
+    explanation: "The ischial tuberosity bursa is located at the bump of bone in your buttocks, which you sit on."
+  },
+  {
+    question: "What condition involves the breakdown of articular cartilage in the hip joint?",
+    options: [
+      "Osteoarthritis",
+      "Trochanteric bursitis",
+      "Hip dysplasia",
+      "Ischial bursitis"
+    ],
+    correctAnswer: "Osteoarthritis",
+    explanation: "Osteoarthritis involves the breakdown of the articular cartilage in the hip joint, leading to pain and stiffness."
+  },
+  {
+    question: "Which bursa is most associated with sitting-related pain due to inflammation?",
+    options: [
+      "Greater trochanteric bursa",
+      "Iliopsoas bursa",
+      "Ischial tuberosity bursa",
+      "Subscapular bursa"
+    ],
+    correctAnswer: "Ischial tuberosity bursa",
+    explanation: "The ischial tuberosity bursa, located at the bump of bone in the buttocks, can become inflamed (ischial bursitis) and cause sitting-related pain."
+  },
+  {
+    question: "Which bursa is located between the iliopsoas muscle and the hip joint?",
+    options: [
+      "Ischial tuberosity bursa",
+      "Greater trochanteric bursa",
+      "Iliopsoas bursa",
+      "Subacromial bursa"
+    ],
+    correctAnswer: "Iliopsoas bursa",
+    explanation: "The iliopsoas bursa is located between the iliopsoas muscle and the hip joint, cushioning the tendon as it passes in front of the hip."
+  },
+  {
+    question: "What is the primary function of the joint capsule in the hip?",
+    options: [
+      "Reducing friction between tendons",
+      "Providing blood supply to the joint",
+      "Maintaining stability of the joint",
+      "Allowing for greater range of motion"
+    ],
+    correctAnswer: "Maintaining stability of the joint",
+    explanation: "The joint capsule, formed by a strong ligament, helps connect the femur to the acetabulum and provides stability to the hip joint."
+  },
+  {
+    question: "Which structure provides a small amount of blood supply to the femoral head, particularly in children?",
+    options: [
+      "Iliofemoral ligament",
+      "Ligamentum teres",
+      "Greater trochanteric bursa",
+      "Ischial tuberosity bursa"
+    ],
+    correctAnswer: "Ligamentum teres",
+    explanation: "The ligamentum teres contains a small artery that supplies blood to the femoral head, mainly functional in children."
+  },
+  {
+    question: "Which condition involves the inflammation of the bursa between the greater trochanter and the muscles/tendons crossing over it?",
+    options: [
+      "Trochanteric bursitis",
+      "Ischial bursitis",
+      "Osteoarthritis",
+      "Hip dysplasia"
+    ],
+    correctAnswer: "Trochanteric bursitis",
+    explanation: "Trochanteric bursitis is the inflammation of the bursa located between the greater trochanter and the muscles/tendons crossing over it."
+  },
+  {
+    question: "What is the role of the iliopsoas bursa in the hip joint?",
+    options: [
+      "Connects the iliopsoas muscle to the femur",
+      "Reduces friction between the iliopsoas tendon and the hip joint",
+      "Provides blood supply to the femur",
+      "Assists in hip abduction"
+    ],
+    correctAnswer: "Reduces friction between the iliopsoas tendon and the hip joint",
+    explanation: "The iliopsoas bursa reduces friction between the iliopsoas tendon and the hip joint where the tendon passes in front of the joint."
+  },
+  {
+    question: "Which structure is primarily affected in osteoarthritis of the hip?",
+    options: [
+      "Ligamentum teres",
+      "Articular cartilage",
+      "Iliopsoas muscle",
+      "Ischial tuberosity bursa"
+    ],
+    correctAnswer: "Articular cartilage",
+    explanation: "In osteoarthritis, the articular cartilage of the hip joint breaks down, leading to pain and restricted movement."
+  },
+  {
+    question: "What is the function of the greater trochanteric bursa?",
+    options: [
+      "To supply blood to the hip",
+      "To reduce friction between the greater trochanter and surrounding tendons/muscles",
+      "To stabilize the hip joint",
+      "To assist in hip abduction"
+    ],
+    correctAnswer: "To reduce friction between the greater trochanter and surrounding tendons/muscles",
+    explanation: "The greater trochanteric bursa reduces friction between the greater trochanter and the muscles and tendons that cross over it."
+  },
+  {
+    question: "What is the primary function of the ischial tuberosity bursa?",
+    options: [
+      "To reduce friction between the ischial tuberosity and surrounding tissues",
+      "To assist in hip extension",
+      "To provide blood supply to the ischial region",
+      "To stabilize the hip joint"
+    ],
+    correctAnswer: "To reduce friction between the ischial tuberosity and surrounding tissues",
+    explanation: "The ischial tuberosity bursa reduces friction between the ischial tuberosity (the bony prominence you sit on) and surrounding tissues."
+  },
+  {
+    question: "What does inflammation of the ischial tuberosity bursa result in?",
+    options: [
+      "Trochanteric bursitis",
+      "Osteoarthritis",
+      "Ischial bursitis",
+      "Ligamentum teres rupture"
+    ],
+    correctAnswer: "Ischial bursitis",
+    explanation: "Ischial bursitis occurs when the ischial tuberosity bursa becomes inflamed, often resulting in pain during sitting."
+  },
+
+
+
+
+
         
         // Add more questions following this pattern
       ],
