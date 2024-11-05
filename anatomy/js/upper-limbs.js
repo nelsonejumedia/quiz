@@ -74,6 +74,515 @@ document.addEventListener("DOMContentLoaded", () => {
     // }
   
     const quizzes = [
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////Basics/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+      category: "Basics",
+     questions = [
+  {
+    question: "What is the anatomical term for the position of the body facing forward, with arms at the side and palms facing forward?",
+    options: [
+      "Supine position",
+      "Anatomical position",
+      "Prone position",
+      "Lateral position"
+    ],
+    correctAnswer: "Anatomical position",
+    explanation: "The anatomical position is a standard reference where the body is upright, facing forward, with arms at the sides and palms facing forward."
+  },
+  {
+    question: "Which plane divides the body into left and right halves?",
+    options: [
+      "Coronal plane",
+      "Sagittal plane",
+      "Transverse plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Sagittal plane",
+    explanation: "The sagittal plane divides the body into left and right sections. When it runs directly down the middle, it's called the median plane."
+  },
+  {
+    question: "In anatomical terms, which direction does 'distal' indicate?",
+    options: [
+      "Closer to the trunk",
+      "Away from the trunk",
+      "Toward the head",
+      "Toward the feet"
+    ],
+    correctAnswer: "Away from the trunk",
+    explanation: "'Distal' refers to a position further away from the trunk or point of origin, particularly used to describe limbs."
+  },
+  {
+    question: "Which anatomical plane divides the body into anterior and posterior sections?",
+    options: [
+      "Sagittal plane",
+      "Coronal plane",
+      "Transverse plane",
+      "Median plane"
+    ],
+    correctAnswer: "Coronal plane",
+    explanation: "The coronal (or frontal) plane divides the body into anterior (front) and posterior (back) parts."
+  },
+  {
+    question: "What term describes the position of a structure located closer to the surface of the body?",
+    options: [
+      "Deep",
+      "Superficial",
+      "Distal",
+      "Medial"
+    ],
+    correctAnswer: "Superficial",
+    explanation: "'Superficial' refers to structures closer to the body surface, whereas 'deep' indicates structures further away."
+  },
+
+  {
+    question: "What is the anatomical term for the position of the body facing forward, with arms at the side and palms facing forward?",
+    options: [
+      "Supine position",
+      "Anatomical position",
+      "Prone position",
+      "Lateral position"
+    ],
+    correctAnswer: "Anatomical position",
+    explanation: "The anatomical position is a standard reference where the body is upright, facing forward, with arms at the sides and palms facing forward."
+  },
+  {
+    question: "Which plane divides the body into left and right halves?",
+    options: [
+      "Coronal plane",
+      "Sagittal plane",
+      "Transverse plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Sagittal plane",
+    explanation: "The sagittal plane divides the body into left and right sections. When it runs directly down the middle, it's called the median plane."
+  },
+  {
+    question: "In anatomical terms, which direction does 'distal' indicate?",
+    options: [
+      "Closer to the trunk",
+      "Away from the trunk",
+      "Toward the head",
+      "Toward the feet"
+    ],
+    correctAnswer: "Away from the trunk",
+    explanation: "'Distal' refers to a position further away from the trunk or point of origin, particularly used to describe limbs."
+  },
+  {
+    question: "Which anatomical plane divides the body into anterior and posterior sections?",
+    options: [
+      "Sagittal plane",
+      "Coronal plane",
+      "Transverse plane",
+      "Median plane"
+    ],
+    correctAnswer: "Coronal plane",
+    explanation: "The coronal (or frontal) plane divides the body into anterior (front) and posterior (back) parts."
+  },
+  {
+    question: "What term describes the position of a structure located closer to the surface of the body?",
+    options: [
+      "Deep",
+      "Superficial",
+      "Distal",
+      "Medial"
+    ],
+    correctAnswer: "Superficial",
+    explanation: "'Superficial' refers to structures closer to the body surface, whereas 'deep' indicates structures further away."
+  },
+  {
+    question: "Which plane divides the body into superior and inferior parts?",
+    options: [
+      "Sagittal plane",
+      "Transverse plane",
+      "Coronal plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Transverse plane",
+    explanation: "The transverse (or horizontal) plane divides the body into upper (superior) and lower (inferior) portions."
+  },
+  {
+    question: "What does the term 'medial' indicate?",
+    options: [
+      "Closer to the midline of the body",
+      "Away from the midline of the body",
+      "Above another structure",
+      "Below another structure"
+    ],
+    correctAnswer: "Closer to the midline of the body",
+    explanation: "'Medial' refers to a position closer to the body's midline."
+  },
+  {
+    question: "What does 'anterior' refer to in anatomical terms?",
+    options: [
+      "Front of the body",
+      "Back of the body",
+      "Above a structure",
+      "Below a structure"
+    ],
+    correctAnswer: "Front of the body",
+    explanation: "'Anterior' is a directional term indicating the front of the body."
+  },
+  {
+    question: "Which of the following terms is used to describe a position farther from the surface of the body?",
+    options: [
+      "Superficial",
+      "Lateral",
+      "Deep",
+      "Proximal"
+    ],
+    correctAnswer: "Deep",
+    explanation: "'Deep' indicates a structure further from the body surface."
+  },
+  {
+    question: "The term 'lateral' describes a position that is:",
+    options: [
+      "Closer to the midline",
+      "Farther from the midline",
+      "Toward the surface",
+      "Away from the head"
+    ],
+    correctAnswer: "Farther from the midline",
+    explanation: "'Lateral' refers to a structure farther away from the body's midline."
+  },
+  {
+    question: "In anatomical terms, what does 'proximal' refer to?",
+    options: [
+      "Closer to the head",
+      "Closer to the point of origin",
+      "Farther from the trunk",
+      "Farther from the surface"
+    ],
+    correctAnswer: "Closer to the point of origin",
+    explanation: "'Proximal' is used to describe a structure that is nearer to the trunk or the point of origin."
+  },
+  {
+    question: "What is the prone position?",
+    options: [
+      "Lying face up",
+      "Lying face down",
+      "Sitting upright",
+      "Standing with arms extended"
+    ],
+    correctAnswer: "Lying face down",
+    explanation: "In the prone position, a person lies face down."
+  },
+  {
+    question: "What does 'posterior' indicate?",
+    options: [
+      "Towards the front",
+      "Towards the back",
+      "Towards the top",
+      "Towards the bottom"
+    ],
+    correctAnswer: "Towards the back",
+    explanation: "'Posterior' refers to the back side of the body."
+  },
+  {
+    question: "Which plane is also known as the horizontal plane?",
+    options: [
+      "Transverse plane",
+      "Sagittal plane",
+      "Coronal plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Transverse plane",
+    explanation: "The transverse plane is also called the horizontal plane and divides the body into upper and lower parts."
+  },
+  {
+    question: "Which plane would cut the body diagonally?",
+    options: [
+      "Sagittal plane",
+      "Coronal plane",
+      "Transverse plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Oblique plane",
+    explanation: "The oblique plane cuts the body at an angle, other than 90 degrees to any of the other planes."
+  },
+  {
+    question: "What is the term for a body part closer to the head?",
+    options: [
+      "Inferior",
+      "Proximal",
+      "Cranial",
+      "Caudal"
+    ],
+    correctAnswer: "Cranial",
+    explanation: "'Cranial' refers to a position closer to the head, especially in animals."
+  },
+  {
+    question: "Which of the following is the correct description of the term 'inferior'?",
+    options: [
+      "Closer to the midline",
+      "Closer to the feet",
+      "Closer to the head",
+      "Closer to the surface"
+    ],
+    correctAnswer: "Closer to the feet",
+    explanation: "'Inferior' refers to a structure positioned closer to the feet."
+  },
+  {
+    question: "The sagittal plane that divides the body equally into left and right halves is called:",
+    options: [
+      "Parasagittal plane",
+      "Median plane",
+      "Coronal plane",
+      "Transverse plane"
+    ],
+    correctAnswer: "Median plane",
+    explanation: "The median plane is a sagittal plane that divides the body equally into left and right halves."
+  },
+  {
+    question: "What does 'ventral' mean in anatomical terms?",
+    options: [
+      "Towards the back",
+      "Towards the front",
+      "Towards the side",
+      "Towards the head"
+    ],
+    correctAnswer: "Towards the front",
+    explanation: "'Ventral' refers to the front or anterior aspect of the body."
+  },
+  {
+    question: "Which term describes a body part that is located closer to the midline?",
+    options: [
+      "Lateral",
+      "Medial",
+      "Distal",
+      "Proximal"
+    ],
+    correctAnswer: "Medial",
+    explanation: "'Medial' describes a structure closer to the body's midline."
+  },
+  {
+    question: "The term 'caudal' refers to a position closer to which part of the body?",
+    options: [
+      "Head",
+      "Feet",
+      "Spine",
+      "Midline"
+    ],
+    correctAnswer: "Feet",
+    explanation: "'Caudal' indicates a position closer to the lower part of the body or the tail in animals."
+  },
+  {
+    question: "Which of the following terms indicates the back side of the body?",
+    options: [
+      "Anterior",
+      "Posterior",
+      "Ventral",
+      "Medial"
+    ],
+    correctAnswer: "Posterior",
+    explanation: "'Posterior' refers to the back side of the body."
+  },
+  {
+    question: "In anatomical terms, what does 'superior' mean?",
+    options: [
+      "Towards the feet",
+      "Closer to the surface",
+      "Closer to the head",
+      "Away from the midline"
+    ],
+    correctAnswer: "Closer to the head",
+    explanation: "'Superior' indicates a position nearer to the head."
+  },
+  {
+    question: "What term is used for a body part farther from the trunk or point of origin?",
+    options: [
+      "Proximal",
+      "Distal",
+      "Medial",
+      "Deep"
+    ],
+    correctAnswer: "Distal",
+    explanation: "'Distal' describes a structure further away from the trunk or point of origin."
+  },
+  {
+    question: "In anatomical terminology, 'cephalic' refers to:",
+    options: [
+      "Towards the head",
+      "Towards the feet",
+      "Towards the side",
+      "Towards the back"
+    ],
+    correctAnswer: "Towards the head",
+    explanation: "'Cephalic' is a term that refers to a position closer to or towards the head."
+  },
+  {
+    question: "What does the term 'prone' refer to in anatomical positioning?",
+    options: [
+      "Lying face up",
+      "Lying face down",
+      "Sitting with legs extended",
+      "Standing upright"
+    ],
+    correctAnswer: "Lying face down",
+    explanation: "In the prone position, the body is lying face down."
+  },
+  {
+    question: "The supine position refers to the body lying:",
+    options: [
+      "On its side",
+      "Face up",
+      "Face down",
+      "In a crouching position"
+    ],
+    correctAnswer: "Face up",
+    explanation: "In the supine position, the body lies on its back with the face upward."
+  },
+  {
+    question: "Which plane divides the body into unequal left and right parts?",
+    options: [
+      "Median plane",
+      "Parasagittal plane",
+      "Coronal plane",
+      "Transverse plane"
+    ],
+    correctAnswer: "Parasagittal plane",
+    explanation: "The parasagittal plane divides the body into left and right sections but not equally."
+  },
+  {
+    question: "In anatomical terms, the hand is considered to be in what position relative to the elbow?",
+    options: [
+      "Distal",
+      "Proximal",
+      "Medial",
+      "Lateral"
+    ],
+    correctAnswer: "Distal",
+    explanation: "The hand is distal to the elbow, meaning it is further away from the point of attachment to the body."
+  },
+  {
+    question: "Which anatomical plane is also referred to as the 'frontal plane'?",
+    options: [
+      "Sagittal plane",
+      "Coronal plane",
+      "Transverse plane",
+      "Oblique plane"
+    ],
+    correctAnswer: "Coronal plane",
+    explanation: "The coronal plane, also known as the frontal plane, divides the body into anterior and posterior sections."
+  },
+  {
+    question: "In anatomical terms, the term 'rostral' refers to a direction towards the:",
+    options: [
+      "Tail",
+      "Back",
+      "Nose or mouth",
+      "Feet"
+    ],
+    correctAnswer: "Nose or mouth",
+    explanation: "'Rostral' is a directional term that indicates a position towards the nose or mouth, particularly in the head."
+  },
+  {
+    question: "What does the term 'axial' refer to in the context of anatomical orientation?",
+    options: [
+      "The limbs of the body",
+      "The core or central part of the body",
+      "The posterior side of the body",
+      "The position of the head only"
+    ],
+    correctAnswer: "The core or central part of the body",
+    explanation: "'Axial' refers to the central or core part of the body, which includes the head, neck, and trunk."
+  },
+  {
+    question: "Which term describes a position closer to the attachment point or the trunk of the body?",
+    options: [
+      "Distal",
+      "Proximal",
+      "Lateral",
+      "Superficial"
+    ],
+    correctAnswer: "Proximal",
+    explanation: "'Proximal' refers to a position closer to the trunk or point of attachment."
+  },
+  {
+    question: "The anatomical term 'peripheral' typically refers to a position that is:",
+    options: [
+      "Closer to the midline",
+      "Away from the center",
+      "Closer to the point of attachment",
+      "Below another structure"
+    ],
+    correctAnswer: "Away from the center",
+    explanation: "'Peripheral' refers to structures located away from the center of the body or an organ."
+  },
+  {
+    question: "What does the term 'inferomedial' mean?",
+    options: [
+      "Above and to the side",
+      "Below and toward the midline",
+      "Toward the surface and midline",
+      "Above and toward the head"
+    ],
+    correctAnswer: "Below and toward the midline",
+    explanation: "'Inferomedial' combines 'inferior' (below) and 'medial' (toward the midline), meaning below and toward the midline."
+  },
+  {
+    question: "In anatomical orientation, 'superolateral' refers to a direction that is:",
+    options: [
+      "Above and toward the midline",
+      "Below and toward the midline",
+      "Above and away from the midline",
+      "Below and away from the midline"
+    ],
+    correctAnswer: "Above and away from the midline",
+    explanation: "'Superolateral' combines 'superior' (above) and 'lateral' (away from the midline), meaning above and away from the midline."
+  },
+  {
+    question: "What is the anatomical position term for lying horizontally on the side?",
+    options: [
+      "Supine position",
+      "Prone position",
+      "Lateral decubitus position",
+      "Trendelenburg position"
+    ],
+    correctAnswer: "Lateral decubitus position",
+    explanation: "The lateral decubitus position refers to lying horizontally on one's side."
+  },
+  {
+    question: "What does the term 'dorsal' refer to in human anatomy?",
+    options: [
+      "The front side of the body",
+      "The back side of the body",
+      "The head",
+      "The feet"
+    ],
+    correctAnswer: "The back side of the body",
+    explanation: "'Dorsal' refers to the back side of the body."
+  },
+
+
+
+
+
+
+
+
+
+];      
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {
         category: "Upper Limbs",
         questions: [
