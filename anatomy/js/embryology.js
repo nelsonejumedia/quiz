@@ -296,6 +296,32 @@ document.addEventListener("DOMContentLoaded", () => {
     correctAnswer: "The gastrointestinal tract and respiratory system",
     explanation: "The endoderm forms the lining of the digestive and respiratory tracts, among other structures."
   },
+
+
+{
+  question: "What is the difference between cell division and cell differentiation?",
+  options: [
+    "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
+    "Cell division involves genetic changes, while cell differentiation does not involve genetic changes.",
+    "Cell division occurs only in the early stages of life, while cell differentiation occurs throughout life.",
+    "Cell division is specific to eukaryotes, while cell differentiation is specific to prokaryotes."
+  ],
+  correctAnswer: "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
+  explanation: "Cell division produces new cells for growth, repair, or reproduction. Differentiation involves cells developing specific structures and functions to perform specialized roles in the body."
+},
+{
+  question: "What happens in the first phase of spermatogonia?",
+  options: [
+    "Spermatogonia undergo meiosis to form primary spermatocytes.",
+    "Spermatogonia remain dormant until puberty.",
+    "Spermatogonia undergo mitosis to produce more spermatogonia",
+    "Spermatogonia differentiate into mature sperm cells."
+  ],
+  correctAnswer: "Spermatogonia undergo mitosis to produce more spermatogonia",
+  explanation: "In the first phase, spermatogonia divide mitotically to maintain their numbers and produce cells that will later differentiate into primary spermatocytes."
+},
+
+
   {
     question: "Which of the following is true about oogenesis?",
     options: [
