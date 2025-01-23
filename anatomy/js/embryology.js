@@ -2245,6 +2245,8 @@ function displayQuestion() {
   });
 }
 
+
+
 function selectAnswer(selectedButton, selectedOption) {
   if (userHasSelected) return;
   userHasSelected = true;
@@ -2253,6 +2255,28 @@ function selectAnswer(selectedButton, selectedOption) {
     btn.classList.remove("selected");
   });
   selectedButton.classList.add("selected");
+
+
+function startTimer() {
+      let timeLeft = 30; // 3 minutes
+      const timerElement = document.getElementById("timer");
+  
+      clearInterval(timer);
+      timer = setInterval(() => {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        timerElement.textContent = `${minutes
+          .toString()
+          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")} sec`;
+  
+        if (timeLeft === 0) {
+          clearInterval(timer);
+          submitAnswer();
+        }
+        timeLeft--;
+      }, 1000);
+    }
+
 
   setTimeout(() => {
     const currentQuestion = currentQuiz.questions[currentQuestionIndex];
