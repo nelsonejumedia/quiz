@@ -538,7 +538,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // More categories 
 
-]
+];
 
 
 
