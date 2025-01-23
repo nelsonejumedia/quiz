@@ -1,3 +1,15 @@
+.answer-btn.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.answer-btn.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #1e2736;
