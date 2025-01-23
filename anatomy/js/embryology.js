@@ -2298,7 +2298,7 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 2000);
+    }, 1000);
   }, 2000);
 }
 
