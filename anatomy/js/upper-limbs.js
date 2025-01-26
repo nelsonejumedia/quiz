@@ -471,7 +471,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "What is another name for the Dorsal Subscapular Nerve?",
-    options: ["Nerve to Rhomboid", "Nerve of Bull", "Thoracodorsal Nerve", "Nerve to Pectoralis"],
+    options: ["Nerve of Bull", "Thoracodorsal Nerve", "Nerve to Rhomboid", "Nerve to Pectoralis"],
     correctAnswer: "Nerve to Rhomboid",
     explanation: "The Dorsal Subscapular Nerve (C5) is also called the Nerve to Rhomboid."
   },
@@ -483,13 +483,13 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which branch of the Brachial Plexus includes the nerves in the root and trunk?",
-    options: ["Supraclavicular Branch", "Infraclavicular Branch", "Medial Cord", "Posterior Cord"],
+    options: ["Infraclavicular Branch", "Supraclavicular Branch", "Medial Cord", "Posterior Cord"],
     correctAnswer: "Supraclavicular Branch",
     explanation: "The supraclavicular branch includes nerves in the root and trunk."
   },
   {
     question: "What does the Lateral Pectoral Nerve (C5 to C7) innervate?",
-    options: ["Pectoralis Major", "Pectoralis Minor", "Deltoid", "Teres Major"],
+    options: ["Pectoralis Minor", "Deltoid", "Teres Major", "Pectoralis Major"],
     correctAnswer: "Pectoralis Major",
     explanation: "The Lateral Pectoral Nerve innervates the pectoralis major muscle."
   },
@@ -513,7 +513,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "What muscle does the Axillary Nerve innervate?",
-    options: ["Deltoid", "Latissimus Dorsi", "Biceps Brachii", "Flexor Carpi Ulnaris"],
+    options: ["Latissimus Dorsi", "Deltoid", "Biceps Brachii", "Flexor Carpi Ulnaris"],
     correctAnswer: "Deltoid",
     explanation: "The Axillary Nerve innervates the deltoid and teres minor muscles."
   },
@@ -551,7 +551,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which nerve is also called the 'Nerve of Bull'?",
-    options: ["Long Thoracic Nerve", "Thoracodorsal Nerve", "Suprascapular Nerve", "Axillary Nerve"],
+    options: ["Thoracodorsal Nerve", "Suprascapular Nerve", "Long Thoracic Nerve", "Axillary Nerve"],
     correctAnswer: "Long Thoracic Nerve",
     explanation: "The Long Thoracic Nerve is nicknamed the 'Nerve of Bull' because of its strength in innervating the serratus anterior."
   },
@@ -580,7 +580,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which nerve arises from the lateral cord and innervates the pectoralis major?",
-    options: ["Lateral Pectoral Nerve", "Medial Pectoral Nerve", "Musculocutaneous Nerve", "Median Nerve"],
+    options: ["Medial Pectoral Nerve", "Lateral Pectoral Nerve", "Musculocutaneous Nerve", "Median Nerve"],
     correctAnswer: "Lateral Pectoral Nerve",
     explanation: "The Lateral Pectoral Nerve (C5 to C7) innervates the pectoralis major."
   },
@@ -598,7 +598,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Where does the lower trunk of the Brachial Plexus lie in relation to the scalenus anterior muscle?",
-    options: ["Behind", "In front", "Above", "Lateral to"],
+    options: ["In front", "Above", "Behind", "Lateral to"],
     correctAnswer: "Behind",
     explanation: "The lower trunk (C8 and T1) lies behind the scalenus anterior muscle."
   },
@@ -634,7 +634,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which nerve innervates the teres minor muscle?",
-    options: ["Axillary Nerve", "Radial Nerve", "Suprascapular Nerve", "Lower Subscapular Nerve"],
+    options: ["Radial Nerve", "Suprascapular Nerve", "Lower Subscapular Nerve", "Axillary Nerve"],
     correctAnswer: "Axillary Nerve",
     explanation: "The Axillary Nerve innervates the teres minor and deltoid muscles."
   },
@@ -652,7 +652,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which nerve arises from the posterior cord and innervates the triceps brachii?",
-    options: ["Radial Nerve", "Axillary Nerve", "Thoracodorsal Nerve", "Musculocutaneous Nerve"],
+    options: ["Axillary Nerve", "Thoracodorsal Nerve", "Radial Nerve", "Musculocutaneous Nerve"],
     correctAnswer: "Radial Nerve",
     explanation: "The Radial Nerve arises from the posterior cord and innervates the triceps brachii and other muscles in the posterior compartment."
   },
@@ -755,7 +755,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "Which cord gives rise to the axillary nerve?",
-    options: ["Posterior Cord", "Lateral Cord", "Medial Cord", "Supraclavicular Branch"],
+    options: ["Lateral Cord", "Medial Cord", "Posterior Cord", "Supraclavicular Branch"],
     correctAnswer: "Posterior Cord",
     explanation: "The axillary nerve arises from the posterior cord and innervates the deltoid and teres minor muscles."
   },
@@ -773,7 +773,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   {
     question: "What is the root origin of the suprascapular nerve?",
-    options: ["C5 and C6", "C4 and C5", "C5 and C7", "C6 and C7"],
+    options: ["C4 and C5", "C5 and C6", "C5 and C7", "C6 and C7"],
     correctAnswer: "C5 and C6",
     explanation: "The suprascapular nerve originates from roots C5 and C6."
   },
