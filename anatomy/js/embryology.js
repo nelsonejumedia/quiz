@@ -1747,8 +1747,8 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 250);
-  }, 2000);
+    }, 2000);
+  }, 250);
 }
 
 function submitAnswer() {
