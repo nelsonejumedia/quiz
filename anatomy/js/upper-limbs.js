@@ -399,6 +399,414 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////Brachial Plexus/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+  category: "Brachial Plexus",
+  questions: [
+    
+
+
+
+  {
+    question: "How many roots form the Brachial Plexus?",
+    options: ["3", "4", "5", "6"],
+    correctAnswer: "5",
+    explanation: "The Brachial Plexus is formed by five roots: C5, C6, C7, C8, and T1."
+  },
+  {
+    question: "What is the term for a Brachial Plexus where T2 is present and C4 is absent?",
+    options: ["Prefixed Plexus", "Postfixed Plexus", "Cervical Plexus", "Nervous Furcalis"],
+    correctAnswer: "Postfixed Plexus",
+    explanation: "A postfixed plexus occurs when T2 is present, C4 is absent, and T1 is large."
+  },
+  {
+    question: "What is C4 called in relation to the Brachial Plexus?",
+    options: ["Nervous Furcalis", "Prefixed Nerve", "Posterior Division", "Anterior Division"],
+    correctAnswer: "Nervous Furcalis",
+    explanation: "C4 is called the Nervous Furcalis because it contributes to both the cervical and brachial plexuses."
+  },
+  {
+    question: "What forms the upper trunk of the Brachial Plexus?",
+    options: ["C5 and C6", "C7 and C8", "C8 and T1", "C4 and T1"],
+    correctAnswer: "C5 and C6",
+    explanation: "The upper trunk is formed by the union of C5 and C6."
+  },
+  {
+    question: "Which trunk is formed by the anterior ramus of C7?",
+    options: ["Upper Trunk", "Middle Trunk", "Lower Trunk", "Posterior Trunk"],
+    correctAnswer: "Middle Trunk",
+    explanation: "The middle trunk is formed by the anterior ramus of C7."
+  },
+  {
+    question: "What are the two divisions of the Brachial Plexus trunk?",
+    options: ["Anterior and Posterior", "Lateral and Medial", "Upper and Lower", "Supraclavicular and Infraclavicular"],
+    correctAnswer: "Anterior and Posterior",
+    explanation: "The trunk is divided into anterior (ventral) and posterior (dorsal) divisions."
+  },
+  {
+    question: "What forms the lateral cord of the Brachial Plexus?",
+    options: [
+      "Anterior divisions of upper and middle trunks",
+      "Posterior divisions of all three trunks",
+      "Anterior division of lower trunk",
+      "Anterior division of middle trunk"
+    ],
+    correctAnswer: "Anterior divisions of upper and middle trunks",
+    explanation: "The lateral cord is formed by the anterior divisions of the upper and middle trunks."
+  },
+  {
+    question: "What cord is formed by the posterior divisions of all three trunks?",
+    options: ["Lateral Cord", "Medial Cord", "Posterior Cord", "Inferior Cord"],
+    correctAnswer: "Posterior Cord",
+    explanation: "The posterior cord is formed by the posterior divisions of all three trunks."
+  },
+  {
+    question: "Which nerve innervates the serratus anterior muscle?",
+    options: ["Long Thoracic Nerve", "Dorsal Subscapular Nerve", "Axillary Nerve", "Radial Nerve"],
+    correctAnswer: "Long Thoracic Nerve",
+    explanation: "The Long Thoracic Nerve (C5, C6, C7) innervates the serratus anterior muscle."
+  },
+  {
+    question: "What is another name for the Dorsal Subscapular Nerve?",
+    options: ["Nerve to Rhomboid", "Nerve of Bull", "Thoracodorsal Nerve", "Nerve to Pectoralis"],
+    correctAnswer: "Nerve to Rhomboid",
+    explanation: "The Dorsal Subscapular Nerve (C5) is also called the Nerve to Rhomboid."
+  },
+  {
+    question: "Which nerve innervates the supraspinatus and infraspinatus muscles?",
+    options: ["Suprascapular Nerve", "Subclavian Nerve", "Axillary Nerve", "Radial Nerve"],
+    correctAnswer: "Suprascapular Nerve",
+    explanation: "The Suprascapular Nerve (C5 and C6) innervates the supraspinatus and infraspinatus muscles."
+  },
+  {
+    question: "Which branch of the Brachial Plexus includes the nerves in the root and trunk?",
+    options: ["Supraclavicular Branch", "Infraclavicular Branch", "Medial Cord", "Posterior Cord"],
+    correctAnswer: "Supraclavicular Branch",
+    explanation: "The supraclavicular branch includes nerves in the root and trunk."
+  },
+  {
+    question: "What does the Lateral Pectoral Nerve (C5 to C7) innervate?",
+    options: ["Pectoralis Major", "Pectoralis Minor", "Deltoid", "Teres Major"],
+    correctAnswer: "Pectoralis Major",
+    explanation: "The Lateral Pectoral Nerve innervates the pectoralis major muscle."
+  },
+  {
+    question: "Which nerve innervates the biceps brachii, brachialis, and coracobrachialis?",
+    options: ["Musculocutaneous Nerve", "Median Nerve", "Radial Nerve", "Ulnar Nerve"],
+    correctAnswer: "Musculocutaneous Nerve",
+    explanation: "The Musculocutaneous Nerve innervates these three muscles."
+  },
+  {
+    question: "Which cord gives rise to the Ulnar Nerve?",
+    options: ["Lateral Cord", "Medial Cord", "Posterior Cord", "Middle Cord"],
+    correctAnswer: "Medial Cord",
+    explanation: "The Ulnar Nerve arises from the medial cord."
+  },
+  {
+    question: "Which nerve innervates the latissimus dorsi muscle?",
+    options: ["Thoracodorsal Nerve", "Radial Nerve", "Median Nerve", "Suprascapular Nerve"],
+    correctAnswer: "Thoracodorsal Nerve",
+    explanation: "The Thoracodorsal Nerve innervates the latissimus dorsi."
+  },
+  {
+    question: "What muscle does the Axillary Nerve innervate?",
+    options: ["Deltoid", "Latissimus Dorsi", "Biceps Brachii", "Flexor Carpi Ulnaris"],
+    correctAnswer: "Deltoid",
+    explanation: "The Axillary Nerve innervates the deltoid and teres minor muscles."
+  },
+  {
+    question: "What is the root origin of the Radial Nerve?",
+    options: ["C5-T1", "C6-C8", "C5-C7", "C7-T1"],
+    correctAnswer: "C5-T1",
+    explanation: "The Radial Nerve originates from roots C5 to T1."
+  },
+  {
+    question: "Which nerve supplies the skin of the medial aspect of the forearm?",
+    options: ["Medial Cutaneous Nerve of Forearm", "Medial Cutaneous Nerve of Arm", "Lateral Cutaneous Nerve", "Radial Nerve"],
+    correctAnswer: "Medial Cutaneous Nerve of Forearm",
+    explanation: "The Medial Cutaneous Nerve of Forearm supplies the skin of the medial forearm."
+  },
+  {
+    question: "Which trunk of the Brachial Plexus is located behind the scalenus anterior?",
+    options: ["Upper Trunk", "Middle Trunk", "Lower Trunk", "Posterior Trunk"],
+    correctAnswer: "Lower Trunk",
+    explanation: "The lower trunk, formed by C8 and T1, is located behind the scalenus anterior."
+  },
+
+
+  {
+    question: "Which cord gives rise to the Median Nerve?",
+    options: ["Lateral and Medial Cords", "Posterior Cord", "Lateral Cord", "Medial Cord"],
+    correctAnswer: "Lateral and Medial Cords",
+    explanation: "The Median Nerve is formed by contributions from both the lateral and medial cords."
+  },
+  {
+    question: "What is the nerve root origin of the Long Thoracic Nerve?",
+    options: ["C4-C6", "C5-C7", "C6-C8", "C7-T1"],
+    correctAnswer: "C5-C7",
+    explanation: "The Long Thoracic Nerve originates from the roots C5, C6, and C7."
+  },
+  {
+    question: "Which nerve is also called the 'Nerve of Bull'?",
+    options: ["Long Thoracic Nerve", "Thoracodorsal Nerve", "Suprascapular Nerve", "Axillary Nerve"],
+    correctAnswer: "Long Thoracic Nerve",
+    explanation: "The Long Thoracic Nerve is nicknamed the 'Nerve of Bull' because of its strength in innervating the serratus anterior."
+  },
+  {
+    question: "What is the function of the divisions in the Brachial Plexus?",
+    options: [
+      "Compensate for anterior and posterior innervation",
+      "Separate the lateral and medial cords",
+      "Provide direct innervation to muscles",
+      "Divide the roots into trunks"
+    ],
+    correctAnswer: "Compensate for anterior and posterior innervation",
+    explanation: "The divisions ensure proper innervation of the anterior and posterior compartments of the upper limb."
+  },
+  {
+    question: "Which nerve innervates the rhomboid minor and major muscles?",
+    options: ["Dorsal Subscapular Nerve", "Thoracodorsal Nerve", "Long Thoracic Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Dorsal Subscapular Nerve",
+    explanation: "The Dorsal Subscapular Nerve (C5) innervates the rhomboid minor and major muscles."
+  },
+  {
+    question: "Which nerve arises from the posterior cord and innervates the latissimus dorsi muscle?",
+    options: ["Thoracodorsal Nerve", "Axillary Nerve", "Radial Nerve", "Suprascapular Nerve"],
+    correctAnswer: "Thoracodorsal Nerve",
+    explanation: "The Thoracodorsal Nerve arises from the posterior cord and supplies the latissimus dorsi."
+  },
+  {
+    question: "Which nerve arises from the lateral cord and innervates the pectoralis major?",
+    options: ["Lateral Pectoral Nerve", "Medial Pectoral Nerve", "Musculocutaneous Nerve", "Median Nerve"],
+    correctAnswer: "Lateral Pectoral Nerve",
+    explanation: "The Lateral Pectoral Nerve (C5 to C7) innervates the pectoralis major."
+  },
+  {
+    question: "What nerve supplies the medial aspect of the arm?",
+    options: ["Medial Cutaneous Nerve of the Arm", "Medial Cutaneous Nerve of the Forearm", "Radial Nerve", "Axillary Nerve"],
+    correctAnswer: "Medial Cutaneous Nerve of the Arm",
+    explanation: "The Medial Cutaneous Nerve of the Arm supplies the medial skin of the arm."
+  },
+  {
+    question: "Which nerve innervates the subscapularis muscle?",
+    options: ["Lower Subscapular Nerve", "Upper Subscapular Nerve", "Thoracodorsal Nerve", "Axillary Nerve"],
+    correctAnswer: "Upper Subscapular Nerve",
+    explanation: "The Upper Subscapular Nerve innervates the subscapularis muscle."
+  },
+  {
+    question: "Where does the lower trunk of the Brachial Plexus lie in relation to the scalenus anterior muscle?",
+    options: ["Behind", "In front", "Above", "Lateral to"],
+    correctAnswer: "Behind",
+    explanation: "The lower trunk (C8 and T1) lies behind the scalenus anterior muscle."
+  },
+  {
+    question: "Which nerve innervates the deltoid muscle?",
+    options: ["Axillary Nerve", "Radial Nerve", "Thoracodorsal Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Axillary Nerve",
+    explanation: "The Axillary Nerve supplies the deltoid and teres minor muscles."
+  },
+  {
+    question: "What is the root origin of the Ulnar Nerve?",
+    options: ["C7-T1", "C8-T1", "C5-C6", "C5-T1"],
+    correctAnswer: "C7-T1",
+    explanation: "The Ulnar Nerve originates from C7, C8, and T1."
+  },
+  {
+    question: "Which branch of the Brachial Plexus includes the musculocutaneous nerve?",
+    options: ["Infraclavicular Branch", "Supraclavicular Branch", "Lateral Cord", "Posterior Cord"],
+    correctAnswer: "Infraclavicular Branch",
+    explanation: "The musculocutaneous nerve is part of the infraclavicular branch."
+  },
+  {
+    question: "What structure forms the middle trunk of the Brachial Plexus?",
+    options: ["Anterior ramus of C7", "Union of C5 and C6", "C8 and T1", "C4 and T1"],
+    correctAnswer: "Anterior ramus of C7",
+    explanation: "The middle trunk is formed solely by the anterior ramus of C7."
+  },
+  {
+    question: "Which nerve innervates the flexor carpi ulnaris muscle?",
+    options: ["Ulnar Nerve", "Median Nerve", "Radial Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Ulnar Nerve",
+    explanation: "The Ulnar Nerve innervates the flexor carpi ulnaris and the medial half of the flexor digitorum profundus."
+  },
+  {
+    question: "Which nerve innervates the teres minor muscle?",
+    options: ["Axillary Nerve", "Radial Nerve", "Suprascapular Nerve", "Lower Subscapular Nerve"],
+    correctAnswer: "Axillary Nerve",
+    explanation: "The Axillary Nerve innervates the teres minor and deltoid muscles."
+  },
+  {
+    question: "Which branch of the Brachial Plexus contains the suprascapular nerve?",
+    options: ["Supraclavicular Branch", "Infraclavicular Branch", "Posterior Cord", "Lateral Cord"],
+    correctAnswer: "Supraclavicular Branch",
+    explanation: "The suprascapular nerve (C5, C6) is part of the supraclavicular branch."
+  },
+  {
+    question: "Which nerve supplies most of the intrinsic muscles of the hand?",
+    options: ["Ulnar Nerve", "Median Nerve", "Radial Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Ulnar Nerve",
+    explanation: "The Ulnar Nerve supplies most of the intrinsic muscles of the hand."
+  },
+  {
+    question: "Which nerve arises from the posterior cord and innervates the triceps brachii?",
+    options: ["Radial Nerve", "Axillary Nerve", "Thoracodorsal Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Radial Nerve",
+    explanation: "The Radial Nerve arises from the posterior cord and innervates the triceps brachii and other muscles in the posterior compartment."
+  },
+  {
+    question: "Which nerve innervates the infraspinatus muscle?",
+    options: ["Suprascapular Nerve", "Axillary Nerve", "Radial Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Suprascapular Nerve",
+    explanation: "The Suprascapular Nerve (C5, C6) innervates the infraspinatus muscle."
+  },
+
+
+  {
+    question: "What is the root origin of the dorsal scapular nerve?",
+    options: ["C5", "C6", "C7", "T1"],
+    correctAnswer: "C5",
+    explanation: "The dorsal scapular nerve arises from the C5 root and innervates the rhomboids and levator scapulae."
+  },
+  {
+    question: "What is the main significance of the divisions in the brachial plexus?",
+    options: [
+      "To form the cords",
+      "To separate sensory and motor nerves",
+      "To compensate for anterior and posterior innervation",
+      "To form the trunks"
+    ],
+    correctAnswer: "To compensate for anterior and posterior innervation",
+    explanation: "The divisions ensure proper innervation of the anterior and posterior compartments of the upper limb."
+  },
+  {
+    question: "Which structure is also known as Erb's point in the brachial plexus?",
+    options: ["Lateral border of scalenus medius", "Lower border of scalenus anterior", "Posterior border of trapezius", "Medial border of clavicle"],
+    correctAnswer: "Lateral border of scalenus medius",
+    explanation: "The union of C5 and C6 at the lateral border of scalenus medius is known as Erb's point."
+  },
+  {
+    question: "Which nerve innervates the pectoralis major and minor muscles?",
+    options: ["Medial Pectoral Nerve", "Lateral Pectoral Nerve", "Axillary Nerve", "Radial Nerve"],
+    correctAnswer: "Medial Pectoral Nerve",
+    explanation: "The medial pectoral nerve (C8, T1) innervates both the pectoralis major and minor muscles."
+  },
+  {
+    question: "Which trunks contribute to the posterior cord?",
+    options: ["All three trunks", "Upper and Middle Trunks", "Lower and Middle Trunks", "Lower Trunk only"],
+    correctAnswer: "All three trunks",
+    explanation: "The posterior cord is formed by the posterior divisions of the upper, middle, and lower trunks."
+  },
+  {
+    question: "Which nerve innervates the serratus anterior muscle?",
+    options: ["Long Thoracic Nerve", "Suprascapular Nerve", "Thoracodorsal Nerve", "Axillary Nerve"],
+    correctAnswer: "Long Thoracic Nerve",
+    explanation: "The Long Thoracic Nerve (C5-C7) innervates the serratus anterior muscle."
+  },
+  {
+    question: "Which type of brachial plexus variation involves a large C4 and absent T2?",
+    options: ["Prefixed Plexus", "Postfixed Plexus", "Anterior Plexus", "Posterior Plexus"],
+    correctAnswer: "Prefixed Plexus",
+    explanation: "A prefixed plexus is characterized by a large C4 and absent T2."
+  },
+  {
+    question: "Which nerve innervates the supraspinatus and infraspinatus muscles?",
+    options: ["Suprascapular Nerve", "Axillary Nerve", "Radial Nerve", "Thoracodorsal Nerve"],
+    correctAnswer: "Suprascapular Nerve",
+    explanation: "The suprascapular nerve (C5, C6) innervates the supraspinatus and infraspinatus muscles."
+  },
+  {
+    question: "What is the root origin of the radial nerve?",
+    options: ["C5-C8 and T1", "C5-C7", "C6-C8", "C8 and T1"],
+    correctAnswer: "C5-C8 and T1",
+    explanation: "The radial nerve arises from roots C5-C8 and T1 and innervates the posterior compartment of the upper limb."
+  },
+  {
+    question: "What nerve arises from the posterior cord and innervates the teres major muscle?",
+    options: ["Lower Subscapular Nerve", "Upper Subscapular Nerve", "Thoracodorsal Nerve", "Axillary Nerve"],
+    correctAnswer: "Lower Subscapular Nerve",
+    explanation: "The lower subscapular nerve innervates the teres major muscle."
+  },
+  {
+    question: "What is the root origin of the medial cutaneous nerve of the forearm?",
+    options: ["C8 and T1", "C7 and T1", "C6 and C7", "C5 and C6"],
+    correctAnswer: "C8 and T1",
+    explanation: "The medial cutaneous nerve of the forearm arises from roots C8 and T1."
+  },
+  {
+    question: "Which nerve arises from the lateral cord and supplies the coracobrachialis muscle?",
+    options: ["Musculocutaneous Nerve", "Median Nerve", "Axillary Nerve", "Radial Nerve"],
+    correctAnswer: "Musculocutaneous Nerve",
+    explanation: "The musculocutaneous nerve arises from the lateral cord and supplies the coracobrachialis, biceps brachii, and brachialis."
+  },
+  {
+    question: "Which nerve arises from the medial cord and supplies the flexor carpi ulnaris?",
+    options: ["Ulnar Nerve", "Median Nerve", "Musculocutaneous Nerve", "Radial Nerve"],
+    correctAnswer: "Ulnar Nerve",
+    explanation: "The ulnar nerve arises from the medial cord and innervates the flexor carpi ulnaris."
+  },
+  {
+    question: "What is the primary nerve supplying the posterior compartment of the arm?",
+    options: ["Radial Nerve", "Axillary Nerve", "Musculocutaneous Nerve", "Median Nerve"],
+    correctAnswer: "Radial Nerve",
+    explanation: "The radial nerve supplies the muscles in the posterior compartment of the arm."
+  },
+  {
+    question: "Which cord gives rise to the axillary nerve?",
+    options: ["Posterior Cord", "Lateral Cord", "Medial Cord", "Supraclavicular Branch"],
+    correctAnswer: "Posterior Cord",
+    explanation: "The axillary nerve arises from the posterior cord and innervates the deltoid and teres minor muscles."
+  },
+  {
+    question: "Which root is known as the 'nervous furcalis'?",
+    options: ["C4", "C5", "C6", "T1"],
+    correctAnswer: "C4",
+    explanation: "C4 is called the 'nervous furcalis' because it contributes to both the cervical and brachial plexuses."
+  },
+  {
+    question: "Which nerve innervates the latissimus dorsi muscle?",
+    options: ["Thoracodorsal Nerve", "Axillary Nerve", "Radial Nerve", "Suprascapular Nerve"],
+    correctAnswer: "Thoracodorsal Nerve",
+    explanation: "The thoracodorsal nerve, arising from the posterior cord, innervates the latissimus dorsi."
+  },
+  {
+    question: "What is the root origin of the suprascapular nerve?",
+    options: ["C5 and C6", "C4 and C5", "C5 and C7", "C6 and C7"],
+    correctAnswer: "C5 and C6",
+    explanation: "The suprascapular nerve originates from roots C5 and C6."
+  },
+  {
+    question: "Which nerve supplies the skin of the medial aspect of the forearm?",
+    options: ["Medial Cutaneous Nerve of the Forearm", "Medial Cutaneous Nerve of the Arm", "Radial Nerve", "Musculocutaneous Nerve"],
+    correctAnswer: "Medial Cutaneous Nerve of the Forearm",
+    explanation: "The medial cutaneous nerve of the forearm supplies the medial aspect of the forearm."
+  },
+  {
+    question: "Which trunks contribute to the lateral cord?",
+    options: ["Upper and Middle Trunks", "Middle and Lower Trunks", "Upper Trunk only", "All three trunks"],
+    correctAnswer: "Upper and Middle Trunks",
+    explanation: "The lateral cord is formed by the anterior divisions of the upper and middle trunks."
+  },
+
+
+
+
+
+  ],
+},
+
+
+
+
+
+
+
+
+
+
+
 
 
 
