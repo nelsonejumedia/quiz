@@ -4096,8 +4096,8 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 250);
-  }, 2000);
+    }, 2250);
+  }, 250);
 }
 
 function submitAnswer() {
