@@ -1,4 +1,4 @@
-odocument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     lucide.createIcons();
   
     const homeScreen = document.getElementById("home-screen");
@@ -1079,7 +1079,7 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 2000);
+    }, 2250);
   }, 250);
 }
 
@@ -1218,6 +1218,10 @@ function submitAnswer() {
   
   // Simulating a completed quiz
   startReview();
+  
+  
+  
+  });
   
   
   
