@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+odocument.addEventListener("DOMContentLoaded", () => {
     lucide.createIcons();
   
     const homeScreen = document.getElementById("home-screen");
@@ -562,13 +562,374 @@ document.addEventListener("DOMContentLoaded", () => {
   
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  ////////////////////////////////// // Lower limbs Clinical Cases.////////////////////////////////////////////////
+  ////////////////////////////////// //Gastrulation ////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       
         
+  {
+      category: "Gastrulation",
+      questions: [
+
+
+
+
+
+{
+    question: "What is the primary process by which the three germ layers are formed during embryonic development?",
+    options: ["Neurulation", "Gastrulation", "Organogenesis", "Fertilization"],
+    correctAnswer: "Gastrulation",
+    explanation: "Gastrulation is the process where epiblastic cells migrate through the primitive streak to form the three germ layers: ectoderm, mesoderm, and endoderm."
+  },
+  {
+    question: "Which structure acts as the site of cell migration during gastrulation?",
+    options: ["Neural tube", "Primitive streak", "Somites", "Notochord"],
+    correctAnswer: "Primitive streak",
+    explanation: "During gastrulation, epiblastic cells migrate through the primitive streak to establish the three germ layers."
+  },
+  {
+    question: "Which germ layer gives rise to the nervous system?",
+    options: ["Mesoderm", "Endoderm", "Ectoderm", "Neural crest"],
+    correctAnswer: "Ectoderm",
+    explanation: "The ectoderm differentiates into the nervous system through the process of neurulation."
+  },
+  {
+    question: "At what day does the cranial neuropore close?",
+    options: ["Day 23", "Day 25", "Day 27", "Day 30"],
+    correctAnswer: "Day 25",
+    explanation: "The cranial neuropore closes on day 25, while the caudal neuropore closes on day 27."
+  },
+  {
+    question: "Which structure forms first during neurulation?",
+    options: ["Neural tube", "Neural crest cells", "Neural groove", "Neural plate"],
+    correctAnswer: "Neural plate",
+    explanation: "The neural plate is the first structure to form during neurulation, which later folds to form the neural tube."
+  },
+  {
+    question: "Neural crest cells from the cranial region contribute to which of the following?",
+    options: ["Craniofacial skeleton", "Spinal cord", "Epithelial lining of the gut", "Kidneys"],
+    correctAnswer: "Craniofacial skeleton",
+    explanation: "Cranial neural crest cells migrate and differentiate into cranial ganglia, glial cells, melanocytes, and the craniofacial skeleton."
+  },
+  {
+    question: "Which germ layer gives rise to the urogenital system?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Mesoderm",
+    explanation: "The intermediate mesoderm forms the urogenital system, including the kidneys and gonads."
+  },
+  {
+    question: "Which of the following is derived from the paraxial mesoderm?",
+    options: ["Heart", "Dermis", "Liver", "Lungs"],
+    correctAnswer: "Dermis",
+    explanation: "The paraxial mesoderm forms somites, which differentiate into the sclerotome (bones), myotome (muscles), and dermatome (dermis)."
+  },
+  {
+    question: "A mutation affecting neural crest cell migration may lead to defects in which structure?",
+    options: ["Liver", "Lungs", "Peripheral nervous system", "Intestinal epithelium"],
+    correctAnswer: "Peripheral nervous system",
+    explanation: "Neural crest cells contribute to the peripheral nervous system, including sympathetic neurons and Schwann cells."
+  },
+  {
+    question: "Which part of the mesoderm contributes to the formation of the heart and blood vessels?",
+    options: ["Paraxial mesoderm", "Intermediate mesoderm", "Lateral plate mesoderm", "Neural crest"],
+    correctAnswer: "Lateral plate mesoderm",
+    explanation: "The splanchnic layer of the lateral plate mesoderm gives rise to the heart and blood vessels."
+  },
+  {
+    question: "The serous membranes lining the pericardial, pleural, and peritoneal cavities originate from which layer?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Mesoderm",
+    explanation: "The lateral plate mesoderm forms the serous membranes lining these cavities."
+  },
+  {
+    question: "Which of the following structures originates from the endoderm?",
+    options: ["Brain", "Kidneys", "Lungs", "Bones"],
+    correctAnswer: "Lungs",
+    explanation: "The endoderm forms the epithelial lining of the respiratory tract, including the lungs."
+  },
+  {
+    question: "What happens if the caudal neuropore fails to close?",
+    options: ["Anencephaly", "Spina bifida", "Microcephaly", "Hydrocephalus"],
+    correctAnswer: "Spina bifida",
+    explanation: "Failure of caudal neuropore closure leads to spina bifida, a defect in spinal cord development."
+  },
+  {
+    question: "The epithelial lining of the gastrointestinal tract is derived from which germ layer?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Endoderm",
+    explanation: "The endoderm forms the epithelial lining of the digestive tract and associated organs."
+  },
+  {
+    question: "Which germ layer contributes to the formation of skeletal muscles?",
+    options: ["Ectoderm", "Endoderm", "Paraxial mesoderm", "Lateral plate mesoderm"],
+    correctAnswer: "Paraxial mesoderm",
+    explanation: "The paraxial mesoderm forms somites, which differentiate into skeletal muscles."
+  },
+  {
+    question: "The notochord, an important structure for neural induction, is derived from which germ layer?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Mesoderm",
+    explanation: "The notochord is derived from the mesoderm and plays a role in neural tube formation."
+  },
+  {
+    question: "Which structure separates the somatopleuric and splanchnic layers of the lateral plate mesoderm?",
+    options: ["Neural plate", "Coelomic cavity", "Pericardial membrane", "Neural crest cells"],
+    correctAnswer: "Coelomic cavity",
+    explanation: "The coelomic cavity separates the somatopleuric and splanchnic layers, allowing for organ development."
+  },
+  {
+    question: "Which of the following is NOT derived from neural crest cells?",
+    options: ["Schwann cells", "Melanocytes", "Sensory ganglia", "Liver cells"],
+    correctAnswer: "Liver cells",
+    explanation: "The liver is derived from the endoderm, while Schwann cells, melanocytes, and sensory ganglia come from neural crest cells."
+  },
+  {
+    question: "Which structure is the precursor to the spinal cord?",
+    options: ["Neural plate", "Neural tube", "Neural crest", "Primitive streak"],
+    correctAnswer: "Neural tube",
+    explanation: "The caudal portion of the neural tube develops into the spinal cord."
+  },
+  {
+    question: "The thyroid gland originates from which germ layer?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Endoderm",
+    explanation: "The thyroid gland originates from the endoderm and develops from the pharyngeal region."
+  },
+  {
+    question: "Which process describes the movement of neural crest cells to various parts of the embryo?",
+    options: ["Induction", "Differentiation", "Migration", "Gastrulation"],
+    correctAnswer: "Migration",
+    explanation: "Neural crest cells migrate extensively to form various structures like cranial ganglia and melanocytes."
+  },
+
+  {
+    question: "Which germ layer forms the neural tube?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest cells"],
+    correctAnswer: "Ectoderm",
+    explanation: "The ectoderm undergoes neurulation, leading to the formation of the neural tube, which later develops into the central nervous system."
+  },
+  {
+    question: "During gastrulation, epiblastic cells migrate through which structure?",
+    options: ["Neural tube", "Primitive streak", "Neural plate", "Blastocoel"],
+    correctAnswer: "Primitive streak",
+    explanation: "Epiblastic cells migrate through the primitive streak in a craniocaudal direction to establish the three germ layers."
+  },
+  {
+    question: "What is the function of the neural crest cells that migrate dorsally?",
+    options: ["Form the spinal cord", "Give rise to melanocytes", "Develop into somites", "Contribute to the gut tube"],
+    correctAnswer: "Give rise to melanocytes",
+    explanation: "Neural crest cells that migrate dorsally contribute to the formation of melanocytes, which produce melanin in the skin and hair follicles."
+  },
+  {
+    question: "On which day does the cranial neuropore close?",
+    options: ["Day 20", "Day 25", "Day 27", "Day 30"],
+    correctAnswer: "Day 25",
+    explanation: "The cranial neuropore closes on day 25, while the caudal neuropore closes on day 27."
+  },
+  {
+    question: "Which part of the neural tube gives rise to the spinal cord?",
+    options: ["Cranial portion", "Caudal portion", "Neural crest cells", "Forebrain"],
+    correctAnswer: "Caudal portion",
+    explanation: "The caudal portion of the neural tube develops into the spinal cord."
+  },
+  {
+    question: "Which of the following is NOT derived from the ectoderm?",
+    options: ["Central nervous system", "Epidermis", "Liver", "Hair"],
+    correctAnswer: "Liver",
+    explanation: "The liver is derived from the endoderm, while the ectoderm gives rise to structures like the CNS, epidermis, and hair."
+  },
+  {
+    question: "Which layer of the lateral plate mesoderm contributes to the formation of the heart?",
+    options: ["Somatopleuric layer", "Splanchnic layer", "Intermediate mesoderm", "Paraxial mesoderm"],
+    correctAnswer: "Splanchnic layer",
+    explanation: "The splanchnic layer of the lateral plate mesoderm contributes to the formation of the heart, blood vessels, and smooth muscle of the digestive tract."
+  },
+  {
+    question: "What is the role of the nephrotomes formed by the intermediate mesoderm?",
+    options: ["Give rise to sensory neurons", "Form part of the kidney", "Develop into the spinal cord", "Contribute to the heart"],
+    correctAnswer: "Form part of the kidney",
+    explanation: "The nephrotomes, derived from the cranial part of the intermediate mesoderm, contribute to the formation of the kidney."
+  },
+  {
+    question: "Which germ layer gives rise to the epithelial lining of the gastrointestinal tract?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Endoderm",
+    explanation: "The endoderm forms the epithelial lining of the gastrointestinal tract, respiratory system, and urinary bladder."
+  },
+  {
+    question: "Which structure thickens to form the neural plate?",
+    options: ["Neural tube", "Neuroectoderm", "Somites", "Ectoderm"],
+    correctAnswer: "Ectoderm",
+    explanation: "A specific segment of the ectoderm thickens to form the neural plate, which later develops into the neural tube."
+  },
+  {
+    question: "Which of these structures is NOT derived from neural crest cells?",
+    options: ["Craniofacial skeleton", "Sensory ganglia", "Melanocytes", "Spinal cord"],
+    correctAnswer: "Spinal cord",
+    explanation: "The spinal cord is derived from the neural tube, not neural crest cells."
+  },
+  {
+    question: "Which mesodermal layer gives rise to the urogenital system?",
+    options: ["Paraxial mesoderm", "Intermediate mesoderm", "Lateral plate mesoderm", "Neural crest"],
+    correctAnswer: "Intermediate mesoderm",
+    explanation: "The intermediate mesoderm forms the urogenital system, including kidneys and gonads."
+  },
+  {
+    question: "What is the fate of myotomes?",
+    options: ["Form cartilage and bones", "Give rise to muscle components", "Develop into sensory ganglia", "Differentiate into neural crest cells"],
+    correctAnswer: "Give rise to muscle components",
+    explanation: "Myotomes, derived from paraxial mesoderm, form segmental muscle components."
+  },
+  {
+    question: "Which germ layer is responsible for forming the serous membranes lining body cavities?",
+    options: ["Ectoderm", "Paraxial mesoderm", "Endoderm", "Lateral plate mesoderm"],
+    correctAnswer: "Lateral plate mesoderm",
+    explanation: "The lateral plate mesoderm forms the serous membranes that line the peritoneal, pleural, and pericardial cavities."
+  },
+  {
+    question: "What happens if the caudal neuropore fails to close properly?",
+    options: ["Anencephaly", "Spina bifida", "Hydrocephalus", "Microcephaly"],
+    correctAnswer: "Spina bifida",
+    explanation: "Failure of the caudal neuropore to close results in spina bifida, a neural tube defect affecting the spinal cord."
+  },
+  {
+    question: "Which of the following is NOT a function of neural crest cells?",
+    options: ["Forming melanocytes", "Developing into cranial ganglia", "Creating myotomes", "Giving rise to Schwann cells"],
+    correctAnswer: "Creating myotomes",
+    explanation: "Myotomes arise from the paraxial mesoderm, not neural crest cells."
+  },
+  {
+    question: "Which structure is derived from the lens placode?",
+    options: ["Inner ear", "Lens of the eye", "Spinal cord", "Melanocytes"],
+    correctAnswer: "Lens of the eye",
+    explanation: "The lens placode gives rise to the lens of the eye, while the otic placode contributes to the organs of hearing."
+  },
+  {
+    question: "The pharyngeal pouches are derivatives of which germ layer?",
+    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
+    correctAnswer: "Endoderm",
+    explanation: "The endoderm gives rise to the epithelial components of the pharyngeal pouches, which contribute to structures like the thymus and parathyroid glands."
+  },
+  {
+    question: "The paraxial mesoderm segments into which structures?",
+    options: ["Neural crest cells", "Somites", "Splanchnic mesoderm", "Neural tube"],
+    correctAnswer: "Somites",
+    explanation: "The paraxial mesoderm segments into somites, which differentiate into sclerotomes, myotomes, and dermatomes."
+  },
+  {
+    question: "A newborn presents with anencephaly, a neural tube defect characterized by the absence of a major portion of the brain. Failure of which process most likely led to this condition?",
+    options: ["Gastrulation", "Neural induction", "Neural crest migration", "Cranial neuropore closure"],
+    correctAnswer: "Cranial neuropore closure",
+    explanation: "Anencephaly results from the failure of the cranial neuropore to close during the fourth week of development."
+  },
+  {
+    question: "A patient presents with a midline nasal mass. Imaging reveals a dermoid cyst containing ectodermal derivatives. This suggests an anomaly in which developmental process?",
+    options: ["Neural crest cell migration", "Neurulation", "Paraxial mesoderm differentiation", "Somite segmentation"],
+    correctAnswer: "Neurulation",
+    explanation: "Failure of proper neural tube closure at the midline can lead to persistent ectodermal remnants, forming a dermoid cyst."
+  },
+  {
+    question: "A fetus diagnosed with congenital scoliosis likely has defects in which embryonic structure?",
+    options: ["Neural crest cells", "Lateral plate mesoderm", "Somites", "Intermediate mesoderm"],
+    correctAnswer: "Somites",
+    explanation: "Somites differentiate into sclerotomes, which contribute to vertebral formation. Abnormal segmentation leads to scoliosis."
+  },
+  {
+    question: "During a fetal scan, a cardiologist notices a congenital heart defect involving improper formation of the outflow tract. Defective migration of which cell population is most likely responsible?",
+    options: ["Paraxial mesoderm", "Neural crest cells", "Intermediate mesoderm", "Ectodermal placodes"],
+    correctAnswer: "Neural crest cells",
+    explanation: "Neural crest cells contribute to the septation of the heart's outflow tract, and defects in their migration can lead to congenital heart anomalies."
+  },
+  {
+    question: "A newborn has a small lower jaw (micrognathia), cleft palate, and glossoptosis. These features are characteristic of which developmental disorder?",
+    options: ["Treacher Collins syndrome", "Pierre Robin sequence", "DiGeorge syndrome", "Holoprosencephaly"],
+    correctAnswer: "Pierre Robin sequence",
+    explanation: "Pierre Robin sequence results from abnormal development of the first pharyngeal arch, affecting mandibular growth."
+  },
+  {
+    question: "A medical student dissects a cadaver and notes that the spinal cord terminates at L2 instead of lower. Which embryological process is responsible for the differential growth of the spinal cord and vertebral column?",
+    options: ["Secondary neurulation", "Caudal regression syndrome", "Spinal cord elongation", "Ascending migration of the conus medullaris"],
+    correctAnswer: "Ascending migration of the conus medullaris",
+    explanation: "During development, the vertebral column grows faster than the spinal cord, leading to the ascension of the conus medullaris."
+  },
+  {
+    question: "A child presents with albinism, a condition caused by defective melanin production. Which embryonic cell population is responsible for melanin synthesis?",
+    options: ["Neural crest cells", "Ectoderm", "Mesoderm", "Endoderm"],
+    correctAnswer: "Neural crest cells",
+    explanation: "Neural crest cells differentiate into melanocytes, which produce melanin."
+  },
+  {
+    question: "A newborn is diagnosed with Hirschsprung disease, characterized by the absence of enteric ganglia in the distal colon. This condition results from failure of which process?",
+    options: ["Neural crest migration", "Lateral folding", "Primitive streak regression", "Paraxial mesoderm differentiation"],
+    correctAnswer: "Neural crest migration",
+    explanation: "Neural crest cells give rise to the enteric nervous system, and failure of their migration leads to Hirschsprung disease."
+  },
+  {
+    question: "A teratogen exposure at week 4 of gestation is most likely to disrupt which process?",
+    options: ["Neural tube closure", "Limb bud formation", "Placental development", "Gametogenesis"],
+    correctAnswer: "Neural tube closure",
+    explanation: "The neural tube closes between days 22-27, making this a critical period for teratogenic effects."
+  },
+  {
+    question: "A child with a deletion in chromosome 22q11 presents with cardiac defects, cleft palate, and immune deficiencies. This condition results from defective migration of which cell type?",
+    options: ["Paraxial mesoderm", "Neural crest cells", "Endodermal cells", "Somites"],
+    correctAnswer: "Neural crest cells",
+    explanation: "DiGeorge syndrome results from neural crest cell migration defects, affecting the development of the pharyngeal arches."
+  },
+  {
+    question: "A neonate presents with an omphalocele, a congenital defect where abdominal organs remain outside the body covered by a membrane. This condition results from failure of which developmental event?",
+    options: ["Neural crest cell migration", "Lateral folding", "Cephalocaudal folding", "Gastrulation"],
+    correctAnswer: "Lateral folding",
+    explanation: "Lateral folding of the embryo brings the lateral body walls together, and failure of this process can lead to omphalocele."
+  },
+  {
+    question: "A medical student is examining a histological slide of the adrenal gland. Which embryonic structure gives rise to the adrenal medulla?",
+    options: ["Neural tube", "Paraxial mesoderm", "Neural crest cells", "Intermediate mesoderm"],
+    correctAnswer: "Neural crest cells",
+    explanation: "The adrenal medulla is derived from neural crest cells, which differentiate into chromaffin cells."
+  },
+  {
+    question: "A fetus is diagnosed with sirenomelia (mermaid syndrome), a condition characterized by fusion of the lower limbs. This results from defects in which embryonic structure?",
+    options: ["Primitive streak", "Neural crest cells", "Lateral plate mesoderm", "Caudal mesoderm"],
+    correctAnswer: "Caudal mesoderm",
+    explanation: "Sirenomelia results from insufficient mesodermal migration in the caudal region, affecting limb and urogenital development."
+  },
+  {
+    question: "A pregnant woman exposed to retinoic acid early in pregnancy is at risk of having a child with defects in which structure?",
+    options: ["Spinal cord", "Brainstem", "Face and pharyngeal arches", "Limbs"],
+    correctAnswer: "Face and pharyngeal arches",
+    explanation: "Retinoic acid disrupts neural crest migration, leading to craniofacial and pharyngeal arch anomalies."
+  },
+  {
+    question: "A newborn has gastroschisis, a congenital abdominal wall defect. Unlike omphalocele, what is the key distinguishing feature?",
+    options: ["Absence of a covering membrane", "Involves neural crest migration", "Caused by paraxial mesoderm defect", "Involves persistent yolk sac"],
+    correctAnswer: "Absence of a covering membrane",
+    explanation: "Gastroschisis results from a defect in lateral folding, leading to herniation of abdominal contents without a membrane."
+  },
+  {
+    question: "A medical student is asked to identify the fate of sclerotomes in embryonic development. Which structure do they form?",
+    options: ["Muscles of the back", "Vertebrae and ribs", "Neural tube", "Somatic mesoderm"],
+    correctAnswer: "Vertebrae and ribs",
+    explanation: "Sclerotomes, derived from somites, differentiate into vertebrae and ribs."
+  },
+  {
+    question: "A newborn is diagnosed with holoprosencephaly, a brain malformation. Which developmental signaling pathway is most likely disrupted?",
+    options: ["Wnt signaling", "Sonic hedgehog (Shh)", "FGF signaling", "BMP signaling"],
+    correctAnswer: "Sonic hedgehog (Shh)",
+    explanation: "Shh signaling is crucial for forebrain and facial development, and mutations can result in holoprosencephaly."
+  },
+
+
+
+
+
+
+],
+      },
+
   
-      // Lower Limbs Clinical Cases end here
+
+  
   
   
   
@@ -589,1041 +950,12 @@ document.addEventListener("DOMContentLoaded", () => {
 ////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    {
-      category: "Hip Joint",
-      questions: [
-        
-  {
-    question: "What type of joint is the hip joint structurally?",
-    options: [
-      "Fibrous joint",
-      "Cartilaginous joint",
-      "Synovial ball and socket joint",
-      "Pivot joint"
-    ],
-    correctAnswer: "Synovial ball and socket joint",
-    explanation: "The hip joint is classified as a synovial ball and socket joint, which allows for a wide range of movements in multiple directions."
-  },
-  {
-    question: "What are the articulating surfaces of the hip joint?",
-    options: [
-      "Femoral head and acetabulum",
-      "Tibia and fibula",
-      "Humerus and scapula",
-      "Clavicle and sternum"
-    ],
-    correctAnswer: "Femoral head and acetabulum",
-    explanation: "The articulating surfaces of the hip joint include the femoral head and the acetabulum of the pelvis."
-  },
-  {
-    question: "Which muscles are responsible for hip flexion?",
-    options: [
-      "Gluteus maximus and hamstrings",
-      "Iliopsoas, rectus femoris, and sartorius",
-      "Gluteus medius and minimus",
-      "Piriformis and quadratus femoris"
-    ],
-    correctAnswer: "Iliopsoas, rectus femoris, and sartorius",
-    explanation: "Hip flexion is primarily caused by the iliopsoas, with assistance from the rectus femoris and sartorius muscles."
-  },
-  {
-    question: "Which movement is limited to about 110 degrees by contact with the abdominal wall?",
-    options: [
-      "Extension",
-      "Adduction",
-      "Flexion",
-      "Lateral rotation"
-    ],
-    correctAnswer: "Flexion",
-    explanation: "Flexion is limited to about 110 degrees when the knee is flexed, due to contact with the abdominal wall."
-  },
-  {
-    question: "Which muscles are responsible for hip extension?",
-    options: [
-      "Gluteus maximus and hamstrings",
-      "Adductor longus and brevis",
-      "Iliopsoas and psoas major",
-      "Piriformis and gemelli"
-    ],
-    correctAnswer: "Gluteus maximus and hamstrings",
-    explanation: "Hip extension is primarily carried out by the gluteus maximus and hamstrings, allowing for backward movement of the thigh."
-  },
-  {
-    question: "What is the primary muscle responsible for hip abduction?",
-    options: [
-      "Gluteus maximus",
-      "Gluteus medius and minimus",
-      "Iliopsoas",
-      "Adductor magnus"
-    ],
-    correctAnswer: "Gluteus medius and minimus",
-    explanation: "The gluteus medius and minimus are the key muscles responsible for hip abduction, moving the leg away from the body."
-  },
-  {
-    question: "Which nerve supplies the hip joint?",
-    options: [
-      "Femoral, obturator, and sciatic nerves",
-      "Radial and median nerves",
-      "Vagus nerve",
-      "Ulnar and axillary nerves"
-    ],
-    correctAnswer: "Femoral, obturator, and sciatic nerves",
-    explanation: "The hip joint is innervated by the femoral, obturator, and sciatic nerves, providing sensory and motor control."
-  },
-  {
-    question: "What is the stability of the hip joint largely dependent on?",
-    options: [
-      "The shallow acetabulum",
-      "The deep acetabulum, strong capsule, and short lateral rotator muscles",
-      "Loose ligaments and weak muscles",
-      "Only the gluteus maximus muscle"
-    ],
-    correctAnswer: "The deep acetabulum, strong capsule, and short lateral rotator muscles",
-    explanation: "The stability of the hip joint is aided by the deep acetabulum, a strong capsule, and closely applied lateral rotator muscles."
-  },
-  {
-    question: "Which of the following movements does the hip joint allow?",
-    options: [
-      "Flexion, extension, abduction, adduction, circumduction, and rotation",
-      "Flexion, extension, and pronation",
-      "Rotation, pronation, and supination",
-      "Only flexion and extension"
-    ],
-    correctAnswer: "Flexion, extension, abduction, adduction, circumduction, and rotation",
-    explanation: "The hip joint allows for a wide range of movements, including flexion, extension, abduction, adduction, circumduction, and rotation."
-  },
-  {
-    question: "Which muscles are responsible for lateral rotation of the hip?",
-    options: [
-      "Adductors",
-      "Iliopsoas and psoas major",
-      "Piriformis, obturator internus, gemelli, quadratus femoris, and gluteus maximus",
-      "Gluteus medius and minimus"
-    ],
-    correctAnswer: "Piriformis, obturator internus, gemelli, quadratus femoris, and gluteus maximus",
-    explanation: "Lateral rotation of the hip is primarily caused by the piriformis, obturator internus, gemelli, quadratus femoris, and gluteus maximus."
-  },
-  {
-    question: "What condition is associated with a shallow acetabulum in infants?",
-    options: [
-      "Hip dysplasia",
-      "Osteoarthritis",
-      "Rheumatoid arthritis",
-      "Sciatica"
-    ],
-    correctAnswer: "Hip dysplasia",
-    explanation: "Hip dysplasia is a congenital condition where the acetabulum is shallow, leading to instability and potential dislocation in infants."
-  },
-  {
-    question: "What is the function of the acetabular labrum?",
-    options: [
-      "Stabilizes the knee joint",
-      "Deepens the acetabulum to help secure the femoral head",
-      "Lubricates the joint",
-      "Facilitates blood flow to the hip"
-    ],
-    correctAnswer: "Deepens the acetabulum to help secure the femoral head",
-    explanation: "The acetabular labrum deepens the acetabulum and enhances stability by clasping the femoral head more securely."
-  },
-  {
-    question: "What test is used to detect developmental hip dysplasia in infants?",
-    options: [
-      "Trendelenburg Test",
-      "Barlow's Test",
-      "Thompson's Test",
-      "McMurray's Test"
-    ],
-    correctAnswer: "Barlow's Test",
-    explanation: "Barlow's Test is performed to detect hip dysplasia by checking for dislocation of the femoral head from the acetabulum in infants."
-  },
-  {
-    question: "What is Trendelenburg sign associated with?",
-    options: [
-      "A positive result when standing on the affected leg causes the opposite hip to drop",
-      "Pain in the lower back",
-      "A dislocated shoulder",
-      "Fracture of the femur"
-    ],
-    correctAnswer: "A positive result when standing on the affected leg causes the opposite hip to drop",
-    explanation: "A positive Trendelenburg sign indicates weakness in the hip abductors, causing the opposite hip to drop when standing on the affected leg."
-  },
-  {
-    question: "Which condition is described as a deformity where the femoral neck angle is reduced?",
-    options: [
-      "Coxa vara",
-      "Osteoporosis",
-      "Hip fracture",
-      "Hip osteoarthritis"
-    ],
-    correctAnswer: "Coxa vara",
-    explanation: "Coxa vara is a deformity where the angle of the femoral neck is reduced, leading to a bending inward of the femur."
-  },
-  {
-    question: "Which artery is involved in the blood supply of the hip joint?",
-    options: [
-      "Femoral artery",
-      "Radial artery",
-      "Carotid artery",
-      "Ulnar artery"
-    ],
-    correctAnswer: "Femoral artery",
-    explanation: "The blood supply to the hip joint is provided by the femoral artery and its branches, including the gluteal arteries."
-  },
-  {
-    question: "What happens when the femoral head dislocates from the acetabular cavity but still maintains contact?",
-    options: [
-      "Dysplasia",
-      "Subluxation",
-      "Dislocation",
-      "Fracture"
-    ],
-    correctAnswer: "Subluxation",
-    explanation: "In subluxation, the femoral head is displaced but still maintains some contact with the acetabular cavity."
-  },
-  {
-    question: "What muscle is primarily responsible for adduction of the hip?",
-    options: [
-      "Gluteus maximus",
-      "Adductor longus and magnus",
-      "Rectus femoris",
-      "Biceps femoris"
-    ],
-    correctAnswer: "Adductor longus and magnus",
-    explanation: "The adductor longus and magnus muscles are primarily responsible for hip adduction, pulling the leg towards the midline."
-  },
-  {
-    question: "What is the condition where the ball part of the thigh bone does not sit in the hip socket properly called?",
-    options: [
-      "Developmental dysplasia of the hip",
-      "Osteoporosis",
-      "Bursitis",
-      "Arthritis"
-    ],
-    correctAnswer: "Developmental dysplasia of the hip",
-    explanation: "Developmental dysplasia of the hip is a condition where the ball part of the thigh bone (femoral head) does not sit correctly in the socket (acetabulum), leading to instability and possible dislocation."
-  },
-  {
-    question: "What is the movement of the hip joint where the thigh moves away from the body called?",
-    options: [
-      "Adduction",
-      "Abduction",
-      "Flexion",
-      "Extension"
-    ],
-    correctAnswer: "Abduction",
-    explanation: "Abduction is the movement where the thigh moves away from the midline of the body, primarily controlled by the gluteus medius and minimus."
-  },
-  {
-    question: "Which test is used to assess the reduction of a dislocated hip in infants?",
-    options: [
-      "Ortolani Test",
-      "McMurray's Test",
-      "Lachman Test",
-      "Phalen's Test"
-    ],
-    correctAnswer: "Ortolani Test",
-    explanation: "The Ortolani Test is used to assess the reduction of a dislocated hip by gently manipulating the hip joint to check for re-alignment in infants."
-  },
-
-
-  {
-    question: "What ligament bridges the acetabular notch?",
-    options: [
-      "Ligamentum teres",
-      "Transverse acetabular ligament",
-      "Iliofemoral ligament",
-      "Pubofemoral ligament"
-    ],
-    correctAnswer: "Transverse acetabular ligament",
-    explanation: "The transverse acetabular ligament bridges the acetabular notch, converting it into a foramen that allows blood vessels to pass through."
-  },
-  {
-    question: "Which of the following muscles assists in flexion of the hip joint?",
-    options: [
-      "Gluteus maximus",
-      "Biceps femoris",
-      "Sartorius",
-      "Obturator externus"
-    ],
-    correctAnswer: "Sartorius",
-    explanation: "Sartorius is one of the muscles that assist in hip flexion, along with iliopsoas and rectus femoris."
-  },
-  {
-    question: "Which group of muscles assists in medial rotation of the hip?",
-    options: [
-      "Gluteus medius, minimus, and tensor fasciae latae",
-      "Gluteus maximus and piriformis",
-      "Quadratus femoris and gemelli",
-      "Adductor magnus and brevis"
-    ],
-    correctAnswer: "Gluteus medius, minimus, and tensor fasciae latae",
-    explanation: "Medial rotation of the hip is primarily assisted by gluteus medius, minimus, and tensor fasciae latae."
-  },
-  {
-    question: "What type of movement is limited to about 15-20 degrees in the hip joint?",
-    options: [
-      "Abduction",
-      "Extension",
-      "Flexion",
-      "Circumduction"
-    ],
-    correctAnswer: "Extension",
-    explanation: "Hip extension is limited to about 15-20 degrees, and it is mainly carried out by the gluteus maximus and hamstrings."
-  },
-  {
-    question: "What is the term for the condition where the acetabulum is shallow but the femoral head is still within it?",
-    options: [
-      "Dislocation",
-      "Subluxation",
-      "Dysplasia",
-      "Coxa vara"
-    ],
-    correctAnswer: "Dysplasia",
-    explanation: "In dysplasia, the acetabular cavity is shallow but the femoral head remains within it, leading to potential instability."
-  },
-  {
-    question: "Which movement is primarily assisted by the gluteus maximus?",
-    options: [
-      "Flexion",
-      "Abduction",
-      "Extension",
-      "Adduction"
-    ],
-    correctAnswer: "Extension",
-    explanation: "The gluteus maximus is the primary muscle responsible for extending the hip joint, especially when moving the thigh backward."
-  },
-  {
-    question: "What is a common consequence of a traumatic posterior dislocation of the hip?",
-    options: [
-      "Sciatic nerve injury",
-      "Femoral artery rupture",
-      "Knee joint dislocation",
-      "Fracture of the femoral head"
-    ],
-    correctAnswer: "Sciatic nerve injury",
-    explanation: "A posterior dislocation of the hip often results in injury to the sciatic nerve, which is located close to the hip joint."
-  },
-  {
-    question: "Which test can be used to detect hip dysplasia in infants?",
-    options: [
-      "Phalen's Test",
-      "Barlow's Test",
-      "Lachman Test",
-      "Trendelenburg Test"
-    ],
-    correctAnswer: "Barlow's Test",
-    explanation: "Barlow's Test is used to assess for hip dysplasia in infants by attempting to dislocate the femoral head from the acetabulum."
-  },
-  {
-    question: "Which of the following structures helps to stabilize the femoral head within the acetabulum?",
-    options: [
-      "Transverse acetabular ligament",
-      "Acetabular labrum",
-      "Ligamentum teres",
-      "Obturator membrane"
-    ],
-    correctAnswer: "Acetabular labrum",
-    explanation: "The acetabular labrum deepens the socket of the acetabulum, helping to secure the femoral head and maintain joint stability."
-  },
-  {
-    question: "Which muscles are responsible for adduction of the hip?",
-    options: [
-      "Gluteus maximus and minimus",
-      "Adductor longus, adductor brevis, and gracilis",
-      "Iliopsoas and sartorius",
-      "Piriformis and quadratus femoris"
-    ],
-    correctAnswer: "Adductor longus, adductor brevis, and gracilis",
-    explanation: "The adductor longus, adductor brevis, and gracilis are the primary muscles responsible for bringing the thigh towards the midline (adduction)."
-  },
-  {
-    question: "What causes a waddling gait in a patient with hip issues?",
-    options: [
-      "Weakness in the hip abductors",
-      "Tight hamstring muscles",
-      "Tight iliopsoas muscles",
-      "Injury to the adductor muscles"
-    ],
-    correctAnswer: "Weakness in the hip abductors",
-    explanation: "A waddling gait is caused by weakness in the hip abductor muscles, such as the gluteus medius and minimus, leading to difficulty stabilizing the pelvis."
-  },
-  {
-    question: "Which muscle group is primarily responsible for stabilizing the pelvis during walking?",
-    options: [
-      "Hip adductors",
-      "Hip flexors",
-      "Hip abductors",
-      "Hip extensors"
-    ],
-    correctAnswer: "Hip abductors",
-    explanation: "The hip abductors, particularly the gluteus medius and minimus, stabilize the pelvis during walking to prevent it from tilting."
-  },
-  {
-    question: "Which of the following movements is the hip joint least stable during?",
-    options: [
-      "Flexion and abduction",
-      "Extension and lateral rotation",
-      "Flexion and adduction",
-      "Abduction and lateral rotation"
-    ],
-    correctAnswer: "Flexion and adduction",
-    explanation: "The hip joint is least stable during flexion and adduction, which is why dislocations often occur in this position, such as during a car accident."
-  },
-  {
-    question: "Which condition is associated with an increased angle between the femoral neck and shaft?",
-    options: [
-      "Coxa vara",
-      "Coxa valga",
-      "Hip dysplasia",
-      "Osteoarthritis"
-    ],
-    correctAnswer: "Coxa valga",
-    explanation: "Coxa valga is a deformity where the angle between the femoral neck and shaft is increased, leading to potential instability in the hip joint."
-  },
-  {
-    question: "Which muscle is involved in both hip flexion and medial rotation?",
-    options: [
-      "Gluteus maximus",
-      "Piriformis",
-      "Iliopsoas",
-      "Adductor magnus"
-    ],
-    correctAnswer: "Iliopsoas",
-    explanation: "Iliopsoas is primarily involved in hip flexion and also assists in medial rotation of the hip joint."
-  },
-  {
-    question: "What is the Galeazzi sign used to assess?",
-    options: [
-      "Knee dislocation",
-      "Congenital hip dysplasia",
-      "Foot drop",
-      "Sciatic nerve injury"
-    ],
-    correctAnswer: "Congenital hip dysplasia",
-    explanation: "The Galeazzi sign is used to assess for congenital hip dysplasia by comparing the height of the knees when the infant is lying down with flexed knees."
-  },
-  {
-    question: "Which nerve is most likely to be injured in a posterior dislocation of the hip joint?",
-    options: [
-      "Femoral nerve",
-      "Obturator nerve",
-      "Sciatic nerve",
-      "Tibial nerve"
-    ],
-    correctAnswer: "Sciatic nerve",
-    explanation: "The sciatic nerve is the most likely to be injured in a posterior dislocation of the hip joint due to its proximity to the hip."
-  },
-  {
-    question: "What type of joint movement occurs when the femoral head rotates within the acetabulum?",
-    options: [
-      "Circumduction",
-      "Rotation",
-      "Adduction",
-      "Extension"
-    ],
-    correctAnswer: "Rotation",
-    explanation: "Rotation occurs when the femoral head rotates within the acetabulum, allowing the thigh to rotate medially or laterally."
-  },
-  {
-    question: "What type of movement does the hip joint perform when the thigh moves towards the body's midline?",
-    options: [
-      "Abduction",
-      "Adduction",
-      "Circumduction",
-      "Flexion"
-    ],
-    correctAnswer: "Adduction",
-    explanation: "Adduction is the movement of the thigh towards the body's midline, primarily controlled by the adductor muscles of the hip."
-  },
-  {
-    question: "What is the function of the ligamentum teres in the hip joint?",
-    options: [
-      "Provides stability during abduction",
-      "Contains a small artery that supplies blood to the femoral head",
-      "Limits hip flexion",
-      "Prevents hip dislocation"
-    ],
-    correctAnswer: "Contains a small artery that supplies blood to the femoral head",
-    explanation: "The ligamentum teres contains a small artery that provides blood supply to the femoral head, particularly in children, helping to nourish the growing bone."
-  },
-  {
-    question: "Which condition is characterized by a reduced angle between the femoral neck and shaft?",
-    options: [
-      "Coxa valga",
-      "Coxa vara",
-      "Hip dysplasia",
-      "Osteoarthritis"
-    ],
-    correctAnswer: "Coxa vara",
-    explanation: "Coxa vara is a deformity in which the angle between the femoral neck and shaft is reduced, leading to a bent inward appearance of the femur."
-  },
-
-
-
-  {
-    question: "Which ligament is the strongest in the hip joint and prevents hyperextension?",
-    options: [
-      "Ischiofemoral ligament",
-      "Pubofemoral ligament",
-      "Iliofemoral ligament",
-      "Ligamentum teres"
-    ],
-    correctAnswer: "Iliofemoral ligament",
-    explanation: "The iliofemoral ligament is the strongest ligament of the hip joint and prevents hyperextension during standing."
-  },
-  {
-    question: "Which artery provides the majority of blood supply to the head of the femur in adults?",
-    options: [
-      "Obturator artery",
-      "Medial circumflex femoral artery",
-      "Superior gluteal artery",
-      "Inferior gluteal artery"
-    ],
-    correctAnswer: "Medial circumflex femoral artery",
-    explanation: "The medial circumflex femoral artery provides most of the blood supply to the head and neck of the femur in adults."
-  },
-  {
-    question: "Which movement at the hip joint is limited by the tension in the hamstring muscles?",
-    options: [
-      "Extension",
-      "Flexion",
-      "Abduction",
-      "Lateral rotation"
-    ],
-    correctAnswer: "Flexion",
-    explanation: "Flexion of the hip joint is limited when the knee is extended due to tension in the hamstring muscles."
-  },
-  {
-    question: "Which condition results from a shallow acetabulum that leads to frequent dislocations?",
-    options: [
-      "Osteoarthritis",
-      "Coxa valga",
-      "Developmental dysplasia of the hip",
-      "Sciatica"
-    ],
-    correctAnswer: "Developmental dysplasia of the hip",
-    explanation: "Developmental dysplasia of the hip is characterized by a shallow acetabulum, which causes instability and frequent dislocations."
-  },
-  {
-    question: "Which test is used to detect gluteus medius weakness in a patient with hip problems?",
-    options: [
-      "McMurray's Test",
-      "Trendelenburg Test",
-      "Barlow's Test",
-      "Ortolani Test"
-    ],
-    correctAnswer: "Trendelenburg Test",
-    explanation: "The Trendelenburg Test is used to detect weakness in the gluteus medius muscle, which can cause a drop of the contralateral pelvis during single-leg stance."
-  },
-  {
-    question: "What is the main function of the gluteus medius during walking?",
-    options: [
-      "Flexes the hip",
-      "Prevents the contralateral hip from dropping",
-      "Laterally rotates the hip",
-      "Adducts the thigh"
-    ],
-    correctAnswer: "Prevents the contralateral hip from dropping",
-    explanation: "The gluteus medius stabilizes the pelvis during walking, preventing the contralateral hip from dropping when the opposite leg is lifted."
-  },
-  {
-    question: "Which nerve is most commonly involved in hip dislocations, especially posterior dislocations?",
-    options: [
-      "Femoral nerve",
-      "Obturator nerve",
-      "Sciatic nerve",
-      "Tibial nerve"
-    ],
-    correctAnswer: "Sciatic nerve",
-    explanation: "The sciatic nerve is the most commonly affected in posterior hip dislocations because of its close proximity to the hip joint."
-  },
-  {
-    question: "What type of gait is caused by weakness of the hip abductors, particularly gluteus medius?",
-    options: [
-      "Steppage gait",
-      "Trendelenburg gait",
-      "Antalgic gait",
-      "Scissor gait"
-    ],
-    correctAnswer: "Trendelenburg gait",
-    explanation: "A Trendelenburg gait occurs when the hip abductors, especially the gluteus medius, are weak, causing the pelvis to drop on the opposite side during walking."
-  },
-  {
-    question: "Which muscle group is responsible for limiting excessive internal rotation of the hip?",
-    options: [
-      "Hip flexors",
-      "Hip abductors",
-      "Short lateral rotators",
-      "Adductors"
-    ],
-    correctAnswer: "Short lateral rotators",
-    explanation: "The short lateral rotators (piriformis, obturator internus, gemelli, quadratus femoris) limit excessive internal rotation and stabilize the hip joint."
-  },
-  {
-    question: "Which condition presents with reduced blood supply to the femoral head, often resulting in avascular necrosis?",
-    options: [
-      "Osteoarthritis",
-      "Avascular necrosis",
-      "Hip dysplasia",
-      "Hip fracture"
-    ],
-    correctAnswer: "Avascular necrosis",
-    explanation: "Avascular necrosis occurs when the blood supply to the femoral head is compromised, leading to bone death and hip joint dysfunction."
-  },
-
-
-  {
-    question: "How is the hip joint classified functionally?",
-    options: [
-      "Synarthrotic joint",
-      "Diarthrotic joint",
-      "Amphiarthrotic joint",
-      "Cartilaginous joint"
-    ],
-    correctAnswer: "Diarthrotic joint",
-    explanation: "Functionally, the hip joint is classified as a diarthrotic joint, meaning it is freely movable in multiple directions."
-  },
-  {
-    question: "What are the main components of the acetabular surface in the hip joint?",
-    options: [
-      "Tibia, fibula, and femur",
-      "Ilium, ischium, and pubis",
-      "Clavicle, scapula, and humerus",
-      "Radius, ulna, and carpals"
-    ],
-    correctAnswer: "Ilium, ischium, and pubis",
-    explanation: "The acetabulum of the hip joint is formed by the ilium, ischium, and pubis, which fuse together at skeletal maturity."
-  },
-  {
-    question: "Which muscles separate the hip joint from the femoral vessels and nerve anteriorly?",
-    options: [
-      "Piriformis and quadratus femoris",
-      "Iliopsoas and pectineus",
-      "Rectus femoris and tensor fasciae latae",
-      "Gluteus medius and minimus"
-    ],
-    correctAnswer: "Iliopsoas and pectineus",
-    explanation: "Anteriorly, the iliopsoas and pectineus muscles separate the hip joint from the femoral vessels and nerve."
-  },
-  {
-    question: "Which ligaments contribute to the stability of the hip joint?",
-    options: [
-      "Iliofemoral, pubofemoral, and ischiofemoral ligaments",
-      "Patellar ligament",
-      "Radial collateral ligament",
-      "Lateral collateral ligament"
-    ],
-    correctAnswer: "Iliofemoral, pubofemoral, and ischiofemoral ligaments",
-    explanation: "The iliofemoral, pubofemoral, and ischiofemoral ligaments contribute to the stability of the hip joint by reinforcing the joint capsule."
-  },
-  {
-    question: "Which nerves provide innervation to the hip joint according to Hilton's Law?",
-    options: [
-      "Femoral, obturator, and sciatic nerves",
-      "Axillary, radial, and median nerves",
-      "Ulnar, median, and radial nerves",
-      "Musculocutaneous, ulnar, and femoral nerves"
-    ],
-    correctAnswer: "Femoral, obturator, and sciatic nerves",
-    explanation: "The hip joint is innervated by branches of the femoral, obturator, and sciatic nerves, consistent with Hilton's Law."
-  },
-  {
-    question: "Which arteries supply blood to the hip joint?",
-    options: [
-      "Gluteal arteries and branches of the femoral artery",
-      "Radial and ulnar arteries",
-      "Axillary and subclavian arteries",
-      "Popliteal and tibial arteries"
-    ],
-    correctAnswer: "Gluteal arteries and branches of the femoral artery",
-    explanation: "The blood supply to the hip joint is through anastomoses between the gluteal arteries and branches of the femoral artery."
-  },
-  {
-    question: "Which muscles assist in hip flexion?",
-    options: [
-      "Iliopsoas, rectus femoris, and sartorius",
-      "Gluteus maximus and hamstrings",
-      "Piriformis and quadratus femoris",
-      "Adductor longus and gracilis"
-    ],
-    correctAnswer: "Iliopsoas, rectus femoris, and sartorius",
-    explanation: "Hip flexion is mainly performed by the iliopsoas, with assistance from the rectus femoris and sartorius muscles."
-  },
-  {
-    question: "Which muscle group is responsible for lateral rotation of the hip?",
-    options: [
-      "Short lateral rotators such as piriformis, gemelli, and obturator muscles",
-      "Iliopsoas and rectus femoris",
-      "Adductor longus and magnus",
-      "Gluteus medius and minimus"
-    ],
-    correctAnswer: "Short lateral rotators such as piriformis, gemelli, and obturator muscles",
-    explanation: "Lateral rotation of the hip is carried out by the short lateral rotator muscles, including piriformis, gemelli, and obturator muscles."
-  },
-  {
-    question: "What condition is associated with damage to the hip abductors, leading to a positive Trendelenburg sign?",
-    options: [
-      "Hip dysplasia",
-      "Gluteus medius weakness",
-      "Femoral head fracture",
-      "Osteoarthritis"
-    ],
-    correctAnswer: "Gluteus medius weakness",
-    explanation: "A positive Trendelenburg sign occurs when there is damage or weakness in the gluteus medius, leading to instability in the pelvis during walking."
-  },
-  {
-    question: "What causes the limitation of hip flexion to about 110 degrees?",
-    options: [
-      "Contact with the abdominal wall",
-      "Tension in the hamstrings",
-      "Shortness of the gluteus maximus",
-      "Pressure from the sciatic nerve"
-    ],
-    correctAnswer: "Contact with the abdominal wall",
-    explanation: "Hip flexion is limited to about 110 degrees when the knee is flexed due to contact with the abdominal wall."
-  },
+    
 
 
 
 
-//Nelson’s Note
-
-  {
-    question: "Which muscle is the primary hip flexor?",
-    options: [
-      "Gluteus maximus",
-      "Adductor brevis",
-      "Iliopsoas",
-      "Rectus femoris"
-    ],
-    correctAnswer: "Iliopsoas",
-    explanation: "The iliopsoas muscle is the primary hip flexor, responsible for lifting the thigh towards the body."
-  },
-  {
-    question: "Which muscle is responsible for hip extension?",
-    options: [
-      "Gluteus medius",
-      "Adductor brevis",
-      "Gluteus maximus",
-      "Iliopsoas"
-    ],
-    correctAnswer: "Gluteus maximus",
-    explanation: "The gluteus maximus is the main muscle responsible for extending the hip joint, moving the thigh backward."
-  },
-  {
-    question: "Which muscle is primarily responsible for hip abduction?",
-    options: [
-      "Adductor brevis",
-      "Gluteus maximus",
-      "Gluteus medius",
-      "Iliopsoas"
-    ],
-    correctAnswer: "Gluteus medius",
-    explanation: "The gluteus medius is the primary muscle for abducting the hip, moving the leg away from the body's midline."
-  },
-  {
-    question: "Which muscle is involved in hip adduction?",
-    options: [
-      "Adductor brevis",
-      "Gluteus maximus",
-      "Iliopsoas",
-      "Gluteus medius"
-    ],
-    correctAnswer: "Adductor brevis",
-    explanation: "The adductor brevis is responsible for hip adduction, pulling the leg toward the body's midline."
-  },
-  {
-    question: "Which ligament prevents over-abduction and extension of the hip joint?",
-    options: [
-      "Iliofemoral ligament",
-      "Pubofemoral ligament",
-      "Ischiofemoral ligament",
-      "Ligamentum teres"
-    ],
-    correctAnswer: "Pubofemoral ligament",
-    explanation: "The pubofemoral ligament is located on the anterior side of the hip and prevents over-abduction and extension."
-  },
-  {
-    question: "Which ligament is known for its Y-shape and prevents over-extension of the hip joint?",
-    options: [
-      "Iliofemoral ligament",
-      "Ischiofemoral ligament",
-      "Pubofemoral ligament",
-      "Ligamentum teres"
-    ],
-    correctAnswer: "Iliofemoral ligament",
-    explanation: "The iliofemoral ligament, also called the Y-shaped ligament, is located on the anterior side and prevents over-extension of the hip joint."
-  },
-  {
-    question: "Where is the ischiofemoral ligament located?",
-    options: [
-      "On the anterior side of the hip joint",
-      "On the lateral side of the hip joint",
-      "On the posterior side of the hip joint",
-      "On the medial side of the hip joint"
-    ],
-    correctAnswer: "On the posterior side of the hip joint",
-    explanation: "The ischiofemoral ligament is located on the posterior side of the hip joint and originates from the ischium of the pelvis."
-  },
-  {
-    question: "What does the ischiofemoral ligament insert deep to?",
-    options: [
-      "The pubofemoral ligament",
-      "The iliopsoas muscle",
-      "The iliofemoral ligament",
-      "The gluteus maximus"
-    ],
-    correctAnswer: "The iliofemoral ligament",
-    explanation: "The ischiofemoral ligament inserts deep to the iliofemoral ligament, located on the posterior side of the hip joint."
-  },
-  {
-    question: "Which ligament originates from the ischium of the pelvis?",
-    options: [
-      "Iliofemoral ligament",
-      "Pubofemoral ligament",
-      "Ischiofemoral ligament",
-      "Ligamentum teres"
-    ],
-    correctAnswer: "Ischiofemoral ligament",
-    explanation: "The ischiofemoral ligament originates from the ischium of the pelvis and inserts deep to the iliofemoral ligament."
-  },
-  {
-    question: "Which of the following ligaments prevents over-extension of the hip joint?",
-    options: [
-      "Pubofemoral ligament",
-      "Iliofemoral ligament",
-      "Ischiofemoral ligament",
-      "Ligamentum teres"
-    ],
-    correctAnswer: "Iliofemoral ligament",
-    explanation: "The iliofemoral ligament, located on the anterior side of the hip, prevents over-extension of the joint."
-  },
-
-
-
-
-  {
-    question: "What is the joint capsule of the hip primarily responsible for?",
-    options: [
-      "Providing blood supply to the hip",
-      "Lubricating the hip joint",
-      "Stability of the hip joint",
-      "Flexion of the hip joint"
-    ],
-    correctAnswer: "Stability of the hip joint",
-    explanation: "The joint capsule of the hip is a watertight sac that provides the main source of stability by connecting the head of the femur to the acetabulum."
-  },
-  {
-    question: "What role does the ligamentum teres play in the hip joint?",
-    options: [
-      "Prevents overextension of the hip",
-      "Connects the tip of the femur to the acetabulum and provides a small amount of blood supply",
-      "Assists in hip abduction",
-      "Helps in hip flexion"
-    ],
-    correctAnswer: "Connects the tip of the femur to the acetabulum and provides a small amount of blood supply",
-    explanation: "The ligamentum teres connects the tip of the femur to the acetabulum and carries a small artery that provides limited blood supply, mainly functional in children."
-  },
-  {
-    question: "What is the function of a bursa in the body?",
-    options: [
-      "To generate movement",
-      "To provide blood supply to muscles",
-      "To reduce friction between muscles, tendons, and bones",
-      "To store nutrients"
-    ],
-    correctAnswer: "To reduce friction between muscles, tendons, and bones",
-    explanation: "A bursa is a thin sac of fluid that lubricates areas of friction between muscles, tendons, and bones to reduce wear."
-  },
-  {
-    question: "Where is the greater trochanteric bursa located?",
-    options: [
-      "Between the iliopsoas muscle and hip joint",
-      "Between the greater trochanter and the muscles/tendons crossing over it",
-      "Between the ischial tuberosity and the surrounding muscles",
-      "Inside the joint capsule"
-    ],
-    correctAnswer: "Between the greater trochanter and the muscles/tendons crossing over it",
-    explanation: "The greater trochanteric bursa is located between the bump of the hip (greater trochanter) and the muscles and tendons that cross over it."
-  },
-  {
-    question: "What is trochanteric bursitis?",
-    options: [
-      "A breakdown of articular cartilage",
-      "Irritation and inflammation of the greater trochanteric bursa",
-      "Inflammation of the iliopsoas tendon",
-      "Inflammation of the joint capsule"
-    ],
-    correctAnswer: "Irritation and inflammation of the greater trochanteric bursa",
-    explanation: "Trochanteric bursitis is the irritation and inflammation of the greater trochanteric bursa, often causing hip pain."
-  },
-  {
-    question: "Where is the iliopsoas bursa located?",
-    options: [
-      "Between the iliopsoas muscle and the greater trochanter",
-      "Between the iliopsoas muscle and the hip joint",
-      "Inside the joint capsule",
-      "On the posterior side of the femur"
-    ],
-    correctAnswer: "Between the iliopsoas muscle and the hip joint",
-    explanation: "The iliopsoas bursa sits between the iliopsoas muscle and the hip joint, cushioning where the iliopsoas tendon passes in front of the joint."
-  },
-  {
-    question: "What is ischial bursitis?",
-    options: [
-      "Inflammation of the bursa over the greater trochanter",
-      "Inflammation of the bursa located at the ischial tuberosity",
-      "A type of osteoarthritis",
-      "A tear in the iliopsoas muscle"
-    ],
-    correctAnswer: "Inflammation of the bursa located at the ischial tuberosity",
-    explanation: "Ischial bursitis is the inflammation of the bursa located at the ischial tuberosity, the bony area in your buttocks that you sit on."
-  },
-  {
-    question: "Where is the ischial tuberosity bursa located?",
-    options: [
-      "Over the greater trochanter",
-      "Inside the hip joint capsule",
-      "At the bony bump in your buttocks",
-      "Near the acetabulum"
-    ],
-    correctAnswer: "At the bony bump in your buttocks",
-    explanation: "The ischial tuberosity bursa is located at the bump of bone in your buttocks, which you sit on."
-  },
-  {
-    question: "What condition involves the breakdown of articular cartilage in the hip joint?",
-    options: [
-      "Osteoarthritis",
-      "Trochanteric bursitis",
-      "Hip dysplasia",
-      "Ischial bursitis"
-    ],
-    correctAnswer: "Osteoarthritis",
-    explanation: "Osteoarthritis involves the breakdown of the articular cartilage in the hip joint, leading to pain and stiffness."
-  },
-  {
-    question: "Which bursa is most associated with sitting-related pain due to inflammation?",
-    options: [
-      "Greater trochanteric bursa",
-      "Iliopsoas bursa",
-      "Ischial tuberosity bursa",
-      "Subscapular bursa"
-    ],
-    correctAnswer: "Ischial tuberosity bursa",
-    explanation: "The ischial tuberosity bursa, located at the bump of bone in the buttocks, can become inflamed (ischial bursitis) and cause sitting-related pain."
-  },
-  {
-    question: "Which bursa is located between the iliopsoas muscle and the hip joint?",
-    options: [
-      "Ischial tuberosity bursa",
-      "Greater trochanteric bursa",
-      "Iliopsoas bursa",
-      "Subacromial bursa"
-    ],
-    correctAnswer: "Iliopsoas bursa",
-    explanation: "The iliopsoas bursa is located between the iliopsoas muscle and the hip joint, cushioning the tendon as it passes in front of the hip."
-  },
-  {
-    question: "What is the primary function of the joint capsule in the hip?",
-    options: [
-      "Reducing friction between tendons",
-      "Providing blood supply to the joint",
-      "Maintaining stability of the joint",
-      "Allowing for greater range of motion"
-    ],
-    correctAnswer: "Maintaining stability of the joint",
-    explanation: "The joint capsule, formed by a strong ligament, helps connect the femur to the acetabulum and provides stability to the hip joint."
-  },
-  {
-    question: "Which structure provides a small amount of blood supply to the femoral head, particularly in children?",
-    options: [
-      "Iliofemoral ligament",
-      "Ligamentum teres",
-      "Greater trochanteric bursa",
-      "Ischial tuberosity bursa"
-    ],
-    correctAnswer: "Ligamentum teres",
-    explanation: "The ligamentum teres contains a small artery that supplies blood to the femoral head, mainly functional in children."
-  },
-  {
-    question: "Which condition involves the inflammation of the bursa between the greater trochanter and the muscles/tendons crossing over it?",
-    options: [
-      "Trochanteric bursitis",
-      "Ischial bursitis",
-      "Osteoarthritis",
-      "Hip dysplasia"
-    ],
-    correctAnswer: "Trochanteric bursitis",
-    explanation: "Trochanteric bursitis is the inflammation of the bursa located between the greater trochanter and the muscles/tendons crossing over it."
-  },
-  {
-    question: "What is the role of the iliopsoas bursa in the hip joint?",
-    options: [
-      "Connects the iliopsoas muscle to the femur",
-      "Reduces friction between the iliopsoas tendon and the hip joint",
-      "Provides blood supply to the femur",
-      "Assists in hip abduction"
-    ],
-    correctAnswer: "Reduces friction between the iliopsoas tendon and the hip joint",
-    explanation: "The iliopsoas bursa reduces friction between the iliopsoas tendon and the hip joint where the tendon passes in front of the joint."
-  },
-  {
-    question: "Which structure is primarily affected in osteoarthritis of the hip?",
-    options: [
-      "Ligamentum teres",
-      "Articular cartilage",
-      "Iliopsoas muscle",
-      "Ischial tuberosity bursa"
-    ],
-    correctAnswer: "Articular cartilage",
-    explanation: "In osteoarthritis, the articular cartilage of the hip joint breaks down, leading to pain and restricted movement."
-  },
-  {
-    question: "What is the function of the greater trochanteric bursa?",
-    options: [
-      "To supply blood to the hip",
-      "To reduce friction between the greater trochanter and surrounding tendons/muscles",
-      "To stabilize the hip joint",
-      "To assist in hip abduction"
-    ],
-    correctAnswer: "To reduce friction between the greater trochanter and surrounding tendons/muscles",
-    explanation: "The greater trochanteric bursa reduces friction between the greater trochanter and the muscles and tendons that cross over it."
-  },
-  {
-    question: "What is the primary function of the ischial tuberosity bursa?",
-    options: [
-      "To reduce friction between the ischial tuberosity and surrounding tissues",
-      "To assist in hip extension",
-      "To provide blood supply to the ischial region",
-      "To stabilize the hip joint"
-    ],
-    correctAnswer: "To reduce friction between the ischial tuberosity and surrounding tissues",
-    explanation: "The ischial tuberosity bursa reduces friction between the ischial tuberosity (the bony prominence you sit on) and surrounding tissues."
-  },
-  {
-    question: "What does inflammation of the ischial tuberosity bursa result in?",
-    options: [
-      "Trochanteric bursitis",
-      "Osteoarthritis",
-      "Ischial bursitis",
-      "Ligamentum teres rupture"
-    ],
-    correctAnswer: "Ischial bursitis",
-    explanation: "Ischial bursitis occurs when the ischial tuberosity bursa becomes inflamed, often resulting in pain during sitting."
-  },
-
-
-
-
-
-        
-        // Add more questions following this pattern
-      ],
-      
-    },
-
-//end of the Hip Joint 
-
+  
 
   
   
