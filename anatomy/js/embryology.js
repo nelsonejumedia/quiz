@@ -1225,9 +1225,7 @@ function submitAnswer() {
   
   
   
-  
-  });
-  
+
   
   
   
