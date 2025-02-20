@@ -949,424 +949,285 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
-
-{
-    question: "What is the study of heredity called?",
-    options: ["Genomics", "Genetics", "Cytology", "Embryology"],
-    corectAnswer: "Genetics",
-explanation: "Unavailable.”
-
+  {
+    "question": "Which syndrome is associated with a 'happy puppet' appearance?",
+    "options": ["Prader-Willi syndrome", "Angelman syndrome", "DiGeorge syndrome", "Wolf-Hirschhorn syndrome"],
+    "correctAnswer": "Angelman syndrome",
+    "explanation": "Angelman syndrome is characterized by developmental delay, speech impairment, ataxia, and frequent laughter, leading to its 'happy puppet' nickname."
   },
   {
-    question: "Which molecule carries the genetic code?",
-    options: ["RNA", "Protein", "DNA", "Lipid"],
-    corectAnswer: "DNA",
-explanation: "Unavailable.”
-
+    "question": "Which of the following is a clinical feature of Turner’s syndrome?",
+    "options": ["Tall stature", "Gynecomastia", "Shield chest", "Macrocephaly"],
+    "correctAnswer": "Shield chest",
+    "explanation": "Turner syndrome (45, XO) is characterized by short stature, a broad shield-like chest, and primary amenorrhea."
   },
   {
-    question: "What is the functional unit of DNA?",
-    options: ["Chromosome", "Gene", "Nucleus", "Genome"],
-    corectAnswer: "Gene",
-explanation: "Unavailable.”
-
+    "question": "Which genetic disorder results from a deletion in the short arm of chromosome 5?",
+    "options": ["Prader-Willi syndrome", "Wolf-Hirschhorn syndrome", "Cri-du-chat syndrome", "Miller-Dieker syndrome"],
+    "correctAnswer": "Cri-du-chat syndrome",
+    "explanation": "Cri-du-chat syndrome is caused by a deletion on chromosome 5p and is associated with a characteristic high-pitched cry in infants."
   },
   {
-    question: "Which branch of genetics studies the chemical structure of genes at the molecular level?",
-    options: ["Cytogenetics", "Molecular genetics", "Developmental genetics", "Population genetics"],
-    corectAnswer: "Molecular genetics",
-explanation: "Unavailable.”
-
+    "question": "Which of the following is an example of a structural chromosomal abnormality?",
+    "options": ["Trisomy 21", "Monosomy X", "Deletion", "Aneuploidy"],
+    "correctAnswer": "Deletion",
+    "explanation": "A deletion occurs when a portion of a chromosome is missing, leading to genetic disorders such as Cri-du-chat syndrome."
   },
   {
-    question: "How many genes are estimated to be in the human genome?",
-    options: ["10,000–30,000", "30,000–50,000", "50,000–100,000", "100,000–150,000"],
-    corectAnswer: "50,000–100,000",
-explanation: "Unavailable.”
-
+    "question": "What is the chromosomal composition of a male?",
+    "options": ["XX", "YY", "XY", "XO"],
+    "correctAnswer": "XY",
+    "explanation": "Males have one X and one Y chromosome (XY), while females have two X chromosomes (XX)."
   },
   {
-    question: "Who introduced the double helix model of DNA?",
-    options: ["Gregor Mendel", "James Watson and Francis Crick", "Rosalind Franklin", "Erwin Chargaff"],
-    corectAnswer: "James Watson and Francis Crick",
-explanation: "Unavailable.”
-
+    "question": "What type of centromere positioning does a submetacentric chromosome have?",
+    "options": ["In the middle", "Close to the middle", "At the end", "At the farthest tip"],
+    "correctAnswer": "Close to the middle",
+    "explanation": "A submetacentric chromosome has its centromere slightly off-center, resulting in one arm being slightly longer than the other."
   },
   {
-    question: "What sugar is present in the structure of DNA?",
-    options: ["Ribose", "Glucose", "Fructose", "Deoxyribose"],
-    corectAnswer: "Deoxyribose",
-explanation: "Unavailable.”
-
+    "question": "What is the most common cause of primary amenorrhea?",
+    "options": ["Down syndrome", "Turner’s syndrome", "Klinefelter’s syndrome", "Angelman syndrome"],
+    "correctAnswer": "Turner’s syndrome",
+    "explanation": "Turner syndrome (45, XO) often leads to ovarian dysgenesis, causing primary amenorrhea."
   },
   {
-    question: "Which nitrogenous base pairs with adenine in DNA?",
-    options: ["Cytosine", "Guanine", "Thymine", "Uracil"],
-    corectAnswer: "Thymine",
-explanation: "Unavailable.”
+    "question": "Which condition results from an extra copy of chromosome 13?",
+    "options": ["Down syndrome", "Patau syndrome", "Edward’s syndrome", "Turner’s syndrome"],
+    "correctAnswer": "Patau syndrome",
+    "explanation": "Patau syndrome (trisomy 13) is associated with severe intellectual disability, microcephaly, and congenital malformations."
+  },
 
+  {
+    "question": "Which type of mutation involves the substitution of a single nucleotide without changing the amino acid sequence?",
+    "options": ["Missense mutation", "Nonsense mutation", "Silent mutation", "Frameshift mutation"],
+    "correctAnswer": "Silent mutation",
+    "explanation": "A silent mutation occurs when a nucleotide substitution does not alter the encoded amino acid due to the redundancy of the genetic code."
   },
   {
-    question: "Which bond holds the two DNA strands together?",
-    options: ["Covalent bond", "Ionic bond", "Hydrogen bond", "Peptide bond"],
-    correctAnswer: "Hydrogen bond",
-explanation: "Unavailable.”
-
-
+    "question": "A newborn presents with hypotonia, poor feeding, and characteristic almond-shaped eyes. Which genetic disorder is most likely?",
+    "options": ["Prader-Willi syndrome", "Angelman syndrome", "Cri-du-chat syndrome", "Patau syndrome"],
+    "correctAnswer": "Prader-Willi syndrome",
+    "explanation": "Prader-Willi syndrome is characterized by hypotonia, poor feeding in infancy, and later hyperphagia leading to obesity."
   },
   {
-    question: "Which of the following is NOT a function of genes?",
-    options: ["Maintain genetic specificity", "Control embryonic development", "Generate ATP", "Synthesize proteins and enzymes"],
-    correctAnswer: "Generate ATP",
-explanation: "Unavailable.”
-
+    "question": "Which mode of inheritance is characterized by the transmission of a trait from an affected father to all of his daughters but none of his sons?",
+    "options": ["Autosomal dominant", "Autosomal recessive", "X-linked dominant", "X-linked recessive"],
+    "correctAnswer": "X-linked dominant",
+    "explanation": "In X-linked dominant inheritance, affected fathers pass the trait to all their daughters but not to their sons."
   },
   {
-    question: "What term describes the complete genetic information present in a cell?",
-    options: ["Genome", "Gene", "Chromosome", "Nucleosome"],
-    correctAnswer: "Genome",
-explanation: "Unavailable.”
-
+    "question": "Which genetic disorder is associated with a mutation in the FMR1 gene and causes intellectual disability, a long face, and large ears?",
+    "options": ["Fragile X syndrome", "Klinefelter syndrome", "Turner syndrome", "Down syndrome"],
+    "correctAnswer": "Fragile X syndrome",
+    "explanation": "Fragile X syndrome is caused by an expansion of CGG repeats in the FMR1 gene, leading to intellectual disability and characteristic facial features."
   },
   {
-    question: "What is a dominant gene?",
-    options: [
-      "A gene that expresses its effect only when present on both chromosomes",
-      "A gene that expresses its effect whether it is present on one or both chromosomes",
-      "A gene that cannot be inherited",
-      "A gene that codes for recessive traits"
-    ],
-    correctAnswer: "A gene that expresses its effect whether it is present on one or both chromosomes",
-explanation: "Unavailable.”
-
+    "question": "Which condition results from an extra copy of chromosome 13 and is associated with severe congenital anomalies and a high mortality rate?",
+    "options": ["Edward syndrome", "Down syndrome", "Patau syndrome", "Turner syndrome"],
+    "correctAnswer": "Patau syndrome",
+    "explanation": "Patau syndrome (trisomy 13) is associated with severe developmental abnormalities, including cleft lip, polydactyly, and cardiac defects."
   },
   {
-    question: "What is a diploid cell?",
-    options: [
-      "A cell with 46 pairs of chromosomes",
-      "A cell with 23 pairs of chromosomes",
-      "A cell with 23 chromosomes",
-      "A cell with 92 chromosomes"
-    ],
-    correctAnswer: "A cell with 23 pairs of chromosomes",
-explanation: "Unavailable.”
-
+    "question": "A person with a deletion on chromosome 22q11.2 presents with cardiac defects, cleft palate, and immunodeficiency. What is the diagnosis?",
+    "options": ["DiGeorge syndrome", "Angelman syndrome", "Prader-Willi syndrome", "Williams syndrome"],
+    "correctAnswer": "DiGeorge syndrome",
+    "explanation": "DiGeorge syndrome (22q11.2 deletion) is characterized by congenital heart defects, immune deficiencies, and facial abnormalities."
   },
   {
-    question: "Which chromosome abnormality causes Down syndrome?",
-    options: ["Trisomy 21", "Monosomy X", "Trisomy 13", "Trisomy 18"],
-    correctAnswer: "Trisomy 21",
-explanation: "Unavailable.”
-
+    "question": "A child with short stature, elfin facial features, and a friendly personality is diagnosed with which genetic condition?",
+    "options": ["Williams syndrome", "Turner syndrome", "Down syndrome", "Fragile X syndrome"],
+    "correctAnswer": "Williams syndrome",
+    "explanation": "Williams syndrome is caused by a deletion on chromosome 7q11.23, leading to distinctive facial features and an outgoing personality."
   },
   {
-    question: "Which genetic disorder is associated with a karyotype of 47 XXY?",
-    options: ["Turner’s syndrome", "Klinefelter’s syndrome", "Patau’s syndrome", "Edward’s syndrome"],
-    correctAnswer: "Klinefelter’s syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which term describes a genetic condition that appears in every generation of a family?",
+    "options": ["Autosomal recessive", "X-linked recessive", "Autosomal dominant", "Mitochondrial inheritance"],
+    "correctAnswer": "Autosomal dominant",
+    "explanation": "Autosomal dominant traits are typically present in every generation, as only one affected allele is needed for expression."
   },
   {
-    question: "What is karyotyping used for?",
-    options: [
-      "Identifying chromosomal abnormalities",
-      "Counting genes in DNA",
-      "Detecting single nucleotide mutations",
-      "Measuring DNA length"
-    ],
-    correctAnswer: "Identifying chromosomal abnormalities",
-explanation: "Unavailable.”
-
+    "question": "Which disorder is caused by a defect in the dystrophin gene and leads to progressive muscle weakness?",
+    "options": ["Duchenne muscular dystrophy", "Huntington disease", "Cystic fibrosis", "Tay-Sachs disease"],
+    "correctAnswer": "Duchenne muscular dystrophy",
+    "explanation": "Duchenne muscular dystrophy is an X-linked disorder caused by mutations in the dystrophin gene, leading to progressive muscle degeneration."
   },
   {
-    question: "What structural chromosomal abnormality leads to Cri-du-chat syndrome?",
-    options: ["Deletion", "Duplication", "Translocation", "Inversion"],
-    correctAnswer: "Deletion",
-explanation: "Unavailable.”
-
+    "question": "A child presents with cherry-red macula, neurodegeneration, and an accumulation of GM2 gangliosides. What is the likely diagnosis?",
+    "options": ["Tay-Sachs disease", "Niemann-Pick disease", "Gaucher disease", "Hurler syndrome"],
+    "correctAnswer": "Tay-Sachs disease",
+    "explanation": "Tay-Sachs disease is an autosomal recessive disorder caused by HEXA gene mutations, leading to GM2 ganglioside accumulation in neurons."
   },
   {
-    question: "Which of the following is NOT a numerical chromosomal abnormality?",
-    options: ["Trisomy", "Monosomy", "Deletion", "Polyploidy"],
-    correctAnswer: "Deletion",
-explanation: "Unavailable.”
-
+    "question": "Which inheritance pattern is observed in mitochondrial diseases?",
+    "options": ["Maternal inheritance", "Autosomal dominant", "Autosomal recessive", "X-linked inheritance"],
+    "correctAnswer": "Maternal inheritance",
+    "explanation": "Mitochondrial disorders are inherited exclusively from the mother, as mitochondria are passed through the oocyte."
   },
   {
-    question: "What is the term for a chromosome pair that carries the same genes?",
-    options: ["Homologous chromosomes", "Haploid chromosomes", "Metacentric chromosomes", "Autosomes"],
-    correctAnswer: "Homologous chromosomes",
-explanation: "Unavailable.”
-
+    "question": "Which chromosomal disorder results in a male phenotype but with infertility due to an additional X chromosome?",
+    "options": ["Klinefelter syndrome", "Turner syndrome", "XYY syndrome", "Androgen insensitivity syndrome"],
+    "correctAnswer": "Klinefelter syndrome",
+    "explanation": "Klinefelter syndrome (47, XXY) results in hypogonadism, infertility, and tall stature in males."
   },
   {
-    question: "Which type of chromosomal abnormality involves an extra chromosome?",
-    options: ["Monosomy", "Trisomy", "Deletion", "Translocation"],
-    correctAnswer: "Trisomy",
-explanation: "Unavailable.”
-
+    "question": "Which type of genetic testing is used to detect single nucleotide polymorphisms (SNPs) across the genome?",
+    "options": ["Karyotyping", "Microarray analysis", "FISH", "PCR"],
+    "correctAnswer": "Microarray analysis",
+    "explanation": "Microarray analysis allows for the detection of SNPs, copy number variations, and gene expression levels."
   },
   {
-    question: "Which chromosomal abnormality is caused by an error in meiosis leading to non-disjunction?",
-    options: ["Polyploidy", "Translocation", "Trisomy", "Deletion"],
-    correctAnswer: "Trisomy",
-explanation: "Unavailable.”
-
+    "question": "Which genetic disorder results from an expansion of CAG repeats and causes progressive neurodegeneration?",
+    "options": ["Huntington disease", "Fragile X syndrome", "Myotonic dystrophy", "Spinocerebellar ataxia"],
+    "correctAnswer": "Huntington disease",
+    "explanation": "Huntington disease is an autosomal dominant disorder caused by CAG repeat expansion in the HTT gene, leading to progressive neurodegeneration."
   },
   {
-    question: "Which syndrome is associated with a 'happy puppet' appearance?",
-    options: ["Prader-Willi syndrome", "Angelman syndrome", "DiGeorge syndrome", "Wolf-Hirschhorn syndrome"],
-    correctAnswer: "Angelman syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which prenatal screening test involves analyzing free fetal DNA in maternal blood?",
+    "options": ["Amniocentesis", "Chorionic villus sampling", "Non-invasive prenatal testing (NIPT)", "Karyotyping"],
+    "correctAnswer": "Non-invasive prenatal testing (NIPT)",
+    "explanation": "NIPT analyzes cell-free fetal DNA in maternal blood to screen for chromosomal abnormalities non-invasively."
   },
   {
-    question: "Which of the following is a clinical feature of Turner’s syndrome?",
-    options: ["Tall stature", "Gynecomastia", "Shield chest", "Macrocephaly"],
-    correctAnswer: "Shield chest",
-explanation: "Unavailable.”
-
+    "question": "What is the term for a mutation that results in a premature stop codon?",
+    "options": ["Missense mutation", "Nonsense mutation", "Silent mutation", "Frameshift mutation"],
+    "correctAnswer": "Nonsense mutation",
+    "explanation": "A nonsense mutation introduces a premature stop codon, leading to truncated and usually nonfunctional proteins."
   },
   {
-    question: "Which genetic disorder results from a deletion in the short arm of chromosome 5?",
-    options: ["Prader-Willi syndrome", "Wolf-Hirschhorn syndrome", "Cri-du-chat syndrome", "Miller-Dieker syndrome"],
-    correctAnswer: "Cri-du-chat syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which enzyme is responsible for unwinding DNA during replication?",
+    "options": ["DNA polymerase", "RNA polymerase", "Helicase", "Ligase"],
+    "correctAnswer": "Helicase",
+    "explanation": "Helicase unwinds the DNA helix, allowing replication to occur."
   },
   {
-    question: "Which of the following is an example of a structural chromosomal abnormality?",
-    options: ["Trisomy 21", "Monosomy X", "Deletion", "Aneuploidy"],
-    correctAnswer: "Deletion",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "What is the chromosomal composition of a male?",
-    options: ["XX", "YY", "XY", "XO"],
-    correctAnswer: "XY",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "What type of centromere positioning does a submetacentric chromosome have?",
-    options: [
-      "In the middle",
-      "Close to the middle",
-      "At the end",
-      "At the farthest tip"
-    ],
-    correctAnswer: "Close to the middle",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "What is the most common cause of primary amenorrhea?",
-    options: ["Down syndrome", "Turner’s syndrome", "Klinefelter’s syndrome", "Angelman syndrome"],
-    correctAnswer: "Turner’s syndrome",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "Which condition results from an extra copy of chromosome 13?",
-    options: ["Down syndrome", "Patau syndrome", "Edward’s syndrome", "Turner’s syndrome"],
-    correctAnswer: "Patau syndrome",
-explanation: "Unavailable.”
-
+    "question": "What is the function of telomerase?",
+    "options": ["Repairing DNA damage", "Synthesizing RNA", "Extending the ends of chromosomes", "Splicing introns"],
+    "correctAnswer": "Extending the ends of chromosomes",
+    "explanation": "Telomerase adds repetitive sequences to the ends of chromosomes, preventing their shortening during replication."
   },
 
 
 
   {
-    question: "Which molecule carries genetic information and is responsible for heredity?",
-    options: ["RNA", "Protein", "DNA", "Lipid"],
-    correctAnswer: "DNA",
-explanation: "Unavailable.”
-
+    "question": "Which molecule carries genetic information and is responsible for heredity?",
+    "options": ["RNA", "Protein", "DNA", "Lipid"],
+    "correctAnswer": "DNA",
+    "explanation": "DNA (Deoxyribonucleic acid) contains the genetic blueprint for the development, functioning, growth, and reproduction of all known organisms."
   },
   {
-    question: "A genetic disorder is suspected in a newborn with multiple congenital anomalies. Which technique would be most useful for identifying chromosomal abnormalities?",
-    options: ["Karyotyping", "PCR", "Western blot", "ELISA"],
-    correctAnswer: "Karyotyping",
-explanation: "Unavailable.”
-
+    "question": "A genetic disorder is suspected in a newborn with multiple congenital anomalies. Which technique would be most useful for identifying chromosomal abnormalities?",
+    "options": ["Karyotyping", "PCR", "Western blot", "ELISA"],
+    "correctAnswer": "Karyotyping",
+    "explanation": "Karyotyping involves visualizing chromosomes to detect structural and numerical abnormalities."
   },
   {
-    question: "A patient presents with intellectual disability, obesity, and an insatiable appetite. A microdeletion on chromosome 15 is found on the paternal chromosome. What is the diagnosis?",
-    options: ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
-    correctAnswer: "Prader-Willi syndrome",
-explanation: "Unavailable.”
-
+    "question": "A patient presents with intellectual disability, obesity, and an insatiable appetite. A microdeletion on chromosome 15 is found on the paternal chromosome. What is the diagnosis?",
+    "options": ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
+    "correctAnswer": "Prader-Willi syndrome",
+    "explanation": "Prader-Willi syndrome results from the loss of paternally inherited genes on chromosome 15q11-13."
   },
   {
-    question: "A scientist studying gene expression is most likely working in which branch of genetics?",
-    options: ["Cytogenetics", "Molecular genetics", "Population genetics", "Immunogenetics"],
-    correctAnswer: "Molecular genetics",
-explanation: "Unavailable.”
-
+    "question": "A scientist studying gene expression is most likely working in which branch of genetics?",
+    "options": ["Cytogenetics", "Molecular genetics", "Population genetics", "Immunogenetics"],
+    "correctAnswer": "Molecular genetics",
+    "explanation": "Molecular genetics focuses on the structure and function of genes at a molecular level."
   },
   {
-    question: "Which structural component of DNA forms the backbone of the double helix?",
-    options: ["Nitrogenous bases", "Phosphate and sugar", "Hydrogen bonds", "Amino acids"],
-    correctAnswer: "Phosphate and sugar",
-explanation: "Unavailable.”
-
+    "question": "Which structural component of DNA forms the backbone of the double helix?",
+    "options": ["Nitrogenous bases", "Phosphate and sugar", "Hydrogen bonds", "Amino acids"],
+    "correctAnswer": "Phosphate and sugar",
+    "explanation": "The backbone of DNA consists of alternating phosphate groups and sugar molecules (deoxyribose)."
   },
   {
-    question: "What is the functional unit of DNA that determines traits?",
-    options: ["Chromosome", "Gene", "Protein", "Nucleotide"],
-    correctAnswer: "Gene",
-explanation: "Unavailable.”
-
+    "question": "What is the functional unit of DNA that determines traits?",
+    "options": ["Chromosome", "Gene", "Protein", "Nucleotide"],
+    "correctAnswer": "Gene",
+    "explanation": "A gene is a sequence of DNA that contains the instructions for building a specific protein, influencing traits."
   },
   {
-    question: "Which nitrogenous base pairs with cytosine in DNA?",
-    options: ["Adenine", "Guanine", "Thymine", "Uracil"],
-    correctAnswer: "Guanine",
-explanation: "Unavailable.”
-
+    "question": "Which nitrogenous base pairs with cytosine in DNA?",
+    "options": ["Adenine", "Guanine", "Thymine", "Uracil"],
+    "correctAnswer": "Guanine",
+    "explanation": "In DNA, cytosine pairs with guanine through three hydrogen bonds."
   },
   {
-    question: "In a karyotyping analysis, a trisomy of chromosome 21 is found. What is the likely diagnosis?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
-    correctAnswer: "Down syndrome",
-explanation: "Unavailable.”
-
+    "question": "In a karyotyping analysis, a trisomy of chromosome 21 is found. What is the likely diagnosis?",
+    "options": ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
+    "correctAnswer": "Down syndrome",
+    "explanation": "Down syndrome is caused by an extra copy of chromosome 21, also known as trisomy 21."
   },
   {
-    question: "A newborn has a webbed neck, short stature, and underdeveloped ovaries. Which chromosomal condition is most likely?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Patau syndrome"],
-    correctAnswer: "Turner syndrome"
-explanation: "Unavailable.”
-
+    "question": "A newborn has a webbed neck, short stature, and underdeveloped ovaries. Which chromosomal condition is most likely?",
+    "options": ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Patau syndrome"],
+    "correctAnswer": "Turner syndrome",
+    "explanation": "Turner syndrome (45, XO) presents with features like webbed neck, short stature, and gonadal dysgenesis."
   },
   {
-    question: "Which structural abnormality involves a missing segment of a chromosome?",
-    options: ["Deletion", "Translocation", "Duplication", "Inversion"],
-    correctAnswer: "Deletion",
-explanation: "Unavailable.”
-
+    "question": "Which structural abnormality involves a missing segment of a chromosome?",
+    "options": ["Deletion", "Translocation", "Duplication", "Inversion"],
+    "correctAnswer": "Deletion",
+    "explanation": "A deletion occurs when a part of a chromosome is lost, often leading to genetic disorders."
   },
   {
-    question: "A female presents with primary amenorrhea and a 45, XO karyotype. What syndrome does she have?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Fragile X syndrome"],
-    correctAnswer: "Turner syndrome",
-explanation: "Unavailable.”
-
+    "question": "A female presents with primary amenorrhea and a 45, XO karyotype. What syndrome does she have?",
+    "options": ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Fragile X syndrome"],
+    "correctAnswer": "Turner syndrome",
+    "explanation": "Turner syndrome is associated with a single X chromosome (45, XO) and commonly causes primary amenorrhea."
   },
   {
-    question: "Which chromosomal abnormality is characterized by a cat-like cry in infants?",
-    options: ["Cri-du-chat syndrome", "Angelman syndrome", "Prader-Willi syndrome", "Patau syndrome"],
-    correctAnswer: "Cri-du-chat syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which chromosomal abnormality is characterized by a cat-like cry in infants?",
+    "options": ["Cri-du-chat syndrome", "Angelman syndrome", "Prader-Willi syndrome", "Patau syndrome"],
+    "correctAnswer": "Cri-du-chat syndrome",
+    "explanation": "Cri-du-chat syndrome, caused by a deletion on chromosome 5p, leads to a distinctive high-pitched cry in infants."
   },
   {
-    question: "A male with tall stature, gynecomastia, and small testes has a 47, XXY karyotype. What is the diagnosis?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
-    correctAnswer: "Klinefelter syndrome",
-explanation: "Unavailable.”
-
+    "question": "A male with tall stature, gynecomastia, and small testes has a 47, XXY karyotype. What is the diagnosis?",
+    "options": ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
+    "correctAnswer": "Klinefelter syndrome",
+    "explanation": "Klinefelter syndrome (47, XXY) presents with hypogonadism, tall stature, and sometimes gynecomastia."
   },
   {
-    question: "Which syndrome is associated with inappropriate laughter and microdeletion of chromosome 15 from the maternal side?",
-    options: ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
-    correctAnswer: "Angelman syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which syndrome is associated with inappropriate laughter and microdeletion of chromosome 15 from the maternal side?",
+    "options": ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
+    "correctAnswer": "Angelman syndrome",
+    "explanation": "Angelman syndrome is caused by the loss of maternal gene expression on chromosome 15q11-13."
   },
   {
-    question: "If a gene must be present on both chromosomes of a homologous pair to express a trait, it is considered:",
-    options: ["Dominant", "Recessive", "Codominant", "Epistatic"],
-    correctAnswer: "Recessive",
-explanation: "Unavailable.”
-
+    "question": "If a gene must be present on both chromosomes of a homologous pair to express a trait, it is considered:",
+    "options": ["Dominant", "Recessive", "Codominant", "Epistatic"],
+    "correctAnswer": "Recessive",
+    "explanation": "A recessive gene expresses its trait only when two copies are present."
   },
   {
-    question: "What type of chromosomal abnormality involves exchange of genetic material between non-homologous chromosomes?",
-    options: ["Deletion", "Duplication", "Translocation", "Inversion"],
-    correctAnswer: "Translocation",
-explanation: "Unavailable.”
-
+    "question": "What type of chromosomal abnormality involves exchange of genetic material between non-homologous chromosomes?",
+    "options": ["Deletion", "Duplication", "Translocation", "Inversion"],
+    "correctAnswer": "Translocation",
+    "explanation": "A translocation involves the transfer of a chromosome segment to a non-homologous chromosome."
   },
   {
-    question: "Which genetic condition is caused by trisomy 18?",
-    options: ["Down syndrome", "Patau syndrome", "Edward syndrome", "Turner syndrome"],
-    correctAnswer: "Edward syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which genetic condition is caused by trisomy 18?",
+    "options": ["Down syndrome", "Patau syndrome", "Edward syndrome", "Turner syndrome"],
+    "correctAnswer": "Edward syndrome",
+    "explanation": "Edward syndrome is characterized by trisomy 18, leading to developmental delays and structural malformations."
   },
   {
-    question: "Which branch of genetics studies inherited metabolic disorders?",
-    options: ["Cytogenetics", "Population genetics", "Biochemical genetics", "Molecular genetics"],
-    correctAnswer: "Biochemical genetics",
-explanation: "Unavailable.”
-
+    "question": "Which branch of genetics studies inherited metabolic disorders?",
+    "options": ["Cytogenetics", "Population genetics", "Biochemical genetics", "Molecular genetics"],
+    "correctAnswer": "Biochemical genetics",
+    "explanation": "Biochemical genetics deals with the chemical basis of genetic disorders, focusing on metabolism."
   },
   {
-    question: "A researcher is studying the impact of genetics on mental health disorders. This falls under which branch?",
-    options: ["Behavioral genetics", "Immunogenetics", "Molecular genetics", "Cytogenetics"],
-    correctAnswer: "Behavioral genetics",
-explanation: "Unavailable.”
-
+    "question": "A researcher is studying the impact of genetics on mental health disorders. This falls under which branch?",
+    "options": ["Behavioral genetics", "Immunogenetics", "Molecular genetics", "Cytogenetics"],
+    "correctAnswer": "Behavioral genetics",
+    "explanation": "Behavioral genetics explores the role of genetics in influencing behavior and mental health."
   },
   {
-    question: "Which of the following chromosomal structures is visible under a microscope during metaphase?",
-    options: ["Nucleotides", "Chromatin", "Chromosome", "Histone"],
-    correctAnswer: "Chromosome",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "What is the name of the chromosomal constriction involved in movement during cell division?",
-    options: ["Telomere", "Centromere", "Kinetochore", "Chromatid"],
-    correctAnswer: "Centromere",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "Which chromosomal condition results in a male with one Barr body?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
-    correctAnswer: "Klinefelter syndrome",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "What term is used for a cell that contains only 23 chromosomes?",
-    options: ["Diploid", "Haploid", "Polyploid", "Triploid"],
-    correctAnswer: "Haploid",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "Which of the following genetic conditions is an example of a balanced chromosomal translocation?",
-    options: ["Cri-du-chat syndrome", "Klinefelter syndrome", "Robertsonian translocation", "Turner syndrome"],
-    correctAnswer: "Robertsonian translocation",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "Which chromosomal abnormality results in a male with an extra X chromosome?",
-    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Patau syndrome"],
-    correctAnswer: "Klinefelter syndrome",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "Which nitrogenous bases pair together in DNA?",
-    options: ["Adenine with cytosine, guanine with thymine", "Adenine with guanine, cytosine with thymine", "Adenine with thymine, guanine with cytosine", "Adenine with uracil, guanine with thymine"],
-    correctAnswer: "Adenine with thymine, guanine with cytosine",
-explanation: "Unavailable.”
-
-  },
-  {
-    question: "In which chromosomal disorder does an individual have a karyotype of 45, XO?",
-    options: ["Klinefelter syndrome", "Down syndrome", "Turner syndrome", "Edward syndrome"],
-    correctAnswer: "Turner syndrome",
-explanation: "Unavailable.”
-
+    "question": "Which of the following chromosomal structures is visible under a microscope during metaphase?",
+    "options": ["Nucleotides", "Chromatin", "Chromosome", "Histone"],
+    "correctAnswer": "Chromosome",
+    "explanation": "During metaphase, chromosomes condense and become visible, allowing for karyotyping."
   },
 
 
