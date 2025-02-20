@@ -949,6 +949,427 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+{
+    question: "What is the study of heredity called?",
+    options: ["Genomics", "Genetics", "Cytology", "Embryology"],
+    corectAnswer: "Genetics",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which molecule carries the genetic code?",
+    options: ["RNA", "Protein", "DNA", "Lipid"],
+    corectAnswer: "DNA",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the functional unit of DNA?",
+    options: ["Chromosome", "Gene", "Nucleus", "Genome"],
+    corectAnswer: "Gene",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which branch of genetics studies the chemical structure of genes at the molecular level?",
+    options: ["Cytogenetics", "Molecular genetics", "Developmental genetics", "Population genetics"],
+    corectAnswer: "Molecular genetics",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "How many genes are estimated to be in the human genome?",
+    options: ["10,000–30,000", "30,000–50,000", "50,000–100,000", "100,000–150,000"],
+    corectAnswer: "50,000–100,000",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Who introduced the double helix model of DNA?",
+    options: ["Gregor Mendel", "James Watson and Francis Crick", "Rosalind Franklin", "Erwin Chargaff"],
+    corectAnswer: "James Watson and Francis Crick",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What sugar is present in the structure of DNA?",
+    options: ["Ribose", "Glucose", "Fructose", "Deoxyribose"],
+    corectAnswer: "Deoxyribose",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which nitrogenous base pairs with adenine in DNA?",
+    options: ["Cytosine", "Guanine", "Thymine", "Uracil"],
+    corectAnswer: "Thymine",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which bond holds the two DNA strands together?",
+    options: ["Covalent bond", "Ionic bond", "Hydrogen bond", "Peptide bond"],
+    correctAnswer: "Hydrogen bond",
+explanation: "Unavailable.”
+
+
+  },
+  {
+    question: "Which of the following is NOT a function of genes?",
+    options: ["Maintain genetic specificity", "Control embryonic development", "Generate ATP", "Synthesize proteins and enzymes"],
+    correctAnswer: "Generate ATP",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What term describes the complete genetic information present in a cell?",
+    options: ["Genome", "Gene", "Chromosome", "Nucleosome"],
+    correctAnswer: "Genome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is a dominant gene?",
+    options: [
+      "A gene that expresses its effect only when present on both chromosomes",
+      "A gene that expresses its effect whether it is present on one or both chromosomes",
+      "A gene that cannot be inherited",
+      "A gene that codes for recessive traits"
+    ],
+    correctAnswer: "A gene that expresses its effect whether it is present on one or both chromosomes",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is a diploid cell?",
+    options: [
+      "A cell with 46 pairs of chromosomes",
+      "A cell with 23 pairs of chromosomes",
+      "A cell with 23 chromosomes",
+      "A cell with 92 chromosomes"
+    ],
+    correctAnswer: "A cell with 23 pairs of chromosomes",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which chromosome abnormality causes Down syndrome?",
+    options: ["Trisomy 21", "Monosomy X", "Trisomy 13", "Trisomy 18"],
+    correctAnswer: "Trisomy 21",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which genetic disorder is associated with a karyotype of 47 XXY?",
+    options: ["Turner’s syndrome", "Klinefelter’s syndrome", "Patau’s syndrome", "Edward’s syndrome"],
+    correctAnswer: "Klinefelter’s syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is karyotyping used for?",
+    options: [
+      "Identifying chromosomal abnormalities",
+      "Counting genes in DNA",
+      "Detecting single nucleotide mutations",
+      "Measuring DNA length"
+    ],
+    correctAnswer: "Identifying chromosomal abnormalities",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What structural chromosomal abnormality leads to Cri-du-chat syndrome?",
+    options: ["Deletion", "Duplication", "Translocation", "Inversion"],
+    correctAnswer: "Deletion",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which of the following is NOT a numerical chromosomal abnormality?",
+    options: ["Trisomy", "Monosomy", "Deletion", "Polyploidy"],
+    correctAnswer: "Deletion",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the term for a chromosome pair that carries the same genes?",
+    options: ["Homologous chromosomes", "Haploid chromosomes", "Metacentric chromosomes", "Autosomes"],
+    correctAnswer: "Homologous chromosomes",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which type of chromosomal abnormality involves an extra chromosome?",
+    options: ["Monosomy", "Trisomy", "Deletion", "Translocation"],
+    correctAnswer: "Trisomy",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which chromosomal abnormality is caused by an error in meiosis leading to non-disjunction?",
+    options: ["Polyploidy", "Translocation", "Trisomy", "Deletion"],
+    correctAnswer: "Trisomy",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which syndrome is associated with a 'happy puppet' appearance?",
+    options: ["Prader-Willi syndrome", "Angelman syndrome", "DiGeorge syndrome", "Wolf-Hirschhorn syndrome"],
+    correctAnswer: "Angelman syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which of the following is a clinical feature of Turner’s syndrome?",
+    options: ["Tall stature", "Gynecomastia", "Shield chest", "Macrocephaly"],
+    correctAnswer: "Shield chest",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which genetic disorder results from a deletion in the short arm of chromosome 5?",
+    options: ["Prader-Willi syndrome", "Wolf-Hirschhorn syndrome", "Cri-du-chat syndrome", "Miller-Dieker syndrome"],
+    correctAnswer: "Cri-du-chat syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which of the following is an example of a structural chromosomal abnormality?",
+    options: ["Trisomy 21", "Monosomy X", "Deletion", "Aneuploidy"],
+    correctAnswer: "Deletion",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the chromosomal composition of a male?",
+    options: ["XX", "YY", "XY", "XO"],
+    correctAnswer: "XY",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What type of centromere positioning does a submetacentric chromosome have?",
+    options: [
+      "In the middle",
+      "Close to the middle",
+      "At the end",
+      "At the farthest tip"
+    ],
+    correctAnswer: "Close to the middle",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the most common cause of primary amenorrhea?",
+    options: ["Down syndrome", "Turner’s syndrome", "Klinefelter’s syndrome", "Angelman syndrome"],
+    correctAnswer: "Turner’s syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which condition results from an extra copy of chromosome 13?",
+    options: ["Down syndrome", "Patau syndrome", "Edward’s syndrome", "Turner’s syndrome"],
+    correctAnswer: "Patau syndrome",
+explanation: "Unavailable.”
+
+  },
+
+
+
+  {
+    question: "Which molecule carries genetic information and is responsible for heredity?",
+    options: ["RNA", "Protein", "DNA", "Lipid"],
+    correctAnswer: "DNA",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A genetic disorder is suspected in a newborn with multiple congenital anomalies. Which technique would be most useful for identifying chromosomal abnormalities?",
+    options: ["Karyotyping", "PCR", "Western blot", "ELISA"],
+    correctAnswer: "Karyotyping",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A patient presents with intellectual disability, obesity, and an insatiable appetite. A microdeletion on chromosome 15 is found on the paternal chromosome. What is the diagnosis?",
+    options: ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
+    correctAnswer: "Prader-Willi syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A scientist studying gene expression is most likely working in which branch of genetics?",
+    options: ["Cytogenetics", "Molecular genetics", "Population genetics", "Immunogenetics"],
+    correctAnswer: "Molecular genetics",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which structural component of DNA forms the backbone of the double helix?",
+    options: ["Nitrogenous bases", "Phosphate and sugar", "Hydrogen bonds", "Amino acids"],
+    correctAnswer: "Phosphate and sugar",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the functional unit of DNA that determines traits?",
+    options: ["Chromosome", "Gene", "Protein", "Nucleotide"],
+    correctAnswer: "Gene",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which nitrogenous base pairs with cytosine in DNA?",
+    options: ["Adenine", "Guanine", "Thymine", "Uracil"],
+    correctAnswer: "Guanine",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "In a karyotyping analysis, a trisomy of chromosome 21 is found. What is the likely diagnosis?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
+    correctAnswer: "Down syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A newborn has a webbed neck, short stature, and underdeveloped ovaries. Which chromosomal condition is most likely?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Patau syndrome"],
+    correctAnswer: "Turner syndrome"
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which structural abnormality involves a missing segment of a chromosome?",
+    options: ["Deletion", "Translocation", "Duplication", "Inversion"],
+    correctAnswer: "Deletion",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A female presents with primary amenorrhea and a 45, XO karyotype. What syndrome does she have?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Fragile X syndrome"],
+    correctAnswer: "Turner syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which chromosomal abnormality is characterized by a cat-like cry in infants?",
+    options: ["Cri-du-chat syndrome", "Angelman syndrome", "Prader-Willi syndrome", "Patau syndrome"],
+    correctAnswer: "Cri-du-chat syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A male with tall stature, gynecomastia, and small testes has a 47, XXY karyotype. What is the diagnosis?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
+    correctAnswer: "Klinefelter syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which syndrome is associated with inappropriate laughter and microdeletion of chromosome 15 from the maternal side?",
+    options: ["Prader-Willi syndrome", "Angelman syndrome", "Down syndrome", "Turner syndrome"],
+    correctAnswer: "Angelman syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "If a gene must be present on both chromosomes of a homologous pair to express a trait, it is considered:",
+    options: ["Dominant", "Recessive", "Codominant", "Epistatic"],
+    correctAnswer: "Recessive",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What type of chromosomal abnormality involves exchange of genetic material between non-homologous chromosomes?",
+    options: ["Deletion", "Duplication", "Translocation", "Inversion"],
+    correctAnswer: "Translocation",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which genetic condition is caused by trisomy 18?",
+    options: ["Down syndrome", "Patau syndrome", "Edward syndrome", "Turner syndrome"],
+    correctAnswer: "Edward syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which branch of genetics studies inherited metabolic disorders?",
+    options: ["Cytogenetics", "Population genetics", "Biochemical genetics", "Molecular genetics"],
+    correctAnswer: "Biochemical genetics",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "A researcher is studying the impact of genetics on mental health disorders. This falls under which branch?",
+    options: ["Behavioral genetics", "Immunogenetics", "Molecular genetics", "Cytogenetics"],
+    correctAnswer: "Behavioral genetics",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which of the following chromosomal structures is visible under a microscope during metaphase?",
+    options: ["Nucleotides", "Chromatin", "Chromosome", "Histone"],
+    correctAnswer: "Chromosome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What is the name of the chromosomal constriction involved in movement during cell division?",
+    options: ["Telomere", "Centromere", "Kinetochore", "Chromatid"],
+    correctAnswer: "Centromere",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which chromosomal condition results in a male with one Barr body?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Edward syndrome"],
+    correctAnswer: "Klinefelter syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "What term is used for a cell that contains only 23 chromosomes?",
+    options: ["Diploid", "Haploid", "Polyploid", "Triploid"],
+    correctAnswer: "Haploid",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which of the following genetic conditions is an example of a balanced chromosomal translocation?",
+    options: ["Cri-du-chat syndrome", "Klinefelter syndrome", "Robertsonian translocation", "Turner syndrome"],
+    correctAnswer: "Robertsonian translocation",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which chromosomal abnormality results in a male with an extra X chromosome?",
+    options: ["Turner syndrome", "Klinefelter syndrome", "Down syndrome", "Patau syndrome"],
+    correctAnswer: "Klinefelter syndrome",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "Which nitrogenous bases pair together in DNA?",
+    options: ["Adenine with cytosine, guanine with thymine", "Adenine with guanine, cytosine with thymine", "Adenine with thymine, guanine with cytosine", "Adenine with uracil, guanine with thymine"],
+    correctAnswer: "Adenine with thymine, guanine with cytosine",
+explanation: "Unavailable.”
+
+  },
+  {
+    question: "In which chromosomal disorder does an individual have a karyotype of 45, XO?",
+    options: ["Klinefelter syndrome", "Down syndrome", "Turner syndrome", "Edward syndrome"],
+    correctAnswer: "Turner syndrome",
+explanation: "Unavailable.”
+
+  },
+
+
   
 
   {
