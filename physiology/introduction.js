@@ -76,481 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
           
     
   
-  {
-    question: "What does embryology study?",
-    options: [
-      "The formation of organs after birth",
-      "The development of an organism from fertilization to birth",
-      "The genetic makeup of embryos",
-      "Diseases that affect the embryo"
-    ],
-    correctAnswer: "The development of an organism from fertilization to birth",
-    explanation: "Embryology studies the stages of development, from fertilization of the egg to the formation of a complete organism."
-  },
-  {
-    question: "What is spermatogenesis?",
-    options: [
-      "The production of female gametes",
-      "The process of sperm maturation and production",
-      "The fusion of male and female gametes",
-      "The division of zygotes into blastomeres"
-    ],
-    correctAnswer: "The process of sperm maturation and production",
-    explanation: "Spermatogenesis is the process through which male gametes (sperm) are formed in the testes."
-  },
-  {
-    question: "When do oogonia stop dividing by mitosis?",
-    options: [
-      "During childhood",
-      "By the fifth month of fetal life",
-      "During puberty",
-      "After fertilization"
-    ],
-    correctAnswer: "By the fifth month of fetal life",
-    explanation: "Oogonia stop dividing by mitosis during fetal development, around the fifth month of gestation."
-  },
-
-{
-    question: "At what stage do spermatogonia differentiate into type B spermatogonia?",
-    options: [
-      "Spermatogonial phase",
-      "Meiotic phase",
-      "Spermiogenesis",
-      "Gastrulation phase"
-    ],
-    correctAnswer: "Spermatogonial phase",
-    explanation: "During the spermatogonial phase, type A spermatogonia undergo mitosis to form type B spermatogonia, which later proceed to meiosis."
-  },
+  { question: "Which physiologist defined systemic circulation through his work 'An anatomical exercise on the motion of the heart & blood in living beings'?", options: ["William Harvey", "Galen", "Claude Bernard", "Franciscus Sylvius"], correctAnswer: "William Harvey", explanation: "William Harvey defined systemic circulation in his 1628 publication, describing how blood is pumped by the heart throughout the body." }, { question: "Who first isolated and purified insulin, thereby revolutionizing diabetes treatment?", options: ["Frederick Banting and Charles Best", "Joseph Lister", "Claude Bernard", "Earl Sutherland"], correctAnswer: "Frederick Banting and Charles Best", explanation: "In 1922, Frederick Banting and Charles Best isolated insulin, transforming diabetes management from a fatal disease to a manageable condition." }, { question: "Which discovery is attributed to Karl Landsteiner in the field of hematology?", options: ["Isolation of insulin", "Discovery of water channels", "Classification of human blood groups and the Rh factor", "Development of the patch-clamp technique"], correctAnswer: "Classification of human blood groups and the Rh factor", explanation: "Karl Landsteiner classified the basic human blood groups and later identified the Rh factor, forming the basis of modern blood typing." }, { question: "Which homeostatic mechanism allows the body to anticipate a change and initiate a reflex response before it occurs?", options: ["Negative feedback", "Positive feedback", "Feed-forward control", "Tonic control"], correctAnswer: "Feed-forward control", explanation: "Feed-forward control enables the body to preemptively adjust to expected changes by initiating a reflex response before the stimulus fully manifests." }, { question: "Which type of control in physiology is compared to adjusting a radio's volume to regulate an organ's activity?", options: ["Negative feedback", "Tonic control", "Antagonistic control", "Circadian rhythms"], correctAnswer: "Tonic control", explanation: "Tonic control functions like a radio's volume knob, allowing for the modulation of an organ system's activity by adjusting its intensity." }, { question: "In antagonistic control, how do the two independent regulators function?", options: ["They work together to enhance the response", "They work in opposition to modulate an organ's activity", "They have no interaction", "They sequentially alternate roles"], correctAnswer: "They work in opposition to modulate an organ's activity", explanation: "Antagonistic control involves two regulators that operate in opposition, balancing each other's effects to maintain proper function." }, { question: "What are circadian rhythms?", options: ["Random fluctuations in body processes", "24-hour cycles that regulate various biological functions", "A type of feed-forward control", "The chemical signals that trigger muscle contractions"], correctAnswer: "24-hour cycles that regulate various biological functions", explanation: "Circadian rhythms are inherent 24-hour cycles that govern biological processes such as sleep, hormone release, and body temperature regulation." }, { question: "Which Nobel Prize-winning researchers developed the patch-clamp technique used to study ion channels?", options: ["Erwin Neher and Bert Sakmann", "James Watson and Francis Crick", "Ivan Pavlov and Claude Bernard", "Peter Agre and Karl Landsteiner"], correctAnswer: "Erwin Neher and Bert Sakmann", explanation: "Erwin Neher and Bert Sakmann developed the patch-clamp technique, enabling precise measurements of ion movements through cell membranes." }, { question: "Who is credited with performing the first human heart transplant?", options: ["Christiaan Barnard", "William Harvey", "Claude Bernard", "Henry Bowditch"], correctAnswer: "Christiaan Barnard", explanation: "Christiaan Barnard performed the first human heart transplant in 1967, marking a landmark achievement in medical history." }, { question: "Which system in the human body comprises the kidneys, ureters, bladder, and urethra?", options: ["Digestive system", "Nervous system", "Renal/urinary system", "Musculoskeletal system"], correctAnswer: "Renal/urinary system", explanation: "The renal/urinary system includes the kidneys, ureters, bladder, and urethra, and is responsible for filtering blood and removing waste." }, { question: "Approximately how many bones constitute the human skeletal system?", options: ["106", "206", "306", "406"], correctAnswer: "206", explanation: "The human skeletal system is composed of approximately 206 bones, divided between the axial and appendicular skeletons." }, { question: "Which part of the nervous system includes the brain and the spinal cord?", options: ["Peripheral nervous system", "Central nervous system", "Autonomic nervous system", "Somatic nervous system"], correctAnswer: "Central nervous system", explanation: "The central nervous system, consisting of the brain and spinal cord, is responsible for processing and integrating information in the body." }, { question: "What phenomenon did Ivan Pavlov famously study, which led to his Nobel Prize-winning research?", options: ["Blood circulation", "Conditional reflexes", "Discovery of epinephrine", "Telomere protection"], correctAnswer: "Conditional reflexes", explanation: "Ivan Pavlov's research on conditional reflexes, particularly his experiments with dogs, provided key insights into how organisms learn through association." }
 
 
-  {
-    question: "What is capacitation?",
-    options: [
-      "The formation of the blastocyst",
-      "The maturation process sperm undergo in the female reproductive tract",
-      "The process of egg implantation",
-      "The division of a zygote into two cells"
-    ],
-    correctAnswer: "The maturation process sperm undergo in the female reproductive tract",
-    explanation: "Capacitation prepares sperm for fertilization by enhancing their motility and ability to penetrate the egg."
-  },
-  {
-    question: "Where does fertilization typically occur?",
-    options: [
-      "In the ovary",
-      "In the ampulla of the uterine tube",
-      "In the uterus",
-      "In the cervix"
-    ],
-    correctAnswer: "In the ampulla of the uterine tube",
-    explanation: "The ampulla of the uterine tube is the most common site of fertilization due to its proximity to the released oocyte."
-  },
-  {
-    question: "What is the zona pellucida?",
-    options: [
-      "A protective glycoprotein layer surrounding the oocyte",
-      "The outer layer of the sperm",
-      "A cavity inside the blastocyst",
-      "The fluid-filled area in a mature follicle"
-    ],
-    correctAnswer: "A protective glycoprotein layer surrounding the oocyte",
-    explanation: "The zona pellucida facilitates sperm binding and protects the oocyte before fertilization."
-  },
-  {
-    question: "How many chromosomes does a human zygote contain?",
-    options: ["23", "46", "92", "48"],
-    correctAnswer: "46",
-    explanation: "The human zygote is diploid, containing 46 chromosomes—23 from each parent."
-  },
-  {
-    question: "What is the morula?",
-    options: [
-      "A single-celled zygote",
-      "A solid ball of cells resulting from cleavage",
-      "A fluid-filled blastocyst",
-      "The germ layer forming during gastrulation"
-    ],
-    correctAnswer: "A solid ball of cells resulting from cleavage",
-    explanation: "The morula is the stage following cleavage where cells form a compact mass."
-  },
-  {
-    question: "What process transforms a zygote into a blastocyst?",
-    options: ["Cleavage", "Fertilization", "Gastrulation", "Capacitation"],
-    correctAnswer: "Cleavage",
-    explanation: "Cleavage is a series of mitotic divisions that results in the formation of a blastocyst."
-  },
-  {
-    question: "What does the trophoblast of a blastocyst develop into?",
-    options: [
-      "The embryo",
-      "The placenta and fetal membranes",
-      "The amniotic cavity",
-      "The yolk sac"
-    ],
-    correctAnswer: "The placenta and fetal membranes",
-    explanation: "The trophoblast forms the outer layer of the blastocyst and contributes to placental development."
-  },
-  {
-    question: "What is the main function of the corpus luteum?",
-    options: [
-      "To release mature eggs",
-      "To maintain progesterone production for early pregnancy",
-      "To stimulate spermatogenesis",
-      "To aid in cleavage of the zygote"
-    ],
-    correctAnswer: "To maintain progesterone production for early pregnancy",
-    explanation: "The corpus luteum secretes progesterone, crucial for maintaining the uterine lining during pregnancy."
-  },
-  {
-    question: "What is gastrulation?",
-    options: [
-      "Fusion of male and female pronuclei",
-      "Formation of the primary germ layers",
-      "Implantation of the blastocyst",
-      "Development of the placenta"
-    ],
-    correctAnswer: "Formation of the primary germ layers",
-    explanation: "Gastrulation establishes the three germ layers (ectoderm, mesoderm, and endoderm), which give rise to all tissues and organs."
-  },
-  {
-    question: "What does the ectoderm give rise to?",
-    options: [
-      "The digestive tract",
-      "The nervous system and skin",
-      "The circulatory system",
-      "The muscular system"
-    ],
-    correctAnswer: "The nervous system and skin",
-    explanation: "The ectoderm forms the nervous system, skin, and associated structures."
-  },
-  {
-    question: "Which hormone triggers ovulation?",
-    options: [
-      "Progesterone",
-      "Luteinizing hormone (LH)",
-      "Follicle-stimulating hormone (FSH)",
-      "Estrogen"
-    ],
-    correctAnswer: "Luteinizing hormone (LH)",
-    explanation: "A surge in LH levels triggers ovulation, releasing the oocyte from the follicle."
-  },
-  {
-    question: "How is polyspermy prevented during fertilization?",
-    options: [
-      "By releasing enzymes from the acrosome",
-      "By the cortical reaction",
-      "By multiple sperm binding to the zona pellucida",
-      "By capacitation"
-    ],
-    correctAnswer: "By the cortical reaction",
-    explanation: "The cortical reaction alters the zona pellucida, preventing further sperm entry after the first sperm penetrates."
-  },
-  {
-    question: "What structure forms from the inner cell mass of the blastocyst?",
-    options: ["Trophoblast", "Embryo proper", "Amnion", "Zona pellucida"],
-    correctAnswer: "Embryo proper",
-    explanation: "The inner cell mass gives rise to the embryo, while the trophoblast contributes to the placenta."
-  },
-
-
-{
-    question: "What does the blastocyst consist of?",
-    options: [
-      "Only the embryoblast",
-      "Only the trophoblast",
-      "An embryoblast, trophoblast, and a fluid-filled cavity",
-      "A solid mass of cells"
-    ],
-    correctAnswer: "An embryoblast, trophoblast, and a fluid-filled cavity",
-    explanation: "The blastocyst consists of the inner embryoblast, outer trophoblast, and a fluid-filled cavity called the blastocele."
-  },
-
-
-{
-    question: "What is the function of luteinizing hormone (LH) in females?",
-    options: [
-      "Stimulating sperm production",
-      "Triggering ovulation and corpus luteum formation",
-      "Initiating mitosis in oogonia",
-      "Inducing the acrosome reaction in sperm"
-    ],
-    correctAnswer: "Triggering ovulation and corpus luteum formation",
-    explanation: "LH triggers ovulation and helps in the formation of the corpus luteum, which secretes progesterone for uterine preparation."
-  },
-
-
-  {
-    question: "What is the duration of spermatogenesis in humans?",
-    options: ["24 hours", "64-72 days", "9 months", "1 year"],
-    correctAnswer: "64-72 days",
-    explanation: "Spermatogenesis takes approximately 64-72 days to produce mature sperm cells."
-  },
-  {
-    question: "What does the endoderm give rise to?",
-    options: [
-      "The brain and spinal cord",
-      "The gastrointestinal tract and respiratory system",
-      "The heart and blood vessels",
-      "The skeletal muscles"
-    ],
-    correctAnswer: "The gastrointestinal tract and respiratory system",
-    explanation: "The endoderm forms the lining of the digestive and respiratory tracts, among other structures."
-  },
-
-
-{
-  question: "What is the difference between cell division and cell differentiation?",
-  options: [
-    "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-    "Cell division involves genetic changes, while cell differentiation does not involve genetic changes.",
-    "Cell division occurs only in the early stages of life, while cell differentiation occurs throughout life.",
-    "Cell division is specific to eukaryotes, while cell differentiation is specific to prokaryotes."
-  ],
-  correctAnswer: "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-  explanation: "Cell division produces new cells for growth, repair, or reproduction. Differentiation involves cells developing specific structures and functions to perform specialized roles in the body."
-},
-{
-  question: "What happens in the first phase of spermatogonia?",
-  options: [
-    "Spermatogonia undergo meiosis to form primary spermatocytes.",
-    "Spermatogonia remain dormant until puberty.",
-    "Spermatogonia undergo mitosis to produce more spermatogonia",
-    "Spermatogonia differentiate into mature sperm cells."
-  ],
-  correctAnswer: "Spermatogonia undergo mitosis to produce more spermatogonia",
-  explanation: "In the first phase, spermatogonia divide mitotically to maintain their numbers and produce cells that will later differentiate into primary spermatocytes."
-},
-
-
-  {
-    question: "Which of the following is true about oogenesis?",
-    options: [
-      "It continues throughout a woman's lifetime",
-      "It begins before birth and pauses until puberty",
-      "It produces four functional gametes from one oogonium",
-      "It is completed by the time of fertilization"
-    ],
-    correctAnswer: "It begins before birth and pauses until puberty",
-    explanation: "Oogenesis begins in fetal life, halts at prophase I, and resumes at puberty during the menstrual cycle."
-  },
-  {
-    question: "What is the first stage of embryonic cleavage called?",
-    options: ["Morula", "Blastula", "Two-cell stage", "Gastrula"],
-    correctAnswer: "Two-cell stage",
-    explanation: "The zygote divides into two cells in the first stage of cleavage, marking the beginning of embryonic development."
-  },
-
-
-  {
-    question: "What is the significance of the acrosome in sperm?",
-    options: [
-      "It contains mitochondria to power sperm motility",
-      "It provides enzymes to penetrate the zona pellucida",
-      "It binds to the oocyte plasma membrane",
-      "It triggers the cortical reaction"
-    ],
-    correctAnswer: "It provides enzymes to penetrate the zona pellucida",
-    explanation: "The acrosome contains enzymes like hyaluronidase that help the sperm penetrate the zona pellucida for fertilization."
-  },
-  {
-    question: "What structure is responsible for secreting human chorionic gonadotropin (hCG)?",
-    options: [
-      "Corpus luteum",
-      "Trophoblast",
-      "Inner cell mass",
-      "Zona pellucida"
-    ],
-    correctAnswer: "Trophoblast",
-    explanation: "The trophoblast of the blastocyst secretes hCG to maintain the corpus luteum and support pregnancy."
-  },
-  {
-    question: "What phase of meiosis is the secondary oocyte arrested in until fertilization?",
-    options: ["Prophase I", "Metaphase II", "Anaphase I", "Telophase II"],
-    correctAnswer: "Metaphase II",
-    explanation: "The secondary oocyte is arrested in metaphase II and completes meiosis only after fertilization."
-  },
-  {
-    question: "Which germ layer gives rise to the heart and blood vessels?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Neural crest cells"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm forms the cardiovascular system, including the heart and blood vessels."
-  },
-  {
-    question: "What event marks the beginning of implantation?",
-    options: [
-      "Attachment of the blastocyst to the endometrium",
-      "Cleavage of the zygote",
-      "Fertilization of the oocyte",
-      "Formation of the morula"
-    ],
-    correctAnswer: "Attachment of the blastocyst to the endometrium",
-    explanation: "Implantation begins when the blastocyst adheres to the endometrial lining of the uterus."
-  },
-  {
-    question: "Which structure develops into the umbilical cord?",
-    options: [
-      "Amniotic sac",
-      "Connecting stalk",
-      "Allantois",
-      "Trophoblast"
-    ],
-    correctAnswer: "Connecting stalk",
-    explanation: "The connecting stalk evolves into the umbilical cord, providing a link between the embryo and placenta."
-  },
-  {
-    question: "What is the primary role of the yolk sac in humans?",
-    options: [
-      "Providing nutrients to the embryo",
-      "Forming the fetal blood cells in early development",
-      "Acting as a respiratory organ",
-      "Protecting the embryo from mechanical shocks"
-    ],
-    correctAnswer: "Forming the fetal blood cells in early development",
-    explanation: "The yolk sac is important for early hematopoiesis and development of primordial germ cells."
-  },
-  {
-    question: "At what stage does the zona pellucida disintegrate?",
-    options: [
-      "Morula",
-      "Blastocyst",
-      "Gastrula",
-      "Two-cell stage"
-    ],
-    correctAnswer: "Blastocyst",
-    explanation: "The zona pellucida dissolves at the blastocyst stage, enabling implantation in the uterus."
-  },
-  {
-    question: "What process occurs after the cortical reaction in fertilization?",
-    options: [
-      "Cleavage begins",
-      "Polyspermy is blocked",
-      "The morula is formed",
-      "The sperm fuses with the egg nucleus"
-    ],
-    correctAnswer: "Polyspermy is blocked",
-    explanation: "The cortical reaction alters the zona pellucida to prevent additional sperm from fertilizing the egg."
-  },
-  {
-    question: "What is the origin of the amniotic cavity?",
-    options: [
-      "It forms within the epiblast",
-      "It develops from the trophoblast",
-      "It arises from the yolk sac",
-      "It originates in the hypoblast"
-    ],
-    correctAnswer: "It forms within the epiblast",
-    explanation: "The amniotic cavity forms between the epiblast and trophoblast during early embryogenesis."
-  },
-  {
-    question: "What is the primary purpose of the primitive streak?",
-    options: [
-      "To facilitate sperm penetration during fertilization",
-      "To mark the site of gastrulation",
-      "To support implantation in the uterus",
-      "To assist in cleavage of the zygote"
-    ],
-    correctAnswer: "To mark the site of gastrulation",
-    explanation: "The primitive streak is essential for establishing body axes and initiating gastrulation."
-  },
-  {
-    question: "Which structure forms the placenta?",
-    options: [
-      "Trophoblast and endometrium",
-      "Inner cell mass and yolk sac",
-      "Amniotic sac and chorionic villi",
-      "Zona pellucida and morula"
-    ],
-    correctAnswer: "Trophoblast and endometrium",
-    explanation: "The placenta is formed by the trophoblast of the embryo and the endometrium of the mother."
-  },
-  {
-    question: "At what week does the fetal period begin?",
-    options: ["4th week", "9th week", "16th week", "20th week"],
-    correctAnswer: "9th week",
-    explanation: "The fetal period begins at the 9th week, marking the transition from embryonic development."
-  },
-  {
-    question: "What is the fate of the hypoblast during development?",
-    options: [
-      "It forms the ectoderm",
-      "It contributes to the endoderm of the yolk sac",
-      "It gives rise to the nervous system",
-      "It degenerates after gastrulation"
-    ],
-    correctAnswer: "It contributes to the endoderm of the yolk sac",
-    explanation: "The hypoblast forms the endodermal lining of the yolk sac and supports early development."
-  },
-  {
-    question: "Which structure prevents maternal and fetal blood from mixing directly?",
-    options: [
-      "Amniotic membrane",
-      "Placental barrier",
-      "Zona pellucida",
-      "Trophoblastic villi"
-    ],
-    correctAnswer: "Placental barrier",
-    explanation: "The placental barrier separates maternal and fetal blood, facilitating nutrient and gas exchange without mixing."
-  },
-  {
-    question: "Which cells are responsible for forming the chorionic villi?",
-    options: [
-      "Epiblast cells",
-      "Syncytiotrophoblast cells",
-      "Cytotrophoblast cells",
-      "Mesodermal cells"
-    ],
-    correctAnswer: "Syncytiotrophoblast cells",
-    explanation: "Syncytiotrophoblast cells invade the uterine lining and form the chorionic villi for placental attachment."
-  },
-  {
-    question: "What process allows the oocyte to complete meiosis?",
-    options: [
-      "Cleavage",
-      "Fertilization",
-      "Ovulation",
-      "Implantation"
-    ],
-    correctAnswer: "Fertilization",
-    explanation: "Fertilization triggers the oocyte to complete meiosis II, forming a mature ovum and polar body."
-  },
-  {
-    question: "What is the primary germ layer responsible for forming muscles?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Trophoblast"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm gives rise to skeletal, smooth, and cardiac muscles, along with other structures."
-  },
-  {
-    question: "Which stage of development involves the formation of somites?",
-    options: [
-      "Neurulation",
-      "Cleavage",
-      "Gastrulation",
-      "Blastulation"
-    ],
-    correctAnswer: "Neurulation",
-    explanation: "Somites form during neurulation from paraxial mesoderm and contribute to the axial skeleton and muscles."
-  },
-  {
-    question: "What is the role of the notochord in development?",
-    options: [
-      "To form the brain and spinal cord",
-      "To induce the formation of the neural tube",
-      "To support trophoblast invasion",
-      "To give rise to the endoderm"
-    ],
-    correctAnswer: "To induce the formation of the neural tube",
-    explanation: "The notochord secretes signals that induce the overlying ectoderm to form the neural tube."
-  },
 
 ],
       },
@@ -920,6 +448,92 @@ document.addEventListener("DOMContentLoaded", () => {
   },
 
 
+
+{ question: "What does physiology primarily study?", options: ["The structure of dead organisms", "The proper function and vital processes of living organisms", "Inorganic chemical reactions", "Genetic mutations"], correctAnswer: "The proper function and vital processes of living organisms", explanation: "Physiology is the study of proper function in living things and the vital processes that sustain life, as described in the definitions section." }, 
+
+{ question: "Which term best describes the process by which the body maintains a stable internal environment despite external changes?", options: ["Metabolism", "Homeostasis", "Anabolism", "Catabolism"], correctAnswer: "Homeostasis", explanation: "Homeostasis is the process by which the body maintains a constant internal environment through various feedback mechanisms." }, 
+
+{ question: "Who is acknowledged as the father of experimental physiology for his early use of experimentation on the body's systems?", options: ["Jean Fernel", "Galen", "William Harvey", "Claude Bernard"], correctAnswer: "Galen", explanation: "Galen is largely acknowledged as the father of experimental physiology due to his pioneering experiments on the body's systems." }, 
+
+{ question: "Which physician was the first to use the term 'physiology', derived from the Greek meaning 'study of nature'?", options: ["William Harvey", "Galen", "Jean Fernel", "Franciscus Sylvius"], correctAnswer: "Jean Fernel", explanation: "Jean Fernel, a French physician, was the first to use the term 'physiology' and properly describe aspects of the spinal canal, as noted in the history section." }, 
+
+{ question: "Which of the following is the largest and only single-organ system in the human body?", options: ["Cardiovascular system", "Integumentary system", "Nervous system", "Digestive system"], correctAnswer: "Integumentary system", explanation: "The integumentary system, which includes the skin, nails, sweat glands, and hair, is unique as the largest single-organ system in the body." }, 
+
+{ question: "Which scientists are credited with describing the double-helix structure of DNA?", options: ["James Watson and Francis Crick", "Ivan Pavlov and Claude Bernard", "John O’Keefe and May-Britt Moser", "Peter Agre and John Jacob Abel"], correctAnswer: "James Watson and Francis Crick", explanation: "James Watson and Francis Crick won the Nobel Prize in 1962 for their groundbreaking description of the double-helix structure of DNA." }, 
+
+{ question: "Which discovery is associated with Frederick Banting and Charles Best?", options: ["Isolation of insulin", "Discovery of epinephrine", "Development of the patch-clamp technique", "Identification of cyclic AMP"], correctAnswer: "Isolation of insulin", explanation: "Frederick Banting and Charles Best isolated and purified insulin in 1922, a discovery that revolutionized diabetes treatment." }, 
+
+{ question: "Which type of feedback mechanism works by reducing or removing the initial stimulus to maintain stability?", options: ["Positive feedback", "Negative feedback", "Feed-forward control", "Tonic control"], correctAnswer: "Negative feedback", explanation: "Negative feedback mechanisms help maintain homeostasis by reducing deviations from a set point, ensuring a stable internal environment." }, 
+
+{ question: "Which system of the human body is composed of the heart, arteries, capillaries, and veins?", options: ["Nervous system", "Respiratory system", "Cardiovascular system", "Digestive system"], correctAnswer: "Cardiovascular system", explanation: "The cardiovascular system consists of the heart and a network of blood vessels that circulate blood throughout the body." }, 
+
+{ question: "Which Nobel Prize-winning researcher discovered water channels in cells?", options: ["August Krogh", "Peter Agre", "Walter Dandy", "Erwin Neher"], correctAnswer: "Peter Agre", explanation: "Peter Agre won the Nobel Prize in Chemistry in 2003 for his discovery of water channels, essential for water transport across cell membranes." },
+
+
+
+{ question: "What is the origin of the word 'physiology'?", options: ["Greek", "Latin", "Arabic", "Sanskrit"], correctAnswer: "Greek", explanation: "The term 'physiology' is derived from the Greek word 'physiologia', meaning 'study of nature'." }, 
+
+{ question: "Which of the following best describes human physiology?", options: ["Study of cellular structures only", "Study of normal and abnormal functions of the human body", "Study of diseases only", "Study of external body features"], correctAnswer: "Study of normal and abnormal functions of the human body", explanation: "Human physiology examines both the normal functions and the pathological conditions of the human body." }, 
+
+{ question: "Which experimental technique did Johannes Walaeus contribute to physiology?", options: ["Venous occlusion experiment", "Patch-clamp technique", "Electrocardiography", "Magnetic resonance imaging"], correctAnswer: "Venous occlusion experiment", explanation: "Johannes Walaeus performed the venous occlusion experiment to support the concept of blood returning to the heart." }, 
+
+{ question: "Which physician first properly described the spinal canal?", options: ["Jean Fernel", "Galen", "William Harvey", "Claude Bernard"], correctAnswer: "Jean Fernel", explanation: "Jean Fernel was the first to describe the spinal canal, marking an important development in anatomical studies." }, 
+
+{ question: "Who brought the concept of blood circulation to the Netherlands and distinguished between types of glands?", options: ["Franciscus Sylvius", "Jean Fernel", "Johannes Walaeus", "William Beaumont"], correctAnswer: "Franciscus Sylvius", explanation: "Franciscus Sylvius introduced the concept of blood circulation in the Netherlands and differentiated between conglomerate and conglobate glands." }, 
+
+{ question: "Who is considered the founder of Dutch experimental physiology?", options: ["Johannes Walaeus", "Galen", "Claude Bernard", "William Beaumont"], correctAnswer: "Johannes Walaeus", explanation: "Johannes Walaeus is regarded as the founder of Dutch experimental physiology for his pioneering experiments." }, 
+
+{ question: "Which American physiologist used a patient's gunshot wound to study gastric function?", options: ["William Beaumont", "Joseph Lister", "Claude Bernard", "Ivan Pavlov"], correctAnswer: "William Beaumont", explanation: "William Beaumont's observation of a gunshot wound allowed him to study gastric function directly, contributing to practical physiology." }, 
+
+{ question: "Which scientist is credited with reducing surgical mortality through the discovery of antiseptics?", options: ["Joseph Lister", "William Harvey", "Galen", "Claude Bernard"], correctAnswer: "Joseph Lister", explanation: "Joseph Lister introduced antiseptic techniques that dramatically reduced surgical mortality rates." }, 
+
+{ question: "Which duo is known for advancing the cell theory in 1838?", options: ["Matthias Schleiden & Theodor Schwann", "Claude Bernard & William Beaumont", "Galen & Jean Fernel", "Frederick Banting & Charles Best"], correctAnswer: "Matthias Schleiden & Theodor Schwann", explanation: "Schleiden and Schwann were pivotal in establishing that all living organisms are composed of cells." }, 
+
+{ question: "Which landmark text by Claude Bernard laid the foundation for experimental medicine?", options: ["An Introduction to the Study of Experimental Medicine", "The Principles of Physiology", "The System of the Human Body", "The Origin of Species"], correctAnswer: "An Introduction to the Study of Experimental Medicine", explanation: "Claude Bernard's work provided clear explanations of experimental methods in physiology and medicine." }, 
+
+{ question: "Which institution initiated a medical physiology program in the 1870s?", options: ["Harvard University", "Oxford University", "Yale University", "Johns Hopkins University"], correctAnswer: "Harvard University", explanation: "Harvard University established a medical physiology program in the 1870s, appointing Henry Bowditch as its first full-time physiologist." }, 
+
+{ question: "What did Ivan Pavlov study to develop the concept of conditional reflexes?", options: ["Salivary secretion in dogs", "Blood pressure regulation", "Heart rate variability", "Muscle contraction"], correctAnswer: "Salivary secretion in dogs", explanation: "Pavlov's experiments with dogs' salivary responses led to the development of the concept of conditional reflexes." }, 
+
+{ question: "Who isolated and purified epinephrine from the adrenal gland in 1901?", options: ["John Jacob Abel and Jokichi Takamine", "Frederick Banting and Charles Best", "Joseph Lister and William Beaumont", "Claude Bernard and Galen"], correctAnswer: "John Jacob Abel and Jokichi Takamine", explanation: "John Jacob Abel and Jokichi Takamine made a breakthrough in hormone research by isolating epinephrine." }, 
+
+{ question: "Who performed the first mammalian heart transplant?", options: ["Alexis Carrel", "Christiaan Barnard", "Walter Dandy", "Claude Bernard"], correctAnswer: "Alexis Carrel", explanation: "Alexis Carrel is recognized for performing the first mammalian heart transplant in 1904." }, 
+
+{ question: "Which scientist's work led to the modern classification of human blood groups?", options: ["Karl Landsteiner", "Frederick Banting", "John O’Keefe", "Erwin Neher"], correctAnswer: "Karl Landsteiner", explanation: "Karl Landsteiner's research resulted in the classification of human blood groups and the discovery of the Rh factor." }, 
+
+{ question: "What physiological process did August Krogh study to earn his Nobel Prize?", options: ["Capillary fluid exchange and oxygen diffusion", "Conditional reflexes", "G protein-coupled receptor activity", "Telomere protection"], correctAnswer: "Capillary fluid exchange and oxygen diffusion", explanation: "August Krogh's work on how fluids and oxygen exchange in capillaries was groundbreaking and earned him a Nobel Prize." }, 
+
+{ question: "Which expedition led by Haldane J.S. helped study the effects of altitude on breathing?", options: ["Pike's Peak expedition", "Mount Everest expedition", "K2 expedition", "Andes expedition"], correctAnswer: "Pike's Peak expedition", explanation: "Haldane J.S. led an expedition to Pike's Peak in 1911 to investigate how altitude affects human respiration." }, 
+
+{ question: "What method did Anton Carlson use to study the relationship between hunger and digestion?", options: ["Using an inflated balloon in the stomach", "Measuring blood pressure changes", "Recording neural activity", "Assessing hormone levels"], correctAnswer: "Using an inflated balloon in the stomach", explanation: "Anton Carlson employed an inflated balloon in the stomach during a 15-day fast to study stomach contractions related to hunger." }, 
+
+{ question: "Which discovery in 1922 transformed the treatment of diabetes?", options: ["Isolation of insulin", "Discovery of epinephrine", "Identification of cyclic AMP", "Discovery of water channels"], correctAnswer: "Isolation of insulin", explanation: "The isolation of insulin by Banting and Best in 1922 revolutionized the management of diabetes." }, 
+
+{ question: "Who is known for the first direct measurements of blood pressure in blood vessels?", options: ["Eugene Landis", "Henry Bowditch", "Claude Bernard", "William Harvey"], correctAnswer: "Eugene Landis", explanation: "Eugene Landis published the first direct measurements of blood pressure within arteries, capillaries, and veins." }, 
+
+{ question: "What was the main focus of the Harvard Fatigue Laboratory established in 1927?", options: ["Exercise and environmental physiology", "Cell division", "Neurotransmitter activity", "Hormone synthesis"], correctAnswer: "Exercise and environmental physiology", explanation: "The Harvard Fatigue Laboratory concentrated on studying the effects of exercise and extreme environmental conditions on human physiology." }, 
+
+{ question: "Which neurosurgeon identified the cause of hydrocephalus and invented the baseball helmet?", options: ["Walter Dandy", "John O’Keefe", "Claude Bernard", "Alexis Carrel"], correctAnswer: "Walter Dandy", explanation: "Walter Dandy is noted for his work on hydrocephalus and is credited with inventing the baseball helmet in the 1930s." }, 
+
+{ question: "Which researchers elucidated the ionic mechanism behind nerve impulse transmission?", options: ["Hodgkin and Huxley", "Neher and Sakmann", "Pavlov and Bernard", "Landsteiner and Krogh"], correctAnswer: "Hodgkin and Huxley", explanation: "Hodgkin and Huxley discovered the ionic basis of nerve impulse transmission in 1952, a major milestone in neuroscience." }, 
+
+{ question: "Who discovered the neurotransmitter linked to mood regulation?", options: ["Welsh J.H.", "Claude Bernard", "Galen", "Jean Fernel"], correctAnswer: "Welsh J.H.", explanation: "Welsh J.H. discovered serotonin in 1953, a neurotransmitter that plays a critical role in regulating mood." }, 
+
+{ question: "Which research revealed the sliding filament mechanism in skeletal muscle contraction?", options: ["Studies by Huxley Andrew & Huxley Hugh", "Pavlov's experiments", "Bernard's experimental methods", "Neher and Sakmann's findings"], correctAnswer: "Studies by Huxley Andrew & Huxley Hugh", explanation: "The research by Huxley Andrew and Huxley Hugh in 1954 demonstrated that skeletal muscle contraction involves the sliding of filaments." }, 
+
+{ question: "What major discovery about DNA was made by Watson and Crick?", options: ["The double helix structure", "The process of transcription", "The genetic code", "The role of RNA"], correctAnswer: "The double helix structure", explanation: "Watson and Crick are renowned for elucidating the double helix structure of DNA, a pivotal moment in molecular biology." }, 
+
+{ question: "What breakthrough did Earl Sutherland achieve regarding cellular signaling?", options: ["Identification of cyclic AMP", "Isolation of insulin", "Discovery of epinephrine", "Measurement of blood pressure"], correctAnswer: "Identification of cyclic AMP", explanation: "Earl Sutherland's identification of cyclic AMP in 1971 was crucial in understanding how cells respond to hormonal signals." }, 
+
+{ question: "Which technique, developed in 1974, allowed for detailed measurement of ion channel activity?", options: ["Electroencephalography", "Patch-clamp technique", "Magnetic resonance imaging", "Flow cytometry"], correctAnswer: "Patch-clamp technique", explanation: "The patch-clamp technique, introduced by Erwin Neher and Bert Sakmann, enabled precise measurement of ion flow across cell membranes." }, 
+
+{ question: "Which trio won the Nobel Prize in 2001 for their work on cell cycle regulation?", options: ["Leland Hartwell, Paul Nurse, and Timothy Hunt", "Watson, Crick, and Franklin", "Neher, Sakmann, and Dandy", "Banting, Best, and Lister"], correctAnswer: "Leland Hartwell, Paul Nurse, and Timothy Hunt", explanation: "In 2001, these scientists were awarded the Nobel Prize for discovering key mechanisms regulating cell growth, division, and death." }, 
+
+{ question: "What is the primary function of water channels discovered by Peter Agre?", options: ["Facilitating oxygen transport", "Allowing water to move across cell membranes", "Regulating blood pressure", "Transmitting nerve impulses"], correctAnswer: "Allowing water to move across cell membranes", explanation: "Peter Agre's discovery of water channels revealed how cells manage water transport, which is essential for cellular homeostasis." }, 
+
+{ question: "Which Nobel Prize-winning discovery involves the maintenance of chromosome ends?", options: ["Telomere protection by telomerase", "DNA replication", "Protein synthesis", "RNA interference"], correctAnswer: "Telomere protection by telomerase", explanation: "The discovery that telomerase protects chromosome ends has been vital in understanding aging and cellular replication." }, 
+
+{ question: "Who were awarded the Nobel Prize in 2011 for their contributions to the understanding of immunity?", options: ["Bruce Beutler, Jules Hoffmann, and Ralph Steinman", "Watson, Crick, and Franklin", "Neher, Sakmann, and Huxley", "Hartwell, Nurse, and Hunt"], correctAnswer: "Bruce Beutler, Jules Hoffmann, and Ralph Steinman", explanation: "These scientists were recognized in 2011 for their groundbreaking work on innate and adaptive immune responses." }, { question: "What innovation is Ralph Brinster known for in physiological research?", options: ["Development of transgenic mice", "Discovery of the double helix", "Isolation of insulin", "Measurement of blood pressure"], correctAnswer: "Development of transgenic mice", explanation: "Ralph Brinster's work on creating transgenic mice has provided invaluable tools for studying gene function and disease." }, { question: "What is the significance of the discovery by Sir John Gurdon and Shinya Yamanaka?", options: ["Isolation of insulin", "Reprogramming mature cells into pluripotent stem cells", "Discovery of water channels", "Identification of cyclic AMP"], correctAnswer: "Reprogramming mature cells into pluripotent stem cells", explanation: "Their discovery demonstrated that mature cells can be reprogrammed to a pluripotent state, revolutionizing regenerative medicine." }, { question: "Which discovery highlighted the role of G protein-coupled receptors in cell signaling?", options: ["Research by Robert Lefkowitz and Brian Kobilka", "Isolation of insulin", "Discovery of the double helix", "Development of the patch-clamp technique"], correctAnswer: "Research by Robert Lefkowitz and Brian Kobilka", explanation: "The work of Lefkowitz and Kobilka revealed how G protein-coupled receptors function, significantly advancing our understanding of cell signaling." }, { question: "What is the main function of the vesicle traffic machinery discovered by Rothman, Schekman, and Sudhof?", options: ["Transporting genetic material", "Mediating intracellular transport", "Regulating the cell cycle", "Conducting nerve impulses"], correctAnswer: "Mediating intracellular transport", explanation: "This machinery is essential for the transport of vesicles within cells, ensuring proper distribution of molecules." }, { question: "Which discovery in 2014 revealed a cellular positioning system in the brain?", options: ["Identification of specialized cells by John O’Keefe, May-Britt Moser, and Edvard I. Moser", "Discovery of the blood-brain barrier", "Identification of neurotransmitters", "Discovery of water channels"], correctAnswer: "Identification of specialized cells by John O’Keefe, May-Britt Moser, and Edvard I. Moser", explanation: "Their discovery of grid and place cells uncovered the neural basis for spatial navigation and positioning in the brain." }, { question: "Which therapeutic breakthrough in 2015 was recognized with a Nobel Prize for combating parasitic infections?", options: ["A novel therapy against roundworm infections", "Isolation of insulin", "Discovery of the double helix", "Identification of cyclic AMP"], correctAnswer: "A novel therapy against roundworm infections", explanation: "The work of William C. Campbell and Satoshi Ōmura led to a new treatment targeting infections caused by roundworm parasites." }, { question: "Which of the following is NOT a component of the cardiovascular system?", options: ["Atria", "Ventricles", "Heart valves", "Lungs"], correctAnswer: "Lungs", explanation: "The cardiovascular system consists of the heart and blood vessels, while the lungs are part of the respiratory system." }, { question: "Which accessory organs are involved in the digestive/excretory system?", options: ["Liver and gallbladder", "Thyroid and parathyroid glands", "Kidneys and ureters", "Heart and blood vessels"], correctAnswer: "Liver and gallbladder", explanation: "The digestive/excretory system includes accessory organs like the liver and gallbladder that aid in digestion and nutrient processing." }
 
 
 
