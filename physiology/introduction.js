@@ -317,23 +317,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 { question: "What forms Erythrocytes?", options: ["CFU/E", "Plasma cells", "Myeloblasts", "Megakaryocytes"], correctAnswer: "CFU/E", explanation: "Erythrocytes originate from the Colony Forming Unit of Erythrocytes (CFU/E), a committed precursor in the erythropoiesis process." },
 
-{ question: "At what stage does hemoglobin first appear?", options: ["Intermediate normoblast", "Proerythroblast", "Reticulocyte", "Basophilic erythroblast"], correctAnswer: "Intermediate normoblast", explanation: "Hemoglobin synthesis begins at the intermediate normoblast stage, marking a key step in red blood cell maturation." },
+{ question: "At what stage does hemoglobin first appear?", options: [ "Proerythroblast", "Reticulocyte", "Intermediate normoblast", "Basophilic erythroblast"], correctAnswer: "Intermediate normoblast", explanation: "Hemoglobin synthesis begins at the intermediate normoblast stage, marking a key step in red blood cell maturation." },
 
 { question: "When the cytoplasm is stained with both acidic and basic dyes, what stage is this?", options: ["Polychromophilic", "Basophilic normoblast", "Reticulocyte", "Orthochromic erythroblast"], correctAnswer: "Polychromophilic", explanation: "The polychromophilic stage occurs in intermediate normoblasts, where the cytoplasm takes up both acidic and basic stains due to hemoglobin synthesis." },
 
-{ question: "The cell in the intermediate normoblast stage is called what?", options: ["Polychromatic Erythroblast", "Reticulocyte", "Basophilic Normoblast", "Orthochromic Erythroblast"], correctAnswer: "Polychromatic Erythroblast", explanation: "At the intermediate normoblast stage, the cell is called a polychromatic erythroblast due to its staining properties and hemoglobin content." },
+{ question: "The cell in the intermediate normoblast stage is called what?", options: [ "Reticulocyte", "Basophilic Normoblast", "Polychromatic Erythroblast", "Orthochromic Erythroblast"], correctAnswer: "Polychromatic Erythroblast", explanation: "At the intermediate normoblast stage, the cell is called a polychromatic erythroblast due to its staining properties and hemoglobin content." },
 
 { question: "At what stage does the cytoplasm become acidophilic during RBC formation?", options: ["Late normoblast", "Basophilic erythroblast", "Reticulocyte", "Proerythroblast"], correctAnswer: "Late normoblast", explanation: "The cytoplasm becomes acidophilic in the late normoblast stage due to the increased presence of hemoglobin." },
 
 { question: "What is the cell in the late normoblast stage called?", options: ["Orthochromic Erythroblast", "Polychromatic Erythroblast", "Basophilic Normoblast", "Reticulocyte"], correctAnswer: "Orthochromic Erythroblast", explanation: "In the late normoblast stage, the cell is called an orthochromic erythroblast, indicating its mature hemoglobin content and acidophilic staining." },
 
-{ question: "At what stage of erythropoiesis does the nucleus disintegrate and disappear?", options: ["Later stage of late normoblast", "Proerythroblast", "Intermediate normoblast", "Reticulocyte"], correctAnswer: "Later stage of late normoblast", explanation: "The nucleus disintegrates and disappears in the later stage of the late normoblast, a crucial step before the cell becomes a reticulocyte." },
+{ question: "At what stage of erythropoiesis does the nucleus disintegrate and disappear?", options: [ "Early stage of late normoblast", "Later stage of late normoblast", "Proerythroblast", "Reticulocyte"], correctAnswer: "Later stage of late normoblast", explanation: "The nucleus disintegrates and disappears in the later stage of the late normoblast, a crucial step before the cell becomes a reticulocyte." },
 
 { question: "What is the process called when the nucleus disappears during erythropoiesis?", options: ["Pyknosis", "Hemolysis", "Apoptosis", "Karyolysis"], correctAnswer: "Pyknosis", explanation: "Pyknosis refers to the irreversible condensation and disappearance of the nucleus during the final stages of erythropoiesis." },
 
-{ question: "Which of the following involves a relatively longer-term response?", options: ["Renal Mechanism", "Buffer Systems", "Respiratory Regulations", "Cardiopulmonary System"], correctAnswer: "Renal Mechanism", explanation: "The renal mechanism provides a longer-term response to acid-base balance by regulating hydrogen ion excretion and bicarbonate reabsorption." },
+{ question: "Which of the following involves a relatively longer-term response?", options: [ "Buffer Systems", "Renal Mechanism",  "Respiratory Regulations", "Cardiopulmonary System"], correctAnswer: "Renal Mechanism", explanation: "The renal mechanism provides a longer-term response to acid-base balance by regulating hydrogen ion excretion and bicarbonate reabsorption." },
 
-{ question: "What is an alternate process for taking glucose into the body?", options: ["Lipolysis", "Glycogenesis", "Gluconeogenesis", "Glycolysis"], correctAnswer: "Lipolysis", explanation: "Lipolysis breaks down fats into glycerol and free fatty acids, which can be used as an energy source when glucose is scarce." }
+{ question: "What is an alternate process for taking glucose into the body?", options: ["Glycogenesis", "Gluconeogenesis", "Lipolysis", "Glycolysis"], correctAnswer: "Lipolysis", explanation: "Lipolysis breaks down fats into glycerol and free fatty acids, which can be used as an energy source when glucose is scarce." }
 
 
 
