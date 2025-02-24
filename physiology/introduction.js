@@ -200,450 +200,118 @@ document.addEventListener("DOMContentLoaded", () => {
   
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  ////////////////////////////////// //Gastrulation ////////////////////////////////////////////////
+  ////////////////////////////////// Blood Physiology ////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       
         
   {
-      category: "Gastrulation",
+      category: "Blood",
       questions: [
 
 
 
 
 
-{
-    question: "What is the primary process by which the three germ layers are formed during embryonic development?",
-    options: ["Neurulation", "Gastrulation", "Organogenesis", "Fertilization"],
-    correctAnswer: "Gastrulation",
-    explanation: "Gastrulation is the process where epiblastic cells migrate through the primitive streak to form the three germ layers: ectoderm, mesoderm, and endoderm."
-  },
-  {
-    question: "Which structure acts as the site of cell migration during gastrulation?",
-    options: ["Neural tube", "Primitive streak", "Somites", "Notochord"],
-    correctAnswer: "Primitive streak",
-    explanation: "During gastrulation, epiblastic cells migrate through the primitive streak to establish the three germ layers."
-  },
-  {
-    question: "Which germ layer gives rise to the nervous system?",
-    options: ["Mesoderm", "Endoderm", "Ectoderm", "Neural crest"],
-    correctAnswer: "Ectoderm",
-    explanation: "The ectoderm differentiates into the nervous system through the process of neurulation."
-  },
-  {
-    question: "At what day does the cranial neuropore close?",
-    options: ["Day 23", "Day 25", "Day 27", "Day 30"],
-    correctAnswer: "Day 25",
-    explanation: "The cranial neuropore closes on day 25, while the caudal neuropore closes on day 27."
-  },
-  {
-    question: "Which structure forms first during neurulation?",
-    options: ["Neural tube", "Neural crest cells", "Neural groove", "Neural plate"],
-    correctAnswer: "Neural plate",
-    explanation: "The neural plate is the first structure to form during neurulation, which later folds to form the neural tube."
-  },
-  {
-    question: "Neural crest cells from the cranial region contribute to which of the following?",
-    options: ["Craniofacial skeleton", "Spinal cord", "Epithelial lining of the gut", "Kidneys"],
-    correctAnswer: "Craniofacial skeleton",
-    explanation: "Cranial neural crest cells migrate and differentiate into cranial ganglia, glial cells, melanocytes, and the craniofacial skeleton."
-  },
-  {
-    question: "Which germ layer gives rise to the urogenital system?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Mesoderm",
-    explanation: "The intermediate mesoderm forms the urogenital system, including the kidneys and gonads."
-  },
-  {
-    question: "Which of the following is derived from the paraxial mesoderm?",
-    options: ["Heart", "Dermis", "Liver", "Lungs"],
-    correctAnswer: "Dermis",
-    explanation: "The paraxial mesoderm forms somites, which differentiate into the sclerotome (bones), myotome (muscles), and dermatome (dermis)."
-  },
-  {
-    question: "A mutation affecting neural crest cell migration may lead to defects in which structure?",
-    options: ["Liver", "Lungs", "Peripheral nervous system", "Intestinal epithelium"],
-    correctAnswer: "Peripheral nervous system",
-    explanation: "Neural crest cells contribute to the peripheral nervous system, including sympathetic neurons and Schwann cells."
-  },
-  {
-    question: "Which part of the mesoderm contributes to the formation of the heart and blood vessels?",
-    options: ["Paraxial mesoderm", "Intermediate mesoderm", "Lateral plate mesoderm", "Neural crest"],
-    correctAnswer: "Lateral plate mesoderm",
-    explanation: "The splanchnic layer of the lateral plate mesoderm gives rise to the heart and blood vessels."
-  },
-  {
-    question: "The serous membranes lining the pericardial, pleural, and peritoneal cavities originate from which layer?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Mesoderm",
-    explanation: "The lateral plate mesoderm forms the serous membranes lining these cavities."
-  },
-  {
-    question: "Which of the following structures originates from the endoderm?",
-    options: ["Brain", "Kidneys", "Lungs", "Bones"],
-    correctAnswer: "Lungs",
-    explanation: "The endoderm forms the epithelial lining of the respiratory tract, including the lungs."
-  },
-  {
-    question: "What happens if the caudal neuropore fails to close?",
-    options: ["Anencephaly", "Spina bifida", "Microcephaly", "Hydrocephalus"],
-    correctAnswer: "Spina bifida",
-    explanation: "Failure of caudal neuropore closure leads to spina bifida, a defect in spinal cord development."
-  },
-  {
-    question: "The epithelial lining of the gastrointestinal tract is derived from which germ layer?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Endoderm",
-    explanation: "The endoderm forms the epithelial lining of the digestive tract and associated organs."
-  },
-  {
-    question: "Which germ layer contributes to the formation of skeletal muscles?",
-    options: ["Ectoderm", "Endoderm", "Paraxial mesoderm", "Lateral plate mesoderm"],
-    correctAnswer: "Paraxial mesoderm",
-    explanation: "The paraxial mesoderm forms somites, which differentiate into skeletal muscles."
-  },
-  {
-    question: "The notochord, an important structure for neural induction, is derived from which germ layer?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Mesoderm",
-    explanation: "The notochord is derived from the mesoderm and plays a role in neural tube formation."
-  },
-  {
-    question: "Which structure separates the somatopleuric and splanchnic layers of the lateral plate mesoderm?",
-    options: ["Neural plate", "Coelomic cavity", "Pericardial membrane", "Neural crest cells"],
-    correctAnswer: "Coelomic cavity",
-    explanation: "The coelomic cavity separates the somatopleuric and splanchnic layers, allowing for organ development."
-  },
-  {
-    question: "Which of the following is NOT derived from neural crest cells?",
-    options: ["Schwann cells", "Melanocytes", "Sensory ganglia", "Liver cells"],
-    correctAnswer: "Liver cells",
-    explanation: "The liver is derived from the endoderm, while Schwann cells, melanocytes, and sensory ganglia come from neural crest cells."
-  },
-  {
-    question: "Which structure is the precursor to the spinal cord?",
-    options: ["Neural plate", "Neural tube", "Neural crest", "Primitive streak"],
-    correctAnswer: "Neural tube",
-    explanation: "The caudal portion of the neural tube develops into the spinal cord."
-  },
-  {
-    question: "The thyroid gland originates from which germ layer?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Endoderm",
-    explanation: "The thyroid gland originates from the endoderm and develops from the pharyngeal region."
-  },
-  {
-    question: "Which process describes the movement of neural crest cells to various parts of the embryo?",
-    options: ["Induction", "Differentiation", "Migration", "Gastrulation"],
-    correctAnswer: "Migration",
-    explanation: "Neural crest cells migrate extensively to form various structures like cranial ganglia and melanocytes."
-  },
+{ question: "What is blood primarily considered to be?", options: ["A connective tissue", "A solid tissue", "The body's only fluid tissue", "An organ"], correctAnswer: "The body's only fluid tissue", explanation: "Blood is unique in that it is the only tissue in the body that is in a fluid state, circulating throughout the vascular system." },
 
-  {
-    question: "Which germ layer forms the neural tube?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest cells"],
-    correctAnswer: "Ectoderm",
-    explanation: "The ectoderm undergoes neurulation, leading to the formation of the neural tube, which later develops into the central nervous system."
-  },
-  {
-    question: "During gastrulation, epiblastic cells migrate through which structure?",
-    options: ["Neural tube", "Primitive streak", "Neural plate", "Blastocoel"],
-    correctAnswer: "Primitive streak",
-    explanation: "Epiblastic cells migrate through the primitive streak in a craniocaudal direction to establish the three germ layers."
-  },
-  {
-    question: "What is the function of the neural crest cells that migrate dorsally?",
-    options: ["Form the spinal cord", "Give rise to melanocytes", "Develop into somites", "Contribute to the gut tube"],
-    correctAnswer: "Give rise to melanocytes",
-    explanation: "Neural crest cells that migrate dorsally contribute to the formation of melanocytes, which produce melanin in the skin and hair follicles."
-  },
-  {
-    question: "On which day does the cranial neuropore close?",
-    options: ["Day 20", "Day 25", "Day 27", "Day 30"],
-    correctAnswer: "Day 25",
-    explanation: "The cranial neuropore closes on day 25, while the caudal neuropore closes on day 27."
-  },
-  {
-    question: "Which part of the neural tube gives rise to the spinal cord?",
-    options: ["Cranial portion", "Caudal portion", "Neural crest cells", "Forebrain"],
-    correctAnswer: "Caudal portion",
-    explanation: "The caudal portion of the neural tube develops into the spinal cord."
-  },
-  {
-    question: "Which of the following is NOT derived from the ectoderm?",
-    options: ["Central nervous system", "Epidermis", "Liver", "Hair"],
-    correctAnswer: "Liver",
-    explanation: "The liver is derived from the endoderm, while the ectoderm gives rise to structures like the CNS, epidermis, and hair."
-  },
-  {
-    question: "Which layer of the lateral plate mesoderm contributes to the formation of the heart?",
-    options: ["Somatopleuric layer", "Splanchnic layer", "Intermediate mesoderm", "Paraxial mesoderm"],
-    correctAnswer: "Splanchnic layer",
-    explanation: "The splanchnic layer of the lateral plate mesoderm contributes to the formation of the heart, blood vessels, and smooth muscle of the digestive tract."
-  },
-  {
-    question: "What is the role of the nephrotomes formed by the intermediate mesoderm?",
-    options: ["Give rise to sensory neurons", "Form part of the kidney", "Develop into the spinal cord", "Contribute to the heart"],
-    correctAnswer: "Form part of the kidney",
-    explanation: "The nephrotomes, derived from the cranial part of the intermediate mesoderm, contribute to the formation of the kidney."
-  },
-  {
-    question: "Which germ layer gives rise to the epithelial lining of the gastrointestinal tract?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Endoderm",
-    explanation: "The endoderm forms the epithelial lining of the gastrointestinal tract, respiratory system, and urinary bladder."
-  },
-  {
-    question: "Which structure thickens to form the neural plate?",
-    options: ["Neural tube", "Neuroectoderm", "Somites", "Ectoderm"],
-    correctAnswer: "Ectoderm",
-    explanation: "A specific segment of the ectoderm thickens to form the neural plate, which later develops into the neural tube."
-  },
-  {
-    question: "Which of these structures is NOT derived from neural crest cells?",
-    options: ["Craniofacial skeleton", "Sensory ganglia", "Melanocytes", "Spinal cord"],
-    correctAnswer: "Spinal cord",
-    explanation: "The spinal cord is derived from the neural tube, not neural crest cells."
-  },
-  {
-    question: "Which mesodermal layer gives rise to the urogenital system?",
-    options: ["Paraxial mesoderm", "Intermediate mesoderm", "Lateral plate mesoderm", "Neural crest"],
-    correctAnswer: "Intermediate mesoderm",
-    explanation: "The intermediate mesoderm forms the urogenital system, including kidneys and gonads."
-  },
-  {
-    question: "What is the fate of myotomes?",
-    options: ["Form cartilage and bones", "Give rise to muscle components", "Develop into sensory ganglia", "Differentiate into neural crest cells"],
-    correctAnswer: "Give rise to muscle components",
-    explanation: "Myotomes, derived from paraxial mesoderm, form segmental muscle components."
-  },
-  {
-    question: "Which germ layer is responsible for forming the serous membranes lining body cavities?",
-    options: ["Ectoderm", "Paraxial mesoderm", "Endoderm", "Lateral plate mesoderm"],
-    correctAnswer: "Lateral plate mesoderm",
-    explanation: "The lateral plate mesoderm forms the serous membranes that line the peritoneal, pleural, and pericardial cavities."
-  },
-  {
-    question: "What happens if the caudal neuropore fails to close properly?",
-    options: ["Anencephaly", "Spina bifida", "Hydrocephalus", "Microcephaly"],
-    correctAnswer: "Spina bifida",
-    explanation: "Failure of the caudal neuropore to close results in spina bifida, a neural tube defect affecting the spinal cord."
-  },
-  {
-    question: "Which of the following is NOT a function of neural crest cells?",
-    options: ["Forming melanocytes", "Developing into cranial ganglia", "Creating myotomes", "Giving rise to Schwann cells"],
-    correctAnswer: "Creating myotomes",
-    explanation: "Myotomes arise from the paraxial mesoderm, not neural crest cells."
-  },
-  {
-    question: "Which structure is derived from the lens placode?",
-    options: ["Inner ear", "Lens of the eye", "Spinal cord", "Melanocytes"],
-    correctAnswer: "Lens of the eye",
-    explanation: "The lens placode gives rise to the lens of the eye, while the otic placode contributes to the organs of hearing."
-  },
-  {
-    question: "The pharyngeal pouches are derivatives of which germ layer?",
-    options: ["Ectoderm", "Mesoderm", "Endoderm", "Neural crest"],
-    correctAnswer: "Endoderm",
-    explanation: "The endoderm gives rise to the epithelial components of the pharyngeal pouches, which contribute to structures like the thymus and parathyroid glands."
-  },
-  {
-    question: "The paraxial mesoderm segments into which structures?",
-    options: ["Neural crest cells", "Somites", "Splanchnic mesoderm", "Neural tube"],
-    correctAnswer: "Somites",
-    explanation: "The paraxial mesoderm segments into somites, which differentiate into sclerotomes, myotomes, and dermatomes."
-  },
-  {
-    question: "A newborn presents with anencephaly, a neural tube defect characterized by the absence of a major portion of the brain. Failure of which process most likely led to this condition?",
-    options: ["Gastrulation", "Neural induction", "Neural crest migration", "Cranial neuropore closure"],
-    correctAnswer: "Cranial neuropore closure",
-    explanation: "Anencephaly results from the failure of the cranial neuropore to close during the fourth week of development."
-  },
-  {
-    question: "A patient presents with a midline nasal mass. Imaging reveals a dermoid cyst containing ectodermal derivatives. This suggests an anomaly in which developmental process?",
-    options: ["Neural crest cell migration", "Neurulation", "Paraxial mesoderm differentiation", "Somite segmentation"],
-    correctAnswer: "Neurulation",
-    explanation: "Failure of proper neural tube closure at the midline can lead to persistent ectodermal remnants, forming a dermoid cyst."
-  },
-  {
-    question: "A fetus diagnosed with congenital scoliosis likely has defects in which embryonic structure?",
-    options: ["Neural crest cells", "Lateral plate mesoderm", "Somites", "Intermediate mesoderm"],
-    correctAnswer: "Somites",
-    explanation: "Somites differentiate into sclerotomes, which contribute to vertebral formation. Abnormal segmentation leads to scoliosis."
-  },
-  {
-    question: "During a fetal scan, a cardiologist notices a congenital heart defect involving improper formation of the outflow tract. Defective migration of which cell population is most likely responsible?",
-    options: ["Paraxial mesoderm", "Neural crest cells", "Intermediate mesoderm", "Ectodermal placodes"],
-    correctAnswer: "Neural crest cells",
-    explanation: "Neural crest cells contribute to the septation of the heart's outflow tract, and defects in their migration can lead to congenital heart anomalies."
-  },
-  {
-    question: "A newborn has a small lower jaw (micrognathia), cleft palate, and glossoptosis. These features are characteristic of which developmental disorder?",
-    options: ["Treacher Collins syndrome", "Pierre Robin sequence", "DiGeorge syndrome", "Holoprosencephaly"],
-    correctAnswer: "Pierre Robin sequence",
-    explanation: "Pierre Robin sequence results from abnormal development of the first pharyngeal arch, affecting mandibular growth."
-  },
-  {
-    question: "A medical student dissects a cadaver and notes that the spinal cord terminates at L2 instead of lower. Which embryological process is responsible for the differential growth of the spinal cord and vertebral column?",
-    options: ["Secondary neurulation", "Caudal regression syndrome", "Spinal cord elongation", "Ascending migration of the conus medullaris"],
-    correctAnswer: "Ascending migration of the conus medullaris",
-    explanation: "During development, the vertebral column grows faster than the spinal cord, leading to the ascension of the conus medullaris."
-  },
-  {
-    question: "A child presents with albinism, a condition caused by defective melanin production. Which embryonic cell population is responsible for melanin synthesis?",
-    options: ["Neural crest cells", "Ectoderm", "Mesoderm", "Endoderm"],
-    correctAnswer: "Neural crest cells",
-    explanation: "Neural crest cells differentiate into melanocytes, which produce melanin."
-  },
-  {
-    question: "A newborn is diagnosed with Hirschsprung disease, characterized by the absence of enteric ganglia in the distal colon. This condition results from failure of which process?",
-    options: ["Neural crest migration", "Lateral folding", "Primitive streak regression", "Paraxial mesoderm differentiation"],
-    correctAnswer: "Neural crest migration",
-    explanation: "Neural crest cells give rise to the enteric nervous system, and failure of their migration leads to Hirschsprung disease."
-  },
-  {
-    question: "A teratogen exposure at week 4 of gestation is most likely to disrupt which process?",
-    options: ["Neural tube closure", "Limb bud formation", "Placental development", "Gametogenesis"],
-    correctAnswer: "Neural tube closure",
-    explanation: "The neural tube closes between days 22-27, making this a critical period for teratogenic effects."
-  },
-  {
-    question: "A child with a deletion in chromosome 22q11 presents with cardiac defects, cleft palate, and immune deficiencies. This condition results from defective migration of which cell type?",
-    options: ["Paraxial mesoderm", "Neural crest cells", "Endodermal cells", "Somites"],
-    correctAnswer: "Neural crest cells",
-    explanation: "DiGeorge syndrome results from neural crest cell migration defects, affecting the development of the pharyngeal arches."
-  },
-  {
-    question: "A neonate presents with an omphalocele, a congenital defect where abdominal organs remain outside the body covered by a membrane. This condition results from failure of which developmental event?",
-    options: ["Neural crest cell migration", "Lateral folding", "Cephalocaudal folding", "Gastrulation"],
-    correctAnswer: "Lateral folding",
-    explanation: "Lateral folding of the embryo brings the lateral body walls together, and failure of this process can lead to omphalocele."
-  },
-  {
-    question: "A medical student is examining a histological slide of the adrenal gland. Which embryonic structure gives rise to the adrenal medulla?",
-    options: ["Neural tube", "Paraxial mesoderm", "Neural crest cells", "Intermediate mesoderm"],
-    correctAnswer: "Neural crest cells",
-    explanation: "The adrenal medulla is derived from neural crest cells, which differentiate into chromaffin cells."
-  },
-  {
-    question: "A fetus is diagnosed with sirenomelia (mermaid syndrome), a condition characterized by fusion of the lower limbs. This results from defects in which embryonic structure?",
-    options: ["Primitive streak", "Neural crest cells", "Lateral plate mesoderm", "Caudal mesoderm"],
-    correctAnswer: "Caudal mesoderm",
-    explanation: "Sirenomelia results from insufficient mesodermal migration in the caudal region, affecting limb and urogenital development."
-  },
-  {
-    question: "A pregnant woman exposed to retinoic acid early in pregnancy is at risk of having a child with defects in which structure?",
-    options: ["Spinal cord", "Brainstem", "Face and pharyngeal arches", "Limbs"],
-    correctAnswer: "Face and pharyngeal arches",
-    explanation: "Retinoic acid disrupts neural crest migration, leading to craniofacial and pharyngeal arch anomalies."
-  },
-  {
-    question: "A newborn has gastroschisis, a congenital abdominal wall defect. Unlike omphalocele, what is the key distinguishing feature?",
-    options: ["Absence of a covering membrane", "Involves neural crest migration", "Caused by paraxial mesoderm defect", "Involves persistent yolk sac"],
-    correctAnswer: "Absence of a covering membrane",
-    explanation: "Gastroschisis results from a defect in lateral folding, leading to herniation of abdominal contents without a membrane."
-  },
-  {
-    question: "A medical student is asked to identify the fate of sclerotomes in embryonic development. Which structure do they form?",
-    options: ["Muscles of the back", "Vertebrae and ribs", "Neural tube", "Somatic mesoderm"],
-    correctAnswer: "Vertebrae and ribs",
-    explanation: "Sclerotomes, derived from somites, differentiate into vertebrae and ribs."
-  },
-  {
-    question: "A newborn is diagnosed with holoprosencephaly, a brain malformation. Which developmental signaling pathway is most likely disrupted?",
-    options: ["Wnt signaling", "Sonic hedgehog (Shh)", "FGF signaling", "BMP signaling"],
-    correctAnswer: "Sonic hedgehog (Shh)",
-    explanation: "Shh signaling is crucial for forebrain and facial development, and mutations can result in holoprosencephaly."
-  },
+{ question: "Which of the following is the non-cellular component of blood?", options: ["Erythrocytes", "Liquid plasma", "Platelets", "Leukocytes"], correctAnswer: "Liquid plasma", explanation: "Blood consists of liquid plasma as its non-cellular component along with cellular elements such as red blood cells, white blood cells, and platelets." },
 
+{ question: "Which cells are primarily responsible for the transport of oxygen and carbon dioxide?", options: ["Platelets", "Red blood cells", "White blood cells", "Plasma cells"], correctAnswer: "Red blood cells", explanation: "Red blood cells contain hemoglobin, the pigment that binds oxygen and facilitates the transport of oxygen and carbon dioxide throughout the body." },
 
+{ question: "Which pigment in red blood cells is responsible for oxygen transport?", options: ["Myoglobin", "Hemoglobin", "Melanin", "Fibrinogen"], correctAnswer: "Hemoglobin", explanation: "Hemoglobin is the iron-containing pigment in red blood cells that binds oxygen in the lungs and releases it in tissues." },
 
-{ question: "What does physiology primarily study?", options: ["The structure of dead organisms", "The proper function and vital processes of living organisms", "Inorganic chemical reactions", "Genetic mutations"], correctAnswer: "The proper function and vital processes of living organisms", explanation: "Physiology is the study of proper function in living things and the vital processes that sustain life, as described in the definitions section." }, 
+{ question: "What does hematocrit measure in the blood?", options: ["The percentage of red blood cells out of the total blood volume", "The concentration of hemoglobin", "The volume of platelets", "The percentage of plasma in blood"], correctAnswer: "The percentage of red blood cells out of the total blood volume", explanation: "Hematocrit is a measure of the proportion of blood that is composed of red blood cells." },
 
-{ question: "Which term best describes the process by which the body maintains a stable internal environment despite external changes?", options: ["Metabolism", "Homeostasis", "Anabolism", "Catabolism"], correctAnswer: "Homeostasis", explanation: "Homeostasis is the process by which the body maintains a constant internal environment through various feedback mechanisms." }, 
+{ question: "What is the normal pH range of human blood?", options: ["7.35–7.45", "6.8–7.0", "7.8–8.0", "8.5–9.0"], correctAnswer: "7.35–7.45", explanation: "The pH of blood is tightly regulated between 7.35 and 7.45 to ensure proper physiological functioning." },
 
-{ question: "Who is acknowledged as the father of experimental physiology for his early use of experimentation on the body's systems?", options: ["Jean Fernel", "Galen", "William Harvey", "Claude Bernard"], correctAnswer: "Galen", explanation: "Galen is largely acknowledged as the father of experimental physiology due to his pioneering experiments on the body's systems." }, 
+{ question: "What is the average blood volume in adult males?", options: ["5–6 L", "3–4 L", "4–5 L", "6–7 L"], correctAnswer: "5–6 L", explanation: "Adult males typically have an average blood volume of 5 to 6 liters." },
 
-{ question: "Which physician was the first to use the term 'physiology', derived from the Greek meaning 'study of nature'?", options: ["William Harvey", "Galen", "Jean Fernel", "Franciscus Sylvius"], correctAnswer: "Jean Fernel", explanation: "Jean Fernel, a French physician, was the first to use the term 'physiology' and properly describe aspects of the spinal canal, as noted in the history section." }, 
+{ question: "What is the average blood volume in adult females?", options: ["4–5 L", "5–6 L", "3–4 L", "6–7 L"], correctAnswer: "4–5 L", explanation: "Adult females generally have a blood volume ranging from 4 to 5 liters." },
 
-{ question: "Which of the following is the largest and only single-organ system in the human body?", options: ["Cardiovascular system", "Integumentary system", "Nervous system", "Digestive system"], correctAnswer: "Integumentary system", explanation: "The integumentary system, which includes the skin, nails, sweat glands, and hair, is unique as the largest single-organ system in the body." }, 
+{ question: "Which of the following is a key function of plasma proteins in blood?", options: ["Maintaining osmotic pressure", "Transporting oxygen", "Producing white blood cells", "Storing iron"], correctAnswer: "Maintaining osmotic pressure", explanation: "Plasma proteins play an important role in maintaining osmotic pressure in capillaries, helping to regulate fluid balance in the blood." },
 
-{ question: "Which scientists are credited with describing the double-helix structure of DNA?", options: ["James Watson and Francis Crick", "Ivan Pavlov and Claude Bernard", "John O’Keefe and May-Britt Moser", "Peter Agre and John Jacob Abel"], correctAnswer: "James Watson and Francis Crick", explanation: "James Watson and Francis Crick won the Nobel Prize in 1962 for their groundbreaking description of the double-helix structure of DNA." }, 
+{ question: "Which plasma protein is directly involved in blood clotting?", options: ["Hemoglobin", "Albumin", "Globulins", "Fibrinogen"], correctAnswer: "Fibrinogen", explanation: "Fibrinogen is a soluble plasma protein that is converted into fibrin during the coagulation cascade, forming the structural basis of a blood clot." },
 
-{ question: "Which discovery is associated with Frederick Banting and Charles Best?", options: ["Isolation of insulin", "Discovery of epinephrine", "Development of the patch-clamp technique", "Identification of cyclic AMP"], correctAnswer: "Isolation of insulin", explanation: "Frederick Banting and Charles Best isolated and purified insulin in 1922, a discovery that revolutionized diabetes treatment." }, 
+{ question: "What is the typical shape of a red blood cell?", options: ["Biconcave disk", "Rod-shaped", "Spherical", "Irregular"], correctAnswer: "Biconcave disk", explanation: "The biconcave disk shape of red blood cells increases their surface area, facilitating efficient gas exchange." },
 
-{ question: "Which type of feedback mechanism works by reducing or removing the initial stimulus to maintain stability?", options: ["Positive feedback", "Negative feedback", "Feed-forward control", "Tonic control"], correctAnswer: "Negative feedback", explanation: "Negative feedback mechanisms help maintain homeostasis by reducing deviations from a set point, ensuring a stable internal environment." }, 
+{ question: "What is the approximate diameter of a red blood cell?", options: ["7.5 µm", "5 µm", "10 µm", "12 µm"], correctAnswer: "7.5 µm", explanation: "Red blood cells typically have a diameter of about 7.5 micrometers, which supports their efficient function in gas exchange." },
 
-{ question: "Which system of the human body is composed of the heart, arteries, capillaries, and veins?", options: ["Nervous system", "Respiratory system", "Cardiovascular system", "Digestive system"], correctAnswer: "Cardiovascular system", explanation: "The cardiovascular system consists of the heart and a network of blood vessels that circulate blood throughout the body." }, 
+{ question: "What is the approximate lifespan of a typical red blood cell?", options: ["About 120 days", "About 30 days", "About 60 days", "About 180 days"], correctAnswer: "About 120 days", explanation: "A red blood cell generally circulates for approximately 120 days before it is removed from the bloodstream." },
 
-{ question: "Which Nobel Prize-winning researcher discovered water channels in cells?", options: ["August Krogh", "Peter Agre", "Walter Dandy", "Erwin Neher"], correctAnswer: "Peter Agre", explanation: "Peter Agre won the Nobel Prize in Chemistry in 2003 for his discovery of water channels, essential for water transport across cell membranes." },
+{ question: "What is haemopoiesis?", options: ["The production of blood cells", "The destruction of red blood cells", "The formation of blood clots", "The conversion of hemoglobin to bilirubin"], correctAnswer: "The production of blood cells", explanation: "Haemopoiesis refers to the process by which all types of blood cells, including red blood cells, white blood cells, and platelets, are produced." },
 
+{ question: "Which process specifically refers to red blood cell production?", options: ["Thrombopoiesis", "Erythropoiesis", "Leukopoiesis", "Hemolysis"], correctAnswer: "Erythropoiesis", explanation: "Erythropoiesis is the specific process of synthesizing red blood cells." },
 
+{ question: "In adults, where are red blood cells primarily produced?", options: ["Red bone marrow", "Liver", "Spleen", "Kidneys"], correctAnswer: "Red bone marrow", explanation: "In adults, red blood cells are primarily produced in the red bone marrow, especially in the axial skeleton and the proximal epiphyses of long bones." },
 
-{ question: "What is the origin of the word 'physiology'?", options: ["Greek", "Latin", "Arabic", "Sanskrit"], correctAnswer: "Greek", explanation: "The term 'physiology' is derived from the Greek word 'physiologia', meaning 'study of nature'." }, 
+{ question: "Which membrane protein provides flexibility to red blood cells?", options: ["Spectrin", "Tubulin", "Actin", "Keratin"], correctAnswer: "Spectrin", explanation: "Spectrin is an important membrane protein that maintains the flexibility and structural integrity of red blood cells." },
 
-{ question: "Which of the following best describes human physiology?", options: ["Study of cellular structures only", "Study of normal and abnormal functions of the human body", "Study of diseases only", "Study of external body features"], correctAnswer: "Study of normal and abnormal functions of the human body", explanation: "Human physiology examines both the normal functions and the pathological conditions of the human body." }, 
+{ question: "What term describes the rupture of red blood cells?", options: ["Hemolysis", "Erythropoiesis", "Thrombopoiesis", "Diapedesis"], correctAnswer: "Hemolysis", explanation: "Hemolysis refers to the rupture or destruction of red blood cells, releasing hemoglobin into the bloodstream." },
 
-{ question: "Which experimental technique did Johannes Walaeus contribute to physiology?", options: ["Venous occlusion experiment", "Patch-clamp technique", "Electrocardiography", "Magnetic resonance imaging"], correctAnswer: "Venous occlusion experiment", explanation: "Johannes Walaeus performed the venous occlusion experiment to support the concept of blood returning to the heart." }, 
+{ question: "After phagocytosis, what happens to hemoglobin in red blood cells?", options: ["It is stored for later use", "It is broken down into globular proteins and heme, with heme converted to bilirubin", "It is excreted unchanged", "It is converted directly into urobilinogen"], correctAnswer: "It is broken down into globular proteins and heme, with heme converted to bilirubin", explanation: "Once red blood cells are phagocytosed, their hemoglobin is degraded; the heme portion is converted into bilirubin, while the globular protein is broken down into amino acids." },
 
-{ question: "Which physician first properly described the spinal canal?", options: ["Jean Fernel", "Galen", "William Harvey", "Claude Bernard"], correctAnswer: "Jean Fernel", explanation: "Jean Fernel was the first to describe the spinal canal, marking an important development in anatomical studies." }, 
+{ question: "What is the primary function of white blood cells?", options: ["Defending the body against pathogens", "Transporting oxygen", "Clotting the blood", "Regulating blood pH"], correctAnswer: "Defending the body against pathogens", explanation: "White blood cells are essential for the immune response, protecting the body from infections and foreign substances." },
 
-{ question: "Who brought the concept of blood circulation to the Netherlands and distinguished between types of glands?", options: ["Franciscus Sylvius", "Jean Fernel", "Johannes Walaeus", "William Beaumont"], correctAnswer: "Franciscus Sylvius", explanation: "Franciscus Sylvius introduced the concept of blood circulation in the Netherlands and differentiated between conglomerate and conglobate glands." }, 
+{ question: "Which type of white blood cell is the most abundant in circulation?", options: ["Neutrophils", "Lymphocytes", "Monocytes", "Eosinophils"], correctAnswer: "Neutrophils", explanation: "Neutrophils make up 50-70% of circulating white blood cells, making them the most numerous among the various types." },
 
-{ question: "Who is considered the founder of Dutch experimental physiology?", options: ["Johannes Walaeus", "Galen", "Claude Bernard", "William Beaumont"], correctAnswer: "Johannes Walaeus", explanation: "Johannes Walaeus is regarded as the founder of Dutch experimental physiology for his pioneering experiments." }, 
+{ question: "What does the term 'diapedesis' refer to?", options: ["The process by which white blood cells exit the bloodstream", "The process of clot formation", "The breakdown of fibrin", "The aggregation of platelets"], correctAnswer: "The process by which white blood cells exit the bloodstream", explanation: "Diapedesis is the process where white blood cells squeeze through the endothelial lining of blood vessels to reach sites of infection or injury." },
 
-{ question: "Which American physiologist used a patient's gunshot wound to study gastric function?", options: ["William Beaumont", "Joseph Lister", "Claude Bernard", "Ivan Pavlov"], correctAnswer: "William Beaumont", explanation: "William Beaumont's observation of a gunshot wound allowed him to study gastric function directly, contributing to practical physiology." }, 
+{ question: "Which mnemonic helps remember the order of abundance of white blood cells?", options: ["Never let monkeys eat bananas!", "Apples before oranges", "Bananas over apples", "Cats and dogs"], correctAnswer: "Never let monkeys eat bananas!", explanation: "The mnemonic 'Never let monkeys eat bananas!' stands for Neutrophils, Lymphocytes, Monocytes, Eosinophils, and Basophils, in order of their relative abundance." },
 
-{ question: "Which scientist is credited with reducing surgical mortality through the discovery of antiseptics?", options: ["Joseph Lister", "William Harvey", "Galen", "Claude Bernard"], correctAnswer: "Joseph Lister", explanation: "Joseph Lister introduced antiseptic techniques that dramatically reduced surgical mortality rates." }, 
+{ question: "What is thrombopoiesis?", options: ["The production of platelets", "The production of red blood cells", "The production of white blood cells", "The breakdown of platelets"], correctAnswer: "The production of platelets", explanation: "Thrombopoiesis is the process by which platelets are produced from megakaryocytes in the bone marrow." },
 
-{ question: "Which duo is known for advancing the cell theory in 1838?", options: ["Matthias Schleiden & Theodor Schwann", "Claude Bernard & William Beaumont", "Galen & Jean Fernel", "Frederick Banting & Charles Best"], correctAnswer: "Matthias Schleiden & Theodor Schwann", explanation: "Schleiden and Schwann were pivotal in establishing that all living organisms are composed of cells." }, 
+{ question: "How long do platelets typically circulate in the bloodstream?", options: ["9–12 days", "3–5 days", "15–20 days", "20–30 days"], correctAnswer: "9–12 days", explanation: "Platelets usually circulate for approximately 9 to 12 days before being removed by the spleen." },
 
-{ question: "Which landmark text by Claude Bernard laid the foundation for experimental medicine?", options: ["An Introduction to the Study of Experimental Medicine", "The Principles of Physiology", "The System of the Human Body", "The Origin of Species"], correctAnswer: "An Introduction to the Study of Experimental Medicine", explanation: "Claude Bernard's work provided clear explanations of experimental methods in physiology and medicine." }, 
+{ question: "What is hemostasis?", options: ["The process of stopping bleeding", "The production of blood cells", "The breakdown of blood clots", "The process of blood circulation"], correctAnswer: "The process of stopping bleeding", explanation: "Hemostasis is the series of events that lead to the cessation of bleeding after a blood vessel is injured." },
 
-{ question: "Which institution initiated a medical physiology program in the 1870s?", options: ["Harvard University", "Oxford University", "Yale University", "Johns Hopkins University"], correctAnswer: "Harvard University", explanation: "Harvard University established a medical physiology program in the 1870s, appointing Henry Bowditch as its first full-time physiologist." }, 
+{ question: "Which phase of hemostasis involves vasoconstriction of the blood vessel?", options: ["Vascular Phase", "Platelet Phase", "Coagulation Phase", "Fibrinolysis Phase"], correctAnswer: "Vascular Phase", explanation: "The vascular phase is the first phase of hemostasis and involves the constriction of the blood vessel to reduce blood flow." },
 
-{ question: "What did Ivan Pavlov study to develop the concept of conditional reflexes?", options: ["Salivary secretion in dogs", "Blood pressure regulation", "Heart rate variability", "Muscle contraction"], correctAnswer: "Salivary secretion in dogs", explanation: "Pavlov's experiments with dogs' salivary responses led to the development of the concept of conditional reflexes." }, 
+{ question: "During the platelet phase, what is the primary action of platelets?", options: ["Adhering to the damaged vessel wall to form a plug", "Releasing enzymes to digest clots", "Converting fibrinogen to fibrin", "Stimulating red blood cell production"], correctAnswer: "Adhering to the damaged vessel wall to form a plug", explanation: "In the platelet phase, platelets adhere to exposed collagen and damaged endothelium, aggregating to form a temporary plug to prevent blood loss." },
 
-{ question: "Who isolated and purified epinephrine from the adrenal gland in 1901?", options: ["John Jacob Abel and Jokichi Takamine", "Frederick Banting and Charles Best", "Joseph Lister and William Beaumont", "Claude Bernard and Galen"], correctAnswer: "John Jacob Abel and Jokichi Takamine", explanation: "John Jacob Abel and Jokichi Takamine made a breakthrough in hormone research by isolating epinephrine." }, 
+{ question: "What is the key event during the coagulation phase of hemostasis?", options: ["Conversion of fibrinogen into fibrin", "Platelet aggregation", "Vasoconstriction", "Breakdown of red blood cells"], correctAnswer: "Conversion of fibrinogen into fibrin", explanation: "The coagulation phase is characterized by the conversion of fibrinogen into fibrin, which forms a mesh that stabilizes the blood clot." },
 
-{ question: "Who performed the first mammalian heart transplant?", options: ["Alexis Carrel", "Christiaan Barnard", "Walter Dandy", "Claude Bernard"], correctAnswer: "Alexis Carrel", explanation: "Alexis Carrel is recognized for performing the first mammalian heart transplant in 1904." }, 
+{ question: "Which factor is responsible for converting prothrombin into thrombin in the coagulation cascade?", options: ["Prothrombin activator (Factor X)", "Fibrinogen", "Plasmin", "Tissue plasminogen activator"], correctAnswer: "Prothrombin activator (Factor X)", explanation: "Prothrombin activator, primarily Factor X, converts prothrombin into thrombin, a critical step in the coagulation cascade." },
 
-{ question: "Which scientist's work led to the modern classification of human blood groups?", options: ["Karl Landsteiner", "Frederick Banting", "John O’Keefe", "Erwin Neher"], correctAnswer: "Karl Landsteiner", explanation: "Karl Landsteiner's research resulted in the classification of human blood groups and the discovery of the Rh factor." }, 
+{ question: "What role does thrombin play in the clotting process?", options: ["It converts fibrinogen to fibrin", "It dissolves clots", "It activates white blood cells", "It stimulates vasoconstriction"], correctAnswer: "It converts fibrinogen to fibrin", explanation: "Thrombin is the enzyme that catalyzes the conversion of fibrinogen into fibrin, forming the structural basis of a blood clot." },
 
-{ question: "What physiological process did August Krogh study to earn his Nobel Prize?", options: ["Capillary fluid exchange and oxygen diffusion", "Conditional reflexes", "G protein-coupled receptor activity", "Telomere protection"], correctAnswer: "Capillary fluid exchange and oxygen diffusion", explanation: "August Krogh's work on how fluids and oxygen exchange in capillaries was groundbreaking and earned him a Nobel Prize." }, 
+{ question: "What is clot retraction?", options: ["The process by which a clot shrinks to draw vessel edges together", "The initial formation of a clot", "The dissolution of a clot", "The aggregation of platelets"], correctAnswer: "The process by which a clot shrinks to draw vessel edges together", explanation: "Clot retraction involves the contraction of the clot, which helps to bring the torn edges of a blood vessel closer together to facilitate healing." },
 
-{ question: "Which expedition led by Haldane J.S. helped study the effects of altitude on breathing?", options: ["Pike's Peak expedition", "Mount Everest expedition", "K2 expedition", "Andes expedition"], correctAnswer: "Pike's Peak expedition", explanation: "Haldane J.S. led an expedition to Pike's Peak in 1911 to investigate how altitude affects human respiration." }, 
+{ question: "What is fibrinolysis?", options: ["The process of clot dissolution", "The formation of fibrin", "The aggregation of platelets", "The activation of white blood cells"], correctAnswer: "The process of clot dissolution", explanation: "Fibrinolysis is the enzymatic breakdown of fibrin, which leads to the dissolution of the blood clot once the vessel is repaired." },
 
-{ question: "What method did Anton Carlson use to study the relationship between hunger and digestion?", options: ["Using an inflated balloon in the stomach", "Measuring blood pressure changes", "Recording neural activity", "Assessing hormone levels"], correctAnswer: "Using an inflated balloon in the stomach", explanation: "Anton Carlson employed an inflated balloon in the stomach during a 15-day fast to study stomach contractions related to hunger." }, 
+{ question: "Which enzyme is primarily responsible for breaking down fibrin during fibrinolysis?", options: ["Plasmin", "Thrombin", "Prothrombin", "Factor X"], correctAnswer: "Plasmin", explanation: "Plasmin is the key enzyme that degrades fibrin, thereby dissolving the blood clot during fibrinolysis." },
 
-{ question: "Which discovery in 1922 transformed the treatment of diabetes?", options: ["Isolation of insulin", "Discovery of epinephrine", "Identification of cyclic AMP", "Discovery of water channels"], correctAnswer: "Isolation of insulin", explanation: "The isolation of insulin by Banting and Best in 1922 revolutionized the management of diabetes." }, 
+{ question: "What is an embolus?", options: ["A clot that has detached and is traveling through the bloodstream", "A type of white blood cell", "A stationary blood clot", "A component of plasma"], correctAnswer: "A clot that has detached and is traveling through the bloodstream", explanation: "An embolus is a blood clot or other debris that breaks off from its original site and travels through the bloodstream, potentially causing blockages." },
 
-{ question: "Who is known for the first direct measurements of blood pressure in blood vessels?", options: ["Eugene Landis", "Henry Bowditch", "Claude Bernard", "William Harvey"], correctAnswer: "Eugene Landis", explanation: "Eugene Landis published the first direct measurements of blood pressure within arteries, capillaries, and veins." }, 
+{ question: "What is hemophilia?", options: ["A hereditary bleeding disorder due to clotting factor deficiency", "An autoimmune disease", "A bacterial infection", "A type of anemia"], correctAnswer: "A hereditary bleeding disorder due to clotting factor deficiency", explanation: "Hemophilia is a genetic disorder characterized by deficiencies in certain clotting factors, leading to prolonged bleeding." },
 
-{ question: "What was the main focus of the Harvard Fatigue Laboratory established in 1927?", options: ["Exercise and environmental physiology", "Cell division", "Neurotransmitter activity", "Hormone synthesis"], correctAnswer: "Exercise and environmental physiology", explanation: "The Harvard Fatigue Laboratory concentrated on studying the effects of exercise and extreme environmental conditions on human physiology." }, 
+{ question: "Which clotting factor is deficient in Hemophilia A?", options: ["Factor VIII", "Factor IX", "Factor X", "Factor II"], correctAnswer: "Factor VIII", explanation: "Hemophilia A is caused by a deficiency in clotting Factor VIII, which impairs the blood clotting process." },
 
-{ question: "Which neurosurgeon identified the cause of hydrocephalus and invented the baseball helmet?", options: ["Walter Dandy", "John O’Keefe", "Claude Bernard", "Alexis Carrel"], correctAnswer: "Walter Dandy", explanation: "Walter Dandy is noted for his work on hydrocephalus and is credited with inventing the baseball helmet in the 1930s." }, 
+{ question: "Which clotting factor is deficient in Hemophilia B?", options: ["Factor IX", "Factor VIII", "Factor X", "Factor II"], correctAnswer: "Factor IX", explanation: "Hemophilia B results from a deficiency in clotting Factor IX, leading to difficulties in forming stable blood clots." },
 
-{ question: "Which researchers elucidated the ionic mechanism behind nerve impulse transmission?", options: ["Hodgkin and Huxley", "Neher and Sakmann", "Pavlov and Bernard", "Landsteiner and Krogh"], correctAnswer: "Hodgkin and Huxley", explanation: "Hodgkin and Huxley discovered the ionic basis of nerve impulse transmission in 1952, a major milestone in neuroscience." }, 
+{ question: "Which of the following best describes a function of platelets?", options: ["Initiating the clotting process", "Transporting oxygen", "Defending against pathogens", "Regulating blood pH"], correctAnswer: "Initiating the clotting process", explanation: "Platelets are essential for hemostasis as they aggregate at sites of vascular injury to initiate the formation of a blood clot." },
 
-{ question: "Who discovered the neurotransmitter linked to mood regulation?", options: ["Welsh J.H.", "Claude Bernard", "Galen", "Jean Fernel"], correctAnswer: "Welsh J.H.", explanation: "Welsh J.H. discovered serotonin in 1953, a neurotransmitter that plays a critical role in regulating mood." }, 
+{ question: "During the platelet phase, what do activated platelets release to attract more platelets?", options: ["Chemical factors", "Hormones", "Enzymes", "Cytokines"], correctAnswer: "Chemical factors", explanation: "Activated platelets release chemical signals that recruit additional platelets to the site of injury, amplifying the clotting response." },
 
-{ question: "Which research revealed the sliding filament mechanism in skeletal muscle contraction?", options: ["Studies by Huxley Andrew & Huxley Hugh", "Pavlov's experiments", "Bernard's experimental methods", "Neher and Sakmann's findings"], correctAnswer: "Studies by Huxley Andrew & Huxley Hugh", explanation: "The research by Huxley Andrew and Huxley Hugh in 1954 demonstrated that skeletal muscle contraction involves the sliding of filaments." }, 
+{ question: "Which substance released by intact endothelial cells helps inhibit platelet aggregation?", options: ["Prostacyclin", "Thromboxane A2", "ADP", "Epinephrine"], correctAnswer: "Prostacyclin", explanation: "Prostacyclin, released by healthy endothelial cells, inhibits platelet aggregation and prevents unnecessary clot formation." },
 
-{ question: "What major discovery about DNA was made by Watson and Crick?", options: ["The double helix structure", "The process of transcription", "The genetic code", "The role of RNA"], correctAnswer: "The double helix structure", explanation: "Watson and Crick are renowned for elucidating the double helix structure of DNA, a pivotal moment in molecular biology." }, 
+{ question: "What is the primary role of the liver in the context of blood clotting?", options: ["Synthesis of clotting factors", "Storage of red blood cells", "Production of platelets", "Destruction of white blood cells"], correctAnswer: "Synthesis of clotting factors", explanation: "The liver is responsible for synthesizing many of the clotting factors that are essential for the blood coagulation process." },
 
-{ question: "What breakthrough did Earl Sutherland achieve regarding cellular signaling?", options: ["Identification of cyclic AMP", "Isolation of insulin", "Discovery of epinephrine", "Measurement of blood pressure"], correctAnswer: "Identification of cyclic AMP", explanation: "Earl Sutherland's identification of cyclic AMP in 1971 was crucial in understanding how cells respond to hormonal signals." }, 
+{ question: "Which vitamin is essential for the production of certain clotting factors in the liver?", options: ["Vitamin K", "Vitamin A", "Vitamin D", "Vitamin C"], correctAnswer: "Vitamin K", explanation: "Vitamin K plays a critical role in the synthesis of several clotting factors in the liver, making it essential for proper blood coagulation." },
 
-{ question: "Which technique, developed in 1974, allowed for detailed measurement of ion channel activity?", options: ["Electroencephalography", "Patch-clamp technique", "Magnetic resonance imaging", "Flow cytometry"], correctAnswer: "Patch-clamp technique", explanation: "The patch-clamp technique, introduced by Erwin Neher and Bert Sakmann, enabled precise measurement of ion flow across cell membranes." }, 
+{ question: "What does the common pathway in coagulation refer to?", options: ["The convergence of the intrinsic and extrinsic pathways leading to fibrin formation", "The process of platelet aggregation", "The breakdown of red blood cells", "The activation of white blood cells"], correctAnswer: "The convergence of the intrinsic and extrinsic pathways leading to fibrin formation", explanation: "The common pathway is the stage in coagulation where both the intrinsic and extrinsic pathways converge, resulting in the conversion of fibrinogen to fibrin." },
 
-{ question: "Which trio won the Nobel Prize in 2001 for their work on cell cycle regulation?", options: ["Leland Hartwell, Paul Nurse, and Timothy Hunt", "Watson, Crick, and Franklin", "Neher, Sakmann, and Dandy", "Banting, Best, and Lister"], correctAnswer: "Leland Hartwell, Paul Nurse, and Timothy Hunt", explanation: "In 2001, these scientists were awarded the Nobel Prize for discovering key mechanisms regulating cell growth, division, and death." }, 
+{ question: "What initiates the extrinsic pathway of coagulation?", options: ["Release of tissue factor by damaged tissues", "Exposure of collagen", "Platelet aggregation", "Vasoconstriction"], correctAnswer: "Release of tissue factor by damaged tissues", explanation: "The extrinsic pathway is triggered by the release of tissue factor from damaged endothelial cells and tissues." },
 
-{ question: "What is the primary function of water channels discovered by Peter Agre?", options: ["Facilitating oxygen transport", "Allowing water to move across cell membranes", "Regulating blood pressure", "Transmitting nerve impulses"], correctAnswer: "Allowing water to move across cell membranes", explanation: "Peter Agre's discovery of water channels revealed how cells manage water transport, which is essential for cellular homeostasis." }, 
+{ question: "What initiates the intrinsic pathway of coagulation?", options: ["Exposure of collagen in the vessel wall", "Tissue factor release", "Platelet aggregation", "Vasoconstriction"], correctAnswer: "Exposure of collagen in the vessel wall", explanation: "The intrinsic pathway is activated when the collagen in the damaged blood vessel wall is exposed to circulating blood." },
 
-{ question: "Which Nobel Prize-winning discovery involves the maintenance of chromosome ends?", options: ["Telomere protection by telomerase", "DNA replication", "Protein synthesis", "RNA interference"], correctAnswer: "Telomere protection by telomerase", explanation: "The discovery that telomerase protects chromosome ends has been vital in understanding aging and cellular replication." }, 
+{ question: "Which component of blood is primarily responsible for transporting nutrients and hormones?", options: ["Blood plasma", "Platelets", "Red blood cells", "White blood cells"], correctAnswer: "Blood plasma", explanation: "Blood plasma acts as the medium for transporting nutrients, hormones, and waste products throughout the body." },
 
-{ question: "Who were awarded the Nobel Prize in 2011 for their contributions to the understanding of immunity?", options: ["Bruce Beutler, Jules Hoffmann, and Ralph Steinman", "Watson, Crick, and Franklin", "Neher, Sakmann, and Huxley", "Hartwell, Nurse, and Hunt"], correctAnswer: "Bruce Beutler, Jules Hoffmann, and Ralph Steinman", explanation: "These scientists were recognized in 2011 for their groundbreaking work on innate and adaptive immune responses." }, { question: "What innovation is Ralph Brinster known for in physiological research?", options: ["Development of transgenic mice", "Discovery of the double helix", "Isolation of insulin", "Measurement of blood pressure"], correctAnswer: "Development of transgenic mice", explanation: "Ralph Brinster's work on creating transgenic mice has provided invaluable tools for studying gene function and disease." }, { question: "What is the significance of the discovery by Sir John Gurdon and Shinya Yamanaka?", options: ["Isolation of insulin", "Reprogramming mature cells into pluripotent stem cells", "Discovery of water channels", "Identification of cyclic AMP"], correctAnswer: "Reprogramming mature cells into pluripotent stem cells", explanation: "Their discovery demonstrated that mature cells can be reprogrammed to a pluripotent state, revolutionizing regenerative medicine." }, { question: "Which discovery highlighted the role of G protein-coupled receptors in cell signaling?", options: ["Research by Robert Lefkowitz and Brian Kobilka", "Isolation of insulin", "Discovery of the double helix", "Development of the patch-clamp technique"], correctAnswer: "Research by Robert Lefkowitz and Brian Kobilka", explanation: "The work of Lefkowitz and Kobilka revealed how G protein-coupled receptors function, significantly advancing our understanding of cell signaling." }, { question: "What is the main function of the vesicle traffic machinery discovered by Rothman, Schekman, and Sudhof?", options: ["Transporting genetic material", "Mediating intracellular transport", "Regulating the cell cycle", "Conducting nerve impulses"], correctAnswer: "Mediating intracellular transport", explanation: "This machinery is essential for the transport of vesicles within cells, ensuring proper distribution of molecules." }, { question: "Which discovery in 2014 revealed a cellular positioning system in the brain?", options: ["Identification of specialized cells by John O’Keefe, May-Britt Moser, and Edvard I. Moser", "Discovery of the blood-brain barrier", "Identification of neurotransmitters", "Discovery of water channels"], correctAnswer: "Identification of specialized cells by John O’Keefe, May-Britt Moser, and Edvard I. Moser", explanation: "Their discovery of grid and place cells uncovered the neural basis for spatial navigation and positioning in the brain." }, { question: "Which therapeutic breakthrough in 2015 was recognized with a Nobel Prize for combating parasitic infections?", options: ["A novel therapy against roundworm infections", "Isolation of insulin", "Discovery of the double helix", "Identification of cyclic AMP"], correctAnswer: "A novel therapy against roundworm infections", explanation: "The work of William C. Campbell and Satoshi Ōmura led to a new treatment targeting infections caused by roundworm parasites." }, { question: "Which of the following is NOT a component of the cardiovascular system?", options: ["Atria", "Ventricles", "Heart valves", "Lungs"], correctAnswer: "Lungs", explanation: "The cardiovascular system consists of the heart and blood vessels, while the lungs are part of the respiratory system." }, { question: "Which accessory organs are involved in the digestive/excretory system?", options: ["Liver and gallbladder", "Thyroid and parathyroid glands", "Kidneys and ureters", "Heart and blood vessels"], correctAnswer: "Liver and gallbladder", explanation: "The digestive/excretory system includes accessory organs like the liver and gallbladder that aid in digestion and nutrient processing." }
+{ question: "What is erythropoietin?", options: ["A hormone that stimulates red blood cell production", "A plasma protein", "A clotting factor", "A type of white blood cell"], correctAnswer: "A hormone that stimulates red blood cell production", explanation: "Erythropoietin is a hormone produced mainly by the kidneys that signals the bone marrow to produce more red blood cells." },
+
+{ question: "What is the main function of immunoglobulins found in plasma?", options: ["Defending against pathogens", "Transporting oxygen", "Aiding in clot formation", "Regulating blood pressure"], correctAnswer: "Defending against pathogens", explanation: "Immunoglobulins, or antibodies, are essential for the immune system as they recognize and neutralize pathogens." },
+
+{ question: "Which of the following best describes blood's role in temperature regulation?", options: ["It absorbs and distributes heat throughout the body", "It directly generates heat", "It cools the body by evaporation", "It does not play a role in temperature regulation"], correctAnswer: "It absorbs and distributes heat throughout the body", explanation: "Blood helps regulate body temperature by absorbing heat from metabolic processes and distributing it throughout the body." },
 
 
 
