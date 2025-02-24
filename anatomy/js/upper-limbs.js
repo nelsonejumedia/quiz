@@ -165,6 +165,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
 { question: "Simple epithelial tissue is characterized by:", options: ["A single layer of cells", "Multiple cell layers", "An abundance of extracellular matrix", "Loose cell arrangement"], correctAnswer: "A single layer of cells", explanation: "Simple epithelium consists of a single layer of cells, which is optimal for functions like diffusion and filtration." },
 
+
+
+{ question: "Which position is commonly used for pelvic examinations and childbirth?", options: ["Recumbent position", "Lithotomy position", "Knee-chest position", "Dextroposition"], correctAnswer: "Lithotomy position", explanation: "The lithotomy position is used for gynecological and pelvic procedures, including childbirth." },
+
+{ question: "Which term describes displacement of the heart to the right side of the thorax?", options: ["Dextroposition", "Ectopic position", "Cardiac position", "Lithotomy position"], correctAnswer: "Dextroposition", explanation: "Dextroposition specifically refers to the heart being located on the right side of the chest." },
+
+{ question: "Which position involves the patient resting on knees and elbows, with the hips elevated?", options: ["Knee-elbow position", "Decubitus position", "Recumbent position", "Lithotomy position"], correctAnswer: "Knee-elbow position", explanation: "The knee-elbow position has the patient on their knees and elbows, often used for certain rectal or sigmoidoscopic exams." },
+
+{ question: "In which position does the patient lie on their side, commonly used in X-ray imaging?", options: ["Ectopic position", "Decubitus position", "Knee-chest position", "Lithotomy position"], correctAnswer: "Decubitus position", explanation: "A decubitus position typically refers to lying on one’s side, used frequently in radiological imaging (e.g., lateral decubitus X-ray)." },
+
+{ question: "Which position is often used to help patients with heart or breathing difficulties by keeping them upright?", options: ["Cardiac position", "Prone recumbent", "Knee-elbow position", "Dextroposition"], correctAnswer: "Cardiac position", explanation: "The cardiac (or orthopneic) position helps patients breathe more easily by elevating the upper body, reducing stress on the heart and lungs." },
+
+{ question: "Which term best describes any organ located outside of its normal anatomical site?", options: ["Dextroposition", "Ectopic", "Recumbent", "Lithotomy"], correctAnswer: "Ectopic", explanation: "Ectopic means 'out of place,' referring to organs or tissues located away from their usual positions (e.g., ectopic pregnancy)." },
+
+{ question: "Which position describes a patient simply lying down, without specifying orientation?", options: ["Recumbent position", "Lithotomy position", "Knee-chest position", "Cardiac position"], correctAnswer: "Recumbent position", explanation: "The term 'recumbent' indicates lying down (supine, prone, or lateral), but doesn’t specify exact orientation." },
+
+{ question: "Which position is similar to knee-elbow but involves the patient’s chest closer to the bed or table?", options: ["Dextroposition", "Cardiac position", "Knee-chest position", "Decubitus position"], correctAnswer: "Knee-chest position", explanation: "The knee-chest position involves both knees on the bed with the chest resting on or near the bed, hips elevated." },
+
+{ question: "Which position is often used for rectal examinations but can be uncomfortable, sometimes replaced by the left lateral position?", options: ["Knee-elbow position", "Lithotomy position", "Ectopic position", "Cardiac position"], correctAnswer: "Knee-elbow position", explanation: "The knee-elbow position can provide access for rectal exams but is less commonly used due to patient discomfort." },
+
+{ question: "What does 'left lateral decubitus' specifically mean in a clinical or imaging context?", options: ["Patient lying on the left side", "Heart displaced to the right side", "Patient in an upright seated position", "Knees and chest on the table"], correctAnswer: "Patient lying on the left side", explanation: "A left lateral decubitus position means the patient is lying on their left side, commonly used in abdominal imaging." },
+
+{ question: "Which position can help reduce venous pressure in the lower body by elevating the hips and lowering the chest?", options: ["Knee-chest position", "Lithotomy position", "Recumbent position", "Cardiac position"], correctAnswer: "Knee-chest position", explanation: "The knee-chest position elevates the patient’s hips above the heart, momentarily reducing venous return from the lower extremities." },
+
+{ question: "What is a key risk if a patient remains in one position, such as decubitus, for an extended period without movement?", options: ["Enhanced lung expansion", "Dextroposition", "Formation of decubitus ulcers", "Increased cardiac output"], correctAnswer: "Formation of decubitus ulcers", explanation: "Pressure sores (decubitus ulcers) can form when patients remain in one position for too long, causing skin breakdown." },
+
+{ question: "Which position is typically employed for surgeries or examinations of the perineal region?", options: ["Lithotomy position", "Cardiac position", "Knee-elbow position", "Decubitus position"], correctAnswer: "Lithotomy position", explanation: "In the lithotomy position, the patient’s legs are flexed and elevated, allowing surgical or exam access to the perineal region." },
+
+{ question: "Which statement best describes 'recumbent' positioning?", options: ["It specifically means lying on the right side", "It is always used for pelvic exams", "It simply indicates lying down in any orientation", "It means the heart is displaced"], correctAnswer: "It simply indicates lying down in any orientation", explanation: "Recumbent refers broadly to lying down, whether supine, prone, or lateral." },
+
+{ question: "Which position is sometimes referred to as an 'orthopneic' position to help with breathing difficulties?", options: ["Cardiac position", "Knee-elbow position", "Lithotomy position", "Dextroposition"], correctAnswer: "Cardiac position", explanation: "The cardiac or orthopneic position involves sitting upright, often leaning forward, to ease breathing and reduce cardiac workload." },
+
+
+
+
+
+
+
+
+
 { question: "Stratified squamous epithelium is primarily adapted for:", options: ["Protection against abrasion", "Rapid absorption", "Hormone secretion", "Electrical conduction"], correctAnswer: "Protection against abrasion", explanation: "Stratified squamous epithelium, with multiple cell layers, is well suited to withstand physical and chemical stresses." },
 
 { question: "Which type of connective tissue is characterized by tightly packed collagen fibers with minimal ground substance?", options: ["Dense connective tissue", "Loose connective tissue", "Adipose tissue", "Reticular tissue"], correctAnswer: "Dense connective tissue", explanation: "Dense connective tissue has a high concentration of collagen fibers, providing great tensile strength." },
