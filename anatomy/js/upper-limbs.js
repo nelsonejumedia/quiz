@@ -77,6 +77,139 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Fundamentals of Anatomy/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+  category: "Fundamentals of Anatomy",
+  questions: [
+
+{ question: "Which of the following is NOT a tenet of the Cell Theory?", options: ["Cells arise spontaneously", "Cells are the basic unit of life", "New cells are formed from pre‐existing cells", "All living organisms are composed of cells"], correctAnswer: "Cells arise spontaneously", explanation: "Cell Theory holds that all living organisms are composed of cells, cells are the basic unit of life, and new cells are produced only from existing cells; spontaneous generation is not accepted." },
+
+{ question: "What is the primary function of the cell membrane?", options: ["Regulate what enters and exits the cell", "Store genetic information", "Produce energy", "Synthesize proteins"], correctAnswer: "Regulate what enters and exits the cell", explanation: "The cell membrane is a selectively permeable barrier that controls the movement of substances in and out of the cell." },
+
+{ question: "Which organelle is known as the powerhouse of the cell?", options: ["Golgi apparatus", "Nucleus", "Mitochondria", "Endoplasmic reticulum"], correctAnswer: "Mitochondria", explanation: "Mitochondria generate ATP through cellular respiration, providing energy for the cell." },
+
+{ question: "What is the primary function of the rough endoplasmic reticulum?", options: ["Lipid synthesis", "Protein synthesis and modification", "Detoxification", "ATP production"], correctAnswer: "Protein synthesis and modification", explanation: "The rough ER is studded with ribosomes and is involved in synthesizing and modifying proteins destined for membranes or secretion." },
+
+{ question: "Which structure is primarily responsible for packaging and sorting proteins within the cell?", options: ["Golgi apparatus", "Nucleus", "Lysosome", "Smooth endoplasmic reticulum"], correctAnswer: "Golgi apparatus", explanation: "The Golgi apparatus modifies, sorts, and packages proteins and lipids for transport to their destinations." },
+
+{ question: "During which phase of the cell cycle does the cell grow and replicate its DNA?", options: ["Interphase", "Mitosis", "Cytokinesis", "Anaphase"], correctAnswer: "Interphase", explanation: "Interphase is the period during which the cell grows, carries out normal functions, and replicates its DNA in preparation for division." },
+
+{ question: "What is the primary role of the centromere during mitosis?", options: ["It synthesizes proteins", "It holds sister chromatids together", "It produces ATP", "It forms the cell membrane"], correctAnswer: "It holds sister chromatids together", explanation: "The centromere is the region where sister chromatids are held together until they are separated during mitosis." },
+
+{ question: "Which cytoskeletal component is mainly involved in forming the mitotic spindle?", options: ["Microtubules", "Microfilaments", "Intermediate filaments", "Actin filaments"], correctAnswer: "Microtubules", explanation: "Microtubules assemble into the mitotic spindle, which is critical for separating chromosomes during cell division." },
+
+{ question: "What is the primary role of lysosomes in the cell?", options: ["Break down waste materials", "Synthesize proteins", "Store genetic information", "Produce ATP"], correctAnswer: "Break down waste materials", explanation: "Lysosomes contain digestive enzymes that break down cellular debris and macromolecules." },
+
+{ question: "Which organelle is responsible for detoxification and lipid synthesis?", options: ["Smooth endoplasmic reticulum", "Rough endoplasmic reticulum", "Golgi apparatus", "Mitochondria"], correctAnswer: "Smooth endoplasmic reticulum", explanation: "The smooth ER lacks ribosomes and is involved in lipid synthesis, detoxification of chemicals, and regulation of calcium ions." },
+
+{ question: "What is cytosol?", options: ["The fluid component of the cytoplasm", "A type of organelle", "The outer cell membrane", "A component of the nucleus"], correctAnswer: "The fluid component of the cytoplasm", explanation: "Cytosol is the liquid found inside cells, in which organelles and other cellular components are suspended." },
+
+{ question: "What is one primary function of the cytoskeleton?", options: ["Providing structural support", "DNA replication", "Protein synthesis", "Lipid metabolism"], correctAnswer: "Providing structural support", explanation: "The cytoskeleton is a network of protein filaments that helps maintain cell shape, enables movement, and aids in intracellular transport." },
+
+{ question: "The process of cell division that produces two genetically identical daughter cells is called:", options: ["Mitosis", "Meiosis", "Binary fission", "Fusion"], correctAnswer: "Mitosis", explanation: "Mitosis is the process by which a single cell divides to produce two daughter cells with identical genetic material." },
+
+{ question: "What is the smallest independently functioning unit of life?", options: ["Cell", "Tissue", "Organ", "Organ system"], correctAnswer: "Cell", explanation: "The cell is recognized as the fundamental unit of life, capable of performing all necessary functions of an organism." },
+
+{ question: "What is the function of the nuclear envelope?", options: ["It encloses the nucleus and regulates material exchange", "It synthesizes proteins", "It produces ATP", "It packages genetic material"], correctAnswer: "It encloses the nucleus and regulates material exchange", explanation: "The nuclear envelope is a double-membrane structure that surrounds the nucleus and controls the flow of molecules in and out via nuclear pores." },
+
+{ question: "Which of the following is NOT one of the four primary tissue types?", options: ["Cartilaginous", "Epithelial", "Connective", "Muscle"], correctAnswer: "Cartilaginous", explanation: "Cartilage is a specialized type of connective tissue, not a separate primary tissue type." },
+
+{ question: "What is the main function of epithelial tissue?", options: ["Protection and selective absorption", "Support and connection", "Contraction", "Transmission of nerve impulses"], correctAnswer: "Protection and selective absorption", explanation: "Epithelial tissue covers body surfaces, lines cavities, and forms glands, serving primarily as a protective barrier and facilitating absorption and secretion." },
+
+{ question: "Simple epithelial tissue is characterized by:", options: ["A single layer of cells", "Multiple cell layers", "An abundance of extracellular matrix", "Loose cell arrangement"], correctAnswer: "A single layer of cells", explanation: "Simple epithelium consists of a single layer of cells, which is optimal for functions like diffusion and filtration." },
+
+{ question: "Stratified squamous epithelium is primarily adapted for:", options: ["Protection against abrasion", "Rapid absorption", "Hormone secretion", "Electrical conduction"], correctAnswer: "Protection against abrasion", explanation: "Stratified squamous epithelium, with multiple cell layers, is well suited to withstand physical and chemical stresses." },
+
+{ question: "Which type of connective tissue is characterized by tightly packed collagen fibers with minimal ground substance?", options: ["Dense connective tissue", "Loose connective tissue", "Adipose tissue", "Reticular tissue"], correctAnswer: "Dense connective tissue", explanation: "Dense connective tissue has a high concentration of collagen fibers, providing great tensile strength." },
+
+{ question: "Which connective tissue is specialized for energy storage?", options: ["Adipose tissue", "Bone", "Cartilage", "Blood"], correctAnswer: "Adipose tissue", explanation: "Adipose tissue stores fat, serving as an energy reserve and providing insulation." },
+
+{ question: "Which tissue type is primarily responsible for generating force and movement?", options: ["Muscle tissue", "Nervous tissue", "Connective tissue", "Epithelial tissue"], correctAnswer: "Muscle tissue", explanation: "Muscle tissue contracts to produce movement and generate force." },
+
+{ question: "Cardiac muscle tissue is unique because it is:", options: ["Striated and involuntary", "Non-striated and voluntary", "Only found in the limbs", "Incapable of contraction"], correctAnswer: "Striated and involuntary", explanation: "Cardiac muscle shares the striated appearance of skeletal muscle but functions involuntarily to pump blood." },
+
+{ question: "Which tissue type is specialized for the transmission of electrical signals?", options: ["Nervous tissue", "Muscle tissue", "Epithelial tissue", "Connective tissue"], correctAnswer: "Nervous tissue", explanation: "Nervous tissue is designed to conduct electrical impulses and process information throughout the body." },
+
+{ question: "In which tissue type are cells most tightly packed with little extracellular material?", options: ["Epithelial tissue", "Connective tissue", "Muscle tissue", "Nervous tissue"], correctAnswer: "Epithelial tissue", explanation: "Epithelial tissue features cells that are closely packed together with minimal extracellular matrix, forming continuous sheets." },
+
+{ question: "Pseudostratified epithelium is characterized by:", options: ["A single layer of cells with nuclei at different levels", "Multiple uniform layers of cells", "Lack of cellular polarity", "Abundant extracellular matrix"], correctAnswer: "A single layer of cells with nuclei at different levels", explanation: "Despite appearing layered due to varying nuclear positions, pseudostratified epithelium is a single continuous layer of cells." },
+
+{ question: "Which connective tissue type is the most abundant in the body?", options: ["Loose connective tissue", "Dense connective tissue", "Adipose tissue", "Reticular tissue"], correctAnswer: "Loose connective tissue", explanation: "Loose connective tissue is widespread and provides support, elasticity, and a framework for organs." },
+
+{ question: "The basement membrane is most closely associated with which type of tissue?", options: ["Epithelial tissue", "Muscle tissue", "Nervous tissue", "Connective tissue"], correctAnswer: "Epithelial tissue", explanation: "The basement membrane underlies epithelial tissues, providing support and anchoring the cells to underlying connective tissue." },
+
+{ question: "Which type of muscle tissue is found in the walls of internal organs such as the intestines?", options: ["Smooth muscle", "Skeletal muscle", "Cardiac muscle", "Striated muscle"], correctAnswer: "Smooth muscle", explanation: "Smooth muscle is non-striated and involuntary, and it lines internal organs to facilitate movements like peristalsis." },
+
+{ question: "Which function is the primary role of nervous tissue?", options: ["Conducting electrical impulses", "Producing movement", "Providing structural support", "Facilitating absorption"], correctAnswer: "Conducting electrical impulses", explanation: "Nervous tissue is specialized for the rapid transmission of signals throughout the body." },
+
+{ question: "What is the correct hierarchical order of biological organization?", options: ["Cells, Tissues, Organs, Organ systems", "Tissues, Cells, Organs, Organ systems", "Cells, Organs, Tissues, Organ systems", "Organs, Tissues, Cells, Organ systems"], correctAnswer: "Cells, Tissues, Organs, Organ systems", explanation: "The proper order of biological organization from simplest to most complex is: cells, tissues, organs, and organ systems." },
+
+{ question: "Which organ system is primarily responsible for protecting the body from external harm?", options: ["Integumentary system", "Skeletal system", "Nervous system", "Respiratory system"], correctAnswer: "Integumentary system", explanation: "The integumentary system, including the skin and its accessory structures, acts as a barrier protecting the body from external environmental hazards." },
+
+{ question: "The skeletal system is divided into the axial and appendicular skeletons. Which of the following is part of the axial skeleton?", options: ["Skull", "Humerus", "Femur", "Pelvis"], correctAnswer: "Skull", explanation: "The skull is a component of the axial skeleton, which also includes the vertebral column and rib cage." },
+
+{ question: "Which organ system is primarily responsible for the transportation of nutrients and gases throughout the body?", options: [ "Digestive system", "Cardiovascular system", "Nervous system", "Muscular system"], correctAnswer: "Cardiovascular system", explanation: "The cardiovascular system circulates blood, thereby transporting oxygen, nutrients, and waste products throughout the body." },
+
+{ question: "Which system is directly involved in the exchange of oxygen and carbon dioxide?", options: ["Respiratory system", "Digestive system", "Urinary system", "Endocrine system"], correctAnswer: "Respiratory system", explanation: "The respiratory system is designed to facilitate gas exchange between the body and the external environment." },
+
+{ question: "Which of the following is a clear example of an organ system?", options: ["Muscular system", "Cell membrane", "Cytoplasm", "Ribosomes"], correctAnswer: "Muscular system", explanation: "The muscular system, which includes various muscle tissues working together, is an organ system responsible for movement." },
+
+{ question: "Which organ system works in close coordination with the nervous system to regulate body functions?", options: ["Endocrine system", "Integumentary system", "Skeletal system", "Digestive system"], correctAnswer: "Endocrine system", explanation: "The endocrine system secretes hormones that interact with the nervous system to regulate metabolism, growth, and other body functions." },
+
+{ question: "What is the primary function of the digestive system?", options: ["Pumping blood", "Breakdown and absorption of nutrients",  "Structural support", "Impulse conduction"], correctAnswer: "Breakdown and absorption of nutrients", explanation: "The digestive system is responsible for digesting food, absorbing nutrients, and eliminating waste." },
+
+{ question: "Which organ system is primarily responsible for the production and excretion of urine?", options: ["Urinary system", "Reproductive system", "Nervous system", "Cardiovascular system"], correctAnswer: "Urinary system", explanation: "The urinary system filters blood and removes waste products in the form of urine." },
+
+{ question: "What is the main function of the lymphatic system?", options: ["Immune response and fluid balance", "Gas exchange", "Movement", "Hormone production"], correctAnswer: "Immune response and fluid balance", explanation: "The lymphatic system helps defend against infections and maintains the balance of bodily fluids." },
+
+{ question: "Which structure is the primary site of sperm production in the male reproductive system?", options: ["Testes", "Epididymis", "Seminal vesicles", "Prostate gland"], correctAnswer: "Testes", explanation: "The testes are responsible for producing sperm and secreting testosterone, which is crucial for male reproductive function." },
+
+{ question: "Where do sperm mature and get stored before ejaculation?", options: ["Vas deferens", "Urethra", "Epididymis", "Seminal vesicle"], correctAnswer: "Epididymis", explanation: "The epididymis is the coiled tube where sperm mature and are stored until ejaculation." },
+
+{ question: "Which gland contributes a fructose-rich fluid to semen, aiding in sperm motility?", options: ["Seminal vesicle", "Prostate gland", "Bulbourethral gland", "Pituitary gland"], correctAnswer: "Seminal vesicle", explanation: "Seminal vesicles secrete a fluid that provides energy and facilitates sperm movement." },
+
+{ question: "In the female reproductive system, where does fertilization most commonly occur?", options: ["Fallopian tube", "Uterus", "Vagina", "Ovary"], correctAnswer: "Fallopian tube", explanation: "Fertilization typically occurs in the fallopian tube, particularly in its widened ampullary region." },
+
+{ question: "What is the primary function of the ovary?", options: ["Production of oocytes and secretion of hormones", "Transport of sperm", "Storage of seminal fluid", "Nutrient absorption"], correctAnswer: "Production of oocytes and secretion of hormones", explanation: "Ovaries produce eggs (oocytes) and secrete hormones such as estrogen and progesterone that regulate the menstrual cycle." },
+
+{ question: "Which structure in the female reproductive system is primarily responsible for housing and nurturing a developing embryo?", options: [ "Vagina", "Fallopian tube", "Ovary", "Uterus"], correctAnswer: "Uterus", explanation: "The uterus provides the environment necessary for implantation and growth of the embryo during pregnancy." },
+
+{ question: "The clitoris is primarily involved in which of the following functions?", options: ["Sexual arousal", "Egg production", "Urine storage", "Hormone secretion"], correctAnswer: "Sexual arousal", explanation: "The clitoris is a highly sensitive structure that plays a key role in female sexual arousal." },
+
+{ question: "Which external structure is part of the female reproductive system?", options: [ "Uterus","Vulva", "Fallopian tube", "Ovary"], correctAnswer: "Vulva", explanation: "The vulva comprises the external genitalia of the female reproductive system." },
+
+{ question: "What is the function of the bulbourethral glands in the male reproductive system?", options: ["Produce sperm", "Store testosterone", "Secrete a lubricating fluid", "Neutralize acidic urine"], correctAnswer: "Secrete a lubricating fluid", explanation: "The bulbourethral glands produce pre-ejaculate fluid that lubricates the urethra and helps clear residual urine." },
+
+{ question: "Which statement best describes the primary difference between the male and female reproductive systems?", options: ["Male systems produce sperm and have external genitalia, while female systems produce oocytes and support gestation", "Both systems perform identical functions", "Female systems produce sperm, while male systems produce oocytes", "There is no structural difference between male and female reproductive systems"], correctAnswer: "Male systems produce sperm and have external genitalia, while female systems produce oocytes and support gestation", explanation: "This statement accurately summarizes the main functional and anatomical differences between the male and female reproductive systems." }
+
+
+
+
+
+
+
+
+],
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////Basics/////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -386,10 +519,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ],
 },
-
-
-
-
 
 
 
