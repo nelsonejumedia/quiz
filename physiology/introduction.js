@@ -889,7 +889,7 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 2250);
+    }, 3250);
   }, 250);
 }
 
