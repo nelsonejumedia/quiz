@@ -119,35 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 { question: "Which of the following is NOT one of the four primary tissue types?", options: ["Cartilaginous", "Epithelial", "Connective", "Muscle"], correctAnswer: "Cartilaginous", explanation: "Cartilage is a specialized type of connective tissue, not a separate primary tissue type." },
 
-{ question: "Which structure is primarily responsible for sperm production in the male reproductive system?", options: ["Testes", "Epididymis", "Prostate gland", "Seminal vesicles"], correctAnswer: "Testes", explanation: "The testes are the site of sperm production and testosterone secretion in males." },
 
-{ question: "Which structure stores and matures sperm in the male reproductive system?", options: ["Prostate gland", "Seminal vesicles", "Epididymis", "Testes"], correctAnswer: "Seminal vesicles", explanation: "The epididymis is where sperm mature and are stored before ejaculation." },
 
-{ question: "In the female reproductive system, which structure is responsible for capturing the released oocyte?", options: ["Uterus", "Ovary", "infundibulum", "Cervix"], correctAnswer: "infundibulum", explanation: "The infundibulum of the fallopian tube, with its fimbriae, captures the oocyte released from the ovary." },
 
-{ question: "Which layer of the uterine wall is primarily responsible for the contractile force during childbirth?", options: ["Endometrium", "Perimetrium", "Serosa", "Myometrium"], correctAnswer: "Myometrium", explanation: "The myometrium is the thick muscular layer that contracts during labor." },
 
-{ question: "Which gland in the male reproductive system secretes a pre-ejaculate fluid that lubricates the urethra?", options: ["Bulbourethral gland", "Seminal vesicle", "Prostate gland", "Testes"], correctAnswer: "Bulbourethral gland", explanation: "The bulbourethral glands produce a lubricating fluid that helps clear the urethra prior to ejaculation." },
 
-{ question: "Which hormone is primarily secreted by the testes in males?", options: ["Estrogen", "Testosterone", "Progesterone", "Luteinizing hormone"], correctAnswer: "Testosterone", explanation: "Testosterone, produced by Leydig cells in the testes, is the main male sex hormone." },
 
-{ question: "Which structure in the female reproductive system produces oocytes?", options: ["Fallopian tube", "Uterus", "Ovary", "Vulva"], correctAnswer: "Ovary", explanation: "The ovaries are responsible for producing oocytes and secreting key hormones like estrogen and progesterone." },
 
-{ question: "What is the primary function of the seminal vesicles in males?", options: ["Store sperm", "Secrete an alkaline fluid to nourish sperm", "Produce sperm", "Regulate testosterone levels"], correctAnswer: "Regulate testosterone levels", explanation: "The seminal vesicles secrete a fructose-rich fluid that provides energy for sperm and contributes to semen volume." },
 
-{ question: "Which structure in the female reproductive system provides the site for implantation of a fertilized egg?", options: ["Uterus", "Fallopian tube", "Ovary", "Cervix"], correctAnswer: "Uterus", explanation: "The uterus, specifically its endometrial lining, is where implantation of a fertilized egg occurs." },
 
-{ question: "Which structure in the male reproductive system plays a key role by secreting an alkaline fluid that helps neutralize the acidic environment of the female reproductive tract?", options: ["Epididymis", "Prostate gland", "Bulbourethral gland", "Testes"], correctAnswer: "Prostate gland", explanation: "The prostate gland produces an alkaline fluid that helps protect sperm by neutralizing the acidity of the vaginal environment." },
 
-{ question: "Which structure in the female reproductive system serves as the birth canal and passageway for menstrual flow?", options: ["Ovary", "Vagina", "Fallopian tube", "Uterus"], correctAnswer: "Vagina", explanation: "The vagina is a muscular canal that functions as the passageway for menstrual flow, copulation, and childbirth." },
-
-{ question: "What is the primary function of the cervix in the female reproductive system?", options: ["Produce oocytes", "Capture the oocyte", "Secrete hormones", "Produce cervical mucus to regulate sperm passage"], correctAnswer: "Produce cervical mucus to regulate sperm passage", explanation: "The cervix produces mucus that changes in consistency during the menstrual cycle to either facilitate or block sperm movement." },
-
-{ question: "During the menstrual cycle, which hormone primarily stimulates the thickening of the endometrium?", options: [ "Testosterone", "Progesterone", "Estrogen", "Luteinizing hormone"], correctAnswer: "Estrogen", explanation: "Estrogen is responsible for the proliferation and thickening of the endometrial lining during the follicular phase." },
-
-{ question: "Which structure contributes the majority of the seminal fluid volume in males?", options: ["Bulbourethral gland", "Seminal vesicle", "Epididymis", "Testes"], correctAnswer: "Seminal vesicle", explanation: "Seminal vesicles produce a large portion of the fluid that nourishes sperm and increases semen volume." },
-
-{ question: "What is the primary role of ovarian follicles in the female reproductive system?", options: ["Exclusively produce estrogen", "Store oocytes", "Support the maturation and development of oocytes", "Facilitate fertilization"], correctAnswer: "Support the maturation and development of oocytes", explanation: "Ovarian follicles provide the environment necessary for oocyte maturation and development prior to ovulation." }
 
 
 
