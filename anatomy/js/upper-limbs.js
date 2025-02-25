@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 {
 
-category: "Joints",
+category: "joints",
 questions: [
 
 
