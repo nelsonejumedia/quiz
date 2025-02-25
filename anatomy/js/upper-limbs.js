@@ -77,6 +77,435 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+{
+
+category: "Joints",
+questions: [
+
+
+
+{
+  question: "1. All proteins contain the",
+  options: ["Same 20 amino acids", "Different amino acids", "300 Amino acids occurring in nature", "Only a few amino acids"],
+  correctAnswer: "Same 20 amino acids",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "2. Proteins contain",
+  options: ["Only L-a-amino acids", "Only D-amino acids", "DL-Amino acids", "Both (A) and (B)"],
+  correctAnswer: "Only L-a-amino acids",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "3. The optically inactive amino acid is",
+  options: ["Glycine", "Serine", "Threonine", "Valine"],
+  correctAnswer: "Glycine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "4. At neutral pH, a mixture of amino acids in solution would be predominantly:",
+  options: ["Dipolar ions", "Nonpolar molecules", "Positive and monovalent", "Hydrophobic"],
+  correctAnswer: "Dipolar ions",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "5. The true statement about solutions of amino acids at physiological pH is",
+  options: ["All amino acids contain both positive and negative charges", "All amino acids contain positively charged side chains", "Some amino acids contain only positive charge", "All amino acids contain negatively charged side chains"],
+  correctAnswer: "All amino acids contain both positive and negative charges",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "6. pH (isoelectric pH) of alanine is",
+  options: ["6.02", "6.6", "6.8", "7.2"],
+  correctAnswer: "6.02",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "7. Since the pK values for aspartic acid are 2.0, 3.9 and 10.0, it follows that the isoelectric (pH) is",
+  options: ["3.0", "3.9", "5.9", "6.0"],
+  correctAnswer: "3.0",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "8. Sulphur containing amino acid is",
+  options: ["Methionine", "Leucine", "Valine", "Asparagine"],
+  correctAnswer: "Methionine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "9. An example of sulphur containing amino acid is",
+  options: ["2-Amino-3-mercaptopropanoic acid", "2-Amino-3-methylbutanoic acid", "2-Amino-3-hydroxypropanoic acid", "Amino acetic acid"],
+  correctAnswer: "2-Amino-3-mercaptopropanoic acid",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "10. All the following are sulphur containing amino acids found in proteins except",
+  options: ["Cysteine", "Cystine", "Methionine", "Threonine"],
+  correctAnswer: "Threonine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "11. An aromatic amino acid is",
+  options: ["Lysine", "Tyrosine", "Taurine", "Arginine"],
+  correctAnswer: "Tyrosine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "12. The functions of plasma albumin are",
+  options: ["Osmosis", "Transport", "Immunity", "both (A) and (B)"],
+  correctAnswer: "Osmosis",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "13. Amino acid with side chain containing basic groups is",
+  options: ["2-Amino 5-guanidovaleric acid", "2-Pyrrolidine carboxylic acid", "2-Amino 3-mercaptopropanoic acid", "2-Amino propanoic acid"],
+  correctAnswer: "2-Amino 5-guanidovaleric acid",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "14. An example of a-amino acid not present in proteins but essential in mammalian metabolism is",
+  options: ["3-Amino 3-hydroxypropanoic acid", "2-Amino 3-hydroxybutanoic acid", "2-Amino 4-mercaptobutanoic acid", "2-Amino 3-mercaptopropanoic acid"],
+  correctAnswer: "2-Amino 4-mercaptobutanoic acid",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "15. An essential amino acid in man is",
+  options: ["Aspartate", "Tyrosine", "Methionine", "Serine"],
+  correctAnswer: "Methionine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "16. Non essential amino acids",
+  options: ["Are not components of tissue proteins", "May be synthesized in the body from essential amino acids", "Have no role in the metabolism", "May be synthesized in the body in diseased states"],
+  correctAnswer: "May be synthesized in the body from essential amino acids",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "17. Which one of the following is semiessential amino acid for humans?",
+  options: ["Valine", "Arginine", "Lysine", "Tyrosine"],
+  correctAnswer: "Arginine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "18. An example of polar amino acid is",
+  options: ["Alanine", "Leucine", "Arginine", "Valine"],
+  correctAnswer: "Arginine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "19. The amino acid with a nonpolar side chain is",
+  options: ["Serine", "Valine", "Asparagine", "Threonine"],
+  correctAnswer: "Valine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "20. A ketogenic amino acid is",
+  options: ["Valine", "Cysteine", "Leucine", "Threonine"],
+  correctAnswer: "Leucine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "21. An amino acid that does not form an a-helix is",
+  options: ["Valine", "Proline", "Tyrosine", "Tryptophan"],
+  correctAnswer: "Proline",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "22. An amino acid not found in proteins is",
+  options: ["β-Alanine", "Proline", "Lysine", "Histidine"],
+  correctAnswer: "β-Alanine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "25. Biuret reaction is specific for",
+  options: ["-CONH-linkages", "-CSNH2 group", "-(NH)NH2 group", "All of these"],
+  correctAnswer: "-CONH-linkages",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "26. Sakaguchi's reaction is specific for",
+  options: ["Tyrosine", "Proline", "Arginine", "Cysteine"],
+  correctAnswer: "Arginine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "27. Million-Nasse's reaction is specific for the amino acid:",
+  options: ["Tryptophan", "Tyrosine", "Phenylalanine", "Arginine"],
+  correctAnswer: "Tyrosine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "28. Ninhydrin with evolution of CO2 forms a blue complex with",
+  options: ["Peptide bond", "a-Amino acids", "Serotonin", "Histamine"],
+  correctAnswer: "a-Amino acids",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "29. The most of the ultraviolet absorption of proteins above 240 nm is due to their content of",
+  options: ["Tryptophan", "Aspartate", "Glutamate", "Alanine"],
+  correctAnswer: "Tryptophan",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "30. Which of the following is a dipeptide?",
+  options: ["Anserine", "Glutathione", "Glucagon", "B-Lipoprotein"],
+  correctAnswer: "Anserine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "31. Which of the following is a tripeptide?",
+  options: ["Anserine", "Oxytocin", "Glutathione", "Kallidin"],
+  correctAnswer: "Glutathione",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "32. A peptide which acts as potent smooth muscle hypotensive agent is",
+  options: ["Glutathione", "Bradykinin", "Tryocidine", "Gramicidin-s"],
+  correctAnswer: "Bradykinin",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "33. A tripeptide functioning as an important reducing agent in the tissues is",
+  options: ["Bradykinin", "Kallidin", "Tyrocidin", "Glutathione"],
+  correctAnswer: "Glutathione",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "34. An example of metalloprotein is",
+  options: ["Casein", "Ceruloplasmin", "Gelatin", "Salmine"],
+  correctAnswer: "Ceruloplasmin",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "35. Carbonic anhydrase is an example of",
+  options: ["Lipoprotein", "Phosphoprotein", "Metalloprotein", "Chromoprotein"],
+  correctAnswer: "Metalloprotein",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "36. An example of chromoprotein is",
+  options: ["Hemoglobin", "Sturine", "Nuclein", "Gliadin"],
+  correctAnswer: "Hemoglobin",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "38. Casein, the milk protein is",
+  options: ["Nucleoprotein", "Chromoprotein", "Phosphoprotein", "Glycoprotein"],
+  correctAnswer: "Phosphoprotein",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "41. Histones are",
+  options: ["Identical to protamine", "Proteins rich in lysine and arginine", "Proteins with high molecular weight", "Insoluble in water and very dilute acids"],
+  correctAnswer: "Proteins rich in lysine and arginine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "42. The protein present in hair is",
+  options: ["Keratin", "Elastin", "Myosin", "Tropocollagen"],
+  correctAnswer: "Keratin",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "43. The amino acid from which synthesis of the protein of hair keratin takes place is",
+  options: ["Alanine", "Methionine", "Proline", "Hydroxyproline"],
+  correctAnswer: "Methionine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "52. Globular proteins have completely folded, coiled polypeptide chain and the axial ratio (ratio of length to breadth) is",
+  options: ["Less than 10 and generally not greater than 3-4", "Generally 10", "Greater than 10 and generally 20", "Greater than 10"],
+  correctAnswer: "Less than 10 and generally not greater than 3-4",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "53. Fibrous proteins have axial ratio",
+  options: ["Less than 10", "Less than 10 and generally not greater than 3-4", "Generally 10", "Greater than 10"],
+  correctAnswer: "Greater than 10",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "54. Each turn of a-helix contains the amino acid residues (number):",
+  options: ["3.6", "3.0", "4.2", "4.5"],
+  correctAnswer: "3.6",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "55. Distance traveled per turn of a-helix in nm is",
+  options: ["0.53", "0.54", "0.44", "0.48"],
+  correctAnswer: "0.54",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "56. Along the a-helix each amino acid residue advances in nm by",
+  options: ["0.15", "0.10", "0.12", "0.20"],
+  correctAnswer: "0.15",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "57. The number of helices present in a collagen molecule is",
+  options: ["1", "2", "3", "4"],
+  correctAnswer: "3",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "58. In proteins the a-helix and ẞ-pleated sheet are examples of",
+  options: ["Primary structure", "Secondary structure", "Tertiary structure", "Quaternary structure"],
+  correctAnswer: "Secondary structure",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "59. The a-helix of proteins is",
+  options: ["A pleated structure", "Made periodic by disulphide bridges", "A non-periodic structure", "Stabilised by hydrogen bonds between NH and CO groups of the main chain"],
+  correctAnswer: "A non-periodic structure",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "63. Tertiary structure of a protein describes",
+  options: ["The order of amino acids", "Location of disulphide bonds", "Loop regions of proteins", "The ways of protein folding"],
+  correctAnswer: "The ways of protein folding",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "64. In a protein molecule the disulphide bond is not broken by",
+  options: ["Reduction", "Oxidation", "Denaturation", "X-ray diffraction"],
+  correctAnswer: "Denaturation",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "65. The technique for purification of proteins that can be made specific for a given protein is",
+  options: ["Gel filtration chromotography", "Ion exchange chromatography", "Electrophoresis", "Affinity chromatography"],
+  correctAnswer: "Affinity chromatography",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "66. Denaturation of proteins results in",
+  options: ["Disruption of primary structure", "Breakdown of peptide bonds", "Destruction of hydrogen bonds", "Irreversible changes in the molecule"],
+  correctAnswer: "Destruction of hydrogen bonds",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "67. Primary structure of a protein is formed by",
+  options: ["Hydrogen bonds", "Peptide bonds", "Disulphide bonds", "All of these"],
+  correctAnswer: "Peptide bonds",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "68. a-Helix is formed by",
+  options: ["Hydrogen bonds", "Hydrophobic bonds", "Electrostatic bonds", "Disulphide bonds"],
+  correctAnswer: "Hydrogen bonds",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "69. Glutelins are present in",
+  options: ["Milk", "Eggs", "Meat", "Cereals"],
+  correctAnswer: "Cereals",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "70. Aromatic amino acids can be detected by",
+  options: ["Sakaguchi reaction", "Millon-Nasse reaction", "Hopkins-Cole reaction", "Xanthoproteic reaction"],
+  correctAnswer: "Xanthoproteic reaction",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "71. Two amino groups are present in",
+  options: ["Leucine", "Glutamate", "Lysine", "Threonine"],
+  correctAnswer: "Lysine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "72. During denaturation of proteins, all of the following are disrupted except",
+  options: ["Primary structure", "Secondary structure", "Tertiary structure", "Quaternary structure"],
+  correctAnswer: "Secondary structure",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "73. All the following are branched chain amino acids except",
+  options: ["Isoleucine", "Alanine", "Leucine", "Valine"],
+  correctAnswer: "Alanine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "74. An -OH group is present in the side chain of",
+  options: ["Serine", "Arginine", "Lysine", "Proline"],
+  correctAnswer: "Serine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "75. All of the following statements about aspartate are true except",
+  options: ["It is non-essential amino acid", "It is a dicarboxylic amino acid", "It can be synthesized from pyruvate and glutamate", "It can be converted into asparagine"],
+  correctAnswer: "It can be synthesized from pyruvate and glutamate",
+  explanation: "No explanation provided"
+}
+
+
+
+
+
+],
+
+},
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
