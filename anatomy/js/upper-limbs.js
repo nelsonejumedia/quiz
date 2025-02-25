@@ -77,6 +77,420 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+{
+
+category: "muscles",
+questions: [
+
+
+{
+  question: "1. A nucleoside consists of",
+  options: [
+    "Nitrogenous base",
+    "Purine or pyrimidine base + sugar",
+    "Purine or pyrimidine base + phosphorous",
+    "Purine + pyrimidine base + sugar + phosphorous"
+  ],
+  correctAnswer: "Purine or pyrimidine base + sugar",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "2. A nucleotide consists of",
+  options: [
+    "A nitrogenous base like choline",
+    "Purine + pyrimidine base + sugar + phosphorous",
+    "Purine or pyrimidine base + sugar",
+    "Purine or pyrimidine base + phosphorous"
+  ],
+  correctAnswer: "Purine + pyrimidine base + sugar + phosphorous",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "3. A purine nucleotide is",
+  options: [
+    "AMP",
+    "UMP",
+    "CMP",
+    "TMP"
+  ],
+  correctAnswer: "AMP",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "4. A pyrimidine nucleotide is",
+  options: [
+    "GMP",
+    "AMP",
+    "CMP",
+    "IMP"
+  ],
+  correctAnswer: "CMP",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "5. Adenine is",
+  options: [
+    "6-Amino purine",
+    "2-Amino-6-oxypurine",
+    "2-Oxy-4-aminopyrimidine",
+    "2, 4-Dioxypyrimidine"
+  ],
+  correctAnswer: "6-Amino purine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "6. 2, 4-Dioxypyrimidine is",
+  options: [
+    "Thymine",
+    "Cystosine",
+    "Uracil",
+    "Guanine"
+  ],
+  correctAnswer: "Uracil",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "7. The chemical name of guanine is",
+  options: [
+    "2,4-Dioxy-5-methylpyrimidine",
+    "2-Amino-6-oxypurine",
+    "2-Oxy-4-aminopyrimidine",
+    "2, 4-Dioxypyrimidine"
+  ],
+  correctAnswer: "2-Amino-6-oxypurine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "8. Nucleotides and nucleic acids concentration are often also expressed in terms of",
+  options: [
+    "ng",
+    "mg",
+    "meq",
+    "OD at 260 nm"
+  ],
+  correctAnswer: "OD at 260 nm",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "9. The pyrimidine nucleotide acting as the high energy intermediate is",
+  options: [
+    "ATP",
+    "UTP",
+    "UDPG",
+    "CMP"
+  ],
+  correctAnswer: "UDPG",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "10. The carbon of the pentose in ester linkage with the phosphate in a nucleotide structure is",
+  options: [
+    "C1",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  correctAnswer: "C5",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "11. Uracil and ribose form",
+  options: [
+    "Uridine",
+    "Cytidine",
+    "Guanosine",
+    "Adenosine"
+  ],
+  correctAnswer: "Uridine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "12. The most abundant free nucleotide in mammalian cells is",
+  options: [
+    "ATP",
+    "NAD",
+    "GTP",
+    "FAD"
+  ],
+  correctAnswer: "ATP",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "14. The nucleic acid base found in mRNA but not in DNA is",
+  options: [
+    "Adenine",
+    "Cytosine",
+    "Guanine",
+    "Uracil"
+  ],
+  correctAnswer: "Uracil",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "20. In RNA molecule guanine content does not necessarily equal its cytosine content nor does its adenine content necessarily equal its uracil content since it is a",
+  options: [
+    "Single strand molecule",
+    "Double stranded molecule",
+    "Double stranded helical molecule",
+    "Polymer of purine and pyrimidine ribonucleotides"
+  ],
+  correctAnswer: "Single strand molecule",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "21. The nitrogenous base present in the RNA molecule is",
+  options: [
+    "Thymine",
+    "Uracil",
+    "Xanthine",
+    "Hypoxanthine"
+  ],
+  correctAnswer: "Uracil",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "22. RNA does not contain",
+  options: [
+    "Uracil",
+    "Adenine",
+    "Thymine",
+    "Ribose"
+  ],
+  correctAnswer: "Thymine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "23. The sugar moiety present in RNA is",
+  options: [
+    "Ribulose",
+    "Arabinose",
+    "Ribose",
+    "Deoxyribose"
+  ],
+  correctAnswer: "Ribose",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "24. In RNA molecule",
+  options: [
+    "Guanine content equals cytosine",
+    "Adenine content equals uracil",
+    "Adenine content equals guanine",
+    "Guanine content does not necessarily equal its cytosine content."
+  ],
+  correctAnswer: "Guanine content does not necessarily equal its cytosine content.",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "25. Methylated purines and pyrimidines are characteristically present in",
+  options: [
+    "mRNA",
+    "hnRNA",
+    "tRNA",
+    "rRNA"
+  ],
+  correctAnswer: "tRNA",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "26. Thymine is present in",
+  options: [
+    "tRNA",
+    "Ribosomal RNA",
+    "Mammalian mRNA",
+    "Prokaryotic mRNA"
+  ],
+  correctAnswer: "tRNA",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "27. The approximate number of nucleotides in tRNA molecule is",
+  options: [
+    "25",
+    "50",
+    "75",
+    "100"
+  ],
+  correctAnswer: "75",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "28. In every cell, the number of tRNA molecules is at least",
+  options: [
+    "10",
+    "20",
+    "30",
+    "40"
+  ],
+  correctAnswer: "20",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "29. The structure of tRNA appears like a",
+  options: [
+    "Helix",
+    "Hair pin",
+    "Clover leaf",
+    "Coil"
+  ],
+  correctAnswer: "Clover leaf",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "30. Although each specific tRNA differs from the others in its sequence of nucleotides, all tRNA molecules contain a base paired stem that terminates in the sequence CCA at",
+  options: [
+    "3' Termini",
+    "5' Termini",
+    "Anticodon arm",
+    "3'5'-Termini"
+  ],
+  correctAnswer: "3' Termini",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "31. Transfer RNAs are classified on the basis of the number of base pairs in",
+  options: [
+    "Acceptor arm",
+    "Anticodon arm",
+    "D arm",
+    "Extra arm"
+  ],
+  correctAnswer: "Extra arm",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "32. In tRNA molecule D arm is named for the presence of the base:",
+  options: [
+    "Uridine",
+    "Pseudouridine",
+    "Dihydrouridine",
+    "Thymidine"
+  ],
+  correctAnswer: "Uridine",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "36. Double helical structure model of the DNA was proposed by",
+  options: [
+    "Pauling and Corey",
+    "Peter Mitchell",
+    "Watson and Crick",
+    "King and Wooten"
+  ],
+  correctAnswer: "Watson and Crick",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "37. DNA does not contain",
+  options: [
+    "Thymine",
+    "Adenine",
+    "Uracil",
+    "Deoxyribose"
+  ],
+  correctAnswer: "Uracil",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "38. The sugar moiety present in DNA is",
+  options: [
+    "Deoxyribose",
+    "Ribose",
+    "Lyxose",
+    "Ribulose"
+  ],
+  correctAnswer: "Deoxyribose",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "39. DNA rich in A-T pairs have",
+  options: [
+    "1 Hydrogen bond",
+    "2 Hydrogen bonds",
+    "3 Hydrogen bonds",
+    "4 Hydrogen bonds"
+  ],
+  correctAnswer: "2 Hydrogen bonds",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "40. In DNA molecule",
+  options: [
+    "Guanine content does not equal cytosine content",
+    "Adenine content does not equal thymine content",
+    "Adenine content equals uracil content",
+    "Guanine content equals cytosine content"
+  ],
+  correctAnswer: "Guanine content equals cytosine content",
+  explanation: "No explanation provided"
+},
+
+{
+  question: "41. DNA rich in G-C pairs have",
+  options: [
+    "1 Hydrogen bond",
+    "2 Hydrogen bonds",
+    "3 Hydrogen bonds",
+    "4 Hydrogen bonds"
+  ],
+  correctAnswer: "3 Hydrogen bonds",
+  explanation: "No explanation provided"
+}
+
+
+
+
+
+],
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 
 category: "joints",
