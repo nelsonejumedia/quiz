@@ -75,6 +75,206 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const quizzes = [
     
+
+
+
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////Histology/////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+      {
+        category: "Histology",
+        questions: [
+          
+
+
+const mcqs = [
+
+
+question: "Which of the following is NOT one of the major types of intercellular junctional complexes found in cuboidal or columnar cells?",
+options: ["Gap (communicating) junctions", "Tight (occluding) junctions", "Adherens (zonula adherens) junctions", "Synaptic junctions"],
+correctAnswer: "Synaptic junctions",
+explanation: "Synaptic junctions are found in neurons, not epithelial cells. The four main intercellular junctions include gap, tight, adherens, and desmosomes/hemidesmosomes."
+},
+
+{
+question: "The communicating channels in gap junctions are composed of how many protein subunits (connexins)?",
+options: ["4", "6", "8", "10"],
+correctAnswer: "6",
+explanation: "Each gap junction channel is formed by six connexin proteins, creating a connexon that facilitates intercellular communication."
+},
+
+{
+question: "Celiac disease is also known as:",
+options: ["Inflammatory bowel disease", "Gluten-sensitive enteropathy", "Irritable bowel syndrome", "Crohn’s disease"],
+correctAnswer: "Gluten-sensitive enteropathy",
+explanation: "Celiac disease, also called gluten-sensitive enteropathy or sprue, is an autoimmune disorder that damages the small intestine upon gluten ingestion."
+},
+
+{
+question: "What is one of the first pathological changes in celiac disease?",
+options: ["Loss of submucosal glands", "Loss of the microvilli brush border", "Increase in goblet cells", "Thickening of the basal lamina"],
+correctAnswer: "Loss of the microvilli brush border",
+explanation: "An early change in celiac disease is the loss of the microvilli brush border on the absorptive cells, impairing nutrient absorption."
+},
+
+{
+question: "Enteritis is defined as:",
+options: ["Inflammation of the stomach", "Inflammation of the intestines", "Inflammation of the esophagus", "Inflammation of the colon"],
+correctAnswer: "Inflammation of the intestines",
+explanation: "Enteritis specifically refers to inflammation of the intestines."
+},
+
+{
+question: "Which organ's epithelial cells feature stereocilia that increase surface area for absorption?",
+options: ["Kidney", "Epididymis", "Lung", "Liver"],
+correctAnswer: "Epididymis",
+explanation: "Stereocilia, which are longer than microvilli, are found in the epididymis where they help increase the absorptive surface area."
+},
+
+{
+question: "Which of the following is NOT a characteristic symptom of Kartagener Syndrome (Immotile cilia syndrome)?",
+options: ["Chronic respiratory infections", "Immotile spermatozoa causing infertility", "Enhanced mucociliary clearance", "Defective ciliary motion"],
+correctAnswer: "Enhanced mucociliary clearance",
+explanation: "Kartagener Syndrome is marked by defective ciliary motion, leading to chronic respiratory infections and male infertility, not enhanced clearance."
+},
+
+{
+question: "Which of the following is NOT an example of simple columnar epithelium?",
+options: ["Renal collecting duct lining", "Oviduct lining", "Gallbladder lining", "Epidermis"],
+correctAnswer: "Epidermis",
+explanation: "The epidermis is composed of stratified squamous epithelium, not simple columnar epithelium."
+},
+
+{
+question: "What is the primary function of stratified squamous epithelium?",
+options: ["Absorption", "Secretion", "Protection", "Sensation"],
+correctAnswer: "Protection",
+explanation: "Stratified squamous epithelium primarily provides protection against mechanical stress, microbial invasion, and water loss."
+},
+
+{
+question: "What transformation occurs in the bronchi of smokers due to metaplasia?",
+options: ["Simple columnar epithelium to pseudostratified epithelium", "Stratified squamous epithelium to cuboidal epithelium", "Ciliated pseudostratified epithelium to stratified squamous epithelium", "Simple squamous epithelium to keratinized epithelium"],
+correctAnswer: "Ciliated pseudostratified epithelium to stratified squamous epithelium",
+explanation: "Chronic exposure to smoke causes the ciliated pseudostratified epithelium of the bronchi to transform into stratified squamous epithelium, a process known as metaplasia."
+},
+
+{
+question: "After exocytosis, mucin components are hydrated to become:",
+options: ["Enzymes", "Hormones", "Mucus", "Bile"],
+correctAnswer: "Mucus",
+explanation: "Once exocytosed, mucin absorbs water and forms mucus, which lubricates and protects the epithelial surfaces."
+},
+
+{
+question: "Secretory epithelial cells synthesize, store, and release which substances?",
+options: ["Proteins, lipids, and carbohydrates", "DNA, RNA, and proteins", "Ions and water only", "Vitamins and minerals only"],
+correctAnswer: "Proteins, lipids, and carbohydrates",
+explanation: "Secretory epithelial cells produce a range of substances including proteins, lipids, and carbohydrates, as seen in the secretions of mammary glands."
+},
+
+{
+question: "Which of the following best describes exocrine glands?",
+options: ["They release hormones into the bloodstream", "They secrete substances into ducts leading to specific organs", "They are always rich in capillaries", "They are involved in immune responses"],
+correctAnswer: "They secrete substances into ducts leading to specific organs",
+explanation: "Exocrine glands deliver their secretions to a target site through ducts, unlike endocrine glands which secrete hormones directly into the bloodstream."
+},
+
+{
+question: "Which type of glands produce hormones and are rich in capillaries?",
+options: ["Exocrine glands", "Endocrine glands", "Sebaceous glands", "Sweat glands"],
+correctAnswer: "Endocrine glands",
+explanation: "Endocrine glands secrete hormones directly into the bloodstream and are characterized by a rich capillary network."
+},
+
+{
+question: "Which ions are actively transported by the Na+/K+-ATPase?",
+options: ["Ca²⁺ and Cl⁻", "Na⁺ and K⁺", "H⁺ and OH⁻", "Mg²⁺ and Na⁺"],
+correctAnswer: "Na⁺ and K⁺",
+explanation: "Na+/K+-ATPase pumps sodium ions out of the cell and potassium ions into the cell, maintaining vital electrochemical gradients."
+},
+
+{
+question: "Epithelial cells are arbitrarily divided into which two main groups?",
+options: ["Simple and stratified", "Covering/lining and secreting/granulated", "Keratinized and non-keratinized", "Squamous and columnar"],
+correctAnswer: "Covering/lining and secreting/granulated",
+explanation: "Epithelial cells are classified based on their function as either covering/lining cells or secretory (granulated) cells."
+},
+
+{
+question: "In simple squamous epithelium, which cellular component is typically the thickest?",
+options: ["Cytoplasm", "Cell nuclei", "Cell membrane", "Microvilli"],
+correctAnswer: "Cell nuclei",
+explanation: "In simple squamous epithelium, the cell nuclei are often the most prominent or thickest part due to the thin cytoplasm."
+},
+
+{
+question: "Thin squamous cells often exhibit which process?",
+options: ["Exocytosis", "Endocytosis", "Transcytosis", "Phagocytosis"],
+correctAnswer: "Transcytosis",
+explanation: "Transcytosis is a process observed in thin squamous cells, facilitating the transport of substances across the cell."
+},
+
+{
+question: "Which of the following structures is NOT lined by squamous cells?",
+options: ["Renal loops of Henle", "Outer wall of the intestine", "Inner surface of the cornea", "Thyroid follicles"],
+correctAnswer: "Thyroid follicles",
+explanation: "Squamous epithelium lines the renal loops of Henle, the outer wall of the intestine, and the inner surface of the cornea; thyroid follicles are lined by cuboidal cells."
+},
+
+{
+question: "Tight and adherens junctions at the apical ends of columnar cells are sometimes referred to as:",
+options: ["Basement membranes", "Terminal bars", "Intercellular bridges", "Desmosomes"],
+correctAnswer: "Terminal bars",
+explanation: "The term 'terminal bars' is used to describe the complex of tight and adherens junctions located at the apical region of columnar epithelial cells."
+},
+
+{
+question: "Which of the following is an example of simple columnar epithelium?",
+options: ["Renal collecting duct", "Renal loops of Henle", "Epidermis", "Thyroid follicle"],
+correctAnswer: "Renal collecting duct",
+explanation: "Simple columnar epithelium lines structures such as the renal collecting duct, as well as the oviduct and gallbladder."
+},
+
+{
+question: "Which of the following is an example of non-keratinized stratified squamous epithelium?",
+options: ["Epidermis", "Esophageal lining", "Oral mucosa", "Renal tubule"],
+correctAnswer: "Esophageal lining",
+explanation: "Non-keratinized stratified squamous epithelium is typically found in the esophageal lining, unlike the epidermis which is keratinized."
+},
+
+{
+question: "A characteristic feature of keratinized stratified squamous epithelium is that the superficial cells:",
+options: ["Retain their nuclei and organelles", "Contain numerous microvilli", "Lose their nuclei and organelles and form flattened squames", "Exhibit high rates of cell division"],
+correctAnswer: "Lose their nuclei and organelles and form flattened squames",
+explanation: "In keratinized epithelium, superficial cells lose their nuclei and organelles, forming a protective layer of flattened squames."
+},
+
+{
+question: "Stratified cuboidal and columnar epithelia are most commonly found in:",
+options: ["Renal tubules", "Excretory ducts of glands (e.g., sweat glands)", "Intestinal lining", "Bronchial lining"],
+correctAnswer: "Excretory ducts of glands (e.g., sweat glands)",
+explanation: "Stratified cuboidal and columnar epithelia are relatively rare and are primarily found lining the excretory ducts of certain glands such as sweat glands."
+},
+
+{
+question: "Which type of epithelium lines the upper respiratory tract?",
+options: ["Simple squamous", "Stratified squamous", "Pseudo-stratified columnar", "Simple columnar"],
+correctAnswer: "Pseudo-stratified columnar",
+explanation: "The upper respiratory tract is lined by pseudo-stratified columnar epithelium, which often contains cilia to help move mucus and trapped particles."
+},
+
+
+
+
+],
+},
+
+
+
+
+
   
    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   /////////////////////////////////////////////Histology/////////////////////////////////////////////////////////////////
