@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pageUrl = '#'; // Replace with actual URL
                 break;
             case 'Pharmacology':
-                pageUrl = '#'; // Replace with actual URL
+                pageUrl = 'pha.html'; // Replace with actual URL
                 break;
             case 'Chemistry':
                 pageUrl = '#'; // Replace with actual URL
