@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Rush</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://kit.fontawesome.com/8b55461bea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="overlay" class="overlay"></div>
+        <div id="home-screen">
+            <div class="header animate-fade-in">
+                <h1>Physiology</h1>
+                <button id="menu-button" class="icon-button">☰</button>
+            </div>
+
+    
+
+            <div class="category-list animate-stagger-in">
+                <button class="category-btn" data-category="PHA202">
+                    <span class="category-icon">💪</span>
+                    <span>Practice Questions - Introduction to Practical Pharmacology</span>
+                </button>
+
+            
+            </div> 
+
+
+            <button id="upgrade-btn" class="animate-pulse">FOLLOW US <i class="fa fa-whatsapp" aria-hidden="true"></i> </button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div class="header animate-fade-in">
+                <div class="back-btn">
+                    <i data-lucide="chevron-left"></i>
+                    <h2 id="quiz-category"></h2>
+                </div>
+                <i data-lucide="x" class="close-btn"></i>
+            </div>
+            <div class="quiz-info animate-slide-up">
+                <p id="question-number"></p>
+                <p id="timer">00:30 sec</p>
+            </div>
+            <p id="question-text" class="animate-fade-in"></p>
+            <div id="answer-options" class="animate-stagger-in"></div>
+            <button id="submit-btn" class="animate-pulse">SUBMIT</button>
+        </div>
+
+        <div id="results-screen" class="hidden">
+            <i data-lucide="x" class="close-btn animate-fade-in"></i>
+            <div class="results-box animate-scale-in">
+                <div class="trophy">🏆</div>
+                <h2>Congrats!</h2>
+                <h3 id="score-percentage"></h3>
+                <p>Quiz completed successfully.</p>
+                <p id="score-details"></p>
+            </div>
+
+            
+            <!-- button for preview -->
+            <button id="review-btn">Review Questions</button>
+
+
+            <p class="animate-fade-in">Share with us</p>
+            <div class="share-buttons animate-stagger-in">
+                <div class="share-btn facebook"></div>
+                <div class="share-btn twitter"></div>
+                <div class="share-btn instagram"></div>
+            </div>
+        </div>
+
+
+
+        <!-- Quiz Review -->
+        <div id="review-screen" class="hidden">
+            <h2 class="p-h2">Quiz Review</h2>
+            <div id="question-list"></div>
+        </div>
+        <div id="explanation-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Explanation</h2>
+                <p id="explanation-text"></p>
+            </div>
+        </div>
+        <button id="home-btn" class="hidden">Back to Home</button>
+    </div>
+
+
+
+    <!-- sidebar -->
+
+    <div id="sidebar" class="sidebar">
+        <button id="close-sidebar" class="icon-button">←</button>
+        <div class="user-info">
+           <img src="../images/logo.png" alt="" class="user-avatar">
+            <div class="user-details">
+                <h2>IQ Rush</h2>
+                <p>Anatomy</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="upper-limbs.html" class="nav-item">Upper Limbs</a>
+            <a href="lower-limbs.html" class="nav-item">Lower Limbs</a>
+            <a href="sociology.html" class="nav-item">Medical Sociology</a>
+            <a href="thorax.html" class="nav-item">Thorax</a>
+            <a href="abdomen.html" class="nav-item">Abdomen</a>
+            <a href="head&neck.html" class="nav-item">Head and Neck</a>
+            <a href="histology.html" class="nav-item">Histology</a>
+            <a href="embryology.html" class="nav-item">Embryology</a>
+            <a href="neuroanatomy.html" class="nav-item">Neuroanatomy</a>
+        </nav>
+    </div> 
+
+
+
+
+    <script src="introduction.js"></script>
+   
+    
+</body>
+</html>
