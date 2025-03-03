@@ -199,3 +199,301 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+],
+      },
+
+  
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+      // Add more categories here
+    ];
+  
+  
+    
+  
+    function showScreen(screen) {
+      homeScreen.classList.add("hidden");
+      quizScreen.classList.add("hidden");
+      resultsScreen.classList.add("hidden");
+      screen.classList.remove("hidden");
+  
+      // Reset animations
+      screen
+        .querySelectorAll(
+          ".animate-fade-in, .animate-slide-up, .animate-scale-in, .animate-stagger-in > *"
+        )
+        .forEach((el) => {
+          el.style.animation = "none";
+          el.offsetHeight; // Trigger reflow
+          el.style.animation = null;
+        });
+    }
+  
+    function startQuiz(category) {
+      currentQuiz = quizzes.find((quiz) => quiz.category === category);
+      if (!currentQuiz) {
+        console.error("Quiz not found for the selected category");
+        return;
+      }
+      currentQuestionIndex = 0;
+      score = 0;
+      showScreen(quizScreen);
+      quizCategory.textContent = category;
+      displayQuestion();
+      startTimer();
+    }
+  
+    let userHasSelected = false;
+
+function displayQuestion() {
+  const question = currentQuiz.questions[currentQuestionIndex];
+  questionNumber.textContent = `Question: ${currentQuestionIndex + 1}/${currentQuiz.questions.length}`;
+  questionText.textContent = question.question;
+  answerOptions.innerHTML = "";
+  userHasSelected = false;
+
+  question.options.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.classList.add("answer-btn");
+    button.innerHTML = `
+      <span class="answer-letter">${String.fromCharCode(65 + index)}</span>
+      <span>${option}</span>
+    `;
+    button.addEventListener("click", () => selectAnswer(button, option));
+    answerOptions.appendChild(button);
+  });
+}
+
+
+
+function selectAnswer(selectedButton, selectedOption) {
+  if (userHasSelected) return;
+  userHasSelected = true;
+
+  answerOptions.querySelectorAll(".answer-btn").forEach((btn) => {
+    btn.classList.remove("selected");
+  });
+  selectedButton.classList.add("selected");
+
+
+function startTimer() {
+      let timeLeft = 30; // 3 minutes
+      const timerElement = document.getElementById("timer");
+  
+      clearInterval(timer);
+      timer = setInterval(() => {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        timerElement.textContent = `${minutes
+          .toString()
+          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")} sec`;
+  
+        if (timeLeft === 0) {
+          clearInterval(timer);
+          submitAnswer();
+        }
+        timeLeft--;
+      }, 1000);
+    }
+
+
+  setTimeout(() => {
+    const currentQuestion = currentQuiz.questions[currentQuestionIndex];
+    const correctAnswer = currentQuestion.correctAnswer;
+
+    answerOptions.querySelectorAll(".answer-btn").forEach((btn) => {
+      const btnOption = btn.querySelector("span:last-child").textContent;
+      if (btnOption === correctAnswer) {
+        btn.classList.add("correct");
+      }
+    });
+
+    if (selectedOption === correctAnswer) {
+      selectedButton.classList.add("correct");
+      score++;
+    } else {
+      selectedButton.classList.add("incorrect");
+    }
+
+    setTimeout(() => {
+      submitAnswer();
+    }, 3250);
+  }, 250);
+}
+
+function submitAnswer() {
+  clearInterval(timer);
+  currentQuestionIndex++;
+  if (currentQuestionIndex < currentQuiz.questions.length) {
+    displayQuestion();
+    startTimer();
+  } else {
+    showResults();
+  }
+}
+
+    function showResults() {
+      showScreen(resultsScreen);
+      const percentage = (score / currentQuiz.questions.length) * 100;
+      scorePercentage.textContent = `${percentage.toFixed(0)}% Score`;
+  
+      let message = "";
+      let trophyEmoji = "";
+  
+      if (percentage < 40) {
+        message = "Keep practicing! You'll improve with time.";
+        trophyEmoji = "😢";
+      } else if (percentage >= 40 && percentage < 50) {
+        message =
+          "You're on the right track. A bit more study and you'll nail it!";
+        trophyEmoji = "🙂";
+      } else if (percentage >= 50 && percentage < 60) {
+        message = "Good effort! You're making progress.";
+        trophyEmoji = "👍";
+      } else if (percentage >= 60 && percentage < 70) {
+        message = "Well done! You're above average.";
+        trophyEmoji = "😊";
+      } else if (percentage >= 70 && percentage < 90) {
+        message = "Great job! You've got a solid understanding.";
+        trophyEmoji = "🎉";
+      } else {
+        message = "Outstanding! You've mastered this topic!";
+        trophyEmoji = "🏆";
+      }
+  
+      const resultsBox = document.querySelector(".results-box");
+      resultsBox.innerHTML = `
+              <div class="trophy">${trophyEmoji}</div>
+              <h2>Quiz Completed!</h2>
+              <h3>${percentage.toFixed(0)}% Score</h3>
+              <p>${message}</p>
+              <p>You attempted ${
+                currentQuiz.questions.length
+              } questions and got ${score} correct.</p>
+          `;
+    }
+  
+    categoryButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const category = button.getAttribute("data-category");
+        startQuiz(category);
+      });
+    });
+  
+    backBtn.addEventListener("click", () => showScreen(homeScreen));
+    closeButtons.forEach((button) => {
+      button.addEventListener("click", () => showScreen(homeScreen));
+    });
+    submitBtn.addEventListener("click", () => {
+  if (!userHasSelected) {
+    const selectedButton = answerOptions.querySelector(".selected");
+    if (selectedButton) {
+      const selectedOption = selectedButton.querySelector("span:last-child").textContent;
+      selectAnswer(selectedButton, selectedOption);
+    }
+  }
+});
+
+  
+  
+  
+  
+ 
+  
+  
+  
+  /////Review section
+  function showReviewScreen() {
+    resultsScreen.classList.add('hidden');
+    reviewScreen.classList.remove('hidden');
+    homeBtn.classList.remove('hidden');
+    displayQuestions();
+  }
+  
+  function displayQuestions() {
+    questionList.innerHTML = '';
+    currentQuiz.questions.forEach((q, index) => {
+        const questionBox = document.createElement('div');
+        questionBox.classList.add('question-box');
+        questionBox.innerHTML = `
+            <p><strong>Question ${index + 1}:</strong> ${q.question}</p>
+            <!-- <p><strong>Options:</strong> ${q.options.join(', ')}</p>-->
+            <p><strong>Correct Answer:</strong> ${q.correctAnswer}</p>
+        `;
+        questionBox.addEventListener('click', () => showExplanation(q.explanation));
+        questionList.appendChild(questionBox);
+    });
+  }
+  
+  function showExplanation(explanation) {
+    explanationText.textContent = explanation;
+    explanationModal.classList.remove('hidden');
+  }
+  
+  function hideExplanation() {
+    explanationModal.classList.add('hidden');
+  }
+  
+  function startReview(category) {
+    const quiz = quizzes.find(q => q.category === category);
+    if (quiz) {
+        currentQuiz = quiz;
+        score = Math.floor(Math.random() * (currentQuiz.questions.length + 1)); // Simulating a random score
+        scoreDisplay.textContent = `You scored ${score} out of ${currentQuiz.questions.length}!`;
+        resultsScreen.classList.remove('hidden');
+    } else {
+        console.error('Category not found');
+    }
+  }
+  
+  reviewBtn.addEventListener('click', showReviewScreen);
+  closeBtn.addEventListener('click', hideExplanation);
+  homeBtn.addEventListener('click', () => {
+    reviewScreen.classList.add('hidden');
+    resultsScreen.classList.remove('hidden');
+    homeBtn.classList.add('hidden');
+  });
+  
+  // Simulating a completed quiz
+  startReview();
+  
+  
+  
+  });
+  
+  
+  
+
+  
+  
+  
