@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 {
-        category: "Nervous Systems ",
+        category: "Nervous Systems",
         questions: [
           
 
