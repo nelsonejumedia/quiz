@@ -551,36 +551,291 @@ questions: [
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  ////////////////////////////////////////////Medical Philosophical////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////Moral Philosophical////////////////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
       {
-        category: "Medical Philosophy",
+        category: "Moral Philosophy",
         questions: [
-          {
-            question: "What feature characterizes keratinized stratified squamous epithelium?",
-            options: [
-              "Mucus secretion",
-              "Cilia on the surface",
-              "A thick, protective layer of dead cells",
-              "Goblet cells interspersed among surface cells",
-            ],
-            correctAnswer: "A thick, protective layer of dead cells",
-            explanation: "Keratinized stratified squamous epithelium forms the epidermis, where the outer layer consists of dead cells filled with keratin, providing a tough barrier."
-          },
-          {
-            question: "Which type of cell junctions are involved in communication between epithelial cells?",
-            options: [
-              "Tight junctions",
-              "Desmosomes",
-              "Gap junctions",
-              "Hemidesmosomes",
-            ],
-            correctAnswer: "Gap junctions",
-            explanation: "Gap junctions allow communication between epithelial cells by enabling the passage of ions and small molecules between them."
-          },
           
-          // Add more questions following this pattern
+{
+question: "Which ethical theory states that 'the ends justify the means'?",
+options: ["Virtue Ethics", "Consequentialism", "Deontology", "Kantianism"],
+correctAnswer: "Consequentialism",
+explanation: "Consequentialism asserts that an action is morally right if it produces a good outcome, meaning the ends justify the means."
+},
+
+
+{
+question: "Who first clearly expressed Ethical Intuitionism?",
+options: ["Immanuel Kant", "Jeremy Bentham", "Francis Hutcheson", "John Stuart Mill"],
+correctAnswer: "Francis Hutcheson",
+explanation: "Ethical Intuitionism was first clearly formulated by the philosopher Francis Hutcheson."
+},
+
+
+{
+question: "Which ethical theory emphasizes following rules regardless of consequences?",
+options: ["Utilitarianism", "Relativism", "Deontology", "Subjectivism"],
+correctAnswer: "Deontology",
+explanation: "Deontology asserts that people must follow moral laws, regardless of the consequences."
+},
+
+
+{
+question: "What is the Fundamental Axiom in Utilitarianism according to Jeremy Bentham?",
+options: ["Truth-telling is mandatory", "The ends justify the means", "Greatest happiness for the greatest number", "People should act based on feelings"],
+correctAnswer: "Greatest happiness for the greatest number",
+explanation: "Jeremy Bentham's Fundamental Axiom states that the right action is the one that brings the greatest happiness to the greatest number of people."
+},
+
+
+{
+question: "Which ethical theory states that there is no objective right or wrong?",
+options: ["Deontology", "Virtue Ethics", "Ethical Relativism", "Kantianism"],
+correctAnswer: "Ethical Relativism",
+explanation: "Ethical Relativism claims that no universal or objective moral standards exist."
+},
+
+
+{
+question: "Which ethical philosophy was associated with Aristotle and Socrates?",
+options: ["Consequentialism", "Virtue Ethics", "Kantianism", "Utilitarianism"],
+correctAnswer: "Virtue Ethics",
+explanation: "Virtue Ethics, which focuses on character and morality, was central to Aristotle and Socrates' teachings."
+},
+
+
+{
+question: "According to Kantian ethics, how should people be treated?",
+options: ["As means to an end", "Based on what makes them happy", "As ends in themselves", "According to societal rules"],
+correctAnswer: "As ends in themselves",
+explanation: "Kantian ethics states that people should never be treated merely as means to an end."
+},
+
+
+{
+question: "Which ethical theory suggests that people should do whatever they feel is right?",
+options: ["Deontology", "Utilitarianism", "Emotivism", "Kantianism"],
+correctAnswer: "Emotivism",
+explanation: "Emotivism holds that moral judgments are based on emotions rather than objective truths."
+},
+
+
+{
+question: "Who are two key philosophers associated with Utilitarianism?",
+options: ["John Stuart Mill & Jeremy Bentham", "Immanuel Kant & Aristotle", "Francis Hutcheson & Ayn Rand", "Galen & Hippocrates"],
+correctAnswer: "John Stuart Mill & Jeremy Bentham",
+explanation: "Jeremy Bentham and John Stuart Mill are the main figures behind Utilitarianism."
+},
+
+
+{
+question: "What is the primary focus of Normative Ethics?",
+options: ["Analyzing moral language", "Examining moral theories", "Studying moral rightness or wrongness", "Rejecting moral knowledge"],
+correctAnswer: "Studying moral rightness or wrongness",
+explanation: "Normative Ethics examines the standards for determining the rightness or wrongness of actions."
+},
+
+
+{
+question: "Who famously said 'Property is theft'?",
+options: ["Jeremy Bentham", "John Stuart Mill", "Pierre-Joseph Proudhon", "Thomas Hobbes"],
+correctAnswer: "Pierre-Joseph Proudhon",
+explanation: "Pierre-Joseph Proudhon, a political philosopher, is credited with the phrase 'Property is theft'."
+},
+
+
+{
+question: "What is the main principle of Subjectivism?",
+options: ["Do what your society says", "Follow logical reasoning", "Do what you personally think is right", "Seek the greatest happiness"],
+correctAnswer: "Do what you personally think is right",
+explanation: "Subjectivism holds that moral truths depend on individual perspectives."
+},
+
+
+{
+question: "What does Moral Skepticism argue?",
+options: ["Ethics is subjective", "No one has moral knowledge", "The greatest happiness principle is supreme", "Virtue is the key to morality"],
+correctAnswer: "No one has moral knowledge",
+explanation: "Moral Skepticism claims that no one can truly know moral truths."
+},
+
+
+{
+question: "Which philosopher is associated with Kantianism?",
+options: ["Aristotle", "Immanuel Kant", "John Stuart Mill", "Pierre-Joseph Proudhon"],
+correctAnswer: "Immanuel Kant",
+explanation: "Kantian ethics is named after Immanuel Kant, who emphasized duty and rationality in moral decisions."
+},
+
+
+{
+question: "Which ethical theory allows people to do whatever they want since it doesn’t matter?",
+options: ["Virtue Ethics", "Nihilism", "Emotivism", "Consequentialism"],
+correctAnswer: "Nihilism",
+explanation: "Nihilism rejects the notion that moral principles have any inherent meaning."
+},
+
+
+{
+question: "Which theory states that an action is morally right if it maximizes a good effect?",
+options: ["Kantianism", "Deontology", "Utilitarianism", "Emotivism"],
+correctAnswer: "Utilitarianism",
+explanation: "Utilitarianism claims that the best action is the one that maximizes happiness or another positive outcome."
+},
+
+
+{
+question: "What does Applied Ethics focus on?",
+options: ["Moral language analysis", "Following laws and rules", "Studying personal intuition", "Skepticism about morality"],
+correctAnswer: "Following laws and rules",
+explanation: "Applied Ethics applies moral principles to specific situations, such as law and medicine."
+},
+
+
+{
+question: "Which ethical theory suggests following societal norms?",
+options: ["Subjectivism", "Relativism", "Emotivism", "Virtue Ethics"],
+correctAnswer: "Relativism",
+explanation: "Relativism asserts that moral actions should align with societal standards."
+},
+
+
+{
+question: "Which philosopher emphasized autonomy and rationality in ethics?",
+options: ["Jeremy Bentham", "Francis Hutcheson", "Immanuel Kant", "John Stuart Mill"],
+correctAnswer: "Immanuel Kant",
+explanation: "Kantian ethics stresses autonomy, rationality, and universal moral principles."
+},
+
+
+{
+question: "Who are some famous Egoists?",
+options: ["John Stuart Mill & Bentham", "Thomas Hobbes, Adam Smith, Ayn Rand", "Aristotle & Kant", "Proudhon & Francis Hutcheson"],
+correctAnswer: "Thomas Hobbes, Adam Smith, Ayn Rand",
+explanation: "Thomas Hobbes, Adam Smith, and Ayn Rand are well-known Egoists."
+},
+
+
+{
+question: "Which branch of ethics focuses on the meaning of moral language and the metaphysics of moral facts?",
+options: ["Normative Ethics", "Meta-Ethics", "Applied Ethics", "Virtue Ethics"],
+correctAnswer: "Meta-Ethics",
+explanation: "Meta-Ethics studies the meaning of moral terms and the nature of moral facts, rather than evaluating actions."
+},
+
+
+{
+question: "Which ethical theory argues that people should act in ways deemed inherently good, regardless of consequences?",
+options: ["Utilitarianism", "Deontology", "Moral Skepticism", "Ethical Relativism"],
+correctAnswer: "Deontology",
+explanation: "Deontology, as proposed by Kant, states that actions are right or wrong based on moral duty, independent of their outcomes."
+},
+
+
+{
+question: "Which philosopher's ethical system focused on being a good or virtuous person?",
+options: ["Kant", "Aristotle", "Jeremy Bentham", "John Stuart Mill"],
+correctAnswer: "Aristotle",
+explanation: "Aristotle's ethical system, known as Virtue Ethics, emphasizes character and virtue over rules or consequences."
+},
+
+
+{
+question: "Which ethical theory claims that no objective right or wrong exists?",
+options: ["Deontology", "Ethical Relativism", "Utilitarianism", "Consequentialism"],
+correctAnswer: "Ethical Relativism",
+explanation: "Ethical Relativism asserts that morality is relative to cultural or societal norms, with no absolute standards."
+},
+
+
+{
+question: "According to Kantian ethics, why should one follow moral laws?",
+options: ["Because they maximize happiness", "Because they apply universally", "Because they are subjective", "Because society enforces them"],
+correctAnswer: "Because they apply universally",
+explanation: "Kantianism argues that moral laws should be followed because they are universally applicable to all rational beings."
+},
+
+
+{
+question: "What does Normative Ethics focus on?",
+options: ["Moral intuition", "Standards for right and wrong actions", "Ethical language analysis", "Rejecting moral knowledge"],
+correctAnswer: "Standards for right and wrong actions",
+explanation: "Normative Ethics examines the principles that determine whether actions are morally right or wrong."
+},
+
+
+{
+question: "Which ethical theory states that people should follow their society's moral rules?",
+options: ["Subjectivism", "Relativism", "Nihilism", "Virtue Ethics"],
+correctAnswer: "Relativism",
+explanation: "Relativism argues that moral correctness is determined by societal norms and traditions."
+},
+
+
+{
+question: "What does Emotivism suggest about moral judgments?",
+options: ["They are emotional expressions", "They are objective truths", "They are determined by logic", "They are fixed and universal"],
+correctAnswer: "They are emotional expressions",
+explanation: "Emotivism holds that moral statements express personal emotions rather than objective truths."
+},
+
+
+{
+question: "Which ethical perspective argues that we should act based on personal gain and self-interest?",
+options: ["Utilitarianism", "Egoism", "Virtue Ethics", "Deontology"],
+correctAnswer: "Egoism",
+explanation: "Egoism states that people should act in ways that maximize their own self-interest."
+},
+
+
+{
+question: "Which ethical school of thought believes that truth-telling is a moral duty regardless of consequences?",
+options: ["Consequentialism", "Utilitarianism", "Deontology", "Moral Skepticism"],
+correctAnswer: "Deontology",
+explanation: "Deontology holds that certain actions, such as truth-telling, are inherently right, regardless of outcomes."
+},
+
+
+{
+question: "Which philosopher emphasized the importance of duty, autonomy, and rationality in ethics?",
+options: ["Immanuel Kant", "Jeremy Bentham", "Francis Hutcheson", "Aristotle"],
+correctAnswer: "Immanuel Kant",
+explanation: "Kant's ethical theory is based on the principles of duty, autonomy, and rational moral decision-making."
+},
+
+
+{
+question: "What does Moral Skepticism claim?",
+options: ["All moral knowledge is absolute", "People have no true moral knowledge", "Ethics is purely emotional", "Consequences determine morality"],
+correctAnswer: "People have no true moral knowledge",
+explanation: "Moral Skepticism asserts that humans cannot truly know moral facts or absolute ethical principles."
+},
+
+
+{
+question: "Which ethical philosophy claims that morality is entirely dependent on individual beliefs?",
+options: ["Relativism", "Subjectivism", "Virtue Ethics", "Deontology"],
+correctAnswer: "Subjectivism",
+explanation: "Subjectivism holds that moral truths are based on personal opinions and perspectives rather than objective facts."
+},
+
+
+{
+question: "Which ethical school of thought believes moral actions should maximize overall happiness?",
+options: ["Virtue Ethics", "Utilitarianism", "Deontology", "Subjectivism"],
+correctAnswer: "Utilitarianism",
+explanation: "Utilitarianism states that the best moral action is the one that maximizes happiness or well-being for the majority."
+},
+
+
+{
+question: "Who said that the proper course of action is the one that maximizes happiness?",
+options: ["Francis Hutcheson", "Jeremy Bentham", "Pierre-Joseph Proudhon", "Thomas Hobbes"],
+correctAnswer: "Jeremy Bentham",
+explanation: "Jeremy Bentham is a key figure in Utilitarianism, which seeks to maximize happiness as the highest moral good."
+},
         ],
         
       },
