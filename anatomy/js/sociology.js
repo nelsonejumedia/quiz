@@ -446,95 +446,107 @@ explanation: "Thomas Willis summarized knowledge of the nervous system, making s
       category: "Medical Sociology",
 questions: [
   
-  {
-    question: "Which structure is responsible for organizing the spindle fibers during cell division?",
-    options: [
-      "Nucleus",
-      "Cytoskeleton",
-      "Centrosome",
-      "Ribosomes"
-    ],
-    correctAnswer: "Centrosome",
-    explanation: "The centrosome organizes microtubules and helps in chromosome separation during mitosis."
-  },
-  {
-    question: "Which cell component is a network that provides structural support to the cell?",
-    options: [
-      "Lysosome",
-      "Golgi apparatus",
-      "Cytoskeleton",
-      "Nucleolus"
-    ],
-    correctAnswer: "Cytoskeleton",
-    explanation: "The cytoskeleton maintains cell shape and aids in movement and intracellular transport."
-  },
-  {
-    question: "What is the function of the nucleolus within the nucleus?",
-    options: [
-      "DNA replication",
-      "Ribosomal RNA synthesis",
-      "Protein synthesis",
-      "Detoxification"
-    ],
-    correctAnswer: "Ribosomal RNA synthesis",
-    explanation: "The nucleolus produces rRNA, which is essential for ribosome assembly."
-  },
-  {
-    question: "Where are ribosomes primarily assembled?",
-    options: [
-      "In the nucleus",
-      "In the cytoplasm",
-      "In the nucleolus",
-      "In the Golgi apparatus"
-    ],
-    correctAnswer: "In the nucleolus",
-    explanation: "The nucleolus is the site where ribosomal subunits are assembled from rRNA and proteins."
-  },
-  {
-    question: "What function does the cell wall serve in plant cells?",
-    options: [
-      "Energy storage",
-      "Selective permeability",
-      "Protection and structural support",
-      "Protein synthesis"
-    ],
-    correctAnswer: "Protection and structural support",
-    explanation: "The cell wall provides rigidity and protection, especially in plants and some algae."
-  },
-  {
-    question: "What is the function of the cytoplasm?",
-    options: [
-      "To store genetic material",
-      "To facilitate cell movement",
-      "To serve as the site for biochemical reactions",
-      "To package proteins"
-    ],
-    correctAnswer: "To serve as the site for biochemical reactions",
-    explanation: "The cytoplasm is where most cellular reactions occur, including glycolysis and protein synthesis."
-  },
-  {
-    question: "Which cell organelle contains chlorophyll?",
-    options: [
-      "Mitochondria",
-      "Chloroplast",
-      "Nucleus",
-      "Ribosome"
-    ],
-    correctAnswer: "Chloroplast",
-    explanation: "Chloroplasts contain chlorophyll and are involved in photosynthesis in plant cells."
-  },
-  
-  {
-    question: "Where in the cell does transcription take place?",
-    options: [
-      "Nucleus",
-      "Cytoplasm",
-      "Ribosome",
-      "Mitochondria"
-    ],
-    correctAnswer: "Nucleus",
-    explanation: "Transcription of DNA to mRNA occurs in the nucleus."
-  },
+  { question: "Who among the following was a French philosopher and one of the founders of Sociology?", options: ["Herbert Spencer", "Auguste Comte", "Max Weber", "Karl Marx"], correctAnswer: "Auguste Comte", explanation: "Auguste Comte, a French philosopher, is recognized as one of the founders of Sociology." },
+
+{ question: "Which theory in Medical Sociology uses the analogy between a biological organism and society?", options: ["Middle-range Theories", "Structural functionalism", "Marxian Paradigm", "Health Belief Model"], correctAnswer: "Structural functionalism", explanation: "Structural functionalism compares society to a biological organism, emphasizing how different parts contribute to the stability of the whole." },
+
+{ question: "Medical Sociology primarily focuses on the interplay between which two major aspects?", options: ["Anatomy and physiology", "Social factors and health", "Biochemistry and pathology", "Genetics and environment"], correctAnswer: "Social factors and health", explanation: "Medical Sociology examines how social and cultural factors influence health outcomes and the organization of healthcare." },
+
+{ question: "What does Sociology primarily study?", options: ["Physical laws", "Human interaction and society", "Individual cell function", "Chemical reactions"], correctAnswer: "Human interaction and society", explanation: "Sociology is the study of societies, focusing on human behavior, social interactions, and the organization of communities." },
+
+{ question: "Which of the following is a key social factor influencing the incidence of illness?", options: ["Genetic mutation", "Income", "Cellular metabolism", "Solar radiation"], correctAnswer: "Income", explanation: "Income is a social determinant that can affect access to healthcare and overall health outcomes." },
+
+{ question: "According to the file, which factor is considered a cultural factor affecting health behavior?", options: ["Housing", "Religion", "Income", "Education"], correctAnswer: "Religion", explanation: "Religion is a cultural factor that can influence how individuals perceive illness and decide on treatment options." },
+
+{ question: "Medical Sociology is a branch of Sociology that analyzes what aspect of healthcare?", options: ["The genetic basis of diseases", "The interaction of health professionals and socio-cultural factors", "The chemical composition of drugs", "The anatomical structure of organs"], correctAnswer: "The interaction of health professionals and socio-cultural factors", explanation: "It focuses on the interplay between social dynamics, cultural values, and the organization of healthcare services." },
+
+{ question: "Which organization provided a definition of health as a complete state of physical, social, and mental well-being?", options: ["The Centers for Disease Control", "The World Health Organization (WHO)", "The American Medical Association", "The National Institutes of Health"], correctAnswer: "The World Health Organization (WHO)", explanation: "The WHO defines health as a complete state of physical, mental, and social well-being, not merely the absence of disease." },
+
+{ question: "According to WHO, what is disease defined as?", options: ["A deviation from normal functioning with undesirable consequences", "A minor inconvenience", "A sign of aging", "A result of genetic predisposition only"], correctAnswer: "A deviation from normal functioning with undesirable consequences", explanation: "Disease is understood as a deviation from normal bodily functions that leads to discomfort or adverse health outcomes." },
+
+{ question: "Which theory in Medical Sociology emphasizes the role of norms, values, and culture in determining health behavior?", options: ["Marxian Paradigm", "Health Belief Model", "Psychological theory of disease", "Structural functionalism"], correctAnswer: "Health Belief Model", explanation: "The Health Belief Model, introduced by Rosenstock, focuses on how cultural norms and values influence individual health behaviors." },
+
+{ question: "The Marxian Paradigm in Medical Sociology suggests that the economic system affects what aspect of society?", options: ["Biological processes", "Technological advancements", "Healthcare delivery", "Environmental factors"], correctAnswer: "Healthcare delivery", explanation: "It posits that the economic structure and power dynamics within a society directly influence how healthcare services are organized and provided." },
+
+{ question: "Which of the following theories is represented by the work of Goffman (1971)?", options: ["Marxian Paradigm", "Cultural theory of disease", "Middle-range Theories", "Structural functionalism"], correctAnswer: "Middle-range Theories", explanation: "Goffman's work exemplifies Middle-range Theories, which analyze specific social situations and their wider implications for behavior." },
+
+{ question: "What does the Medical theory of disease argue?", options: ["Disease results from biological discontinuity", "Disease is caused by social inequality", "Disease is solely a cultural construct", "Disease is a myth"], correctAnswer: "Disease results from biological discontinuity", explanation: "The Medical theory of disease links illness to a malfunction or discontinuity in the biological system of the body." },
+
+{ question: "Which theory focuses on the role of psychiatrists and psychologists in understanding the causes of mental disorders?", options: ["Medical theory of disease", "Psychological theory of disease", "Socio-environmental theory of disease", "Structural functionalism"], correctAnswer: "Psychological theory of disease", explanation: "This theory emphasizes the contribution of mental health professionals in diagnosing and understanding mental disorders." },
+
+{ question: "The Cultural theory of disease highlights the interplay between which two factors?", options: ["Environment and genetics", "Culture and technology", "Culture and disease", "Biology and chemistry"], correctAnswer: "Culture and disease", explanation: "It examines how cultural contexts and beliefs influence the manifestation and management of diseases." },
+
+{ question: "What does the socio-environmental theory of disease emphasize?", options: ["Economic policies", "Social and environmental factors", "Astronomical influences", "Genetic inheritance"], correctAnswer: "Social and environmental factors", explanation: "This theory states that social factors such as income, education, and living conditions, along with environmental influences, play a key role in disease development." },
+
+{ question: "Which of the following best describes 'society' as mentioned in the file?", options: ["A community with shared customs, laws, and organizations", "A biological system", "A collection of random people", "A group of isolated individuals"], correctAnswer: "A community with shared customs, laws, and organizations", explanation: "A society is defined as a community where people live together under shared cultural norms, laws, and organizational structures." },
+
+{ question: "In Medical Sociology, which approach views medicine as a social institution to be studied using sociological hypotheses?", options: ["Biological approach", "Social institution approach", "Applied enterprise approach", "Technological approach"], correctAnswer: "Social institution approach", explanation: "This approach treats medicine as a social institution, analyzing its structure and function using sociological methods." },
+
+{ question: "Which approach in Medical Sociology views medicine as an applied enterprise aimed at reducing human suffering?", options: ["Social institution approach", "Applied enterprise approach", "Cultural approach", "Economic approach"], correctAnswer: "Applied enterprise approach", explanation: "This perspective sees medicine as a practical endeavor focused on alleviating suffering and improving quality of life." },
+
+{ question: "What is one of the major concerns of Medical Sociology?", options: ["Studying how diseases are distributed among social groups", "Measuring electrical impulses in neurons", "Determining the chemical structure of drugs", "Analyzing planetary movements"], correctAnswer: "Studying how diseases are distributed among social groups", explanation: "A central concern of Medical Sociology is understanding the social distribution of diseases within different populations." },
+
+{ question: "Which factor is NOT considered a cultural factor in health according to the file?", options: ["Gender", "Housing", "Ethnicity", "Religion"], correctAnswer: "Housing", explanation: "Housing is typically regarded as a social factor rather than a cultural factor affecting health." },
+
+{ question: "What role does family play in health according to the file?", options: ["Family solely determines genetic factors", "Family has no impact on health", "Family is crucial for personal development and identifying health risks", "Family only influences mental health"], correctAnswer: "Family is crucial for personal development and identifying health risks", explanation: "The file emphasizes that the family unit is vital in both personal development and in assessing health risks through family medical history." },
+
+{ question: "A family medical history can help identify the risk of which common disorder?", options: ["Astrophysical anomalies", "Economic recessions", "Heart disease", "Lunar eclipses"], correctAnswer: "Heart disease", explanation: "Family medical history is used to assess the risk of disorders such as heart disease." },
+
+{ question: "Which social factor is highlighted as having an impact on the incidence of illness?", options: ["Quantum physics", "Chemical reactions", "Access to healthcare", "Planetary alignment"], correctAnswer: "Access to healthcare", explanation: "Access to healthcare is a critical social determinant that directly affects the prevalence and management of illnesses." },
+
+{ question: "How do sociologists view the relationship between economic systems and healthcare delivery?", options: ["Healthcare delivery is purely biological", "Economic systems have no effect on healthcare", "Economic systems significantly influence healthcare delivery", "Technology solely determines healthcare outcomes"], correctAnswer: "Economic systems significantly influence healthcare delivery", explanation: "The Marxian Paradigm in Medical Sociology argues that the economic structure of a society has a profound effect on how healthcare is delivered." },
+
+{ question: "What is the main objective of the applied enterprise approach in Medical Sociology?", options: ["To analyze molecular structures", "To reduce human suffering and improve quality of life", "To promote financial investments in healthcare", "To understand planetary movements"], correctAnswer: "To reduce human suffering and improve quality of life", explanation: "This approach treats medicine as a practical field focused on alleviating suffering and enhancing overall quality of life." },
+
+{ question: "Which theoretical perspective in Medical Sociology compares society to a dynamic social system?", options: ["Middle-range Theories", "Cultural theory of disease", "Structural functionalism", "Marxian Paradigm"], correctAnswer: "Structural functionalism", explanation: "Structural functionalism views society as a system with interdependent parts, much like a biological organism, where changes in one part affect the whole." },
+
+{ question: "What does the Middle-range Theory in Medical Sociology focus on?", options: ["Specific social situations with wider implications", "Only biological factors", "Broad, abstract social theories", "Astronomical data"], correctAnswer: "Specific social situations with wider implications", explanation: "Middle-range theories analyze concrete social interactions and situations to understand their broader effects on human behavior." },
+
+{ question: "The Health Belief Model was first propounded by which individual?", options: ["Comte", "Goffman", "Spencer", "Rosenstock"], correctAnswer: "Rosenstock", explanation: "Rosenstock introduced the Health Belief Model, which emphasizes the influence of cultural and normative factors on health behavior." },
+
+{ question: "Which aspect is NOT a focus of Medical Sociology?", options: ["Understanding the social distribution of diseases", "Examining societal support for medical institutions", "Exploring patient behavior within cultural contexts", "Analyzing the chemical structure of medicines"], correctAnswer: "Analyzing the chemical structure of medicines", explanation: "Medical Sociology concentrates on social, cultural, and institutional factors rather than the chemical properties of medications." },
+
+{ question: "Which theory would best explain the impact of poverty on illness within a family?", options: ["Marxian Paradigm", "Psychological theory of disease", "Structural functionalism", "Cultural theory of disease"], correctAnswer: "Structural functionalism", explanation: "Structural functionalism explains how poverty can influence illness by affecting not only the individual but also the entire family system." },
+
+{ question: "What is one of the roles of sociology in the context of post-treatment healthcare?", options: ["Determining drug compositions", "Studying social support networks", "Measuring blood pressure", "Performing surgeries"], correctAnswer: "Studying social support networks", explanation: "Sociology helps in understanding how social support networks influence recovery and long-term post-treatment outcomes." },
+
+{ question: "Which of the following is NOT one of the four major types of theories in Medical Sociology mentioned?", options: ["Quantum Theory", "Middle-range Theories", "Marxist Theory", "Structural functionalism"], correctAnswer: "Quantum Theory", explanation: "Quantum Theory is not part of Medical Sociology; the recognized theories include Structural functionalism, Marxist Theory, and Middle-range Theories." },
+
+{ question: "Which term refers to the study of the causes of diseases?", options: ["Physiology", "Aetiology", "Pathology", "Anatomy"], correctAnswer: "Aetiology", explanation: "Aetiology is the term used to describe the investigation into the causes or origins of diseases." },
+
+{ question: "What does the psychological theory of disease primarily address?", options: ["The societal distribution of illnesses", "The chemical imbalance in the body", "The impact of mental health professionals on understanding disorders", "The role of cultural rituals in disease"], correctAnswer: "The impact of mental health professionals on understanding disorders", explanation: "This theory emphasizes the role that psychiatrists and psychologists play in diagnosing and understanding mental disorders." },
+
+{ question: "How does the file describe the role of culture in disease management?", options: ["Culture has no effect on disease management", "Only economic factors matter", "It is solely the responsibility of doctors", "Cultural context can improve management of culture-bound syndromes"], correctAnswer: "Cultural context can improve management of culture-bound syndromes", explanation: "Understanding a patient’s cultural background can lead to more effective management of diseases that are closely linked to cultural practices." },
+
+{ question: "What does the socio-environmental theory suggest about the determinants of health?", options: ["Social and environmental conditions are key determinants", "Only lifestyle choices matter", "Health is determined only by genetics", "Health is random"], correctAnswer: "Social and environmental conditions are key determinants", explanation: "This theory emphasizes that social and environmental factors, such as income, education, and living conditions, are critical in shaping health outcomes." },
+
+{ question: "Which of the following best reflects the interdisciplinary nature of Medical Sociology?", options: ["It solely focuses on anatomy", "It integrates social, cultural, and medical perspectives", "It is only concerned with pharmacology", "It disregards cultural factors"], correctAnswer: "It integrates social, cultural, and medical perspectives", explanation: "Medical Sociology draws from multiple disciplines to understand how societal and cultural influences interact with medical practices." },
+
+{ question: "How does economic inequality contribute to health disparities according to the Marxian Paradigm?", options: ["It enhances healthcare for all", "It only affects cultural practices", "It undermines access to healthcare and resources", "It has no contribution"], correctAnswer: "It undermines access to healthcare and resources", explanation: "The Marxian Paradigm posits that economic inequality creates barriers to accessing quality healthcare, thereby increasing health disparities." },
+
+{ question: "Which aspect of Medical Sociology is concerned with how society defines and treats diseases?", options: ["Physiological processes", "Social prescriptions", "Genetic mutations", "Biochemical reactions"], correctAnswer: "Social prescriptions", explanation: "Medical Sociology examines how societal norms and institutions prescribe specific methods for treating and managing diseases." },
+
+{ question: "What does the file indicate about the significance of human relationships in the context of illness?", options: ["They only matter in psychological conditions", "They have minimal impact", "They strongly influence illness outcomes", "They are irrelevant in modern healthcare"], correctAnswer: "They strongly influence illness outcomes", explanation: "The file highlights that human relationships and social networks play a crucial role in determining the outcome of illnesses." },
+
+{ question: "According to the file, what is one way that social institutions support medical organizations?", options: ["By funding astrophysical research", "By creating new languages", "By designing hospital architecture", "By providing structural support and resources"], correctAnswer: "By providing structural support and resources", explanation: "Social institutions offer essential support and resources that help medical organizations effectively deliver healthcare services." },
+
+{ question: "Which of the following statements best captures the concept of 'aetiology'?", options: ["Observation of cultural rituals", "Analysis of treatment outcomes", "Study of the causes of disease", "Study of the symptoms"], correctAnswer: "Study of the causes of disease", explanation: "Aetiology is the investigation into the origins and causes of diseases." },
+
+{ question: "How does the file define 'disease'?", options: ["As a cultural celebration", "As an economic policy", "As any deviation from normal functioning that causes discomfort", "As a beneficial state"], correctAnswer: "As any deviation from normal functioning that causes discomfort", explanation: "Disease is defined as a deviation from normal bodily functioning that leads to discomfort or adverse health outcomes." },
+
+{ question: "Which of the following best represents a key contribution of Medical Sociology to healthcare?", options: ["Exploring the social distribution of diseases", "Developing new surgical techniques", "Analyzing the biochemical pathways", "Measuring blood pressure accurately"], correctAnswer: "Exploring the social distribution of diseases", explanation: "Medical Sociology contributes by examining how diseases are distributed among different social groups, which can inform public health strategies." },
+
+{ question: "Culture-bound syndromes can be better managed with informed knowledge of what?", options: ["Economic policies", "Genetic factors", "Cultural context and patient's background", "Urban planning"], correctAnswer: "Cultural context and patient's background", explanation: "An understanding of cultural context and a patient's background is crucial for the effective management of culture-bound syndromes." },
+
+{ question: "Which element is NOT typically considered a social determinant of health?", options: ["Education", "Income", "Blood type", "Housing"], correctAnswer: "Blood type", explanation: "Blood type is a biological characteristic, whereas education, income, and housing are recognized as social determinants of health." },
+
+{ question: "How do lifestyle choices influence health, according to the file?", options: ["They significantly impact the incidence of diseases", "They have no influence", "They only affect mental health", "They are irrelevant in modern medicine"], correctAnswer: "They significantly impact the incidence of diseases", explanation: "Lifestyle choices, including diet, exercise, and habits, are major factors that influence overall health and the risk of disease." },
+
+{ question: "Which of the following is a characteristic of Structural functionalism in Medical Sociology?", options: ["It is based on quantum mechanics", "It ignores the role of economic factors", "It focuses only on individual behavior", "It views the family as a unit impacting health"], correctAnswer: "It views the family as a unit impacting health", explanation: "Structural functionalism considers the family as an integral part of the social system that influences overall health outcomes." },
+
+{ question: "How does the dynamic social system model explain illness?", options: ["By solely focusing on anatomical defects", "By analyzing planetary cycles", "By linking individual illness to broader social influences", "By attributing illness to genetic mutations only"], correctAnswer: "By linking individual illness to broader social influences", explanation: "This model posits that illness is not merely a biological event but is also shaped by social relationships and structures." },
+
+
 
       
       ],
