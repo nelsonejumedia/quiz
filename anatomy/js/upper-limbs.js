@@ -77,6 +77,166 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+{
+category: "Exam Focus ANA201"
+questions: [
+
+
+
+{ question: "In which part of the skeleton is the lower limb located?", options: ["Superior appendicular skeleton", "Inferior appendicular skeleton", "Axial skeleton", "Cranial skeleton"], correctAnswer: "Inferior appendicular skeleton", explanation: "The lower limb is located in the inferior appendicular skeleton." },
+
+{ question: "How many regions does the lower limb have?", options: ["3", "5", "4", "6"], correctAnswer: "5", explanation: "The lower limb has five regions: gluteal, thigh, knee, leg, and foot." },
+
+{ question: "Which of the following is NOT one of the five regions of the lower limb?", options: ["Gluteal", "Thigh", "Cervical", "Foot"], correctAnswer: "Cervical", explanation: "The five regions of the lower limb are gluteal, thigh, knee, leg, and foot; 'cervical' is not one of them." },
+
+{ question: "The hip bone is formed by the fusion of which three parts?", options: ["Ilium, ischium, and pubis", "Ilium, sacrum, and coccyx", "Ischium, pubis, and femur", "Pubis, ischium, and scapula"], correctAnswer: "Ilium, ischium, and pubis", explanation: "The hip bone is formed by the fusion of the ilium, ischium, and pubis." },
+
+{ question: "What structure is formed by the fusion of the ischium, pubis, and ilium?", options: ["Sacroiliac joint", "Acetabulum", "Pubic symphysis", "Femoral head"], correctAnswer: "Acetabulum", explanation: "The acetabulum is the socket formed by the fusion of the three parts of the hip bone." },
+
+{ question: "How many articulations does the hip have?", options: ["One", "Three", "Two", "Four"], correctAnswer: "Three", explanation: "The hip has three articulations: the sacroiliac joint, pubic symphysis, and the hip joint." },
+
+{ question: "Which of the following is an articulation of the hip?", options: ["Intertrochanteric line", "Sacroiliac joint", "Iliac crest", "Femoral condyle"], correctAnswer: "Sacroiliac joint", explanation: "The sacroiliac joint is one of the three articulations of the hip." },
+
+{ question: "Which part of the hip bone is the largest and most superior?", options: ["Ischium", "Ilium", "Pubis", "Acetabulum"], correctAnswer: "Ilium", explanation: "The ilium is the largest and most superior part of the hip bone." },
+
+{ question: "Which anatomical landmark is used for lumbar punctures and bone marrow biopsies?", options: ["Iliac crest", "Acetabulum", "Greater trochanter", "Pubic symphysis"], correctAnswer: "Iliac crest", explanation: "The iliac crest serves as a landmark for lumbar punctures and bone marrow biopsies." },
+
+{ question: "Where does the iliacus muscle attach?", options: ["Acetabulum", "Iliac fossa", "Iliac crest", "Ischial tuberosity"], correctAnswer: "Iliac fossa", explanation: "The iliacus muscle attaches to the iliac fossa." },
+
+{ question: "To which bone are the hamstring muscles attached?", options: ["Ilium", "Ischium", "Pubis", "Femur"], correctAnswer: "Ischium", explanation: "The hamstring muscles (semimembranosus, semitendinosus, and biceps femoris) attach to the ischium." },
+
+{ question: "What type of joint is the pubic symphysis?", options: ["Synovial", "Cartilaginous", "Fibrous", "Ball and socket"], correctAnswer: "Cartilaginous", explanation: "The pubic symphysis is a cartilaginous joint." },
+
+{ question: "Which ramus of the pubis forms the ischiopubic ramus?", options: ["Superior pubic ramus", "Inferior pubic ramus", "Anterior pubic ramus", "Posterior pubic ramus"], correctAnswer: "Inferior pubic ramus", explanation: "The ischiopubic ramus is formed by the inferior pubic ramus." },
+
+{ question: "What is the primary function of the superior pubic ramus?", options: ["Forms the ischiopubic ramus", "Provides attachment for adductor muscles", "Articulates with the femur", "Connects with the acetabulum"], correctAnswer: "Provides attachment for adductor muscles", explanation: "The superior pubic ramus provides an attachment site for the adductor muscles." },
+
+{ question: "Which bone is the longest and strongest in the body?", options: ["Fibula", "Femur", "Tibia", "Humerus"], correctAnswer: "Femur", explanation: "The femur is the longest and strongest bone in the human body." },
+
+{ question: "What feature of the femur provides attachment for ligaments?", options: ["Trochanter", "Fovea", "Condyle", "Fossa"], correctAnswer: "Fovea", explanation: "The femur has a fovea that serves as an attachment point for ligaments." },
+
+{ question: "Which line runs between the greater and lesser trochanters of the femur?", options: ["Intertrochanteric crest", "Intertrochanteric line", "Linea aspera", "Medial intermuscular septum"], correctAnswer: "Intertrochanteric line", explanation: "The intertrochanteric line runs between the greater and lesser trochanters of the femur." },
+
+{ question: "The adductor tubercle at the distal end of the femur is considered which of the following?", options: ["Inferior lateral condyle", "Superior medial condyle", "Intertrochanteric line", "Femoral neck"], correctAnswer: "Superior medial condyle", explanation: "The adductor tubercle is regarded as the superior medial condyle at the distal end of the femur." },
+
+{ question: "Which bones articulate to form the knee joint?", options: ["Femur, tibia, and patella", "Femur, tibia, and fibula", "Femur, patella, and fibula", "Tibia, fibula, and patella"], correctAnswer: "Femur, tibia, and patella", explanation: "The knee joint is formed by the articulation of the distal femur with the tibia and patella." },
+
+{ question: "According to the provided text, the tibia is also called which bone?", options: ["Chin bone", "Shin bone", "Calf bone", "Thigh bone"], correctAnswer: "Chin bone", explanation: "In the provided text, the tibia is referred to as the 'chin bone'." },
+
+{ question: "Which region of the tibia lacks muscle attachments?", options: ["Posterolateral", "Anteromedial", "Posteromedial", "Anterolateral"], correctAnswer: "Anteromedial", explanation: "The anteromedial part of the tibia does not have muscles attached." },
+
+{ question: "What is the shape of the tibia in cross-section?", options: ["Circular", "Triangular", "Square", "Oval"], correctAnswer: "Triangular", explanation: "The tibia is triangular in cross-section, with its anterior surface noted in the text." },
+
+{ question: "Which bone in the lower limb is non-weight bearing?", options: ["Femur", "Tibia", "Fibula", "Calcaneus"], correctAnswer: "Fibula", explanation: "The fibula is a non-weight bearing bone and primarily serves for muscle attachment." },
+
+{ question: "What is the main function of the fibula?", options: ["Weight-bearing", "Muscle attachment", "Joint articulation", "Shock absorption"], correctAnswer: "Muscle attachment", explanation: "The fibula mainly provides a surface for muscle attachment rather than weight-bearing." },
+
+{ question: "What type of bone is the patella?", options: ["Long bone", "Sesamoid bone", "Short bone", "Flat bone"], correctAnswer: "Sesamoid bone", explanation: "The patella is a triangular sesamoid bone embedded within the quadriceps tendon." },
+
+{ question: "Where does the quadriceps tendon attach?", options: ["Greater trochanter", "Base of the patella", "Tibial tuberosity", "Fibular head"], correctAnswer: "Base of the patella", explanation: "The quadriceps tendon attaches at the base of the patella." },
+
+{ question: "How many bones are present in the foot?", options: ["24", "26", "28", "30"], correctAnswer: "26", explanation: "The human foot consists of 26 bones." },
+
+{ question: "Which bones form the ankle joint?", options: ["Talus, tibia, and fibula", "Talus, tibia, and patella", "Calcaneus, tibia, and fibula", "Talus, calcaneus, and navicular"], correctAnswer: "Talus, tibia, and fibula", explanation: "The ankle joint is formed by the talus bone along with the medial and lateral malleoli of the tibia and fibula." },
+
+{ question: "Which tarsal bone is the only one that participates in forming the ankle joint?", options: ["Calcaneus", "Talus", "Cuboid", "Navicular"], correctAnswer: "Talus", explanation: "Among the tarsal bones, only the talus takes part in forming the ankle joint." },
+
+{ question: "Which group of bones contributes to the arches of the foot?", options: ["Navicular, cuboid, and cuneiform", "Calcaneus, talus, and navicular", "Metatarsals, tarsals, and phalanges", "Talus, fibula, and tibia"], correctAnswer: "Navicular, cuboid, and cuneiform", explanation: "The navicular, cuboid, and cuneiform bones are involved in forming the arches of the foot." },
+
+{ question: "What is the joint formed by the metatarsals and tarsal bones called?", options: ["Intertarsal joint", "Tarsometatarsal joint", "Metatarsophalangeal joint", "Sacroiliac joint"], correctAnswer: "Tarsometatarsal joint", explanation: "The articulation between the metatarsals and tarsal bones forms the tarsometatarsal joint." },
+
+{ question: "How many phalanges are present in the foot?", options: ["12", "14", "16", "18"], correctAnswer: "14", explanation: "There are 14 phalanges in the foot." },
+
+{ question: "How many phalanges does the great toe have?", options: ["One", "Two", "Three", "Four"], correctAnswer: "Two", explanation: "The great toe has only two phalanges: a proximal and a distal phalanx." },
+
+{ question: "Which bone in the foot is commonly fractured in falls?", options: ["Talus", "Calcaneus", "Cuboid", "Navicular"], correctAnswer: "Calcaneus", explanation: "The calcaneus is frequently fractured in falls." },
+
+{ question: "What are the two primary types of arches in the foot?", options: ["Medial and lateral", "Longitudinal and transverse", "Anterior and posterior", "Superior and inferior"], correctAnswer: "Longitudinal and transverse", explanation: "The foot has two primary arches: the longitudinal and the transverse arches." },
+
+{ question: "What is the main function of the arches of the foot?", options: ["Weight bearing only", "Shock absorption and energy conservation", "Muscle attachment", "Joint movement stabilization"], correctAnswer: "Shock absorption and energy conservation", explanation: "The arches of the foot are essential for shock absorption and energy conservation during movement." },
+
+{ question: "What role does the lateral longitudinal arch play?", options: ["Shock absorption", "Weight distribution and stabilization", "Flexibility", "Balance maintenance"], correctAnswer: "Weight distribution and stabilization", explanation: "The lateral longitudinal arch plays a key role in weight distribution and stabilizing the foot during locomotion." },
+
+{ question: "Pes Planus is a condition characterized by:", options: ["High-arched foot", "Flat foot", "Clubfoot", "Cavus foot"], correctAnswer: "Flat foot", explanation: "Pes Planus refers to flat foot, where the medial arch collapses leading to excessive pronation." },
+
+{ question: "Pes Cavus is characterized by which of the following?", options: ["A flat medial arch", "An exaggerated arch height", "Short metatarsals", "Increased foot width"], correctAnswer: "An exaggerated arch height", explanation: "Pes Cavus is defined by an exaggerated arch height, which may reduce shock absorption." },
+
+{ question: "Which bone forms the posterior pole of the arches of the foot?", options: ["Metatarsals", "Calcaneus", "Talus", "Cuboid"], correctAnswer: "Calcaneus", explanation: "The calcaneus forms the posterior pole of the foot's arches." },
+
+{ question: "Which structure forms the anterior pole of the arches of the foot?", options: ["Calcaneus", "Metatarsals", "Talus", "Cuneiform"], correctAnswer: "Metatarsals", explanation: "The metatarsals form the anterior pole of the foot's arches." },
+
+{ question: "How does the medial end of the clavicle appear?", options: ["Flat", "Triangular", "Rounded", "Oval"], correctAnswer: "Triangular", explanation: "The medial end of the clavicle appears triangular and forms the sternoclavicular joint." },
+
+{ question: "The lateral end of the clavicle is characterized by being:", options: ["Rounded", "Triangular", "Flat", "Irregular"], correctAnswer: "Flat", explanation: "The lateral end of the clavicle appears flat and forms the acromioclavicular joint." },
+
+{ question: "How is the medial two-thirds of the clavicle shaped?", options: ["Concave anteriorly, convex posteriorly", "Convex anteriorly, concave posteriorly", "Flat", "Irregular"], correctAnswer: "Convex anteriorly, concave posteriorly", explanation: "The medial two-thirds of the clavicle is convex on the anterior surface and concave on the posterior surface." },
+
+{ question: "How is the lateral one-third of the clavicle described?", options: ["Convex posteriorly and concave laterally", "Convex anteriorly and concave posteriorly", "Flat", "Irregular"], correctAnswer: "Convex posteriorly and concave laterally", explanation: "The lateral one-third of the clavicle is convex on its posterior side and concave laterally." },
+
+{ question: "Which bone does not possess a medullary cavity?", options: ["Femur", "Tibia", "Clavicle", "Humerus"], correctAnswer: "Clavicle", explanation: "The clavicle is unique among long bones in that it does not have a medullary cavity." },
+
+{ question: "Which long bone undergoes intramembranous ossification?", options: ["Femur", "Tibia", "Clavicle", "Humerus"], correctAnswer: "Clavicle", explanation: "The clavicle is the only long bone that undergoes intramembranous ossification." },
+
+{ question: "During which weeks of intrauterine life does the clavicle begin to ossify?", options: ["1st to 2nd week", "3rd to 4th week", "5th to 6th week", "7th to 8th week"], correctAnswer: "5th to 6th week", explanation: "The clavicle begins to ossify during the 5th to 6th week of intrauterine life." },
+
+{ question: "At approximately what age does the clavicle fuse?", options: ["10", "15", "20", "25"], correctAnswer: "25", explanation: "The clavicle typically fuses between the ages of 25." },
+
+{ question: "How do the ligaments attaching to the clavicle compare in strength to the bone itself?", options: ["Weaker", "Stronger", "Equal", "Variable"], correctAnswer: "Stronger", explanation: "The ligaments attaching to the clavicle are stronger than the clavicle." },
+
+{ question: "Which border of the scapula is the thickest?", options: ["Medial", "Lateral", "Superior", "Inferior"], correctAnswer: "Lateral", explanation: "The lateral border of the scapula is the thickest." },
+
+{ question: "Which nerve innervates the muscles of the anterior compartment of the arm?", options: ["Radial nerve", "Ulnar nerve", "Musculocutaneous nerve", "Median nerve"], correctAnswer: "Musculocutaneous nerve", explanation: "The musculocutaneous nerve supplies the muscles of the anterior compartment of the arm." },
+
+{ question: "Which nerve innervates the anterior muscles of the forearm?", options: ["Median nerve", "Radial nerve", "Ulnar nerve", "Musculocutaneous nerve"], correctAnswer: "Median nerve", explanation: "The median nerve innervates the anterior muscles of the forearm." },
+
+{ question: "Sciatica can lead to which clinical presentation?", options: ["Hand drop", "Waist drop", "Foot drop", "Arm drop"], correctAnswer: "Waist drop", explanation: "Sciatica can cause waist drop due to nerve impairment." },
+
+{ question: "Piriformis syndrome can result in which of the following?", options: ["Arm weakness", "Waist drop", "Foot numbness", "Hand tingling"], correctAnswer: "Waist drop", explanation: "Piriformis syndrome, associated with hypertrophy of the piriformis muscle, may lead to waist drop." },
+
+{ question: "What is the approximate diameter of the sciatic nerve?", options: ["0.5 to 1 cm", "1.8 to 2 cm", "2.5 to 3 cm", "3 to 4 cm"], correctAnswer: "1.8 to 2 cm", explanation: "The sciatic nerve measures approximately 1.8 to 2 cm in diameter." },
+
+{ question: "Injury to which nerve is responsible for causing sciatica?", options: ["Femoral nerve", "Obturator nerve", "Sciatic nerve", "Tibial nerve"], correctAnswer: "Sciatic nerve", explanation: "Damage to the sciatic nerve results in sciatica." },
+
+{ question: "Which vein is described as the largest in the human body?", options: ["Femoral vein", "Great saphenous vein", "Basilic vein", "Cephalic vein"], correctAnswer: "Great saphenous vein", explanation: "The great saphenous vein is considered the largest vein in the human body." },
+
+{ question: "Through which opening does the great saphenous vein enter the femoral canal?", options: ["Cribiform fascia", "Obturator canal", "Saphenous opening", "Sciatic notch"], correctAnswer: "Saphenous opening", explanation: "The great saphenous vein enters the femoral canal via the saphenous opening." },
+
+{ question: "What is the joint between the metacarpals and phalanges commonly called?", options: ["Hinge joint", "Ellipsoid (wrist) joint", "Pivot joint", "Saddle joint"], correctAnswer: "Ellipsoid (wrist) joint", explanation: "The joint between the metacarpals and phalanges is known as the ellipsoid or wrist joint." },
+
+{ question: "Through which muscles does the brachial plexus pass?", options: ["Trapezius and latissimus dorsi", "Anterior and middle scalene", "Deltoid and pectoralis major", "Sternocleidomastoid and platysma"], correctAnswer: "Anterior and middle scalene", explanation: "The brachial plexus passes between the anterior and middle scalene muscles." },
+
+{ question: "Erb-Duchenne Palsy is an injury to which part of the brachial plexus?", options: ["Lower part", "Upper part", "Middle trunk", "Terminal branches"], correctAnswer: "Upper part", explanation: "Erb-Duchenne Palsy results from an injury to the upper part of the brachial plexus." },
+
+{ question: "The brachial plexus is formed by the anterior rami of which spinal nerve roots?", options: ["C3 to C7", "C5 to T1", "C1 to C8", "T1 to T5"], correctAnswer: "C5 to T1", explanation: "The brachial plexus is formed from the anterior rami of the spinal nerves C5 to T1." },
+
+{ question: "Which muscle forms the superior aspect of the floor of the cubital fossa?", options: ["Brachioradialis", "Brachialis", "Supinator", "Pronator teres"], correctAnswer: "Brachialis", explanation: "The brachialis muscle forms the superior portion of the floor of the cubital fossa." },
+
+{ question: "Which muscle forms the inferior aspect of the floor of the cubital fossa?", options: ["Biceps brachii", "Supinator", "Brachialis", "Pronator teres"], correctAnswer: "Supinator", explanation: "The supinator muscle forms the inferior aspect of the cubital fossa floor." },
+
+{ question: "How many groups of axillary lymph nodes are there?", options: ["Three", "Four", "Five", "Six"], correctAnswer: "Five", explanation: "There are five groups of axillary lymph nodes." },
+
+{ question: "Which axillary lymph node does NOT drain into the central lymph node?", options: ["Anterior", "Apical", "Lateral", "Posterior"], correctAnswer: "Apical", explanation: "All axillary lymph nodes drain to the central node except the apical lymph node, which receives drainage from the central node." },
+
+{ question: "Approximately how long is the femur?", options: ["35 cm", "40 cm", "45 cm", "50 cm"], correctAnswer: "45 cm", explanation: "The femur is approximately 45 cm long." },
+
+{ question: "Which of the following is NOT a primary weight-bearing bone?", options: ["Femur", "Tibia", "Foot", "Fibula"], correctAnswer: "Fibula", explanation: "While the femur, tibia, and foot are primary weight-bearing structures, the fibula is not." },
+
+{ question: "From which foramen does the sciatic nerve originate?", options: ["Lesser sciatic foramen", "Obturator canal", "Greater sciatic foramen", "Femoral triangle"], correctAnswer: "Greater sciatic foramen", explanation: "The sciatic nerve originates from the greater sciatic foramen." },
+
+{ question: "Which part of the gluteal region is used for injections when administering drugs to the lower limbs?", options: ["Gluteus maximus", "Piriformis", "Gluteus medius", "Gluteus minimus"], correctAnswer: "Gluteus medius", explanation: "The gluteus medius is the preferred injection site for administering drugs to the lower limbs." },
+
+{ question: "How many portions does the pectoralis major have?", opt
+
+
+
+
+
+],
+},
+
+
+
+
 
 
 
@@ -5150,7 +5310,7 @@ function startTimer() {
 
     setTimeout(() => {
       submitAnswer();
-    }, 2250);
+    }, 3250);
   }, 250);
 }
 
