@@ -225,7 +225,79 @@ questions: [
 
 { question: "Which part of the gluteal region is used for injections when administering drugs to the lower limbs?", options: ["Gluteus maximus", "Piriformis", "Gluteus medius", "Gluteus minimus"], correctAnswer: "Gluteus medius", explanation: "The gluteus medius is the preferred injection site for administering drugs to the lower limbs." },
 
-{ question: "How many portions does the pectoralis major have?", opt
+{ question: "How many portions does the pectoralis major have?", options: ["One", "Two", "Three", "Four"], correctAnswer: "Two", explanation: "The pectoralis major has two portions: the clavicular head and the sternal head." },
+
+{ question: "What is the fiber orientation of the clavicular head of the pectoralis major?", options: ["Obliquely upward, medially", "Obliquely downward, laterally", "Horizontally", "Vertically"], correctAnswer: "Obliquely downward, laterally", explanation: "The clavicular head of the pectoralis major has fibers oriented obliquely downward and laterally." },
+
+{ question: "What is the fiber orientation of the sternal head of the pectoralis major?", options: ["Obliquely upward, laterally", "Obliquely downward, medially", "Horizontally", "Vertically"], correctAnswer: "Obliquely upward, laterally", explanation: "The sternal head of the pectoralis major has fibers oriented obliquely upward and laterally." },
+
+{ question: "Which movement of the arm is associated with lateral rotation?", options: ["Internal rotation", "Extension", "Lateral rotation", "Adduction"], correctAnswer: "Lateral rotation", explanation: "Lateral rotation is the movement involved in external rotation of the arm." },
+
+{ question: "Which movement of the arm is also known as medial rotation?", options: ["Extension", "Abduction", "Internal rotation", "Lateral rotation"], correctAnswer: "Internal rotation", explanation: "Internal rotation is also referred to as medial rotation of the arm." },
+
+{ question: "Which muscle is primarily responsible for initiating abduction of the arm?", options: ["Infraspinatus", "Subscapularis", "Supraspinatus", "Teres minor"], correctAnswer: "Supraspinatus", explanation: "The supraspinatus muscle is primarily responsible for the abduction of the arm." },
+
+{ question: "Which muscle is chiefly responsible for the external rotation of the arm?", options: ["Subscapularis", "Pectoralis major", "Infraspinatus", "Biceps brachii"], correctAnswer: "Infraspinatus", explanation: "The infraspinatus muscle is key in performing external rotation of the arm." },
+
+{ question: "Which muscle contributes to both external rotation and adduction of the arm?", options: ["Deltoid", "Subscapularis", "Teres minor", "Pectoralis major"], correctAnswer: "Teres minor", explanation: "The teres minor muscle aids in both external rotation and adduction of the arm." },
+
+{ question: "Which muscle is primarily responsible for internal rotation of the arm?", options: ["Infraspinatus", "Teres minor", "Subscapularis", "Deltoid"], correctAnswer: "Subscapularis", explanation: "The subscapularis muscle is the main muscle responsible for internal (medial) rotation of the arm." },
+
+{ question: "Which muscle forms the lateral border of the femoral triangle?", options: ["Vastus lateralis", "Sartorius", "Longest muscle of the thigh", "Rectus femoris"], correctAnswer: "Longest muscle of the thigh", explanation: "The longest muscle of the thigh forms the lateral border of the femoral triangle." },
+
+{ question: "What forms the medial border of the femoral triangle?", options: ["Lateral head of adductor longus", "Medial head of adductor longus", "Pectineus", "Iliopsoas"], correctAnswer: "Lateral head of adductor longus", explanation: "The lateral head of the adductor longus forms the medial border of the femoral triangle." },
+
+{ question: "The cribiform fascia is part of which region of the femoral triangle?", options: ["Floor", "Roof", "Lateral wall", "Medial wall"], correctAnswer: "Roof", explanation: "The cribiform fascia forms part of the roof of the femoral triangle." },
+
+{ question: "Relative to the femoral sheath, where is the cribiform fascia located?", options: ["Within it", "Deep to it", "Superficial to it", "Posterior to it"], correctAnswer: "Superficial to it", explanation: "The cribiform fascia is located superficial to the femoral sheath." },
+
+{ question: "Which ligament bounds the femoral triangle superiorly?", options: ["Lacunar ligament", "Inguinal ligament", "Poupart’s ligament", "Sartorius tendon"], correctAnswer: "Poupart’s ligament", explanation: "The femoral triangle is bounded superiorly by Poupart’s ligament." },
+
+{ question: "Through which structure does the great saphenous vein enter the femoral triangle?", options: ["Inguinal ligament", "Cribiform fascia", "Obturator canal", "Saphenous opening"], correctAnswer: "Cribiform fascia", explanation: "The great saphenous vein enters the femoral triangle through the cribiform fascia." },
+
+{ question: "How is the floor of the femoral triangle described?", options: ["Flat", "Curved", "Gutter shaped", "Triangular"], correctAnswer: "Gutter shaped", explanation: "The floor of the femoral triangle is described as gutter shaped." },
+
+{ question: "What forms the apex of the femoral triangle?", options: ["Femoral artery bifurcation", "Sartorius muscle overlapping the adductor muscle", "Inguinal ligament attachment", "Great saphenous vein entry point"], correctAnswer: "Sartorius muscle overlapping the adductor muscle", explanation: "The apex of the femoral triangle is where the sartorius muscle overlies the adductor muscle." },
+
+{ question: "Femoral hernia is bounded laterally by which structure?", options: ["Lacunar ligament", "Femoral artery", "Femoral vein", "Adductor longus"], correctAnswer: "Femoral vein", explanation: "Femoral hernia is laterally bounded by the femoral vein." },
+
+{ question: "Femoral hernia is bounded medially by which structure?", options: ["Femoral artery", "Lacunar ligament", "Inguinal ligament", "Adductor longus"], correctAnswer: "Lacunar ligament", explanation: "Femoral hernia is medially bounded by the lacunar ligament." },
+
+{ question: "Femoral hernias are more common in which gender?", options: ["Males", "Females", "Both equally", "Children"], correctAnswer: "Females", explanation: "Due to wider pelves and smaller inguinal canals, femoral hernias are more common in females." },
+
+{ question: "Which lymph nodes are found in the femoral canal?", options: ["Popliteal nodes", "Inguinal nodes", "Cloquet's lymph nodes", "Axillary nodes"], correctAnswer: "Cloquet's lymph nodes", explanation: "The femoral canal contains lymph nodes known as Cloquet's lymph nodes." },
+
+{ question: "The femoral artery is a continuation of which artery?", options: ["Internal iliac artery", "External iliac artery", "Abdominal aorta", "Popliteal artery"], correctAnswer: "External iliac artery", explanation: "The femoral artery is the direct continuation of the external iliac artery." },
+
+{ question: "Which artery is the main blood supply to the lower limbs?", options: ["Tibial artery", "Popliteal artery", "Femoral artery", "Obturator artery"], correctAnswer: "Femoral artery", explanation: "The femoral artery is the primary blood supply to the lower limbs." },
+
+{ question: "Deep in the femoral triangle, what forms the superior boundaries of the floor?", options: ["Linea aspera", "Medial and lateral supracondylar lines of the femur", "Intertrochanteric line", "Soleal line of the tibia"], correctAnswer: "Medial and lateral supracondylar lines of the femur", explanation: "The diverging medial and lateral supracondylar lines of the femur form the superior boundaries of the floor." },
+
+{ question: "What forms the inferior boundary of the floor of the femoral triangle?", options: ["Linea aspera", "Soleal line of the tibia", "Adductor magnus", "Popliteus"], correctAnswer: "Soleal line of the tibia", explanation: "The soleal line of the tibia forms the inferior boundary of the femoral triangle's floor." },
+
+{ question: "What soft tissue covers the floor bones of the femoral triangle?", options: ["Popliteus", "Adductor magnus", "Cribiform fascia", "Iliopsoas"], correctAnswer: "Popliteus", explanation: "The popliteus is the soft tissue covering the floor bones of the femoral triangle." },
+
+{ question: "Which is the longest and largest branch of the brachial plexus?", options: ["Radial nerve", "Median nerve", "Ulnar nerve", "Musculocutaneous nerve"], correctAnswer: "Radial nerve", explanation: "The radial nerve is recognized as the longest and largest branch of the brachial plexus." },
+
+{ question: "The cervicoaxillary canal is bounded medially by which structure?", options: ["First rib", "Clavicle", "Scapula", "Sternum"], correctAnswer: "First rib", explanation: "The first rib forms the medial boundary of the cervicoaxillary canal." },
+
+{ question: "What structure forms the anterior boundary of the cervicoaxillary canal?", options: ["Clavicle", "First rib", "Scapula", "Vertebral column"], correctAnswer: "Clavicle", explanation: "The clavicle forms the anterior boundary of the cervicoaxillary canal." },
+
+{ question: "Which structure forms the posterior boundary of the cervicoaxillary canal?", options: ["First rib", "Clavicle", "Sternum", "Superior aspect of the scapula"], correctAnswer: "Superior aspect of the scapula", explanation: "The superior aspect of the scapula forms the posterior boundary of the cervicoaxillary canal." },
+
+{ question: "How many walls does the axilla have?", options: ["Three", "Four", "Five", "Six"], correctAnswer: "Four", explanation: "The axilla is anatomically described as having four walls." },
+
+{ question: "Into how many branches does the thoraco-acromial artery divide?", options: ["Two", "Four", "Three", "Five"], correctAnswer: "Four", explanation: "The thoraco-acromial artery divides into four branches: acromial, deltoid, pectoral, and clavicular." },
+
+{ question: "Which vein runs obliquely across the cubital fossa connecting the cephalic and basilic veins?", options: ["Cephalic vein", "Median cubital vein", "Basilic vein", "Median antebrachial vein"], correctAnswer: "Median cubital vein", explanation: "The median cubital vein runs obliquely across the cubital fossa, linking the cephalic and basilic veins." },
+
+{ question: "In 1/5th of the population, the median antebrachial vein bifurcates into which two veins?", options: ["Median cephalic and median basilic vein", "Radial and ulnar veins", "Cephalic and basilic vein", "Superficial and deep veins"], correctAnswer: "Median cephalic and median basilic vein", explanation: "In approximately 1/5th of the population, the median antebrachial vein splits into the median cephalic and median basilic veins." },
+
+{ question: "What are the boundaries of the anatomical snuff box?", options: ["Anteriorly: APL and EPB; Posteriorly: APB and EPL", "Anteriorly: EPL and EPB; Posteriorly: APL and APB", "Medially: APL and EPL; Laterally: EPB and APB", "Superiorly: APL and EPL; Inferiorly: EPB and APB"], correctAnswer: "Anteriorly: APL and EPB; Posteriorly: APB and EPL", explanation: "The anatomical snuff box is bounded anteriorly by the abductor pollicis longus (APL) and extensor pollicis brevis (EPB), and posteriorly by the abductor pollicis brevis (APB) and extensor pollicis longus (EPL)." },
+
+{ question: "Which dermatome maps, based on clinical findings, are commonly used by neurologists?", options: ["Keegan and Garrett 1948", "Foerster 1933", "Myers 1980", "Smith 1990"], correctAnswer: "Foerster 1933", explanation: "Foerster's dermatome maps, established in 1933, are commonly used by neurologists for clinical assessment." },
+
+{ question: "Which dermatome maps emphasize intuitive aesthetics corresponding to limb development?", options: ["Foerster 1933", "Keegan and Garrett 1948", "Langer 1970", "Penfield 1966"], correctAnswer: "Keegan and Garrett 1948", explanation: "The dermatome maps by Keegan and Garrett (1948) incorporate intuitive aesthetic qualities related to limb development." },
 
 
 
