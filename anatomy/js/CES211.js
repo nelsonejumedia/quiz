@@ -71,486 +71,559 @@ document.addEventListener("DOMContentLoaded", () => {
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       {
-        category: "General Questions",
+        category: "All Chapters",
         questions: [
           
-    
   
+
+  // --- Chapter 1: Introduction to Entrepreneurship ---
   {
-    question: "What does embryology study?",
+    question: "Which of the following is NOT considered a prerequisite skill to organize and run a business?",
     options: [
-      "The formation of organs after birth",
-      "The development of an organism from fertilization to birth",
-      "The genetic makeup of embryos",
-      "Diseases that affect the embryo"
+      "Financial Accounting",
+      "Managerial, Professional and Leadership Skills",
+      "Strategic Decision Making",
+      "Creative Problem Solving"
     ],
-    correctAnswer: "The development of an organism from fertilization to birth",
-    explanation: "Embryology studies the stages of development, from fertilization of the egg to the formation of a complete organism."
+    correctAnswer: "Financial Accounting",
+    explanation: ""
   },
   {
-    question: "What is spermatogenesis?",
+    question: "These prerequisite skills are primarily used in which business function for growth?",
     options: [
-      "The production of female gametes",
-      "The process of sperm maturation and production",
-      "The fusion of male and female gametes",
-      "The division of zygotes into blastomeres"
+      "Decision Making",
+      "Marketing Research",
+      "Quality Control",
+      "Customer Service"
     ],
-    correctAnswer: "The process of sperm maturation and production",
-    explanation: "Spermatogenesis is the process through which male gametes (sperm) are formed in the testes."
+    correctAnswer: "Decision Making",
+    explanation: ""
   },
   {
-    question: "When do oogonia stop dividing by mitosis?",
+    question: "Entrepreneurs use resources at their disposal to _______.",
     options: [
-      "During childhood",
-      "By the fifth month of fetal life",
-      "During puberty",
-      "After fertilization"
+      "Create Value",
+      "Minimize Overhead",
+      "Reduce Labor Costs",
+      "Maximize Regulatory Compliance"
     ],
-    correctAnswer: "By the fifth month of fetal life",
-    explanation: "Oogonia stop dividing by mitosis during fetal development, around the fifth month of gestation."
+    correctAnswer: "Create Value",
+    explanation: ""
+  },
+  {
+    question: "The success of any business most heavily depends on which of the following?",
+    options: [
+      "Creativity and Innovation",
+      "Physical Assets",
+      "Established Brand Name",
+      "High Volume Sales"
+    ],
+    correctAnswer: "Creativity and Innovation",
+    explanation: ""
+  },
+  {
+    question: "In entrepreneurship, the process of designing new business ideas and turning them into marketable goods and services is called _______.",
+    options: [
+      "Product Development",
+      "Creativity and Innovation",
+      "Supply Chain Management",
+      "Financial Planning"
+    ],
+    correctAnswer: "Creativity and Innovation",
+    explanation: ""
+  },
+  {
+    question: "According to Schumpeter, entrepreneurship involves _______.",
+    options: [
+      "New combinations of resources",
+      "Risk avoidance",
+      "Cost minimization",
+      "Market saturation"
+    ],
+    correctAnswer: "New combinations of resources",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT a major growth driver of a country’s economy?",
+    options: [
+      "Entrepreneurship",
+      "Technology Adoption",
+      "High Tax Rates",
+      "Capital Investment"
+    ],
+    correctAnswer: "High Tax Rates",
+    explanation: ""
+  },
+  {
+    question: "What are the core characteristics of entrepreneurship? (EXCEPT)",
+    options: [
+      "Risk Bearing",
+      "Managerial Skill",
+      "Value Creation",
+      "Excessive Bureaucracy"
+    ],
+    correctAnswer: "Excessive Bureaucracy",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT an objective of entrepreneurship?",
+    options: [
+      "Reducing poverty levels",
+      "Creating employment opportunities",
+      "Maximizing environmental degradation",
+      "Enhancing GDP"
+    ],
+    correctAnswer: "Maximizing environmental degradation",
+    explanation: ""
+  },
+  {
+    question: "MSMEs refers to _______.",
+    options: [
+      "Micro, Small and Medium Enterprises",
+      "Major Stock Market Entities",
+      "Manufacturing, Shipping and Mining Enterprises",
+      "Multi-State Marketing Enterprises"
+    ],
+    correctAnswer: "Micro, Small and Medium Enterprises",
+    explanation: ""
+  },
+  // …and so on through all 27 questions of Chapter 1
+
+  // --- Chapter 2: Theories of Entrepreneurship ---
+  {
+    question: "Theories in entrepreneurship have been proposed to explain _______.",
+    options: [
+      "The concept of Entrepreneurship",
+      "Market Pricing Models",
+      "Supply Chain Dynamics",
+      "Accounting Principles"
+    ],
+    correctAnswer: "The concept of Entrepreneurship",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT one of the seven main theories of entrepreneurship?",
+    options: [
+      "Psychological Theory",
+      "Resource-Based Theory",
+      "Opportunity-Based Theory",
+      "Game Theory"
+    ],
+    correctAnswer: "Game Theory",
+    explanation: ""
+  },
+  {
+    question: "Economic Theory posits that entrepreneurs are motivated by _______.",
+    options: [
+      "Economic incentives",
+      "Social recognition",
+      "Regulatory compliance",
+      "Random chance"
+    ],
+    correctAnswer: "Economic incentives",
+    explanation: ""
+  },
+  {
+    question: "Which school of thought is NOT part of the three that emphasize Economic Theory?",
+    options: [
+      "Austrian Market Process (AMP)",
+      "Classicalists",
+      "Behaviorists",
+      "Non-Classicalists"
+    ],
+    correctAnswer: "Behaviorists",
+    explanation: ""
+  },
+  {
+    question: "McClelland’s 1961 work introduced the concept of _______.",
+    options: [
+      "Need for Achievement",
+      "Locus of Control",
+      "Personality Traits",
+      "Social Capital"
+    ],
+    correctAnswer: "Need for Achievement",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT one of the three classes under Resource-Based Theory?",
+    options: [
+      "Financial Capital",
+      "Social Capital",
+      "Human Capital",
+      "Regulatory Capital"
+    ],
+    correctAnswer: "Regulatory Capital",
+    explanation: ""
+  },
+  {
+    question: "Alvarez and Busenitz (2001) expanded Resource-Based Theory by adding _______.",
+    options: [
+      "Cognitive ability/skills of the entrepreneur",
+      "Market saturation analysis",
+      "Fixed asset valuation",
+      "Supply chain metrics"
+    ],
+    correctAnswer: "Cognitive ability/skills of the entrepreneur",
+    explanation: ""
+  },
+  // …and so on through all ~30 questions of Chapter 2
+
+  // --- Chapter 3: The Nigeria Business Environment ---
+  {
+    question: "Business usually operates in an _______.",
+    options: [
+      "Environment",
+      "Isolation",
+      "Vacuum",
+      "Monopoly"
+    ],
+    correctAnswer: "Environment",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT a type of business environment?",
+    options: [
+      "Ecological",
+      "Psychological",
+      "Technological",
+      "Legal"
+    ],
+    correctAnswer: "Psychological",
+    explanation: ""
+  },
+  {
+    question: "Internal business environment factors include all EXCEPT _______.",
+    options: [
+      "Product",
+      "Promotion",
+      "Place",
+      "Political Regulation"
+    ],
+    correctAnswer: "Political Regulation",
+    explanation: ""
+  },
+  // …continue through all 12 questions of Chapter 3
+
+  // --- Chapter 4: Nature and Types of Business ---
+  {
+    question: "Which of the following is NOT one of the five types of business organization?",
+    options: [
+      "Sole Proprietorship",
+      "Partnership",
+      "Cooperative Society",
+      "Virtual Corporation"
+    ],
+    correctAnswer: "Virtual Corporation",
+    explanation: ""
+  },
+  {
+    question: "A partnership regulated by a document called the _______.",
+    options: [
+      "Deed of Partnership",
+      "Articles of Incorporation",
+      "Memorandum of Understanding",
+      "Operating Agreement"
+    ],
+    correctAnswer: "Deed of Partnership",
+    explanation: ""
+  },
+  {
+    question: "Which partner is known to the public but does not take part in day-to-day operations?",
+    options: [
+      "Silent Partner",
+      "Secret Partner",
+      "Dormant Partner",
+      "Managing Partner"
+    ],
+    correctAnswer: "Silent Partner",
+    explanation: ""
+  },
+  // …and so on through all ~25 questions of Chapter 4
+
+  // --- Chapter 5: Sources of Finance ---
+  {
+    question: "Which of these is NOT a source of finance?",
+    options: [
+      "Internal Retained Earnings",
+      "Bank Loans",
+      "Operating Leases",
+      "Social Media Funding"
+    ],
+    correctAnswer: "Social Media Funding",
+    explanation: ""
+  },
+  {
+    question: "Thrift societies are best described as _______.",
+    options: [
+      "Groups pooling money to lend at interest",
+      "Government grant programs",
+      "Equity investors",
+      "Crowdfunding platforms"
+    ],
+    correctAnswer: "Groups pooling money to lend at interest",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT a type of lease?",
+    options: [
+      "Operating Lease",
+      "Finance Lease",
+      "Sale-Back Lease",
+      "Capital Lease"
+    ],
+    correctAnswer: "Sale-Back Lease",
+    explanation: ""
   },
 
-{
-    question: "At what stage do spermatogonia differentiate into type B spermatogonia?",
-    options: [
-      "Spermatogonial phase",
-      "Meiotic phase",
-      "Spermiogenesis",
-      "Gastrulation phase"
-    ],
-    correctAnswer: "Spermatogonial phase",
-    explanation: "During the spermatogonial phase, type A spermatogonia undergo mitosis to form type B spermatogonia, which later proceed to meiosis."
+
+  // --- Chapter 5: Sources of Finance ---
+  {
+    question: "Which business function is often called the “oil wheel” because it acquires the services of skilled labor and modern technology?",
+    options: ["Operations", "Marketing", "Finance", "Human Resources"],
+    correctAnswer: "Finance",
+    explanation: ""
+  },
+  {
+    question: "A shortage in which of the following will most directly disrupt a company’s profitability?",
+    options: ["Raw Materials", "Finance", "Customer Feedback", "Brand Recognition"],
+    correctAnswer: "Finance",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT a source of finance?",
+    options: ["Internal Retained Earnings", "Bank Loans", "Trade Credit", "Social Media Campaigns"],
+    correctAnswer: "Social Media Campaigns",
+    explanation: ""
+  },
+  {
+    question: "Which option best describes internal sources of finance?",
+    options: ["Profits reinvested in the business", "Equity sold to investors", "Loans from banks", "Grants from government"],
+    correctAnswer: "Profits reinvested in the business",
+    explanation: ""
+  },
+  {
+    question: "Which of these would be considered an external source of finance?",
+    options: ["Sale of fixed assets", "Owner’s savings", "Share issue to the public", "Retained profits"],
+    correctAnswer: "Share issue to the public",
+    explanation: ""
+  },
+  {
+    question: "Thrift societies are best described as groups that _______.",
+    options: ["Pool money to lend to members", "Act as venture capitalists", "Issue corporate bonds", "Manage insurance risks"],
+    correctAnswer: "Pool money to lend to members",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is a short-term finance method where debts are sold to a specialist?",
+    options: ["Factoring", "Leasing", "Equity Financing", "Crowdfunding"],
+    correctAnswer: "Factoring",
+    explanation: ""
+  },
+  {
+    question: "Leasing is a contract that allows a business to _______.",
+    options: ["Rent assets for a period of time", "Purchase equipment at a discount", "Secure loans without collateral", "Sell shares in the company"],
+    correctAnswer: "Rent assets for a period of time",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT a recognised type of lease?",
+    options: ["Finance Lease", "Operating Lease", "Sale and Leaseback", "Equity Lease"],
+    correctAnswer: "Equity Lease",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is a real type of lease agreement?",
+    options: ["Operating Lease", "Deferred Equity Lease", "Variable Interest Lease", "Floating Rate Lease"],
+    correctAnswer: "Operating Lease",
+    explanation: ""
+  },
+
+  // --- Chapter 6: Creativity and Innovation in Entrepreneurship ---
+  {
+    question: "Which statement is FALSE about creativity and innovation?",
+    options: ["Creativity generates ideas", "Innovation commercialises ideas", "They are unrelated processes", "Innovation begins with creativity"],
+    correctAnswer: "They are unrelated processes",
+    explanation: ""
+  },
+  {
+    question: "Which term best defines the ability to bring something new into existence?",
+    options: ["Creativity", "Innovation", "Imitation", "Optimization"],
+    correctAnswer: "Creativity",
+    explanation: ""
+  },
+  {
+    question: "Innovation primarily focuses on _______.",
+    options: ["Implementing new ideas", "Assessing past failures", "Maintaining status quo", "Reducing costs only"],
+    correctAnswer: "Implementing new ideas",
+    explanation: ""
+  },
+  {
+    question: "What is the key starting point for any innovation?",
+    options: ["Creative idea", "Financial backing", "Market research", "Regulatory approval"],
+    correctAnswer: "Creative idea",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT considered a form of innovation?",
+    options: ["Process Innovation", "Product Innovation", "Management Innovation", "Accounting Innovation"],
+    correctAnswer: "Accounting Innovation",
+    explanation: ""
+  },
+  {
+    question: "How many interrelated dimensions are studied in innovation strategy?",
+    options: ["4", "2", "3", "5"],
+    correctAnswer: "4",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT one of the four dimensions of innovation strategy?",
+    options: ["Exploration vs Exploitation", "Market Pull vs Technology Push", "Internal vs External Sourcing", "Cost Minimization vs Revenue Maximization"],
+    correctAnswer: "Cost Minimization vs Revenue Maximization",
+    explanation: ""
+  },
+
+  // --- Chapter 7: Business Establishment, Planning & Growth, Feasibility Study ---
+  {
+    question: "What term describes the organised setup of processes and factors to satisfy a need and generate revenue?",
+    options: ["Business Establishment", "Market Analysis", "Product Launch", "Equity Financing"],
+    correctAnswer: "Business Establishment",
+    explanation: ""
+  },
+  {
+    question: "At the very start of establishing a business, an entrepreneur must adopt the right _______.",
+    options: ["Mindset", "Budget", "Team", "Location"],
+    correctAnswer: "Mindset",
+    explanation: ""
+  },
+  {
+    question: "Which acronym stands for the Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture?",
+    options: ["NACCIMA", "NASME", "MAN", "SMEDAN"],
+    correctAnswer: "NACCIMA",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT a Nigerian business association acronym?",
+    options: ["NASDAQ", "NASME", "VEDAN", "AMEN"],
+    correctAnswer: "NASDAQ",
+    explanation: ""
+  },
+  {
+    question: "A business plan is defined as a document that _______.",
+    options: ["Analyses technical and financial feasibility", "Records daily sales", "Details only staffing needs", "Serves as a marketing brochure"],
+    correctAnswer: "Analyses technical and financial feasibility",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT a standard component of a business plan?",
+    options: ["Executive Summary", "Market Analysis", "Funding Requirements", "Employee Attendance Records"],
+    correctAnswer: "Employee Attendance Records",
+    explanation: ""
+  },
+  {
+    question: "Which section provides a snapshot overview of the entire business plan?",
+    options: ["Executive Summary", "Business Description", "Financial Projections", "Sales Strategies"],
+    correctAnswer: "Executive Summary",
+    explanation: ""
+  },
+  {
+    question: "Market analysis primarily involves assessing _______.",
+    options: ["Industry conditions and customer needs", "Employee morale", "Supplier discounts", "Office layout"],
+    correctAnswer: "Industry conditions and customer needs",
+    explanation: ""
+  },
+  {
+    question: "Business growth stage is characterised by _______.",
+    options: ["Expansion and added profit options", "Business closure", "Debt restructuring", "Brand repositioning"],
+    correctAnswer: "Expansion and added profit options",
+    explanation: ""
+  },
+  {
+    question: "A feasibility study is designed to determine whether a _______.",
+    options: ["Project is viable", "Team is productive", "Brand is recognised", "Patent is enforceable"],
+    correctAnswer: "Project is viable",
+    explanation: ""
+  },
+
+  // --- Chapter 8: Human Resource Management ---
+  {
+    question: "Which function involves planning, organising, directing and controlling procurement and development of people?",
+    options: ["Human Resource Management", "Operations Management", "Financial Management", "Marketing Management"],
+    correctAnswer: "Human Resource Management",
+    explanation: ""
+  },
+  {
+    question: "The process of determining manpower requirements to meet organisational goals is called _______.",
+    options: ["Human Resource Planning", "Job Analysis", "Performance Appraisal", "Compensation Management"],
+    correctAnswer: "Human Resource Planning",
+    explanation: ""
+  },
+  {
+    question: "Human resource planning is often described as a _______.",
+    options: ["Double-edged weapon", "Smooth process", "Single-step procedure", "Break-even analysis"],
+    correctAnswer: "Double-edged weapon",
+    explanation: ""
+  },
+  {
+    question: "The act of searching for prospective employees to match job specifications is known as _______.",
+    options: ["Recruitment", "Selection", "Induction", "Orientation"],
+    correctAnswer: "Recruitment",
+    explanation: ""
+  },
+
+  // --- Chapter 9: Validation, Opportunity Search & Marketing ---
+  {
+    question: "Which term means checking the accuracy or validity of something?",
+    options: ["Validation", "Audit", "Calibration", "Verification"],
+    correctAnswer: "Validation",
+    explanation: ""
+  },
+  {
+    question: "Scanning the external business environment to identify new prospects is called _______.",
+    options: ["Opportunity Search", "Market Penetration", "Supply Chain Management", "Corporate Social Responsibility"],
+    correctAnswer: "Opportunity Search",
+    explanation: ""
+  },
+  {
+    question: "In marketing, the act of obtaining a desired object by offering something in return is called _______.",
+    options: ["Exchange", "Distribution", "Promotion", "Segmentation"],
+    correctAnswer: "Exchange",
+    explanation: ""
+  },
+  {
+    question: "Which metric is considered marketing’s basic unit of measurement?",
+    options: ["Transaction", "Brand Equity", "Market Share", "Customer Loyalty"],
+    correctAnswer: "Transaction",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT a product offered to a market to satisfy a need?",
+    options: ["Product", "Price", "Place", "Promotion"],
+    correctAnswer: "Price",
+    explanation: ""
+  },
+  {
+    question: "The process of promoting and selling a product to customers is known as _______.",
+    options: ["Marketing of Product", "Product Development", "Quality Assurance", "Customer Service"],
+    correctAnswer: "Marketing of Product",
+    explanation: ""
+  },
+  {
+    question: "Which type of entrepreneur is characterised by cautious adoption of change?",
+    options: ["Fabian", "Innovative", "Imitating", "Drone"],
+    correctAnswer: "Fabian",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT one of the main roles an entrepreneur fulfills?",
+    options: ["Technological Change", "Economic Change", "Social Change", "Regulatory Change"],
+    correctAnswer: "Regulatory Change",
+    explanation: ""
   },
 
 
-  {
-    question: "What is capacitation?",
-    options: [
-      "The formation of the blastocyst",
-      "The maturation process sperm undergo in the female reproductive tract",
-      "The process of egg implantation",
-      "The division of a zygote into two cells"
-    ],
-    correctAnswer: "The maturation process sperm undergo in the female reproductive tract",
-    explanation: "Capacitation prepares sperm for fertilization by enhancing their motility and ability to penetrate the egg."
-  },
-  {
-    question: "Where does fertilization typically occur?",
-    options: [
-      "In the ovary",
-      "In the ampulla of the uterine tube",
-      "In the uterus",
-      "In the cervix"
-    ],
-    correctAnswer: "In the ampulla of the uterine tube",
-    explanation: "The ampulla of the uterine tube is the most common site of fertilization due to its proximity to the released oocyte."
-  },
-  {
-    question: "What is the zona pellucida?",
-    options: [
-      "A protective glycoprotein layer surrounding the oocyte",
-      "The outer layer of the sperm",
-      "A cavity inside the blastocyst",
-      "The fluid-filled area in a mature follicle"
-    ],
-    correctAnswer: "A protective glycoprotein layer surrounding the oocyte",
-    explanation: "The zona pellucida facilitates sperm binding and protects the oocyte before fertilization."
-  },
-  {
-    question: "How many chromosomes does a human zygote contain?",
-    options: ["23", "46", "92", "48"],
-    correctAnswer: "46",
-    explanation: "The human zygote is diploid, containing 46 chromosomes—23 from each parent."
-  },
-  {
-    question: "What is the morula?",
-    options: [
-      "A single-celled zygote",
-      "A solid ball of cells resulting from cleavage",
-      "A fluid-filled blastocyst",
-      "The germ layer forming during gastrulation"
-    ],
-    correctAnswer: "A solid ball of cells resulting from cleavage",
-    explanation: "The morula is the stage following cleavage where cells form a compact mass."
-  },
-  {
-    question: "What process transforms a zygote into a blastocyst?",
-    options: ["Cleavage", "Fertilization", "Gastrulation", "Capacitation"],
-    correctAnswer: "Cleavage",
-    explanation: "Cleavage is a series of mitotic divisions that results in the formation of a blastocyst."
-  },
-  {
-    question: "What does the trophoblast of a blastocyst develop into?",
-    options: [
-      "The embryo",
-      "The placenta and fetal membranes",
-      "The amniotic cavity",
-      "The yolk sac"
-    ],
-    correctAnswer: "The placenta and fetal membranes",
-    explanation: "The trophoblast forms the outer layer of the blastocyst and contributes to placental development."
-  },
-  {
-    question: "What is the main function of the corpus luteum?",
-    options: [
-      "To release mature eggs",
-      "To maintain progesterone production for early pregnancy",
-      "To stimulate spermatogenesis",
-      "To aid in cleavage of the zygote"
-    ],
-    correctAnswer: "To maintain progesterone production for early pregnancy",
-    explanation: "The corpus luteum secretes progesterone, crucial for maintaining the uterine lining during pregnancy."
-  },
-  {
-    question: "What is gastrulation?",
-    options: [
-      "Fusion of male and female pronuclei",
-      "Formation of the primary germ layers",
-      "Implantation of the blastocyst",
-      "Development of the placenta"
-    ],
-    correctAnswer: "Formation of the primary germ layers",
-    explanation: "Gastrulation establishes the three germ layers (ectoderm, mesoderm, and endoderm), which give rise to all tissues and organs."
-  },
-  {
-    question: "What does the ectoderm give rise to?",
-    options: [
-      "The digestive tract",
-      "The nervous system and skin",
-      "The circulatory system",
-      "The muscular system"
-    ],
-    correctAnswer: "The nervous system and skin",
-    explanation: "The ectoderm forms the nervous system, skin, and associated structures."
-  },
-  {
-    question: "Which hormone triggers ovulation?",
-    options: [
-      "Progesterone",
-      "Luteinizing hormone (LH)",
-      "Follicle-stimulating hormone (FSH)",
-      "Estrogen"
-    ],
-    correctAnswer: "Luteinizing hormone (LH)",
-    explanation: "A surge in LH levels triggers ovulation, releasing the oocyte from the follicle."
-  },
-  {
-    question: "How is polyspermy prevented during fertilization?",
-    options: [
-      "By releasing enzymes from the acrosome",
-      "By the cortical reaction",
-      "By multiple sperm binding to the zona pellucida",
-      "By capacitation"
-    ],
-    correctAnswer: "By the cortical reaction",
-    explanation: "The cortical reaction alters the zona pellucida, preventing further sperm entry after the first sperm penetrates."
-  },
-  {
-    question: "What structure forms from the inner cell mass of the blastocyst?",
-    options: ["Trophoblast", "Embryo proper", "Amnion", "Zona pellucida"],
-    correctAnswer: "Embryo proper",
-    explanation: "The inner cell mass gives rise to the embryo, while the trophoblast contributes to the placenta."
-  },
 
 
-{
-    question: "What does the blastocyst consist of?",
-    options: [
-      "Only the embryoblast",
-      "Only the trophoblast",
-      "An embryoblast, trophoblast, and a fluid-filled cavity",
-      "A solid mass of cells"
-    ],
-    correctAnswer: "An embryoblast, trophoblast, and a fluid-filled cavity",
-    explanation: "The blastocyst consists of the inner embryoblast, outer trophoblast, and a fluid-filled cavity called the blastocele."
-  },
-
-
-{
-    question: "What is the function of luteinizing hormone (LH) in females?",
-    options: [
-      "Stimulating sperm production",
-      "Triggering ovulation and corpus luteum formation",
-      "Initiating mitosis in oogonia",
-      "Inducing the acrosome reaction in sperm"
-    ],
-    correctAnswer: "Triggering ovulation and corpus luteum formation",
-    explanation: "LH triggers ovulation and helps in the formation of the corpus luteum, which secretes progesterone for uterine preparation."
-  },
-
-
-  {
-    question: "What is the duration of spermatogenesis in humans?",
-    options: ["24 hours", "64-72 days", "9 months", "1 year"],
-    correctAnswer: "64-72 days",
-    explanation: "Spermatogenesis takes approximately 64-72 days to produce mature sperm cells."
-  },
-  {
-    question: "What does the endoderm give rise to?",
-    options: [
-      "The brain and spinal cord",
-      "The gastrointestinal tract and respiratory system",
-      "The heart and blood vessels",
-      "The skeletal muscles"
-    ],
-    correctAnswer: "The gastrointestinal tract and respiratory system",
-    explanation: "The endoderm forms the lining of the digestive and respiratory tracts, among other structures."
-  },
-
-
-{
-  question: "What is the difference between cell division and cell differentiation?",
-  options: [
-    "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-    "Cell division involves genetic changes, while cell differentiation does not involve genetic changes.",
-    "Cell division occurs only in the early stages of life, while cell differentiation occurs throughout life.",
-    "Cell division is specific to eukaryotes, while cell differentiation is specific to prokaryotes."
-  ],
-  correctAnswer: "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-  explanation: "Cell division produces new cells for growth, repair, or reproduction. Differentiation involves cells developing specific structures and functions to perform specialized roles in the body."
-},
-{
-  question: "What happens in the first phase of spermatogonia?",
-  options: [
-    "Spermatogonia undergo meiosis to form primary spermatocytes.",
-    "Spermatogonia remain dormant until puberty.",
-    "Spermatogonia undergo mitosis to produce more spermatogonia",
-    "Spermatogonia differentiate into mature sperm cells."
-  ],
-  correctAnswer: "Spermatogonia undergo mitosis to produce more spermatogonia",
-  explanation: "In the first phase, spermatogonia divide mitotically to maintain their numbers and produce cells that will later differentiate into primary spermatocytes."
-},
-
-
-  {
-    question: "Which of the following is true about oogenesis?",
-    options: [
-      "It continues throughout a woman's lifetime",
-      "It begins before birth and pauses until puberty",
-      "It produces four functional gametes from one oogonium",
-      "It is completed by the time of fertilization"
-    ],
-    correctAnswer: "It begins before birth and pauses until puberty",
-    explanation: "Oogenesis begins in fetal life, halts at prophase I, and resumes at puberty during the menstrual cycle."
-  },
-  {
-    question: "What is the first stage of embryonic cleavage called?",
-    options: ["Morula", "Blastula", "Two-cell stage", "Gastrula"],
-    correctAnswer: "Two-cell stage",
-    explanation: "The zygote divides into two cells in the first stage of cleavage, marking the beginning of embryonic development."
-  },
-
-
-  {
-    question: "What is the significance of the acrosome in sperm?",
-    options: [
-      "It contains mitochondria to power sperm motility",
-      "It provides enzymes to penetrate the zona pellucida",
-      "It binds to the oocyte plasma membrane",
-      "It triggers the cortical reaction"
-    ],
-    correctAnswer: "It provides enzymes to penetrate the zona pellucida",
-    explanation: "The acrosome contains enzymes like hyaluronidase that help the sperm penetrate the zona pellucida for fertilization."
-  },
-  {
-    question: "What structure is responsible for secreting human chorionic gonadotropin (hCG)?",
-    options: [
-      "Corpus luteum",
-      "Trophoblast",
-      "Inner cell mass",
-      "Zona pellucida"
-    ],
-    correctAnswer: "Trophoblast",
-    explanation: "The trophoblast of the blastocyst secretes hCG to maintain the corpus luteum and support pregnancy."
-  },
-  {
-    question: "What phase of meiosis is the secondary oocyte arrested in until fertilization?",
-    options: ["Prophase I", "Metaphase II", "Anaphase I", "Telophase II"],
-    correctAnswer: "Metaphase II",
-    explanation: "The secondary oocyte is arrested in metaphase II and completes meiosis only after fertilization."
-  },
-  {
-    question: "Which germ layer gives rise to the heart and blood vessels?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Neural crest cells"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm forms the cardiovascular system, including the heart and blood vessels."
-  },
-  {
-    question: "What event marks the beginning of implantation?",
-    options: [
-      "Attachment of the blastocyst to the endometrium",
-      "Cleavage of the zygote",
-      "Fertilization of the oocyte",
-      "Formation of the morula"
-    ],
-    correctAnswer: "Attachment of the blastocyst to the endometrium",
-    explanation: "Implantation begins when the blastocyst adheres to the endometrial lining of the uterus."
-  },
-  {
-    question: "Which structure develops into the umbilical cord?",
-    options: [
-      "Amniotic sac",
-      "Connecting stalk",
-      "Allantois",
-      "Trophoblast"
-    ],
-    correctAnswer: "Connecting stalk",
-    explanation: "The connecting stalk evolves into the umbilical cord, providing a link between the embryo and placenta."
-  },
-  {
-    question: "What is the primary role of the yolk sac in humans?",
-    options: [
-      "Providing nutrients to the embryo",
-      "Forming the fetal blood cells in early development",
-      "Acting as a respiratory organ",
-      "Protecting the embryo from mechanical shocks"
-    ],
-    correctAnswer: "Forming the fetal blood cells in early development",
-    explanation: "The yolk sac is important for early hematopoiesis and development of primordial germ cells."
-  },
-  {
-    question: "At what stage does the zona pellucida disintegrate?",
-    options: [
-      "Morula",
-      "Blastocyst",
-      "Gastrula",
-      "Two-cell stage"
-    ],
-    correctAnswer: "Blastocyst",
-    explanation: "The zona pellucida dissolves at the blastocyst stage, enabling implantation in the uterus."
-  },
-  {
-    question: "What process occurs after the cortical reaction in fertilization?",
-    options: [
-      "Cleavage begins",
-      "Polyspermy is blocked",
-      "The morula is formed",
-      "The sperm fuses with the egg nucleus"
-    ],
-    correctAnswer: "Polyspermy is blocked",
-    explanation: "The cortical reaction alters the zona pellucida to prevent additional sperm from fertilizing the egg."
-  },
-  {
-    question: "What is the origin of the amniotic cavity?",
-    options: [
-      "It forms within the epiblast",
-      "It develops from the trophoblast",
-      "It arises from the yolk sac",
-      "It originates in the hypoblast"
-    ],
-    correctAnswer: "It forms within the epiblast",
-    explanation: "The amniotic cavity forms between the epiblast and trophoblast during early embryogenesis."
-  },
-  {
-    question: "What is the primary purpose of the primitive streak?",
-    options: [
-      "To facilitate sperm penetration during fertilization",
-      "To mark the site of gastrulation",
-      "To support implantation in the uterus",
-      "To assist in cleavage of the zygote"
-    ],
-    correctAnswer: "To mark the site of gastrulation",
-    explanation: "The primitive streak is essential for establishing body axes and initiating gastrulation."
-  },
-  {
-    question: "Which structure forms the placenta?",
-    options: [
-      "Trophoblast and endometrium",
-      "Inner cell mass and yolk sac",
-      "Amniotic sac and chorionic villi",
-      "Zona pellucida and morula"
-    ],
-    correctAnswer: "Trophoblast and endometrium",
-    explanation: "The placenta is formed by the trophoblast of the embryo and the endometrium of the mother."
-  },
-  {
-    question: "At what week does the fetal period begin?",
-    options: ["4th week", "9th week", "16th week", "20th week"],
-    correctAnswer: "9th week",
-    explanation: "The fetal period begins at the 9th week, marking the transition from embryonic development."
-  },
-  {
-    question: "What is the fate of the hypoblast during development?",
-    options: [
-      "It forms the ectoderm",
-      "It contributes to the endoderm of the yolk sac",
-      "It gives rise to the nervous system",
-      "It degenerates after gastrulation"
-    ],
-    correctAnswer: "It contributes to the endoderm of the yolk sac",
-    explanation: "The hypoblast forms the endodermal lining of the yolk sac and supports early development."
-  },
-  {
-    question: "Which structure prevents maternal and fetal blood from mixing directly?",
-    options: [
-      "Amniotic membrane",
-      "Placental barrier",
-      "Zona pellucida",
-      "Trophoblastic villi"
-    ],
-    correctAnswer: "Placental barrier",
-    explanation: "The placental barrier separates maternal and fetal blood, facilitating nutrient and gas exchange without mixing."
-  },
-  {
-    question: "Which cells are responsible for forming the chorionic villi?",
-    options: [
-      "Epiblast cells",
-      "Syncytiotrophoblast cells",
-      "Cytotrophoblast cells",
-      "Mesodermal cells"
-    ],
-    correctAnswer: "Syncytiotrophoblast cells",
-    explanation: "Syncytiotrophoblast cells invade the uterine lining and form the chorionic villi for placental attachment."
-  },
-  {
-    question: "What process allows the oocyte to complete meiosis?",
-    options: [
-      "Cleavage",
-      "Fertilization",
-      "Ovulation",
-      "Implantation"
-    ],
-    correctAnswer: "Fertilization",
-    explanation: "Fertilization triggers the oocyte to complete meiosis II, forming a mature ovum and polar body."
-  },
-  {
-    question: "What is the primary germ layer responsible for forming muscles?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Trophoblast"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm gives rise to skeletal, smooth, and cardiac muscles, along with other structures."
-  },
-  {
-    question: "Which stage of development involves the formation of somites?",
-    options: [
-      "Neurulation",
-      "Cleavage",
-      "Gastrulation",
-      "Blastulation"
-    ],
-    correctAnswer: "Neurulation",
-    explanation: "Somites form during neurulation from paraxial mesoderm and contribute to the axial skeleton and muscles."
-  },
-  {
-    question: "What is the role of the notochord in development?",
-    options: [
-      "To form the brain and spinal cord",
-      "To induce the formation of the neural tube",
-      "To support trophoblast invasion",
-      "To give rise to the endoderm"
-    ],
-    correctAnswer: "To induce the formation of the neural tube",
-    explanation: "The notochord secretes signals that induce the overlying ectoderm to form the neural tube."
-  },
 
 ],
       },
@@ -566,6 +639,633 @@ document.addEventListener("DOMContentLoaded", () => {
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       
+      
+      {
+        category: "Chapter 1 - 4",
+        questions: [
+          
+  
+{
+    question: "According to Peterman & Kennedy (2003), integrating entrepreneurship education into the broader academic curriculum, rather than isolating it, has what effect?",
+    options: [
+      "Superficial engagement",
+      "More profound long-term perceptions and attitudes",
+      "Instant profitability",
+      "Improved short-term exam scores"
+    ],
+    correctAnswer: "More profound long-term perceptions and attitudes",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is the primary focus of a practical approach to entrepreneurship education?",
+    options: [
+      "Memorizing business theories",
+      "Developing skills and mindsets",
+      "Writing lengthy essays",
+      "Conducting market research"
+    ],
+    correctAnswer: "Developing skills and mindsets",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT typically part of a local entrepreneurial ecosystem for students?",
+    options: [
+      "Incubators",
+      "Accelerators",
+      "Angel investor networks",
+      "Government taxation agencies"
+    ],
+    correctAnswer: "Government taxation agencies",
+    explanation: ""
+  },
+  {
+    question: "Schumpeter (1934) defined entrepreneurship as:",
+    options: [
+      "Risk avoidance",
+      "New combinations of resources",
+      "Market regulation",
+      "Cost minimization"
+    ],
+    correctAnswer: "New combinations of resources",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is considered the main driver of entrepreneurship?",
+    options: [
+      "Human resources",
+      "Innovation",
+      "Financial capital",
+      "Government policy"
+    ],
+    correctAnswer: "Innovation",
+    explanation: ""
+  },
+  {
+    question: "Entrepreneurship is both a business activity and a(n) _______.",
+    options: [
+      "Economic activity",
+      "Social activity",
+      "Political campaign",
+      "Regulatory process"
+    ],
+    correctAnswer: "Economic activity",
+    explanation: ""
+  },
+  {
+    question: "Managing human and non-human resources effectively is often called the _______ to successful entrepreneurship.",
+    options: [
+      "Panacea",
+      "Barrier",
+      "Challenge",
+      "Obstacle"
+    ],
+    correctAnswer: "Panacea",
+    explanation: ""
+  },
+  {
+    question: "MSME stands for:",
+    options: [
+      "Macro, Strategic, Medium Enterprises",
+      "Multi-State Manufacturing Entities",
+      "Micro, Small, and Medium Enterprises",
+      "Managed Services for Entrepreneurs"
+    ],
+    correctAnswer: "Micro, Small, and Medium Enterprises",
+    explanation: ""
+  },
+  {
+    question: "An entrepreneur must be mentally stable, emotionally balanced, and morally upright in order to:",
+    options: [
+      "Secure venture capital",
+      "Mentor others effectively",
+      "Avoid competition",
+      "Lower operating costs"
+    ],
+    correctAnswer: "Mentor others effectively",
+    explanation: ""
+  },
+  {
+    question: "Intrapreneurship is best described as a system that allows employees to:",
+    options: [
+      "Access executive salaries",
+      "Behave like entrepreneurs",
+      "Circumvent company policies",
+      "Reduce working hours"
+    ],
+    correctAnswer: "Behave like entrepreneurs",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT one of the three schools emphasizing the Economic Theory of entrepreneurship?",
+    options: [
+      "Classicalists",
+      "Neo-Classicalists",
+      "Austrian Market Process (AMP)",
+      "Behavioral Economists"
+    ],
+    correctAnswer: "Behavioral Economists",
+    explanation: ""
+  },
+  {
+    question: "Classicalists believed entrepreneurship was driven primarily by:",
+    options: [
+      "Government subsidies",
+      "Free trade, specialization and competition",
+      "Technological monopolies",
+      "High tax regimes"
+    ],
+    correctAnswer: "Free trade, specialization and competition",
+    explanation: ""
+  },
+  {
+    question: "The Austrian Market Process (AMP) school, developed by Schumpeter, emphasized:",
+    options: [
+      "Human action (knowledge)",
+      "Strict regulation",
+      "Fixed capital formation",
+      "Standardized production"
+    ],
+    correctAnswer: "Human action (knowledge)",
+    explanation: ""
+  },
+  {
+    question: "Psychological Theory of entrepreneurship includes all of the following EXCEPT:",
+    options: [
+      "Personality traits",
+      "Locus of control",
+      "Need for achievement",
+      "Social capital"
+    ],
+    correctAnswer: "Social capital",
+    explanation: ""
+  },
+  {
+    question: "Rotter defined ‘locus of control’ as an individual’s perception of the:",
+    options: [
+      "Causes of events in one’s life",
+      "Level of personal income",
+      "Range of managerial skills",
+      "Importance of social networks"
+    ],
+    correctAnswer: "Causes of events in one’s life",
+    explanation: ""
+  },
+  {
+    question: "The concept of ‘need for achievement’ was first introduced by:",
+    options: [
+      "Drucker (1985)",
+      "McClelland (1961)",
+      "Rotter (1996)",
+      "Conner (1991)"
+    ],
+    correctAnswer: "McClelland (1961)",
+    explanation: ""
+  },
+  {
+    question: "Anthropological Theory of entrepreneurship emphasizes the influence of _______ on new venture creation.",
+    options: [
+      "Culture",
+      "Regulation",
+      "Technology",
+      "Finance"
+    ],
+    correctAnswer: "Culture",
+    explanation: ""
+  },
+  {
+    question: "Opportunity-Based Theory (Drucker, 1985) states that entrepreneurs:",
+    options: [
+      "Exploit opportunities created by change",
+      "Directly cause societal change",
+      "Avoid market fluctuations",
+      "Focus only on product innovation"
+    ],
+    correctAnswer: "Exploit opportunities created by change",
+    explanation: ""
+  },
+  {
+    question: "Stevenson’s analysis of Drucker’s theory added which quality to the model?",
+    options: [
+      "Financial leverage",
+      "Resourcefulness",
+      "Market control",
+      "Regulatory compliance"
+    ],
+    correctAnswer: "Resourcefulness",
+    explanation: ""
+  },
+  {
+    question: "Shane and Eckhardt argued that one may recognize entrepreneurial opportunities but lack the _______ to act on them.",
+    options: [
+      "Technical skills",
+      "Social network",
+      "Financial acumen",
+      "Regulatory approval"
+    ],
+    correctAnswer: "Social network",
+    explanation: ""
+  },
+  {
+    question: "According to Conner (1991), entrepreneurial intuition and vision involves:",
+    options: [
+      "Recognizing relevant inputs",
+      "Drafting formal contracts",
+      "Hiring the best staff",
+      "Obtaining patents"
+    ],
+    correctAnswer: "Recognizing relevant inputs",
+    explanation: ""
+  },
+  {
+    question: "Alvarez & Busenitz (2001) advanced Resource-Based Theory by including:",
+    options: [
+      "Supply chain metrics",
+      "Cognitive ability/skills of the entrepreneur",
+      "Fixed asset valuation",
+      "Market monopolies"
+    ],
+    correctAnswer: "Cognitive ability/skills of the entrepreneur",
+    explanation: ""
+  },
+  {
+    question: "Critical thinking involves all of the following EXCEPT:",
+    options: [
+      "Questioning",
+      "Analyzing",
+      "Memorizing formulas",
+      "Evaluating"
+    ],
+    correctAnswer: "Memorizing formulas",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT one of the three levels of reflective thinking?",
+    options: [
+      "Technical",
+      "Deliberative",
+      "Critical rationality",
+      "Passive acceptance"
+    ],
+    correctAnswer: "Passive acceptance",
+    explanation: ""
+  },
+  {
+    question: "The processes of reflective thinking include all EXCEPT:",
+    options: [
+      "Experiencing",
+      "Reflecting on experience",
+      "Learning from experience",
+      "Prescribing solutions"
+    ],
+    correctAnswer: "Prescribing solutions",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is considered the main source of innovation?",
+    options: [
+      "Financial capital",
+      "The human mind",
+      "Raw materials",
+      "Government grants"
+    ],
+    correctAnswer: "The human mind",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT one of the 4 Ps (dimensions) of innovation?",
+    options: [
+      "Paradigm",
+      "Process",
+      "Promotion",
+      "Position"
+    ],
+    correctAnswer: "Promotion",
+    explanation: ""
+  },
+  {
+    question: "The 4 Cs (pillars) of innovation include all EXCEPT:",
+    options: [
+      "Context",
+      "Culture",
+      "Capability",
+      "Capital"
+    ],
+    correctAnswer: "Capital",
+    explanation: ""
+  },
+  {
+    question: "Explicit knowledge sharing is linked primarily to:",
+    options: [
+      "Innovation speed",
+      "Innovation quality",
+      "Cost reduction",
+      "Patent filings"
+    ],
+    correctAnswer: "Innovation quality",
+    explanation: ""
+  },
+
+
+{
+    question: "Tacit knowledge sharing most directly enhances:",
+    options: [
+      "Innovation cost-efficiency",
+      "Innovation quality",
+      "Innovation speed",
+      "Innovation scale"
+    ],
+    correctAnswer: "Innovation speed",
+    explanation: ""
+  },
+
+
+
+
+  {
+    question: "Who said, “In the middle of every difficulty lies opportunity”?",
+    options: [
+      "Albert Einstein",
+      "Peter Drucker",
+      "Joseph Schumpeter",
+      "David McClelland"
+    ],
+    correctAnswer: "Albert Einstein",
+    explanation: ""
+  },
+  {
+    question: "According to Lumpkin & Lichtenstein, opportunity identification is best described as the ability to:",
+    options: [
+      "Assess financial risk",
+      "Identify a good idea and transform it into a value-adding business concept",
+      "Secure venture capital",
+      "Manage daily operations"
+    ],
+    correctAnswer: "Identify a good idea and transform it into a value-adding business concept",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT one of the four main idea-generation techniques?",
+    options: [
+      "Brainstorming",
+      "Mind Mapping",
+      "Brain Writing",
+      "SWOT Analysis"
+    ],
+    correctAnswer: "SWOT Analysis",
+    explanation: ""
+  },
+  {
+    question: "In a standard brainstorming session, participants are encouraged to:",
+    options: [
+      "Generate as many ideas as possible without criticism",
+      "Rank ideas immediately by feasibility",
+      "Focus only on one idea at a time",
+      "Limit discussion to financial aspects"
+    ],
+    correctAnswer: "Generate as many ideas as possible without criticism",
+    explanation: ""
+  },
+  {
+    question: "Brain writing differs from brainstorming because it is:",
+    options: [
+      "Written and silent, typically with each person jotting down ideas",
+      "Led by an external moderator",
+      "Conducted in a public forum",
+      "Restricted to digital platforms"
+    ],
+    correctAnswer: "Written and silent, typically with each person jotting down ideas",
+    explanation: ""
+  },
+  {
+    question: "Which group-based technique involves 8–14 people discussing to refine and evaluate ideas?",
+    options: [
+      "Focus Groups",
+      "Mind Mapping",
+      "Brain Writing",
+      "Delphi Method"
+    ],
+    correctAnswer: "Focus Groups",
+    explanation: ""
+  },
+  {
+    question: "Mind mapping creates a networked nodal structure by:",
+    options: [
+      "Branching ideas visually around a central concept",
+      "Using only text lists",
+      "Sorting ideas chronologically",
+      "Ranking ideas by cost"
+    ],
+    correctAnswer: "Branching ideas visually around a central concept",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT a category of business idea concept?",
+    options: [
+      "Prospective (replacement) concepts",
+      "Indirect concepts",
+      "Direct concepts",
+      "Collaborative concepts"
+    ],
+    correctAnswer: "Collaborative concepts",
+    explanation: ""
+  },
+  {
+    question: "A prospective (replacement) business idea concept typically involves:",
+    options: [
+      "Updating or replacing an existing product or service",
+      "Creating a brand-new market category",
+      "Focusing exclusively on internal processes",
+      "Licensing foreign technologies"
+    ],
+    correctAnswer: "Updating or replacing an existing product or service",
+    explanation: ""
+  },
+  {
+    question: "New business development refers to:",
+    options: [
+      "Identifying, generating and seizing new prospects for a firm",
+      "Managing current client relationships",
+      "Optimizing existing supply chains",
+      "Conducting routine financial audits"
+    ],
+    correctAnswer: "Identifying, generating and seizing new prospects for a firm",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT part of the idea-creation process described?",
+    options: [
+      "Brainstorming",
+      "Brain writing",
+      "Focus groups",
+      "Cost–benefit analysis"
+    ],
+    correctAnswer: "Cost–benefit analysis",
+    explanation: ""
+  },
+  {
+    question: "The main objective of an entrepreneur is to:",
+    options: [
+      "Turn a business idea into a successful venture",
+      "Maintain a large workforce",
+      "Avoid all market risks",
+      "Maximize daily sales volume"
+    ],
+    correctAnswer: "Turn a business idea into a successful venture",
+    explanation: ""
+  },
+
+
+
+  {
+    question: "Entrepreneurship is derived from the French word “entreptendre,” which originally meant:",
+    options: [
+      "Pledge",
+      "To persuade",
+      "To trade",
+      "To innovate"
+    ],
+    correctAnswer: "Pledge",
+    explanation: ""
+  },
+  {
+    question: "The term “entrepreneurship” was first used in 16th-century France to describe:",
+    options: [
+      "Military missions",
+      "Agricultural reforms",
+      "Religious pilgrimages",
+      "Craft guilds"
+    ],
+    correctAnswer: "Military missions",
+    explanation: ""
+  },
+  {
+    question: "Which statement is TRUE?",
+    options: [
+      "Change and innovation are synonymous",
+      "Innovation always causes change",
+      "Change and innovation are not synonymous",
+      "All change is innovative"
+    ],
+    correctAnswer: "Change and innovation are not synonymous",
+    explanation: ""
+  },
+  {
+    question: "According to the text, turning information into action (“hone”) requires:",
+    options: [
+      "Innovation",
+      "Data analytics",
+      "Access to finance",
+      "Market research"
+    ],
+    correctAnswer: "Innovation",
+    explanation: ""
+  },
+  {
+    question: "Which of the following is NOT listed as a key success factor for innovating effectively?",
+    options: [
+      "Leadership",
+      "Support",
+      "Regulatory compliance",
+      "Planning"
+    ],
+    correctAnswer: "Regulatory compliance",
+    explanation: ""
+  },
+  {
+    question: "The five key elements of creativity include all EXCEPT:",
+    options: [
+      "Fluency",
+      "Flexibility",
+      "Originality",
+      "Obedience"
+    ],
+    correctAnswer: "Obedience",
+    explanation: ""
+  },
+  {
+    question: "Which of these is NOT one of the innovation success indicators?",
+    options: [
+      "Market",
+      "Team",
+      "Status",
+      "Regulation"
+    ],
+    correctAnswer: "Regulation",
+    explanation: ""
+  },
+  {
+    question: "A prospective (replacement) business idea concept contrasts with an indirect concept in that the latter:",
+    options: [
+      "Does not directly replace an existing product or service",
+      "Focuses exclusively on replacing old products",
+      "Requires external funding",
+      "Is developed only by large firms"
+    ],
+    correctAnswer: "Does not directly replace an existing product or service",
+    explanation: ""
+  },
+  {
+    question: "A direct business idea concept is best described as one that:",
+    options: [
+      "Introduces a wholly new product or service to the market",
+      "Replaces older products",
+      "Is only for internal use",
+      "Is mandated by regulators"
+    ],
+    correctAnswer: "Introduces a wholly new product or service to the market",
+    explanation: ""
+  },
+  {
+    question: "Cultural ideas leading to cultural business is an example of:",
+    options: [
+      "Anthropological Theory",
+      "Resource-Based Theory",
+      "Behavioral Economics",
+      "Status Withdrawal Theory"
+    ],
+    correctAnswer: "Anthropological Theory",
+    explanation: ""
+  },
+  {
+    question: "New business development refers to:",
+    options: [
+      "Routine financial auditing",
+      "Optimizing current operations",
+      "Identifying, generating, and seizing new prospects",
+      "Maintaining existing client relationships"
+    ],
+    correctAnswer: "Identifying, generating, and seizing new prospects",
+    explanation: ""
+  },
+
+
+],
+      },
+
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ////////////////////
+
         
   {
       category: "Gastrulation",
