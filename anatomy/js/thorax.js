@@ -96,6 +96,140 @@ document.addEventListener("DOMContentLoaded", () => {
         category: "Abdomen",
         questions: [
           
+          
+          
+  {
+    question: "The ‘bare area’ of the liver refers to a region on the diaphragmatic surface that is devoid of peritoneum. Which structure lies in direct contact with this area?",
+    options: [
+      "Right lung and diaphragm",
+      "Stomach fundus",
+      "Transverse colon",
+      "Gallbladder"
+    ],
+    correctAnswer: "Right lung and diaphragm",
+    explanation: "The bare area is on the posterior diaphragmatic surface of the liver, where it abuts the diaphragm and the right lower lung without a peritoneal covering."
+  },
+  {
+    question: "Which peritoneal ligament attaches the anterior surface of the liver to the anterior abdominal wall and contains the obliterated umbilical vein?",
+    options: [
+      "Coronary ligament",
+      "Falciform ligament",
+      "Hepatogastric ligament",
+      "Triangular ligament"
+    ],
+    correctAnswer: "Falciform ligament",
+    explanation: "The falciform ligament connects the liver’s anterior surface to the anterior abdominal wall and the umbilicus region, housing the ligamentum teres (obliterated umbilical vein)."
+  },
+  {
+    question: "On the visceral surface, the porta hepatis transmits all of the following EXCEPT:",
+    options: [
+      "Portal vein",
+      "Common bile duct",
+      "Hepatic artery proper",
+      "Cystic artery"
+    ],
+    correctAnswer: "Cystic artery",
+    explanation: "The porta hepatis carries the portal vein, hepatic artery proper, and hepatic ducts; the cystic artery supplies the gallbladder and runs in the hepatocystic triangle, not the porta."
+  },
+  {
+    question: "According to Couinaud’s functional segmentation, how many independent liver segments are defined by tertiary portal branches?",
+    options: [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    correctAnswer: "8",
+    explanation: "Couinaud’s classification divides the liver into eight functionally independent segments based on portal triad distribution."
+  },
+  {
+    question: "Which groove on the visceral surface demarcates the separation between the right lobe and the caudate lobe?",
+    options: [
+      "Porta hepatis",
+      "Left sagittal (umbilical) fissure",
+      "Right sagittal (fossa for IVC) groove",
+      "Quadrate lobe sulcus"
+    ],
+    correctAnswer: "Right sagittal (fossa for IVC) groove",
+    explanation: "The right sagittal groove (fossa for the IVC) separates the right lobe from the caudate lobe on the liver’s visceral surface."
+  },
+  {
+    question: "The quadrate lobe of the liver is bounded by which two structures on its visceral surface?",
+    options: [
+      "Gallbladder fossa and left sagittal fissure",
+      "Porta hepatis and coronary ligament",
+      "Gallbladder fossa and porta hepatis",
+      "Right sagittal groove and coronary ligament"
+    ],
+    correctAnswer: "Gallbladder fossa and porta hepatis",
+    explanation: "The quadrate lobe lies between the fossa for the gallbladder anteriorly and the porta hepatis posteriorly."
+  },
+  {
+    question: "Which ligament forms the free margin of the lesser omentum and contains the portal triad?",
+    options: [
+      "Hepatoduodenal ligament",
+      "Hepatogastric ligament",
+      "Coronary ligament",
+      "Left triangular ligament"
+    ],
+    correctAnswer: "Hepatoduodenal ligament",
+    explanation: "The hepatoduodenal ligament is the free border of the lesser omentum and encloses the portal vein, hepatic artery proper, and bile duct."
+  },
+  {
+    question: "Which functional segment of the liver lies to the left of the middle hepatic vein and anterior to the left hepatic vein?",
+    options: [
+      "Segment IV (medial left lobe)",
+      "Segment II (superior left lateral lobe)",
+      "Segment V (inferior right anterior lobe)",
+      "Segment VIII (superior right anterior lobe)"
+    ],
+    correctAnswer: "Segment IV (medial left lobe)",
+    explanation: "Segment IV (medial segment of the left lobe) is located between the middle and left hepatic veins."
+  },
+  {
+    question: "Bile produced in the right lobe drains first into which duct before reaching the common hepatic duct?",
+    options: [
+      "Left hepatic duct",
+      "Right hepatic duct",
+      "Cystic duct",
+      "Common bile duct"
+    ],
+    correctAnswer: "Right hepatic duct",
+    explanation: "Bile from the right lobe collects in the right hepatic duct, which then joins the left hepatic duct to form the common hepatic duct."
+  },
+  {
+    question: "The IVC receives hepatic venous drainage from the liver through which set of vessels?",
+    options: [
+      "Portal veins",
+      "Hepatic veins",
+      "Accessory hepatic veins",
+      "Cystic veins"
+    ],
+    correctAnswer: "Hepatic veins",
+    explanation: "The three main hepatic veins (right, middle, left) drain directly into the inferior vena cava, carrying blood out of the liver."
+  },
+  {
+    question: "Which anatomical relation (syntopy) describes the visceral aspect of the liver’s left lobe?",
+    options: [
+      "Anterior to the stomach fundus",
+      "Superior to the right kidney",
+      "Adjacent to the esophageal hiatus of the diaphragm",
+      "Posterior to the transverse colon"
+    ],
+    correctAnswer: "Adjacent to the esophageal hiatus of the diaphragm",
+    explanation: "The left lobe’s diaphragmatic surface lies adjacent to the esophageal hiatus and the cardiac region of the stomach."
+  },
+  {
+    question: "Within the liver hilum, the bile duct lies in relation to the hepatic artery proper and portal vein in which arrangement (from anterior to posterior)?",
+    options: [
+      "Portal vein – hepatic artery – bile duct",
+      "Hepatic artery – portal vein – bile duct",
+      "Bile duct – hepatic artery – portal vein",
+      "Hepatic artery – bile duct – portal vein"
+    ],
+    correctAnswer: "Bile duct – hepatic artery – portal vein",
+    explanation: "In the hepatoduodenal ligament, the common bile duct is most anterior and lateral, the hepatic artery proper lies medial, and the portal vein is posterior."
+  },
   
   {
     question: "Which of these planes is located at the level of the first lumbar vertebra posteriorly?",
