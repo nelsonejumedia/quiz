@@ -65,16 +65,270 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
+  
+  {
+        category: "Thorax",
+        questions: [
+          
+  
+
+
+
+],
+      },
+  
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////// General Questions////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       {
-        category: "Thorax",
+        category: "Revision",
         questions: [
           
-  
+
+  {
+    question: "Which of the following statements best describes a bronchopulmonary segment?",
+    options: [
+      "A region of lung supplied by a tertiary bronchus and a pulmonary vein",
+      "A region of lung supplied by a secondary bronchus and pulmonary artery",
+      "A functionally independent unit supplied by a tertiary bronchus and pulmonary artery",
+      "A histological unit of alveolar sacs and capillaries"
+    ],
+    correctAnswer: "A functionally independent unit supplied by a tertiary bronchus and pulmonary artery",
+    explanation: "Bronchopulmonary segments are anatomically and functionally discrete units, each served by its own tertiary (segmental) bronchus and segmental branch of the pulmonary artery."
+  },
+  {
+    question: "The descending thoracic aorta is a content of which mediastinal compartment?",
+    options: [
+      "Anterior mediastinum",
+      "Middle mediastinum",
+      "Posterior mediastinum",
+      "Superior mediastinum only"
+    ],
+    correctAnswer: "Posterior mediastinum",
+    explanation: "The descending thoracic aorta lies in the posterior mediastinum along the vertebral bodies."
+  },
+  {
+    question: "The intersegmental connective tissue septa of bronchopulmonary segments consist of the following structures EXCEPT:",
+    options: [
+      "Tributaries of pulmonary veins",
+      "Tributaries of lymphatic channels",
+      "Sympathetic and parasympathetic nerves",
+      "None of the above"
+    ],
+    correctAnswer: "None of the above",
+    explanation: "All listed elements run in the intersegmental septa separating bronchopulmonary segments."
+  },
+  {
+    question: "Which of the following structures is NOT located in the superior mediastinum?",
+    options: [
+      "Thymus",
+      "Arch of the aorta",
+      "Esophagus",
+      "Heart"
+    ],
+    correctAnswer: "Heart",
+    explanation: "The heart lies in the middle mediastinum; the superior mediastinum contains the thymus, great vessels, trachea, and esophagus."
+  },
+  {
+    question: "Intrasegmental structures within bronchopulmonary segments include:",
+    options: [
+      "The tertiary bronchi",
+      "Segmental branches of the pulmonary artery",
+      "Segmental branches of the bronchial artery",
+      "All of the above"
+    ],
+    correctAnswer: "All of the above",
+    explanation: "Each segment houses its own segmental (tertiary) bronchus, pulmonary arterial branch, and bronchial arterial supply."
+  },
+  {
+    question: "A patient undergoes surgical removal of the superior segment of the right lower lobe. Which structures must be preserved to maintain drainage from adjacent segments?",
+    options: [
+      "Segmental bronchi",
+      "Intersegmental veins",
+      "Pulmonary artery branches",
+      "Visceral pleura"
+    ],
+    correctAnswer: "Intersegmental veins",
+    explanation: "Intersegmental (pulmonary) veins run in the septa between segments and drain adjacent segments; preserving them maintains venous drainage."
+  },
+  {
+    question: "How many bronchopulmonary segments are typically found in the right lung?",
+    options: [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    correctAnswer: "10",
+    explanation: "The right lung is classically divided into ten bronchopulmonary segments."
+  },
+  {
+    question: "When draining fluid from the pleural cavity, the large-bore needle should be inserted:",
+    options: [
+      "Through the costal cartilage",
+      "Through the ribs",
+      "Immediately below the ribs",
+      "Immediately above the ribs"
+    ],
+    correctAnswer: "Immediately above the ribs",
+    explanation: "You insert above the upper border of the lower rib to avoid injuring the neurovascular bundle that runs just beneath each rib."
+  },
+  {
+    question: "Which of the following structures is a major content of the middle mediastinum?",
+    options: [
+      "Azygos vein",
+      "Trachea",
+      "Pericardium and heart",
+      "Esophagus"
+    ],
+    correctAnswer: "Pericardium and heart",
+    explanation: "The middle mediastinum contains the pericardial sac and the heart, along with the roots of the great vessels."
+  },
+  {
+    question: "Which of the following correctly describes the vascular supply of a bronchopulmonary segment?",
+    options: [
+      "Supplied by a segmental bronchus and a pulmonary vein",
+      "Supplied by intersegmental arteries",
+      "Supplied by a segmental artery that runs with the segmental bronchus",
+      "Drained by an intra-segmental pulmonary vein"
+    ],
+    correctAnswer: "Supplied by a segmental artery that runs with the segmental bronchus",
+    explanation: "Each segment is supplied by its own segmental (tertiary) branch of the pulmonary artery that accompanies the segmental bronchus."
+  },
+  {
+    question: "Which of the following best describes the location of the tracheal bifurcation in relation to the middle mediastinum?",
+    options: [
+      "It lies superior to the middle mediastinum",
+      "It occurs at the T12 vertebral level",
+      "It is a content of the posterior mediastinum",
+      "It is located within the pericardial sac"
+    ],
+    correctAnswer: "It lies superior to the middle mediastinum",
+    explanation: "The carina at the tracheal bifurcation sits at about the T4–T5 level, marking the superior border of the middle mediastinum."
+  },
+  {
+    question: "Which of the following nerves forms a plexus around the esophagus in the posterior mediastinum?",
+    options: [
+      "Phrenic nerve",
+      "Sympathetic trunk",
+      "Recurrent laryngeal nerve",
+      "Vagus nerve"
+    ],
+    correctAnswer: "Vagus nerve",
+    explanation: "The left and right vagus nerves descend and interweave on the esophagus to form the esophageal (Auerbach’s) plexus."
+  },
+  {
+    question: "Which of the following conditions may cause a mass in the anterior mediastinum?",
+    options: [
+      "Aortic aneurysm",
+      "Esophageal carcinoma",
+      "Thymoma",
+      "Bronchogenic cyst"
+    ],
+    correctAnswer: "Thymoma",
+    explanation: "Thymomas arise in the thymus, which resides in the anterior mediastinum; bronchogenic cysts and others also can, but thymoma is classic."
+  },
+  {
+    question: "Which of the following best describes the contents of the anterior mediastinum in a child?",
+    options: [
+      "Thymus gland (large and active)",
+      "Only fat and connective tissue",
+      "Aortic arch and branches",
+      "Lower lobe of the left lung"
+    ],
+    correctAnswer: "Thymus gland (large and active)",
+    explanation: "In children the thymus is relatively large and occupies most of the anterior mediastinum."
+  },
+  {
+    question: "In forensic/medicolegal anatomy, which can be used to establish fetal viability at birth?",
+    options: [
+      "Ribs",
+      "Heart",
+      "Lungs",
+      "Mediastinum"
+    ],
+    correctAnswer: "Lungs",
+    explanation: "Air in the lungs (float test) indicates respiration has occurred, demonstrating live birth."
+  },
+  {
+    question: "The anterior mediastinum is located between which two structures?",
+    options: [
+      "Vertebral column and heart",
+      "Pericardium and sternum",
+      "Lungs and diaphragm",
+      "Trachea and esophagus"
+    ],
+    correctAnswer: "Pericardium and sternum",
+    explanation: "The anterior mediastinum lies between the posterior surface of the sternum and the anterior pericardium."
+  },
+  {
+    question: "Which of the following lymph nodes are typically found in the anterior mediastinum?",
+    options: [
+      "Tracheobronchial nodes",
+      "Parasternal nodes",
+      "Deep cervical nodes",
+      "Cervicothoracic nodes"
+    ],
+    correctAnswer: "Parasternal nodes",
+    explanation: "Parasternal (internal mammary) lymph nodes lie along the sides of the sternum in the anterior mediastinum."
+  },
+  {
+    question: "Which of the following is TRUE of bronchopulmonary segments?",
+    options: [
+      "They are oval in shape",
+      "The basal part of each segment is directed towards the root of the lungs",
+      "None of the above",
+      "Each segment is drained by a central vein only"
+    ],
+    correctAnswer: "The basal part of each segment is directed towards the root of the lungs",
+    explanation: "Each segment’s apex points to the pleural surface and its base (basal part) points toward the hilum/root."
+  },
+  {
+    question: "Dysfunction of the external intercostal muscles would result in:",
+    options: [
+      "Chest wall movement upward being impaired",
+      "Impairments in outward chest wall movement",
+      "A decrease in transverse thoracic diameter",
+      "All of the above"
+    ],
+    correctAnswer: "All of the above",
+    explanation: "External intercostals elevate ribs and expand the thorax laterally; dysfunction diminishes all these movements."
+  },
+  {
+    question: "What is the surgical significance of bronchopulmonary segments?",
+    options: [
+      "They cannot be surgically separated due to shared vasculature",
+      "Each segment shares a bronchus and artery with adjacent segments",
+      "They can be resected independently due to their discrete bronchovascular supply",
+      "Each segment is drained by a central vein only"
+    ],
+    correctAnswer: "They can be resected independently due to their discrete bronchovascular supply",
+    explanation: "Because each segment has its own bronchus and arterial supply, surgeons can perform segmentectomy without affecting neighbors."
+  },
+  {
+    question: "Which of the following vessels is found within the middle mediastinum?",
+    options: [
+      "Brachiocephalic vein",
+      "Pulmonary trunk",
+      "Arch of the aorta",
+      "Azygos vein"
+    ],
+    correctAnswer: "Pulmonary trunk",
+    explanation: "The pulmonary trunk emerges from the right ventricle within the middle mediastinum; the arch lies in the superior."
+  },
+  {
+    question: "Which of the following structures is a content of the posterior mediastinum?",
+    options: [
+      "Trachea",
+      "Esophagus",
+      "Thymus",
+      "Pulmonary trunk"
+    ],
+    correctAnswer: "Esophagus",
+    explanation: "The esophagus descends through the posterior mediastinum alongside the thoracic aorta."
+  },
 
 
 
