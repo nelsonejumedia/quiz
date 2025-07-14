@@ -97,6 +97,391 @@ document.addEventListener("DOMContentLoaded", () => {
         questions: [
           
           
+           {
+    question: "On the posterior aspect of the liver, how many anatomical lobes are traditionally described?",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correctAnswer: "Four",
+    explanation: "Though classic texts emphasize right and left lobes anteriorly, the visceral (posterior) surface of the liver shows four distinct lobes: caudate, quadrate, right, and left."
+  },
+  {
+    question: "Segment I of the Couinaud classification corresponds to which lobe on the liver’s visceral surface?",
+    options: [
+      "Quadrate lobe",
+      "Left lobe",
+      "Right lobe",
+      "Caudate lobe"
+    ],
+    correctAnswer: "Caudate lobe",
+    explanation: "Couinaud segment I is the caudate lobe, positioned on the posterior surface between the inferior vena cava and ligamentum venosum."
+  },
+  {
+    question: "Which of the following correctly lists the three parts of the gallbladder from distal to proximal?",
+    options: [
+      "Fundus, Body, Neck",
+      "Neck, Body, Fundus",
+      "Body, Fundus, Neck",
+      "Fundus, Neck, Body"
+    ],
+    correctAnswer: "Fundus, Body, Neck",
+    explanation: "The gallbladder is divided into fundus (distal), body (middle), and neck (proximal, leading into the cystic duct)."
+  },
+  {
+    question: "Which vertebral levels correspond to the posterior location of the pancreas?",
+    options: [
+      "T10–T11",
+      "T12–L1",
+      "L1–L2",
+      "L2–L3"
+    ],
+    correctAnswer: "L1–L2",
+    explanation: "The pancreas lies retroperitoneally at approximately the L1–L2 vertebral levels, just inferior to the transpyloric plane."
+  },
+  {
+    question: "Which artery is the main blood supply to the ascending colon and cecum?",
+    options: [
+      "Middle colic artery",
+      "Right colic artery",
+      "Ileocolic artery",
+      "Inferior mesenteric artery"
+    ],
+    correctAnswer: "Ileocolic artery",
+    explanation: "The ileocolic artery, a branch of the superior mesenteric artery, supplies the cecum, appendix, and proximal ascending colon."
+  },
+  {
+    question: "Why is pain from an inflamed appendix first felt in the umbilical region?",
+    options: [
+      "Visceral afferents enter at T10 dermatome",
+      "Somatic nerve supply radiates there",
+      "Referred pain from the kidney",
+      "Direct peritoneal irritation"
+    ],
+    correctAnswer: "Visceral afferents enter at T10 dermatome",
+    explanation: "Visceral sensory fibers from the appendix travel with sympathetic nerves to T10 spinal cord, causing early referred pain to the periumbilical region."
+  },
+  {
+    question: "Which colic flexure is generally positioned higher in the abdomen?",
+    options: [
+      "Right colic flexure",
+      "Left colic flexure",
+      "Both at equal level",
+      "Variable without pattern"
+    ],
+    correctAnswer: "Left colic flexure",
+    explanation: "The left (splenic) flexure lies higher under the diaphragm compared to the right (hepatic) flexure, due to the spleen’s position."
+  },
+  {
+    question: "Mesoperitoneal organs have peritoneum covering only one surface and adventitia on the other. Which of these is mesoperitoneal?",
+    options: [
+      "Jejunum",
+      "Transverse colon",
+      "Ascending colon",
+      "Sigmoid colon"
+    ],
+    correctAnswer: "Ascending colon",
+    explanation: "The ascending colon is secondarily retroperitoneal (mesoperitoneal): anterior surface covered by peritoneum, posteriorly by adventitia."
+  },
+  {
+    question: "Which large intestinal feature is formed by three longitudinal bands of smooth muscle?",
+    options: [
+      "Haustra",
+      "Teniae coli",
+      "Plicae semilunares",
+      "Sacculations"
+    ],
+    correctAnswer: "Teniae coli",
+    explanation: "The teniae coli are three distinct longitudinal muscle ribbons (mesocolic, omental, and free) whose tone creates the haustra of the colon."
+  },
+  {
+    question: "Which term describes the peritoneal covering tethering the transverse colon to the greater omentum?",
+    options: [
+      "Tunica libera",
+      "Tunica omentalis",
+      "Tunica mesocolica",
+      "Tunica adventitia"
+    ],
+    correctAnswer: "Tunica omentalis",
+    explanation: "The tunica omentalis refers to the peritoneal layer binding the transverse colon to the greater omentum."
+  },
+  {
+    question: "Which intestinal muscle layer forms the sphincters by circular fiber contraction?",
+    options: [
+      "Longitudinal layer",
+      "Circular layer",
+      "Oblique layer",
+      "Taenia layer"
+    ],
+    correctAnswer: "Circular layer",
+    explanation: "Contraction of the circular muscle fibers of the GI tract produces sphincters, such as the ileocecal and anal sphincters."
+  },
+  {
+    question: "Where is bile stored and concentrated between meals?",
+    options: [
+      "Liver parenchyma",
+      "Gallbladder",
+      "Duodenum",
+      "Common bile duct"
+    ],
+    correctAnswer: "Gallbladder",
+    explanation: "The gallbladder stores and concentrates hepatic bile, releasing it via the cystic duct into the biliary tree during digestion."
+  },
+  {
+    question: "Bile secreted by hepatocytes is first collected by which structure?",
+    options: [
+      "Common hepatic duct",
+      "Right and left hepatic ducts",
+      "Cystic duct",
+      "Major duodenal papilla"
+    ],
+    correctAnswer: "Right and left hepatic ducts",
+    explanation: "Bile flows from liver lobules into right and left hepatic ducts, which join to form the common hepatic duct."
+  },
+  {
+    question: "Which ductal union forms the bile duct (common bile duct)?",
+    options: [
+      "Common hepatic + pancreatic ducts",
+      "Hepatic artery + bile canaliculi",
+      "Common hepatic + cystic ducts",
+      "Cystic + pancreatic ducts"
+    ],
+    correctAnswer: "Common hepatic + cystic ducts",
+    explanation: "The common hepatic duct from the liver merges with the cystic duct from the gallbladder to form the common bile duct."
+  },
+  {
+    question: "Which of the following is NOT one of the five parts of the pancreas?",
+    options: [
+      "Head",
+      "Body",
+      "Neck",
+      "Isthmus"
+    ],
+    correctAnswer: "Isthmus",
+    explanation: "The pancreas comprises the uncinate process, head, neck, body, and tail; there is no defined 'isthmus' part."
+  },
+  {
+    question: "Which statement about the role of the ileocolic artery is true?",
+    options: [
+      "Supplies the distal sigmoid colon",
+      "Supplies the ascending colon and cecum",
+      "Anastomoses with the inferior mesenteric artery",
+      "Branches off the inferior mesenteric artery"
+    ],
+    correctAnswer: "Supplies the ascending colon and cecum",
+    explanation: "The ileocolic artery, a terminal branch of the SMA, supplies blood to the cecum, appendix, and ascending colon."
+  },
+
+
+  {
+    question: "How many lobes are visible on the visceral (posterior) surface of the liver?",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correctAnswer: "Four",
+    explanation: "On its posterior aspect the liver shows four distinct lobes: caudate, quadrate, right and left lobes; anteriorly it appears as just right and left lobes."
+  },
+  {
+    question: "Which statement correctly contrasts the number of anterior versus posterior lobes of the liver?",
+    options: [
+      "Two anterior lobes; four posterior lobes",
+      "Four anterior lobes; two posterior lobes",
+      "Three anterior lobes; three posterior lobes",
+      "One anterior lobe; one posterior lobe"
+    ],
+    correctAnswer: "Two anterior lobes; four posterior lobes",
+    explanation: "From the front you see right and left lobes (two), but the visceral surface reveals four lobes in total."
+  },
+  {
+    question: "Which part is NOT one of the five anatomical portions of the pancreas?",
+    options: [
+      "Uncinate process",
+      "Isthmus",
+      "Body",
+      "Tail"
+    ],
+    correctAnswer: "Isthmus",
+    explanation: "The pancreas consists of uncinate process, head, neck, body, and tail—there is no isthmus."
+  },
+  {
+    question: "At which vertebral levels does the pancreas lie retroperitoneally?",
+    options: [
+      "T12–L1",
+      "L1–L2",
+      "L2–L3",
+      "T11–T12"
+    ],
+    correctAnswer: "L1–L2",
+    explanation: "The pancreas spans approximately L1 to L2, just beneath the transpyloric plane."
+  },
+  {
+    question: "Which tunica covers mesoperitoneal organs posteriorly where peritoneum is absent?",
+    options: [
+      "Tunica mesocolica",
+      "Tunica libera",
+      "Tunica adventitia",
+      "Tunica omentalis"
+    ],
+    correctAnswer: "Tunica adventitia",
+    explanation: "Mesoperitoneal organs like ascending and descending colon have peritoneum anteriorly and tunica adventitia (fibrosa) posteriorly."
+  },
+  {
+    question: "Which term describes the peritoneal layer binding the transverse colon to the greater omentum?",
+    options: [
+      "Tunica mesocolica",
+      "Tunica libera",
+      "Tunica omentalis",
+      "Tunica adventitia"
+    ],
+    correctAnswer: "Tunica omentalis",
+    explanation: "The tunica omentalis is the peritoneal layer that tethers the transverse colon to the greater omentum."
+  },
+  {
+    question: "Which structure is formed by the three longitudinal bands of the large intestine?",
+    options: [
+      "Haustra",
+      "Plicae semilunares",
+      "Sacculations",
+      "Teniae coli"
+    ],
+    correctAnswer: "Teniae coli",
+    explanation: "The teniae coli are three longitudinal muscle bands whose tautness creates the sacculations (haustra) of the colon."
+  },
+  {
+    question: "What muscle layer contraction produces sphincters such as the ileocecal and anal sphincter?",
+    options: [
+      "Oblique layer",
+      "Longitudinal layer",
+      "Circular layer",
+      "Taenia layer"
+    ],
+    correctAnswer: "Circular layer",
+    explanation: "Contraction of the circular smooth muscle fibers in the gut wall forms sphincters by narrowing the lumen."
+  },
+  {
+    question: "Which colic flexure lies higher beneath the diaphragm?",
+    options: [
+      "Right (hepatic) flexure",
+      "Left (splenic) flexure",
+      "Both lie at same level",
+      "Varies with posture"
+    ],
+    correctAnswer: "Left (splenic) flexure",
+    explanation: "The left colic (splenic) flexure is positioned higher in the abdomen, tucked under the spleen."
+  },
+  {
+    question: "Visceral pain from appendicitis is first perceived in the umbilical region because sensory fibers enter the spinal cord at which dermatome?",
+    options: [
+      "T8",
+      "T9",
+      "T10",
+      "T11"
+    ],
+    correctAnswer: "T10",
+    explanation: "Visceral afferent fibers from the appendix travel with sympathetic nerves to T10, causing periumbilical referred pain."
+  },
+
+
+  {
+    question: "Which statement best contrasts bile production and storage?",
+    options: [
+      "The gallbladder synthesizes bile; the liver stores it",
+      "The liver synthesizes bile; the gallbladder stores and concentrates it",
+      "Both liver and gallbladder synthesize bile, but only the gallbladder secretes it",
+      "The pancreas synthesizes bile; the liver stores and secretes it"
+    ],
+    correctAnswer: "The liver synthesizes bile; the gallbladder stores and concentrates it",
+    explanation: "Hepatocytes produce bile continuously; the gallbladder’s main role is to store, concentrate, and release that bile in response to meals."
+  },
+  {
+    question: "Which of these is NOT a mesoperitoneal organ?",
+    options: [
+      "Ascending colon",
+      "Descending colon",
+      "Middle third of rectum",
+      "Transverse colon"
+    ],
+    correctAnswer: "Transverse colon",
+    explanation: "Mesoperitoneal organs have peritoneum on only their anterior surfaces; the transverse colon is intraperitoneal on both surfaces, not mesoperitoneal."
+  },
+  {
+    question: "What is the tunica libera in the context of colon coverings?",
+    options: [
+      "Peritoneal layer covering intraperitoneal organs",
+      "Adventitial layer covering retroperitoneal organs entirely",
+      "Peritoneal covering only on the anterior aspect of mesoperitoneal organs",
+      "Fascia beneath the mesocolon"
+    ],
+    correctAnswer: "Peritoneal covering only on the anterior aspect of mesoperitoneal organs",
+    explanation: "Tunica libera refers to the peritoneum that covers the anterior surface of organs like the ascending and descending colon, leaving their posterior face with adventitia."
+  },
+  {
+    question: "Which tunica anchors the transverse colon to the posterior abdominal wall via the greater omentum?",
+    options: [
+      "Tunica mesocolica",
+      "Tunica omentalis",
+      "Tunica libera",
+      "Tunica adventitia"
+    ],
+    correctAnswer: "Tunica mesocolica",
+    explanation: "The tunica mesocolica is the mesenteric peritoneal layer that suspends and anchors the transverse colon to the posterior wall."
+  },
+  {
+    question: "How many functional segments does the liver have according to Couinaud’s classification?",
+    options: [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    correctAnswer: "8",
+    explanation: "Couinaud’s system divides the liver into eight independent functional segments based on tertiary branches of the portal triad."
+  },
+  {
+    question: "Which segment of the liver is located immediately to the right of the middle hepatic vein?",
+    options: [
+      "Segment II",
+      "Segment IV",
+      "Segment V",
+      "Segment I"
+    ],
+    correctAnswer: "Segment V",
+    explanation: "Segment V lies inferior and to the right of the middle hepatic vein within the right anterior sector."
+  },
+  {
+    question: "Which segment is the only one that drains directly into the inferior vena cava independent of the hepatic veins?",
+    options: [
+      "Segment I",
+      "Segment III",
+      "Segment VI",
+      "Segment VIII"
+    ],
+    correctAnswer: "Segment I",
+    explanation: "Segment I (caudate lobe) has its own venous drainage directly into the IVC, separate from the main hepatic veins."
+  },
+  {
+    question: "Which peritoneal covering combination correctly describes the ascending colon?",
+    options: [
+      "Anterior tunica libera; posterior tunica adventitia",
+      "Both anterior and posterior tunica omentalis",
+      "Anterior tunica mesocolica; no posterior covering",
+      "Fully invested by tunica mesocolica"
+    ],
+    correctAnswer: "Anterior tunica libera; posterior tunica adventitia",
+    explanation: "As a mesoperitoneal organ, the ascending colon has peritoneum (tunica libera) on its front surface and fibrous adventitia on its back."
+  },
+          
+          
+          
+          
+          
+          
+          
           
   {
     question: "The ‘bare area’ of the liver refers to a region on the diaphragmatic surface that is devoid of peritoneum. Which structure lies in direct contact with this area?",
