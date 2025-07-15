@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     explanation: "Renal blood flow is about 1.2–1.3 L/min, which is roughly 20–25% of cardiac output."
   },
   {
-    question: "Which historical figure first linked edema and albuminuria to kidney lesions (Bright’s disease)?",
+    question: "Which historical figure first linked edema and albuminuria to kidney lesions?",
     options: ["Marcello Malpighi", "Carl Ludwig", "Richard Bright", "William Bowman"],
     correctAnswer: "Richard Bright",
     explanation: "In 1827 Bright connected glomerular damage with clinical edema and proteinuria, defining nephritis."
