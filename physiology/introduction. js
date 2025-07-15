@@ -1,4 +1,4 @@
-jdocument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     lucide.createIcons();
   
     const homeScreen = document.getElementById("home-screen");
