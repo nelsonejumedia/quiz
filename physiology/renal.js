@@ -65,492 +65,697 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
+  {
+        category: "Kidney, Nephron and Juxtaglomerular Apparatus",
+        questions: [
+     
+  
+  {
+    question: "In adults, both kidneys receive approximately what fraction of cardiac output?",
+    options: ["10–15%", "20–25%", "30–35%", "40–45%"],
+    correctAnswer: "20–25%",
+    explanation: "Renal blood flow is about 1.2–1.3 L/min, which is roughly 20–25% of cardiac output."
+  },
+  {
+    question: "Which historical figure first linked edema and albuminuria to kidney lesions (Bright’s disease)?",
+    options: ["Marcello Malpighi", "Carl Ludwig", "Richard Bright", "William Bowman"],
+    correctAnswer: "Richard Bright",
+    explanation: "In 1827 Bright connected glomerular damage with clinical edema and proteinuria, defining nephritis."
+  },
+  {
+    question: "Which of the following is NOT part of Malpighi’s original observations on the kidney?",
+    options: ["Renal corpuscles", "Bowman’s capsule", "Glomeruli", "Vasa recta"],
+    correctAnswer: "Vasa recta",
+    explanation: "Malpighi described corpuscles and capsule; the vasa recta were characterized later in juxtamedullary nephrons."
+  },
+  {
+    question: "Ludwig’s 1842 model of urine formation proposed filtration at the glomerulus and:",
+    options: ["Active secretion in PCT", "Passive diffusion in loop", "Selective reabsorption in tubules", "Bulk flow in DCT"],
+    correctAnswer: "Selective reabsorption in tubules",
+    explanation: "Ludwig proposed glomerular filtration followed by tubular reabsorption, not active secretion."
+  },
+  {
+    question: "Bright’s disease is otherwise known as:",
+    options: ["Nephrolithiasis", "Nephritis", "Pyelonephritis", "Glomerulosclerosis"],
+    correctAnswer: "Nephritis",
+    explanation: "Historically, Bright’s disease refers to inflammatory kidney disorders—i.e., nephritis."
+  },
+  {
+    question: "Which structure is NOT located within the renal medulla?",
+    options: ["Pyramids", "Columns", "Sinus", "Fibrous capsule"],
+    correctAnswer: "Fibrous capsule",
+    explanation: "The fibrous capsule envelops the cortex; medulla contains pyramids, columns, and sinus."
+  },
+  {
+    question: "Fenestrations in glomerular capillaries are approximately:",
+    options: ["10–20 nm", "50–100 nm", "200–300 nm", "500–600 nm"],
+    correctAnswer: "50–100 nm",
+    explanation: "Glomerular endothelial pores are ~60–70 nm, facilitating plasma ultrafiltration."
+  },
+  {
+    question: "The average diameter of a Bowman’s capsule (renal corpuscle) is closest to:",
+    options: ["50 µm", "100 µm", "200 µm", "400 µm"],
+    correctAnswer: "200 µm",
+    explanation: "Human renal corpuscles measure about 200 µm across."
+  },
+  {
+    question: "Podocytes are glomerular epithelial cells with:",
+    options: ["Microvilli apical surfaces", "Interdigitating foot processes", "Fenestrated tight junctions", "Basement membrane extensions"],
+    correctAnswer: "Interdigitating foot processes",
+    explanation: "Podocytes wrap capillaries with pedicels that form the filtration slit diaphragm."
+  },
+  {
+    question: "Which is NOT part of the nephron’s tubular component?",
+    options: ["Proximal convoluted tubule", "Loop of Henle", "Distal convoluted tubule", "Glomerulus"],
+    correctAnswer: "Glomerulus",
+    explanation: "The glomerulus is part of the corpuscular (filtration) segment, not the tubular segment."
+  },
+  {
+    question: "Cortical nephrons differ from juxtamedullary nephrons by having:",
+    options: ["Long loops", "Peritubular capillaries", "Vasa recta", "Thin limbs only"],
+    correctAnswer: "Peritubular capillaries",
+    explanation: "Cortical nephrons have short loops and peritubular capillaries; vasa recta are in juxtamedullary nephrons."
+  },
+  {
+    question: "Approximately what percentage of human nephrons are cortical?",
+    options: ["50%", "65%", "85%", "95%"],
+    correctAnswer: "85%",
+    explanation: "Cortical nephrons make up about 85% of the total nephron population."
+  },
+  {
+    question: "The efferent arteriole is smaller in diameter than the afferent arteriole to:",
+    options: ["Lower glomerular pressure", "Maintain high glomerular pressure", "Equalize pressures", "Prevent filtration"],
+    correctAnswer: "Maintain high glomerular pressure",
+    explanation: "A narrower efferent arteriole increases resistance, keeping filtration pressure high."
+  },
+  {
+    question: "Which of these is NOT a component of the juxtaglomerular apparatus?",
+    options: ["Macula densa", "Juxtaglomerular cells", "Extraglomerular mesangial cells", "Podocytes"],
+    correctAnswer: "Podocytes",
+    explanation: "The JGA comprises macula densa, granular JG cells, and Lacis cells; podocytes are separate."
+  },
+  {
+    question: "Macula densa cells sense ↑ NaCl and signal via:",
+    options: ["Nitric oxide", "Adenosine/ATP", "Renin", "Angiotensin II"],
+    correctAnswer: "Adenosine/ATP",
+    explanation: "High tubular NaCl triggers ATP/adenosine release, causing afferent arteriole constriction."
+  },
+  {
+    question: "Tubuloglomerular feedback results in all EXCEPT:",
+    options: ["Afferent constriction", "Efferent dilation", "↓ GFR", "↑ NaCl delivery"],
+    correctAnswer: "↑ NaCl delivery",
+    explanation: "TGF lowers GFR, reducing NaCl at the macula densa; afferent constricts, efferent dilates."
+  },
+  {
+    question: "Juxtaglomerular cells release renin in response to all EXCEPT:",
+    options: ["↓ BP", "↓ ECF volume", "↓ macula densa NaCl", "↑ afferent stretch"],
+    correctAnswer: "↑ afferent stretch",
+    explanation: "Increased stretch inhibits renin; low BP, volume, or NaCl stimulate renin secretion."
+  },
+  {
+    question: "ACE, which converts Ang I to Ang II, is primarily produced by:",
+    options: ["JG cells", "Pulmonary endothelium", "Hepatocytes", "Alveolar macrophages"],
+    correctAnswer: "Pulmonary endothelium",
+    explanation: "ACE is abundant on lung capillary endothelium."
+  },
+  {
+    question: "Which angiotensin form has the strongest vasopressor effect?",
+    options: ["Ang I", "Ang II", "Ang III", "Ang IV"],
+    correctAnswer: "Ang II",
+    explanation: "Ang II is the most potent, causing vasoconstriction and aldosterone release."
+  },
+  {
+    question: "Minor calyces drain into major calyces; how many minor calyces per kidney?",
+    options: ["4–6", "8–18", "20–25", "30–35"],
+    correctAnswer: "8–18",
+    explanation: "Each kidney typically has between 8 and 18 minor calyces."
+  },
+  {
+    question: "How many major calyces converge to form the renal pelvis?",
+    options: ["1", "2–3", "4–5", "6–7"],
+    correctAnswer: "2–3",
+    explanation: "Two to three major calyces join to form the renal pelvis."
+  },
+  {
+    question: "Which of the following is NOT a function of extraglomerular mesangial cells?",
+    options: ["Prostaglandin secretion", "Cytokine release", "Phagocytosis", "Structural support"],
+    correctAnswer: "Phagocytosis",
+    explanation: "Extraglomerular mesangial cells release cytokines and prostaglandins but are not phagocytic."
+  },
+  {
+    question: "Juxtaglomerular cells are primarily located in the:",
+    options: ["Afferent arteriole wall", "Macula densa epithelium", "Loop of Henle", "Vasa recta"],
+    correctAnswer: "Afferent arteriole wall",
+    explanation: "JG cells line the afferent arteriole near Bowman’s capsule."
+  },
+  {
+    question: "Which is NOT a stimulant for renin release?",
+    options: ["↓ BP", "Sympathetic activation", "↓ NaCl at macula", "↑ Ang II levels"],
+    correctAnswer: "↑ Ang II levels",
+    explanation: "High Ang II provides negative feedback to inhibit renin release."
+  },
+  {
+    question: "Which part of the nephron lies between Bowman’s capsule and the loop of Henle?",
+    options: ["Proximal convoluted tubule", "Distal convoluted tubule", "Collecting duct", "Macula densa"],
+    correctAnswer: "Proximal convoluted tubule",
+    explanation: "The PCT connects Bowman’s capsule to the loop of Henle."
+  },
+  {
+    question: "Which vascular network surrounds juxtamedullary loops of Henle?",
+    options: ["Peritubular capillaries", "Vasa recta", "Glomerular capillaries", "Interstitial veins"],
+    correctAnswer: "Vasa recta",
+    explanation: "Vasa recta run alongside long loops to maintain medullary concentration gradients."
+  },
+  {
+    question: "Which nephron type is primarily responsible for concentrating urine?",
+    options: ["Cortical nephron", "Juxtamedullary nephron", "Subcapsular nephron", "Intermediate nephron"],
+    correctAnswer: "Juxtamedullary nephron",
+    explanation: "Their long loops and vasa recta establish and maintain the osmotic gradient."
+  },
+  {
+    question: "The ratio of afferent to efferent arteriole diameter is such that efferent is:",
+    options: ["Wider", "Equal", "Narrower", "Highly variable"],
+    correctAnswer: "Narrower",
+    explanation: "A narrower efferent arteriole increases glomerular filtration pressure."
+  },
+  {
+    question: "Which tubular segment senses flow and composition to regulate GFR?",
+    options: ["Macula densa", "PCT", "Collecting duct", "Loop of Henle"],
+    correctAnswer: "Macula densa",
+    explanation: "Macula densa cells in the thick ascending limb monitor NaCl and mediate tubuloglomerular feedback."
+  },
+  {
+    question: "Which cell type forms the filtration barrier alongside fenestrated endothelium?",
+    options: ["Mesangial cells", "Podocytes", "JG cells", "Epithelial cells of PCT"],
+    correctAnswer: "Podocytes",
+    explanation: "Podocyte foot processes and slit diaphragms complement endothelial fenestrae and basement membrane."
+  },
+  {
+    question: "Which arteriole contributes to peritubular capillary formation after glomerular exit?",
+    options: ["Afferent arteriole", "Efferent arteriole", "Interlobular artery", "Arcuate artery"],
+    correctAnswer: "Efferent arteriole",
+    explanation: "The efferent arteriole breaks into peritubular capillaries around cortical tubules."
+  },
+  {
+    question: "Which segment’s epithelial cells contain numerous mitochondria for active transport?",
+    options: ["PCT", "DCT", "Collecting duct", "Thin limb of Henle"],
+    correctAnswer: "PCT",
+    explanation: "Proximal tubule cells have abundant mitochondria to fuel reabsorption."
+  },
+  {
+    question: "Which structure marks the transition from thick ascending limb to DCT at the JGA?",
+    options: ["Macula densa", "Podocyte collar", "Bowman’s capsule outlet", "Collecting tubule entrance"],
+    correctAnswer: "Macula densa",
+    explanation: "The macula densa is the terminal thick ascending limb adjacent to arterioles."
+  },
+  {
+    question: "Which hormone is NOT secreted by the JGA?",
+    options: ["Renin", "Prostaglandin", "Erythropoietin", "None of the above"],
+    correctAnswer: "Erythropoietin",
+    explanation: "EPO is released by interstitial fibroblasts, not the JGA."
+  },
+  {
+    question: "In the renal corpuscle, mesangial cells function in all ways EXCEPT:",
+    options: ["Structural support", "Phagocytosis", "Secretion of cytokines", "Regulation of afferent tone"],
+    correctAnswer: "Regulation of afferent tone",
+    explanation: "Mesangial cells support, phagocytose, and secrete cytokines; JG cells regulate tone."
+  },
+  {
+    question: "Which of these tunics surrounds the entire kidney?",
+    options: ["Capsular epithelium", "Fibrous capsule", "Perinephric fat", "Renal pelvis"],
+    correctAnswer: "Fibrous capsule",
+    explanation: "The fibrous capsule is the kidney’s tough outer layer."
+  },
+  {
+    question: "Which structure lies in the renal sinus collecting urine before it enters the ureter?",
+    options: ["Minor calyx", "Major calyx", "Renal papilla", "Collecting duct"],
+    correctAnswer: "Major calyx",
+    explanation: "Major calyces converge into the renal pelvis, which continues as the ureter."
+  },
+  {
+    question: "Which arteriole’s diameter change has the greatest effect on GFR?",
+    options: ["Afferent arteriole dilation", "Efferent arteriole dilation", "Arcuate artery constriction", "Interlobular artery dilation"],
+    correctAnswer: "Afferent arteriole dilation",
+    explanation: "Afferent dilation increases glomerular pressure and GFR most significantly."
+  },
+  
+
+],
+      },
+  
+  
+  
+  
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////Introduction to Physiology///////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       {
-        category: "Introduction",
+        category: "Urine formation, Concentration and Micturition",
         questions: [
-          
-    
+     
+    {
+    question: "All of the following are phases of urine formation EXCEPT:",
+    options: [
+      "Glomerular filtration",
+      "Tubular reabsorption",
+      "Tubular secretion",
+      "Collecting duct concentration"
+    ],
+    correctAnswer: "Collecting duct concentration",
+    explanation: "Urine formation consists of filtration, reabsorption, and secretion; concentration in the collecting duct is a result, not a separate phase."
+  },
+  {
+    question: "Which nephron segment is known as the “point of no return”?",
+    options: [
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    correctAnswer: "Collecting duct",
+    explanation: "Once filtrate enters the collecting duct, no further upstream modifications can occur."
+  },
+  {
+    question: "Glomerular filtration membrane includes all of the following layers EXCEPT:",
+    options: [
+      "Fenestrated capillary endothelium",
+      "Glomerular basement membrane",
+      "Visceral layer of Bowman’s capsule",
+      "Parietal layer of Bowman’s capsule"
+    ],
+    correctAnswer: "Parietal layer of Bowman’s capsule",
+    explanation: "Filtration occurs through endothelium, basement membrane, and podocyte layer; the parietal layer lines Bowman’s space."
+  },
+  {
+    question: "Normal glomerular filtration rate (GFR) in an adult is closest to:",
+    options: [
+      "60 mL/min",
+      "90 mL/min",
+      "125 mL/min",
+      "180 mL/min"
+    ],
+    correctAnswer: "125 mL/min",
+    explanation: "GFR averages about 125 mL per minute (≈180 L per day) in healthy adults."
+  },
+  {
+    question: "Glomerular capillary hydrostatic pressure is typically about:",
+    options: [
+      "15 mmHg",
+      "30 mmHg",
+      "60 mmHg",
+      "100 mmHg"
+    ],
+    correctAnswer: "60 mmHg",
+    explanation: "Glomerular capillary pressure (45–70 mmHg) is the highest in the body and favors filtration."
+  },
+  {
+    question: "Which pressure opposes glomerular filtration by pulling fluid back into capillaries?",
+    options: [
+      "Bowman’s capsular hydrostatic pressure",
+      "Glomerular colloid osmotic pressure",
+      "Afferent arteriole pressure",
+      "Tubular lumen pressure"
+    ],
+    correctAnswer: "Glomerular colloid osmotic pressure",
+    explanation: "Plasma proteins exert oncotic pressure in glomerular capillaries, resisting filtration."
+  },
+  {
+    question: "The net filtration pressure equation (ΔP − Δπ) was formulated by:",
+    options: [
+      "William Bowman",
+      "Frank Starling",
+      "Marcello Malpighi",
+      "Carl Ludwig"
+    ],
+    correctAnswer: "Frank Starling",
+    explanation: "Starling described how hydrostatic and oncotic pressures determine net fluid movement across capillaries."
+  },
+  {
+    question: "GFR is directly proportional to:",
+    options: [
+      "Plasma protein concentration",
+      "Renal blood flow",
+      "Capsular oncotic pressure",
+      "Tubular back-pressure"
+    ],
+    correctAnswer: "Renal blood flow",
+    explanation: "Increased renal blood flow raises glomerular capillary pressure and thus GFR."
+  },
+  {
+    question: "Selective reabsorption refers to:",
+    options: [
+      "Passive diffusion of all solutes",
+      "Active uptake of essential substances",
+      "Bulk flow of water only",
+      "Filtration at the glomerulus"
+    ],
+    correctAnswer: "Active uptake of essential substances",
+    explanation: "Tubular cells use ATP to reabsorb specific solutes (e.g., glucose, amino acids)."
+  },
+  {
+    question: "Passive reabsorption in the nephron does NOT include:",
+    options: [
+      "Chloride",
+      "Urea",
+      "Water",
+      "Glucose"
+    ],
+    correctAnswer: "Glucose",
+    explanation: "Glucose is reabsorbed actively; chloride, urea, and water move passively along gradients."
+  },
+  {
+    question: "Which substance moves via the transcellular route rather than the paracellular route?",
+    options: [
+      "Sodium",
+      "Chloride",
+      "Glucose",
+      "Urea"
+    ],
+    correctAnswer: "Glucose",
+    explanation: "Glucose is reabsorbed transcellularly through epithelial cells using carriers."
+  },
+  {
+    question: "Paracellular reabsorption bypasses cells and occurs via:",
+    options: [
+      "Aquaporin channels",
+      "Tight junctions",
+      "Carrier-mediated transport",
+      "Endocytosis"
+    ],
+    correctAnswer: "Tight junctions",
+    explanation: "Paracellular movement occurs between cells through intercellular spaces."
+  },
+  {
+    question: "Which of the following is NOT reabsorbed in the proximal convoluted tubule?",
+    options: [
+      "Glucose",
+      "Amino acids",
+      "Creatinine",
+      "Bicarbonate"
+    ],
+    correctAnswer: "Creatinine",
+    explanation: "Creatinine is not reabsorbed and is instead excreted unchanged."
+  },
+  {
+    question: "The loop of Henle reabsorbs primarily:",
+    options: [
+      "Glucose",
+      "Amino acids",
+      "Sodium and chloride",
+      "Uric acid"
+    ],
+    correctAnswer: "Sodium and chloride",
+    explanation: "The thick ascending limb actively transports Na⁺/Cl⁻ but is impermeable to water."
+  },
+  {
+    question: "Which solute is reabsorbed in the distal convoluted tubule?",
+    options: [
+      "Glucose",
+      "Sodium",
+      "Phosphate",
+      "Urea"
+    ],
+    correctAnswer: "Sodium",
+    explanation: "DCT reabsorbs Na⁺, Ca²⁺, HCO₃⁻, and water under hormonal control."
+  },
+  {
+    question: "Sodium reabsorption occurs in:",
+    options: [
+      "Only PCT and loop of Henle",
+      "Only DCT and collecting duct",
+      "All nephron segments",
+      "Collecting duct only"
+    ],
+    correctAnswer: "All nephron segments",
+    explanation: "Na⁺ reabsorption throughout the nephron regulates extracellular fluid volume."
+  },
+  {
+    question: "Glomerulotubular balance ensures:",
+    options: [
+      "Constant GFR regardless of blood flow",
+      "Matching reabsorption to filtration rate",
+      "Complete excretion of filtered load",
+      "Equal osmolarity of filtrate and plasma"
+    ],
+    correctAnswer: "Matching reabsorption to filtration rate",
+    explanation: "It maintains a stable fraction of reabsorption despite GFR fluctuations."
+  },
+  {
+    question: "Which hormone does NOT directly regulate GFR?",
+    options: [
+      "Antidiuretic hormone",
+      "Aldosterone",
+      "Angiotensin II",
+      "Parathyroid hormone"
+    ],
+    correctAnswer: "Parathyroid hormone",
+    explanation: "ADH, aldosterone, and Ang II affect filtration and reabsorption; PTH mainly regulates Ca²⁺."
+  },
+  {
+    question: "Angiotensin II enhances sodium reabsorption in the:",
+    options: [
+      "Proximal and distal tubules",
+      "Glomerulus",
+      "Loop of Henle only",
+      "Collecting duct only"
+    ],
+    correctAnswer: "Proximal and distal tubules",
+    explanation: "Ang II stimulates Na⁺ reabsorption in both PCT and DCT to conserve volume."
+  },
+  {
+    question: "Sympathetic activation in the kidney primarily:",
+    options: [
+      "Decreases sodium reabsorption",
+      "Increases sodium reabsorption",
+      "Inhibits renin release",
+      "Dilates afferent arteriole"
+    ],
+    correctAnswer: "Increases sodium reabsorption",
+    explanation: "SNS stimulation enhances Na⁺ reabsorption via α₁-adrenergic receptors on tubule cells."
+  },
+  {
+    question: "Urea handling in the nephron includes:",
+    options: [
+      "No secretion or reabsorption",
+      "Secretion in the loop of Henle",
+      "Active reabsorption in DCT",
+      "No movement in collecting duct"
+    ],
+    correctAnswer: "Secretion in the loop of Henle",
+    explanation: "Urea is secreted into the thin limb, aiding the medullary osmotic gradient."
+  },
+  {
+    question: "Tubular secretion refers to:",
+    options: [
+      "Passive movement from filtrate to blood",
+      "Active transport from blood to tubule",
+      "Filtration at glomerulus",
+      "Bulk flow in Bowman’s space"
+    ],
+    correctAnswer: "Active transport from blood to tubule",
+    explanation: "Secretion actively moves substances from peritubular capillaries into the tubular lumen."
+  },
+  {
+    question: "Filtrate osmolarity at the end of the PCT is:",
+    options: [
+      "Hypotonic",
+      "Isotonic",
+      "Hypertonic",
+      "Zero"
+    ],
+    correctAnswer: "Isotonic",
+    explanation: "Early filtrate remains ~300 mOsm/L, identical to plasma osmolarity."
+  },
+  {
+    question: "Maximum inner medullary interstitial osmolarity in juxtamedullary nephrons reaches:",
+    options: [
+      "600 mOsm/L",
+      "900 mOsm/L",
+      "1200 mOsm/L",
+      "1800 mOsm/L"
+    ],
+    correctAnswer: "1200 mOsm/L",
+    explanation: "Long loops and urea recycling generate a gradient up to ~1200 mOsm/L."
+  },
+  {
+    question: "Which segment is impermeable to water but reabsorbs NaCl rapidly?",
+    options: [
+      "Thin descending limb",
+      "Thick ascending limb",
+      "Thin ascending limb",
+      "Collecting duct"
+    ],
+    correctAnswer: "Thick ascending limb",
+    explanation: "The thick ascending limb actively transports NaCl but does not allow water passage."
+  },
+  {
+    question: "Diuresis (large urine volume) is typical of:",
+    options: [
+      "Diabetes insipidus",
+      "Diabetes mellitus",
+      "SIADH",
+      "Congestive heart failure"
+    ],
+    correctAnswer: "Diabetes mellitus",
+    explanation: "Glucose-rich filtrate in DM osmotically draws water, causing polyuria."
+  },
+  {
+    question: "Polyuria with normal ADH levels but unresponsive tubules is:",
+    options: [
+      "Central DI",
+      "Nephrogenic DI",
+      "Gestational DI",
+      "Psychogenic polydipsia"
+    ],
+    correctAnswer: "Nephrogenic DI",
+    explanation: "Kidneys fail to respond to ADH despite normal secretion, causing polyuria."
+  },
+  {
+    question: "Bartter’s syndrome results from transporter defects in:",
+    options: [
+      "PCT and DCT",
+      "Thick ascending limb and DCT",
+      "Collecting duct",
+      "Glomerular basement membrane"
+    ],
+    correctAnswer: "Thick ascending limb and DCT",
+    explanation: "Mutations in NKCC2 (TAL) or NCC (DCT) channels cause Bartter’s syndrome."
+  },
+  {
+    question: "Nighttime bedwetting after age 3 is called:",
+    options: [
+      "Nocturia",
+      "Enuresis",
+      "Polyuria",
+      "Dysuria"
+    ],
+    correctAnswer: "Enuresis",
+    explanation: "Enuresis is involuntary nocturnal micturition beyond the age of 3."
+  },
+  {
+    question: "Lesions in the midbrain cause:",
+    options: [
+      "Urinary retention",
+      "Uninhibited neurogenic bladder",
+      "Nephrogenic DI",
+      "Overflow incontinence"
+    ],
+    correctAnswer: "Uninhibited neurogenic bladder",
+    explanation: "Suprapontine lesions remove voluntary control, causing frequent involuntary voiding."
+  },
+  {
+    question: "An automatic bladder is characterized by:",
+    options: [
+      "Absence of reflex micturition",
+      "Hyperactive reflex but no voluntary control",
+      "Only overflow incontinence",
+      "Complete urinary retention"
+    ],
+    correctAnswer: "Hyperactive reflex but no voluntary control",
+    explanation: "Automatic bladder loses voluntary override but retains hyperactive reflex emptying."
+  },
+  {
+    question: "Which layer is NOT part of the detrusor muscle?",
+    options: [
+      "Inner longitudinal",
+      "Middle circular",
+      "Outer longitudinal",
+      "Oblique"
+    ],
+    correctAnswer: "Oblique",
+    explanation: "Detrusor consists of inner and outer longitudinal layers plus a middle circular layer."
+  },
+  {
+    question: "Detrusor muscle contraction results in:",
+    options: [
+      "Urine retention",
+      "Urine expulsion",
+      "Relaxation of external sphincter",
+      "Increased bladder capacity"
+    ],
+    correctAnswer: "Urine expulsion",
+    explanation: "Contraction of detrusor compresses the bladder, forcing urine out."
+  },
+  {
+    question: "Male urethra differs from female urethra by:",
+    options: [
+      "Length and dual function for urine and semen",
+      "Absence of mucus glands",
+      "Being shorter",
+      "Carrying only urine"
+    ],
+    correctAnswer: "Length and dual function for urine and semen",
+    explanation: "The male urethra is longer and conducts both urine and semen."
+  },
+  {
+    question: "Glands of Littre are:",
+    options: [
+      "Prostate glands",
+      "Bulbourethral glands",
+      "Mucus glands along the urethra",
+      "Paraurethral glands"
+    ],
+    correctAnswer: "Mucus glands along the urethra",
+    explanation: "Littre’s glands secrete mucus throughout the urethral length."
+  },
+  {
+    question: "Cowper’s glands are also called:",
+    options: [
+      "Skene’s glands",
+      "Bulbourethral glands",
+      "Bartholin’s glands",
+      "Littre’s glands"
+    ],
+    correctAnswer: "Bulbourethral glands",
+    explanation: "Cowper’s (bulbourethral) glands secrete pre-ejaculatory mucus into the male urethra."
+  },
+  {
+    question: "The internal urethral sphincter is under control of:",
+    options: [
+      "Somatic pudendal fibers",
+      "Parasympathetic pelvic nerves",
+      "Sympathetic hypogastric nerves",
+      "Vagus nerve"
+    ],
+    correctAnswer: "Sympathetic hypogastric nerves",
+    explanation: "Sympathetic fibers (L1–L2) keep the internal sphincter contracted during filling."
+  },
+  {
+    question: "The external urethral sphincter is innervated by:",
+    options: [
+      "Pelvic splanchnic nerves",
+      "Hypogastric nerves",
+      "Pudendal nerve",
+      "Obturator nerve"
+    ],
+    correctAnswer: "Pudendal nerve",
+    explanation: "Somatic pudendal fibers allow voluntary control of the external sphincter."
+  },
+  {
+    question: "Which nerve is called the “nerve of filling”?",
+    options: [
+      "Pelvic parasympathetic nerve",
+      "Hypogastric sympathetic nerve",
+      "Pudendal nerve",
+      "Vagus nerve"
+    ],
+    correctAnswer: "Hypogastric sympathetic nerve",
+    explanation: "Sympathetic hypogastric nerve relaxes detrusor and constricts internal sphincter during filling."
+  },
+  {
+    question: "Which nerve is termed the “nerve of emptying”?",
+    options: [
+      "Hypogastric nerve",
+      "Pudendal nerve",
+      "Pelvic parasympathetic nerve",
+      "Femoral nerve"
+    ],
+    correctAnswer: "Pelvic parasympathetic nerve",
+    explanation: "Pelvic splanchnics (S2–S4) contract detrusor and relax internal sphincter to void urine."
+  },
   
-  {
-    question: "What does embryology study?",
-    options: [
-      "The formation of organs after birth",
-      "The development of an organism from fertilization to birth",
-      "The genetic makeup of embryos",
-      "Diseases that affect the embryo"
-    ],
-    correctAnswer: "The development of an organism from fertilization to birth",
-    explanation: "Embryology studies the stages of development, from fertilization of the egg to the formation of a complete organism."
-  },
-  {
-    question: "What is spermatogenesis?",
-    options: [
-      "The production of female gametes",
-      "The process of sperm maturation and production",
-      "The fusion of male and female gametes",
-      "The division of zygotes into blastomeres"
-    ],
-    correctAnswer: "The process of sperm maturation and production",
-    explanation: "Spermatogenesis is the process through which male gametes (sperm) are formed in the testes."
-  },
-  {
-    question: "When do oogonia stop dividing by mitosis?",
-    options: [
-      "During childhood",
-      "By the fifth month of fetal life",
-      "During puberty",
-      "After fertilization"
-    ],
-    correctAnswer: "By the fifth month of fetal life",
-    explanation: "Oogonia stop dividing by mitosis during fetal development, around the fifth month of gestation."
-  },
-
-{
-    question: "At what stage do spermatogonia differentiate into type B spermatogonia?",
-    options: [
-      "Spermatogonial phase",
-      "Meiotic phase",
-      "Spermiogenesis",
-      "Gastrulation phase"
-    ],
-    correctAnswer: "Spermatogonial phase",
-    explanation: "During the spermatogonial phase, type A spermatogonia undergo mitosis to form type B spermatogonia, which later proceed to meiosis."
-  },
-
-
-  {
-    question: "What is capacitation?",
-    options: [
-      "The formation of the blastocyst",
-      "The maturation process sperm undergo in the female reproductive tract",
-      "The process of egg implantation",
-      "The division of a zygote into two cells"
-    ],
-    correctAnswer: "The maturation process sperm undergo in the female reproductive tract",
-    explanation: "Capacitation prepares sperm for fertilization by enhancing their motility and ability to penetrate the egg."
-  },
-  {
-    question: "Where does fertilization typically occur?",
-    options: [
-      "In the ovary",
-      "In the ampulla of the uterine tube",
-      "In the uterus",
-      "In the cervix"
-    ],
-    correctAnswer: "In the ampulla of the uterine tube",
-    explanation: "The ampulla of the uterine tube is the most common site of fertilization due to its proximity to the released oocyte."
-  },
-  {
-    question: "What is the zona pellucida?",
-    options: [
-      "A protective glycoprotein layer surrounding the oocyte",
-      "The outer layer of the sperm",
-      "A cavity inside the blastocyst",
-      "The fluid-filled area in a mature follicle"
-    ],
-    correctAnswer: "A protective glycoprotein layer surrounding the oocyte",
-    explanation: "The zona pellucida facilitates sperm binding and protects the oocyte before fertilization."
-  },
-  {
-    question: "How many chromosomes does a human zygote contain?",
-    options: ["23", "46", "92", "48"],
-    correctAnswer: "46",
-    explanation: "The human zygote is diploid, containing 46 chromosomes—23 from each parent."
-  },
-  {
-    question: "What is the morula?",
-    options: [
-      "A single-celled zygote",
-      "A solid ball of cells resulting from cleavage",
-      "A fluid-filled blastocyst",
-      "The germ layer forming during gastrulation"
-    ],
-    correctAnswer: "A solid ball of cells resulting from cleavage",
-    explanation: "The morula is the stage following cleavage where cells form a compact mass."
-  },
-  {
-    question: "What process transforms a zygote into a blastocyst?",
-    options: ["Cleavage", "Fertilization", "Gastrulation", "Capacitation"],
-    correctAnswer: "Cleavage",
-    explanation: "Cleavage is a series of mitotic divisions that results in the formation of a blastocyst."
-  },
-  {
-    question: "What does the trophoblast of a blastocyst develop into?",
-    options: [
-      "The embryo",
-      "The placenta and fetal membranes",
-      "The amniotic cavity",
-      "The yolk sac"
-    ],
-    correctAnswer: "The placenta and fetal membranes",
-    explanation: "The trophoblast forms the outer layer of the blastocyst and contributes to placental development."
-  },
-  {
-    question: "What is the main function of the corpus luteum?",
-    options: [
-      "To release mature eggs",
-      "To maintain progesterone production for early pregnancy",
-      "To stimulate spermatogenesis",
-      "To aid in cleavage of the zygote"
-    ],
-    correctAnswer: "To maintain progesterone production for early pregnancy",
-    explanation: "The corpus luteum secretes progesterone, crucial for maintaining the uterine lining during pregnancy."
-  },
-  {
-    question: "What is gastrulation?",
-    options: [
-      "Fusion of male and female pronuclei",
-      "Formation of the primary germ layers",
-      "Implantation of the blastocyst",
-      "Development of the placenta"
-    ],
-    correctAnswer: "Formation of the primary germ layers",
-    explanation: "Gastrulation establishes the three germ layers (ectoderm, mesoderm, and endoderm), which give rise to all tissues and organs."
-  },
-  {
-    question: "What does the ectoderm give rise to?",
-    options: [
-      "The digestive tract",
-      "The nervous system and skin",
-      "The circulatory system",
-      "The muscular system"
-    ],
-    correctAnswer: "The nervous system and skin",
-    explanation: "The ectoderm forms the nervous system, skin, and associated structures."
-  },
-  {
-    question: "Which hormone triggers ovulation?",
-    options: [
-      "Progesterone",
-      "Luteinizing hormone (LH)",
-      "Follicle-stimulating hormone (FSH)",
-      "Estrogen"
-    ],
-    correctAnswer: "Luteinizing hormone (LH)",
-    explanation: "A surge in LH levels triggers ovulation, releasing the oocyte from the follicle."
-  },
-  {
-    question: "How is polyspermy prevented during fertilization?",
-    options: [
-      "By releasing enzymes from the acrosome",
-      "By the cortical reaction",
-      "By multiple sperm binding to the zona pellucida",
-      "By capacitation"
-    ],
-    correctAnswer: "By the cortical reaction",
-    explanation: "The cortical reaction alters the zona pellucida, preventing further sperm entry after the first sperm penetrates."
-  },
-  {
-    question: "What structure forms from the inner cell mass of the blastocyst?",
-    options: ["Trophoblast", "Embryo proper", "Amnion", "Zona pellucida"],
-    correctAnswer: "Embryo proper",
-    explanation: "The inner cell mass gives rise to the embryo, while the trophoblast contributes to the placenta."
-  },
-
-
-{
-    question: "What does the blastocyst consist of?",
-    options: [
-      "Only the embryoblast",
-      "Only the trophoblast",
-      "An embryoblast, trophoblast, and a fluid-filled cavity",
-      "A solid mass of cells"
-    ],
-    correctAnswer: "An embryoblast, trophoblast, and a fluid-filled cavity",
-    explanation: "The blastocyst consists of the inner embryoblast, outer trophoblast, and a fluid-filled cavity called the blastocele."
-  },
-
-
-{
-    question: "What is the function of luteinizing hormone (LH) in females?",
-    options: [
-      "Stimulating sperm production",
-      "Triggering ovulation and corpus luteum formation",
-      "Initiating mitosis in oogonia",
-      "Inducing the acrosome reaction in sperm"
-    ],
-    correctAnswer: "Triggering ovulation and corpus luteum formation",
-    explanation: "LH triggers ovulation and helps in the formation of the corpus luteum, which secretes progesterone for uterine preparation."
-  },
-
-
-  {
-    question: "What is the duration of spermatogenesis in humans?",
-    options: ["24 hours", "64-72 days", "9 months", "1 year"],
-    correctAnswer: "64-72 days",
-    explanation: "Spermatogenesis takes approximately 64-72 days to produce mature sperm cells."
-  },
-  {
-    question: "What does the endoderm give rise to?",
-    options: [
-      "The brain and spinal cord",
-      "The gastrointestinal tract and respiratory system",
-      "The heart and blood vessels",
-      "The skeletal muscles"
-    ],
-    correctAnswer: "The gastrointestinal tract and respiratory system",
-    explanation: "The endoderm forms the lining of the digestive and respiratory tracts, among other structures."
-  },
-
-
-{
-  question: "What is the difference between cell division and cell differentiation?",
-  options: [
-    "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-    "Cell division involves genetic changes, while cell differentiation does not involve genetic changes.",
-    "Cell division occurs only in the early stages of life, while cell differentiation occurs throughout life.",
-    "Cell division is specific to eukaryotes, while cell differentiation is specific to prokaryotes."
-  ],
-  correctAnswer: "Cell division refers to the process by which a parent cell divides into two or more daughter cells, while cell differentiation refers to the process by which a cell changes into a specialized cell type.",
-  explanation: "Cell division produces new cells for growth, repair, or reproduction. Differentiation involves cells developing specific structures and functions to perform specialized roles in the body."
-},
-{
-  question: "What happens in the first phase of spermatogonia?",
-  options: [
-    "Spermatogonia undergo meiosis to form primary spermatocytes.",
-    "Spermatogonia remain dormant until puberty.",
-    "Spermatogonia undergo mitosis to produce more spermatogonia",
-    "Spermatogonia differentiate into mature sperm cells."
-  ],
-  correctAnswer: "Spermatogonia undergo mitosis to produce more spermatogonia",
-  explanation: "In the first phase, spermatogonia divide mitotically to maintain their numbers and produce cells that will later differentiate into primary spermatocytes."
-},
-
-
-  {
-    question: "Which of the following is true about oogenesis?",
-    options: [
-      "It continues throughout a woman's lifetime",
-      "It begins before birth and pauses until puberty",
-      "It produces four functional gametes from one oogonium",
-      "It is completed by the time of fertilization"
-    ],
-    correctAnswer: "It begins before birth and pauses until puberty",
-    explanation: "Oogenesis begins in fetal life, halts at prophase I, and resumes at puberty during the menstrual cycle."
-  },
-  {
-    question: "What is the first stage of embryonic cleavage called?",
-    options: ["Morula", "Blastula", "Two-cell stage", "Gastrula"],
-    correctAnswer: "Two-cell stage",
-    explanation: "The zygote divides into two cells in the first stage of cleavage, marking the beginning of embryonic development."
-  },
-
-
-  {
-    question: "What is the significance of the acrosome in sperm?",
-    options: [
-      "It contains mitochondria to power sperm motility",
-      "It provides enzymes to penetrate the zona pellucida",
-      "It binds to the oocyte plasma membrane",
-      "It triggers the cortical reaction"
-    ],
-    correctAnswer: "It provides enzymes to penetrate the zona pellucida",
-    explanation: "The acrosome contains enzymes like hyaluronidase that help the sperm penetrate the zona pellucida for fertilization."
-  },
-  {
-    question: "What structure is responsible for secreting human chorionic gonadotropin (hCG)?",
-    options: [
-      "Corpus luteum",
-      "Trophoblast",
-      "Inner cell mass",
-      "Zona pellucida"
-    ],
-    correctAnswer: "Trophoblast",
-    explanation: "The trophoblast of the blastocyst secretes hCG to maintain the corpus luteum and support pregnancy."
-  },
-  {
-    question: "What phase of meiosis is the secondary oocyte arrested in until fertilization?",
-    options: ["Prophase I", "Metaphase II", "Anaphase I", "Telophase II"],
-    correctAnswer: "Metaphase II",
-    explanation: "The secondary oocyte is arrested in metaphase II and completes meiosis only after fertilization."
-  },
-  {
-    question: "Which germ layer gives rise to the heart and blood vessels?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Neural crest cells"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm forms the cardiovascular system, including the heart and blood vessels."
-  },
-  {
-    question: "What event marks the beginning of implantation?",
-    options: [
-      "Attachment of the blastocyst to the endometrium",
-      "Cleavage of the zygote",
-      "Fertilization of the oocyte",
-      "Formation of the morula"
-    ],
-    correctAnswer: "Attachment of the blastocyst to the endometrium",
-    explanation: "Implantation begins when the blastocyst adheres to the endometrial lining of the uterus."
-  },
-  {
-    question: "Which structure develops into the umbilical cord?",
-    options: [
-      "Amniotic sac",
-      "Connecting stalk",
-      "Allantois",
-      "Trophoblast"
-    ],
-    correctAnswer: "Connecting stalk",
-    explanation: "The connecting stalk evolves into the umbilical cord, providing a link between the embryo and placenta."
-  },
-  {
-    question: "What is the primary role of the yolk sac in humans?",
-    options: [
-      "Providing nutrients to the embryo",
-      "Forming the fetal blood cells in early development",
-      "Acting as a respiratory organ",
-      "Protecting the embryo from mechanical shocks"
-    ],
-    correctAnswer: "Forming the fetal blood cells in early development",
-    explanation: "The yolk sac is important for early hematopoiesis and development of primordial germ cells."
-  },
-  {
-    question: "At what stage does the zona pellucida disintegrate?",
-    options: [
-      "Morula",
-      "Blastocyst",
-      "Gastrula",
-      "Two-cell stage"
-    ],
-    correctAnswer: "Blastocyst",
-    explanation: "The zona pellucida dissolves at the blastocyst stage, enabling implantation in the uterus."
-  },
-  {
-    question: "What process occurs after the cortical reaction in fertilization?",
-    options: [
-      "Cleavage begins",
-      "Polyspermy is blocked",
-      "The morula is formed",
-      "The sperm fuses with the egg nucleus"
-    ],
-    correctAnswer: "Polyspermy is blocked",
-    explanation: "The cortical reaction alters the zona pellucida to prevent additional sperm from fertilizing the egg."
-  },
-  {
-    question: "What is the origin of the amniotic cavity?",
-    options: [
-      "It forms within the epiblast",
-      "It develops from the trophoblast",
-      "It arises from the yolk sac",
-      "It originates in the hypoblast"
-    ],
-    correctAnswer: "It forms within the epiblast",
-    explanation: "The amniotic cavity forms between the epiblast and trophoblast during early embryogenesis."
-  },
-  {
-    question: "What is the primary purpose of the primitive streak?",
-    options: [
-      "To facilitate sperm penetration during fertilization",
-      "To mark the site of gastrulation",
-      "To support implantation in the uterus",
-      "To assist in cleavage of the zygote"
-    ],
-    correctAnswer: "To mark the site of gastrulation",
-    explanation: "The primitive streak is essential for establishing body axes and initiating gastrulation."
-  },
-  {
-    question: "Which structure forms the placenta?",
-    options: [
-      "Trophoblast and endometrium",
-      "Inner cell mass and yolk sac",
-      "Amniotic sac and chorionic villi",
-      "Zona pellucida and morula"
-    ],
-    correctAnswer: "Trophoblast and endometrium",
-    explanation: "The placenta is formed by the trophoblast of the embryo and the endometrium of the mother."
-  },
-  {
-    question: "At what week does the fetal period begin?",
-    options: ["4th week", "9th week", "16th week", "20th week"],
-    correctAnswer: "9th week",
-    explanation: "The fetal period begins at the 9th week, marking the transition from embryonic development."
-  },
-  {
-    question: "What is the fate of the hypoblast during development?",
-    options: [
-      "It forms the ectoderm",
-      "It contributes to the endoderm of the yolk sac",
-      "It gives rise to the nervous system",
-      "It degenerates after gastrulation"
-    ],
-    correctAnswer: "It contributes to the endoderm of the yolk sac",
-    explanation: "The hypoblast forms the endodermal lining of the yolk sac and supports early development."
-  },
-  {
-    question: "Which structure prevents maternal and fetal blood from mixing directly?",
-    options: [
-      "Amniotic membrane",
-      "Placental barrier",
-      "Zona pellucida",
-      "Trophoblastic villi"
-    ],
-    correctAnswer: "Placental barrier",
-    explanation: "The placental barrier separates maternal and fetal blood, facilitating nutrient and gas exchange without mixing."
-  },
-  {
-    question: "Which cells are responsible for forming the chorionic villi?",
-    options: [
-      "Epiblast cells",
-      "Syncytiotrophoblast cells",
-      "Cytotrophoblast cells",
-      "Mesodermal cells"
-    ],
-    correctAnswer: "Syncytiotrophoblast cells",
-    explanation: "Syncytiotrophoblast cells invade the uterine lining and form the chorionic villi for placental attachment."
-  },
-  {
-    question: "What process allows the oocyte to complete meiosis?",
-    options: [
-      "Cleavage",
-      "Fertilization",
-      "Ovulation",
-      "Implantation"
-    ],
-    correctAnswer: "Fertilization",
-    explanation: "Fertilization triggers the oocyte to complete meiosis II, forming a mature ovum and polar body."
-  },
-  {
-    question: "What is the primary germ layer responsible for forming muscles?",
-    options: [
-      "Ectoderm",
-      "Mesoderm",
-      "Endoderm",
-      "Trophoblast"
-    ],
-    correctAnswer: "Mesoderm",
-    explanation: "The mesoderm gives rise to skeletal, smooth, and cardiac muscles, along with other structures."
-  },
-  {
-    question: "Which stage of development involves the formation of somites?",
-    options: [
-      "Neurulation",
-      "Cleavage",
-      "Gastrulation",
-      "Blastulation"
-    ],
-    correctAnswer: "Neurulation",
-    explanation: "Somites form during neurulation from paraxial mesoderm and contribute to the axial skeleton and muscles."
-  },
-  {
-    question: "What is the role of the notochord in development?",
-    options: [
-      "To form the brain and spinal cord",
-      "To induce the formation of the neural tube",
-      "To support trophoblast invasion",
-      "To give rise to the endoderm"
-    ],
-    correctAnswer: "To induce the formation of the neural tube",
-    explanation: "The notochord secretes signals that induce the overlying ectoderm to form the neural tube."
-  },
 
 ],
       },
