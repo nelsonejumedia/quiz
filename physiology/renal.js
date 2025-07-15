@@ -765,6 +765,444 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
+  
+  
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////// //Gastrulation ////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      
+  
+  
+  
+  {
+      category: "General",
+      questions: [
+
+ {
+    question: "All of the following are components of extracellular fluid EXCEPT:",
+    options: [
+      "Plasma",
+      "Interstitial fluid",
+      "Cerebrospinal fluid",
+      "Intracellular fluid"
+    ],
+    correctAnswer: "Intracellular fluid",
+    explanation: "ECF consists of plasma and interstitial fluid; ICF is the fluid inside cells."
+  },
+  {
+    question: "Shock is best defined as:",
+    options: [
+      "Excessive extracellular fluid volume",
+      "Reduced blood flow to organs",
+      "Elevated arterial blood pressure",
+      "Enhanced glomerular filtration rate"
+    ],
+    correctAnswer: "Reduced blood flow to organs",
+    explanation: "Shock occurs when circulatory failure leads to inadequate perfusion of tissues."
+  },
+  {
+    question: "Which type of shock is characterized by massive blood loss?",
+    options: [
+      "Cardiogenic shock",
+      "Septic shock",
+      "Hypovolemic (hemorrhagic) shock",
+      "Neurogenic shock"
+    ],
+    correctAnswer: "Hypovolemic (hemorrhagic) shock",
+    explanation: "Hemorrhagic shock results from acute loss of blood volume."
+  },
+  {
+    question: "Which plasma protein is absent in serum because it is consumed during clotting?",
+    options: [
+      "Albumin",
+      "Fibrinogen",
+      "Globulin",
+      "Transferrin"
+    ],
+    correctAnswer: "Fibrinogen",
+    explanation: "Fibrinogen is converted to fibrin during coagulation and thus absent from serum."
+  },
+  {
+    question: "Synovial fluid is found in:",
+    options: [
+      "Blood vessels",
+      "Joint cavities",
+      "Lymphatic ducts",
+      "Peritoneal cavity"
+    ],
+    correctAnswer: "Joint cavities",
+    explanation: "Synovial fluid lubricates and nourishes articular cartilage in synovial joints."
+  },
+  {
+    question: "Cerebrospinal fluid is produced by the:",
+    options: [
+      "Choroid plexus",
+      "Arachnoid granulations",
+      "Subarachnoid space",
+      "Pia mater"
+    ],
+    correctAnswer: "Choroid plexus",
+    explanation: "The choroid plexus within the ventricles secretes CSF by transcellular filtration."
+  },
+  {
+    question: "Which route does lacrimal fluid take in the eye?",
+    options: [
+      "Osmotic transfusion by NaCl absorption",
+      "Active secretion by lacrimal artery",
+      "Filtration across corneal endothelium",
+      "Passive diffusion from conjunctiva"
+    ],
+    correctAnswer: "Osmotic transfusion by NaCl absorption",
+    explanation: "Tears are produced via osmotic uptake of water and electrolytes by lacrimal glands."
+  },
+  {
+    question: "CSF flows out of the lateral ventricles through the:",
+    options: [
+      "Foramen of Magendie",
+      "Aqueduct of Sylvius",
+      "Foramen of Luschka",
+      "Foramen of Monro"
+    ],
+    correctAnswer: "Foramen of Monro",
+    explanation: "The interventricular foramen (Monro) connects lateral ventricles to the third ventricle."
+  },
+  {
+    question: "Nephrons are classified into all EXCEPT:",
+    options: [
+      "Cortical",
+      "Juxtamedullary",
+      "Medullary",
+      "Subcapsular"
+    ],
+    correctAnswer: "Subcapsular",
+    explanation: "Nephrons are cortical, juxtamedullary, or medullary in humans."
+  },
+  {
+    question: "Which type of edema pits on pressure?",
+    options: [
+      "Non-pitting edema",
+      "Pitting edema",
+      "Lymphedema",
+      "Angioedema"
+    ],
+    correctAnswer: "Pitting edema",
+    explanation: "Pitting edema leaves a depression when pressed due to interstitial fluid accumulation."
+  },
+  {
+    question: "Kidney mechanisms for acid–base balance include all EXCEPT:",
+    options: [
+      "Bicarbonate buffering",
+      "Phosphate buffering",
+      "Ammonia buffering",
+      "Protein buffering"
+    ],
+    correctAnswer: "Protein buffering",
+    explanation: "The kidney primarily uses bicarbonate, phosphate, and ammonia for acid–base regulation."
+  },
+  {
+    question: "The renal artery carries blood to the kidney and branches into:",
+    options: [
+      "Afferent arteriole directly",
+      "Interlobar arteries",
+      "Peritubular capillaries first",
+      "Vasa recta first"
+    ],
+    correctAnswer: "Interlobar arteries",
+    explanation: "Renal artery → segmental → interlobar → arcuate → interlobular → afferent arterioles."
+  },
+  {
+    question: "Total body water is approximately what percentage of body weight in adult males?",
+    options: [
+      "50%",
+      "60%",
+      "70%",
+      "40%"
+    ],
+    correctAnswer: "60%",
+    explanation: "TBW is about 60% in males and 50% in females."
+  },
+  {
+    question: "TBW varies directly with age and inversely with:",
+    options: [
+      "Height",
+      "Weight",
+      "Muscle mass",
+      "Extracellular volume"
+    ],
+    correctAnswer: "Weight",
+    explanation: "As body weight (especially fat) increases, proportion of water decreases."
+  },
+  {
+    question: "Protein concentration in CSF (20–40 mg/dL) is lower than in plasma (2–5 g/dL) because:",
+    options: [
+      "Blood–brain barrier restricts protein",
+      "CSF is actively diluted",
+      "CSF production is slower",
+      "CSF is reabsorbed rapidly"
+    ],
+    correctAnswer: "Blood–brain barrier restricts protein",
+    explanation: "The BBB limits plasma protein passage into CSF, resulting in low CSF protein."
+  },
+  {
+    question: "CSF glucose (~64 mg/dL) is typically what fraction of plasma glucose (~180 mg/dL)?",
+    options: [
+      "One-quarter",
+      "One-third",
+      "One-half",
+      "Two-thirds"
+    ],
+    correctAnswer: "One-third",
+    explanation: "CSF glucose is about one-third of plasma levels under normal conditions."
+  },
+  {
+    question: "Intracellular fluid volume cannot be measured directly but can be calculated by subtracting ECF from TBW.",
+    options: [
+      "True",
+      "False",
+      "Only in adults",
+      "Only in infants"
+    ],
+    correctAnswer: "True",
+    explanation: "ICF = TBW – ECF; ECF is measured via indicator dilution."
+  },
+  {
+    question: "An ideal indicator for measuring body fluid volumes must be all EXCEPT:",
+    options: [
+      "Non‐toxic",
+      "Rapidly metabolized",
+      "Not alter fluid volume",
+      "Excreted in measurable time"
+    ],
+    correctAnswer: "Rapidly metabolized",
+    explanation: "Indicators must be non‐metabolizable to remain in the compartment being measured."
+  },
+  {
+    question: "ADH from the posterior pituitary is released in response to:",
+    options: [
+      "Decreased plasma osmolality",
+      "Increased plasma osmolality",
+      "High extracellular volume",
+      "Low plasma sodium"
+    ],
+    correctAnswer: "Increased plasma osmolality",
+    explanation: "High osmolality stimulates hypothalamic osmoreceptors to trigger ADH release."
+  },
+  {
+    question: "Renal blood flow is defined as:",
+    options: [
+      "Glomerular filtration rate",
+      "Volume of blood delivered to kidneys per minute",
+      "Volume of urine produced per day",
+      "Volume of filtrate reabsorbed"
+    ],
+    correctAnswer: "Volume of blood delivered to kidneys per minute",
+    explanation: "RBF measures the total renal perfusion per unit time."
+  },
+  {
+    question: "Which capillary pressure is high in glomeruli and low in peritubular capillaries?",
+    options: [
+      "Hydrostatic pressure",
+      "Colloid osmotic pressure",
+      "Interstitial hydrostatic pressure",
+      "Bowman’s capsule pressure"
+    ],
+    correctAnswer: "Hydrostatic pressure",
+    explanation: "Glomerular hydrostatic ≈60 mmHg; peritubular capillaries have low hydrostatic to favor reabsorption."
+  },
+  {
+    question: "Blood flow to kidney runs parallel to GFR, meaning:",
+    options: [
+      "High RBF → Low GFR",
+      "Low RBF → High GFR",
+      "RBF changes do not affect GFR",
+      "RBF and GFR change in same direction"
+    ],
+    correctAnswer: "RBF and GFR change in same direction",
+    explanation: "Increases in RBF raise glomerular pressure and GFR proportionally."
+  },
+  {
+    question: "Which mechanisms contribute to renal autoregulation EXCEPT:",
+    options: [
+      "Myogenic response",
+      "Tubuloglomerular feedback",
+      "Sympathetic override",
+      "Intrinsic vascular changes"
+    ],
+    correctAnswer: "Sympathetic override",
+    explanation: "Autoregulation uses myogenic and TGF to maintain RBF/GFR; SNS override is extrinsic."
+  },
+  {
+    question: "Countercurrent multiplication in the nephron occurs in the:",
+    options: [
+      "Proximal tubule",
+      "Collecting duct",
+      "Loop of Henle",
+      "Distal tubule"
+    ],
+    correctAnswer: "Loop of Henle",
+    explanation: "The opposing flows in descending/ascending limbs establish the medullary osmotic gradient."
+  },
+  {
+    question: "Countercurrent exchange to preserve medullary gradient occurs in the:",
+    options: [
+      "Peritubular capillaries",
+      "Vasa recta",
+      "Glomerular capillaries",
+      "Afferent arterioles"
+    ],
+    correctAnswer: "Vasa recta",
+    explanation: "Vasa recta’s hairpin loops minimize washout of the medullary osmotic gradient."
+  },
+  {
+    question: "Plasma proteins are excluded from Bowman’s capsule because:",
+    options: [
+      "They are too large to pass the filtration barrier",
+      "They are actively transported back",
+      "They are degraded in PCT",
+      "They bind to podocytes"
+    ],
+    correctAnswer: "They are too large to pass the filtration barrier",
+    explanation: "The filtration membrane blocks large plasma proteins from entering the filtrate."
+  },
+  {
+    question: "Facultative water reabsorption, controlled by ADH, occurs primarily in the:",
+    options: [
+      "PCT",
+      "Thin descending limb",
+      "Connecting tubule and collecting duct",
+      "Thick ascending limb"
+    ],
+    correctAnswer: "Connecting tubule and collecting duct",
+    explanation: "ADH inserts aquaporins in the distal nephron and collecting duct to allow water reabsorption."
+  },
+  {
+    question: "Obligatory water reabsorption occurs in all EXCEPT:",
+    options: [
+      "PCT",
+      "Thin descending limb",
+      "Thin ascending limb",
+      "Loop of Henle"
+    ],
+    correctAnswer: "Thin ascending limb",
+    explanation: "Thin ascending limb is impermeable to water; PCT and descending limb allow obligatory water reabsorption."
+  },
+  {
+    question: "Urinalysis includes all of the following EXCEPT:",
+    options: [
+      "Physical examination",
+      "Chemical examination",
+      "Microscopic examination",
+      "Radiologic examination"
+    ],
+    correctAnswer: "Radiologic examination",
+    explanation: "Urinalysis comprises physical, chemical, and microscopic analyses of urine."
+  },
+  {
+    question: "Normal urine specific gravity is approximately:",
+    options: [
+      "1.000",
+      "1.010",
+      "1.025",
+      "1.050"
+    ],
+    correctAnswer: "1.025",
+    explanation: "Typical specific gravity ranges from 1.005 to 1.030; 1.025 is mid-normal."
+  },
+  {
+    question: "Presence of red blood cells in urine is called:",
+    options: [
+      "Proteinuria",
+      "Glycosuria",
+      "Hematouria",
+      "Ketonuria"
+    ],
+    correctAnswer: "Hematouria",
+    explanation: "Hematuria refers to blood (RBCs) in the urine."
+  },
+  {
+    question: "Freshly voided urine typically smells:",
+    options: [
+      "Sweet like apples",
+      "Ammoniacal",
+      "Fruity",
+      "Foul like rot"
+    ],
+    correctAnswer: "Ammoniacal",
+    explanation: "Fresh urine usually has a mild ammonia odor due to urea breakdown."
+  },
+  {
+    question: "Blood pH of 7.4 indicates:",
+    options: [
+      "Acidosis",
+      "Alkalosis",
+      "Normal physiological pH",
+      "Fatal pH"
+    ],
+    correctAnswer: "Normal physiological pH",
+    explanation: "Normal arterial blood pH is tightly regulated around 7.35–7.45, with 7.4 as midpoint."
+  },
+  {
+    question: "In an endothermic reaction:",
+    options: [
+      "Reactants have higher energy than products",
+      "Products have higher energy than reactants",
+      "No energy change occurs",
+      "Heat is released"
+    ],
+    correctAnswer: "Products have higher energy than reactants",
+    explanation: "Endothermic reactions absorb heat, making products higher in energy."
+  },
+  {
+    question: "Without bicarbonate ion, acid–base balance would fail because:",
+    options: [
+      "Bicarbonate is the primary extracellular buffer",
+      "Phosphate buffer is intracellular only",
+      "Proteins cannot buffer H⁺",
+      "Ammonia cannot be produced"
+    ],
+    correctAnswer: "Bicarbonate is the primary extracellular buffer",
+    explanation: "Bicarbonate system neutralizes H⁺ in ECF and works with kidneys to maintain pH."
+  },
+  {
+    question: "In renal acid–base regulation, the kidney reabsorbs bicarbonate and secretes:",
+    options: [
+      "Sodium ion",
+      "Chloride ion",
+      "Hydrogen ion",
+      "Calcium ion"
+    ],
+    correctAnswer: "Hydrogen ion",
+    explanation: "Proximal and distal tubules secrete H⁺ to regenerate bicarbonate and excrete acid."
+  },
+  {
+    question: "Acidosis is defined as:",
+    options: [
+      "pH > 7.45",
+      "pH < 7.35",
+      "Excess bicarbonate",
+      "Low carbon dioxide"
+    ],
+    correctAnswer: "pH < 7.35",
+    explanation: "Acidosis occurs when arterial pH drops below 7.35 due to excess H⁺ or loss of base."
+  },
+  {
+    question: "Alkalosis refers to:",
+    options: [
+      "pH < 7.35",
+      "pH > 7.45",
+      "High PaCO₂",
+      "Low HCO₃⁻"
+    ],
+    correctAnswer: "pH > 7.45",
+    explanation: "Alkalosis is an increase in blood pH above 7.45 due to loss of H⁺ or gain of base."
+  }, 
+  
+
+],
+}, 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////// //Gastrulation ////////////////////////////////////////////////
