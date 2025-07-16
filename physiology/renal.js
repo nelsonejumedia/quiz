@@ -946,6 +946,32 @@ document.addEventListener("DOMContentLoaded", () => {
     correctAnswer: "Blood–brain barrier restricts protein",
     explanation: "The BBB limits plasma protein passage into CSF, resulting in low CSF protein."
   },
+  
+  {
+    question: "Starvation induces ketonuria by:",
+    options: [
+      "Increasing protein catabolism",
+      "Enhancing fat oxidation",
+      "Reducing GFR",
+      "Blocking ADH"
+    ],
+    correctAnswer: "Enhancing fat oxidation",
+    explanation: "Fat breakdown produces ketone bodies that appear in urine during starvation."
+  },
+  {
+    question: "ADH is synthesized in the hypothalamus and stored in the:",
+    options: [
+      "Anterior pituitary",
+      "Posterior pituitary",
+      "Adrenal cortex",
+      "Thyroid gland"
+    ],
+    correctAnswer: "Posterior pituitary",
+    explanation: "ADH is made in the hypothalamus and released from the neurohypophysis."
+  },
+  
+  
+  
   {
     question: "CSF glucose (~64 mg/dL) is typically what fraction of plasma glucose (~180 mg/dL)?",
     options: [
@@ -1023,6 +1049,42 @@ document.addEventListener("DOMContentLoaded", () => {
     correctAnswer: "RBF and GFR change in same direction",
     explanation: "Increases in RBF raise glomerular pressure and GFR proportionally."
   },
+  
+  
+    {
+    question: "Nephron number in humans is:",
+    options: [
+      "Increases after birth",
+      "Decreases after puberty",
+      "Fixed at birth",
+      "Variable throughout life"
+    ],
+    correctAnswer: "Fixed at birth",
+    explanation: "No new nephrons form after birth, though nephrons can hypertrophy."
+  },
+  {
+    question: "The cup-shaped funnel of the nephron is the:",
+    options: [
+      "Loop of Henle",
+      "Collecting duct",
+      "Bowman’s capsule",
+      "Distal convoluted tubule"
+    ],
+    correctAnswer: "Bowman’s capsule",
+    explanation: "Bowman’s capsule surrounds the glomerular capillary tuft."
+  },
+  {
+    question: "The glomerular capillary tuft is called the:",
+    options: [
+      "Mesangium",
+      "Podocyte",
+      "Glomerulus",
+      "Loop of Henle"
+    ],
+    correctAnswer: "Glomerulus",
+    explanation: "The glomerulus is the tuft of capillaries within Bowman’s capsule."
+  },
+  
   {
     question: "Which mechanisms contribute to renal autoregulation EXCEPT:",
     options: [
@@ -1199,6 +1261,397 @@ document.addEventListener("DOMContentLoaded", () => {
     correctAnswer: "pH > 7.45",
     explanation: "Alkalosis is an increase in blood pH above 7.45 due to loss of H⁺ or gain of base."
   }, 
+  
+  
+    {
+    question: "All of the following are normal daily urine output ranges EXCEPT:",
+    options: [
+      "0.5 L",
+      "1.0 L",
+      "1.5 L",
+      "1.3 L"
+    ],
+    correctAnswer: "0.5 L",
+    explanation: "Normal daily urine output is between 1–1.5 L."
+  },
+  {
+    question: "Which daily water intake best meets minimal requirements?",
+    options: [
+      "1.0 L",
+      "2.0 L",
+      "3.0 L",
+      "4.0 L"
+    ],
+    correctAnswer: "2.0 L",
+    explanation: "Most guidelines recommend at least 2–2.5 L of water per day."
+  },
+  {
+    question: "Anuria is defined as urine output below:",
+    options: [
+      "50 mL/day",
+      "100 mL/day",
+      "200 mL/day",
+      "500 mL/day"
+    ],
+    correctAnswer: "100 mL/day",
+    explanation: "Anuria is virtually no urine production, < 100 mL/day."
+  },
+  {
+    question: "Recombinant DNA technology in nephrology is primarily used to produce:",
+    options: [
+      "Insulin",
+      "Renin",
+      "Erythropoietin",
+      "Angiotensin II"
+    ],
+    correctAnswer: "Erythropoietin",
+    explanation: "Recombinant EPO treats anemia in chronic kidney disease."
+  },
+  {
+    question: "The renal kallikrein–kinin system does NOT play a role in:",
+    options: [
+      "Blood-pressure regulation",
+      "Inflammation",
+      "Immunity",
+      "Glucose homeostasis"
+    ],
+    correctAnswer: "Glucose homeostasis",
+    explanation: "It modulates BP, inflammation, coagulation and immune responses."
+  },
+  {
+    question: "Which arterial pH range is compatible with life?",
+    options: [
+      "6.0–8.0",
+      "6.5–7.0",
+      "7.35–7.45",
+      "7.8–8.2"
+    ],
+    correctAnswer: "7.35–7.45",
+    explanation: "Normal arterial pH is tightly maintained at 7.35–7.45."
+  },
+  {
+    question: "Although citric and ascorbic acids are dietary acids, their net metabolic effect is:",
+    options: [
+      "Acidifying",
+      "Alkalinizing",
+      "Neutral",
+      "Variable"
+    ],
+    correctAnswer: "Alkalinizing",
+    explanation: "Citrate metabolism generates bicarbonate, causing net alkalinization."
+  },
+  {
+    question: "The retroperitoneal position of the kidneys mainly provides:",
+    options: [
+      "Increased filtration surface",
+      "Hormonal control",
+      "Mechanical protection",
+      "Enhanced perfusion"
+    ],
+    correctAnswer: "Mechanical protection",
+    explanation: "Retroperitoneal location shields kidneys from trauma."
+  },
+  {
+    question: "Percussion of the costovertebral angle assesses:",
+    options: [
+      "Liver size",
+      "Splenic enlargement",
+      "Kidney tenderness",
+      "Gastric distension"
+    ],
+    correctAnswer: "Kidney tenderness",
+    explanation: "The costovertebral (renal) angle is percussed to detect renal pain."
+  },
+  {
+    question: "Injury to the renal artery causes:",
+    options: [
+      "Minimal bleeding",
+      "Massive hemorrhage",
+      "No significant bleeding",
+      "Venous thrombosis"
+    ],
+    correctAnswer: "Massive hemorrhage",
+    explanation: "The renal artery branches directly off the aorta."
+  },
+  {
+    question: "An ‘artificial kidney’ in clinical use is a:",
+    options: [
+      "Peritoneal dialyzer",
+      "Hemodialyzer",
+      "Ultrafiltration pump",
+      "Renal transplant"
+    ],
+    correctAnswer: "Hemodialyzer",
+    explanation: "A hemodialyzer (dialysis machine) filters blood extracorporeally."
+  },
+
+  {
+    question: "All of the following are layers of the filtration membrane EXCEPT:",
+    options: [
+      "Fenestrated endothelium",
+      "Basement membrane",
+      "Podocyte layer",
+      "Parietal epithelial layer"
+    ],
+    correctAnswer: "Parietal epithelial layer",
+    explanation: "Filtration occurs through endothelium, basement membrane, and podocytes only."
+  },
+  {
+    question: "Podocytes have specialized structures called:",
+    options: [
+      "Microvilli",
+      "Pedicels",
+      "Fenestrations",
+      "Cilia"
+    ],
+    correctAnswer: "Pedicels",
+    explanation: "Podocyte foot processes (pedicels) form slit diaphragms to restrict large molecules."
+  },
+  {
+    question: "The charge-selective barrier in the glomerulus repels:",
+    options: [
+      "Glucose",
+      "Sodium ions",
+      "Plasma proteins",
+      "Water"
+    ],
+    correctAnswer: "Plasma proteins",
+    explanation: "The negatively charged basement membrane repels negatively charged proteins like albumin."
+  },
+  {
+    question: "The renal mass-balance equation is:",
+    options: [
+      "Filtration – Reabsorption + Secretion = Excretion",
+      "Filtration + Reabsorption – Secretion = Excretion",
+      "Filtration + Secretion – Reabsorption = Excretion",
+      "Filtration × Reabsorption ÷ Secretion = Excretion"
+    ],
+    correctAnswer: "Filtration + Secretion – Reabsorption = Excretion",
+    explanation: "Excreted urine equals what is filtered and secreted minus what is reabsorbed."
+  },
+  {
+    question: "The bladder’s lining epithelium is:",
+    options: [
+      "Squamous",
+      "Cuboidal",
+      "Transitional",
+      "Columnar"
+    ],
+    correctAnswer: "Transitional",
+    explanation: "Urothelium (transitional epithelium) allows stretch during filling."
+  },
+  {
+    question: "Typical bladder capacity before strong urge is:",
+    options: [
+      "100–200 mL",
+      "200–300 mL",
+      "300–600 mL",
+      "600–800 mL"
+    ],
+    correctAnswer: "300–600 mL",
+    explanation: "Most adults feel a strong urge to void at 300–600 mL bladder volume."
+  },
+  {
+    question: "Urine osmolality can exceed plasma osmolality when:",
+    options: [
+      "ADH is low",
+      "ADH is high",
+      "Medullary gradient is low",
+      "Urea is absent"
+    ],
+    correctAnswer: "ADH is high",
+    explanation: "High ADH increases water reabsorption, concentrating urine above plasma osmolality."
+  },
+  {
+    question: "The trigone of the bladder is bounded by all EXCEPT:",
+    options: [
+      "Two ureteric orifices",
+      "Internal urethral orifice",
+      "External urethral sphincter",
+      "Smooth mucosa"
+    ],
+    correctAnswer: "External urethral sphincter",
+    explanation: "The trigone is bounded by ureteric and internal urethral orifices on smooth mucosa."
+  },
+  {
+    question: "The term ‘intravesical junction’ more properly refers to the:",
+    options: [
+      "Ureterovesical junction",
+      "Bladder neck",
+      "External sphincter",
+      "Trigone apex"
+    ],
+    correctAnswer: "Ureterovesical junction",
+    explanation: "Intravesical junction describes where each ureter enters the bladder wall."
+  },
+  {
+    question: "The trigone remains smooth during bladder filling because its mucosa:",
+    options: [
+      "Is rigid",
+      "Has no rugae",
+      "Is highly elastic",
+      "Is ciliated"
+    ],
+    correctAnswer: "Has no rugae",
+    explanation: "Unlike the rest of the bladder, the trigone lacks mucosal folds (rugae)."
+  },
+  {
+    question: "Oblique and longitudinal muscle fibers at the ureterovesical junction function to:",
+    options: [
+      "Assist bladder contraction",
+      "Prevent urinary reflux",
+      "Support pelvic organs",
+      "Enhance sphincter tone"
+    ],
+    correctAnswer: "Prevent urinary reflux",
+    explanation: "These fibers form a flap‐valve mechanism to stop backflow when intra-abdominal pressure rises."
+  },
+  {
+    question: "Standing increases the urge to void primarily due to:",
+    options: [
+      "Gravity on urine",
+      "CNS activation",
+      "Renal blood flow change",
+      "Hormonal release"
+    ],
+    correctAnswer: "Gravity on urine",
+    explanation: "Gravity increases bladder wall stretch, intensifying the sensation to void."
+  },
+  {
+    question: "Bladder stretch receptors begin firing when volume exceeds:",
+    options: [
+      "50 mL",
+      "100 mL",
+      "200 mL",
+      "400 mL"
+    ],
+    correctAnswer: "200 mL",
+    explanation: "Afferent stretch receptors activate around 200 mL to signal filling."
+  },
+  {
+    question: "Severe bladder overdistension will MOST likely interfere with:",
+    options: [
+      "Heart rate measurement",
+      "Blood pressure measurement",
+      "Respiratory rate",
+      "Oxygen saturation"
+    ],
+    correctAnswer: "Blood pressure measurement",
+    explanation: "Extreme distension can trigger vasovagal responses that alter blood pressure readings."
+  },
+  {
+    question: "Stroking the inner thigh may elicit a reflex involving:",
+    options: [
+      "Cough",
+      "Urinary urge",
+      "Knee jerk",
+      "Blink reflex"
+    ],
+    correctAnswer: "Urinary urge",
+    explanation: "The cremasteric/micturition reflex can be triggered by inner-thigh stimulation."
+  },
+  {
+    question: "Micturition is classified as a spinobulbospinal reflex because it involves:",
+    options: [
+      "Spinal cord only",
+      "Bulbar centers only",
+      "Spinal and brainstem circuits",
+      "Peripheral nerves only"
+    ],
+    correctAnswer: "Spinal and brainstem circuits",
+    explanation: "Afferent and efferent limbs traverse both spinal and pontine micturition centers."
+  },
+  {
+    question: "The micturition reflex is most analogous to the:",
+    options: [
+      "Sneezing reflex",
+      "Defecation reflex",
+      "Gag reflex",
+      "Patellar reflex"
+    ],
+    correctAnswer: "Defecation reflex",
+    explanation: "Both are visceral spinal reflexes modulated by higher CNS control."
+  },
+  {
+    question: "A cystometrogram plots:",
+    options: [
+      "Urine flow vs. time",
+      "Intravesical pressure vs. volume",
+      "Bladder wall tension vs. stretch",
+      "Detrusor muscle EMG vs. time"
+    ],
+    correctAnswer: "Intravesical pressure vs. volume",
+    explanation: "Cystometrograms record bladder pressure as it fills to assess compliance and reflexes."
+  },
+  {
+    question: "Urinalysis alone is primarily useful for:",
+    options: [
+      "Definitive diagnosis",
+      "Screening and monitoring",
+      "Imaging of stones",
+      "Measuring GFR"
+    ],
+    correctAnswer: "Screening and monitoring",
+    explanation: "Urinalysis guides further workup but is not diagnostic by itself."
+  },
+  {
+    question: "Pregnancy lowers the renal threshold for glucose because of:",
+    options: [
+      "Increased GFR",
+      "Reduced tubular reabsorption capacity",
+      "Enhanced insulin sensitivity",
+      "Decreased food intake"
+    ],
+    correctAnswer: "Reduced tubular reabsorption capacity",
+    explanation: "Higher GFR and overwhelmed transporters in pregnancy lead to gestational glycosuria."
+  },
+  {
+    question: "Rigorous exercise can cause transient proteinuria due to:",
+    options: [
+      "Muscle breakdown",
+      "Increased glomerular permeability",
+      "Dehydration alone",
+      "Tubular necrosis"
+    ],
+    correctAnswer: "Increased glomerular permeability",
+    explanation: "Exercise elevates capillary pressure and permeability, allowing protein leak."
+  },
+  
+  {
+    question: "Kidney injury classification does NOT include:",
+    options: [
+      "Prerenal",
+      "Intrinsic renal",
+      "Postrenal",
+      "Neurogenic renal"
+    ],
+    correctAnswer: "Neurogenic renal",
+    explanation: "Renal dysfunction is classified as prerenal, intrinsic, or postrenal."
+  },
+  {
+    question: "Pruritus refers to:",
+    options: [
+      "Excessive urination",
+      "Excessive thirst",
+      "Excessive itching",
+      "Excessive sweating"
+    ],
+    correctAnswer: "Excessive itching",
+    explanation: "Pruritus is the medical term for itching."
+  },
+  {
+    question: "A reliable blood marker of GFR is:",
+    options: [
+      "BUN",
+      "Cystatin C",
+      "Serum creatinine",
+      "Urinary protein"
+    ],
+    correctAnswer: "Serum creatinine",
+    explanation: "Serum creatinine correlates inversely with GFR."
+  }, 
+  
+  
   
 
 ],
