@@ -1368,21 +1368,874 @@ document.addEventListener("DOMContentLoaded", () => {
 ////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    {
+        category: "GIT",
+        questions: [
+
+
+  {
+    question: "All of the following arise from the foregut except:",
+    options: [
+      "Esophagus",
+      "Proximal duodenum",
+      "Ascending colon",
+      "Stomach"
+    ],
+    correctAnswer: "Ascending colon",
+    explanation: "The ascending colon derives from the midgut, not the foregut."
+  },
+  {
+    question: "Which of the following marks the caudal boundary of the hindgut?",
+    options: [
+      "Respiratory diverticulum",
+      "Liver bud",
+      "Junction of transverse colon segments",
+      "Cloacal membrane"
+    ],
+    correctAnswer: "Cloacal membrane",
+    explanation: "The hindgut extends from the right 2/3–left 1/3 transverse colon junction to the cloacal membrane."
+  },
+  {
+    question: "Not included in the structures that undergo primary midgut herniation is the:",
+    options: [
+      "Jejunum",
+      "Ileum",
+      "Cecum",
+      "Stomach"
+    ],
+    correctAnswer: "Stomach",
+    explanation: "The stomach remains within the abdominal cavity; only midgut loops herniate."
+  },
+  {
+    question: "Which rotation occurs first during stomach development?",
+    options: [
+      "Clockwise 90° around longitudinal axis",
+      "Counterclockwise 270° of midgut",
+      "180° retraction rotation",
+      "Rotation along anteroposterior axis"
+    ],
+    correctAnswer: "Clockwise 90° around longitudinal axis",
+    explanation: "The stomach first rotates 90° clockwise around its long axis."
+  },
+  {
+    question: "All of the following are true of the duodenum except:",
+    options: [
+      "Proximal portion from foregut",
+      "Distal portion from midgut",
+      "Remains at midline throughout development",
+      "Forms a C-shaped loop"
+    ],
+    correctAnswer: "Remains at midline throughout development",
+    explanation: "The duodenum initially at midline rotates to the right, becoming retroperitoneal."
+  },
+  {
+    question: "Which mesenteric artery supplies structures derived from the hindgut?",
+    options: [
+      "Celiac artery",
+      "Superior mesenteric artery",
+      "Inferior mesenteric artery",
+      "Common iliac artery"
+    ],
+    correctAnswer: "Inferior mesenteric artery",
+    explanation: "The inferior mesenteric artery supplies hindgut derivatives."
+  },
+  {
+    question: "The pectinate line separates which epithelial types in the anal canal?",
+    options: [
+      "Non-keratinized stratified squamous above and simple columnar below",
+      "Simple columnar above and non-keratinized stratified squamous below",
+      "Keratinized stratified squamous above and cuboidal below",
+      "Pseudostratified columnar above and transitional below"
+    ],
+    correctAnswer: "Simple columnar above and non-keratinized stratified squamous below",
+    explanation: "Proximal anal canal lined by simple columnar, distal by non-keratinized stratified squamous epithelium."
+  },
+  {
+    question: "Which of the following events is not part of midgut development?",
+    options: [
+      "Physiological herniation",
+      "90° counterclockwise rotation",
+      "180° retraction rotation",
+      "Formation of dorsal mesogastrium"
+    ],
+    correctAnswer: "Formation of dorsal mesogastrium",
+    explanation: "Dorsal mesogastrium forms around the stomach (foregut), not midgut."
+  },
+  {
+    question: "Tracheoesophageal fistulas result from abnormal:",
+    options: [
+      "Partitioning of the foregut",
+      "Rotation of the stomach",
+      "Midgut herniation",
+      "Hindgut cloacal separation"
+    ],
+    correctAnswer: "Partitioning of the foregut",
+    explanation: "Failure of the tracheoesophageal septum to form leads to fistulas."
+  },
+  {
+    question: "Which of the following cell types is mismatched with its pancreatic islet cell?",
+    options: [
+      "Alpha cell – Glucagon",
+      "Beta cell – Insulin",
+      "Delta cell – Somatostatin",
+      "Alpha cell – Insulin"
+    ],
+    correctAnswer: "Alpha cell – Insulin",
+    explanation: "Alpha cells secrete glucagon; beta cells secrete insulin."
+  },
+  {
+    question: "All of the following contribute to midgut loop retraction except:",
+    options: [
+      "Regression of mesonephric kidney",
+      "Reduction in liver size",
+      "Expansion of abdominal cavity",
+      "Formation of the diaphragm"
+    ],
+    correctAnswer: "Formation of the diaphragm",
+    explanation: "Midgut retraction is driven by renal regression, liver size decrease, and cavity expansion."
+  },
+  {
+    question: "Which region is not derived from the caudal limb of the midgut loop?",
+    options: [
+      "Ascending colon",
+      "Appendix",
+      "Proximal 2/3 of transverse colon",
+      "Duodenum"
+    ],
+    correctAnswer: "Duodenum",
+    explanation: "The duodenum is from the foregut and proximal midgut cephalic limb."
+  },
+  {
+    question: "Omphalocele is due to failure of:",
+    options: [
+      "Physiological herniation",
+      "Return of midgut to abdomen",
+      "Lateral body wall closure",
+      "Tracheoesophageal partitioning"
+    ],
+    correctAnswer: "Return of midgut to abdomen",
+    explanation: "Omphalocele results when herniated loops do not retract (6th–10th week)."
+  },
+  {
+    question: "Which of the following is not associated with chromosomal abnormalities?",
+    options: [
+      "Omphalocele",
+      "Gastroschisis",
+      "Trisomy 18",
+      "Trisomy 13"
+    ],
+    correctAnswer: "Gastroschisis",
+    explanation: "Gastroschisis occurs from lateral fold failure and has no chromosomal links."
+  },
+  {
+    question: "The tracheoesophageal septum separates the:",
+    options: [
+      "Stomach from duodenum",
+      "Dorsal foregut from respiratory diverticulum",
+      "Midgut from hindgut",
+      "Pharyngeal gut from foregut"
+    ],
+    correctAnswer: "Dorsal foregut from respiratory diverticulum",
+    explanation: "It partitions the future esophagus dorsally and trachea ventrally."
+  },
+  {
+    question: "Which statement is false regarding the stomach’s curvatures?",
+    options: [
+      "Greater curvature formed by slower dorsal wall growth",
+      "Lesser curvature formed by faster ventral wall growth",
+      "Left side becomes anterior after rotation",
+      "Right side faces posteriorly post-rotation"
+    ],
+    correctAnswer: "Lesser curvature formed by faster ventral wall growth",
+    explanation: "The greater curvature arises from faster dorsal wall growth; the lesser from ventral."
+  },
+  {
+    question: "Structures connected by the mesentery are classified as:",
+    options: [
+      "Retroperitoneal",
+      "Primarily intraperitoneal",
+      "Secondarily retroperitoneal",
+      "Extraparenchymal"
+    ],
+    correctAnswer: "Primarily intraperitoneal",
+    explanation: "Organs with both visceral and parietal serosa via mesentery are intraperitoneal."
+  },
+  {
+    question: "Which is not a feature of gastroschisis?",
+    options: [
+      "Lateral fold closure defect",
+      "Evisceration into amniotic cavity",
+      "Chromosomal association",
+      "Protrusion outside the umbilicus"
+    ],
+    correctAnswer: "Chromosomal association",
+    explanation: "Gastroschisis is not linked to chromosomal abnormalities."
+  },
+  {
+    question: "The proximal anal canal initially has which lining?",
+    options: [
+      "Endodermal",
+      "Ectodermal",
+      "Mesodermal",
+      "Neural crest"
+    ],
+    correctAnswer: "Endodermal",
+    explanation: "The proximal anal canal derives from hindgut endoderm."
+  },
+  {
+    question: "All of the following occur during hindgut development except:",
+    options: [
+      "Formation of the urorectal septum",
+      "Partitioning of cloaca",
+      "Rotation around longitudinal axis",
+      "Derivation of the urinary bladder"
+    ],
+    correctAnswer: "Rotation around longitudinal axis",
+    explanation: "Gut rotations occur in foregut and midgut, not hindgut partitioning."
+  },
+  {
+    question: "Which event leads to the stomach’s cephalic aspect lying to the left?",
+    options: [
+      "Clockwise rotation",
+      "Counterclockwise rotation",
+      "Midgut herniation",
+      "Formation of lesser omentum"
+    ],
+    correctAnswer: "Clockwise rotation",
+    explanation: "A 90° clockwise turn places the stomach’s cranial portion to the left."
+  },
+  {
+    question: "The junction between right two-thirds and left one-third of the transverse colon defines the midgut–hindgut boundary because of:",
+    options: [
+      "Switch in arterial supply",
+      "Change in neural crest migration",
+      "Location of the umbilical cord",
+      "Origin of the liver bud"
+    ],
+    correctAnswer: "Switch in arterial supply",
+    explanation: "This point marks transition from SMA to IMA vascular territory."
+  },
+  {
+    question: "Which of the following is not a trilaminar germ layer contribution to gut derivatives?",
+    options: [
+      "Endoderm – Epithelial lining",
+      "Mesoderm – Muscularis externa",
+      "Ectoderm – Enteric nervous system",
+      "Neural crest – Submucosa"
+    ],
+    correctAnswer: "Neural crest – Submucosa",
+    explanation: "Submucosa arises from mesoderm, not neural crest."
+  },
+  {
+    question: "All of the following are derivatives of the dorsal mesentery except:",
+    options: [
+      "Greater omentum",
+      "Dorsal mesoduodenum",
+      "Ventral mesogastrium",
+      "Mesentery proper"
+    ],
+    correctAnswer: "Ventral mesogastrium",
+    explanation: "Ventral mesogastrium derives from the septum transversum (ventral mesentery)."
+  },
+  {
+    question: "Not included among the three major rotations of the midgut is the:",
+    options: [
+      "90° physiological herniation",
+      "270° counterclockwise total rotation",
+      "180° retraction rotation",
+      "90° clockwise stomach rotation"
+    ],
+    correctAnswer: "90° clockwise stomach rotation",
+    explanation: "Stomach rotation is foregut-specific, not a midgut event."
+  },
+  {
+    question: "Which statement about the pharyngeal gut is incorrect?",
+    options: [
+      "Bounded cranially by buccopharyngeal membrane",
+      "Ends caudally at respiratory diverticulum",
+      "Gives rise to thyroid gland",
+      "Is initially blind-ended"
+    ],
+    correctAnswer: "Gives rise to thyroid gland",
+    explanation: "The thyroid arises from a midline endodermal thickening, not the pharyngeal gut proper."
+  },
+  {
+    question: "Which membrane failure leads directly to the formation of the anal canal opening?",
+    options: [
+      "Buccopharyngeal membrane",
+      "Cloacal membrane",
+      "Respiratory membrane",
+      "Septum transversum"
+    ],
+    correctAnswer: "Cloacal membrane",
+    explanation: "Opening of the cloacal membrane establishes the anal canal."
+  },
+  {
+    question: "The developmental origin of the appendix is the:",
+    options: [
+      "Foregut",
+      "Cephalic midgut limb",
+      "Caudal midgut limb",
+      "Hindgut"
+    ],
+    correctAnswer: "Caudal midgut limb",
+    explanation: "The caudal limb of the primary intestinal loop forms the cecum and appendix."
+  }, 
+
+],
+      },
+      
+      
     
+    
+    
+    
+      
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+        category: "CVS",
+        questions: [
 
 
 
+  {
+    question: "All of the following derive from the splanchnic layer of the intraembryonic mesoderm EXCEPT:",
+    options: [
+      "Cardiac progenitor cells",
+      "Islet cells",
+      "Smooth muscle of gut",
+      "Neural crest cells"
+    ],
+    correctAnswer: "Neural crest cells",
+    explanation: "Neural crest cells derive from ectoderm, not splanchnic mesoderm."
+  },
+  {
+    question: "The primary physiological reason a fetal cardiovascular system forms is:",
+    options: [
+      "To circulate blood for heat distribution",
+      "Because diffusion alone cannot meet nutritional needs",
+      "To support limb development",
+      "To regulate amniotic fluid volume"
+    ],
+    correctAnswer: "Because diffusion alone cannot meet nutritional needs",
+    explanation: "As the embryo grows, simple diffusion is insufficient for metabolic demands."
+  },
+  {
+    question: "The primary and secondary heart fields arise in which embryonic layer?",
+    options: [
+      "Paraxial mesoderm",
+      "Intermediate mesoderm",
+      "Splanchnic mesoderm",
+      "Ectoderm"
+    ],
+    correctAnswer: "Splanchnic mesoderm",
+    explanation: "Cardiac progenitors in the splanchnic mesoderm form both heart fields."
+  },
+  {
+    question: "The primary heart field contributes to all of the following EXCEPT:",
+    options: [
+      "Left ventricle",
+      "Portion of atria",
+      "Right ventricle",
+      "Outflow tract"
+    ],
+    correctAnswer: "Right ventricle",
+    explanation: "The primary field forms atria and left ventricle; the secondary forms right ventricle."
+  },
+  {
+    question: "The cranial region of the embryo that gives rise to the heart tube is called the:",
+    options: [
+      "Cardiogenic area",
+      "Caudal eminence",
+      "Cloacal plate",
+      "Neural groove"
+    ],
+    correctAnswer: "Cardiogenic area",
+    explanation: "The cardiogenic area in the cranial splanchnic mesoderm is the initial heart-forming region."
+  },
+  {
+    question: "During cephalic folding, the primitive heart moves from the cranial region to the thorax via:",
+    options: [
+      "Lateral displacement",
+      "Cranial drift",
+      "Cervical then thoracic shift",
+      "Caudal invagination"
+    ],
+    correctAnswer: "Cervical then thoracic shift",
+    explanation: "Folding brings the heart first into the neck region, then into the thorax."
+  },
+  {
+    question: "Cardiac looping precedes septation and begins at approximately day:",
+    options: [
+      "14",
+      "23",
+      "30",
+      "40"
+    ],
+    correctAnswer: "23",
+    explanation: "The straight heart tube begins rightward looping around day 23."
+  },
+  {
+    question: "Septation of the heart into four chambers occurs between days:",
+    options: [
+      "10–20",
+      "23–28",
+      "27–37",
+      "40–50"
+    ],
+    correctAnswer: "27–37",
+    explanation: "Major septa form during days 27–37 of embryogenesis."
+  },
+  {
+    question: "The definitive heart tube’s cephalic segment becomes the:",
+    options: [
+      "Atria",
+      "Sinus venosus",
+      "Ventricular chambers",
+      "Outflow tracts"
+    ],
+    correctAnswer: "Ventricular chambers",
+    explanation: "The cranial (ventricular) portion forms the primitive ventricles."
+  },
+  {
+    question: "The truncus arteriosus contributes to the:",
+    options: [
+      "Left atrium",
+      "Pulmonary veins",
+      "Ascending aorta and proximal pulmonary artery",
+      "Inferior vena cava"
+    ],
+    correctAnswer: "Ascending aorta and proximal pulmonary artery",
+    explanation: "The truncus gives rise to the roots of the great arteries."
+  },
+  {
+    question: "The bulbus cordis forms primarily the:",
+    options: [
+      "Left ventricle",
+      "Right ventricle and outflow tract",
+      "Atrioventricular septum",
+      "Atrial musculature"
+    ],
+    correctAnswer: "Right ventricle and outflow tract",
+    explanation: "The bulbus contributes to right ventricular and conal regions."
+  },
+  {
+    question: "All of the following venous systems drain into the sinus venosus EXCEPT:",
+    options: [
+      "Common cardinal veins",
+      "Umbilical veins",
+      "Vitelline veins",
+      "Pulmonary veins"
+    ],
+    correctAnswer: "Pulmonary veins",
+    explanation: "Pulmonary veins develop later and drain into the left atrium."
+  },
+  {
+    question: "The right common cardinal vein persists as the:",
+    options: [
+      "Inferior vena cava",
+      "Superior vena cava",
+      "Coronary sinus",
+      "Azygos vein"
+    ],
+    correctAnswer: "Superior vena cava",
+    explanation: "The right common cardinal vein forms the SVC."
+  },
+  {
+    question: "The left horn of the sinus venosus becomes the:",
+    options: [
+      "Right atrium",
+      "Left atrium",
+      "Coronary sinus",
+      "Pulmonary trunk"
+    ],
+    correctAnswer: "Coronary sinus",
+    explanation: "Left sinus horn is remodeled into the coronary sinus."
+  },
+  {
+    question: "Cardiac looping direction of the bulbus cordis is described as VCR (ventral, caudal, right). The primitive ventricle loops:",
+    options: [
+      "DCR",
+      "DCL",
+      "VCL",
+      "VCL"
+    ],
+    correctAnswer: "DCL",
+    explanation: "The caudal ventricular region moves dorsally, cranially, and left (DCL)."
+  },
+  {
+    question: "The sinus venosus gives rise to which embryonic conduction tissue?",
+    options: [
+      "AV node",
+      "SA node",
+      "Bundle of His",
+      "Purkinje fibers"
+    ],
+    correctAnswer: "SA node",
+    explanation: "The sinus venosus region forms the sinoatrial node."
+  },
+  {
+    question: "TBX5 is critical for:",
+    options: [
+      "Looping of heart tube",
+      "Septation and conduction system",
+      "Neural crest migration",
+      "Cardiac valve morphogenesis exclusively"
+    ],
+    correctAnswer: "Septation and conduction system",
+    explanation: "TBX5 directs atrial septation and conduction tissue patterning."
+  },
+  {
+    question: "VEGF promotes cardiovascular development by stimulating:",
+    options: [
+      "Nephron formation",
+      "Endothelial differentiation",
+      "Myocardial contraction",
+      "Valvular cushion fusion"
+    ],
+    correctAnswer: "Endothelial differentiation",
+    explanation: "VEGF drives mesodermal cells toward endothelial lineages."
+  },
+  {
+    question: "Outflow tracts at the cranial tube exit are the precursors of:",
+    options: [
+      "Dorsal aorta",
+      "Pulmonary veins",
+      "Cardiac septa",
+      "Coronary arteries"
+    ],
+    correctAnswer: "Dorsal aorta",
+    explanation: "The cranial outflow region leads into the paired dorsal aortae."
+  },
+  {
+    question: "The septum intermedium forms from the fusion of:",
+    options: [
+      "Septum primum and septum secundum",
+      "Anterior and posterior endocardial cushions",
+      "Bulbar and truncal ridges",
+      "Atrial and ventricular septa"
+    ],
+    correctAnswer: "Anterior and posterior endocardial cushions",
+    explanation: "Fusion of endocardial cushions creates the septum intermedium."
+  },
+  {
+    question: "The septum primum initially leaves an opening called the:",
+    options: [
+      "Foramen ovale",
+      "Ostium secundum",
+      "Ostium primum",
+      "Sinus venosus"
+    ],
+    correctAnswer: "Ostium primum",
+    explanation: "Septum primum leaves the ostium primum before fusing with cushions."
+  },
+  {
+    question: "The ostium secundum is formed in:",
+    options: [
+      "Septum primum",
+      "Septum secundum",
+      "Interventricular septum",
+      "AV canal"
+    ],
+    correctAnswer: "Septum primum",
+    explanation: "Perforations in septum primum coalesce as ostium secundum."
+  },
+  {
+    question: "The septum secundum and septum primum form the:",
+    options: [
+      "Atrioventricular septum",
+      "Interventricular septum",
+      "Foramen ovale flap",
+      "Semilunar valves"
+    ],
+    correctAnswer: "Foramen ovale flap",
+    explanation: "Their overlapping creates a one-way valve at the foramen ovale."
+  },
+  {
+    question: "Failure of the membranous ventricular septum to fuse causes:",
+    options: [
+      "Atrial septal defect",
+      "Patent ductus arteriosus",
+      "Ventricular septal defect",
+      "Tetralogy of Fallot"
+    ],
+    correctAnswer: "Ventricular septal defect",
+    explanation: "Incomplete fusion of membranous and muscular portions yields VSD."
+  },
+  {
+    question: "Which structure is NOT part of the embryonic inflow tract?",
+    options: [
+      "Sinus venosus",
+      "Primitive atrium",
+      "Bulbus cordis",
+      "Vitelline veins"
+    ],
+    correctAnswer: "Bulbus cordis",
+    explanation: "Inflow is via sinus venosus and atrium; bulbus is part of outflow."
+  },
+  {
+    question: "Common cardinal veins are also known as",
+    options: [
+      "Ducts of Cuvier",
+      "Ductus venosus",
+      "Sinus horns",
+      "Umbilical sinuses"
+    ],
+    correctAnswer: "Ducts of Cuvier",
+    explanation: "Common cardinal veins drain embryonic body into sinus venosus."
+  },
+  {
+    question: "Vitelline veins give rise to the:",
+    options: [
+      "Superior vena cava",
+      "Inferior vena cava",
+      "Portal vein",
+      "Pulmonary veins"
+    ],
+    correctAnswer: "Inferior vena cava",
+    explanation: "Right vitelline vein contributes to the hepatic segment of the IVC."
+  },
+  {
+    question: "Umbilical veins transport:",
+    options: [
+      "Deoxygenated blood from yolk sac",
+      "Oxygenated blood from placenta",
+      "Mixed blood from embryo body",
+      "Lymph from umbilical cord"
+    ],
+    correctAnswer: "Oxygenated blood from placenta",
+    explanation: "Umbilical veins carry oxygen-rich blood to the sinus venosus."
+  },
+  {
+    question: "Which heart field contributes to the outflow tract?",
+    options: [
+      "Primary heart field",
+      "Secondary heart field",
+      "Tertiary heart field",
+      "Neural crest cells"
+    ],
+    correctAnswer: "Secondary heart field",
+    explanation: "Secondary field forms right ventricle, conus, and truncus arteriosus."
+  },
+  {
+    question: "The embryonic cardiac conduction system first appears in the:",
+    options: [
+      "Primitive ventricle",
+      "Sinus venosus",
+      "Bulbus cordis",
+      "Truncus arteriosus"
+    ],
+    correctAnswer: "Sinus venosus",
+    explanation: "The sinus venosus region gives rise to early pacemaker cells."
+  },
+  {
+    question: "Cardiac looping requires motor proteins called:",
+    options: [
+      "Myosins",
+      "Kinesins",
+      "Dyneins",
+      "Actins"
+    ],
+    correctAnswer: "Dyneins",
+    explanation: "Dynein motor activity is critical for left-right asymmetry in looping."
+  },
+  {
+    question: "Looping sequence of the outflow tract is VCR (ventral, caudal, right). The inflow limb loops:",
+    options: [
+      "Dorsal, cranial, left",
+      "Ventral, cranial, left",
+      "Dorsal, caudal, left",
+      "Ventral, caudal, left"
+    ],
+    correctAnswer: "Dorsal, cranial, left",
+    explanation: "The caudal limb moves dorsally, cranially, and left (DCL)."
+  },
+  {
+    question: "The dorsal aortae originate from the embryonic:",
+    options: [
+      "Truncus arteriosus",
+      "Bulbus cordis",
+      "Outflow tract",
+      "Sinus venosus"
+    ],
+    correctAnswer: "Outflow tract",
+    explanation: "The cranial outflow region connects with the paired dorsal aortae."
+  },
+  {
+    question: "The transcription factor TBX5 contains a:",
+    options: [
+      "Homeobox",
+      "Zinc finger",
+      "T-box DNA-binding motif",
+      "Leucine zipper"
+    ],
+    correctAnswer: "T-box DNA-binding motif",
+    explanation: "TBX5 binds DNA via its characteristic T-box domain."
+  },
+  {
+    question: "Major cardiac septa are formed between:",
+    options: [
+      "Day 14–20",
+      "Day 23–26",
+      "Day 27–37",
+      "Day 40–50"
+    ],
+    correctAnswer: "Day 27–37",
+    explanation: "Chamber septation occurs from the 27th to 37th day."
+  },
+  {
+    question: "Looping of the heart tube spans days:",
+    options: [
+      "14–20",
+      "21–22",
+      "23–33",
+      "30–40"
+    ],
+    correctAnswer: "23–33",
+    explanation: "Rightward looping occurs roughly between days 23 and 33."
+  },
+  {
+    question: "Which is NOT a component of the definitive caudal heart tube?",
+    options: [
+      "Primitive atrium",
+      "Sinus venosus",
+      "Conus cordis",
+      "Truncus arteriosus"
+    ],
+    correctAnswer: "Truncus arteriosus",
+    explanation: "Truncus is cranial; caudal includes atria and sinus venosus."
+  },
+  {
+    question: "Which rodent is incorrect? I.e. which structure is NOT formed from sinus venosus?",
+    options: [
+      "SA node",
+      "Coronary sinus",
+      "Left atrium myocardium",
+      "AV node"
+    ],
+    correctAnswer: "AV node",
+    explanation: "AV node arises from atrioventricular canal, not sinus venosus."
+  },
+  {
+    question: "The dorsal aorta carries blood:",
+    options: [
+      "To the head only",
+      "From the heart tube to systemic circulation",
+      "From yolk sac to embryo",
+      "To the vitelline veins"
+    ],
+    correctAnswer: "From the heart tube to systemic circulation",
+    explanation: "Dorsal aortae distribute oxygenated blood to the embryo."
+  },
+  {
+    question: "The ostium primum lies between:",
+    options: [
+      "Septum primum and septum secundum",
+      "Septum primum and AV cushions",
+      "Septum secundum and atrial roof",
+      "Ventricles"
+    ],
+    correctAnswer: "Septum primum and AV cushions",
+    explanation: "Ostium primum is the gap before septum primum fuses with cushions."
+  },
+  {
+    question: "The ostium secundum forms by apoptosis in the:",
+    options: [
+      "Septum secundum",
+      "Septum primum",
+      "Truncus arteriosus",
+      "Bulbus cordis"
+    ],
+    correctAnswer: "Septum primum",
+    explanation: "Resorption in septum primum creates the ostium secundum."
+  },
+  {
+    question: "The flap valve of the foramen ovale is:",
+    options: [
+      "Septum primum",
+      "Septum secundum",
+      "Septum intermedium",
+      "AV cushions"
+    ],
+    correctAnswer: "Septum primum",
+    explanation: "Septum primum acts as the mobile flap over the foramen ovale."
+  },
+  {
+    question: "Which defect results from failure of interventricular septum fusion?",
+    options: [
+      "ASD",
+      "PDA",
+      "VSD",
+      "Coarctation of aorta"
+    ],
+    correctAnswer: "VSD",
+    explanation: "Failure of membranous and muscular IV septa to fuse yields VSD."
+  },
+  {
+    question: "The six pairs of pharyngeal arch arteries give rise to all EXCEPT:",
+    options: [
+      "Pulmonary arteries",
+      "Aortic arch",
+      "Coronary arteries",
+      "Subclavian arteries"
+    ],
+    correctAnswer: "Coronary arteries",
+    explanation: "Coronaries sprout from aortic root; pharyngeal arches form great vessels."
+  },
+  {
+    question: "Which process is directly dependent on VEGF signaling?",
+    options: [
+      "Chamber septation",
+      "Endothelial differentiation",
+      "Looping spiral",
+      "Nephron formation"
+    ],
+    correctAnswer: "Endothelial differentiation",
+    explanation: "VEGF drives mesodermal progenitors toward endothelial lineage."
+  },
+
+],
+      },
+  
 
   
+  
+  
+  
+  
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    {
+        category: "Respiratory System",
+        questions: [
+
+
+
+],
+      },
   
   
   
   
   
-  
-  
-  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////Hip Joint/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+        category: "Urogenital System",
+        questions: [
+
+
+
+],
+      },
   
 
       // Add more categories here
