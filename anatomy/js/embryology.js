@@ -2216,6 +2216,303 @@ document.addEventListener("DOMContentLoaded", () => {
         questions: [
 
 
+  {
+    question: "All of the following are derivatives of the laryngotracheal groove except:",
+    options: [
+      "Thyroid cartilage",
+      "Trachea",
+      "Esophagus",
+      "Laryngeal epithelium"
+    ],
+    correctAnswer: "Esophagus",
+    explanation: "The esophagus derives from the dorsal foregut after septation, not the laryngotracheal groove."
+  },
+  {
+    question: "Which of the following cell types is mismatched with its function in the lung?",
+    options: [
+      "Type I pneumocyte – Gas exchange",
+      "Type II pneumocyte – Surfactant secretion",
+      "Alveolar macrophage – Structural support",
+      "Endothelial cell – Blood–air barrier"
+    ],
+    correctAnswer: "Alveolar macrophage – Structural support",
+    explanation: "Alveolar macrophages are immune cells, not structural elements."
+  },
+  {
+    question: "Not included among the stages of lung histological maturation is the:",
+    options: [
+      "Pseudoglandular stage",
+      "Saccular stage",
+      "Canalicular stage",
+      "Neonatal alveolar stage"
+    ],
+    correctAnswer: "Neonatal alveolar stage",
+    explanation: "The four recognized stages are pseudoglandular, canalicular, terminal saccular, and alveolar (post-natal to childhood)."
+  },
+  {
+    question: "Which statement about bronchial branching is false?",
+    options: [
+      "Primary bronchi bifurcate into secondary bronchi",
+      "There are three secondary bronchi on the left",
+      "Segmental bronchi number ten on the right",
+      "Branching follows a dichotomous pattern"
+    ],
+    correctAnswer: "There are three secondary bronchi on the left",
+    explanation: "The left lung has only two secondary (lobar) bronchi, not three."
+  },
+  {
+    question: "All of the following structures derive from splanchnic mesoderm except:",
+    options: [
+      "Cartilage of tracheal rings",
+      "Smooth muscle of bronchioles",
+      "Epithelium of the larynx",
+      "Connective tissue of lung parenchyma"
+    ],
+    correctAnswer: "Epithelium of the larynx",
+    explanation: "Epithelial linings derive from endoderm, not mesoderm."
+  },
+  {
+    question: "Which nerve branch innervates muscles derived from the 6th pharyngeal arch?",
+    options: [
+      "Superior laryngeal nerve",
+      "Recurrent laryngeal nerve",
+      "Glossopharyngeal nerve",
+      "Hypoglossal nerve"
+    ],
+    correctAnswer: "Recurrent laryngeal nerve",
+    explanation: "The 6th arch muscles are supplied by the recurrent laryngeal branch of the vagus."
+  },
+  {
+    question: "All of the following are features of the canalicular lung stage except:",
+    options: [
+      "Development of respiratory bronchioles",
+      "Appearance of capillaries",
+      "Formation of terminal bronchioles",
+      "Secretion of surfactant by Type II cells"
+    ],
+    correctAnswer: "Secretion of surfactant by Type II cells",
+    explanation: "Surfactant production begins closer to the terminal saccular stage."
+  },
+  {
+    question: "Which of the following best describes the origin of the tracheoesophageal septum?",
+    options: [
+      "Fusion of lateral body folds",
+      "Merging of tracheoesophageal ridges",
+      "Differentiation of laryngotracheal groove",
+      "Partitioning by the urorectal septum"
+    ],
+    correctAnswer: "Merging of tracheoesophageal ridges",
+    explanation: "Tracheoesophageal septum forms from fusion of longitudinal ridges in the foregut wall."
+  },
+  {
+    question: "Not included in the composition of the blood–air barrier is:",
+    options: [
+      "Type I pneumocyte cytoplasm",
+      "Fused basal laminae",
+      "Alveolar macrophage processes",
+      "Capillary endothelial cytoplasm"
+    ],
+    correctAnswer: "Alveolar macrophage processes",
+    explanation: "Macrophages reside in the alveolar space and are not part of the barrier."
+  },
+  {
+    question: "Which process does not directly contribute to fetal lung conditioning in utero?",
+    options: [
+      "Fetal respiratory movements",
+      "Chloride-rich secretions",
+      "Protein and mucus production",
+      "First breath air expansion"
+    ],
+    correctAnswer: "First breath air expansion",
+    explanation: "Air expansion occurs at birth, not before."
+  },
+  {
+    question: "All of the following are true of the pseudoglandular stage except:",
+    options: [
+      "Presence of terminal bronchioles",
+      "Absence of respiratory bronchioles",
+      "Absence of capillaries in airway walls",
+      "Initial formation of alveolar sacs"
+    ],
+    correctAnswer: "Initial formation of alveolar sacs",
+    explanation: "Alveolar sacs appear later, during the saccular and alveolar stages."
+  },
+  {
+    question: "Which branch of the vagus nerve innervates muscles of the 4th pharyngeal arch?",
+    options: [
+      "Recurrent laryngeal nerve",
+      "Superior laryngeal nerve",
+      "Phrenic nerve",
+      "Cardiac branches"
+    ],
+    correctAnswer: "Superior laryngeal nerve",
+    explanation: "The superior laryngeal branch supplies 4th arch-derived muscles."
+  },
+  {
+    question: "Not included among the functions of surfactant is:",
+    options: [
+      "Reducing alveolar surface tension",
+      "Preventing alveolar collapse",
+      "Increasing lung compliance",
+      "Stimulating bronchial branching"
+    ],
+    correctAnswer: "Stimulating bronchial branching",
+    explanation: "Surfactant’s roles are mechanical, not morphogenic."
+  },
+  {
+    question: "Which of the following events marks the transition from pseudoglandular to canalicular stage?",
+    options: [
+      "Appearance of terminal bronchioles",
+      "Onset of vascular-airway proximity",
+      "Formation of alveolar ducts",
+      "Initiation of fetal breathing movements"
+    ],
+    correctAnswer: "Onset of vascular-airway proximity",
+    explanation: "Canalicular stage is defined by capillaries approaching airway epithelium."
+  },
+  {
+    question: "All of the following derive from 6th pharyngeal arch mesenchyme except:",
+    options: [
+      "Cricoid cartilage",
+      "Arytenoid cartilage",
+      "Epiglottic cartilage",
+      "Thyroid cartilage"
+    ],
+    correctAnswer: "Epiglottic cartilage",
+    explanation: "Epiglottis arises from the 4th arch, not the 6th."
+  },
+  {
+    question: "Which statement about primary bronchi is correct?",
+    options: [
+      "Left primary bronchus is shorter and wider",
+      "They bifurcate from the lung bud at week 4",
+      "They branch into three lobar bronchi on the left",
+      "They form as a single midline tube"
+    ],
+    correctAnswer: "They bifurcate from the lung bud at week 4",
+    explanation: "The lung bud splits into two primary bronchi around day 28."
+  },
+  {
+    question: "Not included in the composition of respiratory epithelium is:",
+    options: [
+      "Endodermally derived cells",
+      "Mesodermally derived cartilage",
+      "Ciliated columnar cells",
+      "Goblet cells"
+    ],
+    correctAnswer: "Mesodermally derived cartilage",
+    explanation: "Cartilage is mesodermal but not part of the epithelial lining."
+  },
+  {
+    question: "Which of the following is not a requirement for the formation of the tracheoesophageal septum?",
+    options: [
+      "Tracheoesophageal ridge formation",
+      "Fusion of lateral ridges",
+      "Ventrodorsal partitioning",
+      "Neural crest migration"
+    ],
+    correctAnswer: "Neural crest migration",
+    explanation: "Septum formation relies on endodermal ridges, not neural crest."
+  },
+  {
+    question: "All of the following are mechanisms promoting mid-gestation lung growth except:",
+    options: [
+      "Increase in respiratory bronchiole number",
+      "Alveolar enlargement",
+      "Fetal breathing movements",
+      "Chloride ion secretion"
+    ],
+    correctAnswer: "Alveolar enlargement",
+    explanation: "Growth is via new airway and alveoli formation, not mere enlargement."
+  },
+  {
+    question: "Which stage directly precedes the terminal saccular period?",
+    options: [
+      "Alveolar stage",
+      "Pseudoglandular stage",
+      "Canalicular stage",
+      "Mature alveolar stage"
+    ],
+    correctAnswer: "Canalicular stage",
+    explanation: "Terminal saccular follows the canalicular phase."
+  },
+  {
+    question: "Not included among the roles of fetal respiratory movements is:",
+    options: [
+      "Conditioning respiratory muscles",
+      "Lubricating pleural surfaces",
+      "Enhancing lung fluid distribution",
+      "Stimulating surfactant production"
+    ],
+    correctAnswer: "Lubricating pleural surfaces",
+    explanation: "Movements condition muscles and distribute fluid but do not lubricate pleura."
+  },
+  {
+    question: "All of the following occur at the neonate’s first breath except:",
+    options: [
+      "Rapid lung fluid reabsorption",
+      "Surfactant-mediated alveolar expansion",
+      "Complete alveolar maturation",
+      "Airway clearance via tracheal expulsion"
+    ],
+    correctAnswer: "Complete alveolar maturation",
+    explanation: "Alveolar development continues into childhood."
+  },
+  {
+    question: "Which of the following best characterizes the alveolar stage?",
+    options: [
+      "Formation of respiratory bronchioles",
+      "Appearance of primitive alveolar sacs",
+      "Maturation of flat squamous pneumocytes",
+      "Onset of pulmonary oedema"
+    ],
+    correctAnswer: "Maturation of flat squamous pneumocytes",
+    explanation: "Late stage features thinning epithelium and mature alveoli."
+  },
+  {
+    question: "All of the following sources contribute to lung connective tissue except:",
+    options: [
+      "Splanchnic mesoderm",
+      "Neural crest cells",
+      "Endothelial-mesenchymal transition",
+      "Paraxial mesoderm"
+    ],
+    correctAnswer: "Neural crest cells",
+    explanation: "Lung connective tissues derive mainly from splanchnic mesoderm."
+  },
+  {
+    question: "Which of the following is not formed by dichotomous branching?",
+    options: [
+      "Primary bronchi",
+      "Secondary bronchi",
+      "Tertiary bronchi",
+      "Alveolar sacs"
+    ],
+    correctAnswer: "Alveolar sacs",
+    explanation: "Dichotomous branching generates bronchi; alveoli form separately."
+  },
+  {
+    question: "Not included among the products of the 4th pharyngeal arch mesenchyme is:",
+    options: [
+      "Epiglottis",
+      "Thyroid cartilage",
+      "Cricoid cartilage",
+      "Arytenoid cartilage"
+    ],
+    correctAnswer: "Thyroid cartilage",
+    explanation: "Thyroid cartilage derives from the 6th arch."
+  },
+  {
+    question: "All of the following are true of the terminal saccular stage except:",
+    options: [
+      "Formation of primitive alveoli",
+      "Close association with capillaries",
+      "Abundant surfactant secretion",
+      "Begins around week 26"
+    ],
+    correctAnswer: "Abundant surfactant secretion",
+    explanation: "Surfactant increases but peaks in late saccular and alveolar stages."
+  },
 
 ],
       },
