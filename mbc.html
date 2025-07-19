@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="onboarding.css">
+</head>
+<body>
+    <div id="overlay" class="overlay"></div>
+    <div id="home-screen" class="screen">
+                <div class="content">
+                    <div class="header">
+                        <img src="images/logo.png" class="screen-title" alt="Logo" id="logo">
+                <nav class="desktop-nav">
+                    <a href="anatomy.html" class="nav-item">Anatomy</a>
+                    <a href="physiology.html" class="nav-item">Physiology</a>
+                    <a href="#" class="nav-item">Medical Biochemistry</a>
+                    <a href="#" class="nav-item">Pharmacology</a>
+                    <a href="#" class="nav-item">Chemistry</a>
+                    <a href="#" class="nav-item">General Studies</a>
+                </nav>
+                <button id="menu-button" class="icon-button">☰</button>
+                    </div>
+                 
+                 
+                   <h1>Medical Biochemistry</h1>
+                
+            <div class="category-list animate-stagger-in">
+                <button class="category-btn" data-category="Cells">
+                    <span class="category-icon">💪</span>
+                    <span>MBC211</span>
+                </button>
+                
+                
+            
+            
+            </div>
+            <button id="upgrade-btn" class="animate-pulse">FOLLOW US <i class="fa fa-whatsapp" aria-hidden="true"></i> </button>
+        </div>
+
+        
+                       
+
+        <div id="sidebar" class="sidebar">
+            <button id="close-sidebar" class="icon-button"><img src="./images/back.png" alt="" class="back-img"></button>
+            <div class="user-info">
+                <img src="images/logo.png" alt="" class="user-avatar">
+                <div class="user-details">
+                    <h2>IQ Rush</h2>
+                    <p>Change Course</p>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="anatomy.html" class="nav-item">Anatomy</a>
+                <a href="physiology.html" class="nav-item">Physiology</a>
+                <a href="#" class="nav-item">Medical Biochemistry</a>
+                <a href="#" class="nav-item">Pharmacology</a>
+                <a href="#" class="nav-item">Chemistry</a>
+                <a href="#" class="nav-item">General Studies</a>
+            </nav>
+        </div>
+</div>
+
+
+
+        <!-- coode for clickable buttons -->
+
+        <script>
+
+const categoryButtons = document.querySelectorAll('.category-btn');
+const buttons = document.querySelectorAll('.category-btn');
+
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+        console.log("Clicked: " + category); // Log to confirm button click
+        redirectToPage(category);
+    });
+});
+
+function redirectToPage(category) {
+    let pageUrl = '';
+
+    switch (category) {
+        case 'Cells':
+            pageUrl = 'mbc/MBC211.html'; // Replace with actual URL
+            break;
+        case 'Renal':
+            pageUrl = 'physiology/renal.html'; // Replace with actual URL
+            break;
+        case 'Medical Sociology':
+            pageUrl = 'anatomy/sociology'; // Replace with actual URL
+            break;
+        case 'Thorax':
+            pageUrl = 'anatomy/thorax'; // Replace with actual URL
+            break;
+        case 'Abdomen':
+            pageUrl = 'anatomy/abdomen'; // Replace with actual URL
+            break;
+        case 'Head and Neck':
+            pageUrl = 'anatomy/head&neck.html'; // Replace with actual URL
+            break;
+            case 'Histology':
+            pageUrl = 'anatomy/histology.html'; // Replace with actual URL
+            break;
+            case 'Embryology':
+            pageUrl = 'anatomy/embryology.html'; // Replace with actual URL
+            break;
+            case 'Neuroanatomy':
+            pageUrl = 'anatomy/neuroanatomy.html'; // Replace with actual URL
+            break;
+        default:
+            pageUrl = 'index.html'; // Default or fallback page
+    }
+
+    if (pageUrl) {
+        window.location.href = pageUrl;
+    } else {
+        console.error("Page URL not found for: " + category);
+    }
+}
+        </script>
+        <script src="courses.js"></script>
+</body>
+</html>
