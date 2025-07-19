@@ -63,13 +63,670 @@ document.addEventListener("DOMContentLoaded", () => {
     const quizzes = [
    
   
-  
+    {
+        category: "Cells",
+        questions: [
+          
+          
+  {
+    question: "Which scientist first used the term 'cell' to describe plant structures?",
+    options: [
+      "Antoine van Leeuwenhoek",
+      "Matthias Schleiden",
+      "Robert Hooke",
+      "Theodor Schwann"
+    ],
+    correctAnswer: "Robert Hooke",
+    explanation: "Robert Hooke coined the term 'cell' in 1665 after observing cork under a microscope."
+  },
+  {
+    question: "All of the following are components of eukaryotic cells EXCEPT:",
+    options: [
+      "Plasma membrane",
+      "Mitochondria",
+      "Peptidoglycan cell wall",
+      "Cytoplasm"
+    ],
+    correctAnswer: "Peptidoglycan cell wall",
+    explanation: "Peptidoglycan cell walls are characteristic of bacteria, not eukaryotic cells."
+  },
+  {
+    question: "Which of the following organisms is NOT classified as a Gram-negative bacterium?",
+    options: [
+      "Escherichia coli",
+      "Streptococcus pyogenes",
+      "Pseudomonas aeruginosa",
+      "Klebsiella pneumoniae"
+    ],
+    correctAnswer: "Streptococcus pyogenes",
+    explanation: "Streptococcus pyogenes is a Gram-positive bacterium."
+  },
+  {
+    question: "Which organelle is bean-shaped with a double membrane and folded inner membranes?",
+    options: [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Peroxisome"
+    ],
+    correctAnswer: "Mitochondrion",
+    explanation: "Mitochondria have a double membrane with inner folds called cristae."
+  },
+  {
+    question: "All of the following are true about smooth endoplasmic reticulum EXCEPT:",
+    options: [
+      "It transports lipids",
+      "It has ribosomes",
+      "It performs detoxification",
+      "It lacks ribosomes"
+    ],
+    correctAnswer: "It has ribosomes",
+    explanation: "Smooth ER lacks ribosomes; ribosomes are found on rough ER."
+  },
+  {
+    question: "Which scientist is credited with first observing 'animalcules' (microorganisms)?",
+    options: [
+      "Robert Brown",
+      "Antonie van Leeuwenhoek",
+      "Rudolf Virchow",
+      "Theodor Schwann"
+    ],
+    correctAnswer: "Antonie van Leeuwenhoek",
+    explanation: "Leeuwenhoek first described microorganisms as 'animalcules' in the 1670s."
+  },
+  {
+    question: "Which cell type remains permanently in G₀ phase?",
+    options: [
+      "Stable cells",
+      "Permanent cells",
+      "Labile cells",
+      "Germ cells"
+    ],
+    correctAnswer: "Permanent cells",
+    explanation: "Permanent cells such as neurons no longer re-enter the cell cycle and remain in G₀."
+  },
+  {
+    question: "In bacterial conjugation, genes are transferred ____.",
+    options: [
+      "Vertically",
+      "Diagonally",
+      "Randomly",
+      "Horizontally"
+    ],
+    correctAnswer: "Horizontally",
+    explanation: "Conjugation transfers genetic material between bacteria horizontally."
+  },
+  {
+    question: "Which structure is ONLY found in animal cells?",
+    options: [
+      "Chloroplast",
+      "Cell wall",
+      "Lysosome",
+      "Large central vacuole"
+    ],
+    correctAnswer: "Lysosome",
+    explanation: "Lysosomes are characteristic of animal cells; plants do not have them."
+  },
+  {
+    question: "Which of the following is TRUE about mycoplasma species?",
+    options: [
+      "They possess a rigid peptidoglycan wall",
+      "They are among the smallest free-living organisms",
+      "They have chloroplasts",
+      "They are multicellular"
+    ],
+    correctAnswer: "They are among the smallest free-living organisms",
+    explanation: "Mycoplasmas lack cell walls and are extremely small (0.2–0.3 μm)."
+  },
+  {
+    question: "Which statement is NOT included in the Cell Theory?",
+    options: [
+      "All living things are composed of cells",
+      "All cells come from pre-existing cells",
+      "Cells arise spontaneously",
+      "The cell is the basic unit of life"
+    ],
+    correctAnswer: "Cells arise spontaneously",
+    explanation: "Cell theory states cells come only from pre-existing cells, not by spontaneous generation."
+  },
+  {
+    question: "Which organelle is directly responsible for protein synthesis?",
+    options: [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Cytoskeleton"
+    ],
+    correctAnswer: "Ribosome",
+    explanation: "Ribosomes catalyze the assembly of amino acids into proteins."
+  },
+  {
+    question: "All of the following are Gram-positive cocci EXCEPT:",
+    options: [
+      "Bacillus megaterium",
+      "Streptococcus pneumoniae",
+      "Streptococcus pyogenes",
+      "Enterococcus faecalis"
+    ],
+    correctAnswer: "Bacillus megaterium",
+    explanation: "Bacillus megaterium is a Gram-positive rod, not a coccus."
+  },
+  {
+    question: "Which endoplasmic reticulum is studded with ribosomes?",
+    options: [
+      "Smooth ER",
+      "Rough ER",
+      "Both have ribosomes",
+      "Neither has ribosomes"
+    ],
+    correctAnswer: "Rough ER",
+    explanation: "Rough ER bears ribosomes on its cytosolic surface."
+  },
+  {
+    question: "Which is NOT included among the three major components of all cells?",
+    options: [
+      "DNA",
+      "Cytoplasm",
+      "Plasma membrane",
+      "Mitochondrial DNA"
+    ],
+    correctAnswer: "Mitochondrial DNA",
+    explanation: "Mitochondrial DNA is specific to mitochondria; the universal component is genomic DNA."
+  },
+  {
+    question: "Which scientist provided the first formal statement that all cells arise from pre-existing cells?",
+    options: [
+      "Matthias Schleiden",
+      "Theodor Schwann",
+      "Rudolf Virchow",
+      "Antonie van Leeuwenhoek"
+    ],
+    correctAnswer: "Rudolf Virchow",
+    explanation: "In 1855 Virchow stated 'Omnis cellula e cellula'—all cells from cells."
+  },
+  {
+    question: "Which is NOT a function of the smooth endoplasmic reticulum?",
+    options: [
+      "Detoxification",
+      "Lipid synthesis",
+      "Protein glycosylation",
+      "Calcium ion storage"
+    ],
+    correctAnswer: "Protein glycosylation",
+    explanation: "Protein glycosylation occurs in the rough ER and Golgi apparatus."
+  },
+  {
+    question: "Which of the following cell types is classified as labile?",
+    options: [
+      "Neurons",
+      "Cardiac muscle cells",
+      "Hepatocytes",
+      "Epithelial skin cells"
+    ],
+    correctAnswer: "Epithelial skin cells",
+    explanation: "Labile cells like skin epithelium continuously proliferate."
+  },
+  {
+    question: "Which organelle is NOT included in both plant and animal cells?",
+    options: [
+      "Golgi apparatus",
+      "Chloroplast",
+      "Ribosome",
+      "Nucleus"
+    ],
+    correctAnswer: "Chloroplast",
+    explanation: "Chloroplasts are unique to plant cells."
+  },
+  {
+    question: "Which statement about the physiological pH of 7.4 is correct?",
+    options: [
+      "It exists as cations",
+      "It exists as anions",
+      "It is highly acidic",
+      "It indicates a basic solution"
+    ],
+    correctAnswer: "It exists as anions",
+    explanation: "At pH 7.4, many groups exist in their anionic forms."
+  },
+  {
+    question: "Which of these is NOT a permanent cell type?",
+    options: [
+      "Neurons",
+      "Cardiac muscle cells",
+      "Bone marrow cells",
+      "Skeletal muscle cells"
+    ],
+    correctAnswer: "Bone marrow cells",
+    explanation: "Bone marrow cells are labile, not permanent."
+  },
+  {
+    question: "Which of the following is an oligosaccharide by definition?",
+    options: [
+      "Starch",
+      "Cellulose",
+      "Maltotriose",
+      "Glycogen"
+    ],
+    correctAnswer: "Maltotriose",
+    explanation: "Maltotriose has three monosaccharide units (oligo = 3–10)."
+  },
+  {
+    question: "All of the following are common to both plant and animal cells EXCEPT:",
+    options: [
+      "Mitochondria",
+      "Chloroplast",
+      "Endoplasmic reticulum",
+      "Golgi apparatus"
+    ],
+    correctAnswer: "Chloroplast",
+    explanation: "Chloroplasts occur only in plant cells."
+  },
+  {
+    question: "Which scientist stated that all animals are composed of cells in 1839?",
+    options: [
+      "Matthias Schleiden",
+      "Rudolf Virchow",
+      "Theodor Schwann",
+      "Robert Brown"
+    ],
+    correctAnswer: "Theodor Schwann",
+    explanation: "Schwann extended cell theory to animals in 1839."
+  },
+  {
+    question: "Which of these is NOT included in the cytoskeleton?",
+    options: [
+      "Microtubules",
+      "Microfilaments",
+      "Intermediate filaments",
+      "Endoplasmic reticulum"
+    ],
+    correctAnswer: "Endoplasmic reticulum",
+    explanation: "The ER is an organelle, not part of the cytoskeleton."
+  },
+  {
+    question: "Which Gram-positive bacterium is rod-shaped and spore-forming?",
+    options: [
+      "Streptococcus pneumoniae",
+      "Bacillus megaterium",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa"
+    ],
+    correctAnswer: "Bacillus megaterium",
+    explanation: "B. megaterium is a Gram-positive, spore-forming rod."
+  },
+  {
+    question: "Which cell theory statement is NOT included in the contributions of Schleiden, Schwann, and Virchow?",
+    options: [
+      "Cells are the basic unit of structure",
+      "All plants are made of cells",
+      "Energy is conserved within cells",
+      "All cells come from pre-existing cells"
+    ],
+    correctAnswer: "Energy is conserved within cells",
+    explanation: "Conservation of energy is a physical law, not part of classic cell theory."
+  },
+  {
+    question: "Which of the following is NOT a function of the plasma membrane?",
+    options: [
+      "Selective permeability",
+      "Protein synthesis",
+      "Cell signaling",
+      "Structural support"
+    ],
+    correctAnswer: "Protein synthesis",
+    explanation: "Protein synthesis occurs at ribosomes, not the plasma membrane."
+  },
+          
+          
+          
+          ],
+          },
   
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////// General Questions////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{
+        category: "Water",
+        questions: [
+          
+          
+{
+    question: "Water’s designation as the 'universal solvent' arises from its ability to:",
+    options: [
+      "Dissolve only nonpolar substances",
+      "Form ionic crystals",
+      "Dissolve a wide range of polar and ionic compounds",
+      "Act as a colloid"
+    ],
+    correctAnswer: "Dissolve a wide range of polar and ionic compounds",
+    explanation: "Water’s polarity and hydrogen bonding allow it to solvate many polar and ionic solutes."
+  },
+  {
+    question: "All of the following contribute to daily water intake EXCEPT:",
+    options: [
+      "Metabolic water",
+      "Drinking fluids",
+      "Inhaled air humidity",
+      "Water in food"
+    ],
+    correctAnswer: "Inhaled air humidity",
+    explanation: "Daily water intake derives from drinking, food, and metabolism; inhaled humidity is not consumed."
+  },
+  {
+    question: "Which compartment comprises approximately 75 % of the extracellular fluid volume?",
+    options: [
+      "Plasma",
+      "Transcellular fluid",
+      "Interstitial fluid",
+      "Lymph"
+    ],
+    correctAnswer: "Interstitial fluid",
+    explanation: "About 75% of ECF (≈10.5 L) is interstitial; plasma makes up the remaining 25%."
+  },
+  {
+    question: "At 25 °C, the ionization of pure water yields [H⁺] and [OH⁻] each equal to:",
+    options: [
+      "1 × 10⁻¹⁴ M",
+      "1 × 10⁻⁷ M",
+      "55.5 M",
+      "2 × 10⁻⁹ M"
+    ],
+    correctAnswer: "1 × 10⁻⁷ M",
+    explanation: "Pure water has [H⁺] = [OH⁻] = 10⁻⁷ M at 25 °C, giving Kw = 10⁻¹⁴."
+  },
+  {
+    question: "Which ion is the principal intracellular cation?",
+    options: [
+      "Sodium",
+      "Chloride",
+      "Calcium",
+      "Potassium"
+    ],
+    correctAnswer: "Potassium",
+    explanation: "Potassium is the chief cation inside cells, while sodium predominates extracellularly."
+  },
+  {
+    question: "Which of the following is NOT included in the main hormonal regulators of water and electrolyte balance?",
+    options: [
+      "Antidiuretic hormone (ADH)",
+      "Renin–angiotensin–aldosterone system (RAAS)",
+      "Atrial natriuretic factor (ANF)",
+      "Thyroid-stimulating hormone (TSH)"
+    ],
+    correctAnswer: "Thyroid-stimulating hormone (TSH)",
+    explanation: "TSH regulates thyroid function, not directly water or electrolyte balance."
+  },
+  {
+    question: "Water loss that occurs 'insensibly' refers to loss via:",
+    options: [
+      "Urine",
+      "Sweat glands",
+      "Skin evaporation and lungs",
+      "Feces"
+    ],
+    correctAnswer: "Skin evaporation and lungs",
+    explanation: "Insensible loss happens without solute excretion through skin and pulmonary evaporation."
+  },
+  {
+    question: "Which statement about total body water (TBW) in a 70 kg adult male is TRUE?",
+    options: [
+      "TBW ≈ 60 L",
+      "TBW ≈ 42 L",
+      "TBW ≈ 28 L",
+      "TBW ≈ 14 L"
+    ],
+    correctAnswer: "TBW ≈ 42 L",
+    explanation: "Total body water in a 70 kg man is ~60% of body weight, or ~42 L."
+  },
+  {
+    question: "All of the following fluids contain water as a lubricant EXCEPT:",
+    options: [
+      "Synovial fluid",
+      "Pleural fluid",
+      "Peritoneal fluid",
+      "Saliva"
+    ],
+    correctAnswer: "Saliva",
+    explanation: "Saliva aids digestion and oral lubrication but is not a joint/serous cavity lubricant."
+  },
+  {
+    question: "Which value approximate the molarity of pure water?",
+    options: [
+      "1 M",
+      "10 M",
+      "55.5 M",
+      "100 M"
+    ],
+    correctAnswer: "55.5 M",
+    explanation: "Pure water has a molarity of ~55.5 M (1000 g/L ÷ 18 g/mol)."
+  },
+  {
+    question: "An increase in plasma osmolality primarily triggers the sensation of ____ to restore water balance.",
+    options: [
+      "Satiety",
+      "Thirst",
+      "Nausea",
+      "Hypertension"
+    ],
+    correctAnswer: "Thirst",
+    explanation: "Elevated osmolality activates hypothalamic thirst centers to increase water intake."
+  },
+  {
+    question: "Which pair correctly matches compartment with its approximate volume in a 70 kg man?",
+    options: [
+      "Plasma 10.5 L",
+      "Intracellular fluid 14 L",
+      "Interstitial fluid 3.5 L",
+      "Extracellular fluid 14 L"
+    ],
+    correctAnswer: "Extracellular fluid 14 L",
+    explanation: "ECF is ~14 L; ICF is ~28 L, interstitial ~10.5 L, plasma ~3.5 L."
+  },
+  {
+    question: "Which of these anions plays the LEAST direct role in plasma acid–base balance?",
+    options: [
+      "Bicarbonate",
+      "Chloride",
+      "Phosphate",
+      "Sulphate"
+    ],
+    correctAnswer: "Sulphate",
+    explanation: "Bicarbonate, chloride, and phosphate are primary in acid–base buffering; sulphate less so."
+  },
+  {
+    question: "Which statement about metabolic water is CORRECT?",
+    options: [
+      "It accounts for ~50% of daily water needs",
+      "It is produced by oxidation of macronutrients",
+      "It is exhaled unchanged",
+      "It is derived from drinking fluids"
+    ],
+    correctAnswer: "It is produced by oxidation of macronutrients",
+    explanation: "Metabolic water arises internally via oxidation of fats, proteins, and carbohydrates."
+  },
+  {
+    question: "Which of the following is NOT included among the sources of metabolic water?",
+    options: [
+      "Fat oxidation",
+      "Glucose oxidation",
+      "Protein oxidation",
+      "Drinking metabolic juices"
+    ],
+    correctAnswer: "Drinking metabolic juices",
+    explanation: "Metabolic water is generated within cells, not ingested."
+  },
+  {
+    question: "All of these hormones increase water reabsorption EXCEPT:",
+    options: [
+      "ADH",
+      "Aldosterone",
+      "Atrial natriuretic factor",
+      "Angiotensin II"
+    ],
+    correctAnswer: "Atrial natriuretic factor",
+    explanation: "ANF promotes Na⁺ and water excretion, opposite to ADH, aldosterone, and Ang II."
+  },
+  {
+    question: "Which of the following correctly lists compartments from largest to smallest volume in a 70 kg man?",
+    options: [
+      "ECF > ICF > plasma",
+      "ICF > interstitial > plasma",
+      "Plasma > interstitial > ICF",
+      "ICF > plasma > interstitial"
+    ],
+    correctAnswer: "ICF > interstitial > plasma",
+    explanation: "ICF 28 L > interstitial 10.5 L > plasma 3.5 L."
+  },
+  {
+    question: "Which condition is NOT a typical symptom of dehydration?",
+    options: [
+      "Oliguria",
+      "Intense thirst",
+      "Mental confusion",
+      "Polyuria"
+    ],
+    correctAnswer: "Polyuria",
+    explanation: "Dehydration leads to decreased urine output (oliguria), not polyuria."
+  },
+  {
+    question: "Which of these is the principal extracellular cation?",
+    options: [
+      "Potassium",
+      "Sodium",
+      "Magnesium",
+      "Calcium"
+    ],
+    correctAnswer: "Sodium",
+    explanation: "Sodium is the main cation in extracellular fluid."
+  },
+  {
+    question: "All of the following statements about insensible water loss are TRUE EXCEPT:",
+    options: [
+      "Occurs via skin and lungs",
+      "Does not involve solute loss",
+      "Accounts for roughly 20 % of total water loss",
+      "Can be consciously regulated"
+    ],
+    correctAnswer: "Can be consciously regulated",
+    explanation: "Insensible loss is passive and not under voluntary control."
+  },
+  {
+    question: "Which factor does NOT significantly alter total body water percentage?",
+    options: [
+      "Age",
+      "Sex",
+      "Hydration status",
+      "Blood type"
+    ],
+    correctAnswer: "Blood type",
+    explanation: "Blood type does not influence body water composition."
+  },
+  {
+    question: "Which of the following fluid shifts would you expect if plasma protein content falls dramatically?",
+    options: [
+      "Water moves from interstitial to plasma",
+      "Water moves from plasma to interstitial",
+      "No net fluid shift",
+      "Water moves into cells"
+    ],
+    correctAnswer: "Water moves from plasma to interstitial",
+    explanation: "A drop in plasma oncotic pressure drives fluid into interstitial spaces."
+  },
+  {
+    question: "Which of these is NOT included among the major hormonal regulators of sodium and water excretion?",
+    options: [
+      "ANF",
+      "ADH",
+      "Insulin",
+      "Aldosterone"
+    ],
+    correctAnswer: "Insulin",
+    explanation: "Insulin affects glucose uptake; it is not a primary regulator of Na⁺/water balance."
+  },
+  {
+    question: "Which statement about the latent heat of vaporization of water is CORRECT?",
+    options: [
+      "It is lower than that of ethanol",
+      "It is about 40.65 kJ/mol at 25 °C",
+      "It refers to heat released during condensation",
+      "It is negligible in human thermoregulation"
+    ],
+    correctAnswer: "It is about 40.65 kJ/mol at 25 °C",
+    explanation: "Water’s latent heat of vaporization is ~40.65 kJ/mol, critical for evaporative cooling."
+  },
+  {
+    question: "Which process contributes the SMALLEST portion of daily water gain in humans?",
+    options: [
+      "Drinking beverages",
+      "Water in food",
+      "Metabolic water production",
+      "Direct absorption from air humidity"
+    ],
+    correctAnswer: "Direct absorption from air humidity",
+    explanation: "Humans do not significantly absorb water directly from inhaled air."
+  },
+          
+          
+          
+          ],
+          },
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////// General Questions////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////
+
+
+
+
+
+{
+        category: "Acidity",
+        questions: [
+          
+          
+          
+          
+          
+          ],
+          },
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////// General Questions////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////
+
+
+
+{
+        category: "General",
+        questions: [
+          
+          
+          
+          
+          
+          ],
+          },
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////// General Questions////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////
+
+
+
+
+
+
+//////////
       {
         category: "General Questions",
         questions: [
