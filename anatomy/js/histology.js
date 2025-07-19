@@ -75,6 +75,590 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const quizzes = [
     
+    {
+        category: "Cancer Cells",
+        questions: [
+          
+            {
+    question: "Which of the following best defines a neoplasm?",
+    options: [
+      "A mass of tissue that stops growing after the stimulus is removed",
+      "New growth of cells that ceases once the initiating factor is gone",
+      "An unregulated proliferation of cells that continues despite removal of stimulus",
+      "A controlled proliferation of cells in response to injury"
+    ],
+    correctAnswer: "An unregulated proliferation of cells that continues despite removal of stimulus",
+    explanation: "A neoplasm is characterized by abnormal, unregulated cell proliferation that persists even after the original growth stimulus is removed."
+  },
+  {
+    question: "All of the following are classifications of malignant tumors by cell origin EXCEPT:",
+    options: [
+      "Carcinoma",
+      "Sarcoma",
+      "Blastoma",
+      "Mesothelium"
+    ],
+    correctAnswer: "Blastoma",
+    explanation: "Blastomas are categories of tumors by tissue type (embryonal origin), not by cell origin classification like carcinoma or sarcoma."
+  },
+  {
+    question: "Which of the following tumor categories is characterized by ectopic, yet histologically normal, tissue?",
+    options: [
+      "Mixed tumor",
+      "Teratoma",
+      "Hamartoma",
+      "Choristoma"
+    ],
+    correctAnswer: "Choristoma",
+    explanation: "A choristoma consists of normal tissue in an abnormal location (ectopic)."
+  },
+  {
+    question: "Leukaemia is a malignancy of which tissue type?",
+    options: [
+      "Epithelial tissue",
+      "Bone marrow",
+      "Connective tissue",
+      "Lymph node"
+    ],
+    correctAnswer: "Bone marrow",
+    explanation: "Leukaemia arises from malignant proliferation of bone marrow cells."
+  },
+  {
+    question: "Which feature is NOT characteristic of anaplasia?",
+    options: [
+      "Pleomorphism",
+      "High degree of differentiation",
+      "Abnormal mitoses",
+      "Loss of architectural orientation"
+    ],
+    correctAnswer: "High degree of differentiation",
+    explanation: "Anaplasia refers to undifferentiated cells; a high degree of differentiation is contrary to anaplasia."
+  },
+  {
+    question: "All of the following are hallmarks of cancer cells EXCEPT:",
+    options: [
+      "Evasion of apoptosis",
+      "Limitless replicative potential",
+      "Dependence on external growth signals",
+      "Sustained angiogenesis"
+    ],
+    correctAnswer: "Dependence on external growth signals",
+    explanation: "Cancer cells often acquire self-sufficiency in growth signals rather than dependence on external ones."
+  },
+  {
+    question: "Which of these is NOT a recognized predisposing factor in cancer epidemiology?",
+    options: [
+      "Family genetics",
+      "Geography",
+      "Pulmonary function",
+      "Age"
+    ],
+    correctAnswer: "Pulmonary function",
+    explanation: "Pulmonary function is not listed among family/genetic, geography, environment, age, or sex as primary predisposing factors."
+  },
+  {
+    question: "All of the following hormones have been implicated in cancer development EXCEPT:",
+    options: [
+      "Estrogen",
+      "Anabolic steroids",
+      "Insulin",
+      "Contraceptive hormones"
+    ],
+    correctAnswer: "Insulin",
+    explanation: "Estrogen, anabolic steroids, and contraceptive hormones are known to influence cancer risk; insulin is not specifically listed."
+  },
+  {
+    question: "Which agent is NOT classified as a carcinogen in the provided text?",
+    options: [
+      "Radiation",
+      "Tobacco",
+      "Ultrasound",
+      "Viruses"
+    ],
+    correctAnswer: "Ultrasound",
+    explanation: "Radiation, tobacco, viruses, bacteria, chemicals, and dietary factors are noted carcinogens; ultrasound is not."
+  },
+  {
+    question: "Obesity contributes to all of the following health consequences EXCEPT:",
+    options: [
+      "Cardiovascular disease",
+      "Cancer",
+      "Hypertension",
+      "Osteoarthritis"
+    ],
+    correctAnswer: "Osteoarthritis",
+    explanation: "While obesity is linked to diabetes, cardiovascular disease, cancer, and hypertension, osteoarthritis is not mentioned in this context."
+  },
+  {
+    question: "Which of these is NOT a type of genetic regulatory gene in normal cell growth?",
+    options: [
+      "Proto-oncogene",
+      "Suppressor-oncogene",
+      "Apoptosis regulatory gene",
+      "Structural keratin gene"
+    ],
+    correctAnswer: "Structural keratin gene",
+    explanation: "Normal regulatory genes include proto-oncogenes, tumor suppressors, apoptosis regulators, and DNA repair genes; keratin is structural."
+  },
+  {
+    question: "Which gene can function both to promote and to suppress cell growth?",
+    options: [
+      "MYC",
+      "RAS",
+      "P53",
+      "RB"
+    ],
+    correctAnswer: "P53",
+    explanation: "P53 has dual roles in cell cycle regulation, acting in growth arrest, apoptosis induction, and DNA repair."
+  },
+  {
+    question: "All of the following describe features of cancer cell regulatory genes EXCEPT:",
+    options: [
+      "Proto-oncogenes are active",
+      "Suppressor oncogenes are inactive",
+      "DNA repair genes function normally",
+      "Apoptosis regulatory genes are abnormal"
+    ],
+    correctAnswer: "DNA repair genes function normally",
+    explanation: "In cancer cells, DNA repair genes fail, not function normally."
+  },
+  {
+    question: "Which step in self-sufficiency of growth signals involves a transcription factor?",
+    options: [
+      "Binding of growth factor to receptor",
+      "Activation limitation by RET protein",
+      "Signal transduction by RAS",
+      "MYC oncogene action"
+    ],
+    correctAnswer: "MYC oncogene action",
+    explanation: "MYC is a transcription factor that regulates gene expression in self-sufficient growth signaling."
+  },
+  {
+    question: "Which of the following is the first tumor suppressor gene ever discovered?",
+    options: [
+      "P53",
+      "RB",
+      "BRCA1",
+      "BCL2"
+    ],
+    correctAnswer: "RB",
+    explanation: "The RB gene was the first tumor suppressor identified, studied in retinoblastoma."
+  },
+  {
+    question: "All of these are steps in the extrinsic apoptosis pathway EXCEPT:",
+    options: [
+      "CD95L binding to receptor",
+      "Activation of caspase cascade",
+      "Mitochondrial outer membrane permeabilization",
+      "Death receptor signaling"
+    ],
+    correctAnswer: "Mitochondrial outer membrane permeabilization",
+    explanation: "Mitochondrial pathways describe the intrinsic pathway, not extrinsic."
+  },
+  {
+    question: "Which molecular interaction characterizes the intrinsic apoptosis pathway?",
+    options: [
+      "CD95L-receptor binding",
+      "BAX and BCL2 balance",
+      "Fas ligand activation",
+      "Death-inducing signaling complex formation"
+    ],
+    correctAnswer: "BAX and BCL2 balance",
+    explanation: "The intrinsic pathway hinges on pro-apoptotic BAX and anti-apoptotic BCL2 interactions at mitochondria."
+  },
+  {
+    question: "All of the following contribute to limitless replicative potential EXCEPT:",
+    options: [
+      "Telomerase activation",
+      "Progressive telomere shortening",
+      "P53 inactivation",
+      "Loss of proliferative arrest"
+    ],
+    correctAnswer: "Progressive telomere shortening",
+    explanation: "Progressive shortening limits replication; telomerase prevents shortening to enable limitless replication."
+  },
+  {
+    question: "Tumors require vascularization beyond which approximate diameter to sustain growth?",
+    options: [
+      "0.5 mm",
+      "1–2 mm",
+      "5 mm",
+      "10 mm"
+    ],
+    correctAnswer: "1–2 mm",
+    explanation: "Solid tumors cannot grow beyond about 1–2 mm in diameter without angiogenesis."
+  },
+  {
+    question: "Which factor is NOT directly mentioned as promoting tumor angiogenesis?",
+    options: [
+      "VEGF",
+      "bFGF",
+      "PDGF",
+      "EGF"
+    ],
+    correctAnswer: "EGF",
+    explanation: "VEGF and bFGF are cited as angiogenic; EGF is a growth factor but not specified here for angiogenesis."
+  },
+  {
+    question: "All of the following are methods in pathologic diagnosis EXCEPT:",
+    options: [
+      "Histological examination",
+      "Cytochemistry",
+      "Electron microscopy",
+      "Polymerase chain reaction"
+    ],
+    correctAnswer: "Polymerase chain reaction",
+    explanation: "PCR is a molecular technique, not listed among histology, cytology, histochemistry, or electron microscopy."
+  },
+  {
+    question: "Which tumor category is correctly matched with its description?",
+    options: [
+      "Hamartoma — Malignant mixed tissue",
+      "Teratoma — Mixed tissue types",
+      "Blastoma — Benign tumor of germ cells",
+      "Mixed tumor — Ectopic normal tissue"
+    ],
+    correctAnswer: "Teratoma — Mixed tissue types",
+    explanation: "Teratomas contain tissues from multiple germ layers; hamartomas are benign, and choristomas are ectopic."
+  },
+  {
+    question: "Who first described the tumor type called chordoma in 1857?",
+    options: [
+      "Rudolf Virchow",
+      "Ignaz Semmelweis",
+      "Robert Koch",
+      "Claude Bernard"
+    ],
+    correctAnswer: "Rudolf Virchow",
+    explanation: "Sir Rudolf Virchow first described chordoma in 1857."
+  },
+  {
+    question: "Which of these is NOT a category of ‘tumor makers’ in pathology?",
+    options: [
+      "Biochemical assay",
+      "Immunohistochemistry",
+      "Exfoliative cytology",
+      "Flow cytometry"
+    ],
+    correctAnswer: "Flow cytometry",
+    explanation: "Tumor markers include biochemical assays and immunohistochemistry; flow cytometry is not listed in this text."
+  },
+  {
+    question: "All of the following describe characteristics of cancer cell development EXCEPT:",
+    options: [
+      "Mono-clonality",
+      "Multi-step progression",
+      "Stable telomere length without telomerase",
+      "Accumulation of genetic mutations"
+    ],
+    correctAnswer: "Stable telomere length without telomerase",
+    explanation: "Cancer cells maintain telomeres via telomerase; stable length without telomerase is not a feature described."
+  },
+  {
+    question: "Which growth factor receptor interaction initiates self-sufficiency in growth signaling?",
+    options: [
+      "bFGF binding FGFR",
+      "PDGF binding PDGF receptor",
+      "EGF binding EGFR",
+      "Insulin binding InsR"
+    ],
+    correctAnswer: "PDGF binding PDGF receptor",
+    explanation: "Binding of PDGF to its specific receptor is the first step in self-sufficient growth signaling."
+  },
+  {
+    question: "All of the following regulatory proteins are involved in cell cycle progression EXCEPT:",
+    options: [
+      "Cyclin-dependent kinases (CDKs)",
+      "Cyclins",
+      "CDK4",
+      "BAX"
+    ],
+    correctAnswer: "BAX",
+    explanation: "BAX is involved in apoptosis regulation, not cell cycle progression."
+  },
+  {
+    question: "Which suppressor gene product acts as a ‘gatekeeper’ against tumor formation via cell cycle arrest and apoptosis?",
+    options: [
+      "RB",
+      "MYC",
+      "RAS",
+      "P53"
+    ],
+    correctAnswer: "P53",
+    explanation: "P53 induces cell cycle arrest or apoptosis to prevent tumor formation."
+  },
+  {
+    question: "All of the following describe tobacco’s role in cancer EXCEPT:",
+    options: [
+      "Responsible for 9 in 10 lung cancers",
+      "Known carcinogen since 1950",
+      "Single biggest cause of cancer",
+      "Causes less than 5% of smoking-related deaths"
+    ],
+    correctAnswer: "Causes less than 5% of smoking-related deaths",
+    explanation: "Tobacco is linked to 25–40% of smokers dying prematurely; it far exceeds 5%."
+  },
+  {
+    question: "Which lifestyle factor was NOT listed under obesity’s contributions to cancer risk?",
+    options: [
+      "Highly caloric diet rich in fat",
+      "Low physical activity",
+      "Refined carbohydrate intake",
+      "Regular moderate exercise"
+    ],
+    correctAnswer: "Regular moderate exercise",
+    explanation: "Obesity-linked lifestyle factors include high-calorie diets and low activity, not regular exercise."
+  },
+  {
+    question: "All of the following are included in molecular damage leading to cancer EXCEPT:",
+    options: [
+      "Single-nucleotide mutations",
+      "Chromosomal gain or loss",
+      "Epigenetic silencing",
+      "DNA repair gene failure"
+    ],
+    correctAnswer: "Epigenetic silencing",
+    explanation: "The text mentions mutations at nucleotide and chromosomal levels and DNA repair failure, not epigenetic changes."
+  },
+  {
+    question: "Which of the following is NOT a step in the self-sufficiency of growth signals sequence provided?",
+    options: [
+      "Growth factor–receptor binding",
+      "Signal transduction by RAS",
+      "Transcription activation by MYC",
+      "Mitochondrial release of cytochrome c"
+    ],
+    correctAnswer: "Mitochondrial release of cytochrome c",
+    explanation: "Cytochrome c release is part of intrinsic apoptosis, not growth signal self-sufficiency."
+  },
+  {
+    question: "Which pathological technique relies on antigen–antibody reactions to detect tumor antigens?",
+    options: [
+      "Electron microscopy",
+      "Histochemistry",
+      "Immunohistochemistry",
+      "Exfoliative cytology"
+    ],
+    correctAnswer: "Immunohistochemistry",
+    explanation: "Immunohistochemistry uses antigen–antibody reactions to identify specific proteins in tissues."
+  },
+  {
+    question: "All of the following are correct about blastomas EXCEPT:",
+    options: [
+      "They are malignant tumors",
+      "They originate from embryonal tissue",
+      "They are benign growths",
+      "They often occur in children"
+    ],
+    correctAnswer: "They are benign growths",
+    explanation: "Blastomas are malignant tumors of embryonal origin."
+  },
+  {
+    question: "Which of the following accurately matches a cytological method used in cancer diagnosis?",
+    options: [
+      "FNAC — Fine-needle aspiration cytology",
+      "EM — Exfoliative microscopy",
+      "IHC — Internal histochemical control",
+      "H&E — Histochemical eosin assay"
+    ],
+    correctAnswer: "FNAC — Fine-needle aspiration cytology",
+    explanation: "FNAC stands for fine-needle aspiration cytology, a common diagnostic method."
+  },
+  {
+    question: "All of the following statements about tumor angiogenesis are true EXCEPT:",
+    options: [
+      "VEGF stimulates new blood vessel growth",
+      "Tumors beyond 1–2 mm need vascularization",
+      "bFGF is involved in angiogenesis",
+      "Lymphatic vessels are the primary blood supply"
+    ],
+    correctAnswer: "Lymphatic vessels are the primary blood supply",
+    explanation: "Angiogenesis refers to blood vessel formation (not lymphatic) to supply nutrients to tumors."
+  },
+  {
+    question: "Which is NOT a hallmark of cancer’s evasion of apoptosis?",
+    options: [
+      "Overexpression of BCL2",
+      "Mutation in CD95L receptor",
+      "Upregulation of BAX",
+      "Defective death receptor signaling"
+    ],
+    correctAnswer: "Upregulation of BAX",
+    explanation: "Upregulation of BAX promotes apoptosis; cancer cells evade apoptosis by overexpressing BCL2 and disabling receptors."
+  },
+  {
+    question: "Which tumor diagnostic method would utilize exfoliated cells from body fluids?",
+    options: [
+      "Histological biopsy",
+      "Electron microscopy",
+      "Exfoliative cytology",
+      "Immunohistochemistry"
+    ],
+    correctAnswer: "Exfoliative cytology",
+    explanation: "Exfoliative cytology examines cells shed into body fluids for diagnosis."
+  },
+  {
+    question: "All of the following are genetic regulatory genes in normal cell growth EXCEPT:",
+    options: [
+      "Proto-oncogenes",
+      "Tumor suppressor genes",
+      "Telomerase genes",
+      "DNA repair genes"
+    ],
+    correctAnswer: "Telomerase genes",
+    explanation: "Telomerase is not a primary regulator of normal cell growth; proto-oncogenes, suppressors, and repair genes are."
+  },
+  {
+    question: "Which of the following best describes a hamartoma?",
+    options: [
+      "Malignant mixed tissue tumor",
+      "Benign overgrowth of native tissue",
+      "Ectopic normal tissue",
+      "Embryonal malignant tumor"
+    ],
+    correctAnswer: "Benign overgrowth of native tissue",
+    explanation: "A hamartoma is a benign, disorganized overgrowth of cells normally found in that tissue."
+  },
+  {
+    question: "All of the following describe teratomas EXCEPT:",
+    options: [
+      "Contain tissues from multiple germ layers",
+      "Are a form of mixed tumor",
+      "Arise from mesenchymal cells only",
+      "Can include hair, teeth, or bone"
+    ],
+    correctAnswer: "Arise from mesenchymal cells only",
+    explanation: "Teratomas arise from germ cells and can contain a variety of tissues, not solely mesenchymal."
+  },
+  {
+    question: "Which of the following is the single biggest cause of cancer related to lifestyle?",
+    options: [
+      "High-fat diet",
+      "Tobacco smoking",
+      "Physical inactivity",
+      "Alcohol consumption"
+    ],
+    correctAnswer: "Tobacco smoking",
+    explanation: "Smoking is identified as the single biggest cause of cancer, particularly lung cancer."
+  },
+  {
+    question: "All of the following steps occur in the molecular progression of cancer EXCEPT:",
+    options: [
+      "Mono-clonal expansion",
+      "Acquisition of multiple mutations",
+      "Immediate activation of telomerase at initiation",
+      "Failure of DNA repair mechanisms"
+    ],
+    correctAnswer: "Immediate activation of telomerase at initiation",
+    explanation: "Telomerase activation often occurs later to maintain replicative potential, not immediately at initiation."
+  },
+  {
+    question: "Which of the following does NOT describe a feature of dysplasia?",
+    options: [
+      "Loss of uniform growth",
+      "Architectural disorganization",
+      "Reversible abnormal proliferation",
+      "Permanent genetic alteration"
+    ],
+    correctAnswer: "Permanent genetic alteration",
+    explanation: "Dysplasia is reversible abnormal growth; permanent genetic changes characterize neoplasia."
+  },
+  {
+    question: "All of the following are recognized environmental carcinogens EXCEPT:",
+    options: [
+      "Asbestos",
+      "Ionizing radiation",
+      "Benzene",
+      "Sound pollution"
+    ],
+    correctAnswer: "Sound pollution",
+    explanation: "Asbestos, radiation, and chemicals like benzene are known carcinogens; sound pollution is not."
+  },
+  {
+    question: "Which of the following best explains the role of telomerase in cancer cells?",
+    options: [
+      "Shortens telomeres to trigger apoptosis",
+      "Maintains telomere length to allow endless division",
+      "Activates P53 to stop cell cycle",
+      "Repairs DNA damage at chromosome ends"
+    ],
+    correctAnswer: "Maintains telomere length to allow endless division",
+    explanation: "Telomerase preserves telomere length, granting cancer cells limitless replicative potential."
+  },
+          
+          
+          ],
+          }, 
+    
+    
+    
+    
+    
+    
+    
+    
+      {
+        category: "Stem Cells",
+        questions: [
+          
+          
+          
+          
+          ],
+          }, 
+          
+          
+          
+          
+          
+            {
+        category: "Molecular Biology",
+        questions: [
+          
+          
+          
+          
+          ],
+          }, 
+          
+          
+          
+          
+          
+            {
+        category: "Sex Typing",
+        questions: [
+          
+          
+          
+          
+          ],
+          }, 
+          
+          
+          
+          
+          
+            {
+        category: "Tissue and Plant Culture",
+        questions: [
+          
+          
+          
+          
+          ],
+          }, 
+    
+    
+    
+    
+    
+    
+    ////////////
+///////
+/////
+/////
+///////-////////$/&/&/$/$/$$/&/&/&-&-&&-$/$/$-$-$-$-$-$
 
 
 {
