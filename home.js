@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'Physiology':
                 pageUrl = 'physiology.html'; // Replace with actual URL
                 break;
-            case 'Medical Biochemistry':
-                pageUrl = '#'; // Replace with actual URL
+            case 'MBC':
+                pageUrl = 'mbc.html'; // Replace with actual URL
                 break;
             case 'Pharmacology':
                 pageUrl = 'pha.html'; // Replace with actual URL
