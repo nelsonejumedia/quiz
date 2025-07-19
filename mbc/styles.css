@@ -1,3 +1,15 @@
+.answer-btn.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.answer-btn.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #1e2736;
@@ -9,6 +21,114 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+/* side bar */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: none;
+    z-index: 5;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.content {
+    transition: filter 0.5s ease;
+}
+
+.content.blurred {
+    filter: blur(5px);
+}
+
+/* Update your existing sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -75%;
+    width: 75%;
+    height: 100%;
+    background-color: #1e2736;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    z-index: 10;
+}
+
+.sidebar.open {
+    transform: translateX(-100%);
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 30%;
+        right: -30%;
+    }
+}
+
+.back-img{
+    width:10px;
+}
+
+.icon-button{
+    background-color: transparent;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+    background-color:  #0a0e14;
+    border-radius: 50%;
+    margin-right: 1rem;
+   
+}
+
+.user-details h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.user-details p {
+    font-size: 14px;
+    color: #f4a261;
+    margin: 0;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #f4a261;
+}
+
+
+
 
 .container {
     width: 100%;
@@ -300,7 +420,8 @@ h1 {
 /* Desktop Styles */
 @media (min-width: 768px) {
     .container {
-        max-width: 800px;
+        max-width: 100%;
+        padding: 100px;
     }
 
     .score-container {
@@ -316,6 +437,10 @@ h1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    .category-btn{
+        height:100px;
     }
 
     #answer-options {
@@ -337,28 +462,6 @@ h1 {
 }
 
 
-
-
-
-
-
-
-/* Styling preview area */
-
-
- /* body {
-    font-family: Arial, sans-serif;
-    background-color: #1e2736;
-    color: white;
-    margin: 0;
-    padding: 0;
-} */
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 h1{
     text-align: center;
