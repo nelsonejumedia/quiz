@@ -64,6 +64,562 @@ document.addEventListener("DOMContentLoaded", () => {
    
   
   
+  {
+        category: "Anatomy Illustration",
+        questions: [
+          
+    {
+    question: "Which of the following earliest sources contained schematic drawings of internal organs around 1600 BCE?",
+    options: [
+      "Greek papyri",
+      "Egyptian medical papyri",
+      "Roman scrolls",
+      "Mesopotamian clay tablets"
+    ],
+    correctAnswer: "Egyptian medical papyri",
+    explanation: "Egyptian medical papyri from circa 1600 BCE include simple schematic drawings of organs."
+  },
+  {
+    question: "All of the following limited the accuracy of Greek and Roman anatomical manuscripts EXCEPT:",
+    options: [
+      "Taboos against human dissection",
+      "Reliance on animal anatomy",
+      "Use of copper-plate engraving",
+      "Transmission errors by scribes"
+    ],
+    correctAnswer: "Use of copper-plate engraving",
+    explanation: "Copper-plate engraving replaced woodcuts much later; Greek/Roman texts suffered from dissection taboos and scribal errors."
+  },
+  {
+    question: "What was a hallmark of the Alexandrian school around 300 BCE?",
+    options: [
+      "Systematic use of woodcuts",
+      "Accurate anatomical drawings based on human dissection",
+      "Highly stylized 'Five-Figure Series'",
+      "Carbon dust techniques"
+    ],
+    correctAnswer: "Accurate anatomical drawings based on human dissection",
+    explanation: "The Alexandrian school advanced anatomy through human dissection, though most original works are now lost."
+  },
+  {
+    question: "Which Islamic scholar, known in the West as Rhazes, contributed significantly to preserving and expanding Greek anatomical knowledge?",
+    options: [
+      "Ibn Sina (Avicenna)",
+      "Al-Razi",
+      "Mondino de Luzzi",
+      "Andreas Vesalius"
+    ],
+    correctAnswer: "Al-Razi",
+    explanation: "Al-Razi (Rhazes) preserved and expanded upon Greek medical texts during the Islamic Golden Age."
+  },
+  {
+    question: "All of the following are true of Mondino de Luzzi’s 'Anathomia' (1316) EXCEPT:",
+    options: [
+      "It featured woodcut illustrations",
+      "It attempted systematic depiction of structures",
+      "It introduced exploded views",
+      "It was published in the Medieval period"
+    ],
+    correctAnswer: "It introduced exploded views",
+    explanation: "Exploded and transparent views were Leonardo’s innovation in the Renaissance, not Mondino’s woodcuts."
+  },
+  {
+    question: "Which anatomical drawing series is characterized by stylized but often inaccurate depictions of five figures?",
+    options: [
+      "Carbon Dust Series",
+      "Five-Figure Series",
+      "Fabrica Woodcuts",
+      "Tabulae Anatomicae"
+    ],
+    correctAnswer: "Five-Figure Series",
+    explanation: "The Five-Figure Series was typical of Medieval anatomy and often lacked accuracy."
+  },
+  {
+    question: "All of the following Renaissance figures refined anatomical illustration accuracy EXCEPT:",
+    options: [
+      "Leonardo da Vinci",
+      "Andreas Vesalius",
+      "Juan Valverde de Amusco",
+      "Ibn Sina (Avicenna)"
+    ],
+    correctAnswer: "Ibn Sina (Avicenna)",
+    explanation: "Ibn Sina was active in the Medieval Islamic world; the others were Renaissance anatomists."
+  },
+  {
+    question: "Who introduced transparent and exploded views in anatomical drawings during the Renaissance?",
+    options: [
+      "Andreas Vesalius",
+      "Leonardo da Vinci",
+      "William Harvey",
+      "Max Brödel"
+    ],
+    correctAnswer: "Leonardo da Vinci",
+    explanation: "Leonardo pioneered transparent and exploded-view techniques in his anatomical sketches."
+  },
+  {
+    question: "Which anatomist produced a Latin edition of Vesalius’s work and further refined illustration accuracy in the 16th century?",
+    options: [
+      "Bartolomeo Eustachi",
+      "Frederik Ruysch",
+      "Govard Bidloo",
+      "Henry Gray"
+    ],
+    correctAnswer: "Bartolomeo Eustachi",
+    explanation: "Eustachi’s 16th-century plates refined Vesalian anatomy in his own publications."
+  },
+  {
+    question: "All of the following are innovations introduced in the 17th–18th centuries EXCEPT:",
+    options: [
+      "Naturalistic, three-dimensional illustration techniques",
+      "Copper-plate engraving",
+      "Carbon dust technique",
+      "Functional circulation drawings by William Harvey"
+    ],
+    correctAnswer: "Carbon dust technique",
+    explanation: "The carbon dust method was pioneered by Brödel in the 19th century, not in the 17th–18th centuries."
+  },
+  {
+    question: "Which pioneer’s engravings set new standards for anatomical accuracy in 1774 with a focus on the gravid uterus?",
+    options: [
+      "William Hunter",
+      "Andreas Vesalius",
+      "Mondino de Luzzi",
+      "Juan Valverde de Amusco"
+    ],
+    correctAnswer: "William Hunter",
+    explanation: "Hunter’s ‘The Anatomy of the Human Gravid Uterus’ (1774) was noted for its precision."
+  },
+  {
+    question: "Who first demonstrated the functional aspects of anatomy through circulation illustrations in 1628?",
+    options: [
+      "William Harvey",
+      "Henry Gray",
+      "Frederik Ruysch",
+      "Govard Bidloo"
+    ],
+    correctAnswer: "William Harvey",
+    explanation: "Harvey’s 1628 work on blood circulation highlighted anatomy’s functional dynamics."
+  },
+  {
+    question: "Which Dutch anatomist is renowned for introducing naturalistic and three-dimensional techniques alongside Frederik Ruysch?",
+    options: [
+      "Govard Bidloo",
+      "Juan Valverde de Amusco",
+      "Bartolomeo Eustachi",
+      "William Hunter"
+    ],
+    correctAnswer: "Govard Bidloo",
+    explanation: "Bidloo, like Ruysch, advanced anatomically accurate, three-dimensional depictions in the 17th century."
+  },
+  {
+    question: "All of the following technological advances appear in the Digital Era of anatomy illustration EXCEPT:",
+    options: [
+      "Computer-aided design (CAD)",
+      "Virtual reality applications",
+      "Woodcut printing",
+      "Interactive 3D anatomy programs"
+    ],
+    correctAnswer: "Woodcut printing",
+    explanation: "Woodcuts belong to pre-digital print history and are not part of modern digital techniques."
+  },
+  {
+    question: "Which innovation allowed animators to integrate anatomical models with CT and MRI scans?",
+    options: [
+      "Augmented reality applications",
+      "Carbon dust technique",
+      "Five-Figure Series",
+      "Transparent views"
+    ],
+    correctAnswer: "Augmented reality applications",
+    explanation: "AR overlays digital anatomy on imaging modalities, enhancing clinical and educational integration."
+  },
+  {
+    question: "All of the following emerged in the late 20th century for anatomy illustration EXCEPT:",
+    options: [
+      "Interactive digital modeling",
+      "Three-dimensional printing of interactive models",
+      "Graphite pencil shading techniques",
+      "Virtual reality anatomy experiences"
+    ],
+    correctAnswer: "Graphite pencil shading techniques",
+    explanation: "Pencil shading is a traditional method, whereas the others are late-20th-century digital advancements."
+  },
+  {
+    question: "Who among the following does NOT belong to the 19th-century evolution of anatomical illustration?",
+    options: [
+      "Max Brödel",
+      "Henry Gray",
+      "William Hunter",
+      "Andreas Vesalius"
+    ],
+    correctAnswer: "Andreas Vesalius",
+    explanation: "Vesalius was a Renaissance anatomist; the others were active in the 18th–19th centuries."
+  },
+  {
+    question: "Which technique pioneered by Max Brödel gave illustrations more dimensional quality in the late 1800s?",
+    options: [
+      "Carbon dust",
+      "Copper-plate engraving",
+      "Woodcut printing",
+      "Exploded views"
+    ],
+    correctAnswer: "Carbon dust",
+    explanation: "Brödel’s carbon dust method produced highly detailed, three-dimensional illustrations."
+  },
+  {
+    question: "All of the following didactics-driven texts were published before the Renaissance EXCEPT:",
+    options: [
+      "Egyptian medical papyri",
+      "Mondino de Luzzi’s Anathomia",
+      "De Humani Corporis Fabrica",
+      "Greek anatomical manuscripts"
+    ],
+    correctAnswer: "De Humani Corporis Fabrica",
+    explanation: "Vesalius’s Fabrica was published in 1543, during the Renaissance, not before."
+  }, 
+
+
+
+
+  {
+    question: "Which of the following best defines anatomy illustration?",
+    options: [
+      "A textual description of organ systems in medical textbooks",
+      "The visual depiction of anatomical structures through artistic and technical means",
+      "A photographic record of patient surgeries",
+      "An audio narration of physiological processes"
+    ],
+    correctAnswer: "The visual depiction of anatomical structures through artistic and technical means",
+    explanation: "Anatomy illustration refers specifically to visual representations—drawings, diagrams, models—of body structures, not textual, photographic, or audio records."
+  },
+  {
+    question: "All of the following are modern extensions of anatomy illustration EXCEPT:",
+    options: [
+      "Interactive digital models",
+      "Augmented reality applications",
+      "Hand-written anatomical mnemonics",
+      "Animations"
+    ],
+    correctAnswer: "Hand-written anatomical mnemonics",
+    explanation: "Modern anatomy illustration includes interactive 3D models, AR, and animations; hand-written mnemonics are learning aids but not visual illustrations."
+  },
+  {
+    question: "Which one of these is NOT listed as an importance of anatomy illustration?",
+    options: [
+      "Bridging theory and practice",
+      "Serving as a universal language for medical communication",
+      "Replacing hands-on cadaver dissection entirely",
+      "Facilitating patient education"
+    ],
+    correctAnswer: "Replacing hands-on cadaver dissection entirely",
+    explanation: "While anatomy illustrations aid understanding and communication, they do not replace the practical experience of dissection."
+  },
+  {
+    question: "During which historical period did Leonardo da Vinci produce his anatomical drawings?",
+    options: [
+      "Ancient Period",
+      "Medieval Period",
+      "Renaissance Period",
+      "19th Century"
+    ],
+    correctAnswer: "Renaissance Period",
+    explanation: "Leonardo da Vinci’s detailed dissections and drawings date from the Renaissance (1452–1519)."
+  },
+  {
+    question: "Which of these innovators challenged Galenic dogma with detailed woodcuts in 1543?",
+    options: [
+      "Ibn Sina",
+      "Andreas Vesalius",
+      "Mondino de Luzzi",
+      "William Harvey"
+    ],
+    correctAnswer: "Andreas Vesalius",
+    explanation: "Vesalius’s ‘De Humani Corporis Fabrica’ (1543) revolutionized anatomy by challenging Galen’s teachings."
+  },
+  {
+    question: "All of the following advancements belong to the 17th–18th centuries of anatomical illustration EXCEPT:",
+    options: [
+      "Copper-plate engraving",
+      "William Harvey’s circulation drawings",
+      "Max Brödel’s carbon dust technique",
+      "Naturalistic three-dimensional techniques"
+    ],
+    correctAnswer: "Max Brödel’s carbon dust technique",
+    explanation: "Brödel’s carbon dust method emerged in the 19th century, not during the 17th–18th centuries."
+  },
+  {
+    question: "Who pioneered the carbon dust technique in anatomical illustration?",
+    options: [
+      "Henry Gray",
+      "Max Brödel",
+      "Govard Bidloo",
+      "Bartolomeo Eustachi"
+    ],
+    correctAnswer: "Max Brödel",
+    explanation: "Max Brödel invented the carbon dust method in the late 19th century for high-detail, dimensional illustrations."
+  },
+  {
+    question: "Which of the following is NOT a type of anatomical illustration?",
+    options: [
+      "Photomicrography",
+      "Digital illustrations",
+      "Schematic electrophoresis diagrams",
+      "Scientific animation"
+    ],
+    correctAnswer: "Schematic electrophoresis diagrams",
+    explanation: "Electrophoresis diagrams depict laboratory processes, not anatomical structures."
+  },
+  {
+    question: "In what form of anatomical illustration are microscopes essential?",
+    options: [
+      "Hand-drawn Illustrations",
+      "Photomicrography",
+      "Digital Illustrations",
+      "Drama and Role-Play"
+    ],
+    correctAnswer: "Photomicrography",
+    explanation: "Photomicrography uses microscopes to capture images of microscopic anatomy."
+  },
+  {
+    question: "Which principle demands that illustrations maintain correct relative sizes among structures?",
+    options: [
+      "Scientific Accuracy",
+      "Clarity and Simplicity",
+      "Appropriate Scale and Proportion",
+      "Visual Balance"
+    ],
+    correctAnswer: "Appropriate Scale and Proportion",
+    explanation: "Appropriate scale and proportion ensure the relative sizes of anatomical parts are accurate."
+  },
+  {
+    question: "All of the following are principles of effective anatomical illustration EXCEPT:",
+    options: [
+      "Proper labeling and annotation",
+      "Artistic exaggeration of features",
+      "Correct perspective and orientation",
+      "Educational purpose focus"
+    ],
+    correctAnswer: "Artistic exaggeration of features",
+    explanation: "Effective illustrations avoid distortion or exaggeration to maintain scientific accuracy."
+  },
+  {
+    question: "Which tool would you choose for creating layered, editable digital diagrams?",
+    options: [
+      "Procreate",
+      "Electron microscope",
+      "Inking pens",
+      "Scriptwriting templates"
+    ],
+    correctAnswer: "Procreate",
+    explanation: "Procreate is graphic design software for detailed, layered digital illustrations."
+  },
+  {
+    question: "Which device is most appropriate for precision digital drawing in anatomy?",
+    options: [
+      "Light microscope",
+      "Graphic tablet (e.g., Wacom)",
+      "Ink marker",
+      "External hard drive"
+    ],
+    correctAnswer: "Graphic tablet (e.g., Wacom)",
+    explanation: "Graphic tablets allow fine control in digital illustration, unlike microscopes or storage."
+  },
+  {
+    question: "Which of the following audio-visual tools is least likely to directly depict anatomical structures?",
+    options: [
+      "Animation software",
+      "Video editing software",
+      "Music production apps",
+      "Photomicrography equipment"
+    ],
+    correctAnswer: "Music production apps",
+    explanation: "Music apps create mnemonic songs; they do not generate visual depictions of anatomy."
+  },
+  {
+    question: "Which historical period is characterized by stylized and often inaccurate 'Five-Figure Series' drawings?",
+    options: [
+      "Ancient Period",
+      "Medieval Period",
+      "Renaissance Period",
+      "Digital Era"
+    ],
+    correctAnswer: "Medieval Period",
+    explanation: "Medieval anatomy often used the 'Five-Figure Series' with stylized, inaccurate depictions."
+  },
+  {
+    question: "All of the following are among the listed benefits of anatomy illustration EXCEPT:",
+    options: [
+      "Enhancing memory retention",
+      "Increasing surgical success rates",
+      "Making learning more engaging",
+      "Supporting clinical reasoning"
+    ],
+    correctAnswer: "Increasing surgical success rates",
+    explanation: "While illustrations aid learning, direct surgical outcomes depend on multiple factors beyond visuals."
+  },
+  {
+    question: "Which 19th-century work set new didactic standards for medical students?",
+    options: [
+      "De Humani Corporis Fabrica",
+      "Gray’s Anatomy",
+      "The Anatomy of the Human Gravid Uterus",
+      "Mondino de Luzzi’s Anathomia"
+    ],
+    correctAnswer: "Gray’s Anatomy",
+    explanation: "Henry Gray’s 1858 textbook with detailed illustrations became a cornerstone for medical education."
+  },
+  {
+    question: "Which of the following is NOT a traditional sketching tool?",
+    options: [
+      "HB pencil",
+      "Ink pen",
+      "Drawing paper",
+      "Animation software"
+    ],
+    correctAnswer: "Animation software",
+    explanation: "Traditional sketching uses physical media such as pencils and paper, not digital animation tools."
+  },
+  {
+    question: "Which modern technology integrates anatomical illustration with imaging modalities like CT and MRI?",
+    options: [
+      "Copper-plate engraving",
+      "Augmented reality applications",
+      "Carbon dust technique",
+      "Woodcut printing"
+    ],
+    correctAnswer: "Augmented reality applications",
+    explanation: "AR can overlay digital models on radiological images for integrated anatomical study."
+  },
+  {
+    question: "Which principle focuses on drawing attention to key structures without overwhelming the viewer?",
+    options: [
+      "Visual Balance",
+      "Scientific Accuracy",
+      "Proper Labeling",
+      "Storytelling"
+    ],
+    correctAnswer: "Visual Balance",
+    explanation: "Visual balance uses contrast and emphasis to highlight important features clearly."
+  },
+  {
+    question: "All of the following are aspects of digital-era anatomical illustration EXCEPT:",
+    options: [
+      "Virtual reality applications",
+      "Interactive 3D programs",
+      "Woodcut prints",
+      "CAD-based renderings"
+    ],
+    correctAnswer: "Woodcut prints",
+    explanation: "Woodcuts are historical techniques, not part of late 20th-century digital advances."
+  },
+  {
+    question: "Which tool category includes Wacom tablets and iPads with stylus?",
+    options: [
+      "Photomicrography Equipment",
+      "Digital Illustration Devices",
+      "Animation Software",
+      "Audio Recording Devices"
+    ],
+    correctAnswer: "Digital Illustration Devices",
+    explanation: "Graphic tablets and stylus-equipped tablets are devices for digital drawing."
+  },
+  {
+    question: "Which era saw the first systematic woodcut anatomical illustrations?",
+    options: [
+      "Ancient Period",
+      "Medieval Period",
+      "Renaissance Period",
+      "Digital Era"
+    ],
+    correctAnswer: "Medieval Period",
+    explanation: "Mondino de Luzzi’s 1316 ‘Anathomia’ featured early woodcut illustrations."
+  },
+  {
+    question: "Which of these is NOT recommended under ‘Accessibility and Inclusiveness’ principle?",
+    options: [
+      "Using clear labels",
+      "Providing alternative text descriptions",
+      "Applying complex jargon without explanation",
+      "Designing for varied learning styles"
+    ],
+    correctAnswer: "Applying complex jargon without explanation",
+    explanation: "Inclusive illustrations avoid unexplained jargon, ensuring all learners can engage."
+  },
+  {
+    question: "Which historical figure preserved and expanded Greek anatomical knowledge during the Medieval Period?",
+    options: [
+      "Ibn Sina (Avicenna)",
+      "William Hunter",
+      "Leonardo da Vinci",
+      "Max Brödel"
+    ],
+    correctAnswer: "Ibn Sina (Avicenna)",
+    explanation: "Avicenna built upon Greek works in the Islamic Golden Age, preserving anatomical knowledge."
+  },
+  {
+    question: "Which educational video product is used for dynamic demonstration of anatomy topics?",
+    options: [
+      "Drama and Role-Play Illustrations",
+      "Educational Video Production",
+      "Photomicrography",
+      "Mnemonic Songs"
+    ],
+    correctAnswer: "Educational Video Production",
+    explanation: "Educational videos use film techniques to dynamically present anatomical concepts."
+  },
+  {
+    question: "All of the following are Audio and Music Creation Tools EXCEPT:",
+    options: [
+      "GarageBand",
+      "Audacity",
+      "Smartphone adapters for microscopes",
+      "Microphones"
+    ],
+    correctAnswer: "Smartphone adapters for microscopes",
+    explanation: "Adapters serve photomicrography, not audio recording or music production."
+  },
+  {
+    question: "Which principle ensures that an animation has a logical beginning, middle, and end?",
+    options: [
+      "Scientific Accuracy",
+      "Storytelling in Dynamic Illustrations",
+      "Visual Balance",
+      "Clarity and Simplicity"
+    ],
+    correctAnswer: "Storytelling in Dynamic Illustrations",
+    explanation: "Storytelling principle mandates clear narrative flow in animated or video content."
+  }, 
+
+
+
+],
+      },
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////
+  
+  
+  
+  {
+        category: "Photomicrography and Animation",
+        questions: [
+          
+  
+
+
+
+],
+      },
+  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////
+  
+  
+  
+  
+  
   
   
   {
