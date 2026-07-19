@@ -262,6 +262,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     ],
   },
+
+
+
+
+        
+        
   {
     category: "Chapter 1B",
     questions: [
@@ -454,6 +460,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     ],
   },
+
+
+
+        
   {
     category: "Chapter 1C",
     questions: [
