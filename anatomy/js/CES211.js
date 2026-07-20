@@ -63,6 +63,317 @@ document.addEventListener("DOMContentLoaded", () => {
     const quizzes = [
    
   
+   {
+        category: "All Chapters",
+        questions: [
+          
+
+            {
+        question: "According to the chapter, entrepreneurship is defined as the art of turning an idea into a business without regard to what?",
+        options: ["Initial resources", "Market demand", "Government policy", "Competitor strategy"],
+        correctAnswer: "Initial resources",
+        explanation: "The Introduction states entrepreneurship 'is the art of turning an idea into a business without regard to initial resources.'"
+      },
+      {
+        question: "Which of the following is NOT listed among the six functions of an entrepreneur?",
+        options: ["Perception and identification of business opportunities", "Selection of the legal form, location and site of the business", "Setting national interest rates", "Risk bearing"],
+        correctAnswer: "Setting national interest rates",
+        explanation: "The six functions are perception/identification of opportunities, selection of legal form/location/site, identification/selection/acquisition of resources, innovative and strategic planning, risk bearing, and management of ongoing enterprises."
+      },
+      {
+        question: "An entrepreneur's ability to have a clear idea in order for the company to develop to its greatest potential is best described by which characteristic?",
+        options: ["Vision", "Goals", "Objectives", "Motivation"],
+        correctAnswer: "Vision",
+        explanation: "Vision is defined as an entrepreneur needing a clear vision for the company to develop to its greatest potential."
+      },
+      {
+        question: "Entrepreneurs described as 'doers, achievers as well as goal and action oriented,' with the ability to set realistic and measurable targets, best fits under which characteristic?",
+        options: ["Goals", "Vision", "Drive and energy", "Self-confidence and control"],
+        correctAnswer: "Goals",
+        explanation: "The 'Goals' characteristic describes entrepreneurs with the ability and commitment to set realistic, measurable, attainable goals, and calls them doers and achievers."
+      },
+      {
+        question: "Which characteristic describes entrepreneurs who believe in self-determination, rely on their personal destinies, and have little belief based in fate?",
+        options: ["Self-confidence and control", "Mindful of uncertainty", "Desire to achieve", "Mental ability and creativity"],
+        correctAnswer: "Self-confidence and control",
+        explanation: "This is drawn directly from the description of 'Self-confidence and control' in the Characteristics of an Entrepreneur section."
+      },
+      {
+        question: "According to the text, successful entrepreneurs are inventive in their abilities to spot and seize chances mainly due to which characteristic?",
+        options: ["Mental ability and creativity", "Effective communication skills", "Time management skills", "Wealth creation skills"],
+        correctAnswer: "Mental ability and creativity",
+        explanation: "The text states entrepreneurs 'should be inventive, forecast developments, analyze possible challenges and decide choices' under Mental ability and creativity."
+      },
+      {
+        question: "Which skill enables an entrepreneur to view the company as an entire whole made up of interrelated, dependent functions and activities?",
+        options: ["Conceptual skills", "Technical skills", "Humane skills", "Family background"],
+        correctAnswer: "Conceptual skills",
+        explanation: "Conceptual skills help an entrepreneur see the company as a whole, e.g. in goal-setting, planning, and decision-making, since a change in one unit affects others."
+      },
+      {
+        question: "The ability to perform daily tasks using specialized knowledge, methods, processes, and techniques (e.g. mentoring, planning, environment monitoring) describes which skill?",
+        options: ["Technical skills", "Conceptual skills", "Humane skills", "Time management skills"],
+        correctAnswer: "Technical skills",
+        explanation: "Technical skills are defined as competence and proficiency in the industry, including specialized knowledge of methods, processes, procedures and techniques."
+      },
+      {
+        question: "Which characteristic reflects an entrepreneur's high tolerance for the ever-changing business environment and the use of new, sometimes conflicting, information from unfamiliar sources?",
+        options: ["Mindful of uncertainty", "Manage failures", "Undertake risk", "Problem solving"],
+        correctAnswer: "Mindful of uncertainty",
+        explanation: "The text says business builders 'constantly make decisions using new, and sometimes conflicting information gleaned from a variety of unfamiliar sources' under 'Mindful of uncertainty.'"
+      },
+      {
+        question: "In the Entrepreneurship Practice section, the process by which entrepreneurs convert their ideas into workable strategies through thorough business plans is called?",
+        options: ["Business planning", "Market Analysis", "Operations and execution", "Team building and leadership"],
+        correctAnswer: "Business planning",
+        explanation: "Business planning is defined as the process of converting ideas into workable strategies through creating thorough business plans covering vision, goals, target market and operational frameworks."
+      },
+      {
+        question: "According to the chapter, what specifically distinguishes entrepreneurs from regular businesspeople who merely carry out organising, coordinating, and planning?",
+        options: ["Their ability to generate purchasers or clients", "Their academic qualifications", "Their government connections", "Their age"],
+        correctAnswer: "Their ability to generate purchasers or clients",
+        explanation: "The chapter states entrepreneurs 'can generate purchasers or clients. This distinguishes entrepreneurs from regular businesspeople who merely carry out typical management tasks.'"
+      },
+      {
+        question: "Which function of entrepreneurs in the development of new markets involves combining land, labour, and money to produce goods and services?",
+        options: ["Mobilize Capital Resources", "Discover new sources of materials", "Introduce New Technologies, Industries and Products", "Market Analysis"],
+        correctAnswer: "Mobilize Capital Resources",
+        explanation: "Entrepreneurs are 'responsible for organising and coordinating the main production elements, including land, labour, and money' under Mobilize Capital Resources."
+      },
+      {
+        question: "The statement that entrepreneurs 'never settle for conventional or already-existing sources of resources' describes which function in the development of new markets?",
+        options: ["Discover new sources of materials", "Mobilize Capital Resources", "Introduce New Technologies, Industries and Products", "Adaptation and iteration"],
+        correctAnswer: "Discover new sources of materials",
+        explanation: "This is a direct paraphrase of the 'Discover new sources of materials' section."
+      },
+      {
+        question: "According to the chapter, what is a layperson's definition of 'capital resources,' as distinct from the economics definition (tools, structures, tangible productive resources)?",
+        options: ["Money", "Land", "Labour", "Time"],
+        correctAnswer: "Money",
+        explanation: "The text states, 'A layperson's definition of capital resources is money,' contrasting it with the economics definition."
+      },
+      {
+        question: "Which characteristic is described as entrepreneurs possessing 'an intense level of determination and desire to overcome hurdles, solve a problem and complete task' in building a successful enterprise?",
+        options: ["Problem solving", "Manage failures", "Taking Responsibility", "Undertake risk"],
+        correctAnswer: "Problem solving",
+        explanation: "This phrase appears verbatim under the 'Problem solving' characteristic."
+      },
+      {
+        question: "Effective communication skills and feedback are used by entrepreneurs primarily for what purpose, according to the chapter?",
+        options: ["To assess and take stock of their performance in order to improve", "To reduce staff salaries", "To avoid customer contact", "To delay decision-making"],
+        correctAnswer: "To assess and take stock of their performance in order to improve",
+        explanation: "The text states entrepreneurs 'use effective feedback approach to assess/take stock of their performance with the aim of improving on it.'"
+      },
+      {
+        question: "Which trait describes entrepreneurs who 'are not afraid of failure because failing is an opportunity to learn and improve'?",
+        options: ["Manage failures", "Undertake risk", "Problem solving", "Mindful of uncertainty"],
+        correctAnswer: "Manage failures",
+        explanation: "This is the definition given for the 'Manage failures' characteristic of an entrepreneur."
+      },
+      {
+        question: "Which characteristic involves an entrepreneur having clear objectives about the items to be produced and ancillary activities to be carried out, aiding their sense of direction?",
+        options: ["Objectives", "Vision", "Goals", "Motivation"],
+        correctAnswer: "Objectives",
+        explanation: "Objectives are described as clarity about items to be produced and ancillary activities, aiding the entrepreneur's ability to turn their idea into reality and offer direction."
+      },
+      {
+        question: "Which characteristic describes entrepreneurs having 'a strong sense of enthusiasm, optimism, and self-motivation,' constantly eager to take the lead?",
+        options: ["Motivation", "Desire to achieve", "Drive and energy", "Self-confidence and control"],
+        correctAnswer: "Motivation",
+        explanation: "This is a direct paraphrase of the 'Motivation' characteristic."
+      },
+      {
+        question: "Which characteristic describes entrepreneurs as typically having 'a strong desire to achievement as primary motivating force'?",
+        options: ["Desire to achieve", "Motivation", "Goals", "Objectives"],
+        correctAnswer: "Desire to achieve",
+        explanation: "This is the exact phrase used to describe the 'Desire to achieve' characteristic."
+      },
+      {
+        question: "Which characteristic states that entrepreneurs 'possess the capacity to work for long hours,' calling long hours and hard work 'the rules to achieve and maintain a successful enterprise'?",
+        options: ["Drive and energy", "Desire to achieve", "Take and tolerate risk", "Long term planning and perseverance"],
+        correctAnswer: "Drive and energy",
+        explanation: "This is the exact description given for 'Drive and energy.'"
+      },
+      {
+        question: "Which characteristic states that 'an entrepreneur needs to and be willing to take and tolerate a lot of risk in order to achieve the stated objectives'?",
+        options: ["Take and tolerate risk", "Undertake risk", "Manage failures", "Mindful of uncertainty"],
+        correctAnswer: "Take and tolerate risk",
+        explanation: "This is drawn directly from the 'Take and tolerate risk' characteristic description."
+      },
+      {
+        question: "Which characteristic emphasizes that establishing a successful enterprise 'requires long-term planning and all-round commitment from an entrepreneur'?",
+        options: ["Long term planning and perseverance", "Taking Responsibility", "Wealth creation skills", "Time management skills"],
+        correctAnswer: "Long term planning and perseverance",
+        explanation: "The chapter states, 'Establishing a successful enterprise requires long-term planning and all-round commitment from an entrepreneur.'"
+      },
+      {
+        question: "Which characteristic simply states that entrepreneurs 'undertake calculated and defined risks'?",
+        options: ["Undertake risk", "Take and tolerate risk", "Manage failures", "Problem solving"],
+        correctAnswer: "Undertake risk",
+        explanation: "This is a distinct, shorter characteristic in the list: 'Entrepreneurs undertake calculated and defined risks.'"
+      },
+      {
+        question: "According to the chapter, what is described as 'necessary to enhance the management of the entrepreneur's endeavours'?",
+        options: ["Formal education in relevant areas", "Access to social media", "A large family network", "Government subsidies"],
+        correctAnswer: "Formal education in relevant areas",
+        explanation: "The 'Education' characteristic states, 'Formal education in relevant areas is necessary to enhance the management of the entrepreneur's endeavours.'"
+      },
+      {
+        question: "Which characteristic reflects entrepreneurs having 'a deep sense of personal responsibility for the success or failure of the business'?",
+        options: ["Taking Responsibility", "Internal locus of control belief", "Manage failures", "Undertake risk"],
+        correctAnswer: "Taking Responsibility",
+        explanation: "This phrase is taken directly from the 'Taking Responsibility' characteristic."
+      },
+      {
+        question: "Which characteristic describes successful entrepreneurs as being 'known for effectively procurement and use of human and material resources efficiently and effective in order to achieve organizational goals'?",
+        options: ["Procurement and use of resources", "Wealth creation skills", "Time management skills", "Knowledge of commercial and business laws"],
+        correctAnswer: "Procurement and use of resources",
+        explanation: "This is a near-verbatim quote from the 'Procurement and use of resources' characteristic."
+      },
+      {
+        question: "Which characteristic requires entrepreneurs to 'cultivate a habit to use the available time optimally to achieve productivity'?",
+        options: ["Time management skills", "Drive and energy", "Procurement and use of resources", "Long term planning and perseverance"],
+        correctAnswer: "Time management skills",
+        explanation: "This is a direct quote from the 'Time management skills' characteristic."
+      },
+      {
+        question: "Which characteristic reflects that 'every entrepreneur's ambition is to create wealth for the benefits of owners, employees and society'?",
+        options: ["Wealth creation skills", "Desire to achieve", "Objectives", "Taking Responsibility"],
+        correctAnswer: "Wealth creation skills",
+        explanation: "This is a direct quote describing the 'Wealth creation skills' characteristic."
+      },
+      {
+        question: "According to the chapter, a basic knowledge of taxation, accounting, and business management is described as essential to what?",
+        options: ["Making the life of an entrepreneur easier", "Reducing government taxes", "Avoiding all business risk", "Guaranteeing business success"],
+        correctAnswer: "Making the life of an entrepreneur easier",
+        explanation: "The 'Knowledge of commercial and business laws' characteristic states this basic knowledge 'is essential to make the life of an entrepreneur easier.'"
+      },
+      {
+        question: "Which characteristic describes high-performing entrepreneurs who 'possess internalized kind of competitive spirit in which they continuously engage in competition to beat previous best performance'?",
+        options: ["Competing against internal objective and standards", "Desire to achieve", "Self-confidence and control", "Undertake risk"],
+        correctAnswer: "Competing against internal objective and standards",
+        explanation: "This is the exact description of the 'Competing against internal objective and standards' characteristic."
+      },
+      {
+        question: "Which characteristic holds that 'the success or failure of a new business enterprise depends on the entrepreneur's personal accomplishments, personal control and influence'?",
+        options: ["Internal locus of control belief", "Taking Responsibility", "Self-confidence and control", "Mindful of uncertainty"],
+        correctAnswer: "Internal locus of control belief",
+        explanation: "This is a direct quote describing the 'Internal locus of control belief' characteristic."
+      },
+      {
+        question: "Which characteristic emphasizes that 'it is necessary for an entrepreneur to acquire relevant experience' before undertaking a business venture, to understand potential pitfalls?",
+        options: ["Experience", "Education", "Mindful of uncertainty", "Problem solving"],
+        correctAnswer: "Experience",
+        explanation: "This is a direct quote describing the 'Experience' characteristic."
+      },
+      {
+        question: "Which characteristic requires an entrepreneur to have 'good social skills,' emotional stability, and compassion in order to build rapport with customers and employees?",
+        options: ["Humane skills", "Conceptual skills", "Technical skills", "Effective communication skills and feedback"],
+        correctAnswer: "Humane skills",
+        explanation: "This describes 'Humane skills,' which requires emotional stability, interpersonal interactions, compassion and tact."
+      },
+      {
+        question: "Which factor describes entrepreneurs being 'motivated to branch out on their own from their parents who are successful entrepreneurs'?",
+        options: ["Family background", "Experience", "Education", "Internal locus of control belief"],
+        correctAnswer: "Family background",
+        explanation: "This is the exact description given for 'Family background' as an entrepreneurial characteristic/factor."
+      },
+      {
+        question: "According to the chapter, function (ii) among an entrepreneur's duties is 'Selection of the legal form, location and site of the ___'?",
+        options: ["business", "market", "product", "employees"],
+        correctAnswer: "business",
+        explanation: "Function (ii) is listed as 'Selection of the legal form, location and site of the business.'"
+      },
+      {
+        question: "Function (iv) among the entrepreneur's listed duties is 'Innovative and strategic ___'?",
+        options: ["planning", "financing", "marketing", "hiring"],
+        correctAnswer: "planning",
+        explanation: "Function (iv) is 'Innovative and strategic planning.'"
+      },
+      {
+        question: "Which function is listed last (function vi) among the six functions of an entrepreneur?",
+        options: ["Management of the ongoing enterprises", "Risk bearing", "Innovative and strategic planning", "Perception and identification of business opportunities"],
+        correctAnswer: "Management of the ongoing enterprises",
+        explanation: "The sixth and final listed function is 'Management of the ongoing enterprises.'"
+      },
+      {
+        question: "Which function directly precedes 'Risk bearing' in the chapter's list of entrepreneur functions?",
+        options: ["Innovative and strategic planning", "Selection of the legal form, location and site of the business", "Perception and identification of business opportunities", "Management of the ongoing enterprises"],
+        correctAnswer: "Innovative and strategic planning",
+        explanation: "The order given is: perception/identification, legal form/location, resource identification/acquisition, innovative/strategic planning, risk bearing, management."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves market research to comprehend client wants, market trends, and competitive environments?",
+        options: ["Market Analysis", "Business planning", "Operations and execution", "Financial management"],
+        correctAnswer: "Market Analysis",
+        explanation: "Market Analysis is defined as entrepreneurs doing market research and analysis to comprehend client wants, trends, and competitive environments."
+      },
+      {
+        question: "Which entrepreneurship practice activity covers planning, forecasting, cash flow management, and financial decision-making, including locating financing sources?",
+        options: ["Financial management", "Marketing and sales", "Adaptation and iteration", "Networking and collaboration"],
+        correctAnswer: "Financial management",
+        explanation: "Financial management involves overseeing financial matters including planning, forecasting, cash flow management and financial decision-making."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves overseeing manufacturing, logistics, quality assurance, and supply chain management to deliver goods quickly?",
+        options: ["Operations and execution", "Team building and leadership", "Learning and development", "Market Analysis"],
+        correctAnswer: "Operations and execution",
+        explanation: "Operations and execution involves putting in place operational systems and procedures to supply goods or services quickly, overseeing manufacturing, logistics, quality assurance and supply chain."
+      },
+      {
+        question: "Which entrepreneurship practice activity includes creating marketing plans with ideas for branding, advertising, and customer acquisition?",
+        options: ["Marketing and sales", "Business planning", "Financial management", "Adaptation and iteration"],
+        correctAnswer: "Marketing and sales",
+        explanation: "Marketing and sales is defined as creating marketing plans including branding, advertising and customer acquisition tactics."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves hiring, developing, and overseeing staff members to create and manage productive teams?",
+        options: ["Team building and leadership", "Networking and collaboration", "Operations and execution", "Learning and development"],
+        correctAnswer: "Team building and leadership",
+        explanation: "Team building and leadership involves hiring, developing, and overseeing staff members, encouraging cooperation and a great work environment."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves entrepreneurs constantly modifying their strategies and business models based on client feedback and market realities?",
+        options: ["Adaptation and iteration", "Business planning", "Market Analysis", "Team building and leadership"],
+        correctAnswer: "Adaptation and iteration",
+        explanation: "Adaptation and iteration describes entrepreneurs constantly modifying strategies based on client feedback, market realities, and evolving business demands."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves entrepreneurs cultivating connections with stakeholders and looking for alliances or collaborations?",
+        options: ["Networking and collaboration", "Learning and development", "Financial management", "Operations and execution"],
+        correctAnswer: "Networking and collaboration",
+        explanation: "Networking and collaboration facilitates resource access, industry intelligence, and synergistic business growth through stakeholder connections."
+      },
+      {
+        question: "Which entrepreneurship practice activity involves a commitment to lifelong learning through conferences, workshops, and courses to advance knowledge and abilities?",
+        options: ["Learning and development", "Adaptation and iteration", "Networking and collaboration", "Team building and leadership"],
+        correctAnswer: "Learning and development",
+        explanation: "Learning and development describes entrepreneurs' commitment to lifelong learning, taking lessons from both triumphs and mistakes."
+      },
+      {
+        question: "Which function in the development of new markets involves entrepreneurs using business possibilities and turning them into profits as 'inventors and prudent risk-takers'?",
+        options: ["Introduce New Technologies, Industries and Products", "Mobilize Capital Resources", "Discover new sources of materials", "Market Analysis"],
+        correctAnswer: "Introduce New Technologies, Industries and Products",
+        explanation: "This function describes entrepreneurs as inventors and prudent risk-takers who provide new or distinct introductions that benefit the economy."
+      },
+      {
+        question: "According to the chapter, what economic term describes people who are 'ready and able to meet people's demands through their efforts,' distinguishing them as developing markets?",
+        options: ["Effective demand", "Capital resources", "Market equilibrium", "Purchasing power"],
+        correctAnswer: "Effective demand",
+        explanation: "The chapter states this readiness and ability to meet demand 'is referred to as effective demand in economics.'"
+      },
+      {
+        question: "According to the chapter, which sector is described as 'the largest employer,' supporting millions of jobs through industrial, service, and agricultural companies?",
+        options: ["The private business sector", "The public/government sector", "The informal barter sector", "The non-governmental sector"],
+        correctAnswer: "The private business sector",
+        explanation: "The chapter states, 'The private business sector is the largest employer,' citing examples like SM, Uniwide, Robinson, SMC, Ayala, and the Soriano group of firms."
+      }
+
+    
+],
+      },
+
+ 
   
   
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
