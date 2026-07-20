@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
    
   
   {
-    category: "Chapter 1A",
+    category: "1A",
     questions: [
       {
         question: "According to the chapter, entrepreneurship is defined as the art of turning an idea into a business without regard to what?",
@@ -368,8 +368,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     ],
   },
+        
   {
-    category: "Chapter 1B",
+    category: "1B",
     questions: [
       {
         question: "According to Clarence Danhof's classification, which type of entrepreneur 'puts knowledge together, synthesizes it, and develops novel production components'?",
@@ -674,7 +675,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
   },
   {
-    category: "Chapter 1C",
+    category: "1C",
     questions: [
       {
         question: "According to the chapter, entrepreneurial education promotes competitiveness, employment, and social/economic growth while breaking through the barriers of gender, class, race, sexual orientation, and what other factor?",
