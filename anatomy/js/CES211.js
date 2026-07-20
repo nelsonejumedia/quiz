@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
    
   
    {
-        category: "All Chapters",
+        category: "CES311-1A",
         questions: [
           
 
