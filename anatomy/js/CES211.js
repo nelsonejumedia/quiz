@@ -3391,28 +3391,6 @@ function selectAnswer(selectedButton, selectedOption) {
   });
   selectedButton.classList.add("selected");
 
-
-function startTimer() {
-      let timeLeft = 30; // 3 minutes
-      const timerElement = document.getElementById("timer");
-  
-      clearInterval(timer);
-      timer = setInterval(() => {
-        const minutes = Math.floor(timeLeft / 60);
-        const seconds = timeLeft % 60;
-        timerElement.textContent = `${minutes
-          .toString()
-          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")} sec`;
-  
-        if (timeLeft === 0) {
-          clearInterval(timer);
-          submitAnswer();
-        }
-        timeLeft--;
-      }, 1000);
-    }
-
-
   setTimeout(() => {
     const currentQuestion = currentQuiz.questions[currentQuestionIndex];
     const correctAnswer = currentQuestion.correctAnswer;
@@ -3435,6 +3413,31 @@ function startTimer() {
       submitAnswer();
     }, 2250);
   }, 250);
+}
+
+function startTimer() {
+  let timeLeft = 30; // 30 seconds
+  const timerElement = document.getElementById("timer");
+
+  if (!timerElement) return;
+
+  clearInterval(timer);
+  timerElement.textContent = `00:30 sec`;
+
+  timer = setInterval(() => {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    timerElement.textContent = `${minutes
+      .toString()
+      .padStart(2, "0")}:${seconds.toString().padStart(2, "0")} sec`;
+
+    if (timeLeft === 0) {
+      clearInterval(timer);
+      submitAnswer();
+      return;
+    }
+    timeLeft--;
+  }, 1000);
 }
 
 function submitAnswer() {
