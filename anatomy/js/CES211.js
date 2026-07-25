@@ -61,7 +61,932 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
     const quizzes = [
-   
+               {
+        category: "CES311-3",
+        questions: [
+
+
+  {
+    question: "What are becoming more and more vital for both new and established enterprises?",
+    options: ["Entrepreneurial strategies", "Environmental dynamics", "Environmental factors", "Tactics"],
+    correctAnswer: "Entrepreneurial strategies",
+    explanation: "Entrepreneurial strategies are becoming more and more vital for both new and established enterprises."
+  },
+  {
+    question: "What is the essence of entrepreneurship?",
+    options: ["Strategic management", "Identification and exploitation of opportunities", "Strategy formulation", "Risk-aversion"],
+    correctAnswer: "Identification and exploitation of opportunities",
+    explanation: "The identification and exploitation of opportunities is the essence of entrepreneurship."
+  },
+  {
+    question: "What refers to how opportunities are transformed into viable competitive advantages for entrepreneurs?",
+    options: ["Creativity", "Innovation", "Strategic management", "Risk-taking"],
+    correctAnswer: "Strategic management",
+    explanation: "Strategic management refers to how opportunities are transformed into viable competitive advantages for entrepreneurs."
+  },
+  {
+    question: "What contribute to the creation of values independently, but could contribute even more when integrated?",
+    options: [
+      "Entrepreneurial and management actions",
+      "Creativity and Innovation",
+      "Risk-aversion and risk-taking",
+      "Entrepreneurial and strategic actions"
+    ],
+    correctAnswer: "Entrepreneurial and strategic actions",
+    explanation: "Entrepreneurial and strategic actions contribute to value creation independently, and more so when integrated."
+  },
+  {
+    question: "What is the most promising aspect to be integrated into entrepreneurship?",
+    options: ["Strategic management", "Tactics", "Innovation", "Creativity and innovation"],
+    correctAnswer: "Strategic management",
+    explanation: "Strategic management is the most promising aspect to be integrated into entrepreneurship."
+  },
+  {
+    question: "What are complementary and can achieve the greatest wealth when integrated?",
+    options: [
+      "Wealth creation and development",
+      "Entrepreneurial and strategic actions",
+      "Wealth creation and exploration",
+      "None of the above"
+    ],
+    correctAnswer: "Entrepreneurial and strategic actions",
+    explanation: "Entrepreneurial and strategic actions are complementary and can achieve the greatest wealth when integrated."
+  },
+  {
+    question: "While entrepreneurship focuses on creation, strategic management focuses on what?",
+    options: ["Growth", "Growth and Development", "Building a competitive advantage", "Planning"],
+    correctAnswer: "Building a competitive advantage",
+    explanation: "While entrepreneurship focuses on creation, strategic management focuses on building a competitive advantage."
+  },
+  {
+    question: "One of the key challenges for entrepreneurs is to deal with what?",
+    options: ["Creativity", "Innovativeness", "Business ideas", "Strategic changes"],
+    correctAnswer: "Strategic changes",
+    explanation: "One of the key challenges for entrepreneurs is to deal with strategic changes."
+  },
+  {
+    question: "What defines the businesses of an enterprise and how its activities are structured and managed?",
+    options: ["Corporate strategy", "Management", "Tactics", "Risk management"],
+    correctAnswer: "Corporate strategy",
+    explanation: "Corporate strategy defines the businesses of an enterprise and how its activities are structured and managed."
+  },
+  {
+    question: "What embraces marketing, human resources and research and development strategies of the enterprise?",
+    options: ["Functional level strategy", "Business level strategy", "Corporate level strategy", "Implementation strategy"],
+    correctAnswer: "Functional level strategy",
+    explanation: "Functional level strategy embraces marketing, human resources, and R&D strategies of the enterprise."
+  },
+  {
+    question: "The acronym 'SWOT' stands for what?",
+    options: [
+      "Strength, weakness, opportunities and thirst",
+      "Strength, weaknesses, opportunities and threats",
+      "Strength, weaknesses, originality and thirst",
+      "Strength, weaknesses, originality and thirst"
+    ],
+    correctAnswer: "Strength, weaknesses, opportunities and threats",
+    explanation: "SWOT stands for Strength, Weaknesses, Opportunities, and Threats."
+  },
+  {
+    question: "The six 'natural' areas where the intersection between entrepreneurship and strategic management exist include what?",
+    options: [
+      "Internationalization, innovations, learning, team governance, network and growth",
+      "Innovations, organization, learning, management teams and governance, networks and growth",
+      "Internationalization, innovations, organizational learning, top management teams and governance, networks and growth",
+      "None of the above"
+    ],
+    correctAnswer: "Internationalization, innovations, organizational learning, top management teams and governance, networks and growth",
+    explanation: "The six natural areas of intersection include internationalization, innovations, organizational learning, top management teams and governance, and networks and growth."
+  },
+  {
+    question: "What refers to the constitutive elements of SMEs' strategy?",
+    options: [
+      "Entrepreneur, control, process and business plan",
+      "Strategy, process and business plan",
+      "Business plan and strategic control",
+      "Entrepreneur, strategy control, strategy process and business plan"
+    ],
+    correctAnswer: "Entrepreneur, strategy control, strategy process and business plan",
+    explanation: "The constitutive elements of SMEs' strategy refer to entrepreneur, strategy control, strategy process, and business plan."
+  },
+  {
+    question: "What is often the foundation of creations in entrepreneurship?",
+    options: ["Innovation", "Creativity", "Management strategy", "Strategic planning"],
+    correctAnswer: "Innovation",
+    explanation: "Innovation is often the foundation of creations in entrepreneurship."
+  },
+  {
+    question: "What help enterprises develop resources/capabilities that are complex to imitate, leading to a competitive advantage?",
+    options: [
+      "Alliances and strategy",
+      "Strategic planning and networks",
+      "Strategic management and alliances",
+      "Strategic alliances and strategic networks"
+    ],
+    correctAnswer: "Strategic alliances and strategic networks",
+    explanation: "Strategic alliances and strategic networks help enterprises develop complex-to-imitate resources/capabilities leading to competitive advantage."
+  },
+  {
+    question: "What provide access to information, resources, technology and markets?",
+    options: ["Tactics", "Strategy", "Managerial skills and learning", "Alliances and networks"],
+    correctAnswer: "Alliances and networks",
+    explanation: "Alliances and networks provide access to information, resources, technology, and markets."
+  },
+  {
+    question: "What leads to exchange relationships with entrepreneurial organizations' customers?",
+    options: ["Strategic alliance", "Alliance networks", "Networks", "Managerial networks"],
+    correctAnswer: "Strategic alliance",
+    explanation: "Strategic alliance leads to exchange relationships with entrepreneurial organizations' customers."
+  },
+  {
+    question: "What borders on the ability to anticipate, envision, maintain flexibility, and empower others to create necessary strategic change?",
+    options: ["Growth leadership", "Strategic leadership", "Alliances and networks", "Tactics and strategy"],
+    correctAnswer: "Strategic leadership",
+    explanation: "Strategic leadership borders on the ability to anticipate, envision, maintain flexibility, and empower others to create necessary strategic change."
+  },
+  {
+    question: "What is a good indicator of entrepreneurship for younger and smaller firms?",
+    options: ["Growth", "Strategy", "Management", "Risk-bearing"],
+    correctAnswer: "Growth",
+    explanation: "Growth is a good indicator of entrepreneurship for younger and smaller firms."
+  },
+  {
+    question: "In times of growing uncertainty and increasing speed of change, what emerge?",
+    options: [
+      "New threats and opportunities",
+      "Challenges and Growth",
+      "Growth and development",
+      "Growth and Underdevelopment"
+    ],
+    correctAnswer: "New threats and opportunities",
+    explanation: "In times of growing uncertainty and increasing speed of change, new threats and opportunities emerge."
+  },
+  {
+    question: "What is concerned with creation of a competitive advantage in all the enterprise product levels/strategic business units?",
+    options: ["Corporate strategy", "Corporate business plan", "Business level strategy", "Functional strategy"],
+    correctAnswer: "Corporate strategy",
+    explanation: "Corporate strategy is concerned with creating a competitive advantage across all product levels/strategic business units."
+  },
+  {
+    question: "What is a document that describes the enterprise's strategy (content and process)?",
+    options: ["Business idea", "Feasibility study", "Feasibility plan", "Business plan"],
+    correctAnswer: "Business plan",
+    explanation: "The business plan is the document describing the enterprise's strategy (content and process)."
+  },
+  {
+    question: "What involves entrepreneurial actions taken and guided by a strategic perspective?",
+    options: ["Strategy", "Entrepreneurship", "Strategic goals", "Strategic entrepreneurship"],
+    correctAnswer: "Strategic entrepreneurship",
+    explanation: "Strategic entrepreneurship involves entrepreneurial actions taken and guided by a strategic perspective."
+  },
+  {
+    question: "The aim of strategic entrepreneurship is to constantly create competitive advantages that lead to creation of what?",
+    options: ["Opportunities", "Strength and opportunities", "Profit", "Maximum wealth"],
+    correctAnswer: "Maximum wealth",
+    explanation: "The aim of strategic entrepreneurship is to constantly create competitive advantages leading to maximum wealth."
+  },
+  {
+    question: "What can serve as internal control and goal-achievement mechanisms for the enterprise?",
+    options: ["Feasibility plan", "Feasibility study", "Business environment", "Business plan"],
+    correctAnswer: "Business plan",
+    explanation: "The business plan can serve as an internal control and goal-achievement mechanism for the enterprise."
+  }
+
+
+
+            
+
+            ],
+      },
+        
+        
+        {
+        category: "CES311-2",
+        questions: [
+
+
+  {
+    question: "What is the activity to do something well, usually gained via training and experience?",
+    options: ["Skill", "Training", "Education", "Training and Education"],
+    correctAnswer: "Skill",
+    explanation: "Skill is defined as the activity to do something well, usually gained via training and experience."
+  },
+  {
+    question: "Broadly, skill acquisition can be classified as what?",
+    options: [
+      "Functional and Self-Management",
+      "Special Knowledge, Functional and Self-Management",
+      "Training, Development and Education",
+      "Training, Coaching and Mentoring"
+    ],
+    correctAnswer: "Special Knowledge, Functional and Self-Management",
+    explanation: "Skill acquisition is broadly classified as Special Knowledge, Functional, and Self-Management skills."
+  },
+  {
+    question: "Learning how to acquire skill can help the entrepreneur to create what?",
+    options: ["Special needs", "Special Skills", "Special Knowledge", "Effective plan for developing and advancing careers"],
+    correctAnswer: "Effective plan for developing and advancing careers",
+    explanation: "Learning how to acquire skill helps the entrepreneur create an effective plan for developing and advancing careers."
+  },
+  {
+    question: "Soft skills is usually referred to as what?",
+    options: ["Communication skills", "Computer programming skills", "Technical skills", "Hard skills"],
+    correctAnswer: "Communication skills",
+    explanation: "Soft skills is usually referred to as Communication skills."
+  },
+  {
+    question: "Technical/hard skills is often referred to as what?",
+    options: ["Computer engineering skills", "Communication skills", "Computer programming skills", "Computer skills"],
+    correctAnswer: "Computer programming skills",
+    explanation: "Technical/hard skills is often referred to as Computer programming skills."
+  },
+  {
+    question: "What is an inherent benefit of skills acquisition?",
+    options: [
+      "It enhances your learning",
+      "It enhances your education",
+      "Assists in diversifying your job responsibilities",
+      "It enhances your training"
+    ],
+    correctAnswer: "Assists in diversifying your job responsibilities",
+    explanation: "An inherent benefit of skills acquisition is that it assists in diversifying your job responsibilities."
+  },
+  {
+    question: "Skill acquisition can be broadly classified into how many groups?",
+    options: ["1", "2", "3", "4"],
+    correctAnswer: "3",
+    explanation: "Skill acquisition can be broadly classified into 3 groups."
+  },
+  {
+    question: "What are often obtained through proper education/experience?",
+    options: ["Talents and Expertise", "Talent and Skills", "Expertise and Skills", "Training and Education"],
+    correctAnswer: "Talents and Expertise",
+    explanation: "Talents and Expertise are often obtained through proper education/experience."
+  },
+  {
+    question: "What is one of the benefits in acquiring skills?",
+    options: [
+      "It aids the personality of entrepreneurs",
+      "It assists in developing a growth and flexibility mindset",
+      "It assists in enhancing the psychology of the mindset",
+      "It enhances your training capabilities"
+    ],
+    correctAnswer: "It assists in developing a growth and flexibility mindset",
+    explanation: "One benefit of acquiring skills is that it assists in developing a growth and flexibility mindset."
+  },
+  {
+    question: "What refers to the art/process of learning how to do something, master it, and use it as a means of earning a living/survival?",
+    options: ["Mastering Art", "Mastering Skills", "Skill Earning", "Skills Acquisition"],
+    correctAnswer: "Skills Acquisition",
+    explanation: "Skills Acquisition refers to the art/process of learning how to do something, mastering it, and using it as a means of earning a living."
+  },
+  {
+    question: "What is a basic skill related to keeping an office organized and managing a business to success?",
+    options: ["Collaboration", "Technical abilities", "Financial abilities", "Management capabilities"],
+    correctAnswer: "Collaboration",
+    explanation: "Collaboration is a basic skill related to keeping an office organized and managing a business to success."
+  },
+  {
+    question: "What is a skill necessary for customers' services?",
+    options: ["Resources-fullness", "Interpersonal skills", "Active listening skill", "Problem-solving skill"],
+    correctAnswer: "Active listening skill",
+    explanation: "Active listening skill is necessary for customer service."
+  },
+  {
+    question: "IT skills may be very useful in addition to special IT programmes, referring to what?",
+    options: ["Analytics skills", "Written skills", "Oral communication skills", "Organization skills"],
+    correctAnswer: "Analytics skills",
+    explanation: "Analytics skills are useful in addition to special IT programmes."
+  },
+  {
+    question: "What is a marketing-relevant skill required for a successful enterprise?",
+    options: ["Sales strategy skills", "Sales skills", "Advertising skills", "Adaptability skills"],
+    correctAnswer: "Adaptability skills",
+    explanation: "Adaptability skills are a marketing-relevant skill required for a successful enterprise."
+  },
+  {
+    question: "What is a necessary skill a sales employee needs to develop?",
+    options: ["Resources-fullness skills", "Emotional intelligence skills", "Marketing skills", "Sales skills"],
+    correctAnswer: "Emotional intelligence skills",
+    explanation: "Emotional intelligence skills are necessary for a sales employee to develop."
+  },
+  {
+    question: "What is a basic step that an entrepreneur can take to learn and acquire necessary skills?",
+    options: ["Finding a mentor", "Networking skills", "Persuasion skills", "Public speaking skills"],
+    correctAnswer: "Finding a mentor",
+    explanation: "Finding a mentor is a basic step an entrepreneur can take to learn and acquire necessary skills."
+  },
+  {
+    question: "What is a process of acquiring new skills?",
+    options: ["Setting specific goals to attain skills", "Creating enough time to work on skills", "Considering skill sharing", "Considering skill management"],
+    correctAnswer: "Setting specific goals to attain skills",
+    explanation: "Setting specific goals to attain skills is a process of acquiring new skills."
+  },
+  {
+    question: "What is a profitable and sustainable skill to acquire without a job after school?",
+    options: ["Teaching", "Trading", "Online Marketing", "Fashion/Fabric Decoration"],
+    correctAnswer: "Fashion/Fabric Decoration",
+    explanation: "Fashion/Fabric Decoration is a profitable and sustainable skill to acquire without a job after school."
+  },
+  {
+    question: "What is the means of learning and mastering special activities in any type of profession?",
+    options: ["Skill Acquisition", "Training", "Education", "Skill"],
+    correctAnswer: "Skill",
+    explanation: "Skill is the means of learning and mastering special activities in any type of profession."
+  },
+  {
+    question: "One can acquire skill in either one or a combination of which of the following ways?",
+    options: [
+      "Through affiliate marketing and trading",
+      "Through online marketing and sales",
+      "Through formal education and training",
+      "Through public and private ways"
+    ],
+    correctAnswer: "Through formal education and training",
+    explanation: "One can acquire skill through formal education and training, among other ways."
+  },
+  {
+    question: "What is a process of investing in diverse assets where the investment will help in generating additional wealth?",
+    options: ["Wealth creation", "Investment analysis", "Portfolio", "Assets investments"],
+    correctAnswer: "Wealth creation",
+    explanation: "Wealth creation is a process of investing in diverse assets to help generate additional wealth."
+  },
+  {
+    question: "What is a strategic step needed to build wealth?",
+    options: ["Invest in real assets", "Set financial goals", "Invest in portfolio", "Invest your salary"],
+    correctAnswer: "Set financial goals",
+    explanation: "Setting financial goals is a strategic step needed to build wealth."
+  },
+  {
+    question: "What is the value of asset after deducting the total debts or liabilities?",
+    options: ["Profit", "Earnings", "Net assets", "Net worth"],
+    correctAnswer: "Net worth",
+    explanation: "Net worth is the value of assets after deducting total debts or liabilities."
+  },
+  {
+    question: "What is the bedrock of building wealth?",
+    options: ["Earned income", "Profit", "Reserves", "Retained earnings"],
+    correctAnswer: "Earned income",
+    explanation: "Earned income is the bedrock of building wealth."
+  },
+  {
+    question: "What refers to the building of wealth via various financial products with the objective of gaining higher income?",
+    options: ["Wealth creation", "Innovation", "Creativity", "Online Marketing"],
+    correctAnswer: "Wealth creation",
+    explanation: "Wealth creation refers to the building of wealth via various financial products aimed at gaining higher income."
+  },
+  {
+    question: "Earnings not realized from the workplace directly but from another source is referred to as what?",
+    options: ["Earnings", "Unearned income", "Passive income", "Active income"],
+    correctAnswer: "Passive income",
+    explanation: "Passive income is earnings not realized from the workplace directly but from another source."
+  },
+  {
+    question: "Portfolio income includes one of the following:",
+    options: ["Earnings", "Reserves", "Rents", "Dividends"],
+    correctAnswer: "Dividends",
+    explanation: "Portfolio income includes dividends."
+  },
+  {
+    question: "Which of the following is a principle of wealth creation?",
+    options: ["Focusing on tax savings", "Focusing on passive income", "Focusing on interest reduction", "All of the above"],
+    correctAnswer: "Focusing on tax savings",
+    explanation: "Focusing on tax savings is a principle of wealth creation."
+  },
+  {
+    question: "The first law for successful wealth creation is what?",
+    options: [
+      "Spending less than earning",
+      "Creating a roadmap for financial success",
+      "Investing surplus income wisely",
+      "None of the above"
+    ],
+    correctAnswer: "Creating a roadmap for financial success",
+    explanation: "The first law for successful wealth creation is creating a roadmap for financial success."
+  },
+  {
+    question: "What is the income derived from the workplace?",
+    options: ["Active income", "Passive income", "Portfolio income", "Active portfolio"],
+    correctAnswer: "Active income",
+    explanation: "Active income is the income derived directly from the workplace."
+  },
+  {
+    question: "There are how many pillars of wealth creation?",
+    options: ["2", "3", "4", "5"],
+    correctAnswer: "5",
+    explanation: "There are 5 pillars of wealth creation."
+  },
+  {
+    question: "What is one of the entire entrepreneurial processes broken down into independent but related phases?",
+    options: ["Idea generation", "Innovation", "Creativity", "Idea transformation"],
+    correctAnswer: "Idea generation",
+    explanation: "Idea generation is one of the entire entrepreneurial process phases."
+  },
+  {
+    question: "Earned money could come from either what?",
+    options: [
+      "Active or passive income",
+      "Passive or unearned incomes",
+      "Earned or passive incomes",
+      "Passive and dormant incomes"
+    ],
+    correctAnswer: "Earned or passive incomes",
+    explanation: "Earned money could come from either earned or passive incomes."
+  },
+  {
+    question: "The acronym 'DTI' refers to what?",
+    options: [
+      "Debt to Income Ratio",
+      "Debt to Tax Ratio",
+      "Debt to Thrift Ratio",
+      "Debtors to Tax Ratio"
+    ],
+    correctAnswer: "Debt to Income Ratio",
+    explanation: "DTI stands for Debt to Income Ratio."
+  },
+  {
+    question: "What is vital to maintaining a good credit score?",
+    options: [
+      "Avoid excessive interest rate",
+      "Avoidance of higher risk",
+      "Employing efficient staff",
+      "Pay bills at due time"
+    ],
+    correctAnswer: "Pay bills at due time",
+    explanation: "Paying bills at the due time is vital to maintaining a good credit score."
+  },
+  {
+    question: "The 50/30/20 rule of wealth creation states that what?",
+    options: [
+      "50% of total income should be spent on needs, 30% on wants and 20% on repayment of debt",
+      "50% of total income should be spent on wants, 30% on needs and 20% on savings",
+      "50% of total income should be spent on investments, 30% on wants and 20% on debt repayment",
+      "50% of income should be spent on wants, 30% on needs and 20% on investment"
+    ],
+    correctAnswer: "50% of total income should be spent on needs, 30% on wants and 20% on repayment of debt",
+    explanation: "The 50/30/20 rule states 50% of income goes to needs, 30% to wants, and 20% to debt repayment."
+  },
+  {
+    question: "To use the 50/30/20 rule to save money, one of the following should be observed:",
+    options: ["Track investment", "Track debt profile", "Track spending", "Watch the investment space"],
+    correctAnswer: "Track spending",
+    explanation: "Tracking spending is essential to applying the 50/30/20 rule."
+  },
+  {
+    question: "One of the following is a process of acquiring novel skills:",
+    options: [
+      "Try to use acquired skill in a practical setting",
+      "Do not set deadlines",
+      "Try to use your resources wisely",
+      "Do not attract more losses"
+    ],
+    correctAnswer: "Do not attract more losses",
+    explanation: "Avoiding further losses is listed as a process of acquiring novel skills."
+  },
+  {
+    question: "What is the income derived from the workplace?",
+    options: ["Portfolio marketing and sales", "Passive income", "Active income", "Active portfolio"],
+    correctAnswer: "Active income",
+    explanation: "Active income is the income derived from the workplace."
+  },
+  {
+    question: "The second law for successful wealth creation is what?",
+    options: [
+      "Spending less than earning",
+      "Creating a roadmap for financial success",
+      "Investing surplus income wisely",
+      "Creating a roadmap for wealth creation"
+    ],
+    correctAnswer: "Spending less than earning",
+    explanation: "The second law for successful wealth creation is spending less than earning."
+  },
+  {
+    question: "What is one of the entire entrepreneurial processes broken down into independent but related phases?",
+    options: ["Launching and growth", "Company growth", "Company development", "Management"],
+    correctAnswer: "Launching and growth",
+    explanation: "Launching and growth is one of the entrepreneurial process phases."
+  },
+  {
+    question: "One of the roles of entrepreneurs in wealth creation includes what?",
+    options: ["Job creation", "Helping the government", "Promoting sales level", "Promoting the governmental sector"],
+    correctAnswer: "Job creation",
+    explanation: "Job creation is one of the roles of entrepreneurs in wealth creation."
+  },
+  {
+    question: "Building wealth over time is a matter of how many basic steps?",
+    options: ["7", "4", "3", "6"],
+    correctAnswer: "3",
+    explanation: "Building wealth over time is a matter of 3 basic steps."
+  },
+  {
+    question: "A good way to maximize earnings potential is to invest in what?",
+    options: ["Skills", "Education and skills", "Marketing skills", "Unemployed youths"],
+    correctAnswer: "Education and skills",
+    explanation: "A good way to maximize earnings potential is to invest in education and skills."
+  },
+  {
+    question: "Improving financial decision-making is which law for successful wealth creation?",
+    options: ["Seventh law", "Sixth law", "Second law", "Third law"],
+    correctAnswer: "Sixth law",
+    explanation: "Improving financial decision-making is the sixth law for successful wealth creation."
+  },
+  {
+    question: "One of the following is a pillar of wealth creation:",
+    options: ["Self-investing", "Saving your income", "Investing wisely", "Investing your salary"],
+    correctAnswer: "Self-investing",
+    explanation: "Self-investing is a pillar of wealth creation."
+  },
+  {
+    question: "The entire entrepreneurial process can be broken down into how many independent but related phases?",
+    options: ["1", "2", "5", "4"],
+    correctAnswer: "5",
+    explanation: "The entire entrepreneurial process can be broken down into 5 independent but related phases."
+  },
+  {
+    question: "One way to improve entrepreneurial education and skills is via what?",
+    options: [
+      "Obtaining academic degree",
+      "The marketplace",
+      "Those trading in the market",
+      "All of the above"
+    ],
+    correctAnswer: "Obtaining academic degree",
+    explanation: "Obtaining an academic degree is one way to improve entrepreneurial education and skills."
+  },
+  {
+    question: "The fourth law for successful wealth creation emphasizes what?",
+    options: [
+      "Diversifying personal investments",
+      "Exposure to different economic drivers",
+      "Allowing personal investment to grow",
+      "Adaptability to market changes"
+    ],
+    correctAnswer: "Allowing personal investment to grow",
+    explanation: "The fourth law for successful wealth creation emphasizes allowing personal investment to grow."
+  },
+  {
+    question: "What is a profitable and sustainable skill to acquire in order to become self-employed?",
+    options: ["Animal Feed Production", "Food Selling", "Online Marketing", "Online (unspecified)"],
+    correctAnswer: "Online Marketing",
+    explanation: "Online Marketing is highlighted as a profitable and sustainable skill for becoming self-employed."
+  }
+
+
+
+
+            
+
+            ],
+      },
+        
+
+
+        
+           {
+        category: "CES311-1B",
+        questions: [
+
+
+  {
+    question: "According to the chapter, entrepreneurship is defined as the art of turning an idea into a business without regard to what?",
+    options: ["Initial resources", "Market demand", "Government policy", "Competitor strategy"],
+    correctAnswer: "Initial resources",
+    explanation: "The chapter states entrepreneurship is the art of turning an idea into a business without regard to initial resources."
+  },
+  {
+    question: "Which of the following is a function of entrepreneurship?",
+    options: ["Risk aversion", "Risk neutral", "Identification and selection of innovative skills", "Innovative and strategic planning"],
+    correctAnswer: "Innovative and strategic planning",
+    explanation: "Innovative and strategic planning is listed as a function of entrepreneurship."
+  },
+  {
+    question: "Establishing a successfully enterprise requires what?",
+    options: ["Short and long term planning", "Long-term planning and all-round commitment", "Stern commitment", "Short, medium and long-term vision"],
+    correctAnswer: "Long-term planning and all-round commitment",
+    explanation: "The chapter states that establishing a successful enterprise requires long-term planning and all-round commitment."
+  },
+  {
+    question: "The success or failure of a new enterprise largely depends on what?",
+    options: ["Optimism", "Motivation", "Personal accomplishments and control", "Drive"],
+    correctAnswer: "Personal accomplishments and control",
+    explanation: "The chapter identifies personal accomplishments and control as key to a new enterprise's success or failure."
+  },
+  {
+    question: "What is the process by which entrepreneurs convert their ideas into workable strategies?",
+    options: ["Business Planning", "Market survey", "Market analysis", "Conceptual skills"],
+    correctAnswer: "Business Planning",
+    explanation: "Business Planning is described as the process of converting ideas into workable strategies."
+  },
+  {
+    question: "What involves locating financing sources, control of expenses, and ensuring financial stability by the entrepreneur?",
+    options: ["Business Plan", "Financial Forecast", "Financing Sources", "Financial Management"],
+    correctAnswer: "Financial Management",
+    explanation: "Financial Management covers locating financing sources, controlling expenses, and ensuring financial stability."
+  },
+  {
+    question: "The practice of entrepreneurship requires both what?",
+    options: ["Innovation and Creativity", "Theoretical knowledge with real-world abilities and experience", "Skills and Practices", "Capability and Skills"],
+    correctAnswer: "Theoretical knowledge with real-world abilities and experience",
+    explanation: "The chapter notes entrepreneurship requires both theoretical knowledge and real-world abilities and experience."
+  },
+  {
+    question: "What is the largest employer of labour?",
+    options: ["Public Enterprises", "Governmental sector", "Private business sector", "Public business sector"],
+    correctAnswer: "Private business sector",
+    explanation: "The private business sector is identified as the largest employer of labour."
+  },
+  {
+    question: "Which type of entrepreneurs are reserved and shy?",
+    options: ["Fabian entrepreneurs", "Imitative entrepreneurs", "Introvert entrepreneurs", "Extrovert entrepreneurs"],
+    correctAnswer: "Fabian entrepreneurs",
+    explanation: "Fabian entrepreneurs are described as reserved and shy."
+  },
+  {
+    question: "What influences the creation of price structure, customers' acquisition technique, marketing and sales strategies?",
+    options: ["Business Process", "Marketing Strategies", "Market Analysis", "Sales Strategies"],
+    correctAnswer: "Market Analysis",
+    explanation: "Market Analysis influences pricing structure, customer acquisition, marketing, and sales strategies."
+  },
+  {
+    question: "One way to describe a drone entrepreneur is that they are what?",
+    options: ["Open to innovation", "Copycats", "Conservative", "Inventive"],
+    correctAnswer: "Conservative",
+    explanation: "Drone entrepreneurs are described as conservative in the chapter's classification."
+  },
+  {
+    question: "Arthur H. Cole classified entrepreneurs as what?",
+    options: ["Innovative and Creative", "Empirical, Rational, Cognitive", "Optimistic and Pessimistic", "Analytical, Skilful and Creative"],
+    correctAnswer: "Empirical, Rational, Cognitive",
+    explanation: "Arthur H. Cole's classification of entrepreneurs is Empirical, Rational, and Cognitive."
+  },
+  {
+    question: "Entrepreneurship can be classified on the basis of ownership as what?",
+    options: ["Family and Non-Family", "Government and quasi-government", "Public and private partnership", "Private and Public"],
+    correctAnswer: "Private and Public",
+    explanation: "On the basis of ownership, entrepreneurship is classified as Private and Public."
+  },
+  {
+    question: "What type of business owners combine their resources and work together to create their companies?",
+    options: ["Active partners", "Inventors", "Solo operators", "Solo partners"],
+    correctAnswer: "Active partners",
+    explanation: "Active partners are business owners who combine resources and work together to build their companies."
+  },
+  {
+    question: "Which entrepreneurship theory explains that to improve products and services, entrepreneurs must develop their understanding of creativity and invention?",
+    options: ["Psychological Entrepreneurship Theory", "Sociological Entrepreneurship Theory", "Innovation and Creativity Theory", "Anthropology Entrepreneurship Theory"],
+    correctAnswer: "Innovation and Creativity Theory",
+    explanation: "The Innovation and Creativity Theory explains that entrepreneurs must develop their understanding of creativity and invention to improve products and services."
+  },
+  {
+    question: "Which entrepreneurship theory emphasizes the value of creativity and innovation in the development of novel concepts, goods or services?",
+    options: ["Sociological Entrepreneurship Theory", "Entrepreneurship Economic Theory", "Anthropology Entrepreneurship Theory", "Psychological Entrepreneurship Theory"],
+    correctAnswer: "Psychological Entrepreneurship Theory",
+    explanation: "The Psychological Entrepreneurship Theory emphasizes creativity and innovation in developing novel concepts, goods, or services."
+  },
+  {
+    question: "What has been recognized globally as a catalyst for economic and social development?",
+    options: ["Entrepreneurship", "Business Venture", "Government Enterprises", "Business Owners"],
+    correctAnswer: "Entrepreneurship",
+    explanation: "Entrepreneurship is recognized globally as a catalyst for economic and social development."
+  },
+  {
+    question: "What is a major factor for enterprise failure?",
+    options: ["Over-pricing", "Inability to adapt to change", "Poor Feasibility Study", "Poor Business Plan"],
+    correctAnswer: "Inability to adapt to change",
+    explanation: "Inability to adapt to change is cited as a major factor for enterprise failure."
+  },
+  {
+    question: "What type of business owner focuses mostly on research and development?",
+    options: ["Researchers", "Creators", "Inventors", "Business Researchers"],
+    correctAnswer: "Inventors",
+    explanation: "Inventors are the type of business owner who focuses mostly on research and development."
+  },
+  {
+    question: "Entrepreneurship can be classified on the basis of scale of enterprise as what?",
+    options: ["Small and Medium", "Profit-making and No Profit making", "Long and Short", "Private and Public"],
+    correctAnswer: "Small and Medium",
+    explanation: "On the basis of scale of enterprise, entrepreneurship is classified as Small and Medium."
+  },
+  {
+    question: "Which entrepreneurship theory looks at how society and tradition affect an entrepreneur's existence?",
+    options: ["Opportunity-based Theory", "Sociological Entrepreneurship Theory", "Personality-based Theory", "Innovation and Creativity Theory"],
+    correctAnswer: "Sociological Entrepreneurship Theory",
+    explanation: "The Sociological Entrepreneurship Theory looks at how society and tradition affect an entrepreneur's existence."
+  },
+  {
+    question: "The barriers to entrepreneurial growth can be grouped into what?",
+    options: ["Internal and External", "Short and Long", "Fixed and Random", "Fixed and Variable"],
+    correctAnswer: "Internal and External",
+    explanation: "Barriers to entrepreneurial growth are grouped into Internal and External categories."
+  },
+  {
+    question: "What is aimed at supporting all people with entrepreneurial mind-sets and the entrepreneurs?",
+    options: ["Entrepreneurial skills", "Entrepreneurial capabilities", "Entrepreneurial mindsets", "Entrepreneurial education and training"],
+    correctAnswer: "Entrepreneurial education and training",
+    explanation: "Entrepreneurial education and training is aimed at supporting people with entrepreneurial mind-sets and entrepreneurs."
+  },
+  {
+    question: "The acronym 'NGO' stands for what?",
+    options: ["Non-Grant Organization", "Not-for Grant Organization", "Non-Governmental Organizations", "Not-for Government Opportunities"],
+    correctAnswer: "Non-Governmental Organizations",
+    explanation: "NGO stands for Non-Governmental Organizations."
+  },
+  {
+    question: "In Nigeria, government's engagement in entrepreneurship development gained prominence immediately after what?",
+    options: ["Civil War", "Post-Civil War", "Discovery of Crude Oil", "Decline in Economic Growth"],
+    correctAnswer: "Civil War",
+    explanation: "Government's engagement in entrepreneurship development in Nigeria gained prominence immediately after the Civil War."
+  },
+  {
+    question: "The 3Rs objectives stands for what?",
+    options: ["Resources, Revenue, and Redeployment", "Revenue, Rotation, and Reserve", "Reserve, Resources, and Redeployment", "Reconstruction, Redevelopment, and Reconciliation"],
+    correctAnswer: "Reconstruction, Redevelopment, and Reconciliation",
+    explanation: "The 3Rs stand for Reconstruction, Redevelopment, and Reconciliation."
+  },
+  {
+    question: "The 3Rs objectives was formulated after what?",
+    options: ["Civil War", "Post-Civil War", "Discovery of Crude Oil", "None of the above"],
+    correctAnswer: "Civil War",
+    explanation: "The 3Rs objectives were formulated after the Civil War."
+  },
+  {
+    question: "The term 'SAP' stands for what?",
+    options: ["Structural Assessment Programme", "Structural Amendment Programme", "Structural Adjustment Programme", "Structural Amendment Plan"],
+    correctAnswer: "Structural Adjustment Programme",
+    explanation: "SAP stands for Structural Adjustment Programme."
+  },
+  {
+    question: "SAP was introduced in what year?",
+    options: ["1986", "1980", "1982", "1960"],
+    correctAnswer: "1986",
+    explanation: "SAP was introduced in 1986."
+  },
+  {
+    question: "Which of the following is an external barrier to entrepreneurial growth?",
+    options: ["Management capability", "Labour market condition", "Funding", "Shortage of Orders"],
+    correctAnswer: "Labour market condition",
+    explanation: "Labour market condition is identified as an external barrier to entrepreneurial growth."
+  },
+  {
+    question: "In Nigeria, entrepreneurship growth gained enormous momentum after what?",
+    options: ["Civil War", "Post-Civil War", "Second World War", "Third World War"],
+    correctAnswer: "Post-Civil War",
+    explanation: "Entrepreneurship growth in Nigeria gained enormous momentum in the Post-Civil War period."
+  },
+  {
+    question: "NDE stands for what?",
+    options: ["National Directorate of Employment", "National Deployment Exercise", "Nigerian Department of Entrepreneurship", "Nigeria Department of Entrepreneurs"],
+    correctAnswer: "National Directorate of Employment",
+    explanation: "NDE stands for National Directorate of Employment."
+  },
+  {
+    question: "NOAS stands for what?",
+    options: ["Nigerian Organizational Agency Standards", "National Organizational Agency Standards", "National Open Apprenticeship Scheme", "None of the above"],
+    correctAnswer: "National Open Apprenticeship Scheme",
+    explanation: "NOAS stands for National Open Apprenticeship Scheme."
+  },
+  {
+    question: "SMEDAN is an acronym for what?",
+    options: [
+      "Small and Medium Enterprise Development Association of Nigerian",
+      "Small and Medium Scale Enterprise Development Association",
+      "State and Modern Enterprise Development Agency of Nigeria",
+      "Small and Medium Enterprise Development Association of Nigeria"
+    ],
+    correctAnswer: "Small and Medium Enterprise Development Association of Nigeria",
+    explanation: "SMEDAN stands for Small and Medium Enterprise Development Association of Nigeria."
+  },
+  {
+    question: "Which of the following is an internal barrier to entrepreneurial growth?",
+    options: ["Motivational factors", "Government Policies", "Economic Climate", "Access to Markets"],
+    correctAnswer: "Motivational factors",
+    explanation: "Motivational factors are identified as an internal barrier to entrepreneurial growth."
+  },
+  {
+    question: "What skill-sets are required to overcome the barriers to entrepreneurial growth?",
+    options: [
+      "Technical and Managerial",
+      "Technical and Financial",
+      "Technical, Managerial and Entrepreneurial",
+      "Financial and Material"
+    ],
+    correctAnswer: "Technical, Managerial and Entrepreneurial",
+    explanation: "Technical, Managerial and Entrepreneurial skill-sets are required to overcome barriers to entrepreneurial growth."
+  },
+  {
+    question: "The acronym 'CED' represents what?",
+    options: [
+      "Centre for Entrepreneurship Development",
+      "Centre for Economic Development",
+      "Centre for Entrepreneurs' Development",
+      "Centre for Entrepreneurial Developers"
+    ],
+    correctAnswer: "Centre for Entrepreneurship Development",
+    explanation: "CED stands for Centre for Entrepreneurship Development."
+  },
+  {
+    question: "Which of the following is a major entrepreneur's problem when launching an enterprise?",
+    options: ["Poor Facilities", "Low materials", "Lack of Material Resources", "Ineffective Administration of Incentives"],
+    correctAnswer: "Ineffective Administration of Incentives",
+    explanation: "Ineffective Administration of Incentives is cited as a major problem entrepreneurs face when launching an enterprise."
+  },
+  {
+    question: "Policies supporting high growth of enterprises should focus on what?",
+    options: ["ICT", "Innovation and Strategic Planning", "Technological Growth", "Business Innovation"],
+    correctAnswer: "Innovation and Strategic Planning",
+    explanation: "Policies supporting high growth of enterprises should focus on Innovation and Strategic Planning."
+  },
+  {
+    question: "What is a policy framework for high growth of enterprise?",
+    options: ["Diversification", "ICT", "Innovation", "Creativity and Innovation"],
+    correctAnswer: "Diversification",
+    explanation: "Diversification is identified as a policy framework for high growth of enterprise."
+  },
+  {
+    question: "What is a function required of an entrepreneur?",
+    options: ["Innovative skills", "Inventing skills", "Perception and identification of business opportunities", "Creative skills"],
+    correctAnswer: "Perception and identification of business opportunities",
+    explanation: "Perception and identification of business opportunities is a required function of an entrepreneur."
+  },
+  {
+    question: "Which of the following is a characteristic needed by the entrepreneur?",
+    options: ["Vision", "Skills", "Mentoring", "Inventing skills"],
+    correctAnswer: "Vision",
+    explanation: "Vision is listed as a characteristic needed by the entrepreneur."
+  },
+  {
+    question: "Company owners who establish their companies independently are referred to as what?",
+    options: ["Partners", "Partnership", "Ventures", "Solo-operators"],
+    correctAnswer: "Solo-operators",
+    explanation: "Company owners who establish their companies independently are referred to as Solo-operators."
+  },
+  {
+    question: "Networking provides access to new what?",
+    options: [
+      "Resources & Markets",
+      "Resources, Markets & Partnerships",
+      "Resources & Partnerships",
+      "Material Resources, Financial and Information"
+    ],
+    correctAnswer: "Resources, Markets & Partnerships",
+    explanation: "Networking provides access to new Resources, Markets & Partnerships."
+  },
+  {
+    question: "Which entrepreneurship theory lays emphasis on locus of control as the basis for entrepreneurial motivation?",
+    options: [
+      "Sociological entrepreneurship theory",
+      "Anthropology entrepreneurship theory",
+      "Psychological entrepreneurship theory",
+      "Entrepreneurship economic theory"
+    ],
+    correctAnswer: "Psychological entrepreneurship theory",
+    explanation: "The Psychological entrepreneurship theory lays emphasis on locus of control as the basis for entrepreneurial motivation."
+  },
+  {
+    question: "Which entrepreneurship theory draws philosophies from Peter Drucker's concept?",
+    options: [
+      "Resource-based entrepreneurship theory",
+      "Anthropology entrepreneurship theory",
+      "Opportunity-based Entrepreneurship Theory",
+      "Motivational Theory of Entrepreneurship"
+    ],
+    correctAnswer: "Opportunity-based Entrepreneurship Theory",
+    explanation: "The Opportunity-based Entrepreneurship Theory draws philosophies from Peter Drucker's concept."
+  },
+  {
+    question: "What is a challenge of entrepreneurship in Nigeria?",
+    options: ["Low Income level", "Low material resources", "Poor Financial Capability", "Poor collaboration spirit"],
+    correctAnswer: "Poor collaboration spirit",
+    explanation: "Poor collaboration spirit is cited as a challenge of entrepreneurship in Nigeria."
+  },
+  {
+    question: "Who are individuals that notice opportunities and take responsibility for mobilizing the resources needed to produce new products and services?",
+    options: ["Businessman", "Entrepreneurs", "Business Owners", "Opportunity search"],
+    correctAnswer: "Entrepreneurs",
+    explanation: "Entrepreneurs are individuals who notice opportunities and take responsibility for mobilizing resources to produce new products and services."
+  },
+  {
+    question: "What is a characteristic needed by the entrepreneur?",
+    options: ["Motivation", "Mentoring", "Capabilities", "Abilities"],
+    correctAnswer: "Motivation",
+    explanation: "Motivation is listed as a characteristic needed by the entrepreneur."
+  },
+  {
+    question: "Who searches for change, responds to and exploits it as an opportunity, and recognizes opportunities where others see chaos?",
+    options: ["Entrepreneur", "Optimistic Persons", "Business Owners", "Inventors"],
+    correctAnswer: "Entrepreneur",
+    explanation: "The entrepreneur searches for change, responds to and exploits it as an opportunity, recognizing opportunities where others see chaos."
+  }
+
+
+            
+
+            ],
+      },
+
+
+
+        
   
    {
         category: "CES311-1A",
