@@ -61,7 +61,477 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
     const quizzes = [
-               {
+                {
+        category: "GST113",
+        questions: [
+
+            
+  // CHAPTER ONE
+  {
+    question: "According to Deustch, conflicts may arise from what?",
+    options: ["Differences in values", "Scarcity of resources", "Rivalries", "All of the above"],
+    correctAnswer: "All of the above",
+    explanation: "Deustch attributes conflict to differences in values, scarcity of resources, and rivalries — all of the above."
+  },
+  {
+    question: "Peace is generally defined as what?",
+    options: [
+      "The presence of war and conflict",
+      "The absence of war, conflict, anxiety, suffering, and violence",
+      "The absence of communication",
+      "A temporary state of non-violence"
+    ],
+    correctAnswer: "The absence of war, conflict, anxiety, suffering, and violence",
+    explanation: "Peace is generally defined as the absence of war, conflict, anxiety, suffering, and violence."
+  },
+  {
+    question: "Galtung's concept of 'positive peace' includes what?",
+    options: [
+      "The absence of direct violence only",
+      "The absence of unjust structures and unequal relationships",
+      "The presence of cultural violence",
+      "Perpetual war"
+    ],
+    correctAnswer: "The absence of unjust structures and unequal relationships",
+    explanation: "Galtung's positive peace includes the absence of unjust structures and unequal relationships."
+  },
+  {
+    question: "Structural violence is defined as what?",
+    options: [
+      "Physical harm caused directly by individuals",
+      "Embedded social and political hierarchies that cause harm",
+      "Cultural norms creating discrimination",
+      "None of the above"
+    ],
+    correctAnswer: "Embedded social and political hierarchies that cause harm",
+    explanation: "Structural violence refers to embedded social and political hierarchies that cause harm."
+  },
+  {
+    question: "Which theory suggests that people are naturally predisposed to conflict due to selfishness?",
+    options: ["Structural conflict theory", "Realist theory", "Economic theory", "Relational theory"],
+    correctAnswer: "Realist theory",
+    explanation: "Realist theory suggests people are naturally predisposed to conflict due to selfishness and pursuit of power."
+  },
+
+  // CHAPTER TWO
+  {
+    question: "What percentage of African countries has experienced at least a year of armed conflict in the past three decades?",
+    options: ["About one third", "More than half", "One fifth", "Three quarters"],
+    correctAnswer: "More than half",
+    explanation: "More than half of African countries have experienced at least a year of armed conflict in the past three decades."
+  },
+  {
+    question: "According to Webster's Student Dictionary, conflict can be defined as what?",
+    options: ["A healthy opposition", "A prolonged struggle or sharp disagreement", "A friendly debate", "A mild disagreement"],
+    correctAnswer: "A prolonged struggle or sharp disagreement",
+    explanation: "Webster's Student Dictionary defines conflict as a prolonged struggle or sharp disagreement."
+  },
+  {
+    question: "What political factors have led to intense violence and conflicts in African countries?",
+    options: [
+      "Economic stability",
+      "Boundary disputes, election disputes, inept leadership, political corruption",
+      "Stable governments",
+      "Efficient institutions"
+    ],
+    correctAnswer: "Boundary disputes, election disputes, inept leadership, political corruption",
+    explanation: "These political factors have led to intense violence and conflict in African countries."
+  },
+  {
+    question: "A classic example of ethnic violence in Africa was the 1994 genocide in what country?",
+    options: ["Kenya", "Nigeria", "Rwanda and Burundi", "Ghana"],
+    correctAnswer: "Rwanda and Burundi",
+    explanation: "The 1994 genocide in Rwanda and Burundi is a classic example of ethnic violence in Africa."
+  },
+  {
+    question: "In Nigeria, the socio-cultural arrangement that has often resulted in conflicts is between whom?",
+    options: [
+      "Christians and Muslims",
+      "Farmers and herdsmen",
+      "Urban and rural dwellers",
+      "Government and opposition parties"
+    ],
+    correctAnswer: "Christians and Muslims",
+    explanation: "Conflicts in Nigeria have often resulted from tensions between Christians and Muslims."
+  },
+
+  // CHAPTER THREE
+  {
+    question: "According to Afegbua (2014), why are conflicts common and unavoidable in all human societies?",
+    options: [
+      "Due to the nature of the economy",
+      "Because of differing interests and values",
+      "Because people dislike each other",
+      "Due to technological advancements"
+    ],
+    correctAnswer: "Because of differing interests and values",
+    explanation: "Afegbua (2014) attributes conflict's ubiquity to differing interests and values."
+  },
+  {
+    question: "What did Alabi (2010) assert about conflicts and crises?",
+    options: [
+      "They are rare and can be avoided",
+      "They are found at every stage of life",
+      "They only occur in developing countries",
+      "They are mainly caused by political issues"
+    ],
+    correctAnswer: "They are found at every stage of life",
+    explanation: "Alabi (2010) asserted that conflicts and crises are found at every stage of life."
+  },
+  {
+    question: "What model is used to showcase the interplay between sport and peacebuilding?",
+    options: ["Galtung's 3Rs", "Maslow's hierarchy of needs", "SWOT analysis", "Porter's Five Forces"],
+    correctAnswer: "Galtung's 3Rs",
+    explanation: "Galtung's 3Rs model is used to showcase the interplay between sport and peacebuilding."
+  },
+  {
+    question: "What example is given of a sport project encouraging development of social networks in former antagonistic communities?",
+    options: [
+      "Open Fun Schools project in Bosnia and Herzegovina",
+      "Second Chance Schools in Spain",
+      "Sport for All initiative in India",
+      "Fair Play Program in Australia"
+    ],
+    correctAnswer: "Open Fun Schools project in Bosnia and Herzegovina",
+    explanation: "The Open Fun Schools project in Bosnia and Herzegovina is cited as an example of sport encouraging social network development."
+  },
+  {
+    question: "What were the three pillars of Olympism conceived by De Coubertin according to Nanayakkara & Culpan (2012)?",
+    options: [
+      "Sports, economics, and technology",
+      "Sports, ethics, and peace",
+      "Politics, education, and culture",
+      "Health, wealth, and prosperity"
+    ],
+    correctAnswer: "Sports, ethics, and peace",
+    explanation: "De Coubertin's three pillars of Olympism were sports, ethics, and peace."
+  },
+
+  // CHAPTER FOUR
+  {
+    question: "The Mano River is locally called what?",
+    options: ["Bewa River", "Gola River", "Solija River", "Voinjama River"],
+    correctAnswer: "Bewa River",
+    explanation: "The Mano River is locally called the Bewa River."
+  },
+  {
+    question: "When did rebels take up arms against the governments of Liberia and Sierra Leone?",
+    options: ["1979 and 1981", "1989 and 1991", "1999 and 2001", "2009 and 2011"],
+    correctAnswer: "1989 and 1991",
+    explanation: "Rebels took up arms against the governments of Liberia and Sierra Leone in 1989 and 1991."
+  },
+  {
+    question: "Which organization played a key role in the resolution of the crisis in Liberia by acting as intermediaries?",
+    options: ["SLWF", "MARWOPNET", "WIPNET", "FAWE"],
+    correctAnswer: "WIPNET",
+    explanation: "WIPNET played a key role in resolving the Liberian crisis by acting as intermediaries."
+  },
+  {
+    question: "Who was the first female president of Liberia?",
+    options: ["Fatumata Sawaneh", "Ruth Perry", "Ellen Johnson Sirleaf", "Antoinette Sayeh"],
+    correctAnswer: "Ellen Johnson Sirleaf",
+    explanation: "Ellen Johnson Sirleaf was the first female president of Liberia."
+  },
+  {
+    question: "Which organization mobilized over 7,500 women to vote in Liberia?",
+    options: ["MARWOPNET", "WIPNET", "SLWF", "FAWE"],
+    correctAnswer: "WIPNET",
+    explanation: "WIPNET mobilized over 7,500 women to vote in Liberia."
+  },
+
+  // CHAPTER FIVE
+  {
+    question: "What does the statement 'When nails grow long we cut the nails, not fingers' imply about managing misunderstandings?",
+    options: [
+      "Remove the relationship to solve problems",
+      "Cut off misunderstandings, not the relationship",
+      "Ignore the misunderstandings",
+      "Cut both nails and fingers"
+    ],
+    correctAnswer: "Cut off misunderstandings, not the relationship",
+    explanation: "The statement implies cutting off misunderstandings while preserving the relationship."
+  },
+  {
+    question: "Coser's definition of social conflict involves a struggle over what?",
+    options: [
+      "Shared resources and mutual benefits",
+      "Entertainment and leisure",
+      "Personal satisfaction",
+      "Values, status, power, and scarce resources"
+    ],
+    correctAnswer: "Values, status, power, and scarce resources",
+    explanation: "Coser defines social conflict as a struggle over values, status, power, and scarce resources."
+  },
+  {
+    question: "What did Karl Marx advocate for to resolve social conflicts?",
+    options: [
+      "Maintaining the status quo",
+      "A revolution to overthrow the bourgeois class",
+      "Increasing personal wealth",
+      "Ignoring class struggles"
+    ],
+    correctAnswer: "A revolution to overthrow the bourgeois class",
+    explanation: "Karl Marx advocated a revolution to overthrow the bourgeois class as the resolution to social conflict."
+  },
+  {
+    question: "What is the role of a mediator in conflict resolution?",
+    options: [
+      "To dictate the terms of resolution",
+      "To listen and proffer solutions",
+      "To ignore the conflict",
+      "To participate as a conflicting party"
+    ],
+    correctAnswer: "To listen and proffer solutions",
+    explanation: "The mediator's role is to listen and proffer solutions in conflict resolution."
+  },
+  {
+    question: "What is often the result of arbitration in conflict resolution?",
+    options: [
+      "Non-binding suggestions",
+      "Recommendations without enforcement",
+      "Binding and final decisions",
+      "Further negotiation"
+    ],
+    correctAnswer: "Binding and final decisions",
+    explanation: "Arbitration typically results in binding and final decisions."
+  },
+
+  // CHAPTER SIX
+  {
+    question: "What is conflict according to D. Whawo?",
+    options: [
+      "A peaceful negotiation",
+      "A minor disagreement",
+      "A clash between two or more people or parties from an unresolved dispute",
+      "A friendly discussion"
+    ],
+    correctAnswer: "A clash between two or more people or parties from an unresolved dispute",
+    explanation: "D. Whawo defines conflict as a clash between two or more parties arising from an unresolved dispute."
+  },
+  {
+    question: "What is considered the sustainer of community ethics in pre-literate African society?",
+    options: ["Politician", "Teacher", "Warrior", "Griot"],
+    correctAnswer: "Griot",
+    explanation: "The Griot is considered the sustainer of community ethics in pre-literate African society."
+  },
+  {
+    question: "What does Theatre-for-Development (TFD) aim to achieve?",
+    options: [
+      "Create abstract art",
+      "Provide entertainment only",
+      "Diagnose, analyze, and mediate human conflict",
+      "Promote technological advancements"
+    ],
+    correctAnswer: "Diagnose, analyze, and mediate human conflict",
+    explanation: "TFD aims to diagnose, analyze, and mediate human conflict."
+  },
+  {
+    question: "What method does Augusto Boal's 'Theatre of the Oppressed' utilize?",
+    options: [
+      "Static performances",
+      "Technological simulations",
+      "Forum Theatre for interactive/participatory conflict resolution",
+      "Economic theories"
+    ],
+    correctAnswer: "Forum Theatre for interactive/participatory conflict resolution",
+    explanation: "Boal's Theatre of the Oppressed utilizes Forum Theatre for interactive, participatory conflict resolution."
+  },
+  {
+    question: "What potential does theatre have in peace-building efforts?",
+    options: [
+      "It focuses on individualism",
+      "It can mobilize, sensitize, and mediate conflicts",
+      "It can only entertain",
+      "It is ineffective"
+    ],
+    correctAnswer: "It can mobilize, sensitize, and mediate conflicts",
+    explanation: "Theatre has the potential to mobilize, sensitize, and mediate conflicts in peace-building efforts."
+  },
+
+  // CHAPTER SEVEN
+  {
+    question: "Nigeria is described as what type of society?",
+    options: ["Homogeneous", "Pluralistic", "Monolithic", "Isolated"],
+    correctAnswer: "Pluralistic",
+    explanation: "Nigeria is described as a pluralistic society."
+  },
+  {
+    question: "Conflict, as described by Coser (1956), is a struggle over what?",
+    options: ["Technological advancements", "Cultural practices", "Values and resources", "Historical narratives"],
+    correctAnswer: "Values and resources",
+    explanation: "Coser (1956) describes conflict as a struggle over values and resources."
+  },
+  {
+    question: "What is the Agenda Setting Theory in mass communication?",
+    options: [
+      "Media influences what issues people think about",
+      "Media dictates what people should do",
+      "Media controls the economy",
+      "Media determines political outcomes"
+    ],
+    correctAnswer: "Media influences what issues people think about",
+    explanation: "The Agenda Setting Theory holds that media influences what issues people think about."
+  },
+  {
+    question: "Who or what are considered 'gatekeepers' in the context of mass communication?",
+    options: [
+      "Government officials",
+      "Media intermediaries who control information flow",
+      "Security personnel",
+      "Academic researchers"
+    ],
+    correctAnswer: "Media intermediaries who control information flow",
+    explanation: "Gatekeepers are media intermediaries who control the flow of information."
+  },
+  {
+    question: "Why is mass communication considered effective in diverse societies?",
+    options: [
+      "It isolates different groups",
+      "It orients and mobilizes people towards common goals",
+      "It suppresses minority voices",
+      "It promotes economic disparity"
+    ],
+    correctAnswer: "It orients and mobilizes people towards common goals",
+    explanation: "Mass communication is effective in diverse societies because it orients and mobilizes people towards common goals."
+  },
+
+  // CHAPTER EIGHT
+  {
+    question: "What are the two main roles of international organizations like the UN and the AU?",
+    options: [
+      "Regulate global trade and environmental policies",
+      "Regulate relations among member states and maintain international peace and security",
+      "Promote tourism and culture",
+      "Manage global health and education"
+    ],
+    correctAnswer: "Regulate relations among member states and maintain international peace and security",
+    explanation: "The UN and AU's main roles are regulating relations among member states and maintaining international peace and security."
+  },
+  {
+    question: "Which international treaty ended the First World War and led to the establishment of the League of Nations?",
+    options: ["Treaty of Paris", "Versaille Peace Treaty", "Treaty of Rome", "Treaty of Nanking"],
+    correctAnswer: "Versaille Peace Treaty",
+    explanation: "The Versaille Peace Treaty ended World War I and led to the League of Nations."
+  },
+  {
+    question: "Which philosopher offered designs of an international system for peace maintenance?",
+    options: ["Aristotle", "Dante of Italy", "Socrates", "Machiavelli"],
+    correctAnswer: "Dante of Italy",
+    explanation: "Dante of Italy offered early designs of an international system for peace maintenance."
+  },
+  {
+    question: "One of the objectives of the OAU was to what?",
+    options: [
+      "Promote space exploration",
+      "Eradicate all forms of colonialism and apartheid from the African continent",
+      "Develop nuclear capabilities",
+      "Establish a single African currency"
+    ],
+    correctAnswer: "Eradicate all forms of colonialism and apartheid from the African continent",
+    explanation: "One OAU objective was to eradicate colonialism and apartheid from Africa."
+  },
+  {
+    question: "What is the goal of the New Partnership for Africa's Development (NEPAD)?",
+    options: [
+      "Space exploration",
+      "Redevelopment of Africa and economic cooperation",
+      "Establishing a common language",
+      "Regulating trade tariffs"
+    ],
+    correctAnswer: "Redevelopment of Africa and economic cooperation",
+    explanation: "NEPAD's goal is the redevelopment of Africa and economic cooperation."
+  },
+
+  // CHAPTER NINE
+  {
+    question: "According to Otite (2001), what are fertile grounds for conflicts involving individuals and groups?",
+    options: [
+      "New technology advancements",
+      "Contestable access to new political positions",
+      "Economic downturns",
+      "Cultural festivals"
+    ],
+    correctAnswer: "Contestable access to new political positions",
+    explanation: "Otite (2001) identifies contestable access to new political positions as fertile ground for conflict."
+  },
+  {
+    question: "What is the process of gaining secret knowledge about the past, present, or future by calling on the aid of spirits?",
+    options: ["Oath-taking", "Divination", "Joint problem-solving", "Litigation"],
+    correctAnswer: "Divination",
+    explanation: "Divination is the process of gaining secret knowledge by calling on the aid of spirits."
+  },
+  {
+    question: "Which style of conflict response represents a win-lose approach to conflict?",
+    options: ["Compromising", "Joint problem-solving", "Confrontation or Forcing", "Avoidance"],
+    correctAnswer: "Confrontation or Forcing",
+    explanation: "Confrontation or Forcing represents a win-lose approach to conflict."
+  },
+  {
+    question: "According to Albert (2001), what is the best method of dealing with conflict?",
+    options: ["Avoidance", "Confrontation", "Third-party decision making", "Joint problem-solving"],
+    correctAnswer: "Joint problem-solving",
+    explanation: "Albert (2001) considers joint problem-solving the best method of dealing with conflict."
+  },
+  {
+    question: "What is the primary purpose of shrines and oath-taking in Nigerian traditional societies?",
+    options: [
+      "To celebrate cultural festivals",
+      "To control social behavior and maintain peace",
+      "To enforce taxation laws",
+      "To organize community games"
+    ],
+    correctAnswer: "To control social behavior and maintain peace",
+    explanation: "Shrines and oath-taking are used to control social behavior and maintain peace in Nigerian traditional societies."
+  },
+
+  // CHAPTER TEN
+  {
+    question: "What is a major consequence of oil and gas activities in the Niger Delta?",
+    options: ["Soil erosion", "Air pollution", "Deforestation", "All of the above"],
+    correctAnswer: "All of the above",
+    explanation: "Oil and gas activities in the Niger Delta cause soil erosion, air pollution, and deforestation."
+  },
+  {
+    question: "What percentage of Nigeria's GDP is attributed to oil from the Niger Delta?",
+    options: ["75%", "90%", "97%", "100%"],
+    correctAnswer: "97%",
+    explanation: "97% of Nigeria's GDP is attributed to oil from the Niger Delta."
+  },
+  {
+    question: "The Land Use Act empowers state governors to do what?",
+    options: [
+      "Manage wildlife conservation",
+      "Allocate land in urban areas",
+      "Regulate air quality",
+      "Establish environmental agencies"
+    ],
+    correctAnswer: "Allocate land in urban areas",
+    explanation: "The Land Use Act empowers state governors to allocate land in urban areas."
+  },
+  {
+    question: "What is the primary cause of conflict between Fulani herdsmen and farmers in the Niger Delta?",
+    options: ["Ethnic rivalry", "Oil exploration", "Land scarcity", "Religious differences"],
+    correctAnswer: "Land scarcity",
+    explanation: "Land scarcity is the primary cause of conflict between Fulani herdsmen and farmers in the Niger Delta."
+  },
+  {
+    question: "What environmental concept emphasizes meeting present needs without compromising future generations?",
+    options: ["Sustainable development", "Resource governance", "Environmental protection", "Legislative oversight"],
+    correctAnswer: "Sustainable development",
+    explanation: "Sustainable development emphasizes meeting present needs without compromising future generations."
+  }
+
+        
+        
+        
+
+            
+                   ],
+      },
+        
+        
+        
+        {
         category: "CES311-3",
         questions: [
 
